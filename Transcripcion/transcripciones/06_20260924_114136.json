@@ -1,0 +1,1266 @@
+{
+  "metadata": {
+    "id": "06_20260924_114136",
+    "class_label": "Clase 06 - Parte 2",
+    "date": "2026-09-24",
+    "file": "Clase 06-20260924_114136-Grabación de la reunión.mp4"
+  },
+  "duration": 1210.24,
+  "segments": [
+    {
+      "start": 2.0,
+      "end": 32.64,
+      "text": "Algo, una página que hable también con un grupo de los multi-ongetos que siempre hablan, ¿qué grupos fue? ¿El cuadro también? El cinco. ¿Era con nosotros? El cinco. Y ahora estoy para el grupo cinco. Es este. El grupo que está presentando. Sí, sí. Muy bien. ¿Algo que quieran explicarlo ustedes? Bueno, nosotros lo que había pensado cuando vimos de la clase que se había,"
+    },
+    {
+      "start": 32.64,
+      "end": 39.25,
+      "text": "que se había partiendo del diagrama que mandó la profe, cuando decía registro, el acceso"
+    },
+    {
+      "start": 39.25,
+      "end": 47.37,
+      "text": "esteníamos la duda de poder entender si era multi-objeto y si había un patrón de creador donde creaba en sí la instancia del registro."
+    },
+    {
+      "start": 47.37,
+      "end": 57.08,
+      "text": "Partiendo de esa duda decidimos tomar que como que en Capsule, el registro de la obra acceso sea el que se encarga de"
+    },
+    {
+      "start": 57.08,
+      "end": 65.63,
+      "text": "creado en registro y así ya trabaja de esa manera. Eso tiene una justificación de diseño. Sí."
+    },
+    {
+      "start": 65.63,
+      "end": 70.13,
+      "text": "Coriamos así así. ¿Entendía, orfete?"
+    },
+    {
+      "start": 70.13,
+      "end": 76.69,
+      "text": "Y algo que también me gustó, creo que lo hicieron, no sé si pusieron multi-objetos."
+    },
+    {
+      "start": 76.69,
+      "end": 81.98,
+      "text": "El lado de la obra de la obra. Bueno, en un momento estamos a discutir,"
+    },
+    {
+      "start": 82.02,
+      "end": 90.98,
+      "text": "bueno, vamos con un caso, yo el expreso de fondo en el caso donde en la fisionado se equivoco de fecha."
+    },
+    {
+      "start": 90.98,
+      "end": 99.2,
+      "text": "Entonces le da un error. Ahora si tengo que ir por el otro caso, yo tengo que instanciarlo, decir bueno,"
+    },
+    {
+      "start": 99.2,
+      "end": 108.97,
+      "text": "busco el QR y después busco el aficionado."
+    },
+    {
+      "start": 109.49,
+      "end": 117.61,
+      "text": "Buscamos en la fisionado, tenía aficionados, tenía un multi-objeto que sería el patrón."
+    },
+    {
+      "start": 117.61,
+      "end": 125.41,
+      "text": "Pero, andamos un doble arriba, pero con la entrada no tenía este famoso multi-objetos."
+    },
+    {
+      "start": 125.41,
+      "end": 131.49,
+      "text": "Podría tener un, a mí me gusta más poner, decir bueno, listados, entrada, habilitadas,"
+    },
+    {
+      "start": 132.49,
+      "end": 140.85,
+      "text": "pero si quieres poner un multi-objeto de entrada para buscar el QR, está bien, ahí lo tendrían que modificar."
+    },
+    {
+      "start": 140.85,
+      "end": 145.77,
+      "text": "Entonces dentro del acceso policial, yo voy a tener diferentes lógicas, uno va a hacer"
+    },
+    {
+      "start": 145.77,
+      "end": 152.53,
+      "text": "buscar el QR que van a hacer experto de eso, necesitas de otro experto que va a hacer este objeto"
+    },
+    {
+      "start": 152.53,
+      "end": 160.66,
+      "text": "que contenga todas las entradas, un multi-objeto o un estado de entrada."
+    },
+    {
+      "start": 161.66,
+      "end": 168.71,
+      "text": "Esto como ustedes lo tiran modelar. Eso me gusta mucho, que a la fortidad coplando."
+    },
+    {
+      "start": 168.71,
+      "end": 175.18,
+      "text": "Y lo otro que también hayamos charlado era lo de hacerla en paralelo, las dos verificaciones."
+    },
+    {
+      "start": 175.18,
+      "end": 180.7,
+      "text": "Esa era la segunda que hay mucho en lo que al final nosotros decidimos hacerlo."
+    },
+    {
+      "start": 180.7,
+      "end": 187.22,
+      "text": "Esa es lo que todos los fuerenciar, muy bien. Me escuchas, mío, eso es lo que les dije,"
+    },
+    {
+      "start": 187.22,
+      "end": 193.14,
+      "text": "también me gusta, o sea, cuando uno esté al dejo policial, solo te haría, o sea, el buquil bueno."
+    },
+    {
+      "start": 193.14,
+      "end": 199.7,
+      "text": "Primero, busco los datos básicos de la entrada, si es el día correcto, si es la puerta correcta y además,"
+    },
+    {
+      "start": 199.7,
+      "end": 206.7,
+      "text": "en el mismo momento, lanzo otro mensaje al padrón para decirme parón."
+    },
+    {
+      "start": 206.7,
+      "end": 212.56,
+      "text": "Este aficionado está habilitado, no, solamente quiero saber esto, que está habilitado, no."
+    },
+    {
+      "start": 212.64,
+      "end": 218.26,
+      "text": "Todavía no hice validación como ella digital, ni se absolutamente nada."
+    },
+    {
+      "start": 218.26,
+      "end": 223.98,
+      "text": "Entonces, tengo dos mensajes lanzados en forma simultánea."
+    },
+    {
+      "start": 223.98,
+      "end": 231.14,
+      "text": "Como el diagrama de este cuente, es un diagrama secuencial donde justamente la temporalidad es lo más importante,"
+    },
+    {
+      "start": 231.14,
+      "end": 235.14,
+      "text": "no me permite armar mucho a esta simultánea de edad."
+    },
+    {
+      "start": 235.14,
+      "end": 239.7,
+      "text": "Si me lo permite de otro tipo de vista, como puede ser el diagrama de comunicación."
+    },
+    {
+      "start": 239.78,
+      "end": 245.58,
+      "text": "Ah, y al ligo, en un ML, el donde desde un punto,"
+    },
+    {
+      "start": 245.58,
+      "end": 254.35,
+      "text": "estáco como dos mensajes, pero no se ve bien en algunas tarranientas."
+    },
+    {
+      "start": 254.35,
+      "end": 257.99,
+      "text": "En el diagrama, en un conciro que le hace con papel, está más creyendo."
+    },
+    {
+      "start": 257.99,
+      "end": 263.2,
+      "text": "Desde un punto, lanzo un mensaje y lanzo otro."
+    },
+    {
+      "start": 263.2,
+      "end": 265.64,
+      "text": "Entonces, ahí ve un poco la simultánea de edad."
+    },
+    {
+      "start": 265.64,
+      "end": 269.76,
+      "text": "Entonces, yo lo que haría es el acceso policial, si no tengo un gestor,"
+    },
+    {
+      "start": 269.76,
+      "end": 273.48,
+      "text": "el acceso policial que va a actuar un poco de coordinador, es decir, bueno,"
+    },
+    {
+      "start": 273.48,
+      "end": 280.4,
+      "text": "puc, el QR para avaliar los datos del trada y después lanzo en el mismo momento"
+    },
+    {
+      "start": 280.4,
+      "end": 286.84,
+      "text": "para ver si al padrón, para ver si ese aficionado es el correcto."
+    },
+    {
+      "start": 286.84,
+      "end": 290.58,
+      "text": "Desde el entrada, tengo el aficionado."
+    },
+    {
+      "start": 290.58,
+      "end": 297.01,
+      "text": "Sería más o menos por acá, mientras vas a buscar eso, te vas a buscar allá la aficionada."
+    },
+    {
+      "start": 297.01,
+      "end": 303.05,
+      "text": "Y hay que tener una relación entre las vistas, todo lo que yo coloco en el diagrama de secuencia,"
+    },
+    {
+      "start": 303.05,
+      "end": 309.34,
+      "text": "suele comunicarse y un eje que está arracizado en el diagrama de clase."
+    },
+    {
+      "start": 309.34,
+      "end": 321.78,
+      "text": "Y yo veo que la relación es efímera, o sea que no es continuas, manejo una dependencia,"
+    },
+    {
+      "start": 321.78,
+      "end": 330.22,
+      "text": "ahí lo conveniente que el método tenga el objeto o el atributo que le voy a pasar,"
+    },
+    {
+      "start": 330.22,
+      "end": 335.5,
+      "text": "por ejemplo, no sé, aficionado, si no le pasa, si es efímera,"
+    },
+    {
+      "start": 335.5,
+      "end": 340.3,
+      "text": "pueda notificarte o en el por ejemplo, pues le quiero dar una notificación,"
+    },
+    {
+      "start": 340.3,
+      "end": 346.46,
+      "text": "pues va a ser efímero, entonces le envío en el método, ese atributo,"
+    },
+    {
+      "start": 346.46,
+      "end": 350.86,
+      "text": "para que le paso como parámetro, para darle a aficionado."
+    },
+    {
+      "start": 350.9,
+      "end": 353.42,
+      "text": "Entonces estoy viendo este tipo de relación."
+    },
+    {
+      "start": 353.42,
+      "end": 360.97,
+      "text": "Y es muy estrecha, entonces que lo contiene, por ejemplo, padrón y aficionado,"
+    },
+    {
+      "start": 360.97,
+      "end": 366.04,
+      "text": "ahí sí voy a tener una relación más fuerte, ¿vale?"
+    },
+    {
+      "start": 366.04,
+      "end": 371.04,
+      "text": "Grupo 4 también había hecho algo que me había gustado,"
+    },
+    {
+      "start": 371.04,
+      "end": 373.96,
+      "text": "quiero mostrarlo muy bien en grupos 5."
+    },
+    {
+      "start": 373.96,
+      "end": 379.98,
+      "text": "Acá estuve colocando los que participaron, les pusimos con Chile,"
+    },
+    {
+      "start": 379.98,
+      "end": 387.52,
+      "text": "y era mucho, cuando estaba en el size, ahí comparto."
+    },
+    {
+      "start": 387.52,
+      "end": 395.98,
+      "text": "Dejó ser que jáme lo que planteó, ¿ok? ¿Quién es? ¿Quién habla?"
+    },
+    {
+      "start": 395.98,
+      "end": 396.94,
+      "text": "Lucas."
+    },
+    {
+      "start": 396.94,
+      "end": 399.22,
+      "text": "Lucas."
+    },
+    {
+      "start": 399.22,
+      "end": 404.58,
+      "text": "Ah, no, o sea, nosotros lo que habíamos pensado era,"
+    },
+    {
+      "start": 404.58,
+      "end": 408.54,
+      "text": "o sea, nos dimos cuenta después de que de haber hecho eso,"
+    },
+    {
+      "start": 408.54,
+      "end": 411.3,
+      "text": "que nosotros lo que hicimos fue desde aficionado,"
+    },
+    {
+      "start": 411.3,
+      "end": 417.22,
+      "text": "primero va a ser el acceso válido, entonces lo registramos en regal acceso."
+    },
+    {
+      "start": 417.34,
+      "end": 422.18,
+      "text": "Y después en el mismo diagrama que después nos dimos cuenta,"
+    },
+    {
+      "start": 422.18,
+      "end": 428.73,
+      "text": "que era conveniente separarlo en dos, habíamos hecho que desde los"
+    },
+    {
+      "start": 428.73,
+      "end": 432.87,
+      "text": "de la aficionados se valía en los datos biometricos, entonces nada,"
+    },
+    {
+      "start": 432.87,
+      "end": 437.91,
+      "text": "se valía los datos de la aficionado en el padrón, se valía la entrada,"
+    },
+    {
+      "start": 437.91,
+      "end": 441.95,
+      "text": "también que se valía y después se habilita del acceso,"
+    },
+    {
+      "start": 441.95,
+      "end": 446.71,
+      "text": "pero nada, nos dimos cuenta que era más conveniente separar los diagramas,"
+    },
+    {
+      "start": 446.71,
+      "end": 452.23,
+      "text": "es decir, hacer un diagrama para el primer acceso y otro par de manos."
+    },
+    {
+      "start": 452.23,
+      "end": 459.84,
+      "text": "En un momento, creo que con usted se digan, estáte en laagrama de actividad,"
+    },
+    {
+      "start": 459.84,
+      "end": 464.24,
+      "text": "en el diagrama de actividad habíamos decidido cómo era un poco el proceso,"
+    },
+    {
+      "start": 464.24,
+      "end": 469.6,
+      "text": "hicimos el precontrol, o sea, que no se ven a querer ver, o sea,"
+    },
+    {
+      "start": 469.6,
+      "end": 477.12,
+      "text": "el precontrol era contra el precontrol, o sea, lo les voy a hacer a lo mejor."
+    },
+    {
+      "start": 477.12,
+      "end": 478.12,
+      "text": "El óleo ya se quiere."
+    },
+    {
+      "start": 478.12,
+      "end": 483.36,
+      "text": "Es contra el periómetro del estadio, la policía le de la entrada puede ser con un celular"
+    },
+    {
+      "start": 483.36,
+      "end": 488.04,
+      "text": "pdA, valida si la entrada es correcta, si el día es correcto, si está el camino de"
+    },
+    {
+      "start": 488.04,
+      "end": 492.6,
+      "text": "la puerta de acceso correspondiente, y si es una ficiada habilitado."
+    },
+    {
+      "start": 492.6,
+      "end": 500.36,
+      "text": "El habilitar si la puerta es correcta, es un proceso manual, donde el policía dice,"
+    },
+    {
+      "start": 500.36,
+      "end": 507.36,
+      "text": "que está cortado y no está en la puerta X, no te conviene, es un proceso manual, pero ayuda"
+    },
+    {
+      "start": 507.36,
+      "end": 513.42,
+      "text": "a ver el sitio de la pdM y de esta entrada que puerta le corresponde."
+    },
+    {
+      "start": 513.42,
+      "end": 516.9,
+      "text": "Hay procesos manuales, obviamente."
+    },
+    {
+      "start": 516.9,
+      "end": 521.9,
+      "text": "Eso sería lo instanciamos, sería un escenario."
+    },
+    {
+      "start": 521.9,
+      "end": 530.38,
+      "text": "Ahora, no hagan todo lo que se le da control, porque si no, van a tener muchísima informa"
+    },
+    {
+      "start": 530.38,
+      "end": 533.06,
+      "text": "de la población y a alguien donde hacen agua."
+    },
+    {
+      "start": 533.06,
+      "end": 541.48,
+      "text": "Si quieren hacer valida la huella digital, que creo que lo tengo por acá, hagan otro escenario."
+    },
+    {
+      "start": 541.48,
+      "end": 548.39,
+      "text": "Estoy en la segunda instancia, estoy en el molinete, el molinete está y hagan lo otro,"
+    },
+    {
+      "start": 548.39,
+      "end": 553.39,
+      "text": "valida la huella digital correspondiente en la ficiada, ya estaría habilitado, valida"
+    },
+    {
+      "start": 553.39,
+      "end": 559.39,
+      "text": "si la entrada corresponde al molinete y acorde a la puerta de ingreso."
+    },
+    {
+      "start": 559.39,
+      "end": 560.39,
+      "text": "Es otro escenario."
+    },
+    {
+      "start": 560.79,
+      "end": 566.71,
+      "text": "Entre los estados, les de hacerlo de manera que puedan definir bien el escenario."
+    },
+    {
+      "start": 566.71,
+      "end": 574.97,
+      "text": "Mi consejo es reír, no traten de terminar el diagrama de clases y después hacerle el"
+    },
+    {
+      "start": 574.97,
+      "end": 583.89,
+      "text": "secuel de comunicación a lo, tratan de hacerlo en forma simulcada."
+    },
+    {
+      "start": 583.89,
+      "end": 591.01,
+      "text": "Pero si no les hacen, no se dan cuenta de pasajerficias."
+    },
+    {
+      "start": 591.01,
+      "end": 595.32,
+      "text": "Está muy bueno lo que le pasó al grupo 4 también."
+    },
+    {
+      "start": 595.32,
+      "end": 600.95,
+      "text": "Tadarse cuenta y definir el escenario es muy importante."
+    },
+    {
+      "start": 600.95,
+      "end": 602.9,
+      "text": "Profes de escucha."
+    },
+    {
+      "start": 602.9,
+      "end": 604.26,
+      "text": "Sí."
+    },
+    {
+      "start": 604.26,
+      "end": 609.62,
+      "text": "Ah, si habíamos charlado también en mi grupo 1."
+    },
+    {
+      "start": 609.62,
+      "end": 611.0,
+      "text": "¿Cómo?"
+    },
+    {
+      "start": 611.0,
+      "end": 620.17,
+      "text": "Sí, habíamos charlado que el molinete es como un actuador que también tiene el sensor de"
+    },
+    {
+      "start": 620.17,
+      "end": 627.5,
+      "text": "huella, teníamos que plantearlo con otro diagrama de secuencia para lo que es el segundo"
+    },
+    {
+      "start": 627.5,
+      "end": 633.2,
+      "text": "tramo, ya que cuando usted lo planteó y su primer tramo, porque pensábamos que"
+    },
+    {
+      "start": 633.2,
+      "end": 637.32,
+      "text": "tipo se hacemos los dos como que queda muy gigante el diagrama de secuencia."
+    },
+    {
+      "start": 637.32,
+      "end": 645.36,
+      "text": "Lo que pasa es que yo lo que quiero, a decirlo, cuando uno hace, por ejemplo, y si hace una"
+    },
+    {
+      "start": 645.36,
+      "end": 646.36,
+      "text": "pregunta, ¿eh?"
+    },
+    {
+      "start": 646.36,
+      "end": 651.92,
+      "text": "Y el arquitecto te va a decir, bueno, hace dos semanas te hago unos planos."
+    },
+    {
+      "start": 651.92,
+      "end": 661.8,
+      "text": "Ahora, si vuelvas a estar todos los planos y el detalle de cómo pongo la madera, ahí"
+    },
+    {
+      "start": 661.8,
+      "end": 663.6,
+      "text": "pide a otra cosa."
+    },
+    {
+      "start": 663.6,
+      "end": 673.07,
+      "text": "Entonces, me conviene directamente, voy a pasar una línea haciendo la arquitectura, ¿eh?"
+    },
+    {
+      "start": 673.07,
+      "end": 674.07,
+      "text": "Los planos."
+    },
+    {
+      "start": 674.07,
+      "end": 680.83,
+      "text": "Entonces, tengo que ir a hacer este diagrama o esta vista de lo más importante."
+    },
+    {
+      "start": 680.83,
+      "end": 682.51,
+      "text": "Pues, pues, no siempre les digo, ¿no?"
+    },
+    {
+      "start": 682.51,
+      "end": 687.82,
+      "text": "Es tan importante mostrar los ADMS, a dar de alta el club."
+    },
+    {
+      "start": 687.82,
+      "end": 691.82,
+      "text": "Por ejemplo, estoy lleno un poco al indónico, ¿no?"
+    },
+    {
+      "start": 691.82,
+      "end": 696.14,
+      "text": "Voy a dar de alta el club para que puedan padrónar."
+    },
+    {
+      "start": 696.14,
+      "end": 703.11,
+      "text": "Entonces, dentro al club, no sea de hasta Lorenzo, sin el sal Lorenzo, cede y lo de ante."
+    },
+    {
+      "start": 703.11,
+      "end": 708.99,
+      "text": "No sé si el proceso muy administrativo, que sé que alguien lo va a estar, pero no"
+    },
+    {
+      "start": 708.99,
+      "end": 709.99,
+      "text": "lo voy a modeldar."
+    },
+    {
+      "start": 709.99,
+      "end": 711.25,
+      "text": "¿Hale lo que está?"
+    },
+    {
+      "start": 711.25,
+      "end": 715.48,
+      "text": "Lo que yo me voy a fijar es que no es el encord."
+    },
+    {
+      "start": 715.48,
+      "end": 719.56,
+      "text": "Entonces, ¿y ustedes quieren ir a lo básico?"
+    },
+    {
+      "start": 719.56,
+      "end": 724.56,
+      "text": "Es decir, bueno, voy a dar de, voy a hacer un diagrama de secuencia para dar de alta el"
+    },
+    {
+      "start": 724.56,
+      "end": 727.04,
+      "text": "club y la realidad que no tiene mucho sentido."
+    },
+    {
+      "start": 728.46,
+      "end": 735.27,
+      "text": "Y tiene sentido, por ejemplo, el acceso por el escor."
+    },
+    {
+      "start": 735.27,
+      "end": 742.45,
+      "text": "Y igual, creo que acá les voy a armar uno que es ingreso aficionado porque tengo la"
+    },
+    {
+      "start": 742.45,
+      "end": 746.29,
+      "text": "parte de citar huesas hospitales, por eso lo eniste."
+    },
+    {
+      "start": 746.29,
+      "end": 750.98,
+      "text": "No sé, no sé, no sé lo que."
+    },
+    {
+      "start": 750.98,
+      "end": 758.35,
+      "text": "Van que en México las estoy citando, no sé lo tengo, que los pasen."
+    },
+    {
+      "start": 758.35,
+      "end": 759.35,
+      "text": "No sé."
+    },
+    {
+      "start": 759.35,
+      "end": 760.96,
+      "text": "¿Sí?"
+    },
+    {
+      "start": 760.96,
+      "end": 761.96,
+      "text": "¿Qué o una duda?"
+    },
+    {
+      "start": 761.96,
+      "end": 763.38,
+      "text": "Toda."
+    },
+    {
+      "start": 763.38,
+      "end": 775.96,
+      "text": "Sí, el compañero anterior que había mostrado un diagrama, creo que he hecho el Draúio,"
+    },
+    {
+      "start": 775.96,
+      "end": 782.82,
+      "text": "había hecho como en los casos donde no sé, el aficionado viene en una fecha equivocada o"
+    },
+    {
+      "start": 782.82,
+      "end": 783.82,
+      "text": "fue denegado."
+    },
+    {
+      "start": 783.82,
+      "end": 790.53,
+      "text": "Todos esos casos hay que tomarlos en cuenta o solamente el caso exitoso."
+    },
+    {
+      "start": 790.53,
+      "end": 796.1,
+      "text": "No, yo te voy a pedir, no, yo te voy a pedir mi caso, si tú es todo el caso, porque"
+    },
+    {
+      "start": 796.1,
+      "end": 802.32,
+      "text": "a veces el caso que fracasa, o sea, el de acceso denegado también es importante."
+    },
+    {
+      "start": 802.32,
+      "end": 804.35,
+      "text": "Pero quiere todos."
+    },
+    {
+      "start": 804.35,
+      "end": 811.9,
+      "text": "No, yo te voy a pedir, a veces te dirección un poco, te digo, mira, esta le interfaz y"
+    },
+    {
+      "start": 811.9,
+      "end": 818.18,
+      "text": "vos modelar la corras interfaz, vas a tener el método que captura este evento y después"
+    },
+    {
+      "start": 818.18,
+      "end": 819.98,
+      "text": "todo lo que viene atrás."
+    },
+    {
+      "start": 819.98,
+      "end": 825.93,
+      "text": "A veces suelo hacer eso y también te permite ordenarte en qué voz destinas vienen"
+    },
+    {
+      "start": 825.93,
+      "end": 827.73,
+      "text": "escenarios, ¿ok?"
+    },
+    {
+      "start": 827.73,
+      "end": 833.09,
+      "text": "Pero si vos querés definir, pero a veces también te digo, definí los voz en escenarios."
+    },
+    {
+      "start": 833.09,
+      "end": 835.56,
+      "text": "Sí."
+    },
+    {
+      "start": 835.56,
+      "end": 841.2,
+      "text": "Y ahí hacen agua, porque, porque te cuesta pensar un poco cuál va a ser el escenario."
+    },
+    {
+      "start": 841.2,
+      "end": 845.36,
+      "text": "Pero el que te doy es la libertad de decir, decidimos cuál es el escenario."
+    },
+    {
+      "start": 845.36,
+      "end": 850.85,
+      "text": "Te pide un escenario que sea representativo, ¿ok?"
+    },
+    {
+      "start": 850.85,
+      "end": 857.72,
+      "text": "Y por eso también están la variedad y el abanico en las notas, ¿ok?"
+    },
+    {
+      "start": 857.72,
+      "end": 860.92,
+      "text": "¿Y vas a ser un escenario donde vas de alta al club?"
+    },
+    {
+      "start": 860.92,
+      "end": 863.72,
+      "text": "Y la realidad es que no es mucho aporte."
+    },
+    {
+      "start": 863.72,
+      "end": 868.04,
+      "text": "Ahora, si vas a ser justo el de el control de acceso, está buenísimo."
+    },
+    {
+      "start": 868.04,
+      "end": 873.34,
+      "text": "Ahora, ¿por qué es el cor de lo que te vas a resolver?"
+    },
+    {
+      "start": 875.3,
+      "end": 878.17,
+      "text": "Sí, sí, pero entendi."
+    },
+    {
+      "start": 878.17,
+      "end": 884.81,
+      "text": "Pero entonces, como para representar más el caso chitoso sería lo más ideal, porque si no,"
+    },
+    {
+      "start": 884.81,
+      "end": 886.21,
+      "text": "si ya le fecha..."
+    },
+    {
+      "start": 886.21,
+      "end": 888.37,
+      "text": "Ah, ¿qué es el que te pide tu pregunta, claro?"
+    },
+    {
+      "start": 888.37,
+      "end": 895.35,
+      "text": "Pues sí, bueno, pero si ya di que se crió con fecha, de vuelve la respuesta claro."
+    },
+    {
+      "start": 895.35,
+      "end": 897.07,
+      "text": "Sí, tenás razón, obviamente."
+    },
+    {
+      "start": 897.07,
+      "end": 901.99,
+      "text": "Por eso te digo que doy la lección, la posibilidad de que vos puedas elegir el escenario"
+    },
+    {
+      "start": 901.99,
+      "end": 905.9,
+      "text": "para que tengas mayor comunicación entre los objetos."
+    },
+    {
+      "start": 905.9,
+      "end": 906.66,
+      "text": "Claro."
+    },
+    {
+      "start": 906.66,
+      "end": 913.58,
+      "text": "Bueno, la duera no hace falta modelar todos los casos alternativos dentro del universo."
+    },
+    {
+      "start": 913.58,
+      "end": 914.74,
+      "text": "No, no, no, no."
+    },
+    {
+      "start": 914.74,
+      "end": 917.47,
+      "text": "No."
+    },
+    {
+      "start": 917.47,
+      "end": 924.75,
+      "text": "Todos los casos alternativos y todas las disfurcaciones las vas a obtener en tu código."
+    },
+    {
+      "start": 924.75,
+      "end": 926.6,
+      "text": "Claro, ¿y historias?"
+    },
+    {
+      "start": 926.6,
+      "end": 932.6,
+      "text": "Porque si yo voy a hacer diagramas de secuencias de todas las disfurcaciones,"
+    },
+    {
+      "start": 932.6,
+      "end": 935.52,
+      "text": "y voy a estar tres meses haciendo diagramas de secuencias."
+    },
+    {
+      "start": 935.52,
+      "end": 936.92,
+      "text": "No me da tiempo al parocio."
+    },
+    {
+      "start": 936.92,
+      "end": 939.84,
+      "text": "Claro, no te voy a dar por eso."
+    },
+    {
+      "start": 939.84,
+      "end": 946.09,
+      "text": "Ahora, la elección de tu escenario es muy importante."
+    },
+    {
+      "start": 946.09,
+      "end": 947.57,
+      "text": "Sí, sí, sí."
+    },
+    {
+      "start": 947.57,
+      "end": 950.22,
+      "text": "Muchas gracias."
+    },
+    {
+      "start": 950.22,
+      "end": 958.2,
+      "text": "Bueno, quería terminar un ratito antes, pero si yo me terminó las dos en punto, nos vemos"
+    },
+    {
+      "start": 958.2,
+      "end": 960.16,
+      "text": "en la clase que viene."
+    },
+    {
+      "start": 960.16,
+      "end": 965.16,
+      "text": "Les maldo una notificación que va a ser presidencial o virtual."
+    },
+    {
+      "start": 965.16,
+      "end": 969.08,
+      "text": "Eso con ustedes es muy bastante bien."
+    },
+    {
+      "start": 969.08,
+      "end": 975.11,
+      "text": "La clase que viene de mi comandría que sea virtual porque empezamos con patrones o minutitos,"
+    },
+    {
+      "start": 975.11,
+      "end": 983.3,
+      "text": "ya para mí, este tema se tiene que recontra, manejar."
+    },
+    {
+      "start": 983.3,
+      "end": 988.78,
+      "text": "Voy a encantar que el 15, vamos a hacer una clase presidencial que es antes del examen."
+    },
+    {
+      "start": 989.56,
+      "end": 994.89,
+      "text": "Ok, es la que más me importa."
+    },
+    {
+      "start": 994.89,
+      "end": 1003.44,
+      "text": "Bueno, les mando una notificación, ok, si vas a ser virtual o presencial, dependo de"
+    },
+    {
+      "start": 1003.44,
+      "end": 1005.44,
+      "text": "otros preferidos."
+    },
+    {
+      "start": 1005.44,
+      "end": 1007.02,
+      "text": "Perdiante."
+    },
+    {
+      "start": 1007.02,
+      "end": 1011.18,
+      "text": "Para ver si tengo el aula, no."
+    },
+    {
+      "start": 1011.18,
+      "end": 1012.94,
+      "text": "Muchísimas gracias."
+    },
+    {
+      "start": 1012.94,
+      "end": 1015.94,
+      "text": "¡Samos muy bien!"
+    },
+    {
+      "start": 1015.94,
+      "end": 1016.94,
+      "text": "Y profadame y cuéjame."
+    },
+    {
+      "start": 1016.94,
+      "end": 1019.82,
+      "text": "Mira, que me acordé del día de mi."
+    },
+    {
+      "start": 1019.82,
+      "end": 1020.82,
+      "text": "Me voy a mandarles mis presidencias."
+    },
+    {
+      "start": 1020.82,
+      "end": 1021.82,
+      "text": "¿Cómo el 10 y 10?"
+    },
+    {
+      "start": 1022.66,
+      "end": 1025.26,
+      "text": "¿Qué había un error en el DOX y vica ahí dos grupos?"
+    },
+    {
+      "start": 1025.26,
+      "end": 1026.26,
+      "text": "Al fin de grupo 4."
+    },
+    {
+      "start": 1026.26,
+      "end": 1031.5,
+      "text": "Si quiere, ahora yo le mando la lista de los nombres y lo ponemos de grupo 7 y listo."
+    },
+    {
+      "start": 1031.5,
+      "end": 1037.02,
+      "text": "Ah, había un grupo, entonces, pero no tienen el canal habilitado."
+    },
+    {
+      "start": 1037.02,
+      "end": 1042.59,
+      "text": "Pero no podemos entrar en el, porque no tenemos nada de grupo."
+    },
+    {
+      "start": 1042.59,
+      "end": 1045.59,
+      "text": "Hay vica bien como dos, en el grupo 4, entonces vencer dos grupos."
+    },
+    {
+      "start": 1045.59,
+      "end": 1053.86,
+      "text": "Bueno, copia a mí y copia también a José para que las habillitas."
+    },
+    {
+      "start": 1053.86,
+      "end": 1054.86,
+      "text": "¿No me?"
+    },
+    {
+      "start": 1054.86,
+      "end": 1056.58,
+      "text": "A José Luis Cabrera."
+    },
+    {
+      "start": 1056.58,
+      "end": 1057.9,
+      "text": "Fantástico."
+    },
+    {
+      "start": 1057.9,
+      "end": 1061.3,
+      "text": "Hace un grupo si querés en el chat, así, me hago un medio último."
+    },
+    {
+      "start": 1061.3,
+      "end": 1065.58,
+      "text": "Y si ya está, igual ya sí, estamos prácticamente..."
+    },
+    {
+      "start": 1065.58,
+      "end": 1071.86,
+      "text": "Feremos que el dolar se atras con el pendunse y la cera."
+    },
+    {
+      "start": 1071.86,
+      "end": 1072.86,
+      "text": "Bueno, nos vemos."
+    },
+    {
+      "start": 1072.86,
+      "end": 1074.98,
+      "text": "Bueno, mira, por ti no sale."
+    },
+    {
+      "start": 1074.98,
+      "end": 1078.23,
+      "text": "¡Pero, profe, está nuevo!"
+    },
+    {
+      "start": 1078.23,
+      "end": 1079.31,
+      "text": "Por favor, nos vemos por favor."
+    },
+    {
+      "start": 1079.31,
+      "end": 1080.79,
+      "text": "Bueno, se me va a ver, vamos por favor."
+    },
+    {
+      "start": 1080.79,
+      "end": 1082.79,
+      "text": "Perfecto."
+    },
+    {
+      "start": 1082.79,
+      "end": 1086.43,
+      "text": "¿A una recomendación para repasar algo de Gov?"
+    },
+    {
+      "start": 1086.43,
+      "end": 1091.4,
+      "text": "Bueno, para empezar a ver, para llegar a la clase que viene,"
+    },
+    {
+      "start": 1091.4,
+      "end": 1092.8,
+      "text": "la con algo sabido, vamos a ver."
+    },
+    {
+      "start": 1092.8,
+      "end": 1101.63,
+      "text": "Bueno, a mí me gusta mucho."
+    },
+    {
+      "start": 1101.63,
+      "end": 1105.51,
+      "text": "Hay, porque estuve en otra materia que es paradigmas,"
+    },
+    {
+      "start": 1105.51,
+      "end": 1110.43,
+      "text": "nos pasaron a páginas la que hay ciertos patrones explicados."
+    },
+    {
+      "start": 1110.43,
+      "end": 1110.95,
+      "text": "¿Pero?"
+    },
+    {
+      "start": 1110.95,
+      "end": 1113.43,
+      "text": "Los colegas que pasaron, capaz y la misma que pasamos nosotros,"
+    },
+    {
+      "start": 1113.43,
+      "end": 1115.31,
+      "text": "para que no nos vuelven."
+    },
+    {
+      "start": 1115.31,
+      "end": 1117.79,
+      "text": "Ahí la pasé del chat, refácturino."
+    },
+    {
+      "start": 1117.79,
+      "end": 1122.04,
+      "text": "¿Pasé que es la misma?"
+    },
+    {
+      "start": 1122.04,
+      "end": 1123.36,
+      "text": "Para el mapa, ¿eh, profe?"
+    },
+    {
+      "start": 1123.36,
+      "end": 1124.65,
+      "text": "Sí."
+    },
+    {
+      "start": 1124.65,
+      "end": 1128.26,
+      "text": "Sí, para seguir la misma."
+    },
+    {
+      "start": 1128.26,
+      "end": 1129.42,
+      "text": "Sí, sí."
+    },
+    {
+      "start": 1129.42,
+      "end": 1130.3,
+      "text": "Ahí ve el mapa, ¿eh?"
+    },
+    {
+      "start": 1130.3,
+      "end": 1131.1,
+      "text": "Sí, es la misma."
+    },
+    {
+      "start": 1131.1,
+      "end": 1131.86,
+      "text": "Sí."
+    },
+    {
+      "start": 1131.86,
+      "end": 1132.62,
+      "text": "OK."
+    },
+    {
+      "start": 1132.62,
+      "end": 1133.98,
+      "text": "Ahí entonces."
+    },
+    {
+      "start": 1133.98,
+      "end": 1135.9,
+      "text": "Sí, sí, es la misma."
+    },
+    {
+      "start": 1135.9,
+      "end": 1137.86,
+      "text": "¿Pueden empezar a leer esto?"
+    },
+    {
+      "start": 1137.86,
+      "end": 1142.66,
+      "text": "Igual, yo la primera parte, lamentablemente hablo, un montón"
+    },
+    {
+      "start": 1142.66,
+      "end": 1144.42,
+      "text": "sobre esto."
+    },
+    {
+      "start": 1144.42,
+      "end": 1150.66,
+      "text": "Y después hacemos una ejercicio práctico, básico como para arrancar."
+    },
+    {
+      "start": 1150.66,
+      "end": 1152.64,
+      "text": "OK."
+    },
+    {
+      "start": 1152.64,
+      "end": 1156.0,
+      "text": "Empiecen, si tienen gánase, arrancan."
+    },
+    {
+      "start": 1156.0,
+      "end": 1158.15,
+      "text": "Dale, dale un poco."
+    },
+    {
+      "start": 1158.15,
+      "end": 1159.43,
+      "text": "Fantastico."
+    },
+    {
+      "start": 1159.43,
+      "end": 1161.87,
+      "text": "Bueno, nos vemos la clase que viene."
+    },
+    {
+      "start": 1161.87,
+      "end": 1162.83,
+      "text": "Dar por fin nos vemos."
+    },
+    {
+      "start": 1162.83,
+      "end": 1163.55,
+      "text": "Te lo voy."
+    },
+    {
+      "start": 1163.55,
+      "end": 1165.22,
+      "text": "Soy yo."
+    },
+    {
+      "start": 1165.22,
+      "end": 1166.74,
+      "text": "Ya profe."
+    },
+    {
+      "start": 1166.74,
+      "end": 1176.58,
+      "text": "Tau."
+    },
+    {
+      "start": 1176.58,
+      "end": 1178.22,
+      "text": "Bueno, pues se lo dice."
+    },
+    {
+      "start": 1178.22,
+      "end": 1179.14,
+      "text": "Nos vemos."
+    }
+  ]
+}

@@ -1,0 +1,790 @@
+# Clase 01 - Parte 1 - 2026-08-20
+Archivo de origen: Clase 01-20260820_082357-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 01:55:37
+
+---
+
+[00:00:02 - 00:00:28] Me acordé un poco tarde, pero bueno, ¿me imagina? Sí, sí. ¿Sas tan grabando? Sí, pero fe. Fantástico, guarda, muchas gracias. Bueno, como les decía,
+[00:00:28 - 00:00:39] diseño de sistemas, el día de software, no sé por qué usar cada sistema, está cambiando, hace tres años
+[00:00:39 - 00:00:45] si era así, pero ahora no. Mi nombre, bueno, como les dije, analía, yo soy ingeniero en sistemas,
+[00:00:45 - 00:00:52] arquitectura de sistemas, también en matanza, en biclases en diferentes universidades,
+[00:00:52 - 00:01:05] hoy clases, también en UTM, así que bueno, cuéles ten conmigo, me encanta la docencia, además de
+[00:01:05 - 00:01:16] trabajar el sistema, tengo dos días, una mañana y una noche que ve de matanza y en una noche
+[00:01:16 - 00:01:23] que de hoy no tiene, así que realmente me gusta la docencia, lo disfruto, así que cuénten conmigo,
+[00:01:23 - 00:01:32] me pueden escribir, dudas consultas acá, estoy, lo mismo con José, ambos José también, está en
+[00:01:32 - 00:01:40] diferentes, estás por ahí José, en diferentes universidades, cuenten con él para todo, José, te pasa la
+[00:01:40 - 00:01:48] palabra, pues. Bueno, chicos, el igual que Ana, como eso me dijo, no soy biclases en
+[00:01:48 - 00:01:55] vegas universidades, la mañana solamente acá la matanza los jueves, pero a las noches tengo casi
+[00:01:55 - 00:02:01] todas las noches en los martes en otros universidades, así que bueno, les deseo un excelente cual trimestre,
+[00:02:01 - 00:02:06] y bueno, lo importante es que, o sea, no solo que aprovean la matilla, sino que se lleven algo,
+[00:02:06 - 00:02:11] que el día de mañana cuando trabajen, hoy mismo los que están trabajando, que digan,
+[00:02:11 - 00:02:16] mira, chillos que aprendí esta matilla en mi sirve, un poquito eso es lo que nosotros como docentes
+[00:02:16 - 00:02:27] nos atifase, ¿no? Eso de lo que dijo José es fundamental, esta materia tiene muchísimo contenido,
+[00:02:28 - 00:02:36] obviamente tenemos un lineamiento, hay un marco que tenemos que respetar porque los contenidos
+[00:02:37 - 00:02:46] tienen que estar aprobados, tenemos que tener una bibliografía que esté habilitada para dar
+[00:02:46 - 00:02:53] en una universidad, eso no puedo dar cualquier cosa porque está de moda hace cinco minutos un lenguaje,
+[00:02:53 - 00:03:02] o una forma de diseñar, o sea, tenemos en un ámbito universitario y bueno, la idea de también
+[00:03:02 - 00:03:11] de las universidades que podamos tener el criterio, podamos ser personas compensantes y tan,
+[00:03:11 - 00:03:21] entonces, nos abre mucho la cabeza, vamos a tratar de tener bastante práctica en el sentido
+[00:03:21 - 00:03:32] de que tratamos de hacer de unos especies simulátros, o temas que en otras materias la ven completamente
+[00:03:32 - 00:03:39] teórica, tratar de hacer algún ejercicio práctico, para hacerlos caer un poco a la realidad de cómo
+[00:03:39 - 00:03:47] sería, y eso es lo que realmente le queremos ofrecer, que se lleven algo, es decir, empezar a
+[00:03:47 - 00:03:54] sumar cosas en su currículum, es decir, bueno, en esta materia pude aprender lo que es realmente
+[00:03:54 - 00:04:02] news experience, pude entender realmente cómo gestiono tarjetas de usuario con Scram,
+[00:04:02 - 00:04:07] puedo entender cuando me hablan de algunos principios de diseño que ya lo vamos sirviendo,
+[00:04:09 - 00:04:17] puedo entender como es la separación del derecho de estas varias cosas, entonces leyes ustedes
+[00:04:17 - 00:04:26] puedan ir sumando algunas cositas, así que siempre vamos a agregar cosas nuevas en los cuadremestre,
+[00:04:28 - 00:04:36] cómo se aprueba la materia, la materia tiene dos exámenes, los exámenes son casi al final del
+[00:04:36 - 00:04:46] cuadremestre, porque bueno, la idea es que ustedes puedan tener todo el contenido y poder tener
+[00:04:46 - 00:04:55] ya el ejercicio, los ejercicios hechos y la práctica para poder dar el exámen, se divide en dos,
+[00:04:55 - 00:05:06] uno al principio, el primero es toda la parte práctica de diseño, de UML, y luego a las dos
+[00:05:06 - 00:05:14] semanas tenemos toda la parte teórica, y luego tenemos como todas las materias,
+[00:05:17 - 00:05:25] una fecha de recuperatorio, es una materia que tiene mucho contenido, parece que no, el último
+[00:05:25 - 00:05:31] exámen viene un alumno y me dice, pense que la parte teórica iba a ser más sencilla y después
+[00:05:31 - 00:05:36] cuando empezé a estudiar me di cuenta que había un montón de temas y siempre apareció uno nuevo
+[00:05:36 - 00:05:44] que tenía que repasar, entonces eso es algo que ustedes también tienen que manejar, parece una materia
+[00:05:44 - 00:05:49] que es más enfatada de la práctica es cierto, pero tiene mucho contenido, entonces para el
+[00:05:49 - 00:05:58] segundo exámen traten de ir leyendo y no llegar el último día, yo sé que lo digo, y uno trata
+[00:05:58 - 00:06:05] de hacerlo de puede, pero bueno, ese es mi consejo, la bibliografía, para eso vamos a ir a el Timz,
+[00:06:05 - 00:06:14] en Timz ustedes vienen chaderiendo en todos los accesos y no estarían en esta reunión, pero acá
+[00:06:15 - 00:06:24] tenemos un canal que es 26 segundo cubo, segundo cuatro y maestres, en este canal yo pongo todo lo
+[00:06:24 - 00:06:32] orientado a él que cuatro y maestres, por qué digo lo orientado, porque lo que me gusta hacer a mí
+[00:06:34 - 00:06:41] y me es mucho más cómodo, es ir clase por clase subiendo, en clase uno, por ejemplo, que vas a
+[00:06:41 - 00:06:50] hablar, voy a subir todo el material que voy a dar, casi siempre escribo una nota, un tequistero
+[00:06:50 - 00:07:01] donde digo que se dio, si hay algo pendiente que tienen que hacer ustedes y que lectura es la que
+[00:07:01 - 00:07:12] deberían realizar para cumplir con la clase, y así tienen todas las clases, la medida que va a
+[00:07:12 - 00:07:18] llamar avanzando, bueno, tener clase uno, clase dos, tres, cuatro, etcétera, entonces como eso es
+[00:07:18 - 00:07:27] bastante dinámico, acá tienen el canal donde tienen toda esa información y además acá también
+[00:07:27 - 00:07:37] deberían, para para, les pido que creo que si ustedes lo sufici, lo van a grabar, acaban a quedar las
+[00:07:37 - 00:07:45] grabaciones, ok, me ven acá en el general, qué es lo que tenemos, esto es algo que el general es
+[00:07:45 - 00:07:54] todo lo que vemos cuatro y maestres, que son es obligatorio para no andar con y subirme la información
+[00:07:54 - 00:08:01] varias veces, tenemos la bibliografía, que era lo que acá tenemos que ver, bibliografía,
+[00:08:01 - 00:08:21] así decir una idea, en bibliografía tenemos, tenemos, acá tenemos todos los pdf, o sea los libros
+[00:08:21 - 00:08:28] que son realmente necesarios para la curzada, esto no significa que lo tienen que leer todos,
+[00:08:28 - 00:08:32] es más acá por ejemplo, del español inglés, por si ustedes lo tienen acá, no sé,
+[00:08:32 - 00:08:45] que le vamos a ahorrar, yo voy ir diciendo qué capítulos deben leer de cada uno de estos autores,
+[00:08:48 - 00:08:56] el arma, casi siempre, este es el libro que realmente es todo,
+[00:08:56 - 00:09:04] es un libro que les voy a iniciar en los que capítulos tienen que ir viendo, libro de gama,
+[00:09:04 - 00:09:13] uno de los primeros capítulos y después ustedes lo quieren leer también, suma obviamente,
+[00:09:13 - 00:09:28] pero bastante largo, si están medios flojos de UML, acá les dejo algunos que están muy buenos,
+[00:09:28 - 00:09:37] está UML o está botanol en el de cuatro horas, suma bastante, la idea es, yo suelo hacer un
+[00:09:37 - 00:09:44] repaso de UML, pero tendría que tenerlo súper incorporado, el lenguaje me fijó bastante y que
+[00:09:44 - 00:09:57] cumbran con el lenguaje UML, acá se los dejo, y acá ver que puse, si, libros de HTML ya
+[00:09:57 - 00:10:06] de script, eso es algo que este cuadrimestre le voy a dar con un poco más de ganas, porque es necesario
+[00:10:06 - 00:10:15] para que puedan entender un poco a otros principios, y bueno, y pensaba que lo tenían incorporado
+[00:10:15 - 00:10:20] de otras materias sino así que este cuadrimestre me voy a tomar aunque sea unos 20 minutos para
+[00:10:20 - 00:10:32] este tema, ok, es decir, acá tienen absolutamente todo otro tema, vamos a usar algunas herramientas,
+[00:10:32 - 00:10:49] vamos a ver, vamos a dar algunas herramientas, yo uso mucho el visual estudio code a veces,
+[00:10:49 - 00:10:57] es gratuito, lo pueden ir bajando, si no tienen alguna herramienta que les perdita tener
+[00:10:57 - 00:11:06] una edición de lenguajes de texto, está bastante viola, y empecemos como hoy incorporando un poco
+[00:11:06 - 00:11:15] la rutina de Armagnos, un ambiente de desarrollo, si bien es cierto que hoy muchos de los lenguajes
+[00:11:15 - 00:11:25] utilizamos la idea, ahora soy muy frecuente para poder desarrollar, porque es prácticamente,
+[00:11:25 - 00:11:33] es un merida muchísima agilidad, después poder leer el código y poder identificar
+[00:11:33 - 00:11:38] tener un ambiente es fundamental, así que en vayan, en vez de que al culo que algunos
+[00:11:38 - 00:11:48] se están trabajando, ahora vamos a hacer otra plaumptita, sobre ese tema, ahora les sumo,
+[00:11:49 - 00:12:11] quienes trabajan en el sistema de los imprecursantes, esa me vayan pasando acá,
+[00:12:11 - 00:12:17] esto solamente para saber cuántos recursos se hayan sumo y estas quienes trabajan en desarrollo,
+[00:12:18 - 00:12:32] fantástico, bueno, son 61 alumnos, 60 alumnos, por lo tanto, capaz que lo que están en
+[00:12:32 - 00:12:39] desarrollo de un ambiente armado, pero bueno, la idea es poder ayudar a los otros compañeros y
+[00:12:39 - 00:12:48] empezar a armar un poquito ese ambiente, también a lo que uso mucho, ustedes pueden utilizar
+[00:12:51 - 00:12:59] para modelar, si lo vamos sirviendo, alguna herramienta online para poder hacer diseños,
+[00:12:59 - 00:13:07] yo trato de usar a veces más que nada cuando uso diagramas de espiedes, de componentes,
+[00:13:07 - 00:13:14] después lo vamos sirviendo, no se preocupen, hay dos diagramas que los uso con el dobillo, por
+[00:13:14 - 00:13:26] ejemplo, me imagino que ya lo vieron el dobillo, después la culo pregunta, pero bueno, también
+[00:13:26 - 00:13:32] uso el tab UML para hacer ejercicios porque es mucho más sencillo para después, bueno,
+[00:13:32 - 00:13:45] con poder compartirlo, por lo tanto, como ahora el tab UML ya tiene algún costo, esta versión,
+[00:13:45 - 00:13:54] si bien es vieja, la pueden tener y no la requiere, no la requiere perclave y no hay tanta
+[00:13:54 - 00:14:03] diferencia entre el tab UML de versión nueva con esta, en sí no hay tanta diferencia con las
+[00:14:03 - 00:14:11] híves de modelado, ya está muy equiparada, capaz que alguna, esta está más, yo siempre digo que
+[00:14:11 - 00:14:18] tiene una onda más 80, no son como las de ahora, pero realmente cumple con todas las
+[00:14:18 - 00:14:28] funcionalidades, o sea, tiene las mismas ventajas y beneficios de las herramientas que están
+[00:14:28 - 00:14:38] online, así que ustedes se pueden manejar con la que más les sea conveniente, si estoy en la
+[00:14:38 - 00:14:50] universidad, estoy dando clases, estoy compartiendo con un proyector y uso el tab UML porque a veces
+[00:14:50 - 00:15:02] la conexión y este vuelo bastante tedioso, entonces lo uso bastante, acá hay ejercicios modelos,
+[00:15:02 - 00:15:17] se ve que a algún momento lo subí y acá esto vamos a ahorrarlo, esto las puede dire para que
+[00:15:19 - 00:15:43] les falta algo un minutito, quiero ver, hice los modelos que es importante, son los que no
+[00:15:43 - 00:16:02] presubir, acá no está, que es una hía, tengo que estar pidiendo un minuto, José le pueden
+[00:16:02 - 00:16:17] habilitar, yo lo habilité, acá, lo que le ha llevado con un batido, acá un clases de estar,
+[00:16:20 - 00:16:35] bueno les voy a subir, ahora lo voy a buscar y se lo subo, hay un documento, esencial,
+[00:16:36 - 00:16:49] ejercicios modelos, será que se da un minuto, porque en su daña norte es capaz que lo dico,
+[00:16:49 - 00:16:57] bueno hay un documento que se lo voy a subir, debería estar en el general, no está, que es un
+[00:16:57 - 00:17:09] uno se ejercicio para ir trabajando en clase, esto es bibliografía, ya estaría,
+[00:17:09 - 00:17:17] alguna duda con costeta de la bibliografía, además de sumas cosas, obviamente hoy la bibliografía
+[00:17:17 - 00:17:26] está un poco, hay muchos libros, está bueno que ustedes puedan leer y tener esa costumbre,
+[00:17:27 - 00:17:35] hoy la realidad es que nos basamos mucho en documentos oficiales de internet, después ahí les voy
+[00:17:35 - 00:17:42] insubiendo algunas cosas, más que nada por el namismo que tiene la información, así que también
+[00:17:42 - 00:17:49] voy insubiendo en esa nota que escribo en el clase clase donde tienen que ir viendo,
+[00:17:49 - 00:17:56] creo una programa, ahora te los voy a mostrar algo que quiero que tengan, porque después me
+[00:17:56 - 00:18:03] olvido yo, cuando le pide el número de comisión, acá están el número de comisión, de los lunes y de los
+[00:18:03 - 00:18:09] dos jueves, la cuatro mil y trescientos y el aula que nos va a corresponder, ir que es la
+[00:18:09 - 00:18:20] 136, que más, yo les voy realizando, la calcula que esta, la clase que viene va a ser también virtual,
+[00:18:20 - 00:18:27] la próxima les voy realizando si tenemos habilitado, no, el aula más que nada porque posiblemente
+[00:18:27 - 00:18:34] necesitemos el cañón o proyector, así que va a depender también eso si vamos a la aula,
+[00:18:34 - 00:18:41] si comenzamos las clases, comenzaremos alrededor de esta hora, ocho y cuarto, tanto presencial como
+[00:18:41 - 00:18:54] virtual, duda es fácil la batería, fácil la materia, si hay algún compañero que haya recursado, no sé
+[00:18:55 - 00:19:08] y en este nojado, a ver, participemos un poco, porque yo de tantos años darla, digo bueno,
+[00:19:08 - 00:19:19] sí, para mí es fácil, estoy ahí, tiene mucho contenido en la materia y tiene un contenido que se va
+[00:19:19 - 00:19:24] como enlazando, entonces parece que uno esté en una cosita, después veo la otra y sí, porque
+[00:19:24 - 00:19:30] llega un momento que a veces digo por dónde empiezamos por la gallina, por el juego, por algún lado
+[00:19:30 - 00:19:36] tenemos que arrancar, entonces es como quedamos dando un montón de conocimientos y después los
+[00:19:36 - 00:19:43] empezamos a relacionar, tiene mucho contenido en cuanto a la parte teórica y tiene bastante contenido
+[00:19:43 - 00:19:53] en la práctica, pero bastante no, en este marco teórico, ¿vale? Por lo tanto, todos los conceptos que
+[00:19:53 - 00:20:00] ustedes traen de principios, y yo los tengo que tener súper incorporados, esto quiere decir que
+[00:20:00 - 00:20:08] si vamos con algo que ustedes lo tendrán que ver, es algo simple, si están en un diagrama de
+[00:20:08 - 00:20:19] clase y no pueden identificar un objeto y estamos complicados, si hay algunos principios como el
+[00:20:19 - 00:20:28] que tuvieron que haber visto, igual acá los repasamos, porque hay algunos agujeros negros en
+[00:20:28 - 00:20:35] este conocimiento, pero les digo bueno, apliquen un patrón que se le esperto y no lo pueden aplicar
+[00:20:35 - 00:20:43] y les bajo estar, todo ese marco teórico que ustedes adquirieron y que lo vamos a repasar acá,
+[00:20:43 - 00:20:48] tiene que estar en la práctica, entonces ahí es donde se genera un poco la dificultad,
+[00:20:50 - 00:21:04] otro tema que si requiere es que uno a veces ve como el profesor o al o sacan el resultado
+[00:21:04 - 00:21:10] de internet y se han vuelto a hacer así, mirar esta clase, esto al otro y nunca se sentaron hacerlo,
+[00:21:10 - 00:21:18] entonces viene la del examen y es el primer día que se sienten analizar una especificación y
+[00:21:18 - 00:21:26] armar una solución, si es el primer día no tienen la agilidad tampoco como para dar el examen,
+[00:21:26 - 00:21:38] o lo tanto lo que se les pide y se los dejo mucho al alumno es que harán práctica,
+[00:21:38 - 00:21:43] a la llor todas las clases cuando más cuando me acercó a la parte de domedle, preguntó a alguien
+[00:21:43 - 00:21:55] que era hacer un ejercicio, lo discutimos y los vemos, antes había un trabajo práctico que era
+[00:21:55 - 00:22:05] muy tedioso por la cantidad de alumnos que antes tenía que dar en alumnos, entonces era algo pas fácil de
+[00:22:05 - 00:22:12] manejar en el aula y poder tener un rol un poco más de tutor, de guiarlo en el cuanto al
+[00:22:12 - 00:22:18] desarrollo, con la cantidad de alumnos hoy eso es inviable, no me da el tiempo a mí de corregir
+[00:22:20 - 00:22:27] para que ustedes puedan hacer algún cambio en la semana y volver a empezar, por lo tanto,
+[00:22:28 - 00:22:36] se sacó el trabajo práctico, se agregó un examen más que la verdad que es más que agregar
+[00:22:36 - 00:22:46] el irlo, se sacó el trabajo práctico y se los dejo a ustedes, la responsabilidad de poder entregar
+[00:22:46 - 00:22:56] los ustedes, íbamos armar grupos porque las primeras clases necesitas de ustedes trabajen un poco,
+[00:22:56 - 00:23:06] se va a evaluar, se va a poner una nota de sí participó, no que eso suma mucho para el cierre
+[00:23:06 - 00:23:17] de la nota, pero no hay trabajo práctico obligatorio, por lo tanto, bueno depende de ustedes y cómo se gestionan,
+[00:23:20 - 00:23:26] bueno, nadie quise hablar, hay algunos recursos antes que lo que eran cuatro, a ver cómo voy a fijar
+[00:23:26 - 00:23:38] ahora, así yo, ahí está, se acuerdo de celeste, bueno celeste, muy buena alumna, pero costó la última,
+[00:23:38 - 00:23:46] no celeste, sí, sí, el poner el tema que yo no lo veía a nivel código, eso me pasaba y hablábamos
+[00:23:46 - 00:23:53] en las clases que cuando vimos el último tema de patrones golf, yo no lo podía similar con el código
+[00:23:53 - 00:23:59] porque yo nunca cursé para digmas, no como ahora que ahora sí la estoy cursando y la voy a
+[00:23:59 - 00:24:04] ver a la par que estoy con esta materia, entonces capaz lo puedo ver de las dos maneras y entendrá
+[00:24:04 - 00:24:12] lo un poquito más, pero dentro de todo la materia se podía, me tenía que sentar a diagramar y al principio
+[00:24:12 - 00:24:20] estaba con el enunciado y decía, por donde empiezo, pero una vez que empezás a hacer mientras le muestras
+[00:24:20 - 00:24:25] a la profesora, a ver si lo estoy haciendo bien, me estoy guiando, me faltó algo, creo que ya con eso
+[00:24:25 - 00:24:36] en la parte práctiva venir bien, alcanza, sí, sé que dejenestrar pero la realidad que no es una materia
+[00:24:36 - 00:24:42] difícil, hay que dedicarlo un poco, está en tercer año también eso, ¿cierto? Tenemos
+[00:24:42 - 00:24:53] fiores, es, exacto, entonces te van a con un cumplido, yo te lo tengo un cumplido, tiene mucho contenido,
+[00:24:53 - 00:25:06] es cierto, bueno vamos acá, lunes, jueves, bueno fecha, esto es algo tentativo y siempre digo lo mismo,
+[00:25:06 - 00:25:16] estén tentativo porque no sé si va a haber feriado, si van a ser un paro, si hay a un cambio,
+[00:25:16 - 00:25:24] que me pide la universidad, si hacen una votación ese día y tengo que cambiar algo, entonces siempre
+[00:25:24 - 00:25:33] estén tentativo, por suerte no hay feriados, la comisión de los jueves, los lunes tiene cuatro
+[00:25:33 - 00:25:41] feriados en lo cual los distrosa, los distrosa, así que bueno no sé, le la veremos las clases si las
+[00:25:41 - 00:25:53] compartiremos porque yo sigo, soy de poner bastante quinta y arrancar, está por ahora las fechas con
+[00:25:53 - 00:26:04] la siguiente veintidós, en octubre ya, tenemos que vamos a pensar, es el primer parcial, el segundo y
+[00:26:06 - 00:26:16] casi siempre las notas del primer parcial, como es, lleva mucho tiempo de corrección, la centregó
+[00:26:17 - 00:26:26] en la fecha que se acabe entrega de notas, ok, y si llego a entregarla, bastante porque aparte,
+[00:26:26 - 00:26:33] si suman también los de las otras comisiones que la otra comisión son casi más de 90, entonces las
+[00:26:33 - 00:26:40] centregó en estas fechas, el segundo parcial es mucho más sencillo la corrección, así que esta fecha
+[00:26:40 - 00:26:46] la centregamos las dos juntas, y ahí ustedes evaluaran si tienen que ir a recuperar, no,
+[00:26:46 - 00:26:53] esperemos que no, mi vida sería mucho más fácil, se les aseguro si todos promocionaron la materia,
+[00:26:53 - 00:27:07] pero bueno, gracias profe, totalmente, mi vida sería muchísimo más sencillo, así que pero bueno
+[00:27:07 - 00:27:19] no es que te llega fácilmente, no es así, bueno, dudas hasta ahora, ninguna pregunta, yo,
+[00:27:20 - 00:27:27] más allá de la dificultad de la materia, en algún momento se ofertó en verano, en algún momento,
+[00:27:27 - 00:27:37] si ofertó, si, si ofertó en verano, para alumnos recursos antes, es decir, ya han dado los
+[00:27:37 - 00:27:45] exámenes y les ha ayudado mal, no se da clase, se sube todo el material, no se sube clases
+[00:27:45 - 00:27:52] grabadas, suman todo el material y es cómo ir a dar, se pide un trabajo práctico integrador,
+[00:27:52 - 00:28:01] eso sí, pide un trabajo práctico integrador y si aprobás el trabajo práctico integrador en la
+[00:28:01 - 00:28:11] primera distancia, práctilos exámenes, pero no hay clase así, no, no tenemos este
+[00:28:11 - 00:28:16] guilí vuelta, por lo tanto para eso está estipulado para recursos antes, para gente que la haya
+[00:28:16 - 00:28:26] recursado, ok profe, por qué preguntar, mi idea es que la aprobás ahora, sí, por supuesto,
+[00:28:26 - 00:28:34] solamente quería ponerlo como en el top curiosidades de la materia, no, no, realmente tengo la decir,
+[00:28:34 - 00:28:44] los chicos que vendieron en el verano eran poquitos y hicieron un trabajo práctico bastante complicado,
+[00:28:44 - 00:28:51] le habían cursado, hicieron un trabajo práctico bastante complicado y la mayoría la
+[00:28:51 - 00:29:00] curso tuvieron que ir a final la mayoría, pero les fue bien, o sea, de 20, me tengo los números
+[00:29:00 - 00:29:08] en la cabeza, de 20, arrancar un 14, nada más, eso salió que también está mal, a no
+[00:29:08 - 00:29:14] te encer realmente tienen el compromiso de cursarla, y principalmente en el verano, porque en el verano
+[00:29:14 - 00:29:23] se pone un tope por alumno, bueno, porque nadie ha dado el docente, entonces se había puesto un tope
+[00:29:23 - 00:29:30] de 20 alumnos, si anotaron y el primer día ya arrancaron solamente 14, o sea, que los otros
+[00:29:30 - 00:29:38] 6, o sea, se anotaron, pagaron, porque creo que en el verano se paga, ¿no? Sí, se paga,
+[00:29:38 - 00:29:47] pagaron y nunca vinieron, o sea, que dejaron a 6 compañeros que realmente querían cursar la materia
+[00:29:47 - 00:29:59] si de esa posibilidad, entonces, está bien, también, y se van a notar a un o con responsabilidad para
+[00:29:59 - 00:30:08] el otro compañero que realmente quería cursarla, así que bueno, después también hay una forma
+[00:30:08 - 00:30:17] de dar la libre la materia, tiene un trabajo práctico, tienen las otras cosas, pero bueno, es un poco
+[00:30:17 - 00:30:26] más complicada, hay un oral, el trabajo práctico se entrega, si no está excelente, no se pasa la instancia
+[00:30:26 - 00:30:39] de examen, así que bueno, pero es lógico, las rimillen libre, pero tienen algún tolojas,
+[00:30:39 - 00:31:00] ¿no? Sí, mi idea es que aproveza en este cuadrimestre, bueno, vamos a arrancar, bueno, con
+[00:31:00 - 00:31:15] respecto a esto, alguna duda, no, no hay consultas ni nada, bueno, cinco personas, nada más,
+[00:31:15 - 00:31:35] están trabajando en desarrollo, se deben que se haya habilitado poner una manita, a ver, y lo mismo
+[00:31:35 - 00:32:44] que las personas que están regrusando, vamos a arrancar, un minuto, o sea, arrancamos, en computadora,
+[00:32:46 - 00:33:01] sí, sí, bueno, vamos a hablar un poquitito, una breve introducción, para empezar a meternos un
+[00:33:01 - 00:33:10] poco en el diseño, está ahí, necesitamos entender esto como para ver por qué hacemos determinadas cosas,
+[00:33:12 - 00:33:18] bueno, primero en nuestra ingeniería es bastante nueva, ustedes saben que si me voy a la ingeniería
+[00:33:18 - 00:33:26] a 10000 y hace más de 2000 años que están haciendo puentes túneles, estas, tierna ciudades,
+[00:33:27 - 00:33:36] fueron acriendos en esos 2000 años, un montón de experiencia, está como para poder desarrollar esta
+[00:33:36 - 00:33:44] ingeniería, por ejemplo la ingeniería de 10000, ¿ok? No es ingeniería bastante nueva, digamos,
+[00:33:45 - 00:33:55] tendrá 70 años, donde está bastante fuerte, es muy nueva, si quieren empezar a hacer más tiempo,
+[00:33:55 - 00:34:03] pero la realidad donde tuvo más yor empuje fue entre los a parte hace 80 años, como mucho,
+[00:34:03 - 00:34:09] por lo tanto tenemos, digamos, dentro de nuestra ingeniería de software, principios que fuimos
+[00:34:10 - 00:34:17] inquiriendo pero que son bastante nuevos, porque queremos tener un ingeniería de software y bueno,
+[00:34:17 - 00:34:26] porque queremos crear un producto, un producto de software, el producto de software que sea obviamente
+[00:34:26 - 00:34:34] confiable, que tenga calidad, bueno para eso necesitamos tener algunas buenas prácticas, así yo
+[00:34:34 - 00:34:39] tengo que armar un puente y la realidad es que no lo voy a hacer con madera,
+[00:34:41 - 00:34:48] les tengo que fijar cómo se hace, bueno, pues, poder aplicar algo de madera, tener este tener esto,
+[00:34:48 - 00:34:55] tener que tenerlo otro, analizar un poco el suelo, bueno, son todos los principios que uno necesita
+[00:34:55 - 00:35:02] saber para poder crear un producto en forma confiable, para eso tenemos la ingeniería de software,
+[00:35:03 - 00:35:12] nosotros dentro de esta ingeniería empezamos a requerir esos principios y esos conocimientos para poder
+[00:35:12 - 00:35:22] desarrollar un producto con calidad en el mejor costo obviamente, tampoco me sirve tener un producto
+[00:35:22 - 00:35:31] súper caro que no debe poder acceder, entonces necesito tener un producto que sea factible,
+[00:35:31 - 00:35:39] económicamente y que tenga calidad, para eso nos basamos en los principios de la ingeniería,
+[00:35:39 - 00:35:46] y esto es casi prácticamente para todas las ingenierías, obviamente nos vamos a enfocar
+[00:35:46 - 00:35:58] en nuestra ingeniería que en la de software tengo un producto, un producto, quiero mi base del
+[00:35:58 - 00:36:02] principio de la ingeniería, es obtener un producto con calidad, después vamos a discutir un poco que
+[00:36:02 - 00:36:10] es la calidad, yo quiero tener un producto con calidad, para eso digo bueno, voy a ver qué es lo que
+[00:36:10 - 00:36:16] hicieron las otras ingenierías, y si querés obtener un producto de calidad primero analicemos cuál es el
+[00:36:16 - 00:36:22] proceso que va a realizar, ese proceso va a tener algunos métodos dentro del tipo de tipo de
+[00:36:22 - 00:36:31] tipo de tipo de forma de hacer algo y después voy a tener herramientas o tools, estas son las traducciones y
+[00:36:32 - 00:36:40] el libro habla de tools y tools, eso es más abarcativo, esa herramienta tipo hardware o software como
+[00:36:40 - 00:36:46] lo vemos acá, si no por ejemplo el conocimiento puede llegar a hacer una herramienta, decir bueno,
+[00:36:46 - 00:36:52] voy a explicar un lenguaje y necesito conocer el lenguaje, es una herramienta para poder llegar
+[00:36:52 - 00:37:05] a una objetivo, es más abarcativo, lo que tenemos es son estos principios, siempre la base de la
+[00:37:05 - 00:37:14] pirámide es la calidad, yo quiero obtener un producto con calidad, sí se lo denomina como el
+[00:37:14 - 00:37:21] fundamento de la ingeniería, ahora si yo les pregunto a ustedes que es la calidad, ustedes me
+[00:37:21 - 00:37:34] pueden decir, agarque quiero un producto con calidad, es significa para ustedes, algo que esté
+[00:37:34 - 00:37:41] bien hecho, que dure, que funció en el libro, que cumple con los requerimientos,
+[00:37:41 - 00:37:49] lo que dijo que esté bien hecho, el hijo que esté bien hecho, yo dije que esté bien hecho de Daniel,
+[00:37:50 - 00:37:57] Daniel me encantó el bien hecho, cantás, con serio, y para vos qué esté bien hecho,
+[00:37:57 - 00:38:03] como harías, imagínate que esté bien hecho, está bien hecho, qué es lo que harías para evaluarlo?
+[00:38:05 - 00:38:13] Primero lo mire, si ante la mirada se rompe, como cierto, todos productos que son muy muy baratos,
+[00:38:13 - 00:38:23] si quiero usarlo, si quiero usarlo que no se rompa, que haga lo que yo quiero y que no
+[00:38:23 - 00:38:30] necesite hacer magia para que funcione como debería. Exacto, lo que hablaste es fantástico,
+[00:38:30 - 00:38:37] pues yo dije que bueno, si haga lo que quiero, cumple con toda la funcionalidad, vamos a empezar
+[00:38:37 - 00:38:46] como a ordenarnos, si yo tengo un producto y tiene que hacer, y a cv y la realidad que lo dejás
+[00:38:46 - 00:38:53] usar, si vos que en este acera ha marcado o pago, y en marcado o pago no puedes pagar, y te paso
+[00:38:53 - 00:39:04] a otra, por lo tanto la funcionalidad tiene que estar, entonces uno es una de las cosas que yo
+[00:39:04 - 00:39:10] evaluó en los exámenes, yo pido que ahora le terminamos cosas, no está reflejada de esa
+[00:39:10 - 00:39:17] funcionalidad y bueno, no cumple con la funcionalidad, al no tener esa funcionalidad y no cumple con la
+[00:39:17 - 00:39:25] realidad, ok, usabilidad, Daniel habló de que sea fácil usar y si la realidad es que tiene que ser
+[00:39:25 - 00:39:33] fácil usar, porque realmente si nosotros estamos mucho tiempo para acceder, para ser rompe y una
+[00:39:33 - 00:39:44] realidad que me voy a otra cosa, o lo dejo de usar, y no hay peor cosa que después cambiar esa
+[00:39:44 - 00:39:54] perspectiva del usuario con la solución, que sea confiable que tengo buen rendimiento, que sea
+[00:39:54 - 00:40:00] mantenible, esto es algo fundamental dentro del diseño, porque si yo tengo que hacer un cambio y para
+[00:40:00 - 00:40:06] un ser un cambio tengo que estar una, una, dos, tres semanas y la realidad es que si es tarde al
+[00:40:06 - 00:40:14] marcado, lo que se ha mantenido en tu marquete, se ve muy tarde, entonces necesito que sea fácil
+[00:40:14 - 00:40:23] de mantener y que tenga lo que se denomina hoy, que es agilidad al cambio, para que se agilan el cambio
+[00:40:25 - 00:40:30] necesito que sea fácil de mantener y para que sea fácil de mantenerlo tengo que haber hecho
+[00:40:30 - 00:40:38] bien el diseño, imagínense que ustedes tienen una casa, tienen construir una casa y hicieron una
+[00:40:38 - 00:40:50] casa dos techos, la casita típica como esto, y después hice algo pero quiero poner arriba los
+[00:40:50 - 00:40:56] habitaciones, tengo que romper todo el techo, entonces bueno la idea es decir, bueno, ¿cómo que es
+[00:40:56 - 00:41:04] lo que te hacer una casa que sea fácil de extender, que lo puede ir agregando, el diseño de
+[00:41:04 - 00:41:11] software se lo mismo, o sea, bueno, si bien vos tenés que hacer una funcionalidad o que sea fácil
+[00:41:11 - 00:41:21] de extender, que sea fácil de mantener que sea agil al cambio, es fundamental, que sea adaptable,
+[00:41:21 - 00:41:28] también es fundamental que sea adaptable porque hoy necesito decir, bueno, cambio la base de datos,
+[00:41:28 - 00:41:35] cambio algo y no tengo que andar tocando toda la aplicación modificó una única parte,
+[00:41:35 - 00:41:44] bueno, que sea compatible y configurable, configurable es fundamental porque eso siempre digo hay que hacer,
+[00:41:45 - 00:41:51] lo digo ahora no me van a entender ahora, claro, incluso durante el 4.3,
+[00:41:52 - 00:42:01] no hay que hacer la aplicación que me piensas, sino hacer la aplicación que va a ser la que me
+[00:42:01 - 00:42:11] piensas, porque es decir, lo garantizaré lo más configurable posible para que pueda ser fácil de
+[00:42:11 - 00:42:21] extenderla, la bella que veamos ejercicios, yo voy a ir un poquito con esta palabra,
+[00:42:22 - 00:42:27] hoy piensas en algo sencillo que ustedes lo habrán visto, decir, bueno,
+[00:42:27 - 00:42:35] algo un jaco de o, tengo que hacer un calcular el IVA, saben lo que se liba, porque ya me preguntaron
+[00:42:35 - 00:42:43] el cuadrimece pasado y así me desmayo, saben lo que se liba, ¿no? Y es, ¿cuál es la realidad?
+[00:42:44 - 00:42:51] Vamos, nosotros compramos algo, hay un impuesto, que se liba, se liba puede ser de diferentes
+[00:42:53 - 00:43:03] porcentajes, 21, 10, por ejemplo, el 10,5 tiene leche carne, hay otros que tienen el 27,
+[00:43:03 - 00:43:12] creo, hay otros que son cero que son exentos, ¿ok? Bueno, si yo hago algo, dejar código en el código
+[00:43:12 - 00:43:19] y la realidad es que si viene el gobierno me dice, bueno, en vez de 21, va a ser un optimista,
+[00:43:19 - 00:43:25] va a pasar a 18, tengo que cambiarlo, por lo tanto quiero que sea configurable, entonces no
+[00:43:25 - 00:43:33] hice el sistema que me pierdan en su momento y no que hice el que va a ser, por lo tanto,
+[00:43:33 - 00:43:43] yo tengo que ir pensando y evaluando eso, si usted en un examen les digo, bueno, no
+[00:43:43 - 00:43:55] sé, voy a los, imagínense que les digo esto, ¿no? Para calcular el bonto hay un 10% de recardo,
+[00:43:55 - 00:44:04] usted es ponen, calcular 10%, ponen 10% yo los mato porque están olvidándose de esta palabra,
+[00:44:04 - 00:44:10] que sea configurable, que sea adaptable, que sea fácil de mantener, ¿verdad? Siendo,
+[00:44:10 - 00:44:14] sí, siempre hay que ir con los dos.
+[00:44:14 - 00:44:25] Fantástico, bueno, el proceso, el proceso define quién y qué está haciendo, qué, cuando y cómo,
+[00:44:25 - 00:44:38] yo siempre digo lo mismo y está bueno, yo soy muy mala cocinando, o sea no, no soy buena,
+[00:44:38 - 00:44:49] pero soy una muy buena seguidora de recetas, o sea, si tengo que hacer un lomo de la opinión,
+[00:44:49 - 00:44:57] bueno, más o menos me duele idea, pero no sé cómo hacerlo, ahora si hubo una receta y voy a lograr
+[00:44:57 - 00:45:04] el objetivo y el proceso básicamente es eso, esto tiene una receta, es, me define quién lo hace,
+[00:45:04 - 00:45:11] en este caso la cocinera, está qué es lo que hace, y bueno, vas a tener que hacer determinadas cosas,
+[00:45:11 - 00:45:20] por ejemplo, no sé, poner el la carne, el azar, después agregarle el caldo, bueno, pero que cuando,
+[00:45:20 - 00:45:27] en qué momento, primero me va a ir viendo, primero comprar las cosas, tener todo,
+[00:45:27 - 00:45:34] hacer esto, esperar media hora para agregarle el caldo, me va haciendo este el cuando y cómo, bueno,
+[00:45:34 - 00:45:49] yo no sé qué es azar, bueno, me explica cómo azar, entonces, nosotros, si tengo que decir a ustedes,
+[00:45:49 - 00:45:56] bueno, vamos a hacer un proyecto con SAP, que es una repesa, y bueno, la realidad es que nos
+[00:45:56 - 00:46:01] saben cómo ha estado, pero si tengo un proceso de cómo hacerlo, va a ser mucho más fácil,
+[00:46:01 - 00:46:09] entonces, el proceso me ayuda en eso, en definir quién lo hace en qué momento, el de la cocinera
+[00:46:09 - 00:46:14] bastante sencillo, tenemos un único cocinero, pero imagínate, te ha sido una torta, digo, bueno,
+[00:46:14 - 00:46:21] primero hago la torta, y después viene alguien, al cambio de rol, viene alguien a decorar,
+[00:46:22 - 00:46:29] ya el proceso se empieza a complejizar, imagínate lo que es en software, no, que tenemos diferentes
+[00:46:29 - 00:46:42] tipos de roles, quienes pueden ser los roles, en el alista programador, en elista programador,
+[00:46:42 - 00:46:48] tester, entonces el proceso me va a definir quién hace en qué momento, cuando y cómo,
+[00:46:51 - 00:46:57] un gerente de prachertos, un escrammáster, lo que sea de acuerdo a la metodología que yo vaya
+[00:46:57 - 00:47:04] a definir y el proceso va a cambiar, obviamente, si estoy en una metodología un poco más dura,
+[00:47:05 - 00:47:13] que vamos a acabar dos, una más ricia y una más flexible como ágil, de acuerdo al proceso que
+[00:47:13 - 00:47:20] voy a elegir o la metodología, voy a tener diferentes roles, el qué, qué hace y cómo lo hace,
+[00:47:22 - 00:47:29] digamos, esto para ustedes también vayan estudiando y tengo material, el proceso de software es un
+[00:47:29 - 00:47:35] confundatía de escullameta, del desarrollo del producto, lo que yo quiero es
+[00:47:35 - 00:47:41] tener este proceso, decir, bueno, tengo que armar de una torta, no tengo ni idea, bueno, tengo
+[00:47:41 - 00:47:49] unos pasos predecibles, por lo menos para tener un resultado de alta calidad, a tiempo, si lo hago,
+[00:47:49 - 00:48:00] sin saber y posiblemente me salga algo raro, algo que tengo que tener en claro es que tengo que
+[00:48:00 - 00:48:10] siempre ir adoptando, cambiando el proceso, y tengo que hacer una torta para tomar mate o hacer
+[00:48:10 - 00:48:17] una manera, ahora si tengo que hacer una torta para un cumpleaño de 15, tengo que cambiar este proceso,
+[00:48:17 - 00:48:30] ok, si tengo que armar, tengo un proyecto, un software que es evolutivo, perdón que es
+[00:48:30 - 00:48:37] un mantenimiento correctivo, es diferente que si tengo que hacer una aplicación de cero, un
+[00:48:37 - 00:48:43] proyecto de cero, lo encaro de diferentes maneras, voy a tener diferentes roles más actividades en
+[00:48:43 - 00:48:52] uno que en otro, si tengo que cambiar o corregir algo, va a ser mucho más sencillo que un proyecto de
+[00:48:52 - 00:48:59] cero, por lo tanto el proceso siempre tengo que modificarlo y adaptarlo, de acuerdo a las necesidades
+[00:48:59 - 00:49:07] y también a mi organización, o lo tanto es algo que tienen que tener en cuenta, no existe un proceso
+[00:49:07 - 00:49:15] universal, siempre va a haber cambios en cada proyecto y configurable y adaptable, este es fundamental
+[00:49:15 - 00:49:26] dentro de lo que es metodología, si ya no forma parte de materia diseños una materia que trata de
+[00:49:26 - 00:49:33] relacionar muchos conceptos que ustedes aquí yaron en otras, adaptabilidad del proceso es fundamental,
+[00:49:33 - 00:49:41] una vez que tengo esos pasos, me dicen bueno primero a conseguir los productos o entender
+[00:49:41 - 00:49:49] lo que quiere el cliente, después tengo que pasar a una o otra fase, después tengo que
+[00:49:49 - 00:49:59] estar en cada una de esos tengo un montón de cosas que hacer, entonces ahí empieza a meterse los
+[00:49:59 - 00:50:07] métodos, que me va a proponer la experiencia técnica para poder hacerlo, me va a hacer nuestra
+[00:50:07 - 00:50:15] materia tengo que crear un producto de calidad, yo voy a hacer el diseño, yo soy arquitecto,
+[00:50:15 - 00:50:23] ahora me voy al diseño, pienso cómo hacerlo, está en ese tapa, en este proceso de diseñar, ahora bueno,
+[00:50:23 - 00:50:29] de acuerdo a la metodología me dan a decir bueno, pues tenas que hacer el diseño, yo te
+[00:50:29 - 00:50:36] propongo esta manera de hacer el diseño, si estoy con escran voy a ir de una manera, si estoy con
+[00:50:36 - 00:50:42] user experiencia de otra, si estoy con una metodología un poco más riquida voy a ir con otra
+[00:50:45 - 00:50:52] y me va a brindar toda esa experiencia técnica, ahora después vamos a volver con este tema,
+[00:50:53 - 00:51:01] cuando hablemos de diferentes procesos, pero básicamente me ofrece esos todos los métodos en
+[00:51:01 - 00:51:12] cada fase, si estoy en una etapa de programación, está y estoy haciendo una programación, por ejemplo,
+[00:51:12 - 00:51:20] para un mantenimiento correctivo, me van a ofrecer determinadas formas, se modifica el código,
+[00:51:20 - 00:51:26] capas que no tengo que validar algo, estoy en un proceso más rígido y se muerta,
+[00:51:26 - 00:51:32] quedo al código, el código hay una revisión entre pares porque la metodología sí lo requiere,
+[00:51:32 - 00:51:37] me van siguiendo, me dan explicando cómo hacer esa experiencia técnica, lo mismo con la parte de
+[00:51:37 - 00:51:47] destin, etcétera, las herramientas, las tools que hablamos de la ingeniería de software me ayudan a
+[00:51:48 - 00:51:59] este a poder aplicar esos métodos, nosotros, está acá, sí, nosotros vamos a empezar con un
+[00:51:59 - 00:52:13] proceso que se llama RUP, no sé si ustedes lo vieron, la idea es obviamente no es para mí,
+[00:52:13 - 00:52:22] me van diciendo quién saber de otra materia, los que recursten, necesitan que me llan que lo saben
+[00:52:22 - 00:52:30] por el cálculo que se lo saben, pero si lo vieron o no, me da una idea también de la propundidad,
+[00:52:30 - 00:52:43] no, no lo le te, no me suena, ok, no me suena, fantástico, vamos, bueno vamos a ir con una metodología
+[00:52:43 - 00:52:53] un poco más estricta, algo que es un hi-fi-prose, es una metodología un poco más dura, más extensa,
+[00:52:53 - 00:53:01] no obviamente está en el polo opuesto a lo que es metodología sági, ahora vamos a charlar un
+[00:53:01 - 00:53:13] poquito, y bueno dentro de este proceso me brinda un método del diseño, me recomienda
+[00:53:13 - 00:53:21] esas recomendaciones, me da el acá, vuelvo acá, el quién lo tiene que hacer, el que el cuando y el
+[00:53:21 - 00:53:30] cómo, cómo se hace el diseño, y la herramienta que me brinda me dice bueno dentro de lo que es el
+[00:53:30 - 00:53:40] diseño, te ofrezco una tools que es un ML, está no hablo del estar un ML, hablo del lenguaje como tools,
+[00:53:40 - 00:53:47] como herramienta para lograr el objetivo de armar el diseño, ok, y me voy a otro tipo de metodología,
+[00:53:47 - 00:53:54] me va a decir bueno diseño, tenés, tenés sonotenes, capaz que no tengo método, una
+[00:53:54 - 00:54:01] skill no tiene un método tan estricto en el diseño, y las herramientas que te ofrezco es estoy
+[00:54:01 - 00:54:14] no sé con programación extrema, digo bueno el diseño no hay pero te recomiendo en el método,
+[00:54:14 - 00:54:22] te recomiendo que haya dos programadores para que el código sea como en acalidad y me explica
+[00:54:22 - 00:54:29] cómo hacerlo, las revistiones entre pares, me van siguiendo de acuerdo a cada proceso hay un método
+[00:54:29 - 00:54:37] diferente y herramientas diferentes, por lo tanto vamos a empezar con un herramiento con un proceso un
+[00:54:37 - 00:54:45] poco más estricto, que es relacionado a mi 5 proces, capaz que ustedes lo vieran como un 5
+[00:54:45 - 00:54:54] proces o proceso unificado, y escucha hablar del pero no recuerdo, está, ¿por qué lo vemos y porque
+[00:54:54 - 00:55:02] la realidad es que hay que entender porque aplicamos un ML, si bien a veces yo empiezan las
+[00:55:02 - 00:55:08] materias y dicen bueno hacemos un ML bueno pero por qué lo estamos viendo, la realidad es que
+[00:55:08 - 00:55:17] es un proceso que fue creado por estas tres personas, tienen que conocer quiénes fueron los que
+[00:55:17 - 00:55:26] aportaron conocimiento en la carga que ustedes se ligieron, tienen la gradi-goch, creo que es el
+[00:55:26 - 00:55:36] destacam, Ibar Jacobson en del medio y perdón a revés y Rumba y es este, Boz, Jacobson y Rumba
+[00:55:36 - 00:55:48] y los tres tenían para filetotalmente diferentes, Rumba y el de acá era creador o uno de los que es
+[00:55:48 - 00:55:55] la técnica de modelado de objetos, tenía muchísimo conocimiento de objetos y aportó todo lo que es,
+[00:55:55 - 00:56:01] lo que era el paradigma orientado objetos, bueno de agramos de títulos, todo lo que era bien
+[00:56:01 - 00:56:11] bien de objetos, Jacobson era un, en su momento un metodelogista que estaba más orientado al
+[00:56:11 - 00:56:21] entendimiento con el usuario y el creador de los casos de uso y que aportó dentro de Rup los casos
+[00:56:22 - 00:56:28] de uso y todo lo que es la parte funcional de agramos de secuencias y agramos de actividades,
+[00:56:28 - 00:56:37] etcétera, entonces tenemos el que aportó todo lo que es la parte más técnica digamos que es todo
+[00:56:37 - 00:56:43] lo que hizo el todo objeto, todo lo que es analista funcional y Jacobson era, tenía ya un metodo
+[00:56:44 - 00:56:54] donde aportó otros tipos de diagramas para crear este proceso,
+[00:56:54 - 00:57:01] habamos por filetotal, las tres tenían por filetotalmente diferentes y empezaron a coplarse,
+[00:57:01 - 00:57:12] entonces en un momento dijimos bueno vamos a armar un proceso para ver cómo poder aplicarlo
+[00:57:12 - 00:57:21] dentro de las organizaciones y lo hicieron, que tuvo muy interesante fue juntarse, yo siempre
+[00:57:21 - 00:57:28] digo fue juntarse con ellos de Estados Unidos, bueno uno no pero no importa, estaban trabajando en
+[00:57:28 - 00:57:35] Estados Unidos y armaron una especie de reunión con los cios y los cios más importantes de ese momento
+[00:57:36 - 00:57:44] para preguntarle esta es la sencilla pregunta, cuáles son los problemas más comunes que tenían en
+[00:57:44 - 00:57:54] el desarrollo del software, clases hace muchos años atrás jugaba un poco con esto pero vamos a
+[00:57:54 - 00:58:00] tener que ir un poco más rápido y la realidad que los problemas que se encontraban, esto estamos hablando,
+[00:58:00 - 00:58:09] cuando volvamos pero por acá, en principios de los 80 principios de los 90 en el 90 pico,
+[00:58:09 - 00:58:21] el 93 empezó y empezaron a juntar con los cios y los cios más importantes de Estados Unidos y
+[00:58:21 - 00:58:27] fueron los problemas más comunes en el desarrollo del software, porque lo que sucedía era que los proyectos
+[00:58:28 - 00:58:39] y bien nos fracasaban por completo no eran exitosos o nos excedíamos de tiempo o nos excedíamos de
+[00:58:39 - 00:58:45] plata o no no cumplía con lo que tenía que hacer, entonces decíamos, bueno, ¿cuáles son los
+[00:58:45 - 00:58:52] problemas que ustedes se encuentran? Estamos hablando de cios y cios que no tenían ni idea de sistemas,
+[00:58:52 - 00:59:02] ok? Entonces yo me imagino esa reunión con una especie de reunión de catarca y tipo de psicólogos,
+[00:59:02 - 00:59:09] entonces decían que los software no estaban satisfechos porque obviamente llegaban y no cumplían con lo que
+[00:59:09 - 00:59:20] necesitaban, querían hacer algunos cambios y y era, decían que no porque ya estaban programando y
+[00:59:20 - 00:59:29] no podían cambiarlo, querían integrar módulos y a veces no, entonces me llevó el papel de recursos
+[00:59:29 - 00:59:38] humanos con lo que cada uno hizo, me voy a suelos y jornales, está ahí tengo que ser un papelito,
+[00:59:38 - 00:59:46] los módulos no se integran, eso con llevarrores, mantenimiento era muy complejo, no tenían el tanto
+[00:59:46 - 01:00:00] marketing, no tenían agilidad al cambio, había descubrimientos tardidos de las fallas, no había un
+[01:00:00 - 01:00:09] testín bastante fuerte, eso llevaba que tuvieran la idea de que había mala calidad en el producto,
+[01:00:09 - 01:00:14] bueno, baja performa, trabajó en el coordinador, estos son los problemas más comunes,
+[01:00:14 - 01:00:25] se han sentido una lita muchísimo más larga, estos son los más comunes, lo que se preguntó,
+[01:00:26 - 01:00:34] estas tres pasoritas, estos tres, que eran bueno, son los problemas más comunes, bueno,
+[01:00:34 - 01:00:41] accedeven estos problemas, una vez que tuvieron esa esa famosa reunión, empezaron a hacer un trabajo de
+[01:00:41 - 01:00:49] ingeniería, ingeniería orientado a lo que es metodología, así es como se crean los cambios de
+[01:00:49 - 01:00:54] metodología, que pueden ustedes tal vez tan algún modo trabajar en las empresas para cambiar algunos
+[01:00:54 - 01:01:04] procesos, te hace esto, entender cuáles son las dolencias de los usuarios y analizar por qué se deben
+[01:01:04 - 01:01:11] esos problemas, y jéron bueno, los dos de los danzas a tijetos, y por qué puede ser y no había
+[01:01:11 - 01:01:17] poco, no hicimos buenos requerimientos, no escribimos bien, no entendimos bien lo que quería el cliente,
+[01:01:17 - 01:01:25] empezaron a ver cuáles seran los problemas que pasaba realmente a nivel técnico para
+[01:01:27 - 01:01:33] tuvieran las dolencias los usuarios, cambios en los requerimientos, había problemas de comunicación,
+[01:01:33 - 01:01:39] en los módulos no se integran y posiblemente sea la mala arquitectura, no se pensó en buen diseño,
+[01:01:40 - 01:01:47] mala calidad de descubrimiento tardío de fallas y no se hizo muy poco, hubo desarrollo en cascada,
+[01:01:47 - 01:01:56] desarrollo en cascada, imagino que saben lo que hubieron alguna materia en esto, sí, sí,
+[01:01:56 - 01:02:02] que se coincide en la jefe de otra, en ese vuelve tres, exacto, desarrollo en cascada pasó de una fase
+[01:02:02 - 01:02:08] de la otra, y hasta que no esté totalmente frisada la previa, la fase previa no puedo avanzar,
+[01:02:08 - 01:02:14] si no cierra las fases requerimientos, no puedo avanzar la fase de programación por así decirlo,
+[01:02:15 - 01:02:23] y bueno, había cambios no controlados, esto encontraron realmente cuáles del problema, y una vez que
+[01:02:23 - 01:02:31] encontraron a que se devían estos problemas, y se dan bueno, cómo lo puedo resolver, y bueno, y ahí
+[01:02:31 - 01:02:38] definieron los principios de Rube, ellos dijeron, bueno, si yo aplico estos principios, voy a poder
+[01:02:38 - 01:02:46] resolver esto, y por lo tanto voy a evitar que los clientes suelen, o los usuarios sientan todo esto,
+[01:02:48 - 01:02:53] cuáles son los principios de Rube y adaptar el proceso que ya estuvimos hablando, no todos los
+[01:02:53 - 01:03:00] procesos siven para el proyecto con el cual voy a trabajar, equilibrar prioridad de tanto del cliente
+[01:03:00 - 01:03:06] como del grupo de trabajo, la cogeración en el equipo, no pensar en esa roza encascada,
+[01:03:06 - 01:03:14] pensar en un modelo iterativo e intervental, tener la posibilidad de generar una buena
+[01:03:14 - 01:03:20] arquitectura para eso es foco la abstracción y el foco en la calidad, ahora los vamos siguiendo.
+[01:03:23 - 01:03:31] Acá les dejo un poco marco tebórico de lo que significa cada principio, de adaptar a las necesidades
+[01:03:31 - 01:03:41] del cliente, debo ver la diferencia de los participantes, saben lo que es una iteración,
+[01:03:41 - 01:03:57] algo que se repite, algo que se repite, estoy enterando, estoy pasando, en una etapa paso por un poquito
+[01:03:57 - 01:04:03] de relevamiento, un poquito de test, un poquito de todo, voy tirando y voy incrementando,
+[01:04:03 - 01:04:10] igual ahora lo vamos sirviendo, entonces no tengo un modelo encascada como tenía anteriormente,
+[01:04:10 - 01:04:21] donde si no termino con la fase de requerimiento no puedo comenzar con la de programación o la de
+[01:04:21 - 01:04:32] construcción, me gusta más construcción, deje dejamos ese concepto y decimos vamos haciendo
+[01:04:32 - 01:04:38] un poco de relevamiento y voy entendiendo, voy armando algo de programación y también tengo
+[01:04:38 - 01:04:43] que seguir pensando en la calidad que quiero y si voy pensando en la calidad que decir, ya tenemos
+[01:04:43 - 01:04:50] que seguir pensando en cómo lo voy a testiar, entonces en cada iteración voy pasando por diferentes
+[01:04:50 - 01:05:01] fases para poder ir haciendo los más incrementales, a la extracción ya tenemos que empezar a hablar con
+[01:05:01 - 01:05:11] patrones o soluciones y sabemos que funcionan y que han cambiado y fue con calidad ver, no,
+[01:05:11 - 01:05:18] y puedo cumplir o no con todos esos satinibutos de calidad, que también lo vamos sirviendo en la
+[01:05:18 - 01:05:28] cursa, bueno ahora me voy a la definición de que es ruo y es un marco de trabajo que me va
+[01:05:28 - 01:05:37] diciendo esos procesos, ese proceso, diciendo que cómo, cuando, cómo hacerlo, pues se le
+[01:05:37 - 01:05:44] casan a variedad de tipo de sistemas, yo estoy hablando, pueden tener diferentes, pues hace un
+[01:05:44 - 01:05:51] sistema para diferentes marcados, en diferentes áreas, diferentes organizaciones, una comitación
+[01:05:51 - 01:05:58] chica que una organización grande, no es lo mismo, si tengo que hacer, mandar un cohete a la
+[01:05:58 - 01:06:07] NASA y tengo que armar un módulo, que si tengo que hacer un sistema para una biblioteca de
+[01:06:07 - 01:06:15] colectio, voy a tener diferentes ceremonias por así decirlo, uno más de escrita y otro menos,
+[01:06:15 - 01:06:26] entonces y acuerdo, a todas esas variables yo tengo que ir modificando ese marco de trabajo,
+[01:06:26 - 01:06:35] genérico y a solo más específico a mis necesidades, el proceso de ruo se basa en dos en lo que
+[01:06:35 - 01:06:42] es el este unizontario, el este vertical, el unizontal representa tiempo, fases y
+[01:06:42 - 01:06:48] teraciones, esto lo vamos a ver ahora un poco más en detalle y en el vertical yo voy a tener todas
+[01:06:48 - 01:06:56] las disciplinas, actividades, arte, espáticos y flujo de trabajo, después ahora lo vemos con
+[01:06:56 - 01:07:06] una imagen, pero tenemos esos dos ejes, no tiene cuatro fases, esto lo deberían saber, pero
+[01:07:08 - 01:07:15] tengo cuatro fases, yo siempre digo como para que lo entienda mi abuela al menos voy a
+[01:07:15 - 01:07:22] literar cuatro veces, está basado en la iteración, rupe, y voy a literar al menos cuatro veces, la primera
+[01:07:22 - 01:07:30] es el inicio y tiene un objetivo, todas las fases tienen un objetivo, el inicio bien simple como para
+[01:07:30 - 01:07:37] que lo entienda a mi abuela, el objetivo es entender el problema, yo no puedo cerrar estas
+[01:07:37 - 01:07:44] fases si no entendí bien lo que voy a dejar, hay proyectos que lo puedo sacar, puedo decir bueno,
+[01:07:44 - 01:07:57] no sé, si tengo que hacer una aplicación para el dotéca de un colegio y la reléce bastante
+[01:07:58 - 01:08:05] sencilla, capaz que con una mínima reunión puedo entender el problema en sí, ahora si yo les digo bueno,
+[01:08:05 - 01:08:22] tengo que ir al sur y hacer una aplicación para el suelo, para ver qué probabilidad de que haya
+[01:08:22 - 01:08:30] petróleo y realmente no, ya tenéis que juntar con ingeniero de petróleo, con ingeniero y
+[01:08:30 - 01:08:35] entender bien el problema, aquí es lo que tengo que analizar con el donde puedo obtener los datos,
+[01:08:35 - 01:08:43] me van siguiendo, tengo que hacer una fase de inicio un poco más profunda, por lo tanto yo voy a ir
+[01:08:43 - 01:08:51] adaptando ese proceso de acuerdo a mis necesidades, la fase una vez que logrés entender el problema,
+[01:08:51 - 01:08:58] ahí puedo pasar a la siguiente fase que es la elaboración, lo que tengo que tener en
+[01:08:58 - 01:09:05] esta fase es entender la solución, no puedo pasar a la fase siguiente que es la de construcción,
+[01:09:05 - 01:09:10] si lo entiendo bien que es lo que quiero hacer, en esta fase en donde nosotros vamos a poner bastante
+[01:09:10 - 01:09:19] foco porque es la fase donde vamos a agregar como ARTIM, toma mayor valor a agregar la solución,
+[01:09:19 - 01:09:25] que es justamente arma como va a hacer la solución y va haciendo que en maveras de web,
+[01:09:25 - 01:09:33] en prototipados, etcétera y ahí arma como arquitecto, cómo va a hacer la solución, después
+[01:09:33 - 01:09:40] viene la fase, no puedo pasar a la otra fase, si no la tengo por lo menos ya
+[01:09:40 - 01:09:46] completa el entendimiento de la solución, me voy a dar otra la construcción, tengo que tener la
+[01:09:46 - 01:09:54] solución, en esta etapa voy construyendo, no puedo pasar a la otra fase, si no tengo algo
+[01:09:54 - 01:10:01] ándigo que esté hablando, si no tengo la solución, una vez que ya tengo la solución,
+[01:10:01 - 01:10:07] si erro me voy a la transición en donde tengo que aceptar la solución por parte del cliente,
+[01:10:07 - 01:10:13] que el cliente acepta esta solución, esto que quiere decir bueno esta solución, esta solución
+[01:10:13 - 01:10:19] estuya, te dejo los manuales, si se cae lo levantas de esta manera, si tienes problemas con la
+[01:10:19 - 01:10:26] base de datos acá de paso en usuario y la clave para que lo pueda resolver, que acepte completamente
+[01:10:26 - 01:10:34] la solución, capaz que tengo que hacer una capacitación para los usuarios, para que lo puedan
+[01:10:34 - 01:10:42] utilizar, etcétera, me va a cien dos, fíjense en sillas, fases y objetivos de cada una de estas
+[01:10:42 - 01:10:51] fases, me voy acá, ahora obviamente ese es el objetivo, no puedo pasar de una fase a la otra,
+[01:10:51 - 01:10:59] sin un público en el objetivo principal, pero cuando estoy transitando esa fase, estoy haciendo
+[01:10:59 - 01:11:07] determinadas tareas, actividades, ¿y qué hago? en el inicio de final del objetivo, el alcance del
+[01:11:07 - 01:11:13] proyecto, trabajo con un caso de uso, caso de uso de imagino que lo vieran, me pego un tiro,
+[01:11:13 - 01:11:31] si se me llame el pensáxico, de fin a los casos de uso, empiezos los preliminares, los preliminares
+[01:11:31 - 01:11:39] en el caso de uso, después en la elaboración que hago ya tengo un plan de proyecto, ya entendí
+[01:11:39 - 01:11:45] qué es lo que tengo que hacer, entonces pueden empezar a dar un plan de proyectos, tengo los casos de
+[01:11:45 - 01:11:52] uso preliminares y bueno, los tengo que ir elaborando a agregarle mayor nivel de detalle, estoy haciendo
+[01:11:52 - 01:12:02] una iteración e incremental, ok, a medida que voy transitando, voy a agregarle mayor nivel de detalle,
+[01:12:02 - 01:12:08] luego empiezas la construcción, a mí me gusta hablar mucho de construir el producto y no de programar,
+[01:12:08 - 01:12:15] porque si me voy a un proyecto SAP, es más configurar que programación, entonces habla mucho de construir,
+[01:12:15 - 01:12:24] construir el producto y después la transición, una vez que tengo el producto andando, tengo no sé la
+[01:12:24 - 01:12:34] prueba de abeta, la prueba alfa del producto, se queda anda, me voy a la entrega del producto, a por parte del usuario,
+[01:12:34 - 01:12:45] estas son lo que yo voy generando, a grandes rasgos en cada fast and, acá les dejo un poco
+[01:12:45 - 01:13:00] con mayor nivel de detalle que hace cada fast and, sí, sí, está bien lo vemos, está a lecer casos de
+[01:13:00 - 01:13:07] uso específicar el alcance y lo que tengo que hacer, vamos un poco a la nuestra, la que nos importa,
+[01:13:11 - 01:13:21] me quedo tranquilo igual, un repaso con mío lo van a ver, repaso tipo flash con el caso de uso,
+[01:13:21 - 01:13:28] bueno, la elaboración, está más enfocado del diseño que está enfocada esta materia, analizar el
+[01:13:28 - 01:13:33] dominio establecer una buena arquitectura, lidiar con los elementos de redes, donde encuentro
+[01:13:33 - 01:13:42] de redes, bueno, te empieza por esto, armadón dominio, ya tenemos que tener el entendimiento del 80%
+[01:13:42 - 01:13:48] de los casos de uso, ya puedo agregar un caso de uso y sí, porque si creativo, incremental, yo hasta en la última
+[01:13:48 - 01:13:57] fase puedo agregar un caso de uso, pero si lo diseñé bien, el impacto debería estar menor, me van siguiendo,
+[01:14:00 - 01:14:24] sí, brope, bueno, uno está, imagínense que esto está un proyecto, esto lo aclaro para que
+[01:14:24 - 01:14:30] se tiene la vida del proyecto, uno cuando empieza a hacer un proyecto y digo bueno, vamos a hacer un
+[01:14:30 - 01:14:39] proyecto de X y digo, bueno, empezamos con mucho esfuerzo, un poco menos esfuerzo, empieza a calentar
+[01:14:39 - 01:14:46] el proyecto, hacer el relevamiento, se suma una analista y después tengo en la fase de construcción
+[01:14:46 - 01:14:53] de esfuerzo muy grande, construyo, construyo, construyo, ya tengo acá una aplicación andando,
+[01:14:53 - 01:15:01] en la siguiente, tengo una aplicación andando y acá empiezo a bajar el esfuerzo del equipo, del desarrollo y
+[01:15:01 - 01:15:09] después tengo fase de mantenimiento, no fase de mantenimiento de nacimiento, siempre tengo algo,
+[01:15:11 - 01:15:22] y acá está acá, acá está que estuve, imagínense que estuve en cinco meses y acá está en fase de
+[01:15:22 - 01:15:39] mantenimiento y hace cuatro años, cuatro años que tengo la aplicación, que están dando como
+[01:15:39 - 01:15:49] obses veces, sería 48 meses, cuatro años, 48 meses, obviamente acá tuve a cinco programadores,
+[01:15:50 - 01:16:04] acá tuve a un gerente de proyecto, acá tuve a un especialista en base de datos, tuve gente que sepa
+[01:16:04 - 01:16:14] de redes, capaz que le da tuve 100 por siempre, tuve alguien que sepa de redes, y acá tengo solamente
+[01:16:14 - 01:16:26] a dos personas, y acá tuve no sé, el cinco personas, tuve a Viet Esther, tuve a dos arquitectos,
+[01:16:26 - 01:16:37] empiezo a evaluar esto y acá tuve dos personas tuve muchísimo, capaz que donde más gasto tengo,
+[01:16:37 - 01:16:46] tuve un montón, un gasto muy fuerte, a poner dólares, lo que lo opeto, y acá no me ha...
+[01:16:47 - 01:16:54] para que tuve un esfuerzo muy grande de plata en estos cinco meses, pero después tuve cuatro años,
+[01:16:54 - 01:17:05] es donde todos los meses tuve a dos personas y capaz que en la mitad gasté lo mismo que en el
+[01:17:05 - 01:17:14] desarrollo, me van siguiendo, por lo tanto, yo tengo que ir pensando en que sea fácil de mantener,
+[01:17:15 - 01:17:24] tengo que pensar que mi aplicación sea fácil de modificar porque donde más plata estoy
+[01:17:24 - 01:17:31] gastando desde en el mantenimiento, parece que uno gasta más plata en la creación, pero después
+[01:17:31 - 01:17:37] tengo una vida muy larga, excepto de ser algo muy puntual, pero la vida de las soluciones largas,
+[01:17:38 - 01:17:47] el banco invertió muchísimo en hacer una mesa de dinero, que es una solución para invertir,
+[01:17:49 - 01:17:57] pero ha... murió un año y hace diez años está el mismo software y hay un montón de gente para
+[01:17:57 - 01:18:03] mantenerlo, para agregarle mayor funcionalidad, entonces tengo que ir armando una solución,
+[01:18:04 - 01:18:12] que sea fácil de configurar y que pueda ir adregando funcionalidad, porque es donde más gasto,
+[01:18:12 - 01:18:23] por lo tanto el diseño es fundamental, todas estrenos para acá, perdón, me den ahora acá,
+[01:18:23 - 01:18:35] el diseño es fundamental, que cumpla con todo esto, que sea fácil de mantener, que sea adaptable,
+[01:18:35 - 01:18:42] que sea configurable, que cumpla con la funcionalidad, que sea bien acotada y poder hacerlo bien
+[01:18:42 - 01:18:51] atómico para poder ir y haciendo lo incremental, tengo que pensar en una solución con calidad y
+[01:18:51 - 01:18:59] las pássedones, te damos ese paso, es en la de diseño que está dentro de la fase de la oración,
+[01:18:59 - 01:19:07] dentro de Rub, yo me voy un poquito, pero es para que empiecen a la relación artema, después
+[01:19:07 - 01:19:12] estoy en la fase de construcción, de voy a construir el producto que el arquitecto me dijo que
+[01:19:12 - 01:19:20] tengo de construir el arquitecto de software, si hago la analogía es como decir, bueno, ya tengo
+[01:19:20 - 01:19:26] todos los planos de la casa y bueno, y ahora vienen los saluaniles y empiezan a levantar pared,
+[01:19:27 - 01:19:34] en estas pásseles levantan las paredes, pero también va a venir el electricista entre, bueno,
+[01:19:34 - 01:19:38] con la de que esta pared tengo que poner un caño para pasar toda la electricidad y después
+[01:19:38 - 01:19:47] viene el ingeniero iráulico o alguien que sepa o un plomero, y me decía bueno, en el piso va a
+[01:19:47 - 01:19:58] pasar otro caño, que lo definió el arquitecto para llevar a vuelváneo, entonces después empezamos a
+[01:19:59 - 01:20:07] meter diferentes roles en el tapa de construcción, pero va a estar lo que pida, lo que nos
+[01:20:07 - 01:20:14] guió el arquitecto, en el arquitecto nos guió, somos nosotros en esta materia es lo que vamos a armar
+[01:20:14 - 01:20:22] acá, el nuestro diseño de software lo que vamos a hacer es obviamente tenemos,
+[01:20:22 - 01:20:43] no olvidarse de las puertas claras, fantásticas, como muy buenas cerraduras hoy en día, bueno,
+[01:20:43 - 01:20:54] desarrollo, me perdi, acá, y bien yo acá estoy construyendo, estoy armando toda la casa,
+[01:20:55 - 01:21:02] tengo que hacer, cuando venga el dueño de la casa, y digo bueno, mirad, vací no te lo acerto,
+[01:21:02 - 01:21:09] pintáme la al menos, entonces ahí va, hasta donde voy a seguir la construcción o no, obviamente
+[01:21:09 - 01:21:15] hay algo fundamental que siempre es la plata, ¿no? capaz que te dicen bueno, no, hagamos una
+[01:21:15 - 01:21:23] cosa, hagamos una casa de una única, de un incopiso, después vemos más adelante, y siempre hay un
+[01:21:23 - 01:21:31] tema económico en todos lados, pero eso también me limita saber hasta dónde es mi alcance que lo
+[01:21:31 - 01:21:40] tengo que haber decidido antes, y yo con la casa de construcción, una vez que ya estoy de acuerdo,
+[01:21:40 - 01:21:48] ahí lo que hacemos es liberar el producto beta, ya está, funciona, tengo capacitaciones,
+[01:21:48 - 01:21:55] seguimos para adelante, hago la transición, manuales de usuarios, manuales de usuarios,
+[01:21:55 - 01:22:00] cada vez son videítos, hoy ya no existe el manual de usuario tan rigido como antes, si no
+[01:22:00 - 01:22:06] que necesitamos, tienes que dar un usuario, bueno, mirad este vídeo, ahí estamos, ahí, ya
+[01:22:06 - 01:22:12] cambio todo el tema, ya no existe el manual de usuario tan rigido como antes, y si existe esto
+[01:22:13 - 01:22:22] todo web para justamente poder atener esa actividad al cambio, ahí, seguimos, estas son las
+[01:22:22 - 01:22:27] características más importantes dentro de esta metodología, pieron que hablé mucho de qué
+[01:22:27 - 01:22:35] es iterativo, dejo el modelo encajcada, me voy a un modelo iterativo, estas sentaban la arquitectura,
+[01:22:35 - 01:22:41] el rol del arquitecto, el rol de diseñadores de software es fundamental para justamente hacer
+[01:22:42 - 01:22:54] bastante configurable, mantenible, manejar casitas, que les puedo ir en sofando una o otra de manera
+[01:22:54 - 01:23:01] que pueda hacer un sistema que sea intervental y que al ser casitas también les puedo testiar más fácil,
+[01:23:01 - 01:23:11] porque está bien aislado, bien comunicado con nosotros, está aislado la funcionalidad central, pero
+[01:23:12 - 01:23:18] hay una interacción estrecha con los demás modulos, y eso lo da la arquitectura, que es lo que
+[01:23:18 - 01:23:29] ustedes tienen que ir pensando, está desarrollado, está dirigido por casos reuso, este tipo de metodología
+[01:23:29 - 01:23:37] dice bueno, vamos a desarrollar los casos de uso, entonces voy a pasar por una etapa de la primera etapa,
+[01:23:37 - 01:23:43] me vengo para acá, para que ustedes también me vayan entendiendo, y estoy en la paz de inicio,
+[01:23:43 - 01:23:49] en las facilidades que era ahí, en la que el problema, y bueno, ¿qué voy a entiernos?
+[01:23:49 - 01:23:55] Y empieza a escribir algunos casos de uso, posiblemente acá tengo un 20% de los casos de uso definidos,
+[01:23:55 - 01:24:05] o tenga ya los nombres de los casos de uso, pero no el desarrollo en sí, pero yo nos tengo que ir
+[01:24:05 - 01:24:14] entendiendo, está guiado por caso de uso, está metodología desde el día uno, tengo caso de uso,
+[01:24:14 - 01:24:21] ya tengo, no capacan tengo el escrito el 100% pero por lo menos tengo los grandes títulos,
+[01:24:21 - 01:24:27] me voy a la fase de elaboración, está guiado por caso de uso, entonces el guiado por caso de uso
+[01:24:27 - 01:24:32] es escribirlos construcción, ¿qué hago con los casos de uso? Nada, ¿no? ¿cómo que nada? Sí,
+[01:24:32 - 01:24:39] tener los casos de uso, tienes que construir basándote en esos casos de uso, por lo tanto
+[01:24:39 - 01:24:44] está guiado por los casos de uso, tengo que hacer una transición para que me sirve el caso de uso,
+[01:24:44 - 01:24:50] y bueno, el caso de uso te va a servir para que el cliente acepte la solución basándonos
+[01:24:50 - 01:24:58] en lo que nos pidió el caso de uso, por lo tanto cuando hablamos, está dirigido por caso de uso,
+[01:24:58 - 01:25:08] es porque el caso de uso está en todas las fases del proceso, ¿ok? Es un proceso configurable de acuerdo
+[01:25:08 - 01:25:21] a las características del proyecto, a las características de la empresa, a las características del
+[01:25:21 - 01:25:26] ciclo de vida, del proyecto de quiero, es mantenimiento evolutivo, mantenimiento correctivo,
+[01:25:26 - 01:25:32] proyecto nuevo, etcétera, ahí voy a hacer definir el proceso, lo tengo que configurar,
+[01:25:35 - 01:25:41] ¿de acuerdo? En que pimos yo he estado, no gusta mucho relacionar temas,
+[01:25:44 - 01:25:49] a estas personas, este era una especialista en todo lo que era en toda la tecnología de objetos,
+[01:25:49 - 01:26:00] por lo tanto cuando empezó a armar luz y bueno vamos a irnos con todo lo que es, las tengan
+[01:26:00 - 01:26:04] casos orientados objetos, en ese momento había una hoja muy importante con todo lo que era
+[01:26:05 - 01:26:12] orientado objeto, así que soporta todas técnicas y un ML, está basado mucho en lo que es orientado
+[01:26:12 - 01:26:20] objetos, y bueno, obviamente impulsa la calidad y gestión de riesgos siempre para pasar de un etapa
+[01:26:20 - 01:26:25] a otra y el galúa el riesgo, cuáles son los riesgos, cuáles son las mejoras como poder resolverlo,
+[01:26:26 - 01:26:36] acá todo bien, sí, bueno es un proceso iterativo, esto ya lo explique un poquito, les dejo siempre,
+[01:26:36 - 01:26:44] les voy dejando algunas presentaciones como para que ustedes lo puedan leer, obviamente en el
+[01:26:44 - 01:26:52] foco iterativo me permite tener incrementos en la solución entregar, me permite acomodar nuevos
+[01:26:52 - 01:27:00] requimientos, como lo yo no estoy en cascada, fue en cualquier momento a agregar un nuevo requerimiento,
+[01:27:00 - 01:27:07] porque lo descubrimiento tardío del requerimiento lo puede agregar el mismo que ir modificando mi
+[01:27:07 - 01:27:13] arquitectura, en cada fase temo que identifica los riesgos para ver cómo lo puedo resolver en la
+[01:27:13 - 01:27:23] próxima interacción, esta centrada en la arquitectura, esto ya le estuvo viendo, está dirigido por casos
+[01:27:23 - 01:27:33] de uso, un proceso configurable, un avión de objetos, calidad, y me ven guay, este nunca lo
+[01:27:33 - 01:27:38] vieran, porque si me hicieron que nunca vieron, Rube es porque calculo que no lo harán visto,
+[01:27:42 - 01:28:24] este me gusta un poquito más, se lo suelen llamar diagrama de olas o de ballenas, y ya se lo
+[01:28:24 - 01:28:36] dejo, hay diferentes obviamente, diagramas de ballenas o de olas, recuerdan que yo les dije que
+[01:28:36 - 01:28:53] tenía que relacionar los temas, tenía dos ejes disciplinas y fase tiempos citeraciones, entonces tengo
+[01:28:53 - 01:29:02] disciplinas y las citeraciones, y en cada una de esas disciplinas yo tengo esta ahorita que me
+[01:29:02 - 01:29:08] estamos tratando del esfuerzo que me debe requerir, cada disciplina de acuerdo a la fase que estoy
+[01:29:08 - 01:29:17] transicionando, entonces obviamente yo al iterar, yo tengo que pasar por todas estas disciplinas,
+[01:29:17 - 01:29:25] eso es lo que me permite bajar el riesgo, que es uno de los principios de Rube, entonces yo tengo
+[01:29:25 - 01:29:32] una esfuerzo en todas estas disciplinas, pero va a ir variando de acuerdo a las fases en que estoy,
+[01:29:32 - 01:29:37] estoy en la fase de inicio, voy a tener mayor esfuerzo en lo que es modelado de negocio, porque estoy
+[01:29:37 - 01:29:45] en el entendimiento del problema, estoy en la fase de elaboración, voy a tener un mayor esfuerzo en
+[01:29:45 - 01:29:54] acabemos de requerir mientos y en diseño, de lo que voy a tener en testin, pero no significa que no
+[01:29:54 - 01:29:58] tengo que ir viendo testin, tenés que ir viendo testin por el testin, y acuerdo a lo que vos
+[01:29:58 - 01:30:03] quieres probar también tenés que enfocar la arquitectura, pero eso la hablaremos más adelante,
+[01:30:03 - 01:30:12] en construcción y ya voy a tener que ir bajando en la fase de requerimiento y de modelado,
+[01:30:12 - 01:30:19] está en la diseño voy a tener varias, pero donde voy a tener mayor esfuerzo es en lo que es
+[01:30:19 - 01:30:27] implementación, codificación, construcción, en un mayor esfuerzo en el amarichito y empieza a
+[01:30:27 - 01:30:35] subir el testin, ahora, mira aunque yo les dije, al menos voy a iterar cuatro veces y sí,
+[01:30:35 - 01:30:40] y teiro la inicio en excel yo, no es de importe, inicio y elaboración, construcción o transición,
+[01:30:41 - 01:30:52] pero también el proceso me brinda la posibilidad de poder iterar más, acá me dice, bueno, también
+[01:30:52 - 01:30:58] poder sitiar en elaboración dos veces, en construcción, poder sitiar más, no recomendable
+[01:30:58 - 01:31:07] iterar más de cuatro en construcción y en transición hasta dos, en elaboración también recomienda
+[01:31:07 - 01:31:18] hasta dos, eso es esas iteraciones extras que se van a dar en cada fase, es porque cuando hay
+[01:31:18 - 01:31:24] proyectos muy grandes, muy complejos o con mucho riesgo, y bueno, te permiten hacer varias
+[01:31:24 - 01:31:31] iteraciones porque va haciendo la complejidad, después lo vamos a ver en un sitio que los voy a mostrar,
+[01:31:32 - 01:31:40] esto son tres pánqueras de tener que leer un poco, que está todo lo que son el proceso de
+[01:31:40 - 01:31:56] estructura del proceso, los dejo acá, y acá vamos con esto, yo tengo en estos, en cada uno de
+[01:31:56 - 01:32:04] estos de las pases y yo tengo, voy a dar una esfuerzo la iteración que es lo que vimos acá,
+[01:32:05 - 01:32:14] en un puntito de esto, me encuentro con que tengo que tener algún resultado de lo que estuve
+[01:32:14 - 01:32:27] elaborando y eso se lo llama artefactos, que son todos lo que yo genero, no vamos a basar en
+[01:32:27 - 01:32:33] modelos, ahora vamos a ver y después hay un flujo de trabajo que bueno, es el esfuerzo de todo lo que
+[01:32:33 - 01:32:39] van a tener que hacer en dentro de este proceso, entonces el flujo de trabajo, que es lo que hace y
+[01:32:39 - 01:32:48] describible estructura, el resultado es el artefacto del modelado de negocio o el que me recomienda la
+[01:32:48 - 01:32:57] gérame, lo que me recomienda rudo, entonces dentro de estos artefactos, todo lo que genero dentro
+[01:32:57 - 01:33:06] de rudo, se llama artefactos, entonces tiene un diagrama, webml, bueno, hablo del artefacto
+[01:33:06 - 01:33:13] de webml, si hablo de un plan, hablo del proyecto de plan que es el artefacto dentro de webml,
+[01:33:13 - 01:33:25] todo lo que genero dentro del proyecto para cumplir con el objetivo final son artefactos,
+[01:33:26 - 01:33:36] y a veces necesito un artefacto para seguir otra fase, yo no puedo comenzar un etapa de
+[01:33:36 - 01:33:43] construcción, sino tengo la arquitectura armada, por lo tanto tengo que tener una relación entre
+[01:33:43 - 01:33:50] los artefactos, los artefactos van a ir creciendo a medida que voy ir transicionando a las diferentes
+[01:33:50 - 01:33:58] caces, algo que es importante que ustedes vean es que yo voy a tener modelos y vistas, esto lo
+[01:33:58 - 01:34:07] vamos a ver bien cuando apliquemos foml que lo van a ver, poder ver más en concreto, pero el modelo
+[01:34:07 - 01:34:17] son todos los elementos, y las vistas es como relación o esos elementos, ustedes vieron
+[01:34:17 - 01:34:23] en webml, tal cual que vieron diagramas de caso de uso, actividad que más vieron,
+[01:34:26 - 01:34:32] diagrama de clases, diagrama de clases, bien, diagrama de estados,
+[01:34:32 - 01:34:36] diagrama de estados, bueno, altásticos, de secuencia y comunicación,
+[01:34:36 - 01:34:47] qué es secuencia, fantásticos, secuencia, bueno, entonces ustedes tienen todos esos diagramas,
+[01:34:47 - 01:34:54] esos diagramas pueden llegar a hacer una vista, ¿ok? Ahora, esas vistas forman parte de un modelo,
+[01:34:54 - 01:35:02] porque si uso una clase en el diagrama de clases, después esa clase la voy a utilizar en el diagrama
+[01:35:02 - 01:35:09] de secuencia y tiene que ser la misma, entonces estoy dentro del mismo modelo, está con el mismo
+[01:35:10 - 01:35:16] elemento, la clase X, que lo voy a relacionar en diferentes tipos de vistas, en el día aquí, por ejemplo,
+[01:35:16 - 01:35:26] en el diagrama de clases y en el diagrama de secuencia, entonces dentro de un mismo modelo tengo
+[01:35:26 - 01:35:33] diferentes elementos en la clase y más que no sé, que lo puedo utilizar en diferentes vistas,
+[01:35:34 - 01:35:42] si yo voy a hacer una analogía con el cuerpo humano, digo bueno, las vistas son las
+[01:35:42 - 01:35:50] representaciones, descritas, acá hay una definición un poquito, pero imagínense que yo
+[01:35:50 - 01:35:57] viene un extraterrestre y tengo que explicar cómo es el hombre sin mostrarle el hombre,
+[01:35:57 - 01:36:06] así es decir, esto es un hombre, un ser humano, ¿cómo se le explico solamente con un dibujito y no lo
+[01:36:06 - 01:36:17] va a entender? Entonces, yo tengo para diferentes problemas diferentes vistas para poder mostrarse
+[01:36:17 - 01:36:26] lo, bueno, el hombre tiene un esqueleto que es a la parte ríquia, tiene una parte muscular, tiene
+[01:36:26 - 01:36:33] órganos, le muestro otra vista, le muestro la parte de la vista de circulatorio, de la sangre,
+[01:36:33 - 01:36:39] como bombéas, entonces le voy a ir formando diferentes vistas, después le puedo mostrar un imagen
+[01:36:39 - 01:36:50] estética, tiene pelo, la piel, puede ser determinado color, tiene ojos que pueden ser determinados color,
+[01:36:50 - 01:36:58] eso es otra vista, pero capaz que él piensa que es algo más chiquito, más grande, no hay que ir
+[01:36:58 - 01:37:13] armándolo, cómo es el ser humano, con diferentes vistas, cada vista está relacionada, yo no puedo acá
+[01:37:13 - 01:37:21] colocarle dos cabezas cuando las demás vistas no la tienen, entonces tiene que haber una relación
+[01:37:21 - 01:37:27] estrecha entre las vistas, son los mismos elementos que se van a ir repitiendo entre las vistas,
+[01:37:27 - 01:37:34] esto es fundamental en el diseño, es algo que nos fijamos muchísimo, es como decir, bueno, quiero
+[01:37:34 - 01:37:43] construir una casa a una pared, pero el caño de luz pasa por la mitad del lím, no, el caño de luz
+[01:37:43 - 01:37:50] tiene que pasar entre la pared, tiene que haber una relación estrecha y pero yo tengo el plano eléctrico
+[01:37:50 - 01:37:57] y el plano de la estructura de la casa son diferentes, está, pero lo tengo que relacionar, y ese es un
+[01:37:57 - 01:38:05] trabajo también del arquitecto, y eso es algo que nos fijamos mucho en los exámenes, que haya
+[01:38:05 - 01:38:17] relación entre lo que ustedes estén modelando, el proceso unificado se basa en el NML, el
+[01:38:17 - 01:38:22] estamos trabajando dentro del modelo, modelos tienen elementos, recuerda, el modelo tiene elementos,
+[01:38:22 - 01:38:28] estos elementos de acuerdo a la problemática que quiero resolver puedo detener diferentes vistas,
+[01:38:28 - 01:38:33] pero esas vistas tienen esos elementos dentro del modelo que los tengo aquí relacionando,
+[01:38:33 - 01:38:41] obviamente yo les dije el ejemplo pasándome en lo que es la arquitectura NML, pero ustedes como
+[01:38:41 - 01:38:46] arquitectos van a manejar muchas vistas, estas de caso de uso, vista de diseño, vista de despliegue,
+[01:38:46 - 01:38:55] procesos, implementación, base de datos, hay muchas, todas tienen que estar relacionadas,
+[01:39:04 - 01:39:14] bueno esto está en amarillo, siempre lo mismo, porque lo bajé de una presentación de análisis
+[01:39:14 - 01:39:19] en donde ponían el foco, en el análisis, y donde se pone el foco, en las que están en amarillo,
+[01:39:20 - 01:39:25] nosotros estamos en el diseño donde ponemos mucho foco en los diagramas de interacción,
+[01:39:25 - 01:39:32] diagrama de colaboración, diagrama de diseño, ya hemos diciado, diseño,
+[01:39:32 - 01:39:41] de estados y actividades, de actividades más orientados al proceso,
+[01:39:42 - 01:39:51] proceso lo cambio, diagramas de acción más que de proceso, diagrama de clase de diseño,
+[01:39:51 - 01:40:01] obviamente, esto lo tienen que pueden de nos de ir, ¿sí? ¿Qué serían estados colunas que
+[01:40:01 - 01:40:08] están en cada uno de los modelos? Perfecto, los diagramas de webmenito lo tendrán que dar visto,
+[01:40:08 - 01:40:15] los diagramas de webmenes se vienen estáticos y dinámicos, no sé si lo viste,
+[01:40:19 - 01:40:24] no correse por matos, o al verlo, no lo dieron, sí, me decimos por que?
+[01:40:24 - 01:40:32] o sea, nunca nos dijeron que cual era estático y cuál era dinámico, o sea, nunca entendí que era cada uno,
+[01:40:32 - 01:40:47] bueno, ahora te lo estilramos, bueno, igual lo vamos a ver, pero lo vamos a vermos adelante,
+[01:40:47 - 01:40:54] lo que te muestras eso para, pasa que si no me voy para webmenes y es la clase, es la tercera clase,
+[01:40:54 - 01:41:00] pero vos dentro de webmenes hay diferentes difereniciones de diagramas que pueden dividir
+[01:41:00 - 01:41:08] diferentes categorías, hay una de las categorías que es la más común, que es la estructura,
+[01:41:08 - 01:41:18] lo dieron, está, sí estáticos, o a veces lo llaman estructural, donde muestra la solución,
+[01:41:18 - 01:41:26] que no va a cambiar, que no ves la comunicación entre los objetos, ¿sí? Es la parte estática,
+[01:41:27 - 01:41:37] clases, interfaces, objetos, diagrama de espliegue, ahora tenés después la parte dinámica,
+[01:41:37 - 01:41:43] que la parte dinámica está orientado a lo que es el comportamiento, muestra el comportamiento
+[01:41:43 - 01:41:50] entre los objetos, el paso del mensaje, el proceso, y hay una posibilidad de una variable tiempo,
+[01:41:51 - 01:42:00] ahí tenés la diagrama de secuencia, diagrama de secuencia, diagrama de colaboración,
+[01:42:00 - 01:42:06] el estado, porque hay una comunicación que muestra el dinámismo dentro de las objetos,
+[01:42:09 - 01:42:15] por eso lo separa, entonces voy alomío a la de material,
+[01:42:15 - 01:42:23] tenés dentro del modelo de diseño, cuáles son los más importantes, y te lo separa,
+[01:42:23 - 01:42:34] en las dos categorías de UML, dynamic obstáctico, los de comunicación, como justamente
+[01:42:34 - 01:42:45] que muestre el dinámismo, te marca con una X en esta variable, ¿sí? ¿sí entendió? Sí, pero
+[01:42:45 - 01:42:50] me quedó más clara, muchas gracias. No, por favor, acá también, acá tenés
+[01:42:50 - 01:42:57] estático irinando, ¿cuáles es otra forma de verlo? Igual lo vamos a ver, lo vamos a ver,
+[01:42:57 - 01:43:06] porque si esto lo tendrían que tener reencontra incorporado, pero bueno, lo vamos a hacer un
+[01:43:06 - 01:43:13] prequé de no repaso, así que no se preocupa. Bueno, ustedes, diagrama de caso de uso me
+[01:43:13 - 01:43:19] dije, aunque hayan visto, la idea es que ustedes van evolucionando, tienen una forma
+[01:43:19 - 01:43:25] una iteración, van a iterando. Al principio, van a tener algo muy básico, después van
+[01:43:25 - 01:43:31] a ir explotando ese modelo, le van a ir dando a mayor nivel de detalle, mayor nivel de
+[01:43:31 - 01:43:37] entendimiento, y la idea es que puedan ir atendiendo a un mayor nivel de detalle, es decir, un
+[01:43:37 - 01:43:46] nivel alto de abstracción van a ir eliminando esas dudas y van a ir bajando un mayor
+[01:43:46 - 01:43:56] nivel de detalle. Esto lo, esto se puede lograr a través de literación. Si yo no intero,
+[01:43:56 - 01:44:02] no voy a ir un lado al otro, nunca voy a lograr ese nivel de profundidad y conocimiento del
+[01:44:02 - 01:44:07] modelo, ¿ok? ¿Hasta dónde puedo llegar y hasta dónde sea el más conveniente de acuardo
+[01:44:07 - 01:44:15] el proyecto que me esté trabajando? Ok? Bueno, acá un poco de teoría, me vengo acá,
+[01:44:15 - 01:44:21] le dejo algo de fotografía, me vengo acá. Él les quería mostrar, hoy estuve navegando
+[01:44:21 - 01:44:29] un poquito. Me fui a Utipedia, proceso unificado, está bastante bien, pero es bastante básico,
+[01:44:29 - 01:44:36] igual lo pueden ir incorporando, está en español y es bastante sencillo, está muy bien,
+[01:44:36 - 01:44:44] lo pueden leer de acá. Algo que me gustó, yo antes me he mostrado un sitio, pero la realidad
+[01:44:44 - 01:44:49] es que mejor de funcionar, creo que lo perdi, no importa, pero acá les voy a pasar también
+[01:44:49 - 01:45:12] este para que lo vayan viendo. Me gustó bastante este sitio, es un introducción a Rube,
+[01:45:12 - 01:45:20] uno cuando trae una metodología, algo que es fundamental dentro de la que es la organización,
+[01:45:20 - 01:45:29] es que puede llevar esa metodología a los usuarios, ¿no? A que todos puedan acceder y que
+[01:45:29 - 01:45:38] la puedan conocer. Eso se llama institucionalizar el proceso, ¿ok? Y no lo pueden institucionalizar,
+[01:45:38 - 01:45:45] sino lo van a conocer. Entonces, lo que se suele hacer es hacer un sitio web donde definen
+[01:45:45 - 01:45:51] el proceso de cada organización y cómo se trabaja, por ejemplo, bueno, no sé, estoy
+[01:45:51 - 01:45:57] trabajando en una empresa donde tengo que resolver tickets, bueno, ¿cuáles son los niveles
+[01:45:57 - 01:46:03] de esos tickets? Bueno, eso es un proceso dentro de la organización, y lo ideal es que la
+[01:46:03 - 01:46:08] organización no pueda conocer para eso se arma un sitio, un sitio donde todas pueden acceder
+[01:46:08 - 01:46:15] sin información y diga, bueno, a ver, nivel 1, que significa y que es mucho problema muy grande
+[01:46:15 - 01:46:21] que le tengo que dar solución a las dos horas, me van siguiendo. Eso se llama institucionalizar
+[01:46:21 - 01:46:28] el proceso. Me estoy metiendo con otra materia pero no importa, creo que sirve. Dentro
+[01:46:28 - 01:46:36] de Rube, hay también algún sitio, este es un sitio muy acotado pero no importa donde explica
+[01:46:36 - 01:46:48] que Rube, que he explicado para que es el proceso, explica para que Rube, ¿no? ¿Cómo lo
+[01:46:48 - 01:46:56] aplico? ¿Tiene son los que lo deberían aplicar? Este cual lo me encanta. ¿Cuántas veces
+[01:46:56 - 01:47:02] voy a incrementar ese nivel de iteraciones? Hoy tratando de bajarlo en la realidad ¿no?
+[01:47:02 - 01:47:09] ¿Cuántas veces voy a inventar esas iteraciones? De acuerdo a la complejidad del proyecto,
+[01:47:09 - 01:47:14] ¿no? Si es una alta complejidad, es porque el proyecto tiene una gran escala, tengo muchos
+[01:47:14 - 01:47:21] integrantes o gente que me está pidiendo cosas, ahí le voy a dar mayor nivel de complejidad
+[01:47:21 - 01:47:30] o ceremonia. Si tengo un proyecto con una gran complejidad técnica y posiblemente tenga
+[01:47:30 - 01:47:35] a triterar, ahora si conozco mucho la tecnología, eso es una tecnología que ya la recontra
+[01:47:35 - 01:47:42] uso, que el equipo de trabajo ya trabaja, que es sencilla el nivel de ceremonia, como
+[01:47:42 - 01:47:52] lo de nomina, va bajando. Si el nivel de complejidad, de proceso, de manas y me en baja,
+[01:47:52 - 01:48:02] porque tengo un grupo muy chiquito, la ceremonia también baja, entonces de acuerdo a diferentes
+[01:48:02 - 01:48:06] variables que tengo que evaluar, de acuerdo al proyecto con el que esté trabajando, le voy
+[01:48:06 - 01:48:18] a dar determinado nivel de ceremonia, esto es útil para todos los proyectos, en cualquier
+[01:48:18 - 01:48:39] proceso, vamos a poder aprender, pues algo que el mundo estudia acá, sí, un mundo navegato,
+[01:48:39 - 01:48:48] porque se propone un sitio así, donde ustedes van a ir, poder navegar y van a evaluarnos
+[01:48:48 - 01:49:01] en cada fase, es lo que tiene que hacer, el famoso que como el cuando, en las 50 y una,
+[01:49:01 - 01:49:13] el que quien como el cuando, entonces, vengo acá un minutito y yo me voy a vuelvo un
+[01:49:13 - 01:49:22] minuto, porque como no está bien acomodado, acá me cuesta encontrarlo, así encuentro
+[01:49:22 - 01:49:39] rápido, ahí me te os arriesga, acá es del higri procesada, es horrible como está, pero les
+[01:49:39 - 01:49:48] puede servir bastante, quiero dejarle algo, un minutito, para yo no el método composo,
+[01:49:48 - 01:50:10] es la herramienta para poder navegar, para crear el proceso y poder configurarlo, acá aquí
+[01:50:10 - 01:50:49] lo voy a dejar acá, también me está, me ver si es así, bueno, se las voy a buscar,
+[01:50:49 - 01:51:02] porque lo encontré, pero se ve que lo tenía, pero no lo encuentro ahora, hacer un proceso
+[01:51:02 - 01:51:14] tiene que tener todo, yo quiero ver, me voy a dejar mejor, porque esto está más
+[01:51:14 - 01:51:22] acotado, como lo tenía yo, lo tenía y después lo borre, después se las voy a pasar,
+[01:51:22 - 01:51:40] está, pero bueno, si igual usted me lo traigo acá, barcita acá, bueno, bueno acá, lo que
+[01:51:40 - 01:51:45] está bueno es que en los procesos, esto no necesaria que lo estudien, pero yo se las quiero
+[01:51:45 - 01:51:56] mostrar, para que ustedes vean, en todos los procesos tienen como un flujo de trabajo,
+[01:51:56 - 01:52:02] donde acá está definido cómo se hacen, la, cuál es el paso a paso, por ejemplo estoy en
+[01:52:02 - 01:52:09] el de, acá estoy en el de preparar el ambiente, y bueno, la tapa de incepción, preparo el ambiente
+[01:52:09 - 01:52:14] para el proyecto, me vengo acá a ver cómo lo preparo, y bueno, tienes que hacer todas estas
+[01:52:14 - 01:52:21] actividades, primero tenés que armar el proyecto, armamos caso de ese proyecto, preparar
+[01:52:21 - 01:52:28] el template, está ahí cuál es la salida del proyecto, cuál es el artefacto, un documento
+[01:52:28 - 01:52:38] o una guía de especificación, avanzando, bueno, y así todo, súper definido, quién es
+[01:52:38 - 01:52:45] actúa, y bueno, actúa el ingeniero de proceso, que es el rol principal, y qué hace y hace
+[01:52:45 - 01:52:54] determinado tipo de artefacto, y cuál es el artefacto, y te explica cómo es el artefacto,
+[01:52:54 - 01:53:03] no creo que me lleve al template del artefacto, pero igual me importa, me vas a especificando,
+[01:53:03 - 01:53:07] y también que voy a necesitar, y voy a necesitar a alguien que sepa de infraestructura, puede
+[01:53:07 - 01:53:14] ser que sea la misma persona, pero acá lo hace, es bien atómico, para que ustedes estén,
+[01:53:14 - 01:53:20] para que después lo puedan configurar, este es un proyecto para grandes, es un proyecto
+[01:53:20 - 01:53:26] de rupe para grandes proyectos, después lo pueden ir acotando, entonces con la herramienta
+[01:53:26 - 01:53:30] que es el método composer, pueden decir bueno, esto lo elimino, por la realidad que
+[01:53:30 - 01:53:37] yo tengo proyectos para ir a tanto, esto lo puedo sacar, esto lo puede agregar, este artefacto,
+[01:53:37 - 01:53:43] este template, lo voy a modificar para de acuerdo a mi organización, entonces ustedes pueden
+[01:53:43 - 01:53:54] ir armando un proceso de acuerdo configurable a la organización, esto se les voy a pasar,
+[01:53:54 - 01:54:02] es el que encontré, porque los sacaron, antes estaba muchísimo mejor, procesos en el chat,
+[01:54:02 - 01:54:12] estaba mucho más claro, acá hay una introducción, también, está en inglés, yo lo tenía en
+[01:54:12 - 01:54:18] español antes, pero bueno, si lo puedo ver a conseguir, se las paso, y si no, este es para
+[01:54:18 - 01:54:27] que ustedes puedan navegarlo y verlo, estaba bastante viola, ese son antes de no dar nada,
+[01:54:27 - 01:54:36] son las 10 y 20, voy a pagar 10 minutos y sigo, tengo que seguir si o si, así que parece paramos
+[01:54:36 - 01:54:46] los 10 minutos, nos buscamos un cafésito, después no sé si José Tomolista, pero tenemos
+[01:54:46 - 01:54:52] que tomar listado, así que, sí, sí, preparan que en todo el panellaje, si ya está tomada
+[01:54:52 - 01:54:57] ahora la comparto para que todos verifiquen si no olviden ninguno, o por el que yo llevo
+[01:54:57 - 01:55:01] más tarde, pero sí, sí, sí, sí, sí, sí, sí, sí, sí, y media arrancamos, es para ese,
+[01:55:01 - 01:55:05] el perfecto, nos vemos.

@@ -1,0 +1,28 @@
+CLASE N°3- FECHA 03 SEPTIEMBRE 2026
+
+LEER
+ Presman 
+-Conceptos de Calidad cap 14
+
+LEER Larman 
+CU cap 6, 9, 1O, 11, 
+
+UML:
+	DIAG. DE CASO DE USO, 
+	DIAG. DE ACTIVIDAD 
+	DIAG. DE CLASE
+	DIAG  DE ESTADO
+
+repaso de OO
+
+HACER 
+ejercicio
+
+
+---------------------------------------------------------
+CLASE N°4- FECHA 10 SEPTIEMBRE 2026 PRESENCIAL
+
+Materia	Nombre Materia	      	      Comisión		Curso	               Aula	
+03648	DISEÑO DE SOFTWARE		4300		02-Jueves  	       136
+
+

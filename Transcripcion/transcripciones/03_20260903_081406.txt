@@ -1,0 +1,599 @@
+# Clase 03 - Parte 1 - 2026-09-03
+Archivo de origen: Clase 03-20260903_081406-Grabación de la reunión 1.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 01:43:33
+
+---
+
+[00:00:15 - 00:02:11] Hola. Hola, ¿cómo andan? Buen día. Buen día, nunca. Buen día. Buen día. Buen día, ¿cómo andan? Ahora sí, ¿cómo están todos acá? Buen apropio. No, poquito soy. No conseguí aula para el día de hoy. Así que, tuvimos que hacer la reunión virtual por eso mandé la invitación. La clase que viene sí, tengo aula. Ahora se las voy a pasar. Así ya les queda.
+[00:02:11 - 00:03:54] Aquí está el aula es la 136. Aquí se van organizando la transmando un minuto y arrancamos. Bueno, yo con ustedes calidad lo dí no, sí, lo dí. Lo voy a cerrar. Vamos a comentar un poco con UML.
+[00:03:54 - 00:04:38] Se debemos hacer la clase de hoy, un repaso sobre todos los diagramas, vamos a hacer por parte un minuto. Vamos a compartir.
+[00:04:38 - 00:05:37] ¿También no me imagina? Sí. Y trafe. Bueno, voy a usar otra cosita más ya estoy con ustedes, me encuentro.
+[00:05:37 - 00:06:06] Voy a ver una de las presentaciones que vimos el tema de día porque me gusta retomar desde el punto anterior que estúnos bien y trabajando para empezar a relacionar el tema.
+[00:06:06 - 00:06:24] Recuerdan que vivimos esto, tuvimos hablando sobre la ingeniería de software, nuestro focus siempre en lo que ingeniería y dependiente de las ingenierías, es construir un producto con calidad y obviamente nos bajamos en algunos procesos.
+[00:06:24 - 00:06:49] Estudimos trabajados los dos primeras clases fundamentalmente con una metodología tipo Scram, en donde usamos algunos elementos que nos aprendaba las metodologías áciles como podríamos hacer las historias de usuario, hicimos el prototipado y hicimos...
+[00:06:49 - 00:07:15] Vamos para acá. Hicimos también pruebas de usabilidad y hicimos una simulación. tuvimos como una especie de evaluación de la sistema de usuario y les pusimos una prioridad simulando que ustedes sean el cliente.
+[00:07:15 - 00:07:49] Hacamos trabajando un montón, pero siempre basándonos en metodologías áciles, los minutitos de abro esto. Vimos yagramos en la viabilidad también. Hicimos una especie de simulación en donde la idea era empezar a relacionar la vista de la historia de usuario, armamos un sprint, muy básico porque la idea estaba siendo obviamente una simulación.
+[00:07:49 - 00:08:10] En cuatro horas pero no importa y después de eso empezamos a armar un guión de acuerdo a la historia de usuario que llevamos a probar armamos que el objetivo y después empezamos a hacer la prueba de usabilidad. Esto los recuerdan.
+[00:08:10 - 00:08:33] La idea es que siempre vamos mezclando usando diferentes metodologías, las metodologías puras, puras, es muy difícil de utilizar uno, va conociendo diferentes procesos y va utilizando esos procesos las buenas prácticas de los mismos.
+[00:08:33 - 00:08:45] Por lo tanto, es muy correcto que la universidad y ustedes en otras materias les van a enseñar que las metodologías son totalmente puras y es cierto.
+[00:08:45 - 00:09:01] Pero después en la realidad lo que sucede es que uno empieza a mezclar buenas prácticas de metodologías y tal vez no estoy en una metodología tipo Scram, estoy en otro tipo de metodologías, equipe o estoy en algunas nuevas de ahora.
+[00:09:01 - 00:09:14] Yo voy a realizar un prototipado, voy a utilizar historias de usuario o esta parte funcional es muy complicada, voy a utilizar otro tipo de metodologías.
+[00:09:14 - 00:09:26] Cuando necesito alguna metodología con mayor ceremonia, entonces me voy a alguna otra que me brinde mayor de celebrados.
+[00:09:26 - 00:09:39] Y ahí estuvimos siempre hablando de Rubb, dentro de nuestro diseño, obviamente nos brinamos un proceso muy extenso, donde pasamos por diferentes disciplinas,
+[00:09:39 - 00:09:51] una de esas disciplinas es el diseño de brinda el método de cómo diseñar y le herramienta que nos brindaba esto lo que es respecto a lo humilde.
+[00:09:51 - 00:10:00] Obviamente es un proceso que está aliado por historias de usuarios, eso viene posterior a este proceso, sino que está aliado por casos de uso.
+[00:10:00 - 00:10:12] Entonces vamos a hacer un repaso de los casos de uso, me imagino que ustedes casos de uso de la obra, ¿misto?
+[00:10:12 - 00:10:16] Sí, sí me tengo que ver.
+[00:10:16 - 00:10:26] Yo suelo empezar a relacionar un poco los temas y tratar de darle un contexto con respecto al diseño, ¿ok?
+[00:10:26 - 00:10:31] Un minuto, bueno vamos a empezar.
+[00:10:31 - 00:10:38] Para ustedes que si ya no tengo que decir, tienes un caso de uso, ¿cómo me lo pueden definir?
+[00:10:38 - 00:10:48] Acá estoy mostrando alguna.
+[00:10:48 - 00:10:53] Describimos una funcionalidad completa desde el punto de vista del usuario.
+[00:10:53 - 00:11:00] Fantástico, estamos de acuerdo, me rinla una funcionalidad completa, podemos saber si significa esto para nosotros.
+[00:11:02 - 00:11:06] Nos vemos una funcionalidad para de qué es lo que hace.
+[00:11:06 - 00:11:21] La realidad es que yo voy a tener en los casos de uso diferentes formalidades, se suelen denominar, ¿ok?
+[00:11:21 - 00:11:33] Esas formalidades pueden ser tres, que son las breves informales y completas, está en un caso de uso, no me desquivel, esta funcionalidad o esa interacción, ¿está?
+[00:11:33 - 00:11:54] De todo son requisitos de lo que va a hacer el sistema y se basa en escenarios y de acuerdo a las sigas las formalidades y a los detalles, que yo les voy a ir dando, se pueden separar entre,
+[00:11:55 - 00:11:57] los detalles informales y completos.
+[00:11:57 - 00:12:12] En breves son casos de uso muy concizos, posiblemente de un párrafo, es más, si quiero ser una osquecea analogía, podría decir que son como las historias de usuario, bien concretas y cortas.
+[00:12:13 - 00:12:34] Luego está en las según las formalidades son los informales, ya hay comprése en varios escenarios, son más párrafos, no es un único párrafo como el anterior, y después el que vieron posiblemente ustedes, y es el que se enseña, es el completo,
+[00:12:35 - 00:12:58] ella es un poco más elaborado, se define una secuencia entre el actor y el sistema, hay una instancia, pero de una mira una instancia del caso de uso, es una historia particular y donde si yo voy a ir con todas las disfruccaciones del historio de usuario, ya habéis de hablar de algunos, de incluir algunos externos.
+[00:13:00 - 00:13:19] Los elementos que tienen en el caso de uso, vamos a borrar así, los elementos tienen, se acuerdan acá los vemos, como están formados los casos de uso, ¿qué tienen?
+[00:13:19 - 00:13:24] Les digo, empiezan a hacer un caso de uso, ¿qué es lo que tiene?
+[00:13:24 - 00:13:29] Actores, actores fantásticos, ¿qué más?
+[00:13:29 - 00:13:41] No te escuches, roles, bueno, ¿qué más?
+[00:13:41 - 00:13:43] El sistema de la ansi mismo que es el rectángulo.
+[00:13:43 - 00:13:53] El sistema bueno, ahora lo vamos a hablar, más en el diagrama del caso de uso, pero está bien, ¿qué más tiene?
+[00:13:53 - 00:13:57] ¿Qué es la acción entre el caso de uso? ¿O con otros casos de uso?
+[00:13:57 - 00:14:14] Ahí, ya no es el caso de uso, sino el diagrama del caso de uso, pero está bien, es mala, voy a empezar a subir un minuto, ya que estamos, para empezar a hablar un poquito de las diferencias entre lo que es la especificación del caso de uso y el diagrama del caso de uso.
+[00:14:14 - 00:14:30] ¿No se escriben también la interacción entre el sistema y el actor?
+[00:14:30 - 00:14:32] Fantástico, interacción.
+[00:14:32 - 00:14:36] Obviamente esta es prácticamente la edificción, ¿no?
+[00:14:36 - 00:14:45] Son requisitos, significa que es lo que va a hacer el sistema, basándonos justamente en escenario, interacción entre el actor y el sistema.
+[00:14:48 - 00:14:58] Un minuto, pagado muy más de la gargante, cada tanto, estoy tomando algo minuta, ahí está.
+[00:14:58 - 00:15:13] Y obviamente yo tengo dos elementos para especificar casos de uso o para, porque la que estoy haciendo en un caso de uso, es escribir la funcionalidad, ¿no?
+[00:15:13 - 00:15:34] Entonces es una vista funcional, la recuerden, tengo el ojito de mirando la parte funcional de la solución, después veo de otro tipo de solucion, otro tipo de vista, y voy a ver en la sala de los datos, ¿no? ¿Y algún der? ¿Usted va a ser datos de hieron, ¿no?
+[00:15:34 - 00:15:35] ¿Sí?
+[00:15:35 - 00:15:55] Entonces, tengo que ir, voy a trabajar con un sistema donde la base de datos es relacional, o me voy a manejar con base de datos relacionales, digo, en el diseño de arbunder es otra vista.
+[00:15:55 - 00:16:17] Si yo quiero enfocarme en la vista del diseño, digo, bueno, ¿qué voy a hacer? Y puedo hacer historias usuarios, puedo hacer casos de uso, y capaz que lo puedo confler dar con otros, otros, otra vista, es justamente el diagrama de casos de uso.
+[00:16:17 - 00:16:44] Ok, acá tengo la especificación más detallada de un caso de uso, y si yo quiero ver una vista general de todos los casos de uso, me voy a otra vista, porque realmente tener leer todos los casos de uso no me va a poder dar una foto general de todo el sistema, entonces me voy a otra vista que me va a brindar justamente UML, ¿no? ¿Qué son los casos de uso?
+[00:16:44 - 00:16:57] ¿Qué son los diagramas de casos de uso? ¿Qué es diferente al caso de uso? Ahora vamos a ir después al caso de uso, yo trato de hacer un panio general de todos los diagramas.
+[00:16:57 - 00:17:13] Bueno, entonces si me voy a la especificación del caso de uso, lo que yo estoy describiendo, tengo diferentes tipos de elementos, obviamente ustedes me comentaron este actor, fundamental en el actor.
+[00:17:13 - 00:17:21] Y si tengo que definir el actor, ¿cómo lo definirían? ¿Qué es el actor?
+[00:17:21 - 00:17:23] El que hace algo.
+[00:17:23 - 00:17:45] El que hace algo, es algo o alguien con comportamiento, y algo que para mí es fundamental, reaclarir a casi ya se los queda, es que tiene una objetivo, no está porque sí en el caso de uso, tiene la objetivo posiblemente, no, del nombre que yo le voy a dar ese caso de uso.
+[00:17:45 - 00:17:56] Me digo, registrarme y vas a tener el actor y el objetivo de lograr la registración, es el mayor beneficio saca de obtener esa registración.
+[00:17:56 - 00:18:14] Yo quiero algún otro caso de uso como bueno, voy a los más sencillos, ¿no? Olví a la Pajor, bueno, el actor que tiene el objetivo principal de obtener esa clave.
+[00:18:14 - 00:18:24] Por lo tanto, cuando ustedes duden como detectar el actor, esta civil, ¿quién será la celetaria o el coordinador?
+[00:18:24 - 00:18:34] Bueno, ahí piensan quién tiene, quién saca el mayor provecho de lograr ese caso de uso, está aquí en el objetivo principal.
+[00:18:34 - 00:18:41] Está bien se vivía en entre en activos, pasivos y apoyo.
+[00:18:43 - 00:18:57] Activos o a veces los denominan también otros, allá van principales, de acuerdo a la autor con el que estoy trabajando.
+[00:18:59 - 00:19:06] Principal es porque tienen lo objetivo primordial, el mayor beneficio de todo esto.
+[00:19:06 - 00:19:13] Los de apoyo, me voy a empezar con los de apoyo.
+[00:19:13 - 00:19:24] Los de apoyo son los que están proporcionando algún servicio, porque la proporcionan algún servicio.
+[00:19:25 - 00:19:32] Por ejemplo, estoy con algún sistema externo y me brinda algún servicio.
+[00:19:32 - 00:19:43] Y los pasivos, obviamente, está interesado en que alguien te pueda realizar ese caso de uso, pero realmente está con un interés menor.
+[00:19:43 - 00:19:54] Por ejemplo, puede ser a Fib, si yo quiero, procesar una venta y le informo a la Fib, bueno, eso lo tengo como un interesado,
+[00:19:54 - 00:19:57] pero lo he interesado totalmente secundario.
+[00:19:57 - 00:20:04] Hay una relación, no me brinda un servicio sino que bueno, estoy interesado en el ejecutad.
+[00:20:04 - 00:20:19] En cambio, si estoy por ejemplo en un sistema donde veo la temperatura del día de hoy y bueno, ya acuerdo eso, levanto, no la prasiana, de mi casa.
+[00:20:20 - 00:20:30] El actor va a decir, bueno, levantar la prasiana y capaz que necesito un servicio del aléfico argentino para evaluar si está soviado, no por ejemplo.
+[00:20:30 - 00:20:38] Entonces ahí si tengo, me brinda un servicio, me proporciona un servicio y se los denominar los de apoyo.
+[00:20:40 - 00:20:58] No voy a fijarme en la separación de estos tres tipos de actores, pero bueno, también a medida que uno va transitando la carrera también y va refrescando a veces los contenidos van quedando.
+[00:20:58 - 00:21:01] Entonces también por eso lo hablamos.
+[00:21:02 - 00:21:07] Otro de los elementos fundamentales que tienen es el nombre, es fundamental que sea el nombre.
+[00:21:07 - 00:21:19] O sea, recuerdan cómo tenía que ser el nombre, siempre se han colubbergo con un verbo perfecto.
+[00:21:19 - 00:21:23] No escuché cómo.
+[00:21:23 - 00:21:28] Normalmente un verbo y un sustantivo, por ejemplo, registrar venta.
+[00:21:28 - 00:21:32] Registrar venta casi siempre claro, fantástico.
+[00:21:32 - 00:21:46] Tengo precondición en el otro de los elementos, de los casos de uso, las precondiciones tienen que ser precondiciones que sean coherentes y válidas.
+[00:21:47 - 00:21:53] No vamos a poner que esté entendida la computadora o que haya la electricidad o que ya me haya loviado.
+[00:21:53 - 00:21:58] Es algo, cuando son obvías no se ponen.
+[00:21:58 - 00:22:05] Ponemos las precondiciones que ameritan.
+[00:22:05 - 00:22:19] Después tenemos el escenario, flujo principal, que es con ustedes, estuvieron trabajando los anteriores y el flujo secundario.
+[00:22:20 - 00:22:25] Hay dos tipos de modelos de los casos de uso.
+[00:22:25 - 00:22:31] Un minuto.
+[00:22:31 - 00:22:37] La realidad de que calculo que ustedes utilizaron es el uno de...
+[00:22:37 - 00:22:48] donde explica que hay un barra fobreve y lo que hace es colocar en una única columna, en una única columna,
+[00:22:49 - 00:22:55] todos los pasos de interacción entre el actor y el usuario.
+[00:22:55 - 00:23:01] Es un flujo donde van detallando todos los pasos. Esta es la primera forma.
+[00:23:01 - 00:23:06] Es la más utilizada en el análisis.
+[00:23:06 - 00:23:13] Es la que usaron ustedes.
+[00:23:14 - 00:23:25] Después está la segunda forma, donde ya no tengo una columna, tengo ya dos columnas, en donde separo las acciones del actor con las acciones del sistema.
+[00:23:25 - 00:23:33] ¿Está a usarlo?
+[00:23:33 - 00:23:35] No, no me suena.
+[00:23:35 - 00:23:38] Recordo que la mostraron pero no la usamos.
+[00:23:39 - 00:23:50] De los dos formas de casos de uso, lo que se suele utilizar es que en el análisis, por eso también se lo mostró, porque uno tiene que empezar a transicionar del análisis al diseño.
+[00:23:50 - 00:24:07] Entonces, cuando tenemos el diseño, empezamos a trabajar el diseño fundamental, porque la realidad es que el artefacto de entrada es lo que ustedes haya hecho en el análisis.
+[00:24:08 - 00:24:19] Estamos de acuerdo, yo necesito que ustedes salgan, aunque sea mentalmente, una análisis en lo que van a estar.
+[00:24:19 - 00:24:38] Entonces, ustedes estuvieron trabajando en los años anteriores, en los cuadremeces anteriores, si hicieron de haber a una especificación o casos de uso, y posiblemente trabajaron esto y tenemos que llevarlo a cercarnos cada vez, a hacer una transformación y a cercarnos cada vez más al diseño.
+[00:24:38 - 00:25:01] La realidad es que este tipo, estas formas, la más usada en el análisis, pero cuando ya nos vamos acercando, no se recomienda para el análisis del diseño, pero la realidad es que a mí me gusta más la formador del caso de uso, porque ya empiezas a separar lo que hace el actor y lo que hace el sistema.
+[00:25:01 - 00:25:16] Entonces, acá tengo todas las acciones del actor y acá tengo todas las acciones que representan las acciones propias del sistema.
+[00:25:17 - 00:25:28] Arrasten otros elementos, pos condiciones, uso alternativo, si estoy trabajando en las formas dos, los flujes alternativos también, respeto estas dos columnas.
+[00:25:29 - 00:25:38] Excepción, después acá he empezado a poblarlo para basar, para llegar a unas formas super completas.
+[00:25:38 - 00:25:59] Y acá tengo un prototipo si quiere agregarlos, etcétera. La realidad es que esta, a mí la llamada me gusta, simple hecho de que ya he empezado a hacer un principio del buen diseño,
+[00:26:00 - 00:26:04] si lo tengo por acá en los principios del buen diseño, no, no, no voy a buscar.
+[00:26:04 - 00:26:16] Empiezo a aplicar uno de los principios del buen diseño, que es justamente la separación de incumbencias y que sea experto y que cada uno haga lo que le corresponde, hay muchos.
+[00:26:16 - 00:26:33] Empezar a separar, que sea acuésivo. Empiezo ya aplicar desde ese momento, un minutito, esta acá vamos a dar.
+[00:26:36 - 00:26:45] Y después se lo busquise en su.
+[00:26:45 - 00:27:16] O sea, todo el buen diseño. Esto las pongo acá para que lo lean todos los días antes de empezar la gracia.
+[00:27:16 - 00:27:26] Entonces, en piso a separarlos. Vamos a hacer uno. Nosotros estuvimos trabajando con el ejercicio del gimnasio,
+[00:27:27 - 00:27:32] se recuerdan que en el ejercicio del gimnasio estuvimos también trabajando, esto lo voy a programar, ¿no?
+[00:27:32 - 00:27:42] Así ya no es de la mano. Estoy trabajando con un montón de casos de, perdón, de historias de usuario.
+[00:27:42 - 00:28:01] Obviamente, no me ditan si era algún momento era lo único que teníamos, entonces la realidad es que si utilizaba muchísimo,
+[00:28:02 - 00:28:11] después fuimos incorporando otros elementos en nuestra ingeniería y aparecieron las historias de usuario, los protocipados.
+[00:28:11 - 00:28:20] Entonces fuimos evolucionando, entonces no se le di ya aplicamos casos de uso en algunos casos muy puntuales.
+[00:28:20 - 00:28:29] O si estoy haciendo un desarrollo muy complejo que requiere muchas pruebas ahí sí va de la pena.
+[00:28:30 - 00:28:39] Si yo quiero llevar a algunos de estos, bueno voy a empezar a pensar cómo puedo llevarlo a una especificación de caso de uso.
+[00:28:39 - 00:28:50] Yo voy a basar en algo sencillo, voy a ir, imagínense que tenemos que pensar, bueno, en un minuto,
+[00:28:51 - 00:29:29] voy a ir a lo más simple, que es la especificación de en un minuto, vamos a ir a pagar fotos de escribnación.
+[00:29:29 - 00:29:45] Si yo la realidad es que todo lo demás es bastante sencillo, pero quiero saber quienes son los que están activos,
+[00:29:46 - 00:29:59] quiero dar más una gotina, vamos a lo que involucrio algo más conocido, que involucre a varios casos de uso,
+[00:29:59 - 00:30:02] y voy a decir, bueno voy a pagar la quota de escribnación.
+[00:30:02 - 00:30:40] Obviamente lo que me estoy haciendo, un verbo para dar complejidad, prioridad, no les digo prioridad,
+[00:30:41 - 00:30:44] está requerimiento de funcionar así o tampoco, importan.
+[00:30:44 - 00:30:52] Pero en la segunda forma recuerden, por lo tanto tengo ya dos columbnas, tengo el actor,
+[00:30:52 - 00:31:03] yo les digo una definición simple, está como para que ustedes recuerden, el que quiere que realmente pagar la quota aquí en un tiempo a hacer.
+[00:31:03 - 00:31:05] Eso sí.
+[00:31:07 - 00:31:16] Dos sios alumnos, ahí después vemos cómo queda, y obviamente el sistema queda con nombre de sistema.
+[00:31:16 - 00:31:25] Entonces, esto, empieza a pensar, obviamente si yo ya he trabajado con IWX, ya tengo el prototipado,
+[00:31:25 - 00:31:30] estoy sin interacción, el que va a recibir el prototipado lo va a conocer.
+[00:31:30 - 00:31:34] Ahora si tengo algo muy complejo, me voy a interactuar con otros sistemas,
+[00:31:35 - 00:31:42] tengo que pedir la información a la feedback y tengo que conectarme con mi, con mi está,
+[00:31:42 - 00:31:48] o tengo que conectarme con mercado pago, y bueno ya pueden empezar a pensar en algo de mayor detalle.
+[00:31:48 - 00:31:53] Lo puedo decir bien, la historia de usuario si estoy trabajando exclusivamente con Scram,
+[00:31:53 - 00:31:58] si ahora si estoy trabajando en una empresa donde realmente hacen casos de uso,
+[00:31:58 - 00:32:08] y ahora continuo con esto, son diferentes herramientas que me permiten tener la misma vista, la vista funcional.
+[00:32:08 - 00:32:21] Entonces digo el bueno en socio, ingresa a la sección de casos, no sé si va a hacer así,
+[00:32:21 - 00:32:26] pero le voy a dar bastante contenido para poder trabajar después.
+[00:32:27 - 00:33:00] El tema muestra el estado de la cuenta del socio y las monta a pagar más las diferentes formas de pago.
+[00:33:02 - 00:33:17] En el 3 selección la opción para pagar cuota, la opción para pagar cuota,
+[00:33:17 - 00:33:35] estoy acá, capaz que no hay muestra opciones del pago, puede ser por ejemplo una cuota,
+[00:33:35 - 00:34:01] un pago, una cuota, hay una promo, promoción de tres veces, promoción anual y tan bien el sistema de muestra,
+[00:34:01 - 00:34:10] las diferentes formas de pago.
+[00:34:12 - 00:34:26] Forma de pago, voy a ser transferencia, me ha estado pago, la cita del erenso, la cita del erenso,
+[00:34:26 - 00:34:39] y después vamos.
+[00:34:39 - 00:34:47] Siempre tengo que ir por un flujo, por un escenario,
+[00:34:47 - 00:34:51] recorda que tengo el caso de uso y yo tengo que instanciarlo,
+[00:34:52 - 00:34:57] está por lo tanto voy a definir el flujo, voy a decir que voy a elegir,
+[00:34:57 - 00:35:02] cambiad de mes de zapagar de la promoción tres,
+[00:35:02 - 00:35:12] y selección la forma de paz, entonces el exocio,
+[00:35:13 - 00:35:42] selección, la cita del erenso, una opción de tres veces, pro-emocción, lección,
+[00:35:42 - 00:35:53] la forma del pago, y la pago, la fuita del erenso.
+[00:36:00 - 00:36:06] En análisis, los que es bien es que siempre esté dentro de un mismo,
+[00:36:06 - 00:36:12] de un recuadro, tengo varias acciones.
+[00:36:12 - 00:36:16] A mí ya cuando me entizo a acercar un poco al disserio,
+[00:36:16 - 00:36:21] algunos autores dicen que esto podrían colocarlo en otro paso,
+[00:36:21 - 00:36:26] como para pensar ya en todo mi servir, bastante bien las acciones.
+[00:36:27 - 00:36:34] Yo lo voy a dejar como ustedes lo vieron en análisis,
+[00:36:34 - 00:36:38] pero no está mal ya cuando estoy acercando en el diseño,
+[00:36:38 - 00:36:42] decir que estará a tomizar todas las acciones,
+[00:36:42 - 00:36:45] ya no tengo un flujo bastante extenso,
+[00:36:45 - 00:36:47] sino que tengo pequeñas acciones.
+[00:36:47 - 00:36:53] Yo lo que empiezo a pensar en el diseño es que esté bien las acciones bien atomisadas.
+[00:36:54 - 00:36:58] Ok, un minuto.
+[00:36:58 - 00:37:02] Después voy a empezar acá, lo que haría el sistema.
+[00:37:02 - 00:37:13] Bueno, está una de las acciones total,
+[00:37:13 - 00:37:19] más con fuestos de poner, sin fuestos, alcúle al mundo,
+[00:37:19 - 00:37:33] todo tal, perdón, sin fuestos,
+[00:37:34 - 00:37:38] la muestra,
+[00:37:38 - 00:37:53] la muestra y los datos de transferencia.
+[00:37:53 - 00:38:01] Me parece voy a mostrar los datos y para llevar a cabo la transferencia,
+[00:38:01 - 00:38:04] las datos de transferencia,
+[00:38:06 - 00:38:09] para hablarle un poco más,
+[00:38:09 - 00:38:14] se puede ser de un alias,
+[00:38:14 - 00:38:33] un montón de distancia de otra,
+[00:38:33 - 00:38:48] acá, el socio visualista aprueba a la transferencia,
+[00:38:48 - 00:38:59] le da lo que hay final,
+[00:38:59 - 00:39:13] y acá el sistema realiza el comprobante de pago.
+[00:39:13 - 00:39:15] Yo sé que esto es medio,
+[00:39:15 - 00:39:17] antes de pago,
+[00:39:17 - 00:39:20] medio tedioso para ustedes,
+[00:39:20 - 00:39:24] pero bueno, no necesito para poder avanzar un minuto,
+[00:39:24 - 00:39:35] esto lo he abarrado.
+[00:39:35 - 00:39:38] Entonces el sistema realiza comprobante de pago,
+[00:39:39 - 00:39:43] bañada datos, vamos a poner,
+[00:39:43 - 00:39:45] distra,
+[00:39:45 - 00:39:49] pago como pendiente,
+[00:39:49 - 00:39:53] o de apondación, pendiente de valiación,
+[00:39:53 - 00:39:57] pendiente de,
+[00:39:57 - 00:40:02] para pendiente,
+[00:40:02 - 00:40:09] pendiente de, no sé,
+[00:40:09 - 00:40:11] respuesta bancaria,
+[00:40:11 - 00:40:13] respuesta del banco.
+[00:40:13 - 00:40:21] Una vez que yo tengo el sistema nuestra la confirmación,
+[00:40:21 - 00:40:24] podría haber hecho estos test pasos todos juntos,
+[00:40:24 - 00:40:26] en el mismo paso sí,
+[00:40:26 - 00:40:29] pero yo quiero ya empezar a tomisarlo,
+[00:40:29 - 00:40:31] por eso lo separo,
+[00:40:31 - 00:40:34] si ustedes van a un autónomo,
+[00:40:34 - 00:40:37] le pone mucho foco en lo que se la analicis,
+[00:40:37 - 00:40:41] y les va a decir que esto tendría que estar en un único paso,
+[00:40:41 - 00:40:45] porque no hay una unidibuelta entre el actoria de sistema,
+[00:40:45 - 00:40:48] si van a un autónomo,
+[00:40:48 - 00:40:51] donde están muy enfocado al dicedia y les dice,
+[00:40:51 - 00:40:54] vayan tensando,
+[00:40:54 - 00:40:58] tienen que ir a tomisando y el día de mañana transformar
+[00:40:58 - 00:41:01] todas esas acciones en servicios,
+[00:41:01 - 00:41:03] yo les voy tirando algunas palabras,
+[00:41:03 - 00:41:05] como para ir después,
+[00:41:05 - 00:41:08] dando,
+[00:41:08 - 00:41:10] para que ustedes después me vayan entendiendo,
+[00:41:10 - 00:41:13] y van a ir incorporando algunas palabras.
+[00:41:13 - 00:41:16] Entonces lo puedo tomizar esta manera,
+[00:41:16 - 00:41:18] que el día de mañana,
+[00:41:18 - 00:41:19] al estar tan atómico,
+[00:41:19 - 00:41:22] lo puedo transformar en pequeñas servicios.
+[00:41:22 - 00:41:24] Ahora bien, tenemos flujos alternativos,
+[00:41:24 - 00:41:26] sí sí, porque yo acá seleccioné,
+[00:41:26 - 00:41:29] por ejemplo, forma de pago, transferencia,
+[00:41:29 - 00:41:32] podría seleccionar otra,
+[00:41:32 - 00:41:35] o también podría decir que en cualquier paso,
+[00:41:35 - 00:41:36] entonces pongo asterisco,
+[00:41:36 - 00:41:40] entonces significa que cancelo,
+[00:41:40 - 00:41:44] cancelar en cualquier paso,
+[00:41:44 - 00:41:46] en cualquier momento,
+[00:41:46 - 00:41:56] y acá defino,
+[00:41:56 - 00:42:11] es lo que hago, uno,
+[00:42:11 - 00:42:16] una malestrita,
+[00:42:16 - 00:42:29] o va, paso dos,
+[00:42:29 - 00:42:32] y acá haces,
+[00:42:32 - 00:42:36] cancelar,
+[00:42:36 - 00:42:39] y acá,
+[00:42:39 - 00:42:47] y acá hay algunos detalles más,
+[00:42:47 - 00:42:50] y acuerdos a lo que ustedes han cancelado.
+[00:42:50 - 00:42:54] Pero acá, me voy con el paso cinco,
+[00:42:54 - 00:42:57] el paso cinco yo dije que para la transferencia,
+[00:42:57 - 00:43:01] vamos a escribir otros,
+[00:43:01 - 00:43:03] a ver si voy a poner,
+[00:43:03 - 00:43:05] si voy a hacer la forma de pago,
+[00:43:05 - 00:43:07] el tarjeta de crédito,
+[00:43:07 - 00:43:09] forma de pago,
+[00:43:09 - 00:43:10] tarjeta,
+[00:43:10 - 00:43:12] y vamos a un tarjeta de crédito.
+[00:43:12 - 00:43:23] Me voy el paso donde tengo esa disfurcación,
+[00:43:23 - 00:43:24] que es el cinco,
+[00:43:24 - 00:43:29] como estoy en uno de los tipos,
+[00:43:29 - 00:43:34] puedo tener pago de contacta de crédito,
+[00:43:34 - 00:43:36] puedo tener también pago,
+[00:43:36 - 00:43:37] como lo habíamos dicho,
+[00:43:37 - 00:43:39] como he marcado pago,
+[00:43:39 - 00:43:40] en efectivo,
+[00:43:40 - 00:43:41] el efectivo,
+[00:43:41 - 00:43:43] y le he estado bueno como,
+[00:43:43 - 00:43:47] como historia principal,
+[00:43:47 - 00:43:48] o camina feliz,
+[00:43:48 - 00:43:55] como algunas autores lo llaman.
+[00:43:55 - 00:43:58] Vamos acá,
+[00:43:58 - 00:43:59] forma de pago,
+[00:43:59 - 00:44:01] tarjeta de crédito,
+[00:44:01 - 00:44:04] entonces acá,
+[00:44:04 - 00:44:06] pongo,
+[00:44:06 - 00:44:08] pinto,
+[00:44:08 - 00:44:10] punto 1,
+[00:44:10 - 00:44:11] el primer paso,
+[00:44:11 - 00:44:13] aquí voy a seleccionar,
+[00:44:13 - 00:44:16] el systema,
+[00:44:16 - 00:44:18] redis,
+[00:44:18 - 00:44:26] subinisten a efeccion de pago con tarjeta de crédito,
+[00:44:26 - 00:44:34] coinco punto a punto dos,
+[00:44:34 - 00:44:41] esta cosa del socio,
+[00:44:41 - 00:44:43] ingresa,
+[00:44:43 - 00:44:48] datos de la tarjeta de crédito,
+[00:44:48 - 00:45:06] el número, más de negris, más apellido, nombre completo, fecha de vencimiento de la tarjeta,
+[00:45:06 - 00:45:23] y la clave, la clave de la tarjeta de crédito. El sistema, me vengo acá, también 5.a,
+[00:45:23 - 00:45:54] un to tres, el sistema, acá, valida, valida, con movizas, de se llama con viza, sí sería con
+[00:45:54 - 00:46:01] el sistema, pero voy a poner viza para que ustedes también desean más familias y espera
+[00:46:01 - 00:46:17] las puestas. Puedo separarlos, sí, me encantaría separarlos, pero lo voy a dejar así, es como
+[00:46:17 - 00:46:35] ustedes lo hubiera. Un copunto a punto 4, confirmó pago, una vez que, no firmó pago,
+[00:46:35 - 00:46:53] ya acá, el sistema, vamos a poner esto, se está pago, y se está pago en su sistema, con el estado
+[00:46:53 - 00:47:04] aprobado, registra pago, como aprobado, que estaría tendiendo seguramente, y nuestra confirmación.
+[00:47:04 - 00:47:19] Yo voy a tener varios historias, perdón, varias casos de uso, pagar cuantas, puedo ser registrar
+[00:47:19 - 00:47:29] me al fina, registrar una clase, cancelar clase, voy a tener varios. Si yo voy a tener un documento,
+[00:47:29 - 00:47:37] muy extenso y la realidad te va a llevar un momento, que no voy a tener una foto única de todo lo que
+[00:47:37 - 00:47:43] hace el sistema, entonces nos vamos a otra vista, que es la que me proporciona UML en donde puedo tener
+[00:47:43 - 00:47:52] un como una foto general, uno verbiú de todos los casos de uso, y de cómo se relacionan esos
+[00:47:52 - 00:47:58] casos de uso. No voy a tener detalle que sí lo tenemos en la especificación, si lo que es
+[00:47:58 - 00:48:07] de no solamente el overview de todos los casos de uso, para eso me voy a estar lista, otro
+[00:48:07 - 00:48:24] jito tengo completamente diferente, voy a crear acá un modelo, el modelo para la inflación,
+[00:48:24 - 00:48:32] dentro del modelo voy a dar diferentes tipos de diagramas, con el que me brinda, no verió
+[00:48:32 - 00:48:36] todos los casos de uso, el que estuvimos hablando, cómo se llama.
+[00:48:36 - 00:48:52] Ehh, use case diagrama. Muy bien, diagrama de casos de uso, ok, en diagrama de casos de uso, yo me quiero
+[00:48:52 - 00:49:01] ir a otro tipo de diagrama, como el que ustedes estudian también trabajando en las materias previas,
+[00:49:01 - 00:49:06] al diseño, que calculo que es penicidio, si ya no, no, me voy a un diagrama de actividad que
+[00:49:06 - 00:49:16] es seguramente lo que hagan. Voy a ir transicionando de una vista a la otra, y dieron cómo, si
+[00:49:16 - 00:49:21] voy transicionando una vista a la otra, el toolbox cambia, obviamente de acuerdo a los elementos
+[00:49:21 - 00:49:28] que le corresponden a cada uno de los sos de diagrama, ok, si me voy a el caso de uso, veo
+[00:49:28 - 00:49:35] cómo los elementos relacionados, ese diagrama de caso de uso, van a cambiar a una seulta
+[00:49:35 - 00:49:41] y talmente diferentes si me voy a un diagrama de actividad, cambio los elementos. Por lo tanto,
+[00:49:41 - 00:49:47] también es una muy buena manera de estudiar, así como en los elementos corresponden a cada diagrama
+[00:49:47 - 00:49:56] y a estar capen y ver qué tipo de elementos contienen. Me voy a el caso de uso, tengo uno
+[00:49:56 - 00:50:04] verbió de todos los casos de uso, obviamente tengo el actor principal y me voy al mismo ejemplo,
+[00:50:04 - 00:50:19] hasta podría llegar a tener profesor, ¿no? Elir, elir, elir, elir, elir, hay el hijo algo,
+[00:50:19 - 00:50:50] ok, obviamente el elemento fundamental son los casos de uso, tengo registración, tengo, y es que
+[00:50:50 - 00:51:03] me puedo poner acá la registración, elir clase, ¿cómo esta? Elir clase, sí, pero no quería
+[00:51:03 - 00:51:11] elegir ni quería usar de vuelta a registración, escribir, escribirse, no quería usar de claro,
+[00:51:11 - 00:51:19] no quería usar estas palabras, reservar, voy a usar algo para poder diferenciarlo con la
+[00:51:19 - 00:51:33] registración, hacer barclases, ok, tengo acá cancelar barclases, obviamente tengo pados,
+[00:51:33 - 00:51:44] eso es que voy acá, como quiero hacer todo las listas, tengo que tener una relación estrecha,
+[00:51:44 - 00:51:52] pero el mismo nombre, ok, para que después podamos hacer una trasa de que este caso de uso,
+[00:51:52 - 00:51:58] hay herramientas que cliqueo al caso de uso y me abre todo el detalle del caso de uso,
+[00:51:58 - 00:52:11] empieza a hacer una trastabilidad, se denomina, entonces es el mismo elemento dentro del modelo,
+[00:52:11 - 00:52:18] es el mismo elemento dentro de todo el modelo de arquitectura, pero obviamente lo uso de diferentes
+[00:52:18 - 00:52:46] maneras, cancelar clase, muy minutos, no me acuerdo, tengo también crear clase,
+[00:52:46 - 00:53:12] agregar profesor, profesor, no sé, tengo varias cosas, hoy es una rutina, y ahí lo voy armando,
+[00:53:13 - 00:53:21] ahora bien, yo acá tuve en Agarco, Telefima, se tuve lo que se llama el camino feliz,
+[00:53:21 - 00:53:29] también tuve el flujo alternativo que representa posiblemente otro flujo, otro caso de uso,
+[00:53:29 - 00:53:53] me voy a dar concreta, algo que tienen que tener muy claro es que en lo que es el diagrama de casos
+[00:53:53 - 00:54:02] de vista no representa secuencialidad, no representa sin acercación, estoy representándose
+[00:54:02 - 00:54:07] con acercación, estoy representando algo, uno de los casos y cómo se relacionan, por lo tanto,
+[00:54:07 - 00:54:16] si quiero poner primero, cancelar clase y después poner reservar clase fantástico, no hay ningún
+[00:54:16 - 00:54:26] problema, no estoy representando la variable tiempo en el diagrama de casos de uso, sí que
+[00:54:26 - 00:54:35] tienen la costumbre que está bueno en el análisis porque uno tiene el pensamiento secuencial,
+[00:54:35 - 00:54:41] entonces como parábamos un mayor orden, y se llama primera, más registra al gimnasio, después
+[00:54:41 - 00:54:50] de espabla a tu botar, después de reserva a la clase, después de lo cancelo y hacen todo eso,
+[00:54:50 - 00:55:01] y la realidad hagan lo, no hay problema, pero no es el objetivo del caso de uso, yo puedo ponerlo
+[00:55:01 - 00:55:12] en cualquier lugar porque no representa disuad, secuencialidad, me voy a pagar cuota, tengo
+[00:55:12 - 00:55:20] otro de los elementos, esta que es la generalización y identificos los elementos con el caso de uso,
+[00:55:20 - 00:55:30] la asociación común, y acá tengo pagar cuota, pagar crédito, pagar con, no se entran,
+[00:55:30 - 00:55:44] para ser un crédito hipotecario, guarda, pago cuota, tengo un camino determinado, puede ser
+[00:55:44 - 00:55:52] un efectivo, lo que sea, y después digo bueno voy a hacerle pagar con arjetas, un otro, acá
+[00:55:52 - 00:56:04] sólo definí, y había una condición, si la forma de pago era tarjeta de crédito, así a
+[00:56:04 - 00:56:13] estas pasas del terminado era un flujo alternativo, entonces yo acá como lo represento con un cludo
+[00:56:13 - 00:56:25] un extene, con un extene, porque habría varias opciones, exacto, y aparte nos ejecuta siempre,
+[00:56:26 - 00:56:57] como minuto, siempre tiene que tener una condición, hay algunas herramientas, yo puedo las formas de pago,
+[00:56:57 - 00:57:36] y acá me sale el nombre, pero acá no, en esta herramienta no, en otra sí, en deparentes y
+[00:57:36 - 00:57:42] sangulares pueden, perdón entre, con carchetes pueden poner forma de pago, tarjeta de crédito,
+[00:57:43 - 00:57:52] no pueden con una nota como lo que sea, pero le va a dar más nivel de detalle, más o menos el
+[00:57:52 - 00:57:59] encendimiento, si tengo pago arco de aliginas y tengo también un caso de uso para ir a
+[00:57:59 - 00:58:17] de vuelta en el sistema que dice bueno, cambiar, habilitar, habilitar, creencial, una vez que pago
+[00:58:17 - 00:58:31] la táqueda del gimnasio, sí o sí, si habilita, era habilitar la creencial, entonces este caso de uso
+[00:58:31 - 00:58:57] que sería un incluido en el sistema, también he visto muchas veces, lo vi, voy a poner lo vi, lo vi,
+[00:58:57 - 00:59:07] no me gusta porque tiene que ser un verbo pero no es por tampoco lo vi, hago lo vi, no, hago lo vi, lo hace el
+[00:59:07 - 00:59:18] socio y después hice ni ya y después recién después pueden un incluir a reservar clases o el
+[00:59:18 - 00:59:28] sistema de horribucial, la realidad es que no porque tanto en lo vi como reservar clases son
+[00:59:30 - 00:59:39] funcionalidades independientes, no hay una relación tan estrecha, y le puedo arremar cada
+[00:59:39 - 00:59:48] yo en el diagrama de casos de uso no estoy mostrando secuencia y lo que está tratando de hacer ustedes
+[00:59:48 - 00:59:55] modelando de esa manera del login para hacerle como un incluido en el sistema importe hacia otros
+[00:59:55 - 01:00:00] es que estoy mostrando una secuencialidad antes de observar la clase de tenés que haber el
+[01:00:00 - 01:00:07] escrito o haberte lo guiado, yo esa secuencialidad no la veo, ahora sí empagar la creencialidad
+[01:00:07 - 01:00:14] del gimnasio tengo algo que ha sido si ejecuto después de tal función que es habilitar la
+[01:00:14 - 01:00:24] creencial, me va siguiendo, se van a encontrar internet con muchos ejemplos, pero yo les tengo que
+[01:00:24 - 01:00:31] marcar que cuál es el objetivo del diagrama de casos de uso no muestro secuencialidad, están grabando
+[01:00:32 - 01:00:42] en los años, pero sí, pero que ha sido una hora, perdón, porque los tengo los salidas de las
+[01:00:42 - 01:00:48] comisiones, los lunes que tienen cuatro feriados y les dije que les iba a grabar para que tengan un
+[01:00:48 - 01:01:01] repaso de UML, bueno genial gracias chicos, la grabación, pero no para acá, sí, otro de los
+[01:01:01 - 01:01:07] diagramas que ustedes tienen que haber visto, así no hay dudas después de que esto no lo vi, no lo
+[01:01:07 - 01:01:14] es, es el diagrama de artidad, ¿no? ¿sabuérdame el diagrama de artividad? Es uno de los diagramas que más
+[01:01:14 - 01:01:21] se utilizan dentro del diagrama de mi, perdón dentro de la disciplina de la análisis, es más yo
+[01:01:21 - 01:01:27] siempre digo que es uno de los diagramas que no tengo ni idea por dónde comenzar y bueno vamos a
+[01:01:27 - 01:01:40] dar por un diagrama de artidad, ¿sotto? Recuerdan que estoy dentro del mismo modelo, a ver, modelo de
+[01:01:40 - 01:01:45] gimnasia, me vengo acá, guatón derecho, ustedes van a usar otro tipo de herramientas seguramente,
+[01:01:45 - 01:01:53] uno no tan eschentosa como esta, pero a mí me es más fácil, no dependo de internet, de la buena
+[01:01:53 - 01:02:02] conexión con el do y yo, etcétera, entonces uso mucho esto, no hay un diagrama de artidad,
+[01:02:02 - 01:02:05] dieron cómo cambia todo el menú de acuerdo a la diagrama de artidad, solo tenía la
+[01:02:05 - 01:02:16] garantía, no, vamos a armar diagramas en forma necesaria, tengo el diagrama de artividad, tengo flujos,
+[01:02:19 - 01:02:26] acá tengo inicio, siempre se inicia con este, siempre se termina con este,
+[01:02:26 - 01:02:38] ahora te digo Lucas, tengo acción, estoy en una fase de análisis, hablo más de actividad,
+[01:02:38 - 01:02:46] estoy en una fase de diseño porque yo puedo decir quiero modelar la comunicación con el
+[01:02:46 - 01:02:57] forma de Pacón, el sistema de pago de risa, algo muy puntual, es, sería como un método,
+[01:02:57 - 01:03:02] pero va a tener determinados pasitos y es bastante complicado, entonces como lo quiero
+[01:03:02 - 01:03:08] modelar con un diagrama de artividad, ya no hablo tanto de artidad, hablo más de acciones,
+[01:03:09 - 01:03:14] pues te van a encontrar también con algunos autores que hablan de esta manera,
+[01:03:14 - 01:03:30] vamos a ver una decisión, control, bueno, tengo acción 1, acción 2, minuto,
+[01:03:30 - 01:03:49] el general no entiendo el proceso, si ahí estoy, voy a darle importancia a las secuencialidad,
+[01:03:49 - 01:04:00] primero el usuario se registra en el Shim, acción, acción, después hay un pago,
+[01:04:00 - 01:04:20] habo cuota, habilitó, habilitó, ingreso, habilitó ingreso, el lleto algo muy con un nivel de
+[01:04:20 - 01:04:27] abstracción, muy elevado, recuerdan que hablamos del nivel de abstracción, ya es del negocio
+[01:04:27 - 01:04:45] de esto, habilitó ingreso, se pueden escribir inscripción a clácer de arutila,
+[01:04:45 - 01:05:04] estoy en un momento de entendimiento del negocio y lo que puedo hacer es trabajar con un diagrama de
+[01:05:04 - 01:05:27] casos de uso, me gusta mucho para lograr tener un entendimiento general, minuto,
+[01:05:45 - 01:05:50] él se digo voy a usar canales porque estoy ya en una etapa de analisis,
+[01:05:54 - 01:06:02] entonces, empiezo a ver las responsabilidades y cada uno, él se digo bueno, el socio voy allá,
+[01:06:05 - 01:06:16] para tener una registración, para cuota, habilitó ingreso, se pueden escribir a canales,
+[01:06:16 - 01:06:45] a clácer de arutina, realmente esto es algo muy básico, pero me da un entendimiento de lo que cada uno
+[01:06:45 - 01:06:56] tiene que hacer, esto corresponde a analisis, no corresponde tanto al diseño, pero está bueno
+[01:06:56 - 01:07:17] hablarlo, entonces le moja, está con la realidad, no, por correspondiente a la analisis,
+[01:07:17 - 01:07:36] yo que son canales, es decir, tiene la acción y corras potemás al analisis, aunque a veces se
+[01:07:36 - 01:07:41] usa en el histenio, estoy trabajando con otros sistemas, entonces digo por ejemplo, acá
+[01:07:42 - 01:07:48] estoy trabajando en un sistema donde tengo muchas comunicaciones con otros sistemas, como puede
+[01:07:48 - 01:07:57] ser visa, máster, percado pago y cada uno, lo puedo hacer, está como para tener un entendimiento,
+[01:07:57 - 01:08:03] pero siempre con un elevado nivel de acercción, estoy entrando en el detalle,
+[01:08:03 - 01:08:28] voy a crear otro astía, en el lado de la actividad, luego del diseño, yo obviamente digo bueno,
+[01:08:28 - 01:08:44] quiero ver cómo es el pago, ejecutar pago, estoy pensando, así que capaz que una mezcla
+[01:08:44 - 01:09:08] es perfecto el flujo, pero no importa, están a leer lo que puse, no, sistema en la data,
+[01:09:08 - 01:09:24] información, es más, yo puedo utilizar otro, no sé si lo tengo acá, soy un salido,
+[01:09:24 - 01:10:11] usar y voy un salido otro, utilizar, tengo otro elemento, está del senseinal, es una acción
+[01:10:11 - 01:10:20] que envíe un mensaje o un asignal, acción más que nada, una actividad, y que estoy esperando
+[01:10:20 - 01:10:31] después respuestas, esto se digo, cargadatos, envíe a autorización, intenta utilizar cosas que
+[01:10:31 - 01:10:48] posiblemente las vean, envíe a autorización, pago aceptado, parteriza, puede ser, pago aceptado,
+[01:10:48 - 01:10:58] ya estoy con este evento que se llama aceptado, es una acción que espera el mensaje y no puedo
+[01:10:58 - 01:11:27] continuar con otro, si no tengo este, remarca mucho eso, si me gusta, te lo vean, bueno,
+[01:11:27 - 01:11:38] cargadatos, actión, cháno se me agurre más, digo bueno, en piezo, flujo de contador,
+[01:11:38 - 01:11:57] me empieza a cargar los datos, lendío, autorización avisa y también, bueno, por acá, inutito,
+[01:11:57 - 01:12:20] pecho, o así me digo que por el semilla, es digo que el foco me lo llamo, bueno, en parte,
+[01:12:20 - 01:12:36] eso se digo, bueno, con receta, cargadatos, hago una acción, esta ejecuta de sección y esta acción,
+[01:12:36 - 01:12:49] está generado dos salidas, me voy para acá, y me voy para acá, mientras le pido una autorización avisa,
+[01:12:49 - 01:13:00] hace un acción en el sistema, en el dos, acción dos le pongo, ok, acción dos, acá lo que estoy
+[01:13:00 - 01:13:14] usando que es un fork o un join, es exacto, quiero decir que voy a tener dos actividades o acciones
+[01:13:14 - 01:13:22] concurrentes ahí después de esto, pero digo bueno, tengo que aceptar el pago, está una vez que
+[01:13:22 - 01:13:31] acepta el pago, pues si en ahí voy a crear las facturas, entonces voy a usar que un fork o join
+[01:13:31 - 01:13:44] para sincronizar flujo datos concurrentes, ahí, un join, muy bien, un análisis, muy bien análisis,
+[01:13:51 - 01:14:17] tengo alguna posibilidad, un títodo, tengo alguna posibilidad de decir no es el ejercicio,
+[01:14:17 - 01:14:26] ni importa, estoy mostrando un poco más que nada lo que es los elementos de UML, está notando
+[01:14:26 - 01:14:33] tanto el flujo, pero imagínense que digo vulcardo de datos si hay un pago anulado porque escribió mal,
+[01:14:33 - 01:14:41] no sé, la fecha del vencimiento, ok, yo se digo bueno, una vez que tengo el pago anulado,
+[01:14:41 - 01:14:53] si cancelas, puedo utilizar este tipo de flujos para decir este flujo, que es un único flujo, se va a
+[01:14:53 - 01:15:05] terminar ahí, puedo tener varios y también tengo el final, yo define cuál va a ser el final,
+[01:15:05 - 01:15:17] de acuerdo al flujo principal, tengo acá crear facturas, ok, por lo tanto tengo que ver
+[01:15:17 - 01:15:34] que de acuerdo a qué vamos a ver si lo tengo acá, mi dibujito, pero se lo subí, pero igual vamos
+[01:15:34 - 01:15:46] a hablar, ya de acuerdo, el nivel de esta acción, estoy manejando, está, se recién entendiendo el
+[01:15:46 - 01:15:53] negocio y bueno me voy a un diagrama bien básico, posiblemente con canales, donde cada canal va
+[01:15:53 - 01:15:59] a representar posiblemente los actores que haya definido en donde y en el diagrama de caso de uso,
+[01:16:01 - 01:16:08] casi siempre el diagrama de la tía de alto nivel, el diánal y si es una especie de diagrama de caso de
+[01:16:08 - 01:16:19] uso con flujo de tiempo, ok, ahora si ya estoy entrando del excel y quiere decir bueno no tengo que hacer
+[01:16:19 - 01:16:26] esto y como y qué pasos tienen el pago de gana y ahí empiezo ya con los diagramas de actividad,
+[01:16:26 - 01:16:32] pero ya no tanto pensando en actividad y no pensando en acciones, por lo tanto se van a encontrar con
+[01:16:32 - 01:16:44] algunos autores que hablan de esta manera, ahora bien yo tengo que irme a otro tipo de diagrama,
+[01:16:45 - 01:16:55] también voy a ir al de el corazón del diseño, es imaginaran que igual va a ser,
+[01:16:55 - 01:17:10] el diagrama de clases, oye, ¿qué es la? el diagrama de clases, oye, ¿mento ustedes estuvieron trabajando
+[01:17:10 - 01:17:18] en el diagrama de dominio, estuvieron trabajando en análisis en lo que es el diagrama de dominio,
+[01:17:18 - 01:17:22] voy a hacer primero un repaso antes de comenzar a trabajar con esto,
+[01:17:22 - 01:17:30] el diagrama de clases, obviamente lo que me prego ve es una vista estática o destruyada del
+[01:17:30 - 01:17:37] sistema, por eso está dentro de dentro de las categorías de diagramas de huemer estáticos,
+[01:17:37 - 01:17:46] ok, no represento el tiempo, no veo la vista, el cambio de acuerdo a algún evento, se refleje el
+[01:17:46 - 01:17:54] tiempo, claro representan elementos físicos, no lo cambian con el tiempo, los elementos son las
+[01:17:54 - 01:18:06] clases las asos, voy a los más las más importantes, clase, y me muestra una clase,
+[01:18:06 - 01:18:13] entonces como lo pueden contar a lo de la otra, es una odiedad que encaps básica que encapsula
+[01:18:13 - 01:18:23] información del objeto, es lo que me muestra, mientras voy a ir, atributos muy bien, muy bien,
+[01:18:23 - 01:18:37] en estos dos fantásticos, tengo el nombre, la debería ir más fútcula, bueno, vale,
+[01:18:37 - 01:18:44] ponemos más fútcula, su igual en estas cosas no me fijó, nombre atributos, pero vamos bien,
+[01:18:44 - 01:19:05] atributos, atributos, atributos, ¿qué más? métodos, bueno, y tal más pero los distintos modificadores
+[01:19:05 - 01:19:42] de acceso, es muy bien, y los métodos, profeciarse en capié en eso, justo que digo
+[01:19:42 - 01:19:49] en compañero, no, no tanto, pero si lo mostramos, no porque calculo que ustedes esto lo van
+[01:19:49 - 01:19:59] a ver en programación, o sea, eso lo deberían ver en programación, si es el más, si es algo
+[01:19:59 - 01:20:09] público o no, la realidad es que lo van a ver en programación, y lo voy a ver, si lo que
+[01:20:09 - 01:20:18] voy a remarcar, si es una clase concreta, si es una clase abstracta, o si es una clase,
+[01:20:18 - 01:20:29] o si me interfaz, eso sí lo pido, pero igual ahora vamos a ir a eso, pero la realidad que
+[01:20:29 - 01:20:37] lo demás no, también está difícil verlo en un examen, si es más o menos algo
+[01:20:37 - 01:20:48] que no es tan importante, ¿ok? obviamente lo sí, en el examen los getters y los setters,
+[01:20:48 - 01:20:54] no los pedimos, no los pido porque a lo de salio, es a lo que hoy en día, después les voy
+[01:20:54 - 01:21:01] a subir más adelante, cuando tenemos un poquito más avanzados con la parte teórica, les voy
+[01:21:01 - 01:21:05] a subir una ejercicio justamente donde hablo de los getters y los setters, la realidad es que a
+[01:21:05 - 01:21:10] mí los getters y los setters, hoy en día no me britan mucha información, hay herramientas
+[01:21:10 - 01:21:18] y que ya hacen los getters y los setters en fondo automático, la herramienta, no tanto no es alguna
+[01:21:18 - 01:21:28] aporte tras el ambiental dentro del diseño, lo que yo voy a hacer en el diseño es definir las
+[01:21:28 - 01:21:34] cosas que tienen mayor riesgo de entendimiento, ¿ok? Por lo tanto, hacer los getters y lo
+[01:21:34 - 01:21:42] setter, la realidad no me importa ahora, sí que sí que los van a tener, ahora si estoy en
+[01:21:42 - 01:21:51] el diseño, supone, en el día de nada más de secuencia necesito usar algún getter, lo pongo
+[01:21:51 - 01:21:58] de 10, ¿puedes ponerlo? Puedes ponerlo como para que yo vea que acá, que hace una relación
+[01:21:58 - 01:22:05] estrecha entre los, entre los, entre las vistas del mismo modelo, ¿ok? Obvio, ¿puedes ponerlo?
+[01:22:05 - 01:22:12] pero no pongas todos los getters y los setters de todo el modelo, porque te va a llevar mucho tiempo
+[01:22:12 - 01:22:17] y la realidad es que hay en día las herramientas que los hacen en fondo automática.
+[01:22:17 - 01:22:21] Aparte, no es una buena práctica de ponerlo, pero que es eso, por ejemplo, vivían a los
+[01:22:21 - 01:22:27] querías, los getters, los que estaban en el día de nada más de secuencia. Sí, porque me permite
+[01:22:27 - 01:22:33] a mi ver una, una, me permite evaluar otra cosa, más que los getters y los setters, lo que me
+[01:22:33 - 01:22:39] permite evaluar es que el alumno haya entendido que hay una relación entre los diferentes
+[01:22:39 - 01:22:48] vistas, ¿ok? Como justamente, estás modelando una vista, en vez que modelar la, tienes que contemplar
+[01:22:48 - 01:22:52] los cambios en una y en la otra, porque estamos hablando del mismo modelo. Si vos estás haciendo
+[01:22:52 - 01:23:05] por una herramienta así, tipo software, os cuando vergas un método en el diagrama de secuencia
+[01:23:05 - 01:23:12] o en la comunidad de comunicación o en los diagrama de interacción, automáticamente
+[01:23:12 - 01:23:18] se vean reflejados en el diagrama de clases. Por lo tanto, esa relación estrecha está, ahora
+[01:23:18 - 01:23:24] si yo lo hago, yo ven el diagrama de clases, hago todos los getters y los setters, porque la
+[01:23:24 - 01:23:30] herramienta me lo permite, no lo vas a haber reflejado en el diagrama de secuencia, ¿ok?
+[01:23:30 - 01:23:35] Y ni siquiera lo que le es instanciado sea diagrama de secuencia. Entonces, no me brinde
+[01:23:35 - 01:23:43] a mayor información, lo que calcula, que calcula, que quiere ver, que posiblemente yo también
+[01:23:43 - 01:23:49] lo quiero ver es que si vos estás trabajando con un diagrama de interacción o un diagrama
+[01:23:49 - 01:23:55] de estado también, por ejemplo, puede llegar a estar, bueno, que los mismos elementos que
+[01:23:55 - 01:24:01] ya has utilizado en una vista lo vean reflejados en la otra, ¿ok? Eso sí es algo que se
+[01:24:01 - 01:24:09] valúa y mucho, pero no por lo que se refiere a la gente. Y si, claro, o sea lo que quiero
+[01:24:09 - 01:24:13] remarcar de cisono es que todo lo que tiene que estar en un lado tiene que estar en el otro,
+[01:24:13 - 01:24:20] pero justamente, más, ahora todo vamos a hacerlo, voy a dar mal un diagrama de secuencia,
+[01:24:20 - 01:24:26] entre el diagrama de secuencia me permite ver esa relación estrecha entre la visita vista.
+[01:24:28 - 01:24:37] No hacía revés, bueno, en la gestión de tengo pago, se va a ver ya apuntar, ah, si ya sé, si decime,
+[01:24:37 - 01:24:43] vos tenés. Lo que dijo el compañero sobre los getis y los setes, también aplica para los
+[01:24:43 - 01:24:52] constructores. Los constructores es un mundo aparte, ¿ok? Porque yo lo que voy a estar viendo,
+[01:24:53 - 01:24:58] lo que voy a estar viendo dentro del diseño son las patrones de raps y ahí tengo el criador,
+[01:25:01 - 01:25:07] para usar el criador voy a tener que ser una clase contenedora, todavía no quiero avanzar un
+[01:25:07 - 01:25:15] poquito más pero sí lo voy a explicar esto. El constructor, lo que me permite a mí es,
+[01:25:15 - 01:25:25] digamos, para así decirlo es, es un elemento técnico para poder crear el objeto,
+[01:25:25 - 01:25:34] ¿ok? Entonces yo voy a tener, puedo tener un constructor en donde le estoy pasando parámetros y
+[01:25:34 - 01:25:38] voy a tener un constructor donde no le paso el parámetro y me crea el objeto vacío y después,
+[01:25:38 - 01:25:45] a medida que voy usando ese objeto, le voy a agregar valores a esos parámetros, ¿ok? Pero
+[01:25:46 - 01:25:55] vuelve a repetir tu pregunta, ¿me estoy decidiría crearlo? ¿Qué se hace falta modelarlo?
+[01:25:55 - 01:26:05] Depende, si lo estás modelando en un diagrama de secuencia, colocalo. Ahora, yo ya sumo que por
+[01:26:05 - 01:26:11] defecto va a tener un constructor aunque sea vacío digamos aunque no pase parámetros voy a poder crear
+[01:26:11 - 01:26:21] ese objeto, ¿ok? ¿Me va siguiendo? Sí, creo que sí. ¿Por qué vos cuando estás programando y sí,
+[01:26:21 - 01:26:25] bueno, creé y pago capaz que no tenés el constructor, pero automáticamente lo vas a tener o sea,
+[01:26:25 - 01:26:35] es una herramienta, es un elemento fundamental dentro de la programación para poder instanciar ese objeto.
+[01:26:35 - 01:26:41] Ahora, bien, no es el responsable de crearlo, responsable de crearlo contra los patrones
+[01:26:41 - 01:26:47] grabs que ustedes ya lo vieron, es otra clase, ¿ok? Y no tiene nada que ver con el que lo crea que es
+[01:26:47 - 01:26:54] el constructor, voy a tener el creador, el responsable de la creación y después voy a tener el
+[01:26:54 - 01:27:02] constructor que al lo técnico que me permite ver cómo se crea, ¿eh? Pero eso lo vamos a ver un
+[01:27:02 - 01:27:11] poquito más adelante, el crear pago. Y también va a defender de la cantidad de parámetros que uno le
+[01:27:11 - 01:27:19] pasa, así que le hacer algo dentro de ese constructor o no, ¿ok? Bueno, esto lo dejo así por lo que me acuerdo
+[01:27:19 - 01:27:44] en ella, en foto. Y tengo una asociación, ¿verdad? Lo de lo año, tengo una relación estrecha,
+[01:27:46 - 01:27:59] el lo año tiene perro, tengo que ver la multiplicidad, no hablamos de multiplicidad,
+[01:28:02 - 01:28:17] me acuerdo cómo lo hice el dibujito pero vamos a poner acá, tengo la multiplicidad,
+[01:28:17 - 01:28:31] lo del helen y tengo que tener otro, abajo, pero estamos multiplicando, lo que me va a
+[01:28:31 - 01:28:41] participar a mí es la relación, ¿no? Es ver la cantidad de la cardinalidad y la relación
+[01:28:41 - 01:28:47] de los objetos, es decir, cuantos objetos están conectados o no con otra instancia. Yo acá puedo
+[01:28:47 - 01:29:02] poner 0, 1 o 3, es decir, no puedo tener una instancia o 1 o 3, mía 2 o 5, ni esta, puedo definir bien
+[01:29:02 - 01:29:12] la multiplicidad que yo quiero. Puedo poner un asteroico, puedo poner 0 para más
+[01:29:12 - 01:29:20] valor de tarmos, no sé, pero esto, ¿qué más puedo poner para dar?
+[01:29:22 - 01:29:31] Siempre me olvido si el asteroico esto muglean los, si el asteroico incluye el 0, siempre me olvido,
+[01:29:33 - 01:29:48] y después lo repaso, si el asteroico incluye el 0, ahí está, salen contra el asteroico
+[01:29:48 - 01:29:58] en el celular en contra, el asteroico incluye el 0, por tanto, si quiero decir que es de 1 para
+[01:29:58 - 01:30:09] adelante, pongo esto. También podría decir, m, m, está ahí, después de definir, m, m, m, m,
+[01:30:13 - 01:30:19] y por lo tanto me brinda información, sí, me brinda, porque el día de mañana, cuando yo todo esto se
+[01:30:19 - 01:30:28] lo pase al programador, vas a ver que la cardinalidad me va a permitir crear, vamos a grabar, donde está,
+[01:30:29 - 01:30:37] o uno, o tres, o cinco, ¿ok? Me brinda información en cuanto a la programación. Por lo tanto,
+[01:30:37 - 01:30:45] la multiplicidad en ver los objetos están conectados, un a otro es bastante útil en el diseño.
+[01:30:47 - 01:31:04] ¿Qué más? Nombres a las relaciones, es importón de colocarla, suenio tiene, está, cuando hay herramientas
+[01:31:04 - 01:31:15] que nos permiten hacer transformaciones de diagramas de clases a código, el nombre de la
+[01:31:15 - 01:31:22] asociación a veces es muy útil, hasta lo van a ver más adelante, pero es muy útil, lo tenemos que
+[01:31:22 - 01:31:35] poner, después tenemos generalizaciones, vamos a grabar, generalizaciones, eso se me voy a ir a
+[01:31:35 - 01:31:48] tuca, ya estoy con el animal, tengo una generalización, ustedes lo deben conocer como
+[01:31:48 - 01:31:56] erencia, está, es una clase, una clase su clase de otra y simplemente de esta manera con una
+[01:31:56 - 01:32:02] flechita para arriba, no con lo que le esto nos exámenes, porque después se, si es una asciación
+[01:32:02 - 01:32:11] dirigida, o si es una herencia, por lo tanto, cómo se ve la herencia de esta manera,
+[01:32:13 - 01:32:29] tratan de ser proelíjos que es fundamental dentro del diseño. ¿Está permitida la relación en
+[01:32:29 - 01:32:41] a n en esta materia? Depende, la realidad es que yo no tengo problema porque tal o sea lo que estoy
+[01:32:41 - 01:32:50] tratando de hacer en diseño, es tener un panorama de cómo va a ser la solución, basternas
+[01:32:50 - 01:33:01] de más cosas complicadas, que un NIN, primero vas a tener que manejar bien a los que es controladores,
+[01:33:02 - 01:33:10] vas a tener más cosas, por lo tanto, y vos tenés, darnos un ejemplo de NIN que haya torturado en
+[01:33:10 - 01:33:19] otras materias. Pregunto porque a nosotros en la disintiretamente no nos dejaban. Sí, ya sé,
+[01:33:19 - 01:33:34] decime una cosa, un ejemplo para poder trabajarlo, persona auto, sí, podría ser.
+[01:33:34 - 01:33:45] Acá no, acá la verdad que no, porque yo quiero poner un poco en personas y vas a tener otra clase,
+[01:33:45 - 01:34:10] que no te lo debería permitir. En este ejemplo no, bebiendo algo trivial, ahora si tú pregunta
+[01:34:10 - 01:34:20] estáis me va a poner un dos porque tengas un NN, no, pero bueno, el abanico de notas varía por
+[01:34:20 - 01:34:35] otras cosas, ¿ok? La paz que no llegas al 7, pero no va a ver un 2 por esto, entonces este es
+[01:34:35 - 01:34:49] más tranquilo. Sí, pero gracias. Y está bien que en análisis no les haya puesto, pero capaz
+[01:34:49 - 01:34:57] que en el transcurso de esta materia entiendas, porque lo que yo quiero hacer en el diseño es que lo van
+[01:34:57 - 01:35:06] a lo vamos a ir trabajando, es que cada uno, cada componente a lo que le corresponda,
+[01:35:06 - 01:35:13] entonces yo tengo una multiplicidad, por ejemplo, dueños y estoy manejando también la pila
+[01:35:13 - 01:35:18] dentro de ese objeto, entonces no me conviene, tengo que atomisarlo lo más posible,
+[01:35:18 - 01:35:26] pero no me vas a poder entender ahora, así más adelante, cuando te hacemos hablar un poco de
+[01:35:26 - 01:35:31] patrones, draps, cuestion, todo eso, ¿ok? Quiero tranquilo, después volvemos a este tema.
+[01:35:31 - 01:35:55] Yo tengo una asociación, puedo decir que la avión contiene a la, o que está totalmente
+[01:35:55 - 01:36:07] permitido, y eso es una asociación fuerte. Y yo quiero remarcarlo, porque quiero que el programador
+[01:36:07 - 01:36:14] entienda, te estoy hablando de una relación mucho más estrecha, mucho más fuerte en un
+[01:36:14 - 01:36:23] objeto, en este caso el avión, o sea el otro, o sea el otro, entonces me voy a una que una
+[01:36:23 - 01:36:42] composición o una agregación, una composición, ¿ok? El avión va a tener alas, voy a poner el
+[01:36:42 - 01:36:59] motor, una gente que estamos con un avión de un único motor, si no sé si tienen dos motor
+[01:36:59 - 01:37:21] y se hace de mi puerta, en el niño que lo hice esa maniera, la inserción en el dos o en el
+[01:37:21 - 01:37:44] uno, no se acuerdan, ¿no? Creo que es el del dos. Ahí está. Es una relación muy fuerte, entonces
+[01:37:44 - 01:37:51] cuando quiero transitar, hacer una transformación al código, lo que estoy acá demostrando es que si
+[01:37:51 - 01:37:57] voy a ahorrar avión o el imino, a un distro de la avión, tengo que hacer un distro ideal
+[01:37:57 - 01:38:04] y de motor, ¿ok? Entonces a nivel código me brinda información tener una composición, no ha
+[01:38:04 - 01:38:12] sido el caso de una agregación, que es una relación un poco más fuerte, no? No, no sé, está
+[01:38:12 - 01:38:38] contenido, pero sigue funcionando. Es una relación, es una relación fuerte, pero la realidad
+[01:38:38 - 01:38:54] es que, pero voy a me voy a siento, la avión obviamente va a pasar, van a contener pasajeros,
+[01:38:54 - 01:38:59] está en un objeto contiene el otro, no me gusta mucho el ejemplo, pero no importa, puede ser
+[01:38:59 - 01:39:12] equipos jugadores también. Pero la realidad es que hacer una agregación a nivel código y hacer
+[01:39:12 - 01:39:17] una asociación es exactamente lo mismo, por lo tanto, usted se ona en contra que en
+[01:39:17 - 01:39:22] algunos, en algunos acciones de alumnos, autores, usa agregación y otras que no. La realidad
+[01:39:22 - 01:39:27] es que yo prefiero evitar la agregación, porque a nivel código cuando hay una transformación
+[01:39:27 - 01:39:35] es exactamente lo mismo que hacer una asociación, ¿ok? Por lo tanto no es prácticamente lo mismo,
+[01:39:35 - 01:39:46] la única información que me podría llegar a brindar, no, no, una una información que me podría
+[01:39:46 - 01:39:58] llegar a brindar para acá. Es que la cardinidad del lado del todo siempre va a ser uno, ¿ok?
+[01:39:58 - 01:40:08] Por lo tanto la cardinidad es lo que es el avión, no la puse, porque siempre va a ser uno. Es lo
+[01:40:08 - 01:40:16] único que me da brindar, por lo tanto si yo uso composiciones agregación, el problema que tuvo
+[01:40:16 - 01:40:24] el compañero con N&N o va a ser un, digamos, necesaria porque ahí ya la estás resolviendo.
+[01:40:26 - 01:40:35] ¿Qué más? Cuando tengo un método que contiene al otro y siempre va a ser uno, ¿ok? Por lo
+[01:40:35 - 01:40:40] tanto ahí no tendrías este problema. ¿Qué más?
+[01:40:43 - 01:40:47] Incibilidad lo vamos a dar más adelante, pues los voy a volver loco.
+[01:40:49 - 01:41:02] Y vamos a seguir pero con otra cosita. Bueno, prácticamente son las 10, yo tengo que seguir,
+[01:41:02 - 01:41:11] con ustedes tengo muy bien porque tengo cuatro clases más que los compañeros de las lunes,
+[01:41:11 - 01:41:18] así que vamos a hacer un corte de 15 minutitos y volvemos, pues tampoco quiero relajarme. La idea con
+[01:41:18 - 01:41:28] ustedes que quiero hacer es un repaso de todos los diagramas que era la idea del día de hoy,
+[01:41:28 - 01:41:35] ya la clase que viene vamos a empezar con patrones, graves y hacer ejercicios pero en el aula,
+[01:41:37 - 01:41:44] pero tenemos que hacer un repaso de todos los, de todos las vistas, de todos los diagramas. Por lo
+[01:41:44 - 01:41:54] tanto el objetivo, si en sé que esté dioso a escucharme a mí me parece que a veces hasta
+[01:41:54 - 01:42:04] los, no me gusta que sea tan teórica, trato de hacer un poco que tengan un poco de práctica,
+[01:42:04 - 01:42:09] pero bueno, la ventaja de la mente explico que quiero comenzar con todo el mismo nivel por lo menos
+[01:42:09 - 01:42:16] en cuanto a diagramas, entonces la clase de idea debe hacer eso, vamos a hacer un pequeño corte,
+[01:42:16 - 01:42:27] vamos a buscar un sitio, un caspecito y seguimos, les parece, hasta que hora y cuarto les parece
+[01:42:27 - 01:42:36] 15 minutos, son las bien, no tengo el aula, son las 9,56, pero sí, les parece bien, 15 cuarto, así,
+[01:42:36 - 01:42:40] nada, perfecto, por lo del proceso, empiezo y así cuarto,

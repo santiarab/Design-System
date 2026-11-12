@@ -1,0 +1,24 @@
+Numero de Clase: 01 
+Fecha: 20 de Agosto 2026
+
+
+TEMAS VISTOS , RECOMENDACION DE LECTURA Y ACTIVIDADES:
+-Leer Pressman capitulo 1, 2, 3 
+-Presentacion +  RUP + agiles
+-estudio de conceptos de agiles y SCRUM 
+-Leer Pressman capitulo -Interfaz, cap 11, 13
+-hacer el tp de HTML, para aquellos alumnos que no tienen conocimiento de HTML.
+
+
+
+tarea para la proxima semana
+ejercicio 
+-se definio las tarjetas de usuario de acuerdo a lo relatado de la persona que llevo la investigacion 
+-definir el Backlog con las Tarjetas de usuario YO
+-agruparlas de acuerdo a la naturaleza YO
+- de acuerdo a las tarjetas de usuario seleccionadas armar el sprint baklog y armar el prototipado (con IA hacer el prototipado basado en la tarjeta de usuario) CADA GRUPO
+
+-Informar a la prof Analia por CHAT de teams,  y prototipo  realizaron, sin esta informacion no se podra hace el simulacro
+
+
+

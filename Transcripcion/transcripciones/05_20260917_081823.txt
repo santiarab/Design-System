@@ -1,0 +1,934 @@
+# Clase 05 - Parte 1 - 2026-09-17
+Archivo de origen: Clase 05-20260917_081823-Meeting Recording.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 01:45:31
+
+---
+
+[00:00:03 - 00:00:42] Vamos a compartir mi computadora. Sí se ve, tres de los grasa. Fantástico. Bueno, la idea es poder hacer un ejercicio. Vamos a hacer el ejercicio de bancos solivares, yo lo voy a leer muy rápidamente, voy a poner en foco algunas cosas y la idea es ir armando una solución.
+[00:00:42 - 00:01:08] Van polivares, decía hacer un nuevo desarrollo del módulo de préstamos, ya que no se encuentra el código de dicha fuente en su sistema. De las fases de análisis se definía la siguiente funcionalidad, sistema de gestionar el delta de usuarios, de gestionar la asignación de ejecutivos, determinados clientes, el sistema de gestionar los diferentes préstamos que tienen el banco.
+[00:01:08 - 00:01:26] Personales sin ser necesaria tener una declaración sobre el destino de los fondos, préstamos prendarios para autos, motos, herramientas, se ve tener una declaración sobre el destino de los fondos, más asociarlos un seguro del banco para proteger el día.
+[00:01:26 - 00:01:35] Prestamos hipotecarios, declaración sobre el bien en potípo tecado con el seguro de catástrofe del banco.
+[00:01:35 - 00:01:47] El sistema de gestionar la evaluación de confiabilidad de pago del préstamo, el mismo lo realiza el ejecutivo de cuentas, solicitas de información de verás, le visa y del propio pago.
+[00:01:47 - 00:02:00] El sistema de despermitida, el ejecutivo de cuentas, evaluar el retraso de las cuantas predefinidas para el coguro del préstamo, ante el retraso de tres meses en el pago, el ejecutivo de cuentas puede refinale el préstamo.
+[00:02:00 - 00:02:09] Modificando el interés y cantidad de cuantas. A la hemisel proyecto se obtuve el siguiente modelo premel preliminar donde se definía las fientes clases.
+[00:02:11 - 00:02:22] Tenemos personas, ejecutivo, clientes, su cruzal de origen, caja de ahorro, cuantas corrientes, préstamos, cuantas evaluaciones, bien propiedades, seguro y préstamo en protecario.
+[00:02:22 - 00:02:36] Y acá está todo lo que nos pide. Muchas veces se los exámenes, sucede a todo, sucede a que nos dan algunas clases del dominio.
+[00:02:37 - 00:02:46] Tal vez es un poquito más armado, ya como si fuera un diagrama de clases, esto está igual lo voy a poner.
+[00:02:46 - 00:02:52] Como si fuera un diagrama de clases, si ustedes tienen que ver si eso también les sirve a lo.
+[00:02:52 - 00:03:01] En el caso de los dejo, por si no pueden ir a buscarlo, pero está dentro de los materiales.
+[00:03:02 - 00:03:11] En la guía de ejercicios para clases, que yo lo se lo subí, está en el ejercicio número uno, bueno le busco los bancos olioares.
+[00:03:11 - 00:03:18] Vamos a comenzar, pero vamos a comenzar, ¿por dónde comenzarían ustedes si quieren en el examen?
+[00:03:18 - 00:03:25] Obviamente yo les voy a pedir posiblemente un diagrama de clases, un diagrama de interacción, puedo pedirle todos los diagramas.
+[00:03:26 - 00:03:31] Imagínense que les pido todos los diagramas, que tenemos tiempo y ustedes por dónde comenzarían.
+[00:03:34 - 00:03:37] Y posiblemente por el diagrama de clases o de casas de uso.
+[00:03:38 - 00:03:40] De casas o de casos de uso.
+[00:03:40 - 00:03:50] Ahí ya está definiendo una microbiología como RUP, donde digo bueno voy a pasarme en casos de uso. ¿Estamos acuerdos?
+[00:03:51 - 00:03:59] Ok, ¿Otra por dónde comenzarían?
+[00:03:59 - 00:04:07] Por la idea más sencillo. ¿Por qué? Por la idea más sencillo. ¿Por qué? ¿Por dónde?
+[00:04:07 - 00:04:12] Por el diagrama de clases.
+[00:04:12 - 00:04:15] Por el diagrama de clases, muy bien, ¿Otra?
+[00:04:15 - 00:04:24] El de componentes, pero puede ser.
+[00:04:24 - 00:04:28] El de componentes, me gusta también, el empezo del diagrama de componentes.
+[00:04:29 - 00:04:40] Hay otros. Bueno, la realidad es que uno inicia desde su mayor nivel de comprensión.
+[00:04:42 - 00:04:50] Entonces, de acuerdo al entendimiento del negocio uno va a comenzar. A mí yo sí, la realidad no conozco absolutamente nada del negocio.
+[00:04:50 - 00:04:56] Uno de los diagramas que a mí me gusta comenzar es un diagrama de clases, donde tengo.
+[00:04:57 - 00:05:05] En unico diagrama el proceso principal, es uno de los cuales yo siempre comienzo, sino tengo un día del negocio.
+[00:05:05 - 00:05:16] Si ya conozco el negocio y entiendo la problemática y digo bueno, me voy a un diagrama de componentes posiblemente, o directamente me voy a ver el diagrama de clases.
+[00:05:16 - 00:05:26] Empezo con esos. De diagrama de clases, si tengo que poner foco en toda la parte visual y directamente me voy con un protetipado, empezo con user experience,
+[00:05:27 - 00:05:44] no, no empezaría con todo lo que es un ML, posiblemente no os haría historias casos de uso, posiblemente ya empezaría a saber historias de usuario, aunque uno aplique las buenas prácticas de los casos de uso.
+[00:05:45 - 00:05:56] Cuando no tengo ni idea cómo es y recién estoy arribando a una organización, a mí me gusta que me muestra en diagrama de explíde.
+[00:05:56 - 00:06:12] No sé si acá le explique el diagrama de explíde, le voy a pedir que me haya diciendo si a veces me confundo con la otra comisión.
+[00:06:13 - 00:06:15] Explique el diagrama de explíde gente.
+[00:06:15 - 00:06:19] Que yo recuerdo de la profeta.
+[00:06:19 - 00:06:25] Fantástico. Bueno, vamos entonces a empezar.
+[00:06:25 - 00:06:33] Acá estoy abriendo de abajo acá, estoy abriendo la herramienta.
+[00:06:33 - 00:06:38] Ah, ya está, minutos. No quiero dar grandas y no puedo dar y está.
+[00:06:38 - 00:06:42] Estoy abriendo la herramienta y voy a ir con un diagrama de explíde.
+[00:06:43 - 00:06:53] Y no deploy. Bueno, agarréle el diagrama. No sé si nosotros usamos dos diagramas y de explíde componente.
+[00:06:53 - 00:06:57] La realidad es que estos dos son diagramas de implementación.
+[00:06:57 - 00:07:00] Estos se dedondan diagrama de implementación.
+[00:07:00 - 00:07:07] En el diagrama de componente, si estuvimos viendo, me brinda una vista lógica pero al nivel de software.
+[00:07:07 - 00:07:12] Entonces, los elementos más importantes que tengo en el diagrama de componente,
+[00:07:12 - 00:07:15] voy a poner los diagramas de componente.
+[00:07:15 - 00:07:19] Los elementos más importantes que tenemos este diagrama de componente,
+[00:07:19 - 00:07:29] obviamente es el componente que se usa para grupar elementos estructurales de lógicos con una naturaleza en común,
+[00:07:29 - 00:07:36] en la define el arquitecto y después las comunicaciones como se conectan esos componentes,
+[00:07:36 - 00:07:38] que se denomían interfaz.
+[00:07:38 - 00:07:43] Ahora eso es al nivel software pero si yo quiero ver una vista al nivel hardware,
+[00:07:43 - 00:07:49] ahí ya me voy a otro diagrama en la cual VML le presenta como diagrama de explíde.
+[00:07:49 - 00:07:53] El que me esbazes es una distribución física del sistema.
+[00:07:53 - 00:07:58] La distribución de los elementos que tenemos es de desarrar los elementos que tenemos,
+[00:07:58 - 00:08:04] son prácticamente el nodo y las formas de comunicación, nodos u asociaciones,
+[00:08:04 - 00:08:07] la omida más en un M2.x.
+[00:08:07 - 00:08:14] El nodo es el elemento de hardware que está representado de esta manera,
+[00:08:14 - 00:08:19] es una caja entre dimensiones, que yo puedo colocar,
+[00:08:19 - 00:08:25] que es lo que representa dicho elemento, por ejemplo un servidor.
+[00:08:25 - 00:08:34] Y si tengo acá la PC, lo puedo representar de esta manera.
+[00:08:34 - 00:08:46] Y tengo que pensar en un diagrama de explíde para el ejercicio del banco,
+[00:08:46 - 00:08:55] estuvimos hablando sobre el préstamos y posiblemente tenga,
+[00:08:55 - 00:09:06] acá pongo clientes, este cliente, posiblemente tenga,
+[00:09:06 - 00:09:18] voy a acá escribir muy básico, server, banco,
+[00:09:18 - 00:09:26] pues posiblemente acá me pedía, voy a tener contacto con Visa,
+[00:09:26 - 00:09:34] con Master, con el Verás, ahora lo vemos.
+[00:09:34 - 00:09:38] Posiblemente tengo usuarios internos, propios del banco,
+[00:09:38 - 00:09:44] el ejecutivo de cuenta, el cajero hombre,
+[00:09:44 - 00:09:53] en un exuario internos del banco, a PC, no.
+[00:09:53 - 00:10:00] Y después tengo las formas de comunicación,
+[00:10:00 - 00:10:08] bueno, no tengo el servidor del banco y después tengo, no sé, la base de apps, server.
+[00:10:08 - 00:10:14] Oh, la base de apps.
+[00:10:14 - 00:10:19] Ahí me gusta lo que es la separación de ambientes, un minutito, vamos a tardar,
+[00:10:19 - 00:10:26] y las opciones.
+[00:10:26 - 00:10:37] Y voy a separar, no tengo muchos elementos en VML para este tipo de diagrama,
+[00:10:37 - 00:10:44] así que voy a separarlo a todo lo que es el interno del banco,
+[00:10:44 - 00:10:48] acá con lo que es externo, y bueno, tengo que las clientes,
+[00:10:48 - 00:10:51] que comunican con el servidor del banco,
+[00:10:51 - 00:11:00] que es algo muy simple, que llegue acá, internos, posiblemente también,
+[00:11:00 - 00:11:05] esta, el servidor del banco se comunita con lo que ya va a ser datos,
+[00:11:05 - 00:11:13] acá me voy a comunicar con lo que son el sistema externo, como el verás,
+[00:11:13 - 00:11:15] y visa, ¿ok?
+[00:11:15 - 00:11:21] La realidad es que es un diagrama bastante feo, si de abajo solamente en lo que es VML.
+[00:11:21 - 00:11:28] Por eso, cuando yo arranco, no arranco,
+[00:11:28 - 00:11:34] hacer un diagrama de la escuela y hoy en día,
+[00:11:34 - 00:11:43] la realidad es que no se utiliza mucho la forma de hacer un diagrama de VML,
+[00:11:43 - 00:11:50] bastante no sé en VML, de por donde le explique bastante en VML.
+[00:11:50 - 00:11:55] Por lo tanto, ustedes pueden contárselo con que algunos autores se definen de esta manera
+[00:11:55 - 00:12:00] y estadien, porque respetan un estándar, un lenguaje, está está andarizado,
+[00:12:00 - 00:12:02] pero ya dejo y usarlo en el mercado.
+[00:12:03 - 00:12:06] La realidad es que hoy en el mercado nos rima un montón de imágenes,
+[00:12:06 - 00:12:10] que están muy buenos para lo que es el modelado,
+[00:12:10 - 00:12:14] porque aparte yo lo quiero lograr, en un diagrama justamente de despliegue,
+[00:12:14 - 00:12:21] tener una única foto, un minuto, ¿eh?
+[00:12:21 - 00:12:23] Me voy a decir, está grabando, ¿no?
+[00:12:23 - 00:12:24] A veces me voy a estar grabando.
+[00:12:24 - 00:12:32] Tener una única foto, toda la estructura bancaria, ¿ok?
+[00:12:33 - 00:12:35] O por lo menos que pueda tener.
+[00:12:35 - 00:12:39] Yo siempre cuento este ejemplo, porque está muy bueno,
+[00:12:39 - 00:12:44] si yo tengo que ir a trabajar a Carfur y no tengo ni idea,
+[00:12:44 - 00:12:47] gracias, tomás en el Alberto.
+[00:12:49 - 00:12:52] Si tengo que ir a trabajar a Carfur, no tengo ni idea,
+[00:12:52 - 00:12:58] y la razón estoy arribando al área de sistemas y la realidad es que me muestra un diagrama de despliegue
+[00:12:59 - 00:13:03] por lo menos para saber cómo es la sucursal,
+[00:13:03 - 00:13:06] les te utilizan, con qué se conectan,
+[00:13:06 - 00:13:08] donde está el sistema más importante,
+[00:13:08 - 00:13:12] donde está lojado y la realidad es que me brinda un mayor nivel de entendimiento.
+[00:13:13 - 00:13:18] Entonces, ahí me gusta hablar mucho y hacer diagrama
+[00:13:18 - 00:13:21] ya con otro tipo de herramientas, puede ser el rollo o cualquier otra,
+[00:13:21 - 00:13:23] hay muchas herramientas.
+[00:13:23 - 00:13:26] A mí me gusta esta,
+[00:13:27 - 00:13:30] hay algunas herramientas pagas,
+[00:13:30 - 00:13:36] son, como si se dice,
+[00:13:36 - 00:13:40] lo que tiene, bueno, a estas que ustedes van habilitando estos elementos,
+[00:13:40 - 00:13:43] hay acuerdo a lo que ustedes están trabajando.
+[00:13:43 - 00:13:47] Por ejemplo, acá van a,
+[00:13:47 - 00:13:51] pero acá, van a más formas,
+[00:13:51 - 00:13:54] y en más formas pueden ir habilitando,
+[00:13:54 - 00:13:56] otras partes del menú.
+[00:13:56 - 00:14:00] Si están trabajando con AWS, pueden seleccionar algunas más,
+[00:14:01 - 00:14:04] si están trabajando con Azure, lo van a ir habilitando,
+[00:14:04 - 00:14:07] y les muestra todos los elementos que ustedes tienen.
+[00:14:07 - 00:14:15] Si hay gente que se dedica a trabajar en redes y tiene que modular
+[00:14:15 - 00:14:18] todo en infraestructura de redes y trabaja con CICCO,
+[00:14:18 - 00:14:21] me voy a CICCO,
+[00:14:21 - 00:14:26] me voy a CICCO y muestra todos los elementos que me brinda la esa organización.
+[00:14:26 - 00:14:29] Yo lo saco para que no...
+[00:14:30 - 00:14:34] acá voy a ver,
+[00:14:34 - 00:14:37] yo trabajo con algunos productos de IBM,
+[00:14:37 - 00:14:40] voy a decir que son los más conocidos,
+[00:14:40 - 00:14:44] tengo todos los elementos de IBM,
+[00:14:44 - 00:14:46] están,
+[00:14:46 - 00:14:49] ya son conocidos y que,
+[00:14:49 - 00:14:51] con una única imagen, no entendemos,
+[00:14:51 - 00:14:54] lo mismo pasar con lo que son Kubernetes,
+[00:14:54 - 00:14:59] me voy a...
+[00:14:59 - 00:15:06] Si trabajo con todo lo que es procesado de modelado de negocios,
+[00:15:06 - 00:15:10] y de esa manera es más, por ejemplo,
+[00:15:10 - 00:15:13] ustedes esto lo vieran,
+[00:15:13 - 00:15:17] ahora han tenido una materia,
+[00:15:17 - 00:15:20] circuitos digitales, algunos,
+[00:15:20 - 00:15:23] vieran.
+[00:15:23 - 00:15:25] Con ese nombre no, pero sí vimos,
+[00:15:25 - 00:15:27] sí vimos por tal lógicas.
+[00:15:27 - 00:15:29] El cuartas lo ha estado.
+[00:15:29 - 00:15:31] Bueno, esto a mí me encanta,
+[00:15:31 - 00:15:32] entonces compórlas lógicas,
+[00:15:32 - 00:15:35] bueno, el sistema de productos digitales me gusta.
+[00:15:35 - 00:15:36] Esto trabaja en los números,
+[00:15:36 - 00:15:37] me voy a dar también.
+[00:15:37 - 00:15:40] Por lo tanto ustedes pueden ir habilitando
+[00:15:40 - 00:15:43] la funcionalidad de que refiere
+[00:15:43 - 00:15:46] y les agregra un montón de imágenes
+[00:15:46 - 00:15:50] que son muy intuitivas y ya están muy están directadas
+[00:15:50 - 00:15:52] en el mercado.
+[00:15:52 - 00:15:54] Cuando habilitan una,
+[00:15:54 - 00:15:57] no es que habilitan solamente una sola pasabilidad,
+[00:15:57 - 00:15:58] un montón de solapas,
+[00:15:58 - 00:16:00] por eso yo seleccioné muy poquitas,
+[00:16:00 - 00:16:02] dirán que seleccioné muy pocas,
+[00:16:02 - 00:16:05] y tiene lo cualquier cantidad acá.
+[00:16:05 - 00:16:09] Tenemos muchísimas.
+[00:16:09 - 00:16:12] Bueno, vamos a comenzar a armarlo y bien a ver
+[00:16:12 - 00:16:14] la diferencia que hay entre uno y el otro.
+[00:16:14 - 00:16:18] Me gusta mucho, me voy a parar acá.
+[00:16:18 - 00:16:25] Esto les pico una vez y así te tendrán de paciencia acá.
+[00:16:25 - 00:16:29] Bueno, yo lo que voy a tratar de hacer es exactamente lo mismo
+[00:16:30 - 00:16:35] que hice acá con un garagón un poquito más intuitivo.
+[00:16:35 - 00:16:38] Entonces yo voy a empezar con los clientes.
+[00:16:38 - 00:16:41] Ok, tengo clientes que se van a conectar
+[00:16:41 - 00:16:45] a pedir un préstamo desde un celular.
+[00:16:45 - 00:16:50] Están clientes que hay unos que pueden estar llamados por teléfono.
+[00:16:50 - 00:16:53] Hoy es día también pueden hacer el pedido
+[00:16:53 - 00:16:56] o desde una computadora que por acá no la tengo.
+[00:16:57 - 00:16:58] Ahí, ahí.
+[00:16:58 - 00:17:05] Entonces, bien clientes.
+[00:17:05 - 00:17:09] Ok, voy a dejar un poquito ahora acá.
+[00:17:09 - 00:17:13] Tengo diferentes clientes que me voy a saber no voy a conectar.
+[00:17:13 - 00:17:16] Esto también, los usuarios sin termos,
+[00:17:16 - 00:17:20] había definido que posiblemente también tenía algunos usuarios sin termos
+[00:17:20 - 00:17:23] como pueden ser los trabajan en el banco.
+[00:17:23 - 00:17:27] Simplemente por un tema para poder visualizar
+[00:17:27 - 00:17:29] lo voy a poner de color.
+[00:17:29 - 00:17:46] No tengo varios usuarios a lo que justamente el drogío tiene.
+[00:17:46 - 00:17:48] No sé si lo tiene para dar un lado acá.
+[00:17:48 - 00:18:01] A lo que tiene estas herramientas que me permiten también
+[00:18:01 - 00:18:06] buscar imágenes, de que es una imagen del banco.
+[00:18:06 - 00:18:19] Ok, entonces es una manera de hacer esta encija de buscar.
+[00:18:19 - 00:18:22] Me voy a aprender esta.
+[00:18:23 - 00:18:24] Vengo acá.
+[00:18:24 - 00:18:28] Bueno, tengo que comentar lo de la parte de server.
+[00:18:28 - 00:18:29] En el sistema externo.
+[00:18:29 - 00:18:32] Voy a la parte de server.
+[00:18:32 - 00:18:39] Quiero que la parte de Office,
+[00:18:39 - 00:18:43] todo lo que es, la verdad que es bastante intuitiva
+[00:18:43 - 00:18:46] y esa parte para lo que nosotros hacemos es más que suficiente.
+[00:18:46 - 00:18:49] Después tiene una material como virtualización
+[00:18:49 - 00:18:52] y le tiene que ser algún modelado o base de datos
+[00:18:52 - 00:18:59] de datos o tienen alguna que hablas crucibamente de la infraestructura y están trabajando con
+[00:18:59 - 00:19:08] nube sualgo, te está ahí si ya pueden ir al modelado que requieran. Yo con esto para mí es
+[00:19:08 - 00:19:18] más que suficiente. Tenemos por acá, y digo bueno voy a trabajar posiblemente mis usuarios internos,
+[00:19:18 - 00:19:37] un minutito, bajado una pizzer de server acá, de hacer la cintra de su juego, bueno, acá tengo un
+[00:19:37 - 00:19:46] server, voy a decir que también voy a colocar, tengo un server, esto después, voy a hablar un
+[00:19:46 - 00:19:54] pizzer de server, de application server, de web server, pero primero voy a armar el diadrán,
+[00:19:54 - 00:20:09] tengo todos los usuarios internos, para acá, un minuto, voy a ir con una línea directamente, no voy
+[00:20:09 - 00:20:17] a ir con las direccionales, astrumas que son todas direccionales, quiero bueno, los usuarios
+[00:20:17 - 00:20:25] internos se van a tener una conexión exclusiva con lo que es el sistema posiblemente de la sucurzal,
+[00:20:26 - 00:20:32] de la sucurzal posible de lo que es mi sistema posiblemente también tengo una conexión estrecha
+[00:20:32 - 00:20:47] con el servidor que contenga todas las partes de datos, voy a sumir un tito, que esto es una sucurzal,
+[00:20:47 - 00:20:54] pues yo voy a dar varias sucurzales y esta estructura de ver que me has resplicada, pero voy a considerar
+[00:20:54 - 00:21:00] que después tengo posiblemente, así como debería ser tengo lo que es una sucurzal,
+[00:21:00 - 00:21:10] después tengo la central, en la central digo bueno tengo posiblemente de tener un receta,
+[00:21:10 - 00:21:19] no te voy a poner, está voy a tener posiblemente un conjunto de servidores, estoy justamente en la parte central,
+[00:21:19 - 00:21:27] está voy a poner otro aplicación, quiero decir que cuando me voy a poner y se aplique
+[00:21:27 - 00:21:38] el server, pues lo ven, bueno para acá, volver arriba, y bueno esto en algún momento va a acceder,
+[00:21:38 - 00:21:43] acá tengo una funcionalidad mínima, acá ya tengo una funcionalidad más centralizada,
+[00:21:45 - 00:21:54] posiblemente tengo como para acá abajo, así ustedes ven también, tengo un conjunto de servidores
+[00:21:56 - 00:22:10] o lo para acá, posiblemente una de las cosas que a mí también me gusta es aplicar uno de los
+[00:22:10 - 00:22:18] principios del diseño, que es lo que es la separación de enconvencia, este frinta medio cláudico,
+[00:22:18 - 00:22:41] no me gusta tanto, imágenes medio grinda, bueno medio grinda, esto tiene una parecía,
+[00:22:41 - 00:22:57] bueno vamos con esta, a mí lo que me gusta mucho separar, horrible, un unito, voy a buscar
+[00:22:57 - 00:23:17] un a yo separarlos ambientes, digo bueno voy a tratar de separar los ambientes en los cuales
+[00:23:17 - 00:23:25] mi organización en el banco, luto tengo que ser prolijo cuando hago un diagrama,
+[00:23:25 - 00:23:31] independientemente yo sé que ustedes les parece que apere fundamental porque uno de las cosas
+[00:23:31 - 00:23:40] que tenemos que lograr hacer es poder transmitir una idea y si no somos prolijos no vamos a poder transmitir
+[00:23:40 - 00:23:46] una idea es como decir leer un libro y que todos los capítulos están mezclados, tengo que ser
+[00:23:51 - 00:24:10] un banco, esto sería mi organización, un minuto, yo ampliaré un poco de agua,
+[00:24:13 - 00:24:32] cambiará, vamos a cambiar el fondo para poder visualizarlo bien, creo que vamos con este,
+[00:24:35 - 00:24:49] horrible, con trozoza, un minuto, con seleccion de male el evento, me ha cacido a hacer algo,
+[00:24:49 - 00:24:58] pero no me acuerdo como era para dar lo vuelta, no importa, sí, si selecciona el cuadrito,
+[00:24:58 - 00:25:05] en la parte donde dice texto, abajo de donde no, en texto hay en el medio, hay una que está
+[00:25:05 - 00:25:15] quizá vuelta y una que chapsuta en la arriba, hay un adonementes, hay mucha, me ha divinaste el pensamiento,
+[00:25:15 - 00:25:23] ya estamos imitizados, me gusta ser puñacha, muy bien, perfecto, vamos a hacer un copiar,
+[00:25:23 - 00:25:28] cuando lo siento, tengo lo que es mi organización, me acabo de poner todo lo que son sistemas externos,
+[00:25:33 - 00:25:41] obviamente los usuarios, los clientes son sistemas externos, o sea, lo veron si era como externo,
+[00:25:41 - 00:25:59] como sistemas externos, a todavía buena cliente, me falta todavía, tienes que
+[00:25:59 - 00:26:08] dejar, acabo de trabajar, si me da bajo de la misma manera, uno ya tiene unos cuantos vicios,
+[00:26:09 - 00:26:19] voy a poner servicios externos, servicios externos por qué asumo, quiero reflicar algo parecido,
+[00:26:19 - 00:26:25] lo que yo pence, emponar vista, verás, etcétera, voy a poner acá en ese sector todo lo que son
+[00:26:25 - 00:26:53] servicios externos, ahora me voy para acá y digo bueno, un minutito, tengo su curso al,
+[00:26:53 - 00:27:09] su curso al, voy a poner un banco y inventar un banco para banco, van a ir y arramos mezcillas,
+[00:27:11 - 00:28:01] para que, voy a colocar de descentral, un minutito, y piso separar ambientes, ahora después
+[00:28:01 - 00:28:08] lo van a ver más un poco más planita, quiero separar ambientes, yo tengo que lo ver, tengo que
+[00:28:08 - 00:28:15] aplicar los mismos principios del diseño, en todos los principios del diseño se aplica, separación de
+[00:28:15 - 00:28:20] incumbenza, separación de ambientes que cada uno, cada uno la responsabilidad de que te toca,
+[00:28:25 - 00:28:35] me voy por ejemplo a, quiero hacer un cubo, quiero tener un cubo ya que estábamos a hacer un cubo,
+[00:28:35 - 00:29:01] que es algo relacionado, y se va a robar, mira esto, me voy a buscar un cubo, me voy a buscar el cubo,
+[00:29:01 - 00:29:20] que me presta, digamos el elemento básico de, de UML, y digo bueno, este va a ser vista,
+[00:29:20 - 00:29:41] en sí yo la realidad que, si sé que trabajo con un sistema externo, eso es bastante de
+[00:29:43 - 00:29:50] utilizar imágenes, me gusta porque, me da una, yo lo que quiero es que si es fácil de entender,
+[00:29:50 - 00:29:59] entonces de última esto lo borro, que ahí, es mucho más entendible, el que estoy conectándome con el
+[00:29:59 - 00:30:04] sistema, que después veré como lo hago, pero para alguna primera instancia está mucho más que vean,
+[00:30:05 - 00:30:10] ni lo mismo acá voy a poner verás, ahora saben lo que se verás, ¿no?
+[00:30:11 - 00:30:15] Regunto porque a veces saben que es referente y otra vez no,
+[00:30:15 - 00:30:26] que nadie quiere ser exacto, ahora ahora vemos, posiblemente el servidor se va a tener que
+[00:30:26 - 00:30:34] conectar con el verás, que es un sistema que, ahora lo vamos a ver, es un sistema que nos dice si tenemos
+[00:30:34 - 00:30:43] si cualquier persona de la Argentina tiene deuda o no, el cliente también se va a conectar
+[00:30:43 - 00:30:52] con, posiblemente con el central, eso es algo que se define a nivel de arquitectura, pero yo
+[00:30:52 - 00:31:15] se empiezo a separar los ambientes, en el título, en el mismo tiempo, que es mis clientes,
+[00:31:15 - 00:31:21] todo lo que es servicio, visa, más term, y acá hasta podría llegar a poner otro cubo,
+[00:31:24 - 00:31:32] y representar por ejemplo los bancos central de la República Argentina, el banco central de la
+[00:31:32 - 00:31:37] República Argentina, porque calculo que en algún momento también le podría llegar a ofrecer o solicitar
+[00:31:37 - 00:31:48] información o o eso directamente me piden cosas a mí, entonces tendría que tener una comunicación.
+[00:31:49 - 00:31:59] Bueno, ven que este es mucho más fácil y de entender y me voy a esto, es más amigable,
+[00:31:59 - 00:32:09] es muchísimo más amigable, y a eso se les suma que ustedes pueden tener otros tipos de elementos,
+[00:32:09 - 00:32:14] que están todo lo que están acá, que la realidad están buenísimos, pero si estoy trabajando
+[00:32:14 - 00:32:22] ya con una base hora que el por ejemplo, si estoy trabajando con el server de la vez que
+[00:32:22 - 00:32:33] están acá, por ejemplo estoy trabajando con MySQL y WebSQL Server, lo puedo colocar, la imagen
+[00:32:33 - 00:32:41] que representa esa elemento, por lo tanto esto sí son uno de las formas y armar un diagrama de
+[00:32:41 - 00:32:49] despliegue que más se utiliza. Hay una rama que se llama lo que es arquitectura empresarial,
+[00:32:49 - 00:32:55] que tiene muchísimo de esto, y a medida que uno va haciendo click, va bajando ese nivel de
+[00:32:55 - 00:33:00] abstracción, vas haciendo ese doble click y vas haciendo lo más atómico, cuando se digo bueno,
+[00:33:00 - 00:33:06] por ejemplo, en este servidor, abro y me muestran todos los servidores que tiene esta granja de
+[00:33:06 - 00:33:12] servidores, bueno este server, que tiene, este server tiene, una base de datos fuera que
+[00:33:12 - 00:33:21] es la clima de tal versión, y da soporte a tal aplicación que la utiliza a la gente de recursos
+[00:33:21 - 00:33:28] humanos, entonces de esa manera yo puedo ir bien lo y de los recursos humanos, ¿quién son esos
+[00:33:28 - 00:33:35] usuarios específicos que utilizan esa aplicación? Y analía, Juan y Pablo, bueno, fantástico,
+[00:33:35 - 00:33:42] yo voy haciendo ese doble click y voy teniendo una trasa de toda la organización, esas son
+[00:33:42 - 00:33:48] una rama también que es muy utilizada, que es todo lo que es arquitectura empresarial,
+[00:33:48 - 00:34:08] acá me faltó algo un tito, ¿ok? Por lo tanto es bastante utilizado, lo que me vienes
+[00:34:08 - 00:34:16] al diagrama de despliegue cuando no, tengo ni idea y una vista general me ayuda a entender un
+[00:34:16 - 00:34:27] poquitito, ahora si me voy a la especificación y por lo menos ya pude identificar algunos clientes
+[00:34:27 - 00:34:33] que ya tengo sistemas internos, que tengo una conexión y perió de información hacia otro
+[00:34:33 - 00:34:47] lado, que puede ser a través de la vida, no recorran que acá estaba un poquito, acá el
+[00:34:47 - 00:34:52] sistema solicita la información del vera del ICI del propio banco, está por lo tanto
+[00:34:52 - 00:35:01] tengo alguna conexión extra, eso también lo tengo aquí contemplándolo, ¿ok? Ahora bien,
+[00:35:01 - 00:35:06] vamos a antes de seguir, yo quiero explicarles un poquitito, ¿qué es el vera?
+[00:35:06 - 00:35:19] El vera, ¿ok? Bueno, es un sistema, obviamente del banco central de la República Argentina,
+[00:35:19 - 00:35:28] donde todos los deudores estamos en como si fuera una lista negra y esa información pública,
+[00:35:28 - 00:35:37] uno cuando de ti una deuda no recuerdo cuánto es el tiempo pero uno paga o no paga la
+[00:35:37 - 00:35:43] carjeta de crédito o alguien en una denuncia obviamente abalada por el banco central de la
+[00:35:43 - 00:35:48] República Argentina, casi todos los bancos, ahí deuda estamos dentro de esa lista negra,
+[00:35:48 - 00:35:54] entonces en algún momento cuando uno quiere sacar algún préstamo si estás dentro del vera,
+[00:35:54 - 00:36:02] estás malranqueado, no te dan, estás en una posición más endeble para poder solicitar
+[00:36:02 - 00:36:08] un préstamo y si uno lo abona, creo que está, no recuerdo bien, había que investigarlo,
+[00:36:08 - 00:36:14] pero tantas más como dos o tres años en salir de esa lista negra. Por lo tanto, es un sistema
+[00:36:14 - 00:36:23] que es público y nosotros siempre decimos que nosotros lo que hacemos como un genio
+[00:36:23 - 00:36:29] es saber que hay muchos sistemas que están funcionando y tengo que conectar esos componentes
+[00:36:29 - 00:36:38] y la manera de conectar esos componentes de extener o algún armar algo, una clase, un
+[00:36:38 - 00:36:45] proces, un componente, lo que sea y después poder conectarme, casi todas son conexiones,
+[00:36:45 - 00:36:56] me tengo que conectar en forma de API, en un API donde yo le voy a solicitar un información.
+[00:36:56 - 00:37:00] Entre acá el banco central de la República Argentina, esto está público, está, pero yo quiero
+[00:37:00 - 00:37:08] mostrarle un ejemplo de concreto, por eso accedo acá, no se los voy a pedir en el examen
+[00:37:08 - 00:37:17] que se tranquilos. Esto es para poder entender un poquito más, hay muchísimas servicios
+[00:37:17 - 00:37:25] públicos, servicio meteorológico, bueno, pero hay muchísimos que uno le pide información
+[00:37:25 - 00:37:34] y te la brilda. Nosotros lo que hacemos es a través de una URL, una URL que escribimos
+[00:37:34 - 00:37:46] acá, donde tenemos la URL es una ruta específica, hacia un servidor, posiblemente un servidor
+[00:37:46 - 00:37:56] que está dentro de la organización del banco central de la República Argentina. Entonces
+[00:37:56 - 00:38:04] yo digo bueno, conectate al deserre, banco.al y después acá le pido todo lo que yo necesito.
+[00:38:04 - 00:38:10] La documentación está pública y me va diciendo bueno, si quieres saber los deudores,
+[00:38:10 - 00:38:17] tenés que colocar obviamente todo esto, más central deudores y acá la identificación,
+[00:38:17 - 00:38:24] la identificación es el Qit de cada uno, el Qil de cada uno, ok, si quieren ustedes pueden
+[00:38:24 - 00:38:35] jugar. Entonces lo que hacemos es mandarle esa URL, que se denomina endpoint, que es la
+[00:38:35 - 00:38:41] URL específica al servidor que queremos acceder y después nos permite crear actualizar,
+[00:38:41 - 00:38:47] consultar, acá nos permite por ejemplo consultar. Es como si fuera una puerta de acceso, yo voy
+[00:38:47 - 00:38:56] a ganar Get, Post, Delete, eso es lápig que tiene del otro lado, que yo le estoy pidiendo
+[00:38:56 - 00:39:03] algo y ellos me devuelve. Entonces acá veo que es lo que le tiene lo que
+[00:39:03 - 00:39:08] pasar, esta es la documentación y dice bueno, conectate de esta manera la identificación
+[00:39:08 - 00:39:18] está y te arma el el bol. Chocas juguen un poquito, lo he chiquité para que no vea mi número
+[00:39:18 - 00:39:26] de Qit y acá de dengo toda la información que me rinda, ok, esto, que es lo que me devuelve,
+[00:39:26 - 00:39:36] me devuelve la información en un formato determinado, los dos formatos más utilizados, el XM
+[00:39:36 - 00:39:51] L y el Shison, vamos a dar, así me pone en español, los dos formatos los más comunes
+[00:39:51 - 00:40:00] son muy utilizados dentro de la comunicación, ya está superstandarizado, y son lenguajes,
+[00:40:00 - 00:40:06] está de formativo de texto, que lo que me permite justamente es poder comunicarme de un
+[00:40:06 - 00:40:20] servir al otro, esto lo que me devuelve, es un Shison, ahora vamos a dar, Shison es un formato,
+[00:40:20 - 00:40:27] es un poco más ligero que el XM L, está lo que me permite es como funciona con lo
+[00:40:27 - 00:40:35] que lo va a dar, funciona con lo que es clave y valor, está es mucho más sencillo, en ejemplo,
+[00:40:35 - 00:40:44] el otro está en el otro formato de texto muy utilizado para hablar entre aplicaciones,
+[00:40:44 - 00:40:54] es el XM L, es un poco más pesado, es un poco más pesado, es más antiguo aparte,
+[00:40:54 - 00:41:12] vamos a dar un ejemplo, vamos a dar un ejemplo, vamos a dar un ejemplo, esto que les parece,
+[00:41:12 - 00:41:20] que es parecido a que lo que estuvimos viendo también, HTML, es facto es muy parecido a
+[00:41:20 - 00:41:27] la HTML en lenguaje de mercado, ok, utilicé etiquetas, acá las estamos viendo, utilicé etiquetas
+[00:41:27 - 00:41:35] que se abren, se se arrancemos Tidelis y se se arrancemos Tidelis, y dentro de todas esas etiquetas
+[00:41:35 - 00:41:41] organizo la información en una estructura tipo árbol, ok, tengo estudiante euro, todo
+[00:41:41 - 00:41:50] de este estudiante dos, tipo árbol, es mucho más pesado porque tengo que manejar etiquetas,
+[00:41:50 - 00:41:57] está, pero bueno la verdad que también es muy muy muy utilizada, el XM obviamente es un poco
+[00:41:57 - 00:42:11] más liviano, es más aderaca, vamos a ver, este es que es sencillo, es mucho más liviano,
+[00:42:11 - 00:42:19] obviamente carga más rápido porque tiene menos caratés, tipo no tiene, no tener todas las etiquetas,
+[00:42:19 - 00:42:28] tengo menos adornos por así decirlo, el XM es para mí suele estar un poco más fácil de leer y
+[00:42:28 - 00:42:34] hoy obviamente se utilizan los dos, pero si uno comienza con un sistema nuevo, empieza
+[00:42:34 - 00:42:40] prácticamente a utilizar el YALSON, pero como uno tiene que convivir con sistemas que ya
+[00:42:40 - 00:42:46] funcionan, que son un relojito y que andan, si uno tiene que decir bueno, no sé que estoy
+[00:42:46 - 00:42:59] acá, acá ya sabemos que el verás me comunico con un YALSON, por acá, a ver si está, está, no lo
+[00:42:59 - 00:43:08] crea, entonces digo bueno, la chico, la comunicación entre el server y el verás, va a ser
+[00:43:08 - 00:43:17] la otra vez del YALSON, ok, me van siguiendo, ahora imagínense, en visa, en visa no lo investí
+[00:43:17 - 00:43:24] pero digo bueno con visa, me vuelco un XM, el formato que me devuelve la información y que yo también
+[00:43:24 - 00:43:30] le tengo que solicitar, bueno, yo le solicito con un endpoint, no hay problema, pero,
+[00:43:30 - 00:43:55] dice, me le salió, me la salió, está, me le salió, capaz que no lo tengo en las formas que
+[00:43:55 - 00:44:30] tengo seleccionada, el día que ver donde está, pero bueno, vamos a simular, bueno, bueno,
+[00:44:33 - 00:44:53] no sé qué pasa con un minuto, no puedo, ahora vamos, qué pasa acá, voy a sacar un minuto
+[00:44:53 - 00:45:06] del mouse que se le decía, se olvida, bueno, ahora vamos acá, se voy a chicar, imagínense
+[00:45:06 - 00:45:14] que acá dice XML, entonces digo bueno la comunicación va a ser esta, ok, tendría que habilitarlo
+[00:45:14 - 00:45:26] en más formas para encontrar este elemento que me diga, el XML y ahí ponárselo, ok, entonces
+[00:45:26 - 00:45:33] me grino a una cierta información, yo tengo que lograr tener, obviamente, dentro de lo que
+[00:45:33 - 00:45:39] es la CD central tengo que armar un componente para poder justamente encapsular la comunicación
+[00:45:39 - 00:45:46] con el verás y la comunicación conmice con todos los jugadores externos que tengo,
+[00:45:46 - 00:45:53] porque cada uno se va a conectar y me va a pedir información de una determinada manera, yo,
+[00:45:53 - 00:46:12] por ejemplo acá, acá en la documentación, oh, Dios, en la documentación del verás, en la
+[00:46:12 - 00:46:17] documentación de verás tengo un montón de formas de cómo es tu tempo y cómo es la
+[00:46:17 - 00:46:23] URL, la ruta específica, tengo que definir un montón de cosas que van a ser diferentes
+[00:46:23 - 00:46:30] a conectarme con vista, o es decir, cada uno ya tiene un sistema armado y me va a pedir
+[00:46:30 - 00:46:37] determinada información, los datos que ves, no son públicas y tengo que hacer una registración
+[00:46:37 - 00:46:42] previa, bueno, son cosas que uno tiene que ir armando y yo lo que quiero es encapsular
+[00:46:42 - 00:46:48] la comunicación externa con los servicios, con otros servicios y que esté ahí y poder
+[00:46:48 - 00:46:53] cada uno, después tener el concreto para poder comunicarme con cada uno de estos,
+[00:46:53 - 00:47:07] lo vuelvo acá, de cada uno de estos sistemas externos, ok, bueno, a alguien conocía
+[00:47:07 - 00:47:16] a Shei, son XML por lo menos de nombre, de nombre sí, bueno, la realidad es que para
+[00:47:16 - 00:47:26] mí no tiene mucho sentido hoy estudiarse todos esos formatos, pero sí saber cuál es la
+[00:47:26 - 00:47:32] ventaja de cada uno, cuál se utiliza cada uno y después, bueno, yo, si me te va a poder
+[00:47:32 - 00:47:40] conectar con un sistema, hoy hasta puedo armar un, chastro todo armado, pero lo que
+[00:47:40 - 00:47:47] sí tienen que lograr es entender, por más que uno automatice, conía, entender hacia
+[00:47:47 - 00:47:54] dónde vamos, ok, entrando que ésta subllal son y que tengo que encapsular la lógica y la
+[00:47:54 - 00:48:01] complejidad con vista, porque por más que el sistema me lo haga una máquina hoy en día,
+[00:48:01 - 00:48:07] yo voy a tener varios interlinientes y tengo que entender armarlo de manera tal de que
+[00:48:07 - 00:48:15] lo que antes ya no tocarlo más, ok, y es como hoy tiende un poco la programación, no,
+[00:48:15 - 00:48:22] decir ya está todo armadito, me voy conectando, voy enchufando una cosa con otra, ok, bueno,
+[00:48:22 - 00:48:32] esto me da a mí una cierta idea, y me permiten entender un poquito la problemática que tengo
+[00:48:32 - 00:48:43] que resolver, ok, haciendo, no, si quiero, ahora por lo pronto vine a trabajar el primer
+[00:48:43 - 00:48:52] día al proyecto de préstamos y me mostrado en esto, y algún nivel de interminimiento pueden
+[00:48:52 - 00:49:02] tandas que es lo que pasa, ok, es una de las herramientas que a mí me siento y me gusta, esto
+[00:49:02 - 00:49:11] pueden jugar ustedes sus povititos, pueden colocándose identificación y ya está, bueno,
+[00:49:14 - 00:49:25] digamos, y empezemos, imagínense que digo bueno, quiero entender, lograr entender un poquito
+[00:49:25 - 00:49:35] y cómo va a hacer el flujo de negocio de préstamos, entonces, y bueno, quiero lograr entender por
+[00:49:35 - 00:49:41] la realidad, que el flujo del préstamos es bastante complicado, no se los vamos a pedir,
+[00:49:41 - 00:49:51] a donde está el diagrama de actividad, ¿a esa basal? Ah, esta, no se los vamos a pedir en el examen,
+[00:49:51 - 00:49:59] pero sí puede llegar a suceder que pasa, que a veces les hubo algún diagrama de actividad como para
+[00:49:59 - 00:50:11] lograr entender y les digo, bueno, hay algún error en cuanto al lenguaje de H que me le hay,
+[00:50:11 - 00:50:20] perdón, de UML, avisen donde estáles, de dónde se encuentra esta error. Yo la realidad es que hoy lo que quiero
+[00:50:20 - 00:50:37] es poder tener un diagrama que me permita entender muy rápidamente cuál es el proceso básico
+[00:50:38 - 00:50:49] para generar un pedido de préstamos, voy a poner a dos personas, dos, tres carriles, voy a amar, un
+[00:50:49 - 00:51:03] minutito, usted me va a interrumpiendo cuando lo necesitan, ¿ok? Tenía el cliente, el oficial de negocio,
+[00:51:03 - 00:51:15] oficial de negocio, una de la fiscal de negocio, después acá podría estar integrado, pero vea
+[00:51:15 - 00:51:30] que es para, imagínense que la fiscal de negocio es alguien que me hace un filtro previó, ¿ok?
+[00:51:30 - 00:52:05] Y, inicio, yo voy a crear, ah, no tengo actividad, no voy a apagar, yo voy a solicitar, y Lucas,
+[00:52:05 - 00:52:25] perdón, la levanta es sin querer la madre. Ah, bueno, pero, toma su tiempo, yo tengo un problema de
+[00:52:25 - 00:52:33] la ansiedad, entonces bueno, y lo solicito, presta muy protecario, esto le estoy definiendo, no
+[00:52:33 - 00:52:38] está nada en concreto, la realidad es que calculo que el proceso de negocio debe ser diferente,
+[00:52:38 - 00:52:44] no trabajé en el área de préstamos como para confirmárselos, calculo que también va a depender de
+[00:52:44 - 00:52:54] cada banco, entonces yo acá tengo que pensarlo, ¿cómo sería, cómo es mi entendimiento? ¿qué no es
+[00:52:54 - 00:53:01] que se ha rajatado? Las pero bueno, la realidad es que me sirve como para poder hacer el
+[00:53:01 - 00:53:10] ejercicio. Entonces digo, bueno, alguien verifica datos clientes, imagínense que tengo una web,
+[00:53:10 - 00:53:16] esa web del cliente dice, bueno, voy a pedir un presta muy protecario, voy a pedir un presta
+[00:53:16 - 00:53:28] como prendario, se le puse el candadito, entonces la realidad es que digo bueno, hago lo que es la
+[00:53:28 - 00:53:37] solicitud del préstamo, posiblemente tengo acá, tengo para acá, el cliente le pide algún
+[00:53:37 - 00:53:44] aplicación server, algo de tengo, un sena web, le digo ingresa, el nombre me pese y yo, ¿qué tipo de
+[00:53:44 - 00:53:52] préstamo quiere? Yo me quiero comprar una moto, entonces siempre estamos personal y le envía todos
+[00:53:52 - 00:53:59] los datos, le llega a alguien, yo voy a sumir que le llega al oficial de negocios, esta que verifica
+[00:53:59 - 00:54:12] los datos del cliente y digo bueno, así no, así no, este producto al ejecutivo de cuentas, una vez
+[00:54:12 - 00:54:19] que sé que está, que es un cliente, que no es alguien inventado, digo bueno, así no,
+[00:54:23 - 00:54:34] la solicitud del servicio del producto, el producto al ejecutivo de cuentas,
+[00:54:38 - 00:54:43] puedo tener algunos pasos intermediados, yo acá estoy viendo un nivel muy elevado de
+[00:54:43 - 00:54:49] la distracción, ok, para lograr entender el negocio, a medida que uno va a ser un nuevo clípo,
+[00:54:49 - 00:54:56] en cada uno de estas acciones, posiblemente tener muchísimas más acciones y más satonic, ¿vale?
+[00:54:56 - 00:55:14] ¿Le van entendiendo? Sí, sí, ahí está, entonces digo bueno, tengo alguien verificó, alguien
+[00:55:14 - 00:55:23] verificó, obviamente acá no empiezo a pensar, oh, mi data del cliente es incorrecto, la nulo,
+[00:55:23 - 00:55:31] hay cosas, un nivel de atacción, tan bajo que eso no lo puede, no lo puede, yo voy a sumir que uno
+[00:55:31 - 00:55:39] va a entender que si el objeto del cliente es incorrecto, haremos otros flujos, o directamente el programador
+[00:55:39 - 00:55:48] lo va a entender y lo va a anular, ok, uno en análisis, principalmente las primeras
+[00:55:48 - 00:55:56] materias, uno en cedias, viene a todo a mi cocomo para que ustedes tengan la herramienta que pueda
+[00:55:56 - 00:56:04] manejar la herramienta, ahora cuando está en un nivel de diseño, ya hay otras cosas, uno asume que el
+[00:56:04 - 00:56:11] programador va a entender si el cliente no está, va a tener otra forma, otra acción,
+[00:56:11 - 00:56:20] otro flujo de negocio, lo así, y lo digo bueno, esto sea, si hace resfonsable, que yo la carteta,
+[00:56:20 - 00:56:29] la carteta es decir, bueno, tengo el cliente, voy a armarle una carteta para poder primero juntar
+[00:56:29 - 00:56:45] todo la información del préstamo, yo voy a recolectar, un poco sobre el préstamo, ok,
+[00:56:47 - 00:56:52] le parece que informos sobre el talento, dentro de esa carteta, aquí lo como se hace manualmente,
+[00:56:53 - 00:57:05] dentro de esta carteta, con todos los datos del cliente y acá, acá tuve los datos del cliente,
+[00:57:05 - 00:57:12] los clientes, un cliente propio de lo anco, ya pedí información, al banco, si fue un cliente
+[00:57:12 - 00:57:20] mayor con todos sus pagos, y está dentro del veraz, y tiene una tarjeta avista como fue
+[00:57:20 - 00:57:27] el de sus consumos, ok, entonces voy armando todo lo que se llama una carteta, recolecte información
+[00:57:27 - 00:57:38] sobre el usuario, y voy a evaluar un algún momento, la evaluación de con su variedad, la
+[00:57:38 - 00:57:52] evaluación de conciabilidad, y una vez que digo bueno, está bien, las signo condiciones, no sé,
+[00:57:52 - 00:58:06] acá ya estoy inventando los finar condiciones, de los requisitos, lo llamo, ya cumple con los requisitos,
+[00:58:07 - 00:58:17] chacumple con los requisitos, tiene digo bueno, formalicemos, vení y te doy, así es un préstamo
+[00:58:17 - 00:58:26] chico, ni siquiera hoy en día es a través de uno que hay en la web, pero si es un préstamo
+[00:58:26 - 00:58:42] impotecario de hace niña, a esto se pongo firma como para que te desdezgan firma, y después acá
+[00:58:42 - 00:58:47] no sé si lo hace, les digo que el sentido de cuentas traen un porga, digo bueno hay un seguimiento,
+[00:58:47 - 00:58:56] unimiento de botas, capaz que se lo oficia el de negocio, pero bueno, no importa, les voy a dar
+[00:58:56 - 00:59:06] el tandover, entonces tengo, creo la tarpeta, el valuable, la conciabilidad, así no los requisitos,
+[00:59:06 - 00:59:19] porque digo bueno, así no, así no, después formalizo con la firma, allá, y le doy un seguimiento de botas,
+[00:59:19 - 00:59:24] voy a decir, voy a pasar acá, no pasa por acá, no va a haber problema, no va a cambiar absolutamente
+[00:59:24 - 00:59:35] nada, esto es relevamiento fase de análisis de negocio, se va siguiendo, pero me da un nivel de
+[00:59:35 - 00:59:56] entendimiento muy general de cómo sería el proceso, vamos, ahora yo tengo, voy a salir
+[00:59:56 - 01:00:00] en un buscar, a mí la realidad es que me encarna a más trabajar como hoy en día con historias
+[01:00:00 - 01:00:10] ensuarios, poder trabajar con una metodología como escran, poder decir bueno, tener un
+[01:00:10 - 01:00:15] cuerpo más reducido, no tener grupos tan grandes, pero bueno, estamos en otra herramienta,
+[01:00:15 - 01:00:26] y también me brinda un nivel de entendimiento para sacarnos algunas dudas en cuanto en la especificación,
+[01:00:26 - 01:00:31] el ejercicio de negociaciones, puse, ¿no?
+[01:00:31 - 01:00:53] Sí, después, a lo que ustedes les encanta, muy bueno, una admin, porque se quiente.
+[01:00:53 - 01:00:54] Gracias.
+[01:00:54 - 01:01:01] Y en respecto a la administradora, la materia anterior, si no lo poníamos, nos bajaban puntos.
+[01:01:01 - 01:01:11] Si no lo poníamos, lo bajábamos en punto, bueno, no le atreco, me go eso, no va a pasar porque la realidad es que para mí
+[01:01:11 - 01:01:21] el administrador es algo que, de juego de silla, las herramientas hoy es día, no, o sea, cada, cada, cada
+[01:01:21 - 01:01:24] materia quiere poner foco en algo, ¿ok?
+[01:01:24 - 01:01:37] Es como decir, bueno, estoy en la primaria y el foco es, no sé, que aprendan a sumar y restar, y si se
+[01:01:37 - 01:01:48] equivocan y la verdad que tengo que decir que te está mal, ahora si ya llegaste a la universidad y estás haciendo una mega,
+[01:01:48 - 01:01:55] no sé, estás evaluando otra cosa y te equivocaste en alumna suma y no te voy a anular todo.
+[01:01:55 - 01:02:02] Ahora está bien que en algún momento el foco es que vos aprendas eso, está barba, ahora el foco en esta materia,
+[01:02:02 - 01:02:12] que vos tengas que te vaya sacercando un poquito más al alcoño, por lo tanto la realidad es que calculo que ya, bueno,
+[01:02:12 - 01:02:17] aquí listes otras habilidades que fueron definidas en otra materia, ¿ok?
+[01:02:17 - 01:02:20] Entonces sí, va a ver de estas diferencias.
+[01:02:20 - 01:02:28] El otro día, algo que un compañero que no sé si fue de esta comisión de la otra misión, ha preguntado bastante interesante,
+[01:02:28 - 01:02:35] después sobre el tema de los gestores que dije, está bueno charlarlo, ¿no?
+[01:02:35 - 01:02:42] En un momento me dijo, bueno, si tengo por los gestores que tuvimos la clase, ni si tengo muchas clases,
+[01:02:42 - 01:02:47] ahí tenemos que poner un gestor para desatoplarlo.
+[01:02:47 - 01:02:56] Y está buenísimo el pensamiento que tiene porque es una forma muy intuitiva, ahora yo no te puedo decir mirar si,
+[01:02:56 - 01:03:06] cuando tenés más de cinco clases en número mágico, cinco clases armate una fabricación pura para desatoplarlo, ¿ok?
+[01:03:06 - 01:03:16] Porque no hay las recomendaciones, tienen que ustedes analizarlo, verlo, porque la program, a medida que me voy acercando la solución,
+[01:03:16 - 01:03:23] tengo un montón de componentes, un montón de clases, pero ahí tengo que evaluarlo.
+[01:03:23 - 01:03:32] Ahora si estoy en análisis y encuentro una, como digo yo, un shortcut para decir, bueno, tengo cinco, seis ahí,
+[01:03:32 - 01:03:41] seguramente va a estar muy acoplado, lo tengo que desatoplar y está buena la forma que encontraron.
+[01:03:42 - 01:03:49] Pero a medida que vamos avanzando tenemos que hacer una análisis más, una vuelta de los camás y acá pasa lo mismo,
+[01:03:49 - 01:03:54] las minen en análisis en cualquier otra materia en principios, ¿no?
+[01:03:54 - 01:04:01] En principios le dicen que les sacan puntos.
+[01:04:01 - 01:04:05] ¿Qué le digo que en principios realmente?
+[01:04:05 - 01:04:09] En principios, me parece raro pero bueno.
+[01:04:10 - 01:04:19] Acá no, ya, asumo que ya van a tener una administrador, bueno, me voy.
+[01:04:19 - 01:04:31] Y cuando el cliente solicita, solicitar préstamo.
+[01:04:31 - 01:04:41] El más, digo, bueno, también el cliente solicita préstamo, pero solicita productos bancarios, ¿no?
+[01:04:41 - 01:04:53] En piezas relacionados con otro tema.
+[01:04:54 - 01:05:03] Y bueno, tengo una asociación.
+[01:05:03 - 01:05:10] Acá digo, bueno, en oficial de negocio, así que una acción de ver el producto al ejecutivo de cuenta,
+[01:05:10 - 01:05:28] o validación, o evaluación previa al ejecutivo de cuentas.
+[01:05:28 - 01:05:38] Ocí le mente también, ah, ya, alguno que sea validar o prebaliar,
+[01:05:38 - 01:05:41] la verdad, los básicos.
+[01:05:41 - 01:05:48] Ahora, la verdad que no, ya salgo que voy a subir, que va a estar.
+[01:05:48 - 01:05:54] En empezamos con las cosas obvias y las realidades que no son importantes.
+[01:05:54 - 01:05:59] Es como armar el caso de uso y pongan en las precondiciones que hay,
+[01:05:59 - 01:06:03] no sé, que haya electricidad y obvio.
+[01:06:03 - 01:06:10] Cuando son cosas muy obvias, la realidad es que más que brindarnos información, no genera ruido,
+[01:06:10 - 01:06:14] porque tenemos que leer más, no pasilla más.
+[01:06:14 - 01:06:31] Entonces, estamos en un nivel, llevamos a ir al importante y va a lugar préstamo.
+[01:06:31 - 01:06:40] Y después digo, bueno, ahora préstamo obtener, obtener inafoderas,
+[01:06:40 - 01:06:53] estrellas en super rápido, pero no importa, para que ustedes también basan su weekend,
+[01:06:53 - 01:07:05] y acá hay obtener inafo, y el cliente, esa es cliente del banco,
+[01:07:05 - 01:07:09] y posiblemente no hay información interna, ¿no?
+[01:07:09 - 01:07:14] Si no, no voy a tener.
+[01:07:14 - 01:07:20] Acá puedo adaptar inafoderas, obtener inafoderas, o que hay todo lo que quiero tener.
+[01:07:20 - 01:07:28] Para acá obtener con un fiabilidad de pago, no, el valor.
+[01:07:28 - 01:07:35] El valor con fiabilidad de pago.
+[01:07:35 - 01:07:42] En otro día leí algo muy interesante que están haciendo en Israel.
+[01:07:43 - 01:07:47] Israel es una meca de lo que decía el sistema,
+[01:07:47 - 01:07:53] y estaba hablando de un sistema que con rasgos en la cara,
+[01:07:53 - 01:07:57] podía nevaluar la con fiabilidad de pago,
+[01:07:57 - 01:08:03] y la va un porcentaje muy certero.
+[01:08:03 - 01:08:07] La verdad que cada vez chico nos estamos asustando más.
+[01:08:07 - 01:08:13] Estamos viviendo.
+[01:08:13 - 01:08:19] Pero bueno, para los bancos, esto no prevale más.
+[01:08:19 - 01:08:28] Para los bancos tener un sistema que puede ayudarnos a evaluar la con fiabilidad de pago de un determinado cliente,
+[01:08:28 - 01:08:31] sería buenísimo, sea el método que sea, ¿no?
+[01:08:31 - 01:08:35] Porque aginizaría muchísimo más.
+[01:08:35 - 01:08:42] El ejecutivo de cuentas se evaluar préstamos, iguales candeados, no están avanzados,
+[01:08:42 - 01:08:48] pero bueno, ya están saliendo cosas raras.
+[01:08:48 - 01:09:00] El valor de tres socutas, las socutas, con las socutas, porque yo en la actividad puse eso, ¿no?
+[01:09:00 - 01:09:03] Con otras.
+[01:09:03 - 01:09:10] Podría lograr tener una refinanzación.
+[01:09:10 - 01:09:17] Vamos a poner redes y en antiguas y art cristanos, también,
+[01:09:17 - 01:09:21] y es algo que podría llegar a hacerlo.
+[01:09:21 - 01:09:32] Tener información del vera, que evaluar préstamos a crear carpetas, no?
+[01:09:32 - 01:09:41] Ahí podríamos aplicar algo y acá que usó, en obtener info de vera, un incluido en la extensa.
+[01:09:41 - 01:09:43] Incluy.
+[01:09:43 - 01:09:47] Estamos de acuerdo. Siempre van a aparecer.
+[01:09:47 - 01:09:54] Si no están, si no, si hay error, punto, no hay un error,
+[01:09:54 - 01:09:57] no hay un nísico de estar, pero algo me tiene que dar.
+[01:09:57 - 01:10:03] Si yo tengo un quil, tengo que tener la información.
+[01:10:03 - 01:10:11] A lo sumo, no, pues vas cumplidor, pero tienes que tener información, obtener información interna,
+[01:10:11 - 01:10:13] incluy.
+[01:10:13 - 01:10:22] Estén.
+[01:10:22 - 01:10:27] Vamos de acuerdo, no sé, hay lugares, nunca, ¿no? ¿No? ¿No?
+[01:10:27 - 01:10:29] Sí, pero sí, hay lugares.
+[01:10:29 - 01:10:33] Luka, ya te re tengo, Lucas. Siempre habla lucas.
+[01:10:36 - 01:10:38] Los demás de negocieron agravar, ¿no?
+[01:10:38 - 01:10:42] Están ya.
+[01:10:42 - 01:10:43] No, sí, ni nada.
+[01:10:43 - 01:10:44] Está bien.
+[01:10:44 - 01:10:52] Está bien, porque assume que bueno, si es cliente interno igual, también la condición es tan trivial,
+[01:10:52 - 01:10:55] que no sé si amerita.
+[01:10:55 - 01:10:56] Incluy.
+[01:10:56 - 01:10:57] Está bien.
+[01:10:57 - 01:11:02] Es algo obvio, pero bueno, lo quiero hacían a Sally y bueno, no.
+[01:11:02 - 01:11:05] Quiero ser muy papista, bueno, fue muy un estándt.
+[01:11:06 - 01:11:13] Y las min, para no bajar respuntos, me voy a dar de altos varios.
+[01:11:13 - 01:11:40] Vieron que cuando uno tiene un diagrama de, acá me vengo acá, un diagrama de artía, y iba a ir a arma,
+[01:11:40 - 01:11:44] estoy hablando de nivel muy elevado de abstracción, ¿no?
+[01:11:44 - 01:11:49] De empezar a entender el negocio, esos dos son bastantes similares,
+[01:11:51 - 01:11:55] acá bueno, hay un poco de secuencialidad que acá no debería estar,
+[01:11:55 - 01:11:59] si yo quiero poner esto acá no debería haber un problema.
+[01:11:59 - 01:12:13] Es más, hay casos de uso que los obvies están registrar, registración de cliente,
+[01:12:13 - 01:12:16] la realidad de eso sé que va a estar.
+[01:12:17 - 01:12:24] Entonces, voy a enfocarme en realmente lo que me es importante.
+[01:12:24 - 01:12:34] Bueno, yo voy a terminar con él, vamos a ir a la diagrama del componente, tengo acá sí, acá.
+[01:12:34 - 01:12:43] Acá lo arme mal, este sería el Nitroilman y este componente, pasa que la herramienta me permite hacerlo, ¿ok?
+[01:12:43 - 01:12:49] Vamos a hacer esto, este es lo de borra, y acá, voy a...
+[01:12:50 - 01:12:58] Un minutito, porque habla más de los desexplicados en importas.
+[01:12:58 - 01:13:11] Como habla, los englobados dentro de diagramas de implementación, puedo jugar con ambos a lo cambio,
+[01:13:11 - 01:13:31] ahí quedó más pronunciado, luego al diagrama del componente. ¿Hasta acá alguna duda gente?
+[01:13:35 - 01:13:36] Ahora no hay ninguna.
+[01:13:36 - 01:13:37] No, no hay ninguna.
+[01:13:37 - 01:13:38] ¿Hasta acá?
+[01:13:38 - 01:13:40] Sí, ya tengo una.
+[01:13:40 - 01:13:49] Sí, en el hipotéptico, caso de que este sitio sea de examen, no pida el diagrama de caso de uso,
+[01:13:49 - 01:13:57] y una de las actores tiene varias funcionalidades, que es el día correcto que es en una...
+[01:13:57 - 01:14:01] que podamos repetir el acto en el diagrama a la derecha, por ejemplo.
+[01:14:02 - 01:14:06] Sí, porque la realidad es que a vos lo que te preocupes, lo que...
+[01:14:06 - 01:14:10] tenés que empezar y hacer este clic, es que estos son elementos.
+[01:14:10 - 01:14:18] Entonces, si yo digo, ¿sabes qué ahora voy a hablar de él como no puedo manejar todo en un unico de diagrama,
+[01:14:18 - 01:14:27] me voy al caso de uso más acotado, no sé, de mesa de dinero, la mesa de dinero,
+[01:14:28 - 01:14:32] de inversiones, pero bueno, voy a dar la mesa de dinero.
+[01:14:32 - 01:14:44] Y bueno, me vengo acá, el cliente es el mismo, es el mismo elemento dentro del modelo,
+[01:14:44 - 01:14:50] pero acá tengo el del caso de uso de préstamos y acá tengo el de la mesa de dinero.
+[01:14:50 - 01:14:59] Entonces, si yo digo acá, crear inversión, estoy lleno a otra cosa, él importa crear inversión,
+[01:14:59 - 01:15:18] él está vista no la ves, y sí en esta, pero él, pero este es el mismo elemento que tenés acá.
+[01:15:18 - 01:15:25] Ok, entonces, si yo después, por un tema de que lo quiero, no sé si me lo permite,
+[01:15:25 - 01:15:28] porque nunca lo hice, vamos, vamos a jugar un rapito.
+[01:15:28 - 01:15:33] Si yo digo, tengo no sé, a referencia a préstamos, y lo opongo acá,
+[01:15:34 - 01:15:39] este es el rapite, pero estamos hablando del mismo elemento.
+[01:15:39 - 01:15:50] Ok, y creo que solo saco porque me queda horrible, para eso prefiero hacer varios diagramas
+[01:15:50 - 01:15:59] que apunten a una parte de la solución. Ok, esto lo saco.
+[01:15:59 - 01:16:05] Recuerden siempre, por ejemplo, acá lo que voy a hacer es un delit from model,
+[01:16:05 - 01:16:10] lo borro del modelo, ok, si lo puedo borrar de la vista,
+[01:16:10 - 01:16:15] este lo voy a borrar del modelo. Este es si lo borro del modelo, también lo borro de acá.
+[01:16:15 - 01:16:22] O sea, de acá, de acá, de acá, de acá, de acá, no pierdan, entonces lo voy a borrar de la vista.
+[01:16:22 - 01:16:31] Se me han cuidado, este es la borro.
+[01:16:31 - 01:16:36] ¿En qué estaba? Ah, sí, en el diagrama de componentes,
+[01:16:36 - 01:16:46] de baléagrama de componentes, y digo bueno, yo tengo que empezar a tomar decisiones arquitectónicas.
+[01:16:46 - 01:16:54] Y digo bueno, hasta el en medio, por eso.
+[01:16:54 - 01:17:03] No veía los elementos, ahí me ubique en el diagrama de componentes y me cambió todo el toolbox con los elementos correspondientes de saísavita.
+[01:17:05 - 01:17:09] Lo se digo bueno, voy a empezar a tomar decisiones arquitectónicas.
+[01:17:09 - 01:17:15] Algo que es fundamental es que ustedes siempre cuando tienen una ejercicia de gan, ¿vale?
+[01:17:15 - 01:17:19] Es el objetivo de esto. ¿Qué es lo que tengo que solucionar?
+[01:17:19 - 01:17:30] Si o si, y la parte préstamo. O tanto, calculo un componente del modelo de préstamo,
+[01:17:31 - 01:17:40] y me olvido de colocar la clase préstamo y el objetivo del préstamo, y estoy en el horno.
+[01:17:40 - 01:17:43] No cumplico mi objetivo principal.
+[01:17:43 - 01:17:54] Acá, dentro de lo que es módulo de préstamo, lo voy a incluir dentro del bólogo del producto bancario.
+[01:17:54 - 01:18:02] ¿O qué? Porque es un producto bancario.
+[01:18:03 - 01:18:07] Yo he notido ya estoy con vos por mi pierdo, bancario.
+[01:18:07 - 01:18:14] Y dentro de acá voy a crear un componente solamente por un tema de orden, ¿vale? Módulo de préstamo.
+[01:18:14 - 01:18:26] Y acá voy a tener el otro módulo porque me gusta tomizar bastante de evaluación. ¿Sí, Lucas?
+[01:18:26 - 01:18:29] ¿Por qué la entrepone la palabra Módulo?
+[01:18:30 - 01:18:36] No, por cierto, para poder empezar a modular, ¿OK? Pero lo pueden sacar también, ¿no pasa nada?
+[01:18:36 - 01:18:42] Te vuelvo a decir, esos detalles también no me importan. Ahora lo que sí, no me gustaría,
+[01:18:42 - 01:18:53] es que dentro del producto bancario me pongas por ejemplo, no sé, sueldo y calcules el sueldo
+[01:18:53 - 01:19:04] del personal bancario. No tiene sentido, ¿OK? Esas son las cosas que yo me fijo.
+[01:19:06 - 01:19:13] Estas ni también están con tu esteta. ¿OK? Lucas, ¿OK?
+[01:19:13 - 01:19:16] Y trafe gracias.
+[01:19:16 - 01:19:28] Oh, de vuelta, ¿me hagas? Me nuto. Para acá.
+[01:19:28 - 01:19:40] Bueno, digo, con todo lo que yo tengo, digo, el préstamo hipotecario es el cor,
+[01:19:40 - 01:19:45] lo que tengo que resolver. Tengo posiblemente tengo mucha comunicación externa.
+[01:19:46 - 01:19:53] Voy a hacer uno de un componente para encapsular la comunicación con esos sistemas externos.
+[01:19:53 - 01:20:03] Y veo que más puedo hacer, ¿vale? No sé, digo, también voy a poner otro componente,
+[01:20:03 - 01:20:17] esa es la calentahére, componente de servicios,
+[01:20:18 - 01:20:24] y comunicación para que se llama fácil comunicación, temas externos.
+[01:20:24 - 01:20:39] Aquí deja con con, vale para el móvil, ¿verdad? Y acá posiblemente tengo que todos los concretos
+[01:20:39 - 01:20:55] para comunicarme con visa, componente para verás, ¿verdad? Con el banco,
+[01:20:56 - 01:21:01] pero bueno, tiene un cliente de banco en acción, entonces le pido información,
+[01:21:01 - 01:21:07] al diólogo en acción, ¿vale? Voy sumando todo eso con complejidad.
+[01:21:07 - 01:21:24] Y simplemente, o cliente, ¿no sé por qué salió más chúscula o no le da a preguntar
+[01:21:24 - 01:21:34] porque le pusimos chúsculas? Y digo, bueno, hacemos una dependencia,
+[01:21:35 - 01:21:41] tiene módulos, otros cerca, no sé si voy a ir directamente a este,
+[01:21:41 - 01:21:57] pero acá, voy a ir a este módulo bancario y va a utilizar algo muy básico,
+[01:21:57 - 01:22:01] después si yo quiero modificarlo vuelvo, ¿vale?
+[01:22:01 - 01:22:06] Porque de acuerdo a mi nivel de entendimiento para mí está el ganzack, ¿vale?
+[01:22:08 - 01:22:11] Vamos. Profel, el módulo es sistema externo,
+[01:22:11 - 01:22:15] no podría ser un package pregunta, ¿no? Para verlo.
+[01:22:15 - 01:22:23] Sí, cuando veamos, cuando veamos el gov, lo vamos a manejar con lo que llama un paquero
+[01:22:23 - 01:22:30] o algo más generalista que package, ¿vale?
+[01:22:30 - 01:22:38] Pero sí, es un componente que no me interesa como totalmente caja cerrada
+[01:22:38 - 01:22:46] que voy a tratar de encapsular el dentre esa caja, toda la comunicación y el manejo
+[01:22:46 - 01:22:51] a lo que yo quería, ¿no? A lo verás, porque cada uno se va a comunicar ahora.
+[01:22:51 - 01:22:56] Si voy a tener lo que cada vez, ¿cómo lo vas a manejar con él?
+[01:22:56 - 01:22:58] Suba muchísimo, ¿ok?
+[01:22:58 - 01:23:04] Claro, la idea de modelar la sí es encapsular, entonces, pero...
+[01:23:04 - 01:23:05] Es que se va a modularlo.
+[01:23:05 - 01:23:10] Pero si yo no sé cómo lo voy a modelar en cuestión, no sería la buena práctica
+[01:23:10 - 01:23:12] o ponerlo como paquete, eso es lo que querías decir.
+[01:23:12 - 01:23:19] Sí, si ya lo tenés decidido con él o acá, donde tengo el package,
+[01:23:19 - 01:23:29] que estaba el elemento para colocarlo, no lo encuentro acá.
+[01:23:29 - 01:23:35] En camés, así no, está...
+[01:23:35 - 01:23:40] Es el de frame, no, no.
+[01:23:40 - 01:23:42] No, no.
+[01:23:42 - 01:23:45] Bueno, pero era eso lo que quería decir, ¿cómo se va a hacer?
+[01:23:45 - 01:23:48] Podría hacer este, creo que puede llegar a hacer, ¿eh?
+[01:23:48 - 01:23:50] Es parecido por lo menos.
+[01:23:50 - 01:23:53] Es parecido.
+[01:23:54 - 01:23:56] Pero la realidad es que...
+[01:23:56 - 01:24:05] En sí también, vos cuando estás armando un componente, estás en globando,
+[01:24:05 - 01:24:10] entidades con alguna naturaleza que es un paquete.
+[01:24:10 - 01:24:16] Sí, sí, es como lo mismo, pero por eso quería hacer que la diferencia...
+[01:24:16 - 01:24:18] Claro, es lo mismo.
+[01:24:18 - 01:24:25] Hay herramientas que los dejan, pero a caña, me voy a meter en un mundo
+[01:24:25 - 01:24:31] donde tengo que definir y no me voy a dejar...
+[01:24:31 - 01:24:38] Capas que hay herramientas que tenés el elemento y ahí lo armás como paquete.
+[01:24:38 - 01:24:40] Sí, ya en el lado de esta, por eso lo he habido.
+[01:24:40 - 01:24:42] ¿Celeste el nivel de conocimiento?
+[01:24:42 - 01:24:46] Ponelo porque para mí que vos mandiga es un componente, es un paquete,
+[01:24:46 - 01:24:49] es para mí es prácticamente lo mismo.
+[01:24:49 - 01:24:53] Yo lo que voy a pretender es que vos te descuentas que tenés que encapsular
+[01:24:53 - 01:24:59] una lógica de negocio está en determinados componentes o paquete,
+[01:24:59 - 01:25:00] solo que sea.
+[01:25:00 - 01:25:02] Así que sí suma.
+[01:25:02 - 01:25:04] ¿Me he enterizado de a punto yo?
+[01:25:04 - 01:25:10] Sí, y con respecto a eso, entre la flecha de la dependencia de la luz,
+[01:25:10 - 01:25:14] y la interfaz, también sería lo mismo.
+[01:25:14 - 01:25:16] Si yo lo conozco bien, ¿cómo funciona?
+[01:25:16 - 01:25:19] Para colocar, claro, está.
+[01:25:19 - 01:25:20] Exacto.
+[01:25:20 - 01:25:21] Gracias, profe.
+[01:25:22 - 01:25:26] Ya ahí está haciendo a un nivel de atracción un poquito más bajo.
+[01:25:26 - 01:25:28] Voy a buscar un...
+[01:25:28 - 01:25:33] Les más me espera en un minuto,
+[01:25:33 - 01:25:40] eso es que se lo subía acá.
+[01:25:40 - 01:25:42] Profe, pregunta, ¿me llébrame componente?
+[01:25:42 - 01:25:44] Cuando me doy cuenta, ¿sí?
+[01:25:44 - 01:25:45] ¿Y cuyo pronés?
+[01:25:45 - 01:25:46] ¿Y qué?
+[01:25:46 - 01:25:52] Les deberíamos hacer una extracción tipo muy al detalle o como sería más o menos.
+[01:25:52 - 01:25:53] No, no, no, no.
+[01:25:53 - 01:25:55] ¿Más o menos como hace? ¿Estás haciendo?
+[01:25:55 - 01:25:56] Es salto, ¿cómo usted hace lo eso?
+[01:25:56 - 01:25:57] ¿A ver qué?
+[01:25:57 - 01:25:58] Porque, ¿por qué?
+[01:25:58 - 01:26:01] O si se doble clic para dar, para ir bajando...
+[01:26:01 - 01:26:03] Uno es lo que tienes con transformaciones.
+[01:26:03 - 01:26:08] Cuando hablamos de evolución, bueno,
+[01:26:08 - 01:26:11] lo que uno trata es hacer transformaciones,
+[01:26:11 - 01:26:12] ¿cuáles tenés un nivel de...
+[01:26:12 - 01:26:16] No, no, un poquito más, porque yo no veo nada.
+[01:26:16 - 01:26:22] Lo que uno trata de hacer es poder transformar esos modelos.
+[01:26:22 - 01:26:25] No sé por qué le pongo 200 y me hacéis de ahí.
+[01:26:26 - 01:26:28] Transformar este modelo.
+[01:26:28 - 01:26:31] Lo que uno hace es que como vimos, no sé,
+[01:26:31 - 01:26:36] le hagan más de actividad de su nivel muy elevado de extracción,
+[01:26:36 - 01:26:40] en donde realmente no te interesa cómo lo va a se implementar.
+[01:26:40 - 01:26:43] Justamente estamos hablando de la extracción.
+[01:26:43 - 01:26:46] Ahora, media que yo voy bajando ese nivel de extracción,
+[01:26:46 - 01:26:50] ya empiezo a darle más entendimiento de cómo va a ser,
+[01:26:50 - 01:26:53] me voy a acercando un povito más a definiciones y mirar,
+[01:26:54 - 01:26:56] ¿sabes qué? Calculo que esto lo va a hacer con tan lenguaje
+[01:26:56 - 01:26:58] y esto lo voy a hacer con tan otro lenguaje.
+[01:26:58 - 01:27:01] Ya ahí empecé a destimir algunas cositas.
+[01:27:01 - 01:27:04] Es más empecé a bajar el nivel de extracción,
+[01:27:04 - 01:27:07] cuando yo te dije acá me comunicaba directamente con el verás,
+[01:27:07 - 01:27:09] ¡ah, pero para!
+[01:27:09 - 01:27:12] ¿No sabe ya porque leíte el manual,
+[01:27:12 - 01:27:15] si no lo leímos, ¿no? Pero no importa.
+[01:27:15 - 01:27:20] Vimos el ejemplo y qué te devuelve y me devuelve un shelson.
+[01:27:21 - 01:27:24] Bueno, con él, estoy dando información.
+[01:27:24 - 01:27:28] Me suma, sí, me suma, porque la persona que lo va a arrar
+[01:27:28 - 01:27:30] va a entender a de qué se trata.
+[01:27:30 - 01:27:40] Yo sé que ahí alumnos que no saben shtml,
+[01:27:40 - 01:27:44] pero no importa, la idea es que ustedes ya empiezan a adquirir
+[01:27:44 - 01:27:47] ese vocabular, lo saber qué existe.
+[01:27:47 - 01:27:50] Me encantaría no sé si tienen alguna...
+[01:27:50 - 01:27:54] ¿Alguna materia que se ha especificado de web,
+[01:27:54 - 01:27:57] que no lo hay? Por eso también me pidieron que un foco
+[01:27:57 - 01:27:59] un poco la materia en esto.
+[01:27:59 - 01:28:03] Por eso también yo voy dando algunas cosas,
+[01:28:03 - 01:28:07] estás orientado un poco al mundo de lo que es web, ¿ok?
+[01:28:07 - 01:28:09] Que creo que le suma.
+[01:28:09 - 01:28:15] Vostan es que seguir haciendo estas transformaciones
+[01:28:15 - 01:28:19] y pasar de lo que es un modelo completamente independiente,
+[01:28:19 - 01:28:22] la computación, a lo que es la programación,
+[01:28:22 - 01:28:24] que es el genivel elevado de atracción,
+[01:28:24 - 01:28:26] que ya estoy hablando de una de las dos,
+[01:28:26 - 01:28:31] que uno va dándole mayor nivel de detalle a la solución
+[01:28:31 - 01:28:36] y dándole mayor nivel de empezar a tomar decisiones,
+[01:28:36 - 01:28:39] arquitetónicas y me voy a acercándolo,
+[01:28:39 - 01:28:42] que se llama el modelo específico a las plataformas.
+[01:28:42 - 01:28:46] Y vos sabes que voy a trabajar con paquete de determinada
+[01:28:46 - 01:28:48] tecnología y colocarlo.
+[01:28:48 - 01:28:51] Si yo sé que la forma en que me devuelve,
+[01:28:51 - 01:28:53] voy a solicitar, voy a mandar un empon,
+[01:28:53 - 01:28:56] y las formas que recuerdan lo que da la época, ¿no?
+[01:28:56 - 01:28:58] La URL, donde yo le solicito información,
+[01:28:58 - 01:29:01] un sistema externo,
+[01:29:01 - 01:29:04] voy a mandar un empon y esa época me va a devolver
+[01:29:04 - 01:29:09] un determinado formato de respuesta y ya lo coloco.
+[01:29:09 - 01:29:11] Yo lo voy a tener que resolver.
+[01:29:11 - 01:29:16] Y yo lo que voy a querer resolver es que, por ejemplo,
+[01:29:16 - 01:29:18] no sé si está acá, acá,
+[01:29:18 - 01:29:22] me refone con HTML y verás, me responde con un JSON,
+[01:29:22 - 01:29:27] yo tengo que tener el concreto para manejar el JSON
+[01:29:27 - 01:29:30] que me mande verás y otro concreto totalmente sacoplado
+[01:29:30 - 01:29:35] y totalmente independente para que me maneje la comunicación
+[01:29:35 - 01:29:37] de la respuesta que me va a dar visa,
+[01:29:37 - 01:29:42] que no es un JSON que es un HTML y tiene otra forma de manejo.
+[01:29:43 - 01:29:46] Y así con todos los sistemas que tengo,
+[01:29:46 - 01:29:52] lo sé lo que quiero es eso, ir viendo esa nela de la extracción.
+[01:29:52 - 01:29:57] No me quiero ir de mambo, estábamos en,
+[01:29:57 - 01:30:02] van a quemarme muy bien, acá, ¿sabas?
+[01:30:02 - 01:30:03] Muy bien.
+[01:30:03 - 01:30:11] Ahora bien, esto, la realidad es que va a depender si ustedes quieren hacer
+[01:30:11 - 01:30:14] el diagrama de componentes de acuerdo a su nivel de comprensión
+[01:30:15 - 01:30:19] y también ver expertís que te can para armar soluciones
+[01:30:19 - 01:30:23] y acercarse cada vez más, bajar esta capa de abstracción.
+[01:30:23 - 01:30:27] Entonces, yo lo que les recomiendo,
+[01:30:27 - 01:30:30] porque veo que les sirve es, bueno,
+[01:30:30 - 01:30:35] si no se los pido llarme en un diagrama de componente en el examen.
+[01:30:35 - 01:30:38] Se los puedo pedir o se los puedo pasar,
+[01:30:38 - 01:30:40] y si se les paso, les paso esto,
+[01:30:41 - 01:30:45] yo les digo, esta es un preliminar,
+[01:30:45 - 01:30:53] recuerden que el llegar a una solución de citarativo,
+[01:30:53 - 01:30:57] yo te doy este, yo digo, no, no, quiero tener el modelo
+[01:30:57 - 01:31:00] de evaluación dentro de acá, lo voy a poner de afuera.
+[01:31:00 - 01:31:05] Bueno, lo que sí no me gustaría es que dentro del componente de modo
+[01:31:05 - 01:31:12] de poner adentro, de esta para volvamos arriba.
+[01:31:12 - 01:31:16] No ustedes me entendieron, lo voy a poner adentro, no tiene sentido.
+[01:31:16 - 01:31:20] No está diluido en cada vez más darlo en frente.
+[01:31:20 - 01:31:22] ¿Dónde dice a la hueles?
+[01:31:22 - 01:31:24] Acá, vancamos.
+[01:31:24 - 01:31:27] Este es acá.
+[01:31:27 - 01:31:32] Eso sí estaría mal, eso es lo que voy a evaluar.
+[01:31:32 - 01:31:35] Lo mismo que si está acá, no tiene sentido.
+[01:31:35 - 01:31:39] Yo lo que voy a ver, evaluar son estas cosas.
+[01:31:39 - 01:31:43] Entonces, y en el día si yo lo que voy a pedirles,
+[01:31:43 - 01:31:47] seguro, y esos seguros, y después van a ver diferentes,
+[01:31:47 - 01:31:52] diferentes cositas que vuelven primero, pero el diagrama de clases tienen que estar.
+[01:31:52 - 01:31:55] Porque el diagrama de clases bien atomizado el día de mañana,
+[01:31:55 - 01:32:02] ustedes lo pueden llevar a servicios y en el y los siguen atomizando a microservicios.
+[01:32:02 - 01:32:06] Porque está bien atomizado y bien ordenado.
+[01:32:06 - 01:32:12] Entonces, eso se los voy a pedir y posiblemente el gundiagrama interacción.
+[01:32:13 - 01:32:18] Ahora, en la parte de el segundo examen,
+[01:32:18 - 01:32:20] yo les pido diagramas de...
+[01:32:20 - 01:32:23] le puedo pedir un diagrama del componente,
+[01:32:23 - 01:32:27] les puedo dar un diagrama de artividad y que van a un buen algo.
+[01:32:27 - 01:32:30] Le puedo, bueno, a mí, uno de los que me gustan,
+[01:32:30 - 01:32:33] porque forma parte de lo que es la arquitectura,
+[01:32:33 - 01:32:39] es los diagramas de clíague, les puedo pedir que me definan algún caso,
+[01:32:39 - 01:32:46] algún historiario que dejen de un historiario que me hagan un guión de lo que estimos hablando,
+[01:32:46 - 01:32:53] un guión de prueba.
+[01:32:53 - 01:33:00] Entonces, se los voy como para que ustedes tengan una trasa de cómo estar rolla,
+[01:33:00 - 01:33:04] pero el primer examen está muy enfocado al diseño.
+[01:33:04 - 01:33:07] Entonces, me voy a diagrama de componentes.
+[01:33:08 - 01:33:12] Ayúdame muchísimo el diagrama del componente para ordenarse.
+[01:33:12 - 01:33:16] Entonces, si a ustedes le hacen ayuda, arranlo.
+[01:33:16 - 01:33:21] Si les doy alguno, tienen que evaluar si les sirve o no les sirve.
+[01:33:21 - 01:33:24] Si no les sirve, lo tienen que modificar,
+[01:33:24 - 01:33:29] porque tienen que estar muy relacionado con el diagrama de clase.
+[01:33:29 - 01:33:43] Ahora me voy con el diagrama de clase, es el mal.
+[01:33:43 - 01:33:51] Una pregunta, ¿la parte de donde usiste oficial de negocios y ejecutivo de cuenta
+[01:33:51 - 01:33:54] en el diagrama de componentes se contempla ahí?
+[01:33:54 - 01:33:57] Ya que después supongo que vamos a poner el diagrama de clase,
+[01:33:57 - 01:33:59] eso no es muy importante.
+[01:33:59 - 01:34:03] Es el que, perdóname, vuelve una reputida pregunta que me vi que ya en el diagrama.
+[01:34:03 - 01:34:07] Sí, por ejemplo, el oficial de negocios y el ejecutivo de cuenta
+[01:34:07 - 01:34:12] que le utilizamos en el diagrama de actividad y en el diagrama de esto de usuario.
+[01:34:12 - 01:34:16] Y dirían el de componentes, si lo quisieramos poner,
+[01:34:16 - 01:34:19] porque sabemos que va a estar en el diagrama de clase,
+[01:34:19 - 01:34:22] cómo lo ponemos afuera, tipo otro componente,
+[01:34:22 - 01:34:28] otro modo que diga empleados de banco, no sé,
+[01:34:28 - 01:34:30] y se lo que sea negocio y ejecutivo.
+[01:34:30 - 01:34:36] ¿Cómo va a tener un componente que forma parte de lo que es administración?
+[01:34:36 - 01:34:51] Si usuario. ¿Por qué? Porque la vista, cuando vos hace imaginar,
+[01:34:51 - 01:34:53] vamos a hacerlo bien concreto.
+[01:34:53 - 01:34:56] O sea, si tienes esos ejecutivos de cuenta,
+[01:34:56 - 01:35:00] entraza un más parte web, te lo veas,
+[01:35:00 - 01:35:09] ya sabe que tipo de usuarios sos, ¿qué funcionalidad te va a habilitar o no?
+[01:35:11 - 01:35:15] Porque si soy, por ejemplo, un ejecutivo de cuenta, puedo evaluar,
+[01:35:15 - 01:35:19] y si soy un cajero, no puedo asignar un préstamo,
+[01:35:19 - 01:35:22] lo hace el ejecutivo de cuenta. Entonces, de acuerdo,
+[01:35:22 - 01:35:26] al tipo de rol, el no funciona y de acuerdo, puede exceder.
+[01:35:26 - 01:35:33] Eso forma parte más de lo que es administrativo de la aplicación.
+[01:35:33 - 01:35:36] Y en todas las aplicaciones existe.
+[01:35:37 - 01:35:42] Imagínate que me voy al delginacio y el ingreso con el usuario del profesor
+[01:35:42 - 01:35:47] tengo una funcionalidad mucho más extendida en la del alumno.
+[01:35:47 - 01:35:48] ¿Tamos de acuerdo?
+[01:35:48 - 01:35:51] Sí, sí.
+[01:35:51 - 01:35:57] Entonces, yo debería tener usuarios, tipos de usuarios,
+[01:35:57 - 01:36:01] permisos para esos tipos de usuarios. ¿Sabes cómo se maneja?
+[01:36:02 - 01:36:09] Se nota un resumen muy, muy, muy, muy, comprimido.
+[01:36:09 - 01:36:14] Entonces, yo asumo que voy a tener determinados factores,
+[01:36:14 - 01:36:19] que esos factores son tipos, esos tipos van a tener determinados permisos
+[01:36:19 - 01:36:23] que yo les voy a configurar, te va a poder acceder o no.
+[01:36:23 - 01:36:28] Por lo tanto, como sí que salvo muy administrativo y que se repite
+[01:36:28 - 01:36:31] en todas las aplicaciones, yo no lo coloco.
+[01:36:32 - 01:36:36] Ahora bien, si vuelos de descolocar podrías poner a la causario.
+[01:36:41 - 01:36:47] Pero no es el tema resolver, ¿ok?
+[01:36:47 - 01:36:49] Eso te quiero decir, panca.
+[01:36:50 - 01:36:52] Pero tengo, me da la idea.
+[01:36:53 - 01:37:02] Claro, si te ordenas, hacerlo, pero realmente es como están todos los sistemas,
+[01:37:02 - 01:37:06] siempre voy a tener usuarios, es un tipo determinado,
+[01:37:07 - 01:37:10] el tipo, ejemplo, de este tipo es que es un tipo de cuenta,
+[01:37:10 - 01:37:14] el es que es un tipo de cuenta que tiene tales permisos para determinados clientes
+[01:37:14 - 01:37:21] asignados, no para todos. Bueno, esos permisos los tengo que manejar,
+[01:37:22 - 01:37:26] en forma administrat, y es una administración lo que yo tengo que armar,
+[01:37:26 - 01:37:31] que es una, no es el negocio, no es el cor a resolver, pero está bien que lo pongamos.
+[01:37:31 - 01:37:36] Entonces digo, bueno, tengo usuarios que tengo todo lo que es permiso,
+[01:37:36 - 01:37:47] tengo tipos, ejerentes, puede hacer más cosas que el cajero y tu usuario,
+[01:37:56 - 01:37:59] por ahora me quedaría con eso.
+[01:38:01 - 01:38:08] Yo, obviamente, yo voy a tener al hombre palo que va a acceder al módulo de préstamos.
+[01:38:08 - 01:38:13] Pero imagínate que te digo, sabes que no tengo al ejecutivo del cuenta,
+[01:38:14 - 01:38:19] porque ahora acá me voy al despliegue, a casi me lo despliegue, ¿qué palpito?
+[01:38:19 - 01:38:27] No, me lo deje, acá. No voy a ir, no tengo el ejecutivo del cuenta.
+[01:38:28 - 01:38:40] Me compré una gente de ella, ¿no está?
+[01:38:40 - 01:38:45] Que le llega lo que el cliente solicito, por el que le dé lo que le he solicitado,
+[01:38:45 - 01:38:52] es una página del HTML, se conectó al servidor, al web server del banco,
+[01:38:56 - 01:39:02] no hizo prácticamente nada, o sea, sí, es un frío de un servidor web, ¿no?
+[01:39:05 - 01:39:11] Se conectó al servidor, le dijo, quiero un préstamo tal, envió a los datos y quedó ahí.
+[01:39:12 - 01:39:22] Y lo captura, una gente, el ejecutivo del cuenta, lo captura la gente de ella.
+[01:39:23 - 01:39:27] Le hace esa validación que ante la fía, la gente lo hace de la ella.
+[01:39:30 - 01:39:39] Ya lo que voy a usar más que acá, acá, no me sirve, puedo posicionar relaciones trechas.
+[01:39:40 - 01:39:47] Entonces, no interesa, tienes el que origina la petición, ¿ok?
+[01:39:47 - 01:39:52] Porque hoy es el ejecutivo del cuenta, el día de mañana le agregaron, oye,
+[01:39:52 - 01:39:59] agregaron una gente, entonces ya tengo dos actores por así decirlo, están haciendo cosas.
+[01:39:59 - 01:40:01] No es así, ¿y en donde apunta?
+[01:40:02 - 01:40:06] Por lo tanto, a mí lo que me interesa es que esa petición, que para mí es tan ólina,
+[01:40:07 - 01:40:15] porque es más, imagínate que, no sé, como pasó con España, estuvimos tres días sin luz,
+[01:40:15 - 01:40:22] pero bueno, el banco se abrió y hubo una persona que estuvo escribiendo, vino la hora,
+[01:40:22 - 01:40:28] me pidió un préstamo, escribió, después eso lo pasó un Excel y le digo el sistema,
+[01:40:28 - 01:40:34] tengo todos estos pedidos, tengo este Excel con usuarios, pedido, tipo de préstamo,
+[01:40:35 - 01:40:41] cantidad de plata que me pidió y le paso el cuide de la persona, trámenos de alta.
+[01:40:41 - 01:40:45] Y ahí el hombre palo no tiene nada, ¿me entiende?
+[01:40:45 - 01:40:50] Entonces, la realidad es que eso está buenísimo para lo que se la analicís,
+[01:40:50 - 01:40:56] pero no para lo que es el diseño y acercarme cada vez más, armar una solución.
+[01:40:57 - 01:41:07] Por eso yo no hago modulos de quién es un módulo de ejecutivo de cuenta y el ejecutivo de cuenta va a crear,
+[01:41:07 - 01:41:12] no me interesa, tiene lo hace.
+[01:41:12 - 01:41:17] Lo quiero ver a no nimo, para poder hacer el sistema más extensible el día de mañana.
+[01:41:17 - 01:41:24] El hombre palo es fantástico para un entendimiento de análisis,
+[01:41:25 - 01:41:36] posiblemente les diga no ustedes tienen el usuario, pero yo cuando me estoy acercando cada vez más a la implementación y el código,
+[01:41:36 - 01:41:43] tengo recontra claro, no siempre ese hombre palo puede ser un proceso,
+[01:41:43 - 01:41:47] hoy es una gente de día que también está haciendo cosas,
+[01:41:48 - 01:41:56] entonces alguien me está consumiendo una API, recibe un endpoint y el hombre palo.
+[01:41:56 - 01:42:03] Entonces lo que yo tengo que decir es no quiero lo hacer, sino que lo quiero,
+[01:42:03 - 01:42:08] más que el código de origina es,
+[01:42:08 - 01:42:17] por eso quiero hablar mucho de componentes y ya trato de sacar el actor.
+[01:42:17 - 01:42:24] Obviamente hay actores que se transforman en una entidad muy importante dentro del negocio
+[01:42:24 - 01:42:33] porque sin cliente no tengo lógica de negocio,
+[01:42:33 - 01:42:38] pero no me interesa si el cliente hizo el,
+[01:42:38 - 01:42:42] entró a una página web, me entra a una página web,
+[01:42:42 - 01:42:45] esto es totalmente a ver,
+[01:42:46 - 01:42:50] ganis, ganis, no me van cobalis,
+[01:42:50 - 01:43:00] me diré préstamos, me diré que perdí online,
+[01:43:00 - 01:43:06] acá te llamamos,
+[01:43:06 - 01:43:10] y le envío a los datos, no me interesa saber quién,
+[01:43:10 - 01:43:15] lo que sí me interesa es capturar esa petición,
+[01:43:15 - 01:43:22] entonces no voy a hacer un componente de cliente y solicitud de préstamos,
+[01:43:22 - 01:43:25] si no voy a tener el móvil o préstamos, que le llega una solicitud,
+[01:43:25 - 01:43:28] no me importa el cliente,
+[01:43:28 - 01:43:33] por lo tanto, el cliente no tendría que tener acá la solicitud del préstamos,
+[01:43:33 - 01:43:39] no lo debería tener.
+[01:43:39 - 01:43:42] El cliente voy a manejarlo con una entidad,
+[01:43:42 - 01:43:48] ahora para mi nivel de entendimiento de negocio y está perfecto que haya hecho esto,
+[01:43:48 - 01:43:51] pero acá puedo ponerte el día de mañana,
+[01:43:51 - 01:43:54] sabes qué, el cliente pero también es una gente de ella que no sé,
+[01:43:54 - 01:43:56] que hay valuta, algo, ¿sabes?
+[01:43:56 - 01:43:58] Me va siguiendo, no me interesa el orifán,
+[01:43:58 - 01:44:03] otro seta.
+[01:44:03 - 01:44:06] Igual, yo sé que es difícil,
+[01:44:06 - 01:44:08] a medida que vamos a tener ejercicio,
+[01:44:08 - 01:44:09] lo voy ir repitiendo,
+[01:44:09 - 01:44:12] porque es uno de los grandes sanos de que peveo.
+[01:44:12 - 01:44:16] Me voy al diagrama de places,
+[01:44:16 - 01:44:20] les voy a pedir un favor, no voy a detener un ratito,
+[01:44:20 - 01:44:22] voy a hacernos un tepo de la ranta,
+[01:44:22 - 01:44:30] no me da más un minuto, ¿no?
+[01:44:32 - 01:44:34] Sí, sí, sí, sí, sí.
+[01:44:37 - 01:44:40] Son las 10, pero 3,
+[01:44:42 - 01:44:44] nos deteneríamos 15 minutos,
+[01:44:44 - 01:44:46] 10 y 4 arrancamos,
+[01:44:46 - 01:44:47] pues, ¿sabes?
+[01:44:47 - 01:44:49] No voy con el diagrama de places,
+[01:44:52 - 01:44:53] veo que más.
+[01:44:53 - 01:44:58] Y algo tan desde hace que yo serve y web server,
+[01:44:58 - 01:45:01] para poder también entender un poquito más.
+[01:45:02 - 01:45:04] No es el foco de esta materia,
+[01:45:04 - 01:45:06] pero le necesito que lente andan.
+[01:45:06 - 01:45:09] Arrancamos y 4, nos vemos.
+[01:45:09 - 01:45:11] Y por fin, y en perfect.

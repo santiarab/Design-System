@@ -1,0 +1,471 @@
+# Clase 07 - Parte 2 - 2026-10-01
+Archivo de origen: Clase Diseño-20261001_103650-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 01:15:18
+
+---
+
+[00:00:02 - 00:00:30] Y el que lo van a estudiando y hacer ejercicios de clase que viene, ¿ok? Bueno, vamos con tan un sacado. Bueno, ya dejamos todos los problemas de creación y nos vamos a los problemas estructurales. Lo que tratamos de resolver en los problemas estructurales,
+[00:00:40 - 00:00:54] la comunicación entre los objetos, está que no haya mucho acoplamiento, ¿ok? Si tengo mucha complejidad porque uso de más de la erencia, bueno,
+[00:00:54 - 00:01:07] ver cómo puedo organizar un poco los problemas que me encuentro con la estructura. A mí es uno de las que más me gusta los estructurales.
+[00:01:07 - 00:01:23] En sí los que más usos son los comunicación, pero bueno, las estructuras son también muy conocidas. Alguien hablo ahí, son bastante utilizados.
+[00:01:24 - 00:01:39] Los que no utilizan mucho en los ejercicios o algo son los de creación, igual que en que estudiar, principalmente más que nada para la parte teórica,
+[00:01:40 - 00:02:06] y después casi siempre uno trata de usar los más conocidos, los más amigables, ¿ok? En lo que es la parte práctica. Bueno, vamos con los estructurales. Recuerda, tengo problemas de cómo se van estructurando, de cómo organizo las clases y los objetos, quiero armarlo algo un poco más flexible,
+[00:02:06 - 00:02:24] con evitar tanto usar erencia, pero evitar la complejidad que me brinne la erencia. Entonces encuentro este tipo de patrones. Uno, dos, tres, cuatro, cinco, seis, siete, ocho, ocho patrones. El último no es pero no importa. Vamos con el adaptar.
+[00:02:24 - 00:02:44] Vamos a hacer de la misma manera de darle después vamos a charlarlo. Se utiliza para transformar un interfaz de otra, de tal modo que una clase que no puede utilizar la primera haga uso de ella a través de la segunda, actúa como un traductor.
+[00:02:44 - 00:02:51] Me voy a pensar en un especie de traductor, podríamos utilizarlo como si fuera un especie de enchufe, ¿ok?
+[00:02:51 - 00:03:10] Imagínense que llegamos viajando y vamos a Estados Unidos, y quiero recargar el celular o recargar la computadora y quiero recargarle y me encuentro con que la toma corriente es totalmente diferente.
+[00:03:10 - 00:03:25] Entonces la idea es bueno, yo me quiero romper la vare mi romper mi cargador, entonces lo que voy a hacer es tener un adaptador, ¿ok? Es el típico ejemplo para explicar el adaptador.
+[00:03:25 - 00:03:42] Simplemente eso actúa como un intermediario entre dos piezas que no pueden hablar porque no encajan, de tal manera que mi rompo la pared, mi rompo mi cargador,
+[00:03:42 - 00:03:57] que está a dos clases, trabajen de una manera amigable, entonces la idea es poder decirba que uno use como un especie de tradupción, que haga que traduca y que podamos hablar.
+[00:03:57 - 00:04:18] Está compuesto por tres componentes, el cliente es, digamos sería como mi código actual y necesito comunicarme con otro, esa sería el cliente, ¿ok?
+[00:04:18 - 00:04:31] Necesito utilizar otro, sería el teléfono que busca las patas planas y no lo encuentro. Después tengo, obviamente tengo el target,
+[00:04:31 - 00:04:40] yo digo tres componentes porque la interfaz y el concreto lo, a veces lo considero como uno, ¿no?
+[00:04:40 - 00:04:57] Tenemos la interfaz, esa llama target y se define la interfaz del dominio que se utiliza el cliente y después tengo el adaptor, tengo el concreto de esa interfaz,
+[00:04:57 - 00:05:09] la clase que voy a crear justamente para que reciba las órdenes del cliente y las pueda traducir y después tengo el adaptador,
+[00:05:09 - 00:05:23] esta sería la clase externa que quiere usar, que habla totalmente diferente al adaptador por el adaptor, con el cliente hablan otro idioma y yo acá estoy tratando de traducir.
+[00:05:23 - 00:05:46] Es muy sencillo este, el ejercicio, ustedes lo pueden hacer por ejemplo con el ejercicio de procesar pago, en el tengo por ejemplo, ni sistema,
+[00:05:46 - 00:06:05] quiero procesar un pago pero necesito una clase externa para enviarle dinero a otro, entonces armó un adaptador, esta que tal vez era adaptador, hasta está hecha en otro lenguaje o me pide que me conecte mediante una API,
+[00:06:05 - 00:06:11] entonces la adapto es intentar modificar mi código.
+[00:06:11 - 00:06:25] Pero fue una pregunta, entonces ahí podríamos tener una clase que utiliza, es que las clases tienen opatrones, opatrones pueden tener los dos a la vez,
+[00:06:25 - 00:06:47] ¿claro? ¿Está perfecto lo que decir? Hoy en día es más común, voy a armar un adaptor, voy a hacer una variación protegida,
+[00:06:47 - 00:07:03] hoy es más fácil que otra persona te entiende, decir bueno voy a hacer un faque, una adaptor, un bridge, que decir voy a hacer una variación toda la realidad, que si bien alguien me dice voy a hacer una variación protegida y lo mide o medio raro.
+[00:07:03 - 00:07:19] Acá lo que estoy tratando es decir que la variación protegida obviamente es crear una clase, una fabricación pura, te me conecto con otros sistemas externos, tiene el mismo concepto,
+[00:07:19 - 00:07:40] lo que también me brinda el adaptor es decir bueno más allá de tener una fabricación pura, bueno vamos a hacer un orden, primero armate una interfaz, después tenés un adaptador y después voy a tener varios adaptadores,
+[00:07:40 - 00:07:56] después quiero comunicarme con otros, entonces acá voy a colgar varios adaptadores, voy a tener varios concretos, entonces me permite un cierto orden, pero básicamente lo que vos decís,
+[00:07:56 - 00:08:14] a todos muy relacionados es como decir bueno pero estoy quedando en una fabricación pura y obvio, en target es una fabricación pura, en la adaptor es una fabricación pura excede al dominio, pero perfecto tu comentario ¿qué fue que le dijo?
+[00:08:14 - 00:08:45] Acá cedrico, porra porra como es cedrico, si es cedrico porra, ya los voy ubicando, bueno perfecto, vamos con el otro, el bridge, es una técnica usada en programación para desacoplar una obstracción de simplemente, de manera que ambas pueden estar modificadas independientemente sin necesidad de ir a la otra,
+[00:08:45 - 00:09:10] tengo una clase que tiene muchísima, muchísima código, imagínense y quiero sacarle una implementación, ahí quiero hacer el bridge, ahora vamos con un ejemplo, imagínense, bueno vamos con este ejemplo, imagínense que tengo figura,
+[00:09:10 - 00:10:25] voy con este mismo ejemplo, pura, un falla este ejemplo, tengo círculo, rojo y voy a armar otro que se acírculo azul y después empiezo con que también tengo un cuadrado y empiezo con todas las combinaciones, hablo tengo rojo y voy a tener un problema en la estructura,
+[00:10:25 - 00:11:15] vamos con otro, imagínense que tengo un juego, vamos a algo más lindo, si no repito el encode, tengo el marado y tengo el guerrero, y también tengo armas, lo que voy a hacer tengo las armas que puedes ser una espada, entonces digo tengo malgo con espada, con bastón,
+[00:11:15 - 00:11:47] esto no barita, sería barita, y asumé también tengo guerrero con espada, que bueno tiene otra lógica, el guerrero con espada calculo que el guerrero con espada tiene una funcionalidad un poco mejor, no sé, la maneja de terminada de manera, tiene otras funcionalidad, algo similar, tiene que dar funcionalidad, entonces en el paro, ahora el guerrero con barita, mucho no sé si va poder hacer,
+[00:11:47 - 00:12:20] ahora el guerrero barita, barita se dice no lo que tienen barita mágica, no sé está de antes, la idea es obviamente puedo seguir utilizado una herencia, puedo tener malgo, está puedo utilizar eso pero me estoy contrado con un problema de estructura, si a su vez vengo y digo bueno también le voy a agregar un arma y un revolver,
+[00:12:20 - 00:12:41] entonces tendría mago con revolver, guerrero con revolver, entonces si ahí iría más fe clases, si después le quiero agregar el arco y flecha, si ahí voy a tener un número que también va a explotar y ni hablemos, si le pongo mago, guerrero y le sumo una da madrina,
+[00:12:41 - 00:13:01] ya después los números se me vuelven inmanajables, estoy con un problema de estructura, entonces cuando tengo alguna funcionalidad que le quiero adicionar, lo puedo resolver mediante sacar la implementación de espada, acá, acá, el saco de la implementación de espada, le saco la implementación de la barita,
+[00:13:01 - 00:13:22] del arma, del ataco, sepa la implementación que es bastante compleja y lo arma, como si fuera un puente, donde tengo una referencia, un enlace para conectar la barita con el mago, la barita con el guerrero.
+[00:13:22 - 00:14:58] No sé qué le va a estar silenciada, ahí perdón, hasta dónde me escucharon, hasta la barita con el derrero, o sea, exacto, bueno, díame si no me entiendes, ya estaba hablando a mansalba, bueno, la idea es poderse pararlo en dos, eso si me escucharon, como si fuera, estámente dos lados de un puente, el patrón no dividió en dos, completamente diferente,
+[00:14:58 - 00:15:16] en uno que se va a llamar la extracción, que es lo que ustedes den acá, es el que, es la parte de alto nivel, la parte de visible que en este caso, por ejemplo sería el mago, el personaje, el mago, el guerrero,
+[00:15:16 - 00:15:34] obviamente manejo un nivel de extracción porque el mago del guerrero tienen algunas cosas en común, por lo tanto tengo, acá dice, una interfaz por para poder manejar esa extracción, y acá voy a tener el concreto de esa extracción que sería el mago, el guerrero, el adamadrine, etcétera,
+[00:15:35 - 00:15:57] ahora bien, ahí tengo el que, la parte de visible de alto nivel, la clase de personajes, sepago el como, la implementación, lo que tengo complicado lo separo, lo colocó en esta clase, el implement... este que se viene implementor, también, o de interfaz,
+[00:15:58 - 00:16:21] de sacóplo, me da un cierto orden, entonces ahí que tendría el detalle de la implementación, el como lo hago, y acá voy a tener el concreto barita, concreto y arma, entonces voy a tener como el implemento de esa arma, como el implemento,
+[00:16:22 - 00:16:48] tengo la extracción, la implementación y deje en esta clase la extracción más grande la más importante, la del personaje, los mismos sucede en este ejemplo, yo tengo figura y tengo un... puedo ponerle sículos, atributo, color, o sea, obviamente hay algunas cosas que se pueden llegar a hacer más sensicias,
+[00:16:48 - 00:17:21] pero si tengo que para darle un atributo de orden, una funcionalidad, algo, una implementación muy complicada y bueno puedo extraerme de eso, entonces separo la nivel de extracción con la implementación, lo que tengo que hacer, lo divido en dos, después, acá tengo una relación, obviamente, eso sería el bridge, sencillo, me voy al comboside, un minutito,
+[00:17:21 - 00:17:47] el combos, la única manera de poder entenderla es mediante con un ejemplo ahora abans, sirio para construir objetos complejos, a partir de otros más simples y similares centrecín, gracias a la composición recurciva y una estructura de forma de árbol, ustedes árboles viéramos en el máquina, ¿están?
+[00:17:47 - 00:18:16] Sí, genial, me alegro, bueno, la realidad es que es una forma de ordenar objetos, ¿no? Lo mismo sucede cuando uno se llama, vamos a hacer así, voy a ir navegando y voy a mi computadora hasta ahí tengo documentos, tengo carpetas, dentro de carpetas puedo tener,
+[00:18:17 - 00:18:48] poder tener carpetas y poder volver a tener archivos, entonces voy a armando un árbol, ahora la realidad, y ahí acá lo tengo, tengo el árbol, tengo el componente y tengo las hojas, las hojas, por ejemplo podrían ser los archivos, imagínense que tengo un archivo para manejarlo,
+[00:18:48 - 00:19:08] el archivo para manejar las fotos y las 15 por año, entonces tengo año 2001 y después entre 2001 tengo todos los meses y después de todos los meses tengo también cumpleaños de analía, un pleaño de el hijo de analía,
+[00:19:08 - 00:19:36] y voy entrando y así voy entrando a un árbol, entonces tengo el componente, que puede tener otros componentes y a lo último tengo la hoja que sería en las fotos, me van siendo una carpeta, puede contener archivos sueltos o también puedo tener carpetas y a su vez también tengo archivos, estamos de acuerdo o no, ¿vale?
+[00:19:36 - 00:19:53] Ahora lo que me permite es manejarlo como si fuera un compuesto, entonces de manera tan de que yo le digo, estoy en el año 2001, bueno ¿cuántos pesas la carpeta?
+[00:19:53 - 00:20:05] Entonces me voy a la carpeta del 2001 y veo lo que pesa, ahí un shigah, y entra la carpeta 2001 del medio diciembre, ¿cuánto pesa?
+[00:20:05 - 00:20:23] Y voy haciendo, voy viendo, voy acceder a una determinada posición del árbol, el componente justamente sirve para eso, me permite tratar objetos de manera individual,
+[00:20:23 - 00:20:48] está un archivo o una foto o en manera compuesta y manera compuesta en cualquier parte del árbol, ¿ok? Entonces ¿cómo está formado? Obviamente está formado por el cliente, estáis el que manipula los datos, obviamente eso, no dejamos ahí, el componente, el componente que es un interfaz,
+[00:20:48 - 00:21:09] de clara el interfaz de los objetos involucradas con posición, declara un interfaz para acceder y manejar a sus hijos, tengo la ogita, representa los objetos, soja en la composición, sería el último nivel y después tengo el composite, definir el comportamiento de los componentes que contiene a los hijos.
+[00:21:09 - 00:21:27] Ahora bien, esto es un manejar un árbol, ¿ok? No, no tiene mucho, digamos no descubrieron grandes cosas, imagínense en el ejercicio del banco, ¿verdad? Recuerda del ejercicio del banco.
+[00:21:27 - 00:21:32] El banco y la des.
+[00:21:32 - 00:21:38] El banco que habíamos hecho como emprendamos. ¿Qué?
+[00:21:38 - 00:21:40] La coro donde le ejercicio del banco. ¿O anima el ejercicio del banco?
+[00:21:40 - 00:21:58] O imagínense que estoy en el banco y digo bueno, ¿cuáles son los sueldos? Ahí está, los sueldos de todo el banco y me voy al nivel del árbol más grande.
+[00:21:58 - 00:22:15] Y o bueno, andate al a la sucursal, ¿la sucursal de ramo mexía? ¿Cuánto sal? ¿Cuánto tenemos de de sueldo? ¿Cuánto sal?
+[00:22:15 - 00:22:27] ¿Cuánto sal? ¿El sueldo del cajero del banco? ¿El que trabaja del banco? Me voy a un hijo. Ahora les interesante, a ver si creo que lo tengo acá de ese mismo ejemplo.
+[00:22:27 - 00:22:42] Ahí acá, ahí está. ¿Qué tendría? Yo tengo en el banco, tengo el banco como superior después tengo sucursal, sector y empleados.
+[00:22:42 - 00:22:53] Yo puedo acceder a ver cuántos cobran un sector, una sucursal o un empleado o tú del banco.
+[00:22:54 - 00:23:17] Entonces, me permite manejar, digamos, funcionalidades con el todo, con el compuesto está y con los hijos. Es decir, que me permite manejar comportamiento del componente que tiene hijos y con el hijo individualmente de la misma manera.
+[00:23:19 - 00:23:25] Me van siguiendo. ¿Sí, por favor?
+[00:23:26 - 00:23:34] Por lo tanto, está bueno, está acá puse, por ejemplo, unidad de banco, esto es pues en los pasos, obviamente, acá.
+[00:23:34 - 00:23:44] El cliente puede pedir, por ejemplo, calcular el costo de un sector, calcular el costo de una persona, calcular el costo de todo el banco.
+[00:23:44 - 00:23:53] De esa manera, acá tengo, por ejemplo, operación, sería calcular el costo y lo puedo calcular desde un componente, desde otro componente.
+[00:23:54 - 00:24:05] Acá tengo una recursividad, ¿no? Porque puedo hacer que tenga sucursal, sector, tengo esa recursividad que me da el árbol y después tengo también calcular el costo de la ojita.
+[00:24:05 - 00:24:24] Por lo tanto, me da resuelvo un problema de la estructura, no necesito tener que crear, me vengo acá, no necesito tener que crear banco,
+[00:24:24 - 00:24:47] recursar, sector, empleado. No necesito crear todo esto, lo armo de tal manera que tengo, el empleado y los componentes.
+[00:24:51 - 00:25:05] Y, además, siguiendo, simplemente acá, en el componente, el composite, donde declara el interfaz, voy a declarar cómo es el enlace, obviamente.
+[00:25:05 - 00:25:09] No tengo que verlo, lo que tengo que danar.
+[00:25:09 - 00:25:21] Los códigos de vendía, no existen ni de librerías para estándares para acceder al comparar un composite o acceder un composite.
+[00:25:21 - 00:25:37] Esto lo tenemos que estar un poco más a mano. Todas maneras, hoy en día, piden el código y lo hacen, pero no es tan trivial como usar el prototype, que ya tengo declarada la librería y puedo utilizar ese método.
+[00:25:38 - 00:25:47] Pero bueno, está bueno saber que si tengo algo complejo como esto, van a costruintar securosos, lo puedo resolver de otra manera.
+[00:25:47 - 00:25:59] Tengo la manera de que, en día de mañana, tengo un sector, no sé, coloco algo que sea, no sé, secur, área.
+[00:26:02 - 00:26:17] No tengo que andar, colocándolo, si directamente lo convino, le voy a decir al componente, agregarme una área y ya estaría.
+[00:26:17 - 00:26:22] Ok, están haciendo.
+[00:26:25 - 00:26:39] Quiero que ya me empiezo a dejar del modelo de dominio, lo manejo de otra manera, me voy al decorador, este es otro que me encanta también.
+[00:26:39 - 00:27:03] Lo veo el decorador, lo veo y después lo explicamos, está la definición del decorador.
+[00:27:04 - 00:27:20] Si no está, vamos a explicarlo directamente. Obviamente es un patrón de estructuras, está lo que me permite, es asignar comportamientos y ir atirando comportamientos a una clase.
+[00:27:20 - 00:27:27] Entonces tengo el componente, el concrete del decorador.
+[00:27:27 - 00:27:35] Y sí me encer, siempre veo el mismo ejemplo, pero está imagínense que nos vamos a Starback, ahí digo, bueno, no, no me da una bebida.
+[00:27:35 - 00:27:43] Está bien, y empiezan, bueno, pero como la querés y tiene un costo determinado.
+[00:27:43 - 00:27:57] Y bueno, pero sí, lo querés con crema y querés café con crema y en el otro costo.
+[00:27:57 - 00:28:06] No, lo quiero café con crema y dulce de leche, tengo café, crema y dulce de leche.
+[00:28:10 - 00:28:19] Bueno, también tengo con canela, entonces tengo café, dulce de leche y canela.
+[00:28:19 - 00:28:30] Y así voy a tener un gran problema de estructura. Y aparte cada uno tiene el costo determinado.
+[00:28:30 - 00:28:47] Entonces la realidad es que si vamos a hacer eso también vamos a tener una cantidad absurda de clases para cubrir toda la combinación de ingredientes que tendría café con crema, café con leche.
+[00:28:47 - 00:28:52] Ahora vienen, no sé, que le ponen, está con chip de chocolate, está arriba.
+[00:28:52 - 00:29:04] Y cada uno tiene un costo diferente. Si yo le agrego más condimentos, le voy a agregar un costo diferente.
+[00:29:05 - 00:29:13] Entonces, es decir que le estoy agregando comportamiento a cada uno de estas clases.
+[00:29:13 - 00:29:28] La realidad es que puede tener, al principio capaz que te lo puedo tener, pero en algún momento voy a tener un problema de estructura porque voy a tener cualquier cantidad de clases por cada combinación de algún condimento que le quiera agregar la gente de Starbucks.
+[00:29:29 - 00:29:46] Y la realidad es que cada ingrediente que le agrega, le suma algo al precio, porque si yo le agrego con un leche le voy a agregar un precio a la base, lo agrega en forma dinámica y en tiempo de ejecución.
+[00:29:47 - 00:29:52] Entonces, ¿cómo puedo resolver ese problema a través de este patrón que es el decorador?
+[00:29:54 - 00:30:05] Básicamente está formado por tres partes, por así decirlo acá tengo, obviamente, cuatro clases porque tengo las concretos, pero son básicamente tres clases importantes.
+[00:30:06 - 00:30:29] Tengo, vamos a empezar con el componente base, el componente base es un interfaz o interfaz o placia abstracta, que me va a definir el objeto. ¿Cuál es el objeto que viene de Starbucks? ¿Qué es lo que viene de Starbucks?
+[00:30:29 - 00:30:30] Aferse.
+[00:30:31 - 00:30:39] Afer, si quiero ser más purista, puede decir, bueno, bebida porque hay algunos que son solamente chocolate, por ejemplo un su marino, ¿vale?
+[00:30:39 - 00:30:45] Vamos a poner bebida, vamos a café, o puedo poner bebida, no hay problema, ¿ok?
+[00:30:45 - 00:30:54] Café, tengo que al componente concreto, es el objeto básico al que le voy a poner todos los accesorios.
+[00:30:55 - 00:31:06] En este caso usted me dan disipo a café, yo pondría bebida café, ¿ok? ¿Os o producto? ¿Troduuto? Porque es el producto que me da Starbucks y el concreto de pondría café.
+[00:31:06 - 00:31:25] Es el con vuelo repetido, es el objeto básico al que le pongo todos los condimentos. Tengo otra clase, ¿estás? Obviamente tengo un acá tengo, dice, decorador que es un interfaz o una clase abstracta que va a tener todos los decoradores.
+[00:31:25 - 00:31:38] ¿Qué son todos los decoradores? Sí, en el ejemplo del Starbucks serían los condimentos. He hecho cola, telátria, maraleche, la canela, está el dulce de leche.
+[00:31:38 - 00:31:53] Entonces, te diría todos los concretos colgados, esos ríblos, decir colgados, pero colgados del decorador que si le quiero poner un nombre más ni los sería condimentos.
+[00:31:54 - 00:32:16] De esa manera, tengo una recurcibida, esta es la manera que esa recurcibida lo que me dice un bueno, tengo el producto base, la bebida, el café y yo, ¿qué le agregó? Una operación de agregarle crema.
+[00:32:17 - 00:32:23] Bueno, le agrego crema, doble crema, dos veces le voy a agregar y voy a modificar la base.
+[00:32:23 - 00:32:34] A agregar el cel eche, le agrego comportamiento, agrega comportamiento, le agrego a este. A cuál a este o veis punto operación de agrego.
+[00:32:35 - 00:32:55] De tal manera que voy a disminuir la cantidad de clases porque lo manejo de esta manera, estoy agregando funcionalidad dinámicamente en tiempo de desecusión adelante, sin alterar la estructura.
+[00:32:57 - 00:33:27] Bueno, este tengo el vuelvo a existir, tengo el componente base, los decoradores. Imagínense que estamos con una pisería, ¿cómo harían el modelo de una pisería? ¿Tienes sería el componente, quién sería los decoradores, quién sería el concreto?
+[00:33:27 - 00:33:30] El componente sería la pisería general.
+[00:33:30 - 00:33:36] Claro, el producto es general, bastante bien. El componente sería...
+[00:33:36 - 00:33:49] Y lo que sería la masa y el queso, digamos, es el diablo.
+[00:33:49 - 00:33:52] Exacto, la masa. Vamos, vamos a ponerlo, la masa.
+[00:33:52 - 00:33:57] Los decoradores, ¿cuál sería el diablo de todo lo que comenzas arriba? ¿Dónde los topings?
+[00:33:57 - 00:34:04] Todos los topings, me encanta esta generación, es alto, todos los topings. Yo soy más vieja y hago con dimensas, perfecto.
+[00:34:05 - 00:34:09] Yo soy un conmigo y yo soy un conmigo, todos los topings.
+[00:34:09 - 00:34:20] Musaré el amor, lejamos, nada, nada. Y ahí, puede guardarlo en tiempo.
+[00:34:20 - 00:34:27] Y aquí quiero la mitad, lejamos ni la mitad de esta. Y ahí voy armando, le voy agregando esa funcionalidad de informa dinámica.
+[00:34:28 - 00:34:36] No fue una consulta rápida, no me quedan claro la diferencia entre decorador y bridge, como que muy parecido.
+[00:34:36 - 00:34:46] Y lo que pasa es que el bridge tengo... Sí, hay algunos que son muy parecidos y es más que va a pasar lo mismo con el state y el estrátese.
+[00:34:46 - 00:34:53] Algunos cambian el concepto, digamos, la naturaleza del porqué está creado.
+[00:34:54 - 00:35:01] En el bridge lo que tenés acá, básicamente decir, bueno, tengo un producto muy complejo y lo separo.
+[00:35:01 - 00:35:04] Si para la implementación, nada más.
+[00:35:04 - 00:35:13] Ok, acá es como que si estuviera siendo la pista, y bueno, tengo pisa, no tengo varios productos, no importa.
+[00:35:14 - 00:35:24] Le voy a separar el siluabo al horno, o lo hago al horno de barro, siluabo al horno común.
+[00:35:24 - 00:35:31] Separo la implementación de mañana, quiero agregar la implementación, lo agrego.
+[00:35:32 - 00:35:44] Y eso es un tiempo de acercación, acá en tiempo de acercación, si bueno, tengo algo base y le puedo ir agregando decoradores.
+[00:35:44 - 00:35:47] Son muy similares, este es más.
+[00:35:47 - 00:35:51] Si igual lo que tienes de coreytales que puede ser recursivos mientras que le hubiera dicho.
+[00:35:51 - 00:35:53] A ver o no, o algo.
+[00:35:53 - 00:36:04] Muy buen punto, acá no tengo la recursividad, por lo tanto no lo puedo hacer, doble azul.
+[00:36:05 - 00:36:20] Y de todas las maneras, acá en el decorador, todo forma parte del producto.
+[00:36:20 - 00:36:31] Y acá no, ok, si yo quiero ver el producto entero, le puedo pedir a las tractas, pasamos todo el producto entero y punto.
+[00:36:31 - 00:36:36] Pero acá no tengo separado bien la implementación.
+[00:36:36 - 00:36:42] De todas las maneras, te va a pasar lo mismo cuando veamos el este y el...
+[00:36:42 - 00:36:46] Ay, como yo me lo otro le esté y el encamo.
+[00:36:46 - 00:36:48] El estrategia.
+[00:36:48 - 00:37:00] El estrategia, el estrategia son hasta son iguales, los diagramas, pero están pensados lo que capis las filosofías.
+[00:37:01 - 00:37:05] Muchos sobre los diagramas, vos te trata también sobre eso.
+[00:37:11 - 00:37:15] Por ejemplo, yo si tuviera una implementación, que sacar una única implementación,
+[00:37:15 - 00:37:19] esa cariá esto, haría un bridge.
+[00:37:19 - 00:37:24] Ahora si tengo que ir a insionar donde estoy acá.
+[00:37:24 - 00:37:36] Y tengo que por ejemplo armar un jugador, un juego y le quiero cambiarle la ropa.
+[00:37:37 - 00:37:39] Y usaré un decorador.
+[00:37:39 - 00:37:44] Ahí usaré un decorador.
+[00:37:44 - 00:37:47] No usaría un bridge. No lo separaría.
+[00:37:47 - 00:37:54] Porque lo puedo modificar, le puedo decir, bueno, agregarle, no sé...
+[00:37:54 - 00:38:01] Más cosas, dále más inteligencia, dále más de velocidad.
+[00:38:02 - 00:38:07] También supongo que, por ejemplo, un juego, si quiero agregar varias personas que pueden utilizar la ropa,
+[00:38:07 - 00:38:10] también se puede hacer una comida hacia entre todos.
+[00:38:10 - 00:38:11] Claro.
+[00:38:11 - 00:38:12] Y cuando he parado de reír, ¿qué?
+[00:38:12 - 00:38:18] Si, tratamos de pensar los juegos, pero no me sale, pero sí podríamos hacerle a la pensamiento en mi caso.
+[00:38:18 - 00:38:22] Ahora, en el examen, ¿qué fue el que me preguntó?
+[00:38:22 - 00:38:26] AXC.
+[00:38:26 - 00:38:30] Yo creo que te pregunté, respecto del examen.
+[00:38:30 - 00:38:31] Vamos a el examen.
+[00:38:32 - 00:38:33] Pensamos en el examen.
+[00:38:33 - 00:38:40] Yo he dado un problema y he de que quiero desacoplar una funcionalidad de esto.
+[00:38:40 - 00:38:46] Ahora, yo decís, bueno, yo te lo oriente para que sea un decorador, pero si te sumbrí,
+[00:38:46 - 00:38:51] me puedo quejar mucho, estás más o menos enfrentado.
+[00:38:51 - 00:38:56] Lo que sí no vas a poder hacer es decir, mirad, dar una clase de un singleton.
+[00:38:56 - 00:38:57] ¿Qué?
+[00:38:59 - 00:39:04] Entonces, quedan seclaros, quedan se tranquilos, porque en algunos son sutiles.
+[00:39:04 - 00:39:08] Lo que sí me voy a fijar es dentro del problema que se usted doy.
+[00:39:08 - 00:39:11] Está dentro de la categoría correcta.
+[00:39:13 - 00:39:16] Y te doy un problema de estructura, creo.
+[00:39:16 - 00:39:21] Me encuentro con un problema que estoy creciendo mucho a las clases y estás.
+[00:39:21 - 00:39:26] Y que vas a ser un creador y bueno, no es el problema que queríamos resolver.
+[00:39:28 - 00:39:34] Ahora, si a más un decorador o un compo site, me voy a...
+[00:39:34 - 00:39:36] Ahora los vemos.
+[00:39:36 - 00:39:42] A un proxy, en vez de un funky, bueno, estás sabriantado, no estás muy lejos.
+[00:39:42 - 00:39:45] La brújula que está llevando, ¿ok?
+[00:39:45 - 00:39:50] Entonces, también son decisiones arquitectónicas que uno toma.
+[00:39:50 - 00:39:52] Así que quedan tranquilos.
+[00:39:52 - 00:39:57] Y después, bueno, hay que también hay que ver, es del código, que es lo que te brinda cada uno.
+[00:39:58 - 00:40:02] Igual el código lo van a tener en usted, también modificar.
+[00:40:02 - 00:40:05] Ahora lo vamos a ver con el observer, por ejemplo, ¿no?
+[00:40:05 - 00:40:10] Pero como veis usted como el que vimos, respidan. ¿Cuál es el que digo que se te dice?
+[00:40:10 - 00:40:18] Bueno, acá, van a tener minutos. ¿En qué pasen estoy?
+[00:40:18 - 00:40:21] No, no, el vídeo. Un minuto, estoy en la 37.
+[00:40:21 - 00:40:28] Soy, les expliqué el prototype, no, el Builder.
+[00:40:28 - 00:40:32] Está que había dos formas de programarlo.
+[00:40:32 - 00:40:37] Bueno, eso se va a encargar el programador.
+[00:40:37 - 00:40:42] Llega a algunos puntos que, en el código, también vas a decir, bueno, ¿a dónde?
+[00:40:42 - 00:40:48] Corador, y hago la recorciida. Y según un bridge, y me di cuenta que es recorciido.
+[00:40:48 - 00:40:50] Bueno, lo cambiás.
+[00:40:50 - 00:40:55] Y vamos.
+[00:40:55 - 00:40:59] Paquet, bueno, este es uno de las más utilizables.
+[00:41:00 - 00:41:04] Viene motivado por la necesidad de estructurar un entorno de programación,
+[00:41:04 - 00:41:07] reducir la complejidad con la edición de subsistemas.
+[00:41:07 - 00:41:09] Esta es una de las paradas claves.
+[00:41:09 - 00:41:13] Minimizando la comunicación y ya tendré encerriendo esto.
+[00:41:13 - 00:41:18] Tengo subsistemas que tengo que comunicarme con el exterior.
+[00:41:18 - 00:41:24] Tengo un problema de reducir la complejidad.
+[00:41:24 - 00:41:28] Lo que me propone es subfake ahí.
+[00:41:28 - 00:41:32] Me voy al facade y tengo una única clase.
+[00:41:32 - 00:41:41] Conozco toda la responsabilidad de las peticiones y puedo desacoplar la comunicación
+[00:41:41 - 00:41:44] mediante esta clase.
+[00:41:44 - 00:41:49] Es decir, que poco digamos, algo lindo, una para simple, limpia, amigable,
+[00:41:49 - 00:41:52] delante de todos estos que son gigantes,
+[00:41:52 - 00:41:55] y que no los puedo entender.
+[00:41:55 - 00:41:58] O tal vez no tengo ni necesidad de entenderlo.
+[00:41:58 - 00:42:04] Porque tal vez tienen librerías o hace algo muy complejo o manejo
+[00:42:04 - 00:42:07] unas zapis que yo desconozco, no sé qué hace internamente.
+[00:42:07 - 00:42:11] Entonces, el leco loco está fachado, que es una clase simplificada,
+[00:42:11 - 00:42:16] que voy a crear yo, no forma parte del dominio, es una clase artificial.
+[00:42:16 - 00:42:20] O me no ofrece dos o tres metros de docencia para que el suero
+[00:42:20 - 00:42:25] tenga que leer con la complejidad de todas estas cajitas.
+[00:42:25 - 00:42:30] Pero solido un problema de estructuras.
+[00:42:30 - 00:42:34] De tal manera que no tengo una clase para comunicarme con él a otra clase
+[00:42:34 - 00:42:37] para comunicarme con él, otra clase para comunicarme con él.
+[00:42:37 - 00:42:45] Tengo un facade, defino unos metros, no es abstracta,
+[00:42:45 - 00:42:52] obviamente, es concreta donde tengo los métodos para poder comunicarme.
+[00:42:52 - 00:42:56] Me voy a otro.
+[00:42:57 - 00:42:59] Una pregunta, ¿puedes ser un plato de métodos?
+[00:42:59 - 00:43:02] Pero los gestores podrían calificar como facade.
+[00:43:02 - 00:43:05] O sea, es como que se comunica a van todas las clases
+[00:43:05 - 00:43:12] y a nosotros nos da un interfaz que simplemente usamos metodos más fáciles.
+[00:43:12 - 00:43:23] Vamos bien, el concepto del sector es que te catoral la lógica del flujo de negocio.
+[00:43:23 - 00:43:25] Ah, claro, ahí entendió saber, ¿fake?
+[00:43:26 - 00:43:30] No más para comunicarlos, no debería tener más paciencia en la lógica.
+[00:43:30 - 00:43:31] Exacto.
+[00:43:31 - 00:43:36] Ahora, si vos me decís, voy a ver si quedamos una clase en una fabricación pura,
+[00:43:36 - 00:43:39] si en ambos, ¿ok?
+[00:43:39 - 00:43:43] En faquese en una fabricación pura y en otro también,
+[00:43:43 - 00:43:47] en una forma parte de tu dominio, pero tienen diferentes naturales
+[00:43:47 - 00:43:49] a los creo para otra cosa.
+[00:43:49 - 00:43:53] Claro.
+[00:43:53 - 00:43:56] Vamos, vamos.
+[00:43:56 - 00:44:00] Y después, se interruta en vez porque la realidad es que uno, cuando hace preguntas,
+[00:44:00 - 00:44:02] es que realmente está entendiendo el tema.
+[00:44:02 - 00:44:06] Si no, me están escuchando a mí y hasta yo misma me canso.
+[00:44:06 - 00:44:09] Miren, empezamos en 60 y somos 40.
+[00:44:09 - 00:44:14] O sea, y después voy a tomar quiénes están y quiénes no.
+[00:44:14 - 00:44:18] Entonces, la realidad es que también si tienen preguntas sagas, ¿ok?
+[00:44:18 - 00:44:21] Cloudway y terminamos, ¿no?
+[00:44:22 - 00:44:27] Bueno, imagínate que a casi le para eliminar reducir la redundancia
+[00:44:27 - 00:44:31] cuando tenemos gran cantidad de objetos que contiene información identica.
+[00:44:31 - 00:44:36] Es un poco complicado, vamos a tardar de darlo con un ejemplo.
+[00:44:37 - 00:44:42] Imagínate que estamos en un juego, siempre cuando hablo de duplicar, clonar,
+[00:44:42 - 00:44:48] casi siempre hago los mismos ejemplas, porque no lo encuentro un ejemplo claro
+[00:44:48 - 00:44:51] que no sean en los juegos.
+[00:44:51 - 00:44:57] Imagínate que tenemos un juego donde tenemos que tirar tiros y tengo muchas balas.
+[00:44:57 - 00:45:05] En las balas, si yo quiero hacer un new bala y uso mil balas y la realidad que estoy consumiendo
+[00:45:05 - 00:45:11] también es muchísima memoria RAM, está colapsaría, no sería importante,
+[00:45:11 - 00:45:17] porque estoy creando un montón de balas y encima las balas hay muchas cosas que comparten
+[00:45:17 - 00:45:20] que tienen en común.
+[00:45:20 - 00:45:24] El peso, el color, ¿ok?
+[00:45:24 - 00:45:27] Y hay otras que no, bueno, coordenadas, ¿no?
+[00:45:27 - 00:45:31] Tiene una velocidad determinada, tiene una coordenada diferente,
+[00:45:31 - 00:45:35] hay cosas que son compartidas y otras que no.
+[00:45:35 - 00:45:42] Entonces la idea es poder armar un patrón, es donde tengo el objeto, obviamente,
+[00:45:42 - 00:45:50] la bala, acá voy a tener, por ejemplo, en el flywheel, voy a tener el objeto compartido,
+[00:45:50 - 00:45:57] si vamos en el tema de las balas, sería en todas las balas y saber que tengo cosas en común
+[00:45:57 - 00:46:03] y cosas que no tengo en común, que no están compartidas.
+[00:46:03 - 00:46:10] Entonces ahí se paro lo que está compartido y lo que no está compartido.
+[00:46:10 - 00:46:21] ¿Qué más? Después tengo la fábrica, te pensaba, ¿no?
+[00:46:21 - 00:46:29] La fábrica digamos si es como si fuera el que me permite crear los objetos compartidos,
+[00:46:29 - 00:46:34] obviamente, y me devuelve el objeto.
+[00:46:34 - 00:46:39] Esto lo vamos a ver con un ejemplo, la clase que viene, ¿no?
+[00:46:39 - 00:46:45] Vamos un ejemplo de un ejercicio, vamos a un flywheel, ¿no?
+[00:46:45 - 00:46:51] Pero lo que tienen que entender es que de un objeto tengo que ver qué es lo que tengo como un partido y que no,
+[00:46:51 - 00:46:54] ¿qué es lo que tienen todo en común?
+[00:46:54 - 00:47:00] Yo sé para lo que no tengo en común, lo que es interésico.
+[00:47:00 - 00:47:05] Voy a apurar, no me voy a poner cuenta de la hora, proxy.
+[00:47:05 - 00:47:12] Tiene como propósito proporciona un subrogado, intermedio de un objeto para controlar el acceso.
+[00:47:12 - 00:47:18] En otro día lo expliqué en un alumno a mí, de un ejemplo que me encantó y me dijo,
+[00:47:18 - 00:47:25] quiero ir al boliche y me encuentro con que el proxy es el patódica, me dijo, es alto.
+[00:47:25 - 00:47:36] Imagínate que querés acceder a un lugar pero antes que es el real, es el real Snapchat, es lo que vos quieres acceder.
+[00:47:36 - 00:47:46] En este caso el boliche, hace que me pasó un minutito, que quiero acceder al boliche,
+[00:47:46 - 00:47:52] pero no puedo acceder sin antes pasar por el chico me dijo,
+[00:47:52 - 00:47:59] si no puedo acceder, no puedo acceder al boliche sino antes pasar por el patódica.
+[00:47:59 - 00:48:06] Entonces, que hago, pongo un objeto intermediario entre el cliente y el objeto que yo quiero acceder,
+[00:48:06 - 00:48:13] y lo que hace el proxy que sería el patódica, decir, bueno, para antes de acceder al objeto real,
+[00:48:13 - 00:48:26] decime que en sos está valida, lo filtra digamos, se fija un tema de seguridad, si tengo permiso o no,
+[00:48:26 - 00:48:33] puedo evaluar contracenias, está y una vez que estoy autorizado, accedo al objeto real,
+[00:48:33 - 00:48:41] y no paso por el patódica y me rechaza ni siquiera puedo acceder al objeto real.
+[00:48:41 - 00:48:53] Entonces, es bastante utilizado, separo el acceso del producto real.
+[00:48:53 - 00:48:57] Me gustó lo del ejemplo que me dio por eso.
+[00:48:58 - 00:49:06] Una pregunta respecto al proxy, o sea, entonces no más vamos a interactuar.
+[00:49:06 - 00:49:11] Lo externo va a interactuar solamente con el proxy o sea, va a interactuar con el proxy,
+[00:49:11 - 00:49:14] y una vez que el proxy lo prevé ya después, directamente, y cae con realidad el proxy.
+[00:49:14 - 00:49:21] El cliente le va a pedir el sub, el rico es primero va a pasar por el proxy, el sub se va ahí por el proxy,
+[00:49:21 - 00:49:26] y una vez que tengo el acceso lo puede rechazar o no, si lo rechaza quedáis,
+[00:49:26 - 00:49:30] sino hay tengo recién enlace al objeto real.
+[00:49:30 - 00:49:39] Claro, pero me refiero para la comunicación que siga después de eso, va a seguir pasando por el proxy o ir directo al real subject.
+[00:49:39 - 00:49:42] Una vez que tengo autorizado ya tengo el enlace, por ejemplo.
+[00:49:43 - 00:49:48] Eso es al acercó, digo, como lo sé, una vez que lo tengo habilitado, lo habilitado.
+[00:49:48 - 00:49:52] Y puedo tener una comunicación directa.
+[00:49:52 - 00:49:59] Es como decir, quiero entrar social cliente y quiero entrar al oriche, ya una vez que estoy ahí adentro, estoy ahí adentro.
+[00:49:59 - 00:50:04] Claro, entendié, gracias.
+[00:50:04 - 00:50:09] Me voy a otro al comportamiento.
+[00:50:09 - 00:50:16] Los patrones de comportamientos son justamente las soluciones que me van a permitir o reganizar la comunicación,
+[00:50:16 - 00:50:23] me ayudan en el flujo de control, la estilnación de responsabilidades y todo lo que ya tenemos.
+[00:50:23 - 00:50:29] Son bastantes, así que vamos a poner tímitas.
+[00:50:29 - 00:50:38] Cadena de responsabilidades, evita a comprar el emisor de una petición y su receptor dando más a un objeto la posibilidad de responder una petición.
+[00:50:38 - 00:50:58] Recuerden estos dibujitos, hay un enlace, están encadenados y cada uno, yo le pido alguien algo, pero si algo tiene una cadena de objetos que me podrían llegar a responder.
+[00:50:58 - 00:51:00] Ahora lo vemos.
+[00:51:00 - 00:51:04] Ahora lo voy a hacer, voy a dar el ejemplo, si no lo vamos a entender.
+[00:51:04 - 00:51:17] Imagínense que yo estoy, tengo un problema con internet y ya vamos a para quejarme y mi rímero lo que hace es que me contesta la máquina automática.
+[00:51:17 - 00:51:26] Entonces, o mando un zap, no importa. Tengo el primero, le digo no me da en internet y voy al primer nivel.
+[00:51:26 - 00:51:27] Eso cuando...
+[00:51:27 - 00:51:32] Me lo puede resolver, quedó ahí, está, está resuelto.
+[00:51:32 - 00:51:38] Si el primer nivel no me lo puede resolver, pasó el segundo nivel, me voy a decir eso, es soporte técnico.
+[00:51:38 - 00:51:46] No me lo puede resolver, es soporte técnico, vía máquina, bueno, quedo, me paso el operador humano, paso a otro.
+[00:51:46 - 00:51:51] No me lo puede resolver el operador humano, me pasa, bueno, ¿sabas qué?
+[00:51:51 - 00:51:56] Te mando el ingeniero de campo para poder resolverlo, se sería el último.
+[00:51:56 - 00:52:04] Entonces lo que maneja este patrón justamente es esa cadena de responsabilidades, como se llama, cadena de responsabilidades.
+[00:52:04 - 00:52:15] Pasa una petición, un pedido, pasa una petición, a lo largo trae esta cadena o una cadena de objetos, obviamente.
+[00:52:15 - 00:52:23] Y cada nivel intenta resolverlo. Ahora, ¿cómo implemento esto?
+[00:52:23 - 00:52:34] Bueno, lo implemento con un handler, que es como interfaz a defino, dice acá, interfaz de fino, las implementaciones.
+[00:52:34 - 00:52:44] Después tengo los concretos, en los concretos yo tendría cada nivel, tendría, yo les había dicho, tendría,
+[00:52:45 - 00:52:53] de la máquina contestadora, que me contesta, el soporte, el concreto 2 sería el soporte técnico,
+[00:52:53 - 00:53:01] el concreto 3 sería el operador humano, el concreto 4 sería el equipo de ingeniero de campo.
+[00:53:01 - 00:53:10] Cada uno yo tengo acá los diferentes niveles, los 4 Handler tendría en el ejemplo que les dice.
+[00:53:11 - 00:53:17] Obviamente, sí tengo que tener una clase concreta por cada nivel y soporte, te pongo.
+[00:53:17 - 00:53:28] Y el cliente es el responsable de instanciar estos Handler y cómo lo se lasso.
+[00:53:28 - 00:53:37] Es el que va a decir, bueno, necesito 4 niveles y van de esa manera, para el lazado de esa manera.
+[00:53:38 - 00:53:47] Como puedo acceder y fácilmente accedo, si no lo puedo resolver, o si le meten el código, voy a tener un di siguiente,
+[00:53:47 - 00:54:01] no acá creo que el di siguiente no está un minutito, un sucesor que le tiene, esta, di sucesor que pasen.
+[00:54:01 - 00:54:07] Como cuando reclamas una materia a entrar a consulta, pero no de lo puede reír su 20 consulta de legan al centro de estudiante.
+[00:54:08 - 00:54:11] ¿Me han tratado de poder reír su centros de estudiante del legan?
+[00:54:11 - 00:54:12] Estos datos.
+[00:54:12 - 00:54:16] Te dan del legan y después nada de la razon, pero no importa.
+[00:54:19 - 00:54:21] O sea, una forma de estar bien en te pages que tenés suerte de la resolve climática,
+[00:54:21 - 00:54:29] para que se haya si no se pueda resolver.
+[00:54:32 - 00:54:33] Y pasa mucho.
+[00:54:33 - 00:54:43] el virus, lo ideal y lo que pretende el patron es que haya un concreto por cada nivel,
+[00:54:43 - 00:54:50] ¿ok? Estamos de acuerdo. Ahora, podría llegar a tener un único nivel. La realidad es
+[00:54:50 - 00:54:56] que no es la naturaleza del que está creado el cadeno de responsabilidades, ¿ok? Ahora,
+[00:54:56 - 00:55:03] si teco aprobaciones que dependen de algo muy simple y la lógica es la misma y podría
+[00:55:03 - 00:55:11] hacer un único handler. Imagínense que tengo aprobaciones de dinero en el ejemplo del banco,
+[00:55:11 - 00:55:18] bueno, si tengo para probar un primer nivel, es 100 pesos, el segundo nivel de préstamos
+[00:55:18 - 00:55:24] era 1.000, el tercer nivel de préstamos era 10 millones. Ahora, lo único que viene cambia es
+[00:55:24 - 00:55:31] quién es el aprobador y aún unico handler. Ahora, si tengo un lógica muy complicada y conviene
+[00:55:31 - 00:55:42] hacer, como dice el patron, detener un concreto handler por cada nivel, ¿ok? Ahí ya empiezo a hacer
+[00:55:42 - 00:55:50] esa configuración y de acuerdo a mis necesidades. En algún momento tengo que analizar. Esas
+[00:55:50 - 00:55:57] son decisiones que calculo las vaire tomando también el programado, cuando estén un nivel muy bajo
+[00:55:57 - 00:56:03] y la extracción me voy a dar cuenta que es lo que me conviene. ¿Qué hace quién sabe el primer
+[00:56:03 - 00:56:08] eslabón o el siguiente eslabón, digamos, de la caer? El cliente, el cliente se hace el que hace el
+[00:56:08 - 00:56:14] nú en algún punto, está, el cliente, yo lo llamo cliente pero va a ser una clase que va a ser
+[00:56:14 - 00:56:23] responsable de crearlo, ¿no? El que hace la petición y que hace el crea, todos estos eslabones,
+[00:56:23 - 00:56:31] todos estos niveles y hace el encadenamiento, conoces al lógica de negocio. ¿Pero se
+[00:56:31 - 00:56:43] toda la cadena cliente? Exacto. Un minuto que me estén emocionados, ¿ok? Me voy al Coman,
+[00:56:43 - 00:56:49] hasta donde llegue, llevo a intentar llegar y si no, no, quedará para los próximos. No voy
+[00:56:49 - 00:56:58] al Coman, la idea del Coman es justamente desacoblar el objeto que invoca con el objeto que hace la
+[00:56:58 - 00:57:05] tarea, el objeto que invoca con el objeto que lo hace, dice, permite solicitar una operación,
+[00:57:05 - 00:57:12] un objeto 5, no sé realmente el contenido de la misma ni el receptor, aquí lo pide, en la
+[00:57:12 - 00:57:26] invoca real de la misma. Aguardo me que esté pensando en un ejemplo. Imagínense que te vamos
+[00:57:26 - 00:57:31] a… creo que a ver si le puse acá un escento para no olvidarme, para ver si me le dio
+[00:57:31 - 00:57:36] si más, mi alivio. Imagínense que vamos a un restaurant y vamos a pedir algo, ¿no? Hoy estoy
+[00:57:36 - 00:57:41] con esa hamburguesa, voy a pedir una hamburguesa determinada, está en la realidad de que quienes
+[00:57:41 - 00:57:48] se le han cargado de hacerlo del cocinero, pero yo que entro al restaurant, no le grito el cocinero
+[00:57:48 - 00:57:57] de hacer una hamburguesa, tengo un intermediario que sería el morso, que lo anota, lo anota en un
+[00:57:57 - 00:58:02] ticket, ese es el secreto, no? Lo anota en un ticket y después se lo pasa a la cocina,
+[00:58:02 - 00:58:11] hace esto, lo que hace un poco el Coman es justamente eso, transforma esa acción o esa solicitud
+[00:58:11 - 00:58:16] que alguien me hizo, la convierte en una orden para esto pasársela a alguien que lo va a realmente
+[00:58:17 - 00:58:25] hacer. Ahora hay cocinero, la puede agarrar esa orden y tiene la lógica de decir, bueno, lo hago ahora,
+[00:58:25 - 00:58:32] los guardan historial, lo pongo, la cola de espera, le digo que no, porque no tengo los materiales,
+[00:58:32 - 00:58:41] estáis se lo devuelvo, entonces maneja un poco, no? Toda esa lógica y lo trato de saco hablar con el
+[00:58:41 - 00:58:51] objeto real, como lo hago y tengo estos componentes, tengo obviamente, me voy siempre con el,
+[00:58:51 - 00:58:57] voy a empezar con el cliente, empezó con el cliente, es el que crea el comando y el receptor,
+[00:58:57 - 00:59:08] obviamente, que crea el comando concreto, después tengo el Coman, no veo el Coman, esto es un interfaz
+[00:59:08 - 00:59:14] simple, como el que venimos viendo y tiene el llamado por ejemplo de ejecutar, o a veces también
+[00:59:14 - 00:59:22] pueden ejecutar deshacer obviamente, no es que tienen un único método, tengo el concreto,
+[00:59:22 - 00:59:31] este sería el tique real, lo que tengo que hacer, que tienes que hacer, una hamburguesa doble con
+[00:59:31 - 00:59:42] que sota, o no sé el objeto y obviamente voy a llamar al que lo va, el ejecutalo, tiene el
+[00:59:42 - 00:59:51] concreto para ejecutarlo, tenemos el recibe, el objeto que me va a guardar el comando, me dice cuando
+[00:59:51 - 01:00:03] lo tiene que ejecutar, sería en este caso quien recibe, sería no sé, es el nacer, el nozo, y no,
+[01:00:03 - 01:00:11] perdón, me cobro que el que lo hace sería el cocineiro, y el invocat, justamente invocat, el
+[01:00:11 - 01:00:19] invocat es el objeto que dice cuando ejecutarse el mozo, perdón me confundí yo mismo, ¿ok?
+[01:00:19 - 01:00:30] Me van siguiendo, entonces, quiero, si tengo que hacer un comando o hacer algo bastante complicado,
+[01:00:30 - 01:00:39] una tarea bastante pesada, que tiene una naturaleza en sí, que la puedo estopiar, la puedo
+[01:00:39 - 01:00:50] pausar, la puedo devolver, bueno que tiene, bueno puedo pensar en un comando, si me voy por ejemplo
+[01:00:50 - 01:01:00] al ejemplo del banco, podría llegar a ser un comando, por ejemplo operaciones bancarias, entonces tengo
+[01:01:01 - 01:01:06] encomam serían todas las operaciones bancarias, sería un interfaz común, acá tendría los concretos,
+[01:01:06 - 01:01:17] extraer plata, sacar plata, ¿ok? El recibe sería quien es el que tiene la lógica, por ejemplo si saco
+[01:01:17 - 01:01:25] plata y la cuenta bancaria, tiene la lógica para descontarme del saldo, descontarme y agregarme,
+[01:01:25 - 01:01:30] está depende lo que va a hacer, el invoc, bueno podría ser el cajero automático, es quien
+[01:01:30 - 01:01:40] es dispara el comando, ¿ok? De pido que lo analicen, lo vamos ir viendo también con algunos
+[01:01:40 - 01:01:48] exemplos, y algo que también es importante en el anterior es que yo por cada comando puedo guardar
+[01:01:48 - 01:01:55] el está, entonces puedo guardar historial, guardar línea, volver para atrás, estopiarlo, pausarlo,
+[01:02:00 - 01:02:09] me voy con el interperte, el interperte no lo vamos a ver, es bastante complicado, calculo que
+[01:02:09 - 01:02:16] ustedes no sé si vieron lenguaje si compiladores, les voy a decir para lo que sirve pero no lo vamos a
+[01:02:16 - 01:02:25] analizar en profundidad, lo que me permite el interperte justamente es tener las poder definir una
+[01:02:25 - 01:02:34] gramática de lenguaje y convierte cada regla de lenguaje en una clase, entonces eso tengo
+[01:02:34 - 01:02:40] expresiones terminales y no terminales, esto lo van a ver en lenguaje y compiladores, no te preocupen,
+[01:02:40 - 01:02:50] pero por ejemplo imagínense que tengo que hacer a más o algo más concreto, 5 más 3,
+[01:02:50 - 01:03:02] los terminales, me voy a ver, los no terminales, que sería el más, son los símbolos que
+[01:03:02 - 01:03:09] combinan otras expresiones y los terminales justamente son los que no puedo dividir lo más, sería el 5 y el 3,
+[01:03:09 - 01:03:19] además este patrón lo que prendermites es entender la gramática y poder tener una lógica para poder armar
+[01:03:19 - 01:03:26] los compiladores, las expresiones, esto lo van a entender cuando vean lenguaje sin compiladores porque
+[01:03:26 - 01:03:38] cuando uno hace un lenguaje compilador, maneja, puede manejar árboles, polaca, polata inversa, entonces y
+[01:03:38 - 01:03:49] acuerdo cómo es tu lenguaje, tenés un interpreter terminado, no vean, simplemente quedan
+[01:03:49 - 01:03:55] hace con la idea de que interpreta un lenguaje junto con su gramática, porque lo van a ver en algún
+[01:03:55 - 01:04:06] momento con lenguaje sin compiladores, pero no quería no obviarlo, porque después van a decir final
+[01:04:06 - 01:04:16] la profe me enseñó 22 patrónes y 93, tampoco me parece, estoy haciendo lo que hacen otros profesores
+[01:04:16 - 01:04:28] conmigo, ya lo van a ver, ya lo van a ver, ok, me estoy venando, bueno vamos con literador, este
+[01:04:28 - 01:04:38] recuerden no entra capaz que para una definición, pero no para los ejercicios, me voy con el literador,
+[01:04:38 - 01:04:42] lo que tiene el literador básicamente lo que me permite es justamente recorrer el emeto de una
+[01:04:42 - 01:04:52] colección lista, o el matriz, ok, sin necesidades de ver su estructura internalo de sacóplos, la idea
+[01:04:52 - 01:05:03] es una manera estándar de recorrer en forma secuncial, elementos, ok, cómo lo manejo y vean
+[01:05:03 - 01:05:11] te dos, componente fuertemente, uno que sea todo lo que es la parte de literación, literador y
+[01:05:11 - 01:05:18] otro que sea la colección en sí, el literador lo que voy a hacer obviamente siempre va a tener la
+[01:05:18 - 01:05:26] clase abstracta, porque yo puedo tener varios concretos citeradores, ok, donde va a tener la implementación
+[01:05:26 - 01:05:34] de citerador, y acá tengo la definición de lo que debería estar, primero, segundo, agregame, sacame,
+[01:05:34 - 01:05:43] cuál es el elemento actual, etcétera, y después tengo del otro lado, tengo una interfaz que me
+[01:05:43 - 01:05:52] permite crear el objeto y tiderador, y acá tengo el objeto concreto, de esa manera lo tengo un poco más
+[01:05:52 - 01:05:59] ordenada y 42, digamos, mediador, bueno el mediador también me encanta, sí, pero las patrones que a mí me
+[01:05:59 - 01:06:06] gusta lo que me ayuda es justamente reducir la redundancia de las dependencias, que sería
+[01:06:06 - 01:06:13] complemento cuestión lo que bajo, sin ayuda a bajar la dependencia entre objetos, bajásele la
+[01:06:13 - 01:06:29] complementa, me voy a acuerdo todos, perfecto, bueno la idea es tener una clase donde me permite
+[01:06:29 - 01:06:37] justamente ser intermediario para manejar la comunicación entre varios objetos, tengo que
+[01:06:37 - 01:06:43] acá, acá tengo el ejemplo, una torre de control, es el ejemplo típico para explicar mediador,
+[01:06:44 - 01:06:51] imagínense que está en el medio puerto y tengo 30 guiones en el aire, está que están
+[01:06:51 - 01:06:55] circulando, que necesitan unos necesidades de arresar y el otro que me está pidiendo pista,
+[01:06:56 - 01:07:01] la realidad es que no pueden esos 30 guiones hablar entre sí porque sería un caos total,
+[01:07:01 - 01:07:06] entonces lo que voy a tener es un mediador, el mediador acá el que es el torre del control,
+[01:07:06 - 01:07:14] es la persona que además de manejar la comunicación decide las prioridades,
+[01:07:14 - 01:07:22] es decir, ¿sabes qué? La viola, la viola está porque de ahí sin gasolina, lo tengo que hacer,
+[01:07:23 - 01:07:30] si o si lo tengo que bajar del aire, o que tiene que aterrizar si o si, toma prioridades,
+[01:07:30 - 01:07:35] le dice cuando uno tiene que avanzar, cuando uno tiene que esperar, como si fuera acá el control
+[01:07:35 - 01:07:44] del tránsito, bueno, es el que toma, la idea es justamente el mediador es reducir esa
+[01:07:44 - 01:07:53] complejidad, reducir el desorden de comunicación entre objetos, no me interesa que la clase se
+[01:07:53 - 01:08:04] conozcan entre sí, entonces bajo ese acoplamiento, entonces tengo el mediador, como lo separo
+[01:08:04 - 01:08:11] la estructura en dos partes principales, en lo que es el mediador y lo que son los colegas,
+[01:08:13 - 01:08:21] el mediador es el que tiene la lógica de manejar los mensajes, coordinan los elementos, en el caso
+[01:08:21 - 01:08:34] de que les di cuál sería la torre de control, sería el mediador, y obviamente el concreto mediador sería
+[01:08:34 - 01:08:41] la torre de control concreta, es que tengo varias cosas que me están mediando y los colegas son las
+[01:08:41 - 01:08:52] cosas que los objetos que yo tengo que coordinar en el ejemplo cuál sería, los aviones,
+[01:08:52 - 01:09:04] los aviones, perfecto, ya están regemados, me parece, a ver con tu falta, falta un poquito,
+[01:09:04 - 01:09:23] lo voy a dejar hasta acá, por tu acá, dije de compartir, ¿no?
+[01:09:28 - 01:09:37] A ver, dice la cámara, bueno, corto porque los veo que maísimos y la realidad es que para que me
+[01:09:37 - 01:09:44] escuchen así, vamos a cortar y vamos a decir la clasique viene, lo que les voy a pedir es que hasta
+[01:09:44 - 01:10:09] mediador los repasen, yo después acá lo voy a subir, ya se estudiargo, el día do, creo, les voy a pasar
+[01:10:09 - 01:10:16] todo esto, la clasique viene, vamos a hacer ejercicios, así que les pido que estudian,
+[01:10:17 - 01:10:28] el examen no van a necesitar tener, estudiar las estructuras obviamente van a tener un documento,
+[01:10:28 - 01:10:34] que después les voy a decir dónde, van a tener un documento con todas las estructuras de los
+[01:10:34 - 01:10:40] patrones hoff, ¿ok? No me interesa una absoluta que estudian, yo tampoco lo sé, yo cuando los necesito los,
+[01:10:41 - 01:10:49] un glee hoy me fijo que es lo que hace cada participante, ¿ok? No es el objetivo, cortamos ahora,
+[01:10:49 - 01:10:59] disculpa, me quedaste hace hace hace, no, no, no queda otra, están ahí, es que lo voy a tomar lista,
+[01:10:59 - 01:11:10] un minuto, la maca, ya está, ya está, ya está, sí sí, pero voy a tomar porque voy a apreniar a los que
+[01:11:10 - 01:11:26] están, sí sí, un regalito de por el presente, no, creeme que, está bueno porque encima que me
+[01:11:26 - 01:11:35] tuvieran que escuchar tanto, hoy que día es primero de octubre, chicos, en el que momento empezamos
+[01:11:35 - 01:11:49] con qué comemos en la vida, almada, alta miranda, todavía no, amarilla, arada, aranda, este bien,
+[01:11:49 - 01:11:59] ¿para? presente, sí, sí, sí, sí, aranda robles, ¿no? Sí, sí,
+[01:11:59 - 01:12:05] bien, aranda robles, profe amarilla acá también, no se me evita, mi gremora,
+[01:12:06 - 01:12:16] risha, bien, alta miranda también, profe, no me haga, miren que le voy a contar, son 20 cuantos
+[01:12:16 - 01:12:27] en la cama, a la fijo, a Rimi Bar, a Rimi Bar, machado, Arcon, Argaín,
+[01:12:27 - 01:12:42] barrio nuevo, argaín, todavía, barrio nuevo, bogado, trocán y clara,
+[01:12:42 - 01:13:03] presenta el profe, comerci con chíglie, lautaro, póndez, hostilla, pusa, parielo, franco,
+[01:13:03 - 01:13:23] Francisco, rallardo, gálves, chanini, gálves, presente, y mondin, gómez Kevin,
+[01:13:23 - 01:13:38] Lucas Centena está, no? No, bien Lucas, graneros, océin, Santiago,
+[01:13:38 - 01:13:47] presente, hay me garcía, acá profe, presente, cuáles, acá, cobaq,
+[01:13:47 - 01:13:57] familia, presente, leí a si, leí a si, jamón, sarmiento, presente, profe,
+[01:13:57 - 01:14:13] llanos, presente, profe, losada, presente, mandala, dí, presente,
+[01:14:13 - 01:14:25] mandí sec, presente, martín es auto, presente, más casi inmunios, presente,
+[01:14:25 - 01:14:39] más seberiana, presente, medina Juan, presente, mendesca macho, mendos a Diego,
+[01:14:39 - 01:14:51] mirando a Guillermo, si está, muñeos palazos, presente, no gaita Ignacio,
+[01:14:51 - 01:15:12] paes, parodi, para la profesora, parodi, peres puente, presente, porras estaba,

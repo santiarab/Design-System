@@ -1,0 +1,3926 @@
+{
+  "metadata": {
+    "id": "01_20260820_082357",
+    "class_label": "Clase 01 - Parte 1",
+    "date": "2026-08-20",
+    "file": "Clase 01-20260820_082357-Grabación de la reunión.mp4"
+  },
+  "duration": 6937.408,
+  "segments": [
+    {
+      "start": 2.67,
+      "end": 28.67,
+      "text": "Me acordé un poco tarde, pero bueno, ¿me imagina? Sí, sí. ¿Sas tan grabando? Sí, pero fe. Fantástico, guarda, muchas gracias. Bueno, como les decía,"
+    },
+    {
+      "start": 28.67,
+      "end": 39.76,
+      "text": "diseño de sistemas, el día de software, no sé por qué usar cada sistema, está cambiando, hace tres años"
+    },
+    {
+      "start": 39.76,
+      "end": 45.76,
+      "text": "si era así, pero ahora no. Mi nombre, bueno, como les dije, analía, yo soy ingeniero en sistemas,"
+    },
+    {
+      "start": 45.76,
+      "end": 52.6,
+      "text": "arquitectura de sistemas, también en matanza, en biclases en diferentes universidades,"
+    },
+    {
+      "start": 52.6,
+      "end": 65.26,
+      "text": "hoy clases, también en UTM, así que bueno, cuéles ten conmigo, me encanta la docencia, además de"
+    },
+    {
+      "start": 65.26,
+      "end": 76.02,
+      "text": "trabajar el sistema, tengo dos días, una mañana y una noche que ve de matanza y en una noche"
+    },
+    {
+      "start": 76.02,
+      "end": 83.3,
+      "text": "que de hoy no tiene, así que realmente me gusta la docencia, lo disfruto, así que cuénten conmigo,"
+    },
+    {
+      "start": 83.3,
+      "end": 92.14,
+      "text": "me pueden escribir, dudas consultas acá, estoy, lo mismo con José, ambos José también, está en"
+    },
+    {
+      "start": 92.14,
+      "end": 100.64,
+      "text": "diferentes, estás por ahí José, en diferentes universidades, cuenten con él para todo, José, te pasa la"
+    },
+    {
+      "start": 100.64,
+      "end": 108.38,
+      "text": "palabra, pues. Bueno, chicos, el igual que Ana, como eso me dijo, no soy biclases en"
+    },
+    {
+      "start": 108.38,
+      "end": 115.79,
+      "text": "vegas universidades, la mañana solamente acá la matanza los jueves, pero a las noches tengo casi"
+    },
+    {
+      "start": 115.79,
+      "end": 121.62,
+      "text": "todas las noches en los martes en otros universidades, así que bueno, les deseo un excelente cual trimestre,"
+    },
+    {
+      "start": 121.62,
+      "end": 126.42,
+      "text": "y bueno, lo importante es que, o sea, no solo que aprovean la matilla, sino que se lleven algo,"
+    },
+    {
+      "start": 126.42,
+      "end": 131.94,
+      "text": "que el día de mañana cuando trabajen, hoy mismo los que están trabajando, que digan,"
+    },
+    {
+      "start": 131.94,
+      "end": 136.9,
+      "text": "mira, chillos que aprendí esta matilla en mi sirve, un poquito eso es lo que nosotros como docentes"
+    },
+    {
+      "start": 136.9,
+      "end": 147.71,
+      "text": "nos atifase, ¿no? Eso de lo que dijo José es fundamental, esta materia tiene muchísimo contenido,"
+    },
+    {
+      "start": 148.91,
+      "end": 156.91,
+      "text": "obviamente tenemos un lineamiento, hay un marco que tenemos que respetar porque los contenidos"
+    },
+    {
+      "start": 157.63,
+      "end": 166.88,
+      "text": "tienen que estar aprobados, tenemos que tener una bibliografía que esté habilitada para dar"
+    },
+    {
+      "start": 166.88,
+      "end": 173.92,
+      "text": "en una universidad, eso no puedo dar cualquier cosa porque está de moda hace cinco minutos un lenguaje,"
+    },
+    {
+      "start": 173.92,
+      "end": 182.72,
+      "text": "o una forma de diseñar, o sea, tenemos en un ámbito universitario y bueno, la idea de también"
+    },
+    {
+      "start": 182.72,
+      "end": 191.52,
+      "text": "de las universidades que podamos tener el criterio, podamos ser personas compensantes y tan,"
+    },
+    {
+      "start": 191.52,
+      "end": 201.78,
+      "text": "entonces, nos abre mucho la cabeza, vamos a tratar de tener bastante práctica en el sentido"
+    },
+    {
+      "start": 201.78,
+      "end": 212.7,
+      "text": "de que tratamos de hacer de unos especies simulátros, o temas que en otras materias la ven completamente"
+    },
+    {
+      "start": 212.7,
+      "end": 219.1,
+      "text": "teórica, tratar de hacer algún ejercicio práctico, para hacerlos caer un poco a la realidad de cómo"
+    },
+    {
+      "start": 219.1,
+      "end": 227.83,
+      "text": "sería, y eso es lo que realmente le queremos ofrecer, que se lleven algo, es decir, empezar a"
+    },
+    {
+      "start": 227.83,
+      "end": 234.43,
+      "text": "sumar cosas en su currículum, es decir, bueno, en esta materia pude aprender lo que es realmente"
+    },
+    {
+      "start": 234.43,
+      "end": 242.35,
+      "text": "news experience, pude entender realmente cómo gestiono tarjetas de usuario con Scram,"
+    },
+    {
+      "start": 242.35,
+      "end": 247.59,
+      "text": "puedo entender cuando me hablan de algunos principios de diseño que ya lo vamos sirviendo,"
+    },
+    {
+      "start": 249.96,
+      "end": 257.24,
+      "text": "puedo entender como es la separación del derecho de estas varias cosas, entonces leyes ustedes"
+    },
+    {
+      "start": 257.24,
+      "end": 266.33,
+      "text": "puedan ir sumando algunas cositas, así que siempre vamos a agregar cosas nuevas en los cuadremestre,"
+    },
+    {
+      "start": 268.08,
+      "end": 276.66,
+      "text": "cómo se aprueba la materia, la materia tiene dos exámenes, los exámenes son casi al final del"
+    },
+    {
+      "start": 276.66,
+      "end": 286.67,
+      "text": "cuadremestre, porque bueno, la idea es que ustedes puedan tener todo el contenido y poder tener"
+    },
+    {
+      "start": 286.67,
+      "end": 295.23,
+      "text": "ya el ejercicio, los ejercicios hechos y la práctica para poder dar el exámen, se divide en dos,"
+    },
+    {
+      "start": 295.23,
+      "end": 306.79,
+      "text": "uno al principio, el primero es toda la parte práctica de diseño, de UML, y luego a las dos"
+    },
+    {
+      "start": 306.79,
+      "end": 314.78,
+      "text": "semanas tenemos toda la parte teórica, y luego tenemos como todas las materias,"
+    },
+    {
+      "start": 317.06,
+      "end": 325.94,
+      "text": "una fecha de recuperatorio, es una materia que tiene mucho contenido, parece que no, el último"
+    },
+    {
+      "start": 325.94,
+      "end": 331.38,
+      "text": "exámen viene un alumno y me dice, pense que la parte teórica iba a ser más sencilla y después"
+    },
+    {
+      "start": 331.38,
+      "end": 336.78,
+      "text": "cuando empezé a estudiar me di cuenta que había un montón de temas y siempre apareció uno nuevo"
+    },
+    {
+      "start": 336.78,
+      "end": 344.47,
+      "text": "que tenía que repasar, entonces eso es algo que ustedes también tienen que manejar, parece una materia"
+    },
+    {
+      "start": 344.47,
+      "end": 349.03,
+      "text": "que es más enfatada de la práctica es cierto, pero tiene mucho contenido, entonces para el"
+    },
+    {
+      "start": 349.03,
+      "end": 358.07,
+      "text": "segundo exámen traten de ir leyendo y no llegar el último día, yo sé que lo digo, y uno trata"
+    },
+    {
+      "start": 358.07,
+      "end": 365.11,
+      "text": "de hacerlo de puede, pero bueno, ese es mi consejo, la bibliografía, para eso vamos a ir a el Timz,"
+    },
+    {
+      "start": 365.11,
+      "end": 374.72,
+      "text": "en Timz ustedes vienen chaderiendo en todos los accesos y no estarían en esta reunión, pero acá"
+    },
+    {
+      "start": 375.28,
+      "end": 384.0,
+      "text": "tenemos un canal que es 26 segundo cubo, segundo cuatro y maestres, en este canal yo pongo todo lo"
+    },
+    {
+      "start": 384.0,
+      "end": 392.32,
+      "text": "orientado a él que cuatro y maestres, por qué digo lo orientado, porque lo que me gusta hacer a mí"
+    },
+    {
+      "start": 394.02,
+      "end": 401.26,
+      "text": "y me es mucho más cómodo, es ir clase por clase subiendo, en clase uno, por ejemplo, que vas a"
+    },
+    {
+      "start": 401.26,
+      "end": 410.38,
+      "text": "hablar, voy a subir todo el material que voy a dar, casi siempre escribo una nota, un tequistero"
+    },
+    {
+      "start": 410.38,
+      "end": 421.54,
+      "text": "donde digo que se dio, si hay algo pendiente que tienen que hacer ustedes y que lectura es la que"
+    },
+    {
+      "start": 421.54,
+      "end": 432.93,
+      "text": "deberían realizar para cumplir con la clase, y así tienen todas las clases, la medida que va a"
+    },
+    {
+      "start": 432.93,
+      "end": 438.81,
+      "text": "llamar avanzando, bueno, tener clase uno, clase dos, tres, cuatro, etcétera, entonces como eso es"
+    },
+    {
+      "start": 438.81,
+      "end": 447.57,
+      "text": "bastante dinámico, acá tienen el canal donde tienen toda esa información y además acá también"
+    },
+    {
+      "start": 447.57,
+      "end": 457.79,
+      "text": "deberían, para para, les pido que creo que si ustedes lo sufici, lo van a grabar, acaban a quedar las"
+    },
+    {
+      "start": 457.79,
+      "end": 465.33,
+      "text": "grabaciones, ok, me ven acá en el general, qué es lo que tenemos, esto es algo que el general es"
+    },
+    {
+      "start": 465.33,
+      "end": 474.08,
+      "text": "todo lo que vemos cuatro y maestres, que son es obligatorio para no andar con y subirme la información"
+    },
+    {
+      "start": 474.08,
+      "end": 481.69,
+      "text": "varias veces, tenemos la bibliografía, que era lo que acá tenemos que ver, bibliografía,"
+    },
+    {
+      "start": 481.69,
+      "end": 501.72,
+      "text": "así decir una idea, en bibliografía tenemos, tenemos, acá tenemos todos los pdf, o sea los libros"
+    },
+    {
+      "start": 501.72,
+      "end": 508.64,
+      "text": "que son realmente necesarios para la curzada, esto no significa que lo tienen que leer todos,"
+    },
+    {
+      "start": 508.64,
+      "end": 512.64,
+      "text": "es más acá por ejemplo, del español inglés, por si ustedes lo tienen acá, no sé,"
+    },
+    {
+      "start": 512.64,
+      "end": 525.94,
+      "text": "que le vamos a ahorrar, yo voy ir diciendo qué capítulos deben leer de cada uno de estos autores,"
+    },
+    {
+      "start": 528.93,
+      "end": 536.68,
+      "text": "el arma, casi siempre, este es el libro que realmente es todo,"
+    },
+    {
+      "start": 536.68,
+      "end": 544.84,
+      "text": "es un libro que les voy a iniciar en los que capítulos tienen que ir viendo, libro de gama,"
+    },
+    {
+      "start": 544.84,
+      "end": 553.44,
+      "text": "uno de los primeros capítulos y después ustedes lo quieren leer también, suma obviamente,"
+    },
+    {
+      "start": 553.44,
+      "end": 568.27,
+      "text": "pero bastante largo, si están medios flojos de UML, acá les dejo algunos que están muy buenos,"
+    },
+    {
+      "start": 568.27,
+      "end": 577.07,
+      "text": "está UML o está botanol en el de cuatro horas, suma bastante, la idea es, yo suelo hacer un"
+    },
+    {
+      "start": 577.07,
+      "end": 584.55,
+      "text": "repaso de UML, pero tendría que tenerlo súper incorporado, el lenguaje me fijó bastante y que"
+    },
+    {
+      "start": 584.55,
+      "end": 597.37,
+      "text": "cumbran con el lenguaje UML, acá se los dejo, y acá ver que puse, si, libros de HTML ya"
+    },
+    {
+      "start": 597.37,
+      "end": 606.54,
+      "text": "de script, eso es algo que este cuadrimestre le voy a dar con un poco más de ganas, porque es necesario"
+    },
+    {
+      "start": 606.54,
+      "end": 615.06,
+      "text": "para que puedan entender un poco a otros principios, y bueno, y pensaba que lo tenían incorporado"
+    },
+    {
+      "start": 615.06,
+      "end": 620.66,
+      "text": "de otras materias sino así que este cuadrimestre me voy a tomar aunque sea unos 20 minutos para"
+    },
+    {
+      "start": 620.66,
+      "end": 632.34,
+      "text": "este tema, ok, es decir, acá tienen absolutamente todo otro tema, vamos a usar algunas herramientas,"
+    },
+    {
+      "start": 632.34,
+      "end": 649.82,
+      "text": "vamos a ver, vamos a dar algunas herramientas, yo uso mucho el visual estudio code a veces,"
+    },
+    {
+      "start": 649.82,
+      "end": 657.74,
+      "text": "es gratuito, lo pueden ir bajando, si no tienen alguna herramienta que les perdita tener"
+    },
+    {
+      "start": 657.74,
+      "end": 666.26,
+      "text": "una edición de lenguajes de texto, está bastante viola, y empecemos como hoy incorporando un poco"
+    },
+    {
+      "start": 666.26,
+      "end": 675.14,
+      "text": "la rutina de Armagnos, un ambiente de desarrollo, si bien es cierto que hoy muchos de los lenguajes"
+    },
+    {
+      "start": 675.14,
+      "end": 685.96,
+      "text": "utilizamos la idea, ahora soy muy frecuente para poder desarrollar, porque es prácticamente,"
+    },
+    {
+      "start": 685.96,
+      "end": 693.64,
+      "text": "es un merida muchísima agilidad, después poder leer el código y poder identificar"
+    },
+    {
+      "start": 693.64,
+      "end": 698.96,
+      "text": "tener un ambiente es fundamental, así que en vayan, en vez de que al culo que algunos"
+    },
+    {
+      "start": 698.96,
+      "end": 708.53,
+      "text": "se están trabajando, ahora vamos a hacer otra plaumptita, sobre ese tema, ahora les sumo,"
+    },
+    {
+      "start": 709.53,
+      "end": 731.2,
+      "text": "quienes trabajan en el sistema de los imprecursantes, esa me vayan pasando acá,"
+    },
+    {
+      "start": 731.2,
+      "end": 737.04,
+      "text": "esto solamente para saber cuántos recursos se hayan sumo y estas quienes trabajan en desarrollo,"
+    },
+    {
+      "start": 738.78,
+      "end": 752.27,
+      "text": "fantástico, bueno, son 61 alumnos, 60 alumnos, por lo tanto, capaz que lo que están en"
+    },
+    {
+      "start": 752.27,
+      "end": 759.55,
+      "text": "desarrollo de un ambiente armado, pero bueno, la idea es poder ayudar a los otros compañeros y"
+    },
+    {
+      "start": 759.55,
+      "end": 768.17,
+      "text": "empezar a armar un poquito ese ambiente, también a lo que uso mucho, ustedes pueden utilizar"
+    },
+    {
+      "start": 771.2,
+      "end": 779.85,
+      "text": "para modelar, si lo vamos sirviendo, alguna herramienta online para poder hacer diseños,"
+    },
+    {
+      "start": 779.85,
+      "end": 787.57,
+      "text": "yo trato de usar a veces más que nada cuando uso diagramas de espiedes, de componentes,"
+    },
+    {
+      "start": 787.57,
+      "end": 794.05,
+      "text": "después lo vamos sirviendo, no se preocupen, hay dos diagramas que los uso con el dobillo, por"
+    },
+    {
+      "start": 794.05,
+      "end": 806.82,
+      "text": "ejemplo, me imagino que ya lo vieron el dobillo, después la culo pregunta, pero bueno, también"
+    },
+    {
+      "start": 806.82,
+      "end": 812.74,
+      "text": "uso el tab UML para hacer ejercicios porque es mucho más sencillo para después, bueno,"
+    },
+    {
+      "start": 812.74,
+      "end": 825.48,
+      "text": "con poder compartirlo, por lo tanto, como ahora el tab UML ya tiene algún costo, esta versión,"
+    },
+    {
+      "start": 825.48,
+      "end": 834.92,
+      "text": "si bien es vieja, la pueden tener y no la requiere, no la requiere perclave y no hay tanta"
+    },
+    {
+      "start": 834.92,
+      "end": 843.56,
+      "text": "diferencia entre el tab UML de versión nueva con esta, en sí no hay tanta diferencia con las"
+    },
+    {
+      "start": 843.56,
+      "end": 851.44,
+      "text": "híves de modelado, ya está muy equiparada, capaz que alguna, esta está más, yo siempre digo que"
+    },
+    {
+      "start": 851.44,
+      "end": 858.36,
+      "text": "tiene una onda más 80, no son como las de ahora, pero realmente cumple con todas las"
+    },
+    {
+      "start": 858.36,
+      "end": 868.64,
+      "text": "funcionalidades, o sea, tiene las mismas ventajas y beneficios de las herramientas que están"
+    },
+    {
+      "start": 868.64,
+      "end": 878.19,
+      "text": "online, así que ustedes se pueden manejar con la que más les sea conveniente, si estoy en la"
+    },
+    {
+      "start": 878.19,
+      "end": 890.41,
+      "text": "universidad, estoy dando clases, estoy compartiendo con un proyector y uso el tab UML porque a veces"
+    },
+    {
+      "start": 890.41,
+      "end": 902.82,
+      "text": "la conexión y este vuelo bastante tedioso, entonces lo uso bastante, acá hay ejercicios modelos,"
+    },
+    {
+      "start": 902.82,
+      "end": 917.03,
+      "text": "se ve que a algún momento lo subí y acá esto vamos a ahorrarlo, esto las puede dire para que"
+    },
+    {
+      "start": 919.77,
+      "end": 943.43,
+      "text": "les falta algo un minutito, quiero ver, hice los modelos que es importante, son los que no"
+    },
+    {
+      "start": 943.43,
+      "end": 962.52,
+      "text": "presubir, acá no está, que es una hía, tengo que estar pidiendo un minuto, José le pueden"
+    },
+    {
+      "start": 962.52,
+      "end": 977.7,
+      "text": "habilitar, yo lo habilité, acá, lo que le ha llevado con un batido, acá un clases de estar,"
+    },
+    {
+      "start": 980.14,
+      "end": 995.76,
+      "text": "bueno les voy a subir, ahora lo voy a buscar y se lo subo, hay un documento, esencial,"
+    },
+    {
+      "start": 996.48,
+      "end": 1009.62,
+      "text": "ejercicios modelos, será que se da un minuto, porque en su daña norte es capaz que lo dico,"
+    },
+    {
+      "start": 1009.62,
+      "end": 1017.42,
+      "text": "bueno hay un documento que se lo voy a subir, debería estar en el general, no está, que es un"
+    },
+    {
+      "start": 1017.42,
+      "end": 1029.5,
+      "text": "uno se ejercicio para ir trabajando en clase, esto es bibliografía, ya estaría,"
+    },
+    {
+      "start": 1029.5,
+      "end": 1037.46,
+      "text": "alguna duda con costeta de la bibliografía, además de sumas cosas, obviamente hoy la bibliografía"
+    },
+    {
+      "start": 1037.46,
+      "end": 1046.32,
+      "text": "está un poco, hay muchos libros, está bueno que ustedes puedan leer y tener esa costumbre,"
+    },
+    {
+      "start": 1047.84,
+      "end": 1055.32,
+      "text": "hoy la realidad es que nos basamos mucho en documentos oficiales de internet, después ahí les voy"
+    },
+    {
+      "start": 1055.32,
+      "end": 1062.68,
+      "text": "insubiendo algunas cosas, más que nada por el namismo que tiene la información, así que también"
+    },
+    {
+      "start": 1062.68,
+      "end": 1069.32,
+      "text": "voy insubiendo en esa nota que escribo en el clase clase donde tienen que ir viendo,"
+    },
+    {
+      "start": 1069.32,
+      "end": 1076.54,
+      "text": "creo una programa, ahora te los voy a mostrar algo que quiero que tengan, porque después me"
+    },
+    {
+      "start": 1076.54,
+      "end": 1083.14,
+      "text": "olvido yo, cuando le pide el número de comisión, acá están el número de comisión, de los lunes y de los"
+    },
+    {
+      "start": 1083.14,
+      "end": 1089.46,
+      "text": "dos jueves, la cuatro mil y trescientos y el aula que nos va a corresponder, ir que es la"
+    },
+    {
+      "start": 1089.46,
+      "end": 1100.38,
+      "text": "136, que más, yo les voy realizando, la calcula que esta, la clase que viene va a ser también virtual,"
+    },
+    {
+      "start": 1100.38,
+      "end": 1107.1,
+      "text": "la próxima les voy realizando si tenemos habilitado, no, el aula más que nada porque posiblemente"
+    },
+    {
+      "start": 1107.1,
+      "end": 1114.3,
+      "text": "necesitemos el cañón o proyector, así que va a depender también eso si vamos a la aula,"
+    },
+    {
+      "start": 1114.3,
+      "end": 1121.54,
+      "text": "si comenzamos las clases, comenzaremos alrededor de esta hora, ocho y cuarto, tanto presencial como"
+    },
+    {
+      "start": 1121.54,
+      "end": 1134.1,
+      "text": "virtual, duda es fácil la batería, fácil la materia, si hay algún compañero que haya recursado, no sé"
+    },
+    {
+      "start": 1135.29,
+      "end": 1148.14,
+      "text": "y en este nojado, a ver, participemos un poco, porque yo de tantos años darla, digo bueno,"
+    },
+    {
+      "start": 1148.14,
+      "end": 1159.3,
+      "text": "sí, para mí es fácil, estoy ahí, tiene mucho contenido en la materia y tiene un contenido que se va"
+    },
+    {
+      "start": 1159.3,
+      "end": 1164.86,
+      "text": "como enlazando, entonces parece que uno esté en una cosita, después veo la otra y sí, porque"
+    },
+    {
+      "start": 1164.86,
+      "end": 1170.06,
+      "text": "llega un momento que a veces digo por dónde empiezamos por la gallina, por el juego, por algún lado"
+    },
+    {
+      "start": 1170.06,
+      "end": 1176.97,
+      "text": "tenemos que arrancar, entonces es como quedamos dando un montón de conocimientos y después los"
+    },
+    {
+      "start": 1176.97,
+      "end": 1183.33,
+      "text": "empezamos a relacionar, tiene mucho contenido en cuanto a la parte teórica y tiene bastante contenido"
+    },
+    {
+      "start": 1183.33,
+      "end": 1193.59,
+      "text": "en la práctica, pero bastante no, en este marco teórico, ¿vale? Por lo tanto, todos los conceptos que"
+    },
+    {
+      "start": 1193.59,
+      "end": 1200.43,
+      "text": "ustedes traen de principios, y yo los tengo que tener súper incorporados, esto quiere decir que"
+    },
+    {
+      "start": 1200.43,
+      "end": 1208.38,
+      "text": "si vamos con algo que ustedes lo tendrán que ver, es algo simple, si están en un diagrama de"
+    },
+    {
+      "start": 1208.38,
+      "end": 1219.6,
+      "text": "clase y no pueden identificar un objeto y estamos complicados, si hay algunos principios como el"
+    },
+    {
+      "start": 1219.6,
+      "end": 1228.62,
+      "text": "que tuvieron que haber visto, igual acá los repasamos, porque hay algunos agujeros negros en"
+    },
+    {
+      "start": 1228.62,
+      "end": 1235.66,
+      "text": "este conocimiento, pero les digo bueno, apliquen un patrón que se le esperto y no lo pueden aplicar"
+    },
+    {
+      "start": 1235.66,
+      "end": 1243.26,
+      "text": "y les bajo estar, todo ese marco teórico que ustedes adquirieron y que lo vamos a repasar acá,"
+    },
+    {
+      "start": 1243.26,
+      "end": 1248.78,
+      "text": "tiene que estar en la práctica, entonces ahí es donde se genera un poco la dificultad,"
+    },
+    {
+      "start": 1250.94,
+      "end": 1264.45,
+      "text": "otro tema que si requiere es que uno a veces ve como el profesor o al o sacan el resultado"
+    },
+    {
+      "start": 1264.45,
+      "end": 1270.89,
+      "text": "de internet y se han vuelto a hacer así, mirar esta clase, esto al otro y nunca se sentaron hacerlo,"
+    },
+    {
+      "start": 1270.89,
+      "end": 1278.49,
+      "text": "entonces viene la del examen y es el primer día que se sienten analizar una especificación y"
+    },
+    {
+      "start": 1278.49,
+      "end": 1286.13,
+      "text": "armar una solución, si es el primer día no tienen la agilidad tampoco como para dar el examen,"
+    },
+    {
+      "start": 1286.13,
+      "end": 1298.3,
+      "text": "o lo tanto lo que se les pide y se los dejo mucho al alumno es que harán práctica,"
+    },
+    {
+      "start": 1298.86,
+      "end": 1303.86,
+      "text": "a la llor todas las clases cuando más cuando me acercó a la parte de domedle, preguntó a alguien"
+    },
+    {
+      "start": 1303.86,
+      "end": 1315.0,
+      "text": "que era hacer un ejercicio, lo discutimos y los vemos, antes había un trabajo práctico que era"
+    },
+    {
+      "start": 1315.0,
+      "end": 1325.18,
+      "text": "muy tedioso por la cantidad de alumnos que antes tenía que dar en alumnos, entonces era algo pas fácil de"
+    },
+    {
+      "start": 1325.18,
+      "end": 1332.58,
+      "text": "manejar en el aula y poder tener un rol un poco más de tutor, de guiarlo en el cuanto al"
+    },
+    {
+      "start": 1332.58,
+      "end": 1338.86,
+      "text": "desarrollo, con la cantidad de alumnos hoy eso es inviable, no me da el tiempo a mí de corregir"
+    },
+    {
+      "start": 1340.86,
+      "end": 1347.98,
+      "text": "para que ustedes puedan hacer algún cambio en la semana y volver a empezar, por lo tanto,"
+    },
+    {
+      "start": 1348.58,
+      "end": 1356.81,
+      "text": "se sacó el trabajo práctico, se agregó un examen más que la verdad que es más que agregar"
+    },
+    {
+      "start": 1356.81,
+      "end": 1366.71,
+      "text": "el irlo, se sacó el trabajo práctico y se los dejo a ustedes, la responsabilidad de poder entregar"
+    },
+    {
+      "start": 1366.71,
+      "end": 1376.09,
+      "text": "los ustedes, íbamos armar grupos porque las primeras clases necesitas de ustedes trabajen un poco,"
+    },
+    {
+      "start": 1376.09,
+      "end": 1386.78,
+      "text": "se va a evaluar, se va a poner una nota de sí participó, no que eso suma mucho para el cierre"
+    },
+    {
+      "start": 1386.78,
+      "end": 1397.62,
+      "text": "de la nota, pero no hay trabajo práctico obligatorio, por lo tanto, bueno depende de ustedes y cómo se gestionan,"
+    },
+    {
+      "start": 1400.77,
+      "end": 1406.66,
+      "text": "bueno, nadie quise hablar, hay algunos recursos antes que lo que eran cuatro, a ver cómo voy a fijar"
+    },
+    {
+      "start": 1406.66,
+      "end": 1418.82,
+      "text": "ahora, así yo, ahí está, se acuerdo de celeste, bueno celeste, muy buena alumna, pero costó la última,"
+    },
+    {
+      "start": 1418.82,
+      "end": 1426.98,
+      "text": "no celeste, sí, sí, el poner el tema que yo no lo veía a nivel código, eso me pasaba y hablábamos"
+    },
+    {
+      "start": 1426.98,
+      "end": 1433.82,
+      "text": "en las clases que cuando vimos el último tema de patrones golf, yo no lo podía similar con el código"
+    },
+    {
+      "start": 1433.82,
+      "end": 1439.62,
+      "text": "porque yo nunca cursé para digmas, no como ahora que ahora sí la estoy cursando y la voy a"
+    },
+    {
+      "start": 1439.62,
+      "end": 1444.34,
+      "text": "ver a la par que estoy con esta materia, entonces capaz lo puedo ver de las dos maneras y entendrá"
+    },
+    {
+      "start": 1444.34,
+      "end": 1452.42,
+      "text": "lo un poquito más, pero dentro de todo la materia se podía, me tenía que sentar a diagramar y al principio"
+    },
+    {
+      "start": 1452.42,
+      "end": 1460.34,
+      "text": "estaba con el enunciado y decía, por donde empiezo, pero una vez que empezás a hacer mientras le muestras"
+    },
+    {
+      "start": 1460.34,
+      "end": 1465.3,
+      "text": "a la profesora, a ver si lo estoy haciendo bien, me estoy guiando, me faltó algo, creo que ya con eso"
+    },
+    {
+      "start": 1465.3,
+      "end": 1476.8,
+      "text": "en la parte práctiva venir bien, alcanza, sí, sé que dejenestrar pero la realidad que no es una materia"
+    },
+    {
+      "start": 1476.8,
+      "end": 1482.78,
+      "text": "difícil, hay que dedicarlo un poco, está en tercer año también eso, ¿cierto? Tenemos"
+    },
+    {
+      "start": 1482.78,
+      "end": 1493.74,
+      "text": "fiores, es, exacto, entonces te van a con un cumplido, yo te lo tengo un cumplido, tiene mucho contenido,"
+    },
+    {
+      "start": 1493.74,
+      "end": 1506.48,
+      "text": "es cierto, bueno vamos acá, lunes, jueves, bueno fecha, esto es algo tentativo y siempre digo lo mismo,"
+    },
+    {
+      "start": 1506.48,
+      "end": 1516.58,
+      "text": "estén tentativo porque no sé si va a haber feriado, si van a ser un paro, si hay a un cambio,"
+    },
+    {
+      "start": 1516.58,
+      "end": 1524.86,
+      "text": "que me pide la universidad, si hacen una votación ese día y tengo que cambiar algo, entonces siempre"
+    },
+    {
+      "start": 1524.86,
+      "end": 1533.65,
+      "text": "estén tentativo, por suerte no hay feriados, la comisión de los jueves, los lunes tiene cuatro"
+    },
+    {
+      "start": 1533.65,
+      "end": 1541.97,
+      "text": "feriados en lo cual los distrosa, los distrosa, así que bueno no sé, le la veremos las clases si las"
+    },
+    {
+      "start": 1541.97,
+      "end": 1553.28,
+      "text": "compartiremos porque yo sigo, soy de poner bastante quinta y arrancar, está por ahora las fechas con"
+    },
+    {
+      "start": 1553.28,
+      "end": 1564.13,
+      "text": "la siguiente veintidós, en octubre ya, tenemos que vamos a pensar, es el primer parcial, el segundo y"
+    },
+    {
+      "start": 1566.38,
+      "end": 1576.54,
+      "text": "casi siempre las notas del primer parcial, como es, lleva mucho tiempo de corrección, la centregó"
+    },
+    {
+      "start": 1577.52,
+      "end": 1586.88,
+      "text": "en la fecha que se acabe entrega de notas, ok, y si llego a entregarla, bastante porque aparte,"
+    },
+    {
+      "start": 1586.88,
+      "end": 1593.16,
+      "text": "si suman también los de las otras comisiones que la otra comisión son casi más de 90, entonces las"
+    },
+    {
+      "start": 1593.16,
+      "end": 1600.94,
+      "text": "centregó en estas fechas, el segundo parcial es mucho más sencillo la corrección, así que esta fecha"
+    },
+    {
+      "start": 1600.94,
+      "end": 1606.05,
+      "text": "la centregamos las dos juntas, y ahí ustedes evaluaran si tienen que ir a recuperar, no,"
+    },
+    {
+      "start": 1606.05,
+      "end": 1613.17,
+      "text": "esperemos que no, mi vida sería mucho más fácil, se les aseguro si todos promocionaron la materia,"
+    },
+    {
+      "start": 1613.17,
+      "end": 1627.31,
+      "text": "pero bueno, gracias profe, totalmente, mi vida sería muchísimo más sencillo, así que pero bueno"
+    },
+    {
+      "start": 1627.31,
+      "end": 1639.2,
+      "text": "no es que te llega fácilmente, no es así, bueno, dudas hasta ahora, ninguna pregunta, yo,"
+    },
+    {
+      "start": 1640.8,
+      "end": 1647.76,
+      "text": "más allá de la dificultad de la materia, en algún momento se ofertó en verano, en algún momento,"
+    },
+    {
+      "start": 1647.76,
+      "end": 1657.36,
+      "text": "si ofertó, si, si ofertó en verano, para alumnos recursos antes, es decir, ya han dado los"
+    },
+    {
+      "start": 1657.36,
+      "end": 1665.36,
+      "text": "exámenes y les ha ayudado mal, no se da clase, se sube todo el material, no se sube clases"
+    },
+    {
+      "start": 1665.36,
+      "end": 1672.62,
+      "text": "grabadas, suman todo el material y es cómo ir a dar, se pide un trabajo práctico integrador,"
+    },
+    {
+      "start": 1672.62,
+      "end": 1681.23,
+      "text": "eso sí, pide un trabajo práctico integrador y si aprobás el trabajo práctico integrador en la"
+    },
+    {
+      "start": 1681.23,
+      "end": 1691.42,
+      "text": "primera distancia, práctilos exámenes, pero no hay clase así, no, no tenemos este"
+    },
+    {
+      "start": 1691.42,
+      "end": 1696.74,
+      "text": "guilí vuelta, por lo tanto para eso está estipulado para recursos antes, para gente que la haya"
+    },
+    {
+      "start": 1696.74,
+      "end": 1706.04,
+      "text": "recursado, ok profe, por qué preguntar, mi idea es que la aprobás ahora, sí, por supuesto,"
+    },
+    {
+      "start": 1706.04,
+      "end": 1714.29,
+      "text": "solamente quería ponerlo como en el top curiosidades de la materia, no, no, realmente tengo la decir,"
+    },
+    {
+      "start": 1714.29,
+      "end": 1724.36,
+      "text": "los chicos que vendieron en el verano eran poquitos y hicieron un trabajo práctico bastante complicado,"
+    },
+    {
+      "start": 1724.36,
+      "end": 1731.34,
+      "text": "le habían cursado, hicieron un trabajo práctico bastante complicado y la mayoría la"
+    },
+    {
+      "start": 1731.34,
+      "end": 1740.6,
+      "text": "curso tuvieron que ir a final la mayoría, pero les fue bien, o sea, de 20, me tengo los números"
+    },
+    {
+      "start": 1740.6,
+      "end": 1748.83,
+      "text": "en la cabeza, de 20, arrancar un 14, nada más, eso salió que también está mal, a no"
+    },
+    {
+      "start": 1748.83,
+      "end": 1754.79,
+      "text": "te encer realmente tienen el compromiso de cursarla, y principalmente en el verano, porque en el verano"
+    },
+    {
+      "start": 1754.79,
+      "end": 1763.19,
+      "text": "se pone un tope por alumno, bueno, porque nadie ha dado el docente, entonces se había puesto un tope"
+    },
+    {
+      "start": 1763.19,
+      "end": 1770.59,
+      "text": "de 20 alumnos, si anotaron y el primer día ya arrancaron solamente 14, o sea, que los otros"
+    },
+    {
+      "start": 1770.59,
+      "end": 1778.8,
+      "text": "6, o sea, se anotaron, pagaron, porque creo que en el verano se paga, ¿no? Sí, se paga,"
+    },
+    {
+      "start": 1778.8,
+      "end": 1787.22,
+      "text": "pagaron y nunca vinieron, o sea, que dejaron a 6 compañeros que realmente querían cursar la materia"
+    },
+    {
+      "start": 1787.22,
+      "end": 1799.98,
+      "text": "si de esa posibilidad, entonces, está bien, también, y se van a notar a un o con responsabilidad para"
+    },
+    {
+      "start": 1799.98,
+      "end": 1808.35,
+      "text": "el otro compañero que realmente quería cursarla, así que bueno, después también hay una forma"
+    },
+    {
+      "start": 1808.35,
+      "end": 1817.67,
+      "text": "de dar la libre la materia, tiene un trabajo práctico, tienen las otras cosas, pero bueno, es un poco"
+    },
+    {
+      "start": 1817.67,
+      "end": 1826.39,
+      "text": "más complicada, hay un oral, el trabajo práctico se entrega, si no está excelente, no se pasa la instancia"
+    },
+    {
+      "start": 1826.39,
+      "end": 1839.72,
+      "text": "de examen, así que bueno, pero es lógico, las rimillen libre, pero tienen algún tolojas,"
+    },
+    {
+      "start": 1839.72,
+      "end": 1860.47,
+      "text": "¿no? Sí, mi idea es que aproveza en este cuadrimestre, bueno, vamos a arrancar, bueno, con"
+    },
+    {
+      "start": 1860.47,
+      "end": 1875.9,
+      "text": "respecto a esto, alguna duda, no, no hay consultas ni nada, bueno, cinco personas, nada más,"
+    },
+    {
+      "start": 1875.9,
+      "end": 1895.03,
+      "text": "están trabajando en desarrollo, se deben que se haya habilitado poner una manita, a ver, y lo mismo"
+    },
+    {
+      "start": 1895.03,
+      "end": 1964.51,
+      "text": "que las personas que están regrusando, vamos a arrancar, un minuto, o sea, arrancamos, en computadora,"
+    },
+    {
+      "start": 1966.7,
+      "end": 1981.26,
+      "text": "sí, sí, bueno, vamos a hablar un poquitito, una breve introducción, para empezar a meternos un"
+    },
+    {
+      "start": 1981.26,
+      "end": 1990.54,
+      "text": "poco en el diseño, está ahí, necesitamos entender esto como para ver por qué hacemos determinadas cosas,"
+    },
+    {
+      "start": 1992.13,
+      "end": 1998.17,
+      "text": "bueno, primero en nuestra ingeniería es bastante nueva, ustedes saben que si me voy a la ingeniería"
+    },
+    {
+      "start": 1998.17,
+      "end": 2006.33,
+      "text": "a 10000 y hace más de 2000 años que están haciendo puentes túneles, estas, tierna ciudades,"
+    },
+    {
+      "start": 2007.69,
+      "end": 2016.04,
+      "text": "fueron acriendos en esos 2000 años, un montón de experiencia, está como para poder desarrollar esta"
+    },
+    {
+      "start": 2016.04,
+      "end": 2024.38,
+      "text": "ingeniería, por ejemplo la ingeniería de 10000, ¿ok? No es ingeniería bastante nueva, digamos,"
+    },
+    {
+      "start": 2025.34,
+      "end": 2035.45,
+      "text": "tendrá 70 años, donde está bastante fuerte, es muy nueva, si quieren empezar a hacer más tiempo,"
+    },
+    {
+      "start": 2035.45,
+      "end": 2043.13,
+      "text": "pero la realidad donde tuvo más yor empuje fue entre los a parte hace 80 años, como mucho,"
+    },
+    {
+      "start": 2043.13,
+      "end": 2049.92,
+      "text": "por lo tanto tenemos, digamos, dentro de nuestra ingeniería de software, principios que fuimos"
+    },
+    {
+      "start": 2050.0,
+      "end": 2057.97,
+      "text": "inquiriendo pero que son bastante nuevos, porque queremos tener un ingeniería de software y bueno,"
+    },
+    {
+      "start": 2057.97,
+      "end": 2066.11,
+      "text": "porque queremos crear un producto, un producto de software, el producto de software que sea obviamente"
+    },
+    {
+      "start": 2066.11,
+      "end": 2074.11,
+      "text": "confiable, que tenga calidad, bueno para eso necesitamos tener algunas buenas prácticas, así yo"
+    },
+    {
+      "start": 2074.11,
+      "end": 2079.31,
+      "text": "tengo que armar un puente y la realidad es que no lo voy a hacer con madera,"
+    },
+    {
+      "start": 2081.63,
+      "end": 2088.67,
+      "text": "les tengo que fijar cómo se hace, bueno, pues, poder aplicar algo de madera, tener este tener esto,"
+    },
+    {
+      "start": 2088.67,
+      "end": 2095.23,
+      "text": "tener que tenerlo otro, analizar un poco el suelo, bueno, son todos los principios que uno necesita"
+    },
+    {
+      "start": 2095.23,
+      "end": 2102.59,
+      "text": "saber para poder crear un producto en forma confiable, para eso tenemos la ingeniería de software,"
+    },
+    {
+      "start": 2103.74,
+      "end": 2112.46,
+      "text": "nosotros dentro de esta ingeniería empezamos a requerir esos principios y esos conocimientos para poder"
+    },
+    {
+      "start": 2112.46,
+      "end": 2122.18,
+      "text": "desarrollar un producto con calidad en el mejor costo obviamente, tampoco me sirve tener un producto"
+    },
+    {
+      "start": 2122.18,
+      "end": 2131.22,
+      "text": "súper caro que no debe poder acceder, entonces necesito tener un producto que sea factible,"
+    },
+    {
+      "start": 2131.22,
+      "end": 2139.44,
+      "text": "económicamente y que tenga calidad, para eso nos basamos en los principios de la ingeniería,"
+    },
+    {
+      "start": 2139.44,
+      "end": 2146.34,
+      "text": "y esto es casi prácticamente para todas las ingenierías, obviamente nos vamos a enfocar"
+    },
+    {
+      "start": 2146.34,
+      "end": 2158.13,
+      "text": "en nuestra ingeniería que en la de software tengo un producto, un producto, quiero mi base del"
+    },
+    {
+      "start": 2158.13,
+      "end": 2162.77,
+      "text": "principio de la ingeniería, es obtener un producto con calidad, después vamos a discutir un poco que"
+    },
+    {
+      "start": 2162.77,
+      "end": 2170.24,
+      "text": "es la calidad, yo quiero tener un producto con calidad, para eso digo bueno, voy a ver qué es lo que"
+    },
+    {
+      "start": 2170.24,
+      "end": 2176.32,
+      "text": "hicieron las otras ingenierías, y si querés obtener un producto de calidad primero analicemos cuál es el"
+    },
+    {
+      "start": 2176.32,
+      "end": 2182.96,
+      "text": "proceso que va a realizar, ese proceso va a tener algunos métodos dentro del tipo de tipo de"
+    },
+    {
+      "start": 2182.96,
+      "end": 2191.6,
+      "text": "tipo de tipo de forma de hacer algo y después voy a tener herramientas o tools, estas son las traducciones y"
+    },
+    {
+      "start": 2192.56,
+      "end": 2200.4,
+      "text": "el libro habla de tools y tools, eso es más abarcativo, esa herramienta tipo hardware o software como"
+    },
+    {
+      "start": 2200.4,
+      "end": 2206.88,
+      "text": "lo vemos acá, si no por ejemplo el conocimiento puede llegar a hacer una herramienta, decir bueno,"
+    },
+    {
+      "start": 2206.88,
+      "end": 2212.96,
+      "text": "voy a explicar un lenguaje y necesito conocer el lenguaje, es una herramienta para poder llegar"
+    },
+    {
+      "start": 2212.96,
+      "end": 2225.7,
+      "text": "a una objetivo, es más abarcativo, lo que tenemos es son estos principios, siempre la base de la"
+    },
+    {
+      "start": 2225.7,
+      "end": 2234.5,
+      "text": "pirámide es la calidad, yo quiero obtener un producto con calidad, sí se lo denomina como el"
+    },
+    {
+      "start": 2234.5,
+      "end": 2241.74,
+      "text": "fundamento de la ingeniería, ahora si yo les pregunto a ustedes que es la calidad, ustedes me"
+    },
+    {
+      "start": 2241.74,
+      "end": 2254.52,
+      "text": "pueden decir, agarque quiero un producto con calidad, es significa para ustedes, algo que esté"
+    },
+    {
+      "start": 2254.52,
+      "end": 2261.87,
+      "text": "bien hecho, que dure, que funció en el libro, que cumple con los requerimientos,"
+    },
+    {
+      "start": 2261.87,
+      "end": 2269.73,
+      "text": "lo que dijo que esté bien hecho, el hijo que esté bien hecho, yo dije que esté bien hecho de Daniel,"
+    },
+    {
+      "start": 2270.45,
+      "end": 2277.6,
+      "text": "Daniel me encantó el bien hecho, cantás, con serio, y para vos qué esté bien hecho,"
+    },
+    {
+      "start": 2277.6,
+      "end": 2283.73,
+      "text": "como harías, imagínate que esté bien hecho, está bien hecho, qué es lo que harías para evaluarlo?"
+    },
+    {
+      "start": 2285.05,
+      "end": 2293.8,
+      "text": "Primero lo mire, si ante la mirada se rompe, como cierto, todos productos que son muy muy baratos,"
+    },
+    {
+      "start": 2293.8,
+      "end": 2303.46,
+      "text": "si quiero usarlo, si quiero usarlo que no se rompa, que haga lo que yo quiero y que no"
+    },
+    {
+      "start": 2303.46,
+      "end": 2310.9,
+      "text": "necesite hacer magia para que funcione como debería. Exacto, lo que hablaste es fantástico,"
+    },
+    {
+      "start": 2310.9,
+      "end": 2317.14,
+      "text": "pues yo dije que bueno, si haga lo que quiero, cumple con toda la funcionalidad, vamos a empezar"
+    },
+    {
+      "start": 2317.14,
+      "end": 2326.3,
+      "text": "como a ordenarnos, si yo tengo un producto y tiene que hacer, y a cv y la realidad que lo dejás"
+    },
+    {
+      "start": 2326.3,
+      "end": 2333.58,
+      "text": "usar, si vos que en este acera ha marcado o pago, y en marcado o pago no puedes pagar, y te paso"
+    },
+    {
+      "start": 2333.58,
+      "end": 2344.7,
+      "text": "a otra, por lo tanto la funcionalidad tiene que estar, entonces uno es una de las cosas que yo"
+    },
+    {
+      "start": 2344.7,
+      "end": 2350.18,
+      "text": "evaluó en los exámenes, yo pido que ahora le terminamos cosas, no está reflejada de esa"
+    },
+    {
+      "start": 2350.18,
+      "end": 2357.06,
+      "text": "funcionalidad y bueno, no cumple con la funcionalidad, al no tener esa funcionalidad y no cumple con la"
+    },
+    {
+      "start": 2357.06,
+      "end": 2365.18,
+      "text": "realidad, ok, usabilidad, Daniel habló de que sea fácil usar y si la realidad es que tiene que ser"
+    },
+    {
+      "start": 2365.18,
+      "end": 2373.74,
+      "text": "fácil usar, porque realmente si nosotros estamos mucho tiempo para acceder, para ser rompe y una"
+    },
+    {
+      "start": 2373.74,
+      "end": 2384.06,
+      "text": "realidad que me voy a otra cosa, o lo dejo de usar, y no hay peor cosa que después cambiar esa"
+    },
+    {
+      "start": 2384.06,
+      "end": 2394.38,
+      "text": "perspectiva del usuario con la solución, que sea confiable que tengo buen rendimiento, que sea"
+    },
+    {
+      "start": 2394.38,
+      "end": 2400.18,
+      "text": "mantenible, esto es algo fundamental dentro del diseño, porque si yo tengo que hacer un cambio y para"
+    },
+    {
+      "start": 2400.18,
+      "end": 2406.98,
+      "text": "un ser un cambio tengo que estar una, una, dos, tres semanas y la realidad es que si es tarde al"
+    },
+    {
+      "start": 2406.98,
+      "end": 2414.4,
+      "text": "marcado, lo que se ha mantenido en tu marquete, se ve muy tarde, entonces necesito que sea fácil"
+    },
+    {
+      "start": 2414.4,
+      "end": 2423.75,
+      "text": "de mantener y que tenga lo que se denomina hoy, que es agilidad al cambio, para que se agilan el cambio"
+    },
+    {
+      "start": 2425.11,
+      "end": 2430.15,
+      "text": "necesito que sea fácil de mantener y para que sea fácil de mantenerlo tengo que haber hecho"
+    },
+    {
+      "start": 2430.15,
+      "end": 2438.35,
+      "text": "bien el diseño, imagínense que ustedes tienen una casa, tienen construir una casa y hicieron una"
+    },
+    {
+      "start": 2438.35,
+      "end": 2450.66,
+      "text": "casa dos techos, la casita típica como esto, y después hice algo pero quiero poner arriba los"
+    },
+    {
+      "start": 2450.66,
+      "end": 2456.02,
+      "text": "habitaciones, tengo que romper todo el techo, entonces bueno la idea es decir, bueno, ¿cómo que es"
+    },
+    {
+      "start": 2456.02,
+      "end": 2464.69,
+      "text": "lo que te hacer una casa que sea fácil de extender, que lo puede ir agregando, el diseño de"
+    },
+    {
+      "start": 2464.69,
+      "end": 2471.64,
+      "text": "software se lo mismo, o sea, bueno, si bien vos tenés que hacer una funcionalidad o que sea fácil"
+    },
+    {
+      "start": 2471.64,
+      "end": 2481.46,
+      "text": "de extender, que sea fácil de mantener que sea agil al cambio, es fundamental, que sea adaptable,"
+    },
+    {
+      "start": 2481.46,
+      "end": 2488.18,
+      "text": "también es fundamental que sea adaptable porque hoy necesito decir, bueno, cambio la base de datos,"
+    },
+    {
+      "start": 2488.18,
+      "end": 2495.62,
+      "text": "cambio algo y no tengo que andar tocando toda la aplicación modificó una única parte,"
+    },
+    {
+      "start": 2495.62,
+      "end": 2504.46,
+      "text": "bueno, que sea compatible y configurable, configurable es fundamental porque eso siempre digo hay que hacer,"
+    },
+    {
+      "start": 2505.46,
+      "end": 2511.54,
+      "text": "lo digo ahora no me van a entender ahora, claro, incluso durante el 4.3,"
+    },
+    {
+      "start": 2512.67,
+      "end": 2521.13,
+      "text": "no hay que hacer la aplicación que me piensas, sino hacer la aplicación que va a ser la que me"
+    },
+    {
+      "start": 2521.13,
+      "end": 2531.1,
+      "text": "piensas, porque es decir, lo garantizaré lo más configurable posible para que pueda ser fácil de"
+    },
+    {
+      "start": 2531.1,
+      "end": 2541.14,
+      "text": "extenderla, la bella que veamos ejercicios, yo voy a ir un poquito con esta palabra,"
+    },
+    {
+      "start": 2542.14,
+      "end": 2547.9,
+      "text": "hoy piensas en algo sencillo que ustedes lo habrán visto, decir, bueno,"
+    },
+    {
+      "start": 2547.9,
+      "end": 2555.78,
+      "text": "algo un jaco de o, tengo que hacer un calcular el IVA, saben lo que se liba, porque ya me preguntaron"
+    },
+    {
+      "start": 2555.78,
+      "end": 2563.53,
+      "text": "el cuadrimece pasado y así me desmayo, saben lo que se liba, ¿no? Y es, ¿cuál es la realidad?"
+    },
+    {
+      "start": 2564.43,
+      "end": 2571.83,
+      "text": "Vamos, nosotros compramos algo, hay un impuesto, que se liba, se liba puede ser de diferentes"
+    },
+    {
+      "start": 2573.43,
+      "end": 2583.82,
+      "text": "porcentajes, 21, 10, por ejemplo, el 10,5 tiene leche carne, hay otros que tienen el 27,"
+    },
+    {
+      "start": 2583.82,
+      "end": 2592.06,
+      "text": "creo, hay otros que son cero que son exentos, ¿ok? Bueno, si yo hago algo, dejar código en el código"
+    },
+    {
+      "start": 2592.06,
+      "end": 2599.06,
+      "text": "y la realidad es que si viene el gobierno me dice, bueno, en vez de 21, va a ser un optimista,"
+    },
+    {
+      "start": 2599.06,
+      "end": 2605.9,
+      "text": "va a pasar a 18, tengo que cambiarlo, por lo tanto quiero que sea configurable, entonces no"
+    },
+    {
+      "start": 2605.9,
+      "end": 2613.61,
+      "text": "hice el sistema que me pierdan en su momento y no que hice el que va a ser, por lo tanto,"
+    },
+    {
+      "start": 2613.61,
+      "end": 2623.26,
+      "text": "yo tengo que ir pensando y evaluando eso, si usted en un examen les digo, bueno, no"
+    },
+    {
+      "start": 2623.26,
+      "end": 2635.22,
+      "text": "sé, voy a los, imagínense que les digo esto, ¿no? Para calcular el bonto hay un 10% de recardo,"
+    },
+    {
+      "start": 2635.22,
+      "end": 2644.91,
+      "text": "usted es ponen, calcular 10%, ponen 10% yo los mato porque están olvidándose de esta palabra,"
+    },
+    {
+      "start": 2644.91,
+      "end": 2650.07,
+      "text": "que sea configurable, que sea adaptable, que sea fácil de mantener, ¿verdad? Siendo,"
+    },
+    {
+      "start": 2650.07,
+      "end": 2654.91,
+      "text": "sí, siempre hay que ir con los dos."
+    },
+    {
+      "start": 2654.91,
+      "end": 2665.44,
+      "text": "Fantástico, bueno, el proceso, el proceso define quién y qué está haciendo, qué, cuando y cómo,"
+    },
+    {
+      "start": 2665.44,
+      "end": 2678.61,
+      "text": "yo siempre digo lo mismo y está bueno, yo soy muy mala cocinando, o sea no, no soy buena,"
+    },
+    {
+      "start": 2678.61,
+      "end": 2689.87,
+      "text": "pero soy una muy buena seguidora de recetas, o sea, si tengo que hacer un lomo de la opinión,"
+    },
+    {
+      "start": 2689.87,
+      "end": 2697.59,
+      "text": "bueno, más o menos me duele idea, pero no sé cómo hacerlo, ahora si hubo una receta y voy a lograr"
+    },
+    {
+      "start": 2697.59,
+      "end": 2704.79,
+      "text": "el objetivo y el proceso básicamente es eso, esto tiene una receta, es, me define quién lo hace,"
+    },
+    {
+      "start": 2704.79,
+      "end": 2711.27,
+      "text": "en este caso la cocinera, está qué es lo que hace, y bueno, vas a tener que hacer determinadas cosas,"
+    },
+    {
+      "start": 2711.27,
+      "end": 2720.35,
+      "text": "por ejemplo, no sé, poner el la carne, el azar, después agregarle el caldo, bueno, pero que cuando,"
+    },
+    {
+      "start": 2720.43,
+      "end": 2727.4,
+      "text": "en qué momento, primero me va a ir viendo, primero comprar las cosas, tener todo,"
+    },
+    {
+      "start": 2727.4,
+      "end": 2734.84,
+      "text": "hacer esto, esperar media hora para agregarle el caldo, me va haciendo este el cuando y cómo, bueno,"
+    },
+    {
+      "start": 2734.84,
+      "end": 2749.23,
+      "text": "yo no sé qué es azar, bueno, me explica cómo azar, entonces, nosotros, si tengo que decir a ustedes,"
+    },
+    {
+      "start": 2749.23,
+      "end": 2756.75,
+      "text": "bueno, vamos a hacer un proyecto con SAP, que es una repesa, y bueno, la realidad es que nos"
+    },
+    {
+      "start": 2756.75,
+      "end": 2761.47,
+      "text": "saben cómo ha estado, pero si tengo un proceso de cómo hacerlo, va a ser mucho más fácil,"
+    },
+    {
+      "start": 2761.47,
+      "end": 2769.03,
+      "text": "entonces, el proceso me ayuda en eso, en definir quién lo hace en qué momento, el de la cocinera"
+    },
+    {
+      "start": 2769.03,
+      "end": 2774.59,
+      "text": "bastante sencillo, tenemos un único cocinero, pero imagínate, te ha sido una torta, digo, bueno,"
+    },
+    {
+      "start": 2774.59,
+      "end": 2781.15,
+      "text": "primero hago la torta, y después viene alguien, al cambio de rol, viene alguien a decorar,"
+    },
+    {
+      "start": 2782.35,
+      "end": 2789.67,
+      "text": "ya el proceso se empieza a complejizar, imagínate lo que es en software, no, que tenemos diferentes"
+    },
+    {
+      "start": 2789.67,
+      "end": 2802.43,
+      "text": "tipos de roles, quienes pueden ser los roles, en el alista programador, en elista programador,"
+    },
+    {
+      "start": 2802.43,
+      "end": 2808.35,
+      "text": "tester, entonces el proceso me va a definir quién hace en qué momento, cuando y cómo,"
+    },
+    {
+      "start": 2811.18,
+      "end": 2817.42,
+      "text": "un gerente de prachertos, un escrammáster, lo que sea de acuerdo a la metodología que yo vaya"
+    },
+    {
+      "start": 2817.42,
+      "end": 2824.38,
+      "text": "a definir y el proceso va a cambiar, obviamente, si estoy en una metodología un poco más dura,"
+    },
+    {
+      "start": 2825.34,
+      "end": 2833.46,
+      "text": "que vamos a acabar dos, una más ricia y una más flexible como ágil, de acuerdo al proceso que"
+    },
+    {
+      "start": 2833.46,
+      "end": 2840.02,
+      "text": "voy a elegir o la metodología, voy a tener diferentes roles, el qué, qué hace y cómo lo hace,"
+    },
+    {
+      "start": 2842.0,
+      "end": 2849.49,
+      "text": "digamos, esto para ustedes también vayan estudiando y tengo material, el proceso de software es un"
+    },
+    {
+      "start": 2849.49,
+      "end": 2855.87,
+      "text": "confundatía de escullameta, del desarrollo del producto, lo que yo quiero es"
+    },
+    {
+      "start": 2855.87,
+      "end": 2861.51,
+      "text": "tener este proceso, decir, bueno, tengo que armar de una torta, no tengo ni idea, bueno, tengo"
+    },
+    {
+      "start": 2861.51,
+      "end": 2869.91,
+      "text": "unos pasos predecibles, por lo menos para tener un resultado de alta calidad, a tiempo, si lo hago,"
+    },
+    {
+      "start": 2869.91,
+      "end": 2880.25,
+      "text": "sin saber y posiblemente me salga algo raro, algo que tengo que tener en claro es que tengo que"
+    },
+    {
+      "start": 2880.25,
+      "end": 2890.6,
+      "text": "siempre ir adoptando, cambiando el proceso, y tengo que hacer una torta para tomar mate o hacer"
+    },
+    {
+      "start": 2890.6,
+      "end": 2897.0,
+      "text": "una manera, ahora si tengo que hacer una torta para un cumpleaño de 15, tengo que cambiar este proceso,"
+    },
+    {
+      "start": 2897.0,
+      "end": 2910.53,
+      "text": "ok, si tengo que armar, tengo un proyecto, un software que es evolutivo, perdón que es"
+    },
+    {
+      "start": 2910.53,
+      "end": 2917.81,
+      "text": "un mantenimiento correctivo, es diferente que si tengo que hacer una aplicación de cero, un"
+    },
+    {
+      "start": 2917.81,
+      "end": 2923.53,
+      "text": "proyecto de cero, lo encaro de diferentes maneras, voy a tener diferentes roles más actividades en"
+    },
+    {
+      "start": 2923.53,
+      "end": 2932.33,
+      "text": "uno que en otro, si tengo que cambiar o corregir algo, va a ser mucho más sencillo que un proyecto de"
+    },
+    {
+      "start": 2932.33,
+      "end": 2939.97,
+      "text": "cero, por lo tanto el proceso siempre tengo que modificarlo y adaptarlo, de acuerdo a las necesidades"
+    },
+    {
+      "start": 2939.97,
+      "end": 2947.6,
+      "text": "y también a mi organización, o lo tanto es algo que tienen que tener en cuenta, no existe un proceso"
+    },
+    {
+      "start": 2947.6,
+      "end": 2955.68,
+      "text": "universal, siempre va a haber cambios en cada proyecto y configurable y adaptable, este es fundamental"
+    },
+    {
+      "start": 2955.68,
+      "end": 2966.36,
+      "text": "dentro de lo que es metodología, si ya no forma parte de materia diseños una materia que trata de"
+    },
+    {
+      "start": 2966.36,
+      "end": 2973.76,
+      "text": "relacionar muchos conceptos que ustedes aquí yaron en otras, adaptabilidad del proceso es fundamental,"
+    },
+    {
+      "start": 2973.76,
+      "end": 2981.36,
+      "text": "una vez que tengo esos pasos, me dicen bueno primero a conseguir los productos o entender"
+    },
+    {
+      "start": 2981.36,
+      "end": 2989.6,
+      "text": "lo que quiere el cliente, después tengo que pasar a una o otra fase, después tengo que"
+    },
+    {
+      "start": 2989.6,
+      "end": 2999.64,
+      "text": "estar en cada una de esos tengo un montón de cosas que hacer, entonces ahí empieza a meterse los"
+    },
+    {
+      "start": 2999.64,
+      "end": 3007.0,
+      "text": "métodos, que me va a proponer la experiencia técnica para poder hacerlo, me va a hacer nuestra"
+    },
+    {
+      "start": 3007.0,
+      "end": 3015.02,
+      "text": "materia tengo que crear un producto de calidad, yo voy a hacer el diseño, yo soy arquitecto,"
+    },
+    {
+      "start": 3015.02,
+      "end": 3023.36,
+      "text": "ahora me voy al diseño, pienso cómo hacerlo, está en ese tapa, en este proceso de diseñar, ahora bueno,"
+    },
+    {
+      "start": 3023.96,
+      "end": 3029.44,
+      "text": "de acuerdo a la metodología me dan a decir bueno, pues tenas que hacer el diseño, yo te"
+    },
+    {
+      "start": 3029.44,
+      "end": 3036.32,
+      "text": "propongo esta manera de hacer el diseño, si estoy con escran voy a ir de una manera, si estoy con"
+    },
+    {
+      "start": 3036.32,
+      "end": 3042.68,
+      "text": "user experiencia de otra, si estoy con una metodología un poco más riquida voy a ir con otra"
+    },
+    {
+      "start": 3045.01,
+      "end": 3052.4,
+      "text": "y me va a brindar toda esa experiencia técnica, ahora después vamos a volver con este tema,"
+    },
+    {
+      "start": 3053.21,
+      "end": 3061.41,
+      "text": "cuando hablemos de diferentes procesos, pero básicamente me ofrece esos todos los métodos en"
+    },
+    {
+      "start": 3061.41,
+      "end": 3072.43,
+      "text": "cada fase, si estoy en una etapa de programación, está y estoy haciendo una programación, por ejemplo,"
+    },
+    {
+      "start": 3072.43,
+      "end": 3080.52,
+      "text": "para un mantenimiento correctivo, me van a ofrecer determinadas formas, se modifica el código,"
+    },
+    {
+      "start": 3080.52,
+      "end": 3086.92,
+      "text": "capas que no tengo que validar algo, estoy en un proceso más rígido y se muerta,"
+    },
+    {
+      "start": 3086.92,
+      "end": 3092.2,
+      "text": "quedo al código, el código hay una revisión entre pares porque la metodología sí lo requiere,"
+    },
+    {
+      "start": 3092.2,
+      "end": 3097.88,
+      "text": "me van siguiendo, me dan explicando cómo hacer esa experiencia técnica, lo mismo con la parte de"
+    },
+    {
+      "start": 3097.88,
+      "end": 3107.8,
+      "text": "destin, etcétera, las herramientas, las tools que hablamos de la ingeniería de software me ayudan a"
+    },
+    {
+      "start": 3108.8,
+      "end": 3119.51,
+      "text": "este a poder aplicar esos métodos, nosotros, está acá, sí, nosotros vamos a empezar con un"
+    },
+    {
+      "start": 3119.51,
+      "end": 3133.27,
+      "text": "proceso que se llama RUP, no sé si ustedes lo vieron, la idea es obviamente no es para mí,"
+    },
+    {
+      "start": 3133.27,
+      "end": 3142.44,
+      "text": "me van diciendo quién saber de otra materia, los que recursten, necesitan que me llan que lo saben"
+    },
+    {
+      "start": 3142.44,
+      "end": 3150.13,
+      "text": "por el cálculo que se lo saben, pero si lo vieron o no, me da una idea también de la propundidad,"
+    },
+    {
+      "start": 3150.13,
+      "end": 3163.48,
+      "text": "no, no lo le te, no me suena, ok, no me suena, fantástico, vamos, bueno vamos a ir con una metodología"
+    },
+    {
+      "start": 3163.48,
+      "end": 3173.24,
+      "text": "un poco más estricta, algo que es un hi-fi-prose, es una metodología un poco más dura, más extensa,"
+    },
+    {
+      "start": 3173.24,
+      "end": 3181.96,
+      "text": "no obviamente está en el polo opuesto a lo que es metodología sági, ahora vamos a charlar un"
+    },
+    {
+      "start": 3181.96,
+      "end": 3193.72,
+      "text": "poquito, y bueno dentro de este proceso me brinda un método del diseño, me recomienda"
+    },
+    {
+      "start": 3193.72,
+      "end": 3201.04,
+      "text": "esas recomendaciones, me da el acá, vuelvo acá, el quién lo tiene que hacer, el que el cuando y el"
+    },
+    {
+      "start": 3201.04,
+      "end": 3210.09,
+      "text": "cómo, cómo se hace el diseño, y la herramienta que me brinda me dice bueno dentro de lo que es el"
+    },
+    {
+      "start": 3210.09,
+      "end": 3220.41,
+      "text": "diseño, te ofrezco una tools que es un ML, está no hablo del estar un ML, hablo del lenguaje como tools,"
+    },
+    {
+      "start": 3220.41,
+      "end": 3227.94,
+      "text": "como herramienta para lograr el objetivo de armar el diseño, ok, y me voy a otro tipo de metodología,"
+    },
+    {
+      "start": 3227.94,
+      "end": 3234.96,
+      "text": "me va a decir bueno diseño, tenés, tenés sonotenes, capaz que no tengo método, una"
+    },
+    {
+      "start": 3234.96,
+      "end": 3241.88,
+      "text": "skill no tiene un método tan estricto en el diseño, y las herramientas que te ofrezco es estoy"
+    },
+    {
+      "start": 3241.88,
+      "end": 3254.36,
+      "text": "no sé con programación extrema, digo bueno el diseño no hay pero te recomiendo en el método,"
+    },
+    {
+      "start": 3254.36,
+      "end": 3262.0,
+      "text": "te recomiendo que haya dos programadores para que el código sea como en acalidad y me explica"
+    },
+    {
+      "start": 3262.0,
+      "end": 3269.0,
+      "text": "cómo hacerlo, las revistiones entre pares, me van siguiendo de acuerdo a cada proceso hay un método"
+    },
+    {
+      "start": 3269.0,
+      "end": 3277.01,
+      "text": "diferente y herramientas diferentes, por lo tanto vamos a empezar con un herramiento con un proceso un"
+    },
+    {
+      "start": 3277.01,
+      "end": 3285.03,
+      "text": "poco más estricto, que es relacionado a mi 5 proces, capaz que ustedes lo vieran como un 5"
+    },
+    {
+      "start": 3285.03,
+      "end": 3294.41,
+      "text": "proces o proceso unificado, y escucha hablar del pero no recuerdo, está, ¿por qué lo vemos y porque"
+    },
+    {
+      "start": 3294.41,
+      "end": 3302.53,
+      "text": "la realidad es que hay que entender porque aplicamos un ML, si bien a veces yo empiezan las"
+    },
+    {
+      "start": 3302.53,
+      "end": 3308.92,
+      "text": "materias y dicen bueno hacemos un ML bueno pero por qué lo estamos viendo, la realidad es que"
+    },
+    {
+      "start": 3308.92,
+      "end": 3317.68,
+      "text": "es un proceso que fue creado por estas tres personas, tienen que conocer quiénes fueron los que"
+    },
+    {
+      "start": 3317.68,
+      "end": 3326.08,
+      "text": "aportaron conocimiento en la carga que ustedes se ligieron, tienen la gradi-goch, creo que es el"
+    },
+    {
+      "start": 3326.64,
+      "end": 3336.88,
+      "text": "destacam, Ibar Jacobson en del medio y perdón a revés y Rumba y es este, Boz, Jacobson y Rumba"
+    },
+    {
+      "start": 3336.88,
+      "end": 3348.64,
+      "text": "y los tres tenían para filetotalmente diferentes, Rumba y el de acá era creador o uno de los que es"
+    },
+    {
+      "start": 3348.64,
+      "end": 3355.24,
+      "text": "la técnica de modelado de objetos, tenía muchísimo conocimiento de objetos y aportó todo lo que es,"
+    },
+    {
+      "start": 3355.24,
+      "end": 3361.24,
+      "text": "lo que era el paradigma orientado objetos, bueno de agramos de títulos, todo lo que era bien"
+    },
+    {
+      "start": 3361.24,
+      "end": 3371.84,
+      "text": "bien de objetos, Jacobson era un, en su momento un metodelogista que estaba más orientado al"
+    },
+    {
+      "start": 3371.84,
+      "end": 3381.96,
+      "text": "entendimiento con el usuario y el creador de los casos de uso y que aportó dentro de Rup los casos"
+    },
+    {
+      "start": 3382.48,
+      "end": 3388.8,
+      "text": "de uso y todo lo que es la parte funcional de agramos de secuencias y agramos de actividades,"
+    },
+    {
+      "start": 3388.8,
+      "end": 3397.32,
+      "text": "etcétera, entonces tenemos el que aportó todo lo que es la parte más técnica digamos que es todo"
+    },
+    {
+      "start": 3397.32,
+      "end": 3403.56,
+      "text": "lo que hizo el todo objeto, todo lo que es analista funcional y Jacobson era, tenía ya un metodo"
+    },
+    {
+      "start": 3404.79,
+      "end": 3414.16,
+      "text": "donde aportó otros tipos de diagramas para crear este proceso,"
+    },
+    {
+      "start": 3414.16,
+      "end": 3421.28,
+      "text": "habamos por filetotal, las tres tenían por filetotalmente diferentes y empezaron a coplarse,"
+    },
+    {
+      "start": 3421.28,
+      "end": 3432.28,
+      "text": "entonces en un momento dijimos bueno vamos a armar un proceso para ver cómo poder aplicarlo"
+    },
+    {
+      "start": 3432.28,
+      "end": 3441.52,
+      "text": "dentro de las organizaciones y lo hicieron, que tuvo muy interesante fue juntarse, yo siempre"
+    },
+    {
+      "start": 3441.52,
+      "end": 3448.28,
+      "text": "digo fue juntarse con ellos de Estados Unidos, bueno uno no pero no importa, estaban trabajando en"
+    },
+    {
+      "start": 3448.28,
+      "end": 3455.6,
+      "text": "Estados Unidos y armaron una especie de reunión con los cios y los cios más importantes de ese momento"
+    },
+    {
+      "start": 3456.73,
+      "end": 3464.16,
+      "text": "para preguntarle esta es la sencilla pregunta, cuáles son los problemas más comunes que tenían en"
+    },
+    {
+      "start": 3464.16,
+      "end": 3474.38,
+      "text": "el desarrollo del software, clases hace muchos años atrás jugaba un poco con esto pero vamos a"
+    },
+    {
+      "start": 3474.38,
+      "end": 3480.7,
+      "text": "tener que ir un poco más rápido y la realidad que los problemas que se encontraban, esto estamos hablando,"
+    },
+    {
+      "start": 3480.7,
+      "end": 3489.91,
+      "text": "cuando volvamos pero por acá, en principios de los 80 principios de los 90 en el 90 pico,"
+    },
+    {
+      "start": 3489.91,
+      "end": 3501.34,
+      "text": "el 93 empezó y empezaron a juntar con los cios y los cios más importantes de Estados Unidos y"
+    },
+    {
+      "start": 3501.34,
+      "end": 3507.66,
+      "text": "fueron los problemas más comunes en el desarrollo del software, porque lo que sucedía era que los proyectos"
+    },
+    {
+      "start": 3508.62,
+      "end": 3519.88,
+      "text": "y bien nos fracasaban por completo no eran exitosos o nos excedíamos de tiempo o nos excedíamos de"
+    },
+    {
+      "start": 3519.88,
+      "end": 3525.92,
+      "text": "plata o no no cumplía con lo que tenía que hacer, entonces decíamos, bueno, ¿cuáles son los"
+    },
+    {
+      "start": 3525.92,
+      "end": 3532.56,
+      "text": "problemas que ustedes se encuentran? Estamos hablando de cios y cios que no tenían ni idea de sistemas,"
+    },
+    {
+      "start": 3532.56,
+      "end": 3542.12,
+      "text": "ok? Entonces yo me imagino esa reunión con una especie de reunión de catarca y tipo de psicólogos,"
+    },
+    {
+      "start": 3542.12,
+      "end": 3549.32,
+      "text": "entonces decían que los software no estaban satisfechos porque obviamente llegaban y no cumplían con lo que"
+    },
+    {
+      "start": 3549.32,
+      "end": 3560.48,
+      "text": "necesitaban, querían hacer algunos cambios y y era, decían que no porque ya estaban programando y"
+    },
+    {
+      "start": 3560.48,
+      "end": 3569.8,
+      "text": "no podían cambiarlo, querían integrar módulos y a veces no, entonces me llevó el papel de recursos"
+    },
+    {
+      "start": 3569.8,
+      "end": 3578.6,
+      "text": "humanos con lo que cada uno hizo, me voy a suelos y jornales, está ahí tengo que ser un papelito,"
+    },
+    {
+      "start": 3578.6,
+      "end": 3586.36,
+      "text": "los módulos no se integran, eso con llevarrores, mantenimiento era muy complejo, no tenían el tanto"
+    },
+    {
+      "start": 3586.36,
+      "end": 3600.95,
+      "text": "marketing, no tenían agilidad al cambio, había descubrimientos tardidos de las fallas, no había un"
+    },
+    {
+      "start": 3600.95,
+      "end": 3609.18,
+      "text": "testín bastante fuerte, eso llevaba que tuvieran la idea de que había mala calidad en el producto,"
+    },
+    {
+      "start": 3609.18,
+      "end": 3614.14,
+      "text": "bueno, baja performa, trabajó en el coordinador, estos son los problemas más comunes,"
+    },
+    {
+      "start": 3614.14,
+      "end": 3625.16,
+      "text": "se han sentido una lita muchísimo más larga, estos son los más comunes, lo que se preguntó,"
+    },
+    {
+      "start": 3626.68,
+      "end": 3634.2,
+      "text": "estas tres pasoritas, estos tres, que eran bueno, son los problemas más comunes, bueno,"
+    },
+    {
+      "start": 3634.2,
+      "end": 3641.64,
+      "text": "accedeven estos problemas, una vez que tuvieron esa esa famosa reunión, empezaron a hacer un trabajo de"
+    },
+    {
+      "start": 3641.64,
+      "end": 3649.32,
+      "text": "ingeniería, ingeniería orientado a lo que es metodología, así es como se crean los cambios de"
+    },
+    {
+      "start": 3649.32,
+      "end": 3654.28,
+      "text": "metodología, que pueden ustedes tal vez tan algún modo trabajar en las empresas para cambiar algunos"
+    },
+    {
+      "start": 3654.28,
+      "end": 3664.84,
+      "text": "procesos, te hace esto, entender cuáles son las dolencias de los usuarios y analizar por qué se deben"
+    },
+    {
+      "start": 3664.84,
+      "end": 3671.07,
+      "text": "esos problemas, y jéron bueno, los dos de los danzas a tijetos, y por qué puede ser y no había"
+    },
+    {
+      "start": 3671.07,
+      "end": 3677.63,
+      "text": "poco, no hicimos buenos requerimientos, no escribimos bien, no entendimos bien lo que quería el cliente,"
+    },
+    {
+      "start": 3677.63,
+      "end": 3685.92,
+      "text": "empezaron a ver cuáles seran los problemas que pasaba realmente a nivel técnico para"
+    },
+    {
+      "start": 3687.58,
+      "end": 3693.98,
+      "text": "tuvieran las dolencias los usuarios, cambios en los requerimientos, había problemas de comunicación,"
+    },
+    {
+      "start": 3693.98,
+      "end": 3699.5,
+      "text": "en los módulos no se integran y posiblemente sea la mala arquitectura, no se pensó en buen diseño,"
+    },
+    {
+      "start": 3700.97,
+      "end": 3707.85,
+      "text": "mala calidad de descubrimiento tardío de fallas y no se hizo muy poco, hubo desarrollo en cascada,"
+    },
+    {
+      "start": 3707.85,
+      "end": 3716.91,
+      "text": "desarrollo en cascada, imagino que saben lo que hubieron alguna materia en esto, sí, sí,"
+    },
+    {
+      "start": 3716.91,
+      "end": 3722.59,
+      "text": "que se coincide en la jefe de otra, en ese vuelve tres, exacto, desarrollo en cascada pasó de una fase"
+    },
+    {
+      "start": 3722.59,
+      "end": 3728.27,
+      "text": "de la otra, y hasta que no esté totalmente frisada la previa, la fase previa no puedo avanzar,"
+    },
+    {
+      "start": 3728.27,
+      "end": 3734.35,
+      "text": "si no cierra las fases requerimientos, no puedo avanzar la fase de programación por así decirlo,"
+    },
+    {
+      "start": 3735.56,
+      "end": 3743.08,
+      "text": "y bueno, había cambios no controlados, esto encontraron realmente cuáles del problema, y una vez que"
+    },
+    {
+      "start": 3743.08,
+      "end": 3751.69,
+      "text": "encontraron a que se devían estos problemas, y se dan bueno, cómo lo puedo resolver, y bueno, y ahí"
+    },
+    {
+      "start": 3751.69,
+      "end": 3758.89,
+      "text": "definieron los principios de Rube, ellos dijeron, bueno, si yo aplico estos principios, voy a poder"
+    },
+    {
+      "start": 3758.89,
+      "end": 3766.65,
+      "text": "resolver esto, y por lo tanto voy a evitar que los clientes suelen, o los usuarios sientan todo esto,"
+    },
+    {
+      "start": 3768.12,
+      "end": 3773.64,
+      "text": "cuáles son los principios de Rube y adaptar el proceso que ya estuvimos hablando, no todos los"
+    },
+    {
+      "start": 3773.64,
+      "end": 3780.6,
+      "text": "procesos siven para el proyecto con el cual voy a trabajar, equilibrar prioridad de tanto del cliente"
+    },
+    {
+      "start": 3780.6,
+      "end": 3786.68,
+      "text": "como del grupo de trabajo, la cogeración en el equipo, no pensar en esa roza encascada,"
+    },
+    {
+      "start": 3786.68,
+      "end": 3794.08,
+      "text": "pensar en un modelo iterativo e intervental, tener la posibilidad de generar una buena"
+    },
+    {
+      "start": 3794.08,
+      "end": 3800.68,
+      "text": "arquitectura para eso es foco la abstracción y el foco en la calidad, ahora los vamos siguiendo."
+    },
+    {
+      "start": 3803.64,
+      "end": 3811.72,
+      "text": "Acá les dejo un poco marco tebórico de lo que significa cada principio, de adaptar a las necesidades"
+    },
+    {
+      "start": 3811.72,
+      "end": 3821.47,
+      "text": "del cliente, debo ver la diferencia de los participantes, saben lo que es una iteración,"
+    },
+    {
+      "start": 3821.47,
+      "end": 3837.07,
+      "text": "algo que se repite, algo que se repite, estoy enterando, estoy pasando, en una etapa paso por un poquito"
+    },
+    {
+      "start": 3837.07,
+      "end": 3843.59,
+      "text": "de relevamiento, un poquito de test, un poquito de todo, voy tirando y voy incrementando,"
+    },
+    {
+      "start": 3843.59,
+      "end": 3850.47,
+      "text": "igual ahora lo vamos sirviendo, entonces no tengo un modelo encascada como tenía anteriormente,"
+    },
+    {
+      "start": 3850.47,
+      "end": 3861.83,
+      "text": "donde si no termino con la fase de requerimiento no puedo comenzar con la de programación o la de"
+    },
+    {
+      "start": 3861.83,
+      "end": 3872.34,
+      "text": "construcción, me gusta más construcción, deje dejamos ese concepto y decimos vamos haciendo"
+    },
+    {
+      "start": 3872.34,
+      "end": 3878.82,
+      "text": "un poco de relevamiento y voy entendiendo, voy armando algo de programación y también tengo"
+    },
+    {
+      "start": 3878.82,
+      "end": 3883.34,
+      "text": "que seguir pensando en la calidad que quiero y si voy pensando en la calidad que decir, ya tenemos"
+    },
+    {
+      "start": 3883.34,
+      "end": 3890.18,
+      "text": "que seguir pensando en cómo lo voy a testiar, entonces en cada iteración voy pasando por diferentes"
+    },
+    {
+      "start": 3890.18,
+      "end": 3901.34,
+      "text": "fases para poder ir haciendo los más incrementales, a la extracción ya tenemos que empezar a hablar con"
+    },
+    {
+      "start": 3901.34,
+      "end": 3911.06,
+      "text": "patrones o soluciones y sabemos que funcionan y que han cambiado y fue con calidad ver, no,"
+    },
+    {
+      "start": 3911.58,
+      "end": 3918.94,
+      "text": "y puedo cumplir o no con todos esos satinibutos de calidad, que también lo vamos sirviendo en la"
+    },
+    {
+      "start": 3918.94,
+      "end": 3928.28,
+      "text": "cursa, bueno ahora me voy a la definición de que es ruo y es un marco de trabajo que me va"
+    },
+    {
+      "start": 3928.28,
+      "end": 3937.62,
+      "text": "diciendo esos procesos, ese proceso, diciendo que cómo, cuando, cómo hacerlo, pues se le"
+    },
+    {
+      "start": 3937.62,
+      "end": 3944.58,
+      "text": "casan a variedad de tipo de sistemas, yo estoy hablando, pueden tener diferentes, pues hace un"
+    },
+    {
+      "start": 3944.58,
+      "end": 3951.75,
+      "text": "sistema para diferentes marcados, en diferentes áreas, diferentes organizaciones, una comitación"
+    },
+    {
+      "start": 3951.75,
+      "end": 3958.0,
+      "text": "chica que una organización grande, no es lo mismo, si tengo que hacer, mandar un cohete a la"
+    },
+    {
+      "start": 3958.0,
+      "end": 3967.42,
+      "text": "NASA y tengo que armar un módulo, que si tengo que hacer un sistema para una biblioteca de"
+    },
+    {
+      "start": 3967.42,
+      "end": 3975.1,
+      "text": "colectio, voy a tener diferentes ceremonias por así decirlo, uno más de escrita y otro menos,"
+    },
+    {
+      "start": 3975.1,
+      "end": 3986.3,
+      "text": "entonces y acuerdo, a todas esas variables yo tengo que ir modificando ese marco de trabajo,"
+    },
+    {
+      "start": 3986.3,
+      "end": 3995.61,
+      "text": "genérico y a solo más específico a mis necesidades, el proceso de ruo se basa en dos en lo que"
+    },
+    {
+      "start": 3995.61,
+      "end": 4002.21,
+      "text": "es el este unizontario, el este vertical, el unizontal representa tiempo, fases y"
+    },
+    {
+      "start": 4002.21,
+      "end": 4008.33,
+      "text": "teraciones, esto lo vamos a ver ahora un poco más en detalle y en el vertical yo voy a tener todas"
+    },
+    {
+      "start": 4008.33,
+      "end": 4016.74,
+      "text": "las disciplinas, actividades, arte, espáticos y flujo de trabajo, después ahora lo vemos con"
+    },
+    {
+      "start": 4016.74,
+      "end": 4026.86,
+      "text": "una imagen, pero tenemos esos dos ejes, no tiene cuatro fases, esto lo deberían saber, pero"
+    },
+    {
+      "start": 4028.94,
+      "end": 4035.78,
+      "text": "tengo cuatro fases, yo siempre digo como para que lo entienda mi abuela al menos voy a"
+    },
+    {
+      "start": 4035.78,
+      "end": 4042.94,
+      "text": "literar cuatro veces, está basado en la iteración, rupe, y voy a literar al menos cuatro veces, la primera"
+    },
+    {
+      "start": 4042.94,
+      "end": 4050.34,
+      "text": "es el inicio y tiene un objetivo, todas las fases tienen un objetivo, el inicio bien simple como para"
+    },
+    {
+      "start": 4050.34,
+      "end": 4057.9,
+      "text": "que lo entienda a mi abuela, el objetivo es entender el problema, yo no puedo cerrar estas"
+    },
+    {
+      "start": 4057.9,
+      "end": 4064.41,
+      "text": "fases si no entendí bien lo que voy a dejar, hay proyectos que lo puedo sacar, puedo decir bueno,"
+    },
+    {
+      "start": 4064.41,
+      "end": 4077.42,
+      "text": "no sé, si tengo que hacer una aplicación para el dotéca de un colegio y la reléce bastante"
+    },
+    {
+      "start": 4078.14,
+      "end": 4085.96,
+      "text": "sencilla, capaz que con una mínima reunión puedo entender el problema en sí, ahora si yo les digo bueno,"
+    },
+    {
+      "start": 4085.96,
+      "end": 4102.0,
+      "text": "tengo que ir al sur y hacer una aplicación para el suelo, para ver qué probabilidad de que haya"
+    },
+    {
+      "start": 4102.0,
+      "end": 4110.52,
+      "text": "petróleo y realmente no, ya tenéis que juntar con ingeniero de petróleo, con ingeniero y"
+    },
+    {
+      "start": 4110.52,
+      "end": 4115.72,
+      "text": "entender bien el problema, aquí es lo que tengo que analizar con el donde puedo obtener los datos,"
+    },
+    {
+      "start": 4115.72,
+      "end": 4123.93,
+      "text": "me van siguiendo, tengo que hacer una fase de inicio un poco más profunda, por lo tanto yo voy a ir"
+    },
+    {
+      "start": 4123.93,
+      "end": 4131.55,
+      "text": "adaptando ese proceso de acuerdo a mis necesidades, la fase una vez que logrés entender el problema,"
+    },
+    {
+      "start": 4131.55,
+      "end": 4138.33,
+      "text": "ahí puedo pasar a la siguiente fase que es la elaboración, lo que tengo que tener en"
+    },
+    {
+      "start": 4138.33,
+      "end": 4145.05,
+      "text": "esta fase es entender la solución, no puedo pasar a la fase siguiente que es la de construcción,"
+    },
+    {
+      "start": 4145.05,
+      "end": 4150.53,
+      "text": "si lo entiendo bien que es lo que quiero hacer, en esta fase en donde nosotros vamos a poner bastante"
+    },
+    {
+      "start": 4150.53,
+      "end": 4159.31,
+      "text": "foco porque es la fase donde vamos a agregar como ARTIM, toma mayor valor a agregar la solución,"
+    },
+    {
+      "start": 4159.31,
+      "end": 4165.07,
+      "text": "que es justamente arma como va a hacer la solución y va haciendo que en maveras de web,"
+    },
+    {
+      "start": 4165.07,
+      "end": 4173.98,
+      "text": "en prototipados, etcétera y ahí arma como arquitecto, cómo va a hacer la solución, después"
+    },
+    {
+      "start": 4173.98,
+      "end": 4180.06,
+      "text": "viene la fase, no puedo pasar a la otra fase, si no la tengo por lo menos ya"
+    },
+    {
+      "start": 4180.06,
+      "end": 4186.96,
+      "text": "completa el entendimiento de la solución, me voy a dar otra la construcción, tengo que tener la"
+    },
+    {
+      "start": 4186.96,
+      "end": 4194.64,
+      "text": "solución, en esta etapa voy construyendo, no puedo pasar a la otra fase, si no tengo algo"
+    },
+    {
+      "start": 4194.64,
+      "end": 4201.48,
+      "text": "ándigo que esté hablando, si no tengo la solución, una vez que ya tengo la solución,"
+    },
+    {
+      "start": 4201.48,
+      "end": 4207.36,
+      "text": "si erro me voy a la transición en donde tengo que aceptar la solución por parte del cliente,"
+    },
+    {
+      "start": 4207.36,
+      "end": 4213.2,
+      "text": "que el cliente acepta esta solución, esto que quiere decir bueno esta solución, esta solución"
+    },
+    {
+      "start": 4213.2,
+      "end": 4219.44,
+      "text": "estuya, te dejo los manuales, si se cae lo levantas de esta manera, si tienes problemas con la"
+    },
+    {
+      "start": 4219.44,
+      "end": 4226.64,
+      "text": "base de datos acá de paso en usuario y la clave para que lo pueda resolver, que acepte completamente"
+    },
+    {
+      "start": 4226.64,
+      "end": 4234.27,
+      "text": "la solución, capaz que tengo que hacer una capacitación para los usuarios, para que lo puedan"
+    },
+    {
+      "start": 4234.27,
+      "end": 4242.1,
+      "text": "utilizar, etcétera, me va a cien dos, fíjense en sillas, fases y objetivos de cada una de estas"
+    },
+    {
+      "start": 4242.1,
+      "end": 4251.49,
+      "text": "fases, me voy acá, ahora obviamente ese es el objetivo, no puedo pasar de una fase a la otra,"
+    },
+    {
+      "start": 4251.49,
+      "end": 4259.33,
+      "text": "sin un público en el objetivo principal, pero cuando estoy transitando esa fase, estoy haciendo"
+    },
+    {
+      "start": 4259.33,
+      "end": 4267.39,
+      "text": "determinadas tareas, actividades, ¿y qué hago? en el inicio de final del objetivo, el alcance del"
+    },
+    {
+      "start": 4267.39,
+      "end": 4273.63,
+      "text": "proyecto, trabajo con un caso de uso, caso de uso de imagino que lo vieran, me pego un tiro,"
+    },
+    {
+      "start": 4273.63,
+      "end": 4291.13,
+      "text": "si se me llame el pensáxico, de fin a los casos de uso, empiezos los preliminares, los preliminares"
+    },
+    {
+      "start": 4291.13,
+      "end": 4299.62,
+      "text": "en el caso de uso, después en la elaboración que hago ya tengo un plan de proyecto, ya entendí"
+    },
+    {
+      "start": 4299.62,
+      "end": 4305.74,
+      "text": "qué es lo que tengo que hacer, entonces pueden empezar a dar un plan de proyectos, tengo los casos de"
+    },
+    {
+      "start": 4305.74,
+      "end": 4312.86,
+      "text": "uso preliminares y bueno, los tengo que ir elaborando a agregarle mayor nivel de detalle, estoy haciendo"
+    },
+    {
+      "start": 4312.86,
+      "end": 4322.87,
+      "text": "una iteración e incremental, ok, a medida que voy transitando, voy a agregarle mayor nivel de detalle,"
+    },
+    {
+      "start": 4322.87,
+      "end": 4328.23,
+      "text": "luego empiezas la construcción, a mí me gusta hablar mucho de construir el producto y no de programar,"
+    },
+    {
+      "start": 4328.23,
+      "end": 4335.35,
+      "text": "porque si me voy a un proyecto SAP, es más configurar que programación, entonces habla mucho de construir,"
+    },
+    {
+      "start": 4335.35,
+      "end": 4344.11,
+      "text": "construir el producto y después la transición, una vez que tengo el producto andando, tengo no sé la"
+    },
+    {
+      "start": 4344.11,
+      "end": 4354.12,
+      "text": "prueba de abeta, la prueba alfa del producto, se queda anda, me voy a la entrega del producto, a por parte del usuario,"
+    },
+    {
+      "start": 4354.12,
+      "end": 4365.25,
+      "text": "estas son lo que yo voy generando, a grandes rasgos en cada fast and, acá les dejo un poco"
+    },
+    {
+      "start": 4365.25,
+      "end": 4380.66,
+      "text": "con mayor nivel de detalle que hace cada fast and, sí, sí, está bien lo vemos, está a lecer casos de"
+    },
+    {
+      "start": 4380.66,
+      "end": 4387.38,
+      "text": "uso específicar el alcance y lo que tengo que hacer, vamos un poco a la nuestra, la que nos importa,"
+    },
+    {
+      "start": 4391.64,
+      "end": 4401.18,
+      "text": "me quedo tranquilo igual, un repaso con mío lo van a ver, repaso tipo flash con el caso de uso,"
+    },
+    {
+      "start": 4401.18,
+      "end": 4408.66,
+      "text": "bueno, la elaboración, está más enfocado del diseño que está enfocada esta materia, analizar el"
+    },
+    {
+      "start": 4408.66,
+      "end": 4413.82,
+      "text": "dominio establecer una buena arquitectura, lidiar con los elementos de redes, donde encuentro"
+    },
+    {
+      "start": 4413.82,
+      "end": 4422.82,
+      "text": "de redes, bueno, te empieza por esto, armadón dominio, ya tenemos que tener el entendimiento del 80%"
+    },
+    {
+      "start": 4422.82,
+      "end": 4428.9,
+      "text": "de los casos de uso, ya puedo agregar un caso de uso y sí, porque si creativo, incremental, yo hasta en la última"
+    },
+    {
+      "start": 4428.9,
+      "end": 4437.14,
+      "text": "fase puedo agregar un caso de uso, pero si lo diseñé bien, el impacto debería estar menor, me van siguiendo,"
+    },
+    {
+      "start": 4440.7,
+      "end": 4464.42,
+      "text": "sí, brope, bueno, uno está, imagínense que esto está un proyecto, esto lo aclaro para que"
+    },
+    {
+      "start": 4464.42,
+      "end": 4470.18,
+      "text": "se tiene la vida del proyecto, uno cuando empieza a hacer un proyecto y digo bueno, vamos a hacer un"
+    },
+    {
+      "start": 4470.18,
+      "end": 4479.02,
+      "text": "proyecto de X y digo, bueno, empezamos con mucho esfuerzo, un poco menos esfuerzo, empieza a calentar"
+    },
+    {
+      "start": 4479.02,
+      "end": 4486.86,
+      "text": "el proyecto, hacer el relevamiento, se suma una analista y después tengo en la fase de construcción"
+    },
+    {
+      "start": 4486.86,
+      "end": 4493.5,
+      "text": "de esfuerzo muy grande, construyo, construyo, construyo, ya tengo acá una aplicación andando,"
+    },
+    {
+      "start": 4493.5,
+      "end": 4501.98,
+      "text": "en la siguiente, tengo una aplicación andando y acá empiezo a bajar el esfuerzo del equipo, del desarrollo y"
+    },
+    {
+      "start": 4501.98,
+      "end": 4509.1,
+      "text": "después tengo fase de mantenimiento, no fase de mantenimiento de nacimiento, siempre tengo algo,"
+    },
+    {
+      "start": 4511.06,
+      "end": 4522.14,
+      "text": "y acá está acá, acá está que estuve, imagínense que estuve en cinco meses y acá está en fase de"
+    },
+    {
+      "start": 4522.14,
+      "end": 4539.04,
+      "text": "mantenimiento y hace cuatro años, cuatro años que tengo la aplicación, que están dando como"
+    },
+    {
+      "start": 4539.04,
+      "end": 4549.61,
+      "text": "obses veces, sería 48 meses, cuatro años, 48 meses, obviamente acá tuve a cinco programadores,"
+    },
+    {
+      "start": 4550.55,
+      "end": 4564.73,
+      "text": "acá tuve a un gerente de proyecto, acá tuve a un especialista en base de datos, tuve gente que sepa"
+    },
+    {
+      "start": 4564.73,
+      "end": 4574.94,
+      "text": "de redes, capaz que le da tuve 100 por siempre, tuve alguien que sepa de redes, y acá tengo solamente"
+    },
+    {
+      "start": 4574.94,
+      "end": 4586.71,
+      "text": "a dos personas, y acá tuve no sé, el cinco personas, tuve a Viet Esther, tuve a dos arquitectos,"
+    },
+    {
+      "start": 4586.71,
+      "end": 4597.97,
+      "text": "empiezo a evaluar esto y acá tuve dos personas tuve muchísimo, capaz que donde más gasto tengo,"
+    },
+    {
+      "start": 4597.97,
+      "end": 4606.93,
+      "text": "tuve un montón, un gasto muy fuerte, a poner dólares, lo que lo opeto, y acá no me ha..."
+    },
+    {
+      "start": 4607.8,
+      "end": 4614.64,
+      "text": "para que tuve un esfuerzo muy grande de plata en estos cinco meses, pero después tuve cuatro años,"
+    },
+    {
+      "start": 4614.64,
+      "end": 4625.4,
+      "text": "es donde todos los meses tuve a dos personas y capaz que en la mitad gasté lo mismo que en el"
+    },
+    {
+      "start": 4625.4,
+      "end": 4634.82,
+      "text": "desarrollo, me van siguiendo, por lo tanto, yo tengo que ir pensando en que sea fácil de mantener,"
+    },
+    {
+      "start": 4635.57,
+      "end": 4644.01,
+      "text": "tengo que pensar que mi aplicación sea fácil de modificar porque donde más plata estoy"
+    },
+    {
+      "start": 4644.01,
+      "end": 4651.07,
+      "text": "gastando desde en el mantenimiento, parece que uno gasta más plata en la creación, pero después"
+    },
+    {
+      "start": 4651.07,
+      "end": 4657.39,
+      "text": "tengo una vida muy larga, excepto de ser algo muy puntual, pero la vida de las soluciones largas,"
+    },
+    {
+      "start": 4658.11,
+      "end": 4667.47,
+      "text": "el banco invertió muchísimo en hacer una mesa de dinero, que es una solución para invertir,"
+    },
+    {
+      "start": 4669.57,
+      "end": 4677.06,
+      "text": "pero ha... murió un año y hace diez años está el mismo software y hay un montón de gente para"
+    },
+    {
+      "start": 4677.06,
+      "end": 4683.78,
+      "text": "mantenerlo, para agregarle mayor funcionalidad, entonces tengo que ir armando una solución,"
+    },
+    {
+      "start": 4684.1,
+      "end": 4692.85,
+      "text": "que sea fácil de configurar y que pueda ir adregando funcionalidad, porque es donde más gasto,"
+    },
+    {
+      "start": 4692.85,
+      "end": 4703.31,
+      "text": "por lo tanto el diseño es fundamental, todas estrenos para acá, perdón, me den ahora acá,"
+    },
+    {
+      "start": 4703.31,
+      "end": 4715.05,
+      "text": "el diseño es fundamental, que cumpla con todo esto, que sea fácil de mantener, que sea adaptable,"
+    },
+    {
+      "start": 4715.05,
+      "end": 4722.61,
+      "text": "que sea configurable, que cumpla con la funcionalidad, que sea bien acotada y poder hacerlo bien"
+    },
+    {
+      "start": 4722.61,
+      "end": 4731.97,
+      "text": "atómico para poder ir y haciendo lo incremental, tengo que pensar en una solución con calidad y"
+    },
+    {
+      "start": 4731.97,
+      "end": 4739.53,
+      "text": "las pássedones, te damos ese paso, es en la de diseño que está dentro de la fase de la oración,"
+    },
+    {
+      "start": 4739.53,
+      "end": 4747.06,
+      "text": "dentro de Rub, yo me voy un poquito, pero es para que empiecen a la relación artema, después"
+    },
+    {
+      "start": 4747.06,
+      "end": 4752.74,
+      "text": "estoy en la fase de construcción, de voy a construir el producto que el arquitecto me dijo que"
+    },
+    {
+      "start": 4752.74,
+      "end": 4760.78,
+      "text": "tengo de construir el arquitecto de software, si hago la analogía es como decir, bueno, ya tengo"
+    },
+    {
+      "start": 4760.78,
+      "end": 4766.78,
+      "text": "todos los planos de la casa y bueno, y ahora vienen los saluaniles y empiezan a levantar pared,"
+    },
+    {
+      "start": 4767.78,
+      "end": 4774.16,
+      "text": "en estas pásseles levantan las paredes, pero también va a venir el electricista entre, bueno,"
+    },
+    {
+      "start": 4774.16,
+      "end": 4778.68,
+      "text": "con la de que esta pared tengo que poner un caño para pasar toda la electricidad y después"
+    },
+    {
+      "start": 4778.68,
+      "end": 4787.84,
+      "text": "viene el ingeniero iráulico o alguien que sepa o un plomero, y me decía bueno, en el piso va a"
+    },
+    {
+      "start": 4787.84,
+      "end": 4798.43,
+      "text": "pasar otro caño, que lo definió el arquitecto para llevar a vuelváneo, entonces después empezamos a"
+    },
+    {
+      "start": 4799.07,
+      "end": 4807.31,
+      "text": "meter diferentes roles en el tapa de construcción, pero va a estar lo que pida, lo que nos"
+    },
+    {
+      "start": 4807.31,
+      "end": 4814.07,
+      "text": "guió el arquitecto, en el arquitecto nos guió, somos nosotros en esta materia es lo que vamos a armar"
+    },
+    {
+      "start": 4814.07,
+      "end": 4822.54,
+      "text": "acá, el nuestro diseño de software lo que vamos a hacer es obviamente tenemos,"
+    },
+    {
+      "start": 4822.54,
+      "end": 4843.81,
+      "text": "no olvidarse de las puertas claras, fantásticas, como muy buenas cerraduras hoy en día, bueno,"
+    },
+    {
+      "start": 4843.81,
+      "end": 4854.4,
+      "text": "desarrollo, me perdi, acá, y bien yo acá estoy construyendo, estoy armando toda la casa,"
+    },
+    {
+      "start": 4855.43,
+      "end": 4862.71,
+      "text": "tengo que hacer, cuando venga el dueño de la casa, y digo bueno, mirad, vací no te lo acerto,"
+    },
+    {
+      "start": 4862.71,
+      "end": 4869.91,
+      "text": "pintáme la al menos, entonces ahí va, hasta donde voy a seguir la construcción o no, obviamente"
+    },
+    {
+      "start": 4869.91,
+      "end": 4875.27,
+      "text": "hay algo fundamental que siempre es la plata, ¿no? capaz que te dicen bueno, no, hagamos una"
+    },
+    {
+      "start": 4875.27,
+      "end": 4883.47,
+      "text": "cosa, hagamos una casa de una única, de un incopiso, después vemos más adelante, y siempre hay un"
+    },
+    {
+      "start": 4883.47,
+      "end": 4891.99,
+      "text": "tema económico en todos lados, pero eso también me limita saber hasta dónde es mi alcance que lo"
+    },
+    {
+      "start": 4891.99,
+      "end": 4900.54,
+      "text": "tengo que haber decidido antes, y yo con la casa de construcción, una vez que ya estoy de acuerdo,"
+    },
+    {
+      "start": 4900.54,
+      "end": 4908.61,
+      "text": "ahí lo que hacemos es liberar el producto beta, ya está, funciona, tengo capacitaciones,"
+    },
+    {
+      "start": 4908.61,
+      "end": 4915.01,
+      "text": "seguimos para adelante, hago la transición, manuales de usuarios, manuales de usuarios,"
+    },
+    {
+      "start": 4915.01,
+      "end": 4920.93,
+      "text": "cada vez son videítos, hoy ya no existe el manual de usuario tan rigido como antes, si no"
+    },
+    {
+      "start": 4920.93,
+      "end": 4926.11,
+      "text": "que necesitamos, tienes que dar un usuario, bueno, mirad este vídeo, ahí estamos, ahí, ya"
+    },
+    {
+      "start": 4926.11,
+      "end": 4932.97,
+      "text": "cambio todo el tema, ya no existe el manual de usuario tan rigido como antes, y si existe esto"
+    },
+    {
+      "start": 4933.97,
+      "end": 4942.14,
+      "text": "todo web para justamente poder atener esa actividad al cambio, ahí, seguimos, estas son las"
+    },
+    {
+      "start": 4942.14,
+      "end": 4947.9,
+      "text": "características más importantes dentro de esta metodología, pieron que hablé mucho de qué"
+    },
+    {
+      "start": 4947.9,
+      "end": 4955.3,
+      "text": "es iterativo, dejo el modelo encajcada, me voy a un modelo iterativo, estas sentaban la arquitectura,"
+    },
+    {
+      "start": 4955.3,
+      "end": 4961.74,
+      "text": "el rol del arquitecto, el rol de diseñadores de software es fundamental para justamente hacer"
+    },
+    {
+      "start": 4962.26,
+      "end": 4974.66,
+      "text": "bastante configurable, mantenible, manejar casitas, que les puedo ir en sofando una o otra de manera"
+    },
+    {
+      "start": 4974.66,
+      "end": 4981.62,
+      "text": "que pueda hacer un sistema que sea intervental y que al ser casitas también les puedo testiar más fácil,"
+    },
+    {
+      "start": 4981.62,
+      "end": 4991.26,
+      "text": "porque está bien aislado, bien comunicado con nosotros, está aislado la funcionalidad central, pero"
+    },
+    {
+      "start": 4992.06,
+      "end": 4998.9,
+      "text": "hay una interacción estrecha con los demás modulos, y eso lo da la arquitectura, que es lo que"
+    },
+    {
+      "start": 4998.9,
+      "end": 5009.55,
+      "text": "ustedes tienen que ir pensando, está desarrollado, está dirigido por casos reuso, este tipo de metodología"
+    },
+    {
+      "start": 5009.55,
+      "end": 5017.91,
+      "text": "dice bueno, vamos a desarrollar los casos de uso, entonces voy a pasar por una etapa de la primera etapa,"
+    },
+    {
+      "start": 5017.91,
+      "end": 5023.99,
+      "text": "me vengo para acá, para que ustedes también me vayan entendiendo, y estoy en la paz de inicio,"
+    },
+    {
+      "start": 5023.99,
+      "end": 5029.63,
+      "text": "en las facilidades que era ahí, en la que el problema, y bueno, ¿qué voy a entiernos?"
+    },
+    {
+      "start": 5029.63,
+      "end": 5035.63,
+      "text": "Y empieza a escribir algunos casos de uso, posiblemente acá tengo un 20% de los casos de uso definidos,"
+    },
+    {
+      "start": 5035.63,
+      "end": 5045.75,
+      "text": "o tenga ya los nombres de los casos de uso, pero no el desarrollo en sí, pero yo nos tengo que ir"
+    },
+    {
+      "start": 5045.75,
+      "end": 5054.27,
+      "text": "entendiendo, está guiado por caso de uso, está metodología desde el día uno, tengo caso de uso,"
+    },
+    {
+      "start": 5054.27,
+      "end": 5061.59,
+      "text": "ya tengo, no capacan tengo el escrito el 100% pero por lo menos tengo los grandes títulos,"
+    },
+    {
+      "start": 5061.59,
+      "end": 5067.39,
+      "text": "me voy a la fase de elaboración, está guiado por caso de uso, entonces el guiado por caso de uso"
+    },
+    {
+      "start": 5067.39,
+      "end": 5072.87,
+      "text": "es escribirlos construcción, ¿qué hago con los casos de uso? Nada, ¿no? ¿cómo que nada? Sí,"
+    },
+    {
+      "start": 5072.87,
+      "end": 5079.43,
+      "text": "tener los casos de uso, tienes que construir basándote en esos casos de uso, por lo tanto"
+    },
+    {
+      "start": 5079.43,
+      "end": 5084.95,
+      "text": "está guiado por los casos de uso, tengo que hacer una transición para que me sirve el caso de uso,"
+    },
+    {
+      "start": 5084.95,
+      "end": 5090.87,
+      "text": "y bueno, el caso de uso te va a servir para que el cliente acepte la solución basándonos"
+    },
+    {
+      "start": 5090.87,
+      "end": 5098.03,
+      "text": "en lo que nos pidió el caso de uso, por lo tanto cuando hablamos, está dirigido por caso de uso,"
+    },
+    {
+      "start": 5098.03,
+      "end": 5108.25,
+      "text": "es porque el caso de uso está en todas las fases del proceso, ¿ok? Es un proceso configurable de acuerdo"
+    },
+    {
+      "start": 5108.25,
+      "end": 5121.47,
+      "text": "a las características del proyecto, a las características de la empresa, a las características del"
+    },
+    {
+      "start": 5121.47,
+      "end": 5126.11,
+      "text": "ciclo de vida, del proyecto de quiero, es mantenimiento evolutivo, mantenimiento correctivo,"
+    },
+    {
+      "start": 5126.11,
+      "end": 5132.47,
+      "text": "proyecto nuevo, etcétera, ahí voy a hacer definir el proceso, lo tengo que configurar,"
+    },
+    {
+      "start": 5135.04,
+      "end": 5141.86,
+      "text": "¿de acuerdo? En que pimos yo he estado, no gusta mucho relacionar temas,"
+    },
+    {
+      "start": 5144.72,
+      "end": 5149.68,
+      "text": "a estas personas, este era una especialista en todo lo que era en toda la tecnología de objetos,"
+    },
+    {
+      "start": 5149.68,
+      "end": 5160.1,
+      "text": "por lo tanto cuando empezó a armar luz y bueno vamos a irnos con todo lo que es, las tengan"
+    },
+    {
+      "start": 5160.1,
+      "end": 5164.34,
+      "text": "casos orientados objetos, en ese momento había una hoja muy importante con todo lo que era"
+    },
+    {
+      "start": 5165.54,
+      "end": 5172.34,
+      "text": "orientado objeto, así que soporta todas técnicas y un ML, está basado mucho en lo que es orientado"
+    },
+    {
+      "start": 5172.34,
+      "end": 5180.04,
+      "text": "objetos, y bueno, obviamente impulsa la calidad y gestión de riesgos siempre para pasar de un etapa"
+    },
+    {
+      "start": 5180.04,
+      "end": 5185.16,
+      "text": "a otra y el galúa el riesgo, cuáles son los riesgos, cuáles son las mejoras como poder resolverlo,"
+    },
+    {
+      "start": 5186.12,
+      "end": 5196.61,
+      "text": "acá todo bien, sí, bueno es un proceso iterativo, esto ya lo explique un poquito, les dejo siempre,"
+    },
+    {
+      "start": 5196.61,
+      "end": 5204.62,
+      "text": "les voy dejando algunas presentaciones como para que ustedes lo puedan leer, obviamente en el"
+    },
+    {
+      "start": 5204.62,
+      "end": 5212.56,
+      "text": "foco iterativo me permite tener incrementos en la solución entregar, me permite acomodar nuevos"
+    },
+    {
+      "start": 5212.56,
+      "end": 5220.06,
+      "text": "requimientos, como lo yo no estoy en cascada, fue en cualquier momento a agregar un nuevo requerimiento,"
+    },
+    {
+      "start": 5220.06,
+      "end": 5227.18,
+      "text": "porque lo descubrimiento tardío del requerimiento lo puede agregar el mismo que ir modificando mi"
+    },
+    {
+      "start": 5227.18,
+      "end": 5233.42,
+      "text": "arquitectura, en cada fase temo que identifica los riesgos para ver cómo lo puedo resolver en la"
+    },
+    {
+      "start": 5233.42,
+      "end": 5243.06,
+      "text": "próxima interacción, esta centrada en la arquitectura, esto ya le estuvo viendo, está dirigido por casos"
+    },
+    {
+      "start": 5243.06,
+      "end": 5253.18,
+      "text": "de uso, un proceso configurable, un avión de objetos, calidad, y me ven guay, este nunca lo"
+    },
+    {
+      "start": 5253.18,
+      "end": 5258.78,
+      "text": "vieran, porque si me hicieron que nunca vieron, Rube es porque calculo que no lo harán visto,"
+    },
+    {
+      "start": 5262.84,
+      "end": 5304.2,
+      "text": "este me gusta un poquito más, se lo suelen llamar diagrama de olas o de ballenas, y ya se lo"
+    },
+    {
+      "start": 5304.2,
+      "end": 5316.53,
+      "text": "dejo, hay diferentes obviamente, diagramas de ballenas o de olas, recuerdan que yo les dije que"
+    },
+    {
+      "start": 5316.53,
+      "end": 5333.26,
+      "text": "tenía que relacionar los temas, tenía dos ejes disciplinas y fase tiempos citeraciones, entonces tengo"
+    },
+    {
+      "start": 5333.26,
+      "end": 5342.53,
+      "text": "disciplinas y las citeraciones, y en cada una de esas disciplinas yo tengo esta ahorita que me"
+    },
+    {
+      "start": 5342.53,
+      "end": 5348.85,
+      "text": "estamos tratando del esfuerzo que me debe requerir, cada disciplina de acuerdo a la fase que estoy"
+    },
+    {
+      "start": 5348.85,
+      "end": 5357.8,
+      "text": "transicionando, entonces obviamente yo al iterar, yo tengo que pasar por todas estas disciplinas,"
+    },
+    {
+      "start": 5357.8,
+      "end": 5365.12,
+      "text": "eso es lo que me permite bajar el riesgo, que es uno de los principios de Rube, entonces yo tengo"
+    },
+    {
+      "start": 5365.12,
+      "end": 5372.2,
+      "text": "una esfuerzo en todas estas disciplinas, pero va a ir variando de acuerdo a las fases en que estoy,"
+    },
+    {
+      "start": 5372.2,
+      "end": 5377.84,
+      "text": "estoy en la fase de inicio, voy a tener mayor esfuerzo en lo que es modelado de negocio, porque estoy"
+    },
+    {
+      "start": 5377.84,
+      "end": 5385.52,
+      "text": "en el entendimiento del problema, estoy en la fase de elaboración, voy a tener un mayor esfuerzo en"
+    },
+    {
+      "start": 5385.52,
+      "end": 5394.46,
+      "text": "acabemos de requerir mientos y en diseño, de lo que voy a tener en testin, pero no significa que no"
+    },
+    {
+      "start": 5394.46,
+      "end": 5398.78,
+      "text": "tengo que ir viendo testin, tenés que ir viendo testin por el testin, y acuerdo a lo que vos"
+    },
+    {
+      "start": 5398.78,
+      "end": 5403.94,
+      "text": "quieres probar también tenés que enfocar la arquitectura, pero eso la hablaremos más adelante,"
+    },
+    {
+      "start": 5403.94,
+      "end": 5412.68,
+      "text": "en construcción y ya voy a tener que ir bajando en la fase de requerimiento y de modelado,"
+    },
+    {
+      "start": 5412.68,
+      "end": 5419.04,
+      "text": "está en la diseño voy a tener varias, pero donde voy a tener mayor esfuerzo es en lo que es"
+    },
+    {
+      "start": 5419.04,
+      "end": 5427.78,
+      "text": "implementación, codificación, construcción, en un mayor esfuerzo en el amarichito y empieza a"
+    },
+    {
+      "start": 5427.78,
+      "end": 5435.38,
+      "text": "subir el testin, ahora, mira aunque yo les dije, al menos voy a iterar cuatro veces y sí,"
+    },
+    {
+      "start": 5435.38,
+      "end": 5440.66,
+      "text": "y teiro la inicio en excel yo, no es de importe, inicio y elaboración, construcción o transición,"
+    },
+    {
+      "start": 5441.62,
+      "end": 5452.84,
+      "text": "pero también el proceso me brinda la posibilidad de poder iterar más, acá me dice, bueno, también"
+    },
+    {
+      "start": 5452.84,
+      "end": 5458.82,
+      "text": "poder sitiar en elaboración dos veces, en construcción, poder sitiar más, no recomendable"
+    },
+    {
+      "start": 5458.82,
+      "end": 5467.92,
+      "text": "iterar más de cuatro en construcción y en transición hasta dos, en elaboración también recomienda"
+    },
+    {
+      "start": 5467.92,
+      "end": 5478.55,
+      "text": "hasta dos, eso es esas iteraciones extras que se van a dar en cada fase, es porque cuando hay"
+    },
+    {
+      "start": 5478.55,
+      "end": 5484.39,
+      "text": "proyectos muy grandes, muy complejos o con mucho riesgo, y bueno, te permiten hacer varias"
+    },
+    {
+      "start": 5484.39,
+      "end": 5491.63,
+      "text": "iteraciones porque va haciendo la complejidad, después lo vamos a ver en un sitio que los voy a mostrar,"
+    },
+    {
+      "start": 5492.95,
+      "end": 5500.54,
+      "text": "esto son tres pánqueras de tener que leer un poco, que está todo lo que son el proceso de"
+    },
+    {
+      "start": 5500.54,
+      "end": 5516.57,
+      "text": "estructura del proceso, los dejo acá, y acá vamos con esto, yo tengo en estos, en cada uno de"
+    },
+    {
+      "start": 5516.57,
+      "end": 5524.5,
+      "text": "estos de las pases y yo tengo, voy a dar una esfuerzo la iteración que es lo que vimos acá,"
+    },
+    {
+      "start": 5525.96,
+      "end": 5534.86,
+      "text": "en un puntito de esto, me encuentro con que tengo que tener algún resultado de lo que estuve"
+    },
+    {
+      "start": 5534.86,
+      "end": 5547.46,
+      "text": "elaborando y eso se lo llama artefactos, que son todos lo que yo genero, no vamos a basar en"
+    },
+    {
+      "start": 5547.46,
+      "end": 5553.46,
+      "text": "modelos, ahora vamos a ver y después hay un flujo de trabajo que bueno, es el esfuerzo de todo lo que"
+    },
+    {
+      "start": 5553.46,
+      "end": 5559.44,
+      "text": "van a tener que hacer en dentro de este proceso, entonces el flujo de trabajo, que es lo que hace y"
+    },
+    {
+      "start": 5559.44,
+      "end": 5568.31,
+      "text": "describible estructura, el resultado es el artefacto del modelado de negocio o el que me recomienda la"
+    },
+    {
+      "start": 5568.31,
+      "end": 5577.7,
+      "text": "gérame, lo que me recomienda rudo, entonces dentro de estos artefactos, todo lo que genero dentro"
+    },
+    {
+      "start": 5577.7,
+      "end": 5586.06,
+      "text": "de rudo, se llama artefactos, entonces tiene un diagrama, webml, bueno, hablo del artefacto"
+    },
+    {
+      "start": 5586.06,
+      "end": 5593.66,
+      "text": "de webml, si hablo de un plan, hablo del proyecto de plan que es el artefacto dentro de webml,"
+    },
+    {
+      "start": 5593.66,
+      "end": 5605.1,
+      "text": "todo lo que genero dentro del proyecto para cumplir con el objetivo final son artefactos,"
+    },
+    {
+      "start": 5606.06,
+      "end": 5616.54,
+      "text": "y a veces necesito un artefacto para seguir otra fase, yo no puedo comenzar un etapa de"
+    },
+    {
+      "start": 5616.54,
+      "end": 5623.3,
+      "text": "construcción, sino tengo la arquitectura armada, por lo tanto tengo que tener una relación entre"
+    },
+    {
+      "start": 5623.3,
+      "end": 5630.82,
+      "text": "los artefactos, los artefactos van a ir creciendo a medida que voy ir transicionando a las diferentes"
+    },
+    {
+      "start": 5630.82,
+      "end": 5638.7,
+      "text": "caces, algo que es importante que ustedes vean es que yo voy a tener modelos y vistas, esto lo"
+    },
+    {
+      "start": 5638.7,
+      "end": 5647.99,
+      "text": "vamos a ver bien cuando apliquemos foml que lo van a ver, poder ver más en concreto, pero el modelo"
+    },
+    {
+      "start": 5647.99,
+      "end": 5657.28,
+      "text": "son todos los elementos, y las vistas es como relación o esos elementos, ustedes vieron"
+    },
+    {
+      "start": 5657.28,
+      "end": 5663.84,
+      "text": "en webml, tal cual que vieron diagramas de caso de uso, actividad que más vieron,"
+    },
+    {
+      "start": 5666.01,
+      "end": 5672.35,
+      "text": "diagrama de clases, diagrama de clases, bien, diagrama de estados,"
+    },
+    {
+      "start": 5672.35,
+      "end": 5676.99,
+      "text": "diagrama de estados, bueno, altásticos, de secuencia y comunicación,"
+    },
+    {
+      "start": 5676.99,
+      "end": 5687.32,
+      "text": "qué es secuencia, fantásticos, secuencia, bueno, entonces ustedes tienen todos esos diagramas,"
+    },
+    {
+      "start": 5687.32,
+      "end": 5694.96,
+      "text": "esos diagramas pueden llegar a hacer una vista, ¿ok? Ahora, esas vistas forman parte de un modelo,"
+    },
+    {
+      "start": 5694.96,
+      "end": 5702.82,
+      "text": "porque si uso una clase en el diagrama de clases, después esa clase la voy a utilizar en el diagrama"
+    },
+    {
+      "start": 5702.82,
+      "end": 5709.98,
+      "text": "de secuencia y tiene que ser la misma, entonces estoy dentro del mismo modelo, está con el mismo"
+    },
+    {
+      "start": 5710.06,
+      "end": 5716.86,
+      "text": "elemento, la clase X, que lo voy a relacionar en diferentes tipos de vistas, en el día aquí, por ejemplo,"
+    },
+    {
+      "start": 5716.86,
+      "end": 5726.42,
+      "text": "en el diagrama de clases y en el diagrama de secuencia, entonces dentro de un mismo modelo tengo"
+    },
+    {
+      "start": 5726.42,
+      "end": 5733.29,
+      "text": "diferentes elementos en la clase y más que no sé, que lo puedo utilizar en diferentes vistas,"
+    },
+    {
+      "start": 5734.99,
+      "end": 5742.17,
+      "text": "si yo voy a hacer una analogía con el cuerpo humano, digo bueno, las vistas son las"
+    },
+    {
+      "start": 5742.17,
+      "end": 5750.63,
+      "text": "representaciones, descritas, acá hay una definición un poquito, pero imagínense que yo"
+    },
+    {
+      "start": 5750.63,
+      "end": 5757.07,
+      "text": "viene un extraterrestre y tengo que explicar cómo es el hombre sin mostrarle el hombre,"
+    },
+    {
+      "start": 5757.79,
+      "end": 5766.79,
+      "text": "así es decir, esto es un hombre, un ser humano, ¿cómo se le explico solamente con un dibujito y no lo"
+    },
+    {
+      "start": 5766.79,
+      "end": 5777.95,
+      "text": "va a entender? Entonces, yo tengo para diferentes problemas diferentes vistas para poder mostrarse"
+    },
+    {
+      "start": 5777.95,
+      "end": 5786.58,
+      "text": "lo, bueno, el hombre tiene un esqueleto que es a la parte ríquia, tiene una parte muscular, tiene"
+    },
+    {
+      "start": 5786.58,
+      "end": 5793.34,
+      "text": "órganos, le muestro otra vista, le muestro la parte de la vista de circulatorio, de la sangre,"
+    },
+    {
+      "start": 5793.34,
+      "end": 5799.18,
+      "text": "como bombéas, entonces le voy a ir formando diferentes vistas, después le puedo mostrar un imagen"
+    },
+    {
+      "start": 5799.18,
+      "end": 5810.05,
+      "text": "estética, tiene pelo, la piel, puede ser determinado color, tiene ojos que pueden ser determinados color,"
+    },
+    {
+      "start": 5810.05,
+      "end": 5818.33,
+      "text": "eso es otra vista, pero capaz que él piensa que es algo más chiquito, más grande, no hay que ir"
+    },
+    {
+      "start": 5818.33,
+      "end": 5833.02,
+      "text": "armándolo, cómo es el ser humano, con diferentes vistas, cada vista está relacionada, yo no puedo acá"
+    },
+    {
+      "start": 5833.02,
+      "end": 5841.25,
+      "text": "colocarle dos cabezas cuando las demás vistas no la tienen, entonces tiene que haber una relación"
+    },
+    {
+      "start": 5841.25,
+      "end": 5847.99,
+      "text": "estrecha entre las vistas, son los mismos elementos que se van a ir repitiendo entre las vistas,"
+    },
+    {
+      "start": 5847.99,
+      "end": 5854.67,
+      "text": "esto es fundamental en el diseño, es algo que nos fijamos muchísimo, es como decir, bueno, quiero"
+    },
+    {
+      "start": 5854.67,
+      "end": 5863.57,
+      "text": "construir una casa a una pared, pero el caño de luz pasa por la mitad del lím, no, el caño de luz"
+    },
+    {
+      "start": 5863.57,
+      "end": 5870.69,
+      "text": "tiene que pasar entre la pared, tiene que haber una relación estrecha y pero yo tengo el plano eléctrico"
+    },
+    {
+      "start": 5870.69,
+      "end": 5877.77,
+      "text": "y el plano de la estructura de la casa son diferentes, está, pero lo tengo que relacionar, y ese es un"
+    },
+    {
+      "start": 5877.77,
+      "end": 5885.36,
+      "text": "trabajo también del arquitecto, y eso es algo que nos fijamos mucho en los exámenes, que haya"
+    },
+    {
+      "start": 5885.36,
+      "end": 5897.46,
+      "text": "relación entre lo que ustedes estén modelando, el proceso unificado se basa en el NML, el"
+    },
+    {
+      "start": 5897.46,
+      "end": 5902.62,
+      "text": "estamos trabajando dentro del modelo, modelos tienen elementos, recuerda, el modelo tiene elementos,"
+    },
+    {
+      "start": 5902.62,
+      "end": 5908.74,
+      "text": "estos elementos de acuerdo a la problemática que quiero resolver puedo detener diferentes vistas,"
+    },
+    {
+      "start": 5908.74,
+      "end": 5913.9,
+      "text": "pero esas vistas tienen esos elementos dentro del modelo que los tengo aquí relacionando,"
+    },
+    {
+      "start": 5913.9,
+      "end": 5921.42,
+      "text": "obviamente yo les dije el ejemplo pasándome en lo que es la arquitectura NML, pero ustedes como"
+    },
+    {
+      "start": 5921.42,
+      "end": 5926.9,
+      "text": "arquitectos van a manejar muchas vistas, estas de caso de uso, vista de diseño, vista de despliegue,"
+    },
+    {
+      "start": 5926.9,
+      "end": 5935.5,
+      "text": "procesos, implementación, base de datos, hay muchas, todas tienen que estar relacionadas,"
+    },
+    {
+      "start": 5944.33,
+      "end": 5954.87,
+      "text": "bueno esto está en amarillo, siempre lo mismo, porque lo bajé de una presentación de análisis"
+    },
+    {
+      "start": 5954.87,
+      "end": 5959.91,
+      "text": "en donde ponían el foco, en el análisis, y donde se pone el foco, en las que están en amarillo,"
+    },
+    {
+      "start": 5960.63,
+      "end": 5965.07,
+      "text": "nosotros estamos en el diseño donde ponemos mucho foco en los diagramas de interacción,"
+    },
+    {
+      "start": 5965.07,
+      "end": 5972.79,
+      "text": "diagrama de colaboración, diagrama de diseño, ya hemos diciado, diseño,"
+    },
+    {
+      "start": 5972.79,
+      "end": 5981.54,
+      "text": "de estados y actividades, de actividades más orientados al proceso,"
+    },
+    {
+      "start": 5982.5,
+      "end": 5991.06,
+      "text": "proceso lo cambio, diagramas de acción más que de proceso, diagrama de clase de diseño,"
+    },
+    {
+      "start": 5991.06,
+      "end": 6001.61,
+      "text": "obviamente, esto lo tienen que pueden de nos de ir, ¿sí? ¿Qué serían estados colunas que"
+    },
+    {
+      "start": 6001.61,
+      "end": 6008.39,
+      "text": "están en cada uno de los modelos? Perfecto, los diagramas de webmenito lo tendrán que dar visto,"
+    },
+    {
+      "start": 6008.39,
+      "end": 6015.16,
+      "text": "los diagramas de webmenes se vienen estáticos y dinámicos, no sé si lo viste,"
+    },
+    {
+      "start": 6019.37,
+      "end": 6024.73,
+      "text": "no correse por matos, o al verlo, no lo dieron, sí, me decimos por que?"
+    },
+    {
+      "start": 6024.73,
+      "end": 6032.21,
+      "text": "o sea, nunca nos dijeron que cual era estático y cuál era dinámico, o sea, nunca entendí que era cada uno,"
+    },
+    {
+      "start": 6032.21,
+      "end": 6047.61,
+      "text": "bueno, ahora te lo estilramos, bueno, igual lo vamos a ver, pero lo vamos a vermos adelante,"
+    },
+    {
+      "start": 6047.61,
+      "end": 6054.05,
+      "text": "lo que te muestras eso para, pasa que si no me voy para webmenes y es la clase, es la tercera clase,"
+    },
+    {
+      "start": 6054.05,
+      "end": 6060.0,
+      "text": "pero vos dentro de webmenes hay diferentes difereniciones de diagramas que pueden dividir"
+    },
+    {
+      "start": 6060.0,
+      "end": 6068.24,
+      "text": "diferentes categorías, hay una de las categorías que es la más común, que es la estructura,"
+    },
+    {
+      "start": 6068.24,
+      "end": 6078.36,
+      "text": "lo dieron, está, sí estáticos, o a veces lo llaman estructural, donde muestra la solución,"
+    },
+    {
+      "start": 6078.36,
+      "end": 6086.9,
+      "text": "que no va a cambiar, que no ves la comunicación entre los objetos, ¿sí? Es la parte estática,"
+    },
+    {
+      "start": 6087.62,
+      "end": 6097.46,
+      "text": "clases, interfaces, objetos, diagrama de espliegue, ahora tenés después la parte dinámica,"
+    },
+    {
+      "start": 6097.46,
+      "end": 6103.74,
+      "text": "que la parte dinámica está orientado a lo que es el comportamiento, muestra el comportamiento"
+    },
+    {
+      "start": 6103.74,
+      "end": 6110.62,
+      "text": "entre los objetos, el paso del mensaje, el proceso, y hay una posibilidad de una variable tiempo,"
+    },
+    {
+      "start": 6111.14,
+      "end": 6120.63,
+      "text": "ahí tenés la diagrama de secuencia, diagrama de secuencia, diagrama de colaboración,"
+    },
+    {
+      "start": 6120.63,
+      "end": 6126.95,
+      "text": "el estado, porque hay una comunicación que muestra el dinámismo dentro de las objetos,"
+    },
+    {
+      "start": 6129.59,
+      "end": 6135.59,
+      "text": "por eso lo separa, entonces voy alomío a la de material,"
+    },
+    {
+      "start": 6135.59,
+      "end": 6143.83,
+      "text": "tenés dentro del modelo de diseño, cuáles son los más importantes, y te lo separa,"
+    },
+    {
+      "start": 6143.83,
+      "end": 6154.38,
+      "text": "en las dos categorías de UML, dynamic obstáctico, los de comunicación, como justamente"
+    },
+    {
+      "start": 6154.38,
+      "end": 6165.85,
+      "text": "que muestre el dinámismo, te marca con una X en esta variable, ¿sí? ¿sí entendió? Sí, pero"
+    },
+    {
+      "start": 6165.85,
+      "end": 6170.89,
+      "text": "me quedó más clara, muchas gracias. No, por favor, acá también, acá tenés"
+    },
+    {
+      "start": 6170.89,
+      "end": 6177.25,
+      "text": "estático irinando, ¿cuáles es otra forma de verlo? Igual lo vamos a ver, lo vamos a ver,"
+    },
+    {
+      "start": 6177.25,
+      "end": 6186.62,
+      "text": "porque si esto lo tendrían que tener reencontra incorporado, pero bueno, lo vamos a hacer un"
+    },
+    {
+      "start": 6186.62,
+      "end": 6193.71,
+      "text": "prequé de no repaso, así que no se preocupa. Bueno, ustedes, diagrama de caso de uso me"
+    },
+    {
+      "start": 6193.71,
+      "end": 6199.42,
+      "text": "dije, aunque hayan visto, la idea es que ustedes van evolucionando, tienen una forma"
+    },
+    {
+      "start": 6199.42,
+      "end": 6205.06,
+      "text": "una iteración, van a iterando. Al principio, van a tener algo muy básico, después van"
+    },
+    {
+      "start": 6205.06,
+      "end": 6211.9,
+      "text": "a ir explotando ese modelo, le van a ir dando a mayor nivel de detalle, mayor nivel de"
+    },
+    {
+      "start": 6211.9,
+      "end": 6217.74,
+      "text": "entendimiento, y la idea es que puedan ir atendiendo a un mayor nivel de detalle, es decir, un"
+    },
+    {
+      "start": 6217.74,
+      "end": 6226.42,
+      "text": "nivel alto de abstracción van a ir eliminando esas dudas y van a ir bajando un mayor"
+    },
+    {
+      "start": 6226.42,
+      "end": 6236.56,
+      "text": "nivel de detalle. Esto lo, esto se puede lograr a través de literación. Si yo no intero,"
+    },
+    {
+      "start": 6236.56,
+      "end": 6242.92,
+      "text": "no voy a ir un lado al otro, nunca voy a lograr ese nivel de profundidad y conocimiento del"
+    },
+    {
+      "start": 6242.92,
+      "end": 6247.76,
+      "text": "modelo, ¿ok? ¿Hasta dónde puedo llegar y hasta dónde sea el más conveniente de acuardo"
+    },
+    {
+      "start": 6247.76,
+      "end": 6255.5,
+      "text": "el proyecto que me esté trabajando? Ok? Bueno, acá un poco de teoría, me vengo acá,"
+    },
+    {
+      "start": 6255.5,
+      "end": 6261.26,
+      "text": "le dejo algo de fotografía, me vengo acá. Él les quería mostrar, hoy estuve navegando"
+    },
+    {
+      "start": 6261.26,
+      "end": 6269.18,
+      "text": "un poquito. Me fui a Utipedia, proceso unificado, está bastante bien, pero es bastante básico,"
+    },
+    {
+      "start": 6269.18,
+      "end": 6276.9,
+      "text": "igual lo pueden ir incorporando, está en español y es bastante sencillo, está muy bien,"
+    },
+    {
+      "start": 6276.9,
+      "end": 6284.04,
+      "text": "lo pueden leer de acá. Algo que me gustó, yo antes me he mostrado un sitio, pero la realidad"
+    },
+    {
+      "start": 6284.04,
+      "end": 6289.86,
+      "text": "es que mejor de funcionar, creo que lo perdi, no importa, pero acá les voy a pasar también"
+    },
+    {
+      "start": 6289.86,
+      "end": 6312.58,
+      "text": "este para que lo vayan viendo. Me gustó bastante este sitio, es un introducción a Rube,"
+    },
+    {
+      "start": 6312.58,
+      "end": 6320.02,
+      "text": "uno cuando trae una metodología, algo que es fundamental dentro de la que es la organización,"
+    },
+    {
+      "start": 6320.02,
+      "end": 6329.14,
+      "text": "es que puede llevar esa metodología a los usuarios, ¿no? A que todos puedan acceder y que"
+    },
+    {
+      "start": 6329.14,
+      "end": 6338.63,
+      "text": "la puedan conocer. Eso se llama institucionalizar el proceso, ¿ok? Y no lo pueden institucionalizar,"
+    },
+    {
+      "start": 6338.63,
+      "end": 6345.99,
+      "text": "sino lo van a conocer. Entonces, lo que se suele hacer es hacer un sitio web donde definen"
+    },
+    {
+      "start": 6345.99,
+      "end": 6351.91,
+      "text": "el proceso de cada organización y cómo se trabaja, por ejemplo, bueno, no sé, estoy"
+    },
+    {
+      "start": 6351.91,
+      "end": 6357.67,
+      "text": "trabajando en una empresa donde tengo que resolver tickets, bueno, ¿cuáles son los niveles"
+    },
+    {
+      "start": 6357.67,
+      "end": 6363.39,
+      "text": "de esos tickets? Bueno, eso es un proceso dentro de la organización, y lo ideal es que la"
+    },
+    {
+      "start": 6363.39,
+      "end": 6368.95,
+      "text": "organización no pueda conocer para eso se arma un sitio, un sitio donde todas pueden acceder"
+    },
+    {
+      "start": 6368.95,
+      "end": 6375.63,
+      "text": "sin información y diga, bueno, a ver, nivel 1, que significa y que es mucho problema muy grande"
+    },
+    {
+      "start": 6375.63,
+      "end": 6381.07,
+      "text": "que le tengo que dar solución a las dos horas, me van siguiendo. Eso se llama institucionalizar"
+    },
+    {
+      "start": 6381.07,
+      "end": 6388.25,
+      "text": "el proceso. Me estoy metiendo con otra materia pero no importa, creo que sirve. Dentro"
+    },
+    {
+      "start": 6388.25,
+      "end": 6396.34,
+      "text": "de Rube, hay también algún sitio, este es un sitio muy acotado pero no importa donde explica"
+    },
+    {
+      "start": 6396.34,
+      "end": 6408.32,
+      "text": "que Rube, que he explicado para que es el proceso, explica para que Rube, ¿no? ¿Cómo lo"
+    },
+    {
+      "start": 6408.32,
+      "end": 6416.02,
+      "text": "aplico? ¿Tiene son los que lo deberían aplicar? Este cual lo me encanta. ¿Cuántas veces"
+    },
+    {
+      "start": 6416.02,
+      "end": 6422.22,
+      "text": "voy a incrementar ese nivel de iteraciones? Hoy tratando de bajarlo en la realidad ¿no?"
+    },
+    {
+      "start": 6422.22,
+      "end": 6429.8,
+      "text": "¿Cuántas veces voy a inventar esas iteraciones? De acuerdo a la complejidad del proyecto,"
+    },
+    {
+      "start": 6429.8,
+      "end": 6434.98,
+      "text": "¿no? Si es una alta complejidad, es porque el proyecto tiene una gran escala, tengo muchos"
+    },
+    {
+      "start": 6434.98,
+      "end": 6441.68,
+      "text": "integrantes o gente que me está pidiendo cosas, ahí le voy a dar mayor nivel de complejidad"
+    },
+    {
+      "start": 6441.68,
+      "end": 6450.23,
+      "text": "o ceremonia. Si tengo un proyecto con una gran complejidad técnica y posiblemente tenga"
+    },
+    {
+      "start": 6450.23,
+      "end": 6455.87,
+      "text": "a triterar, ahora si conozco mucho la tecnología, eso es una tecnología que ya la recontra"
+    },
+    {
+      "start": 6455.87,
+      "end": 6462.81,
+      "text": "uso, que el equipo de trabajo ya trabaja, que es sencilla el nivel de ceremonia, como"
+    },
+    {
+      "start": 6462.81,
+      "end": 6472.64,
+      "text": "lo de nomina, va bajando. Si el nivel de complejidad, de proceso, de manas y me en baja,"
+    },
+    {
+      "start": 6472.64,
+      "end": 6482.12,
+      "text": "porque tengo un grupo muy chiquito, la ceremonia también baja, entonces de acuerdo a diferentes"
+    },
+    {
+      "start": 6482.12,
+      "end": 6486.48,
+      "text": "variables que tengo que evaluar, de acuerdo al proyecto con el que esté trabajando, le voy"
+    },
+    {
+      "start": 6486.48,
+      "end": 6498.08,
+      "text": "a dar determinado nivel de ceremonia, esto es útil para todos los proyectos, en cualquier"
+    },
+    {
+      "start": 6498.08,
+      "end": 6519.34,
+      "text": "proceso, vamos a poder aprender, pues algo que el mundo estudia acá, sí, un mundo navegato,"
+    },
+    {
+      "start": 6519.34,
+      "end": 6528.92,
+      "text": "porque se propone un sitio así, donde ustedes van a ir, poder navegar y van a evaluarnos"
+    },
+    {
+      "start": 6528.92,
+      "end": 6541.86,
+      "text": "en cada fase, es lo que tiene que hacer, el famoso que como el cuando, en las 50 y una,"
+    },
+    {
+      "start": 6541.86,
+      "end": 6553.33,
+      "text": "el que quien como el cuando, entonces, vengo acá un minutito y yo me voy a vuelvo un"
+    },
+    {
+      "start": 6553.33,
+      "end": 6562.75,
+      "text": "minuto, porque como no está bien acomodado, acá me cuesta encontrarlo, así encuentro"
+    },
+    {
+      "start": 6562.75,
+      "end": 6579.69,
+      "text": "rápido, ahí me te os arriesga, acá es del higri procesada, es horrible como está, pero les"
+    },
+    {
+      "start": 6579.69,
+      "end": 6588.38,
+      "text": "puede servir bastante, quiero dejarle algo, un minutito, para yo no el método composo,"
+    },
+    {
+      "start": 6588.38,
+      "end": 6610.22,
+      "text": "es la herramienta para poder navegar, para crear el proceso y poder configurarlo, acá aquí"
+    },
+    {
+      "start": 6610.22,
+      "end": 6649.24,
+      "text": "lo voy a dejar acá, también me está, me ver si es así, bueno, se las voy a buscar,"
+    },
+    {
+      "start": 6649.24,
+      "end": 6662.49,
+      "text": "porque lo encontré, pero se ve que lo tenía, pero no lo encuentro ahora, hacer un proceso"
+    },
+    {
+      "start": 6662.49,
+      "end": 6674.79,
+      "text": "tiene que tener todo, yo quiero ver, me voy a dejar mejor, porque esto está más"
+    },
+    {
+      "start": 6674.79,
+      "end": 6682.54,
+      "text": "acotado, como lo tenía yo, lo tenía y después lo borre, después se las voy a pasar,"
+    },
+    {
+      "start": 6682.54,
+      "end": 6700.23,
+      "text": "está, pero bueno, si igual usted me lo traigo acá, barcita acá, bueno, bueno acá, lo que"
+    },
+    {
+      "start": 6700.23,
+      "end": 6705.63,
+      "text": "está bueno es que en los procesos, esto no necesaria que lo estudien, pero yo se las quiero"
+    },
+    {
+      "start": 6705.63,
+      "end": 6716.15,
+      "text": "mostrar, para que ustedes vean, en todos los procesos tienen como un flujo de trabajo,"
+    },
+    {
+      "start": 6716.15,
+      "end": 6722.51,
+      "text": "donde acá está definido cómo se hacen, la, cuál es el paso a paso, por ejemplo estoy en"
+    },
+    {
+      "start": 6722.51,
+      "end": 6729.59,
+      "text": "el de, acá estoy en el de preparar el ambiente, y bueno, la tapa de incepción, preparo el ambiente"
+    },
+    {
+      "start": 6729.59,
+      "end": 6734.95,
+      "text": "para el proyecto, me vengo acá a ver cómo lo preparo, y bueno, tienes que hacer todas estas"
+    },
+    {
+      "start": 6734.95,
+      "end": 6741.95,
+      "text": "actividades, primero tenés que armar el proyecto, armamos caso de ese proyecto, preparar"
+    },
+    {
+      "start": 6741.95,
+      "end": 6748.2,
+      "text": "el template, está ahí cuál es la salida del proyecto, cuál es el artefacto, un documento"
+    },
+    {
+      "start": 6748.2,
+      "end": 6758.75,
+      "text": "o una guía de especificación, avanzando, bueno, y así todo, súper definido, quién es"
+    },
+    {
+      "start": 6758.75,
+      "end": 6765.59,
+      "text": "actúa, y bueno, actúa el ingeniero de proceso, que es el rol principal, y qué hace y hace"
+    },
+    {
+      "start": 6765.59,
+      "end": 6774.75,
+      "text": "determinado tipo de artefacto, y cuál es el artefacto, y te explica cómo es el artefacto,"
+    },
+    {
+      "start": 6774.75,
+      "end": 6783.45,
+      "text": "no creo que me lleve al template del artefacto, pero igual me importa, me vas a especificando,"
+    },
+    {
+      "start": 6783.45,
+      "end": 6787.69,
+      "text": "y también que voy a necesitar, y voy a necesitar a alguien que sepa de infraestructura, puede"
+    },
+    {
+      "start": 6787.69,
+      "end": 6794.79,
+      "text": "ser que sea la misma persona, pero acá lo hace, es bien atómico, para que ustedes estén,"
+    },
+    {
+      "start": 6794.79,
+      "end": 6800.64,
+      "text": "para que después lo puedan configurar, este es un proyecto para grandes, es un proyecto"
+    },
+    {
+      "start": 6800.64,
+      "end": 6806.08,
+      "text": "de rupe para grandes proyectos, después lo pueden ir acotando, entonces con la herramienta"
+    },
+    {
+      "start": 6806.08,
+      "end": 6810.04,
+      "text": "que es el método composer, pueden decir bueno, esto lo elimino, por la realidad que"
+    },
+    {
+      "start": 6810.04,
+      "end": 6817.59,
+      "text": "yo tengo proyectos para ir a tanto, esto lo puedo sacar, esto lo puede agregar, este artefacto,"
+    },
+    {
+      "start": 6817.59,
+      "end": 6823.59,
+      "text": "este template, lo voy a modificar para de acuerdo a mi organización, entonces ustedes pueden"
+    },
+    {
+      "start": 6823.59,
+      "end": 6834.63,
+      "text": "ir armando un proceso de acuerdo configurable a la organización, esto se les voy a pasar,"
+    },
+    {
+      "start": 6834.63,
+      "end": 6842.67,
+      "text": "es el que encontré, porque los sacaron, antes estaba muchísimo mejor, procesos en el chat,"
+    },
+    {
+      "start": 6842.67,
+      "end": 6852.7,
+      "text": "estaba mucho más claro, acá hay una introducción, también, está en inglés, yo lo tenía en"
+    },
+    {
+      "start": 6852.7,
+      "end": 6858.18,
+      "text": "español antes, pero bueno, si lo puedo ver a conseguir, se las paso, y si no, este es para"
+    },
+    {
+      "start": 6858.18,
+      "end": 6867.57,
+      "text": "que ustedes puedan navegarlo y verlo, estaba bastante viola, ese son antes de no dar nada,"
+    },
+    {
+      "start": 6867.57,
+      "end": 6876.33,
+      "text": "son las 10 y 20, voy a pagar 10 minutos y sigo, tengo que seguir si o si, así que parece paramos"
+    },
+    {
+      "start": 6876.33,
+      "end": 6886.6,
+      "text": "los 10 minutos, nos buscamos un cafésito, después no sé si José Tomolista, pero tenemos"
+    },
+    {
+      "start": 6886.6,
+      "end": 6892.96,
+      "text": "que tomar listado, así que, sí, sí, preparan que en todo el panellaje, si ya está tomada"
+    },
+    {
+      "start": 6892.96,
+      "end": 6897.4,
+      "text": "ahora la comparto para que todos verifiquen si no olviden ninguno, o por el que yo llevo"
+    },
+    {
+      "start": 6897.4,
+      "end": 6901.8,
+      "text": "más tarde, pero sí, sí, sí, sí, sí, sí, sí, sí, sí, y media arrancamos, es para ese,"
+    },
+    {
+      "start": 6901.8,
+      "end": 6905.6,
+      "text": "el perfecto, nos vemos."
+    }
+  ]
+}

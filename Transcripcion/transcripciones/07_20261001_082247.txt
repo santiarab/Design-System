@@ -1,0 +1,1297 @@
+# Clase 07 - Parte 1 - 2026-10-01
+Archivo de origen: Clase Diseño-20261001_082247-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 01:58:35
+
+---
+
+[00:00:01 - 00:00:13] 1.1, criate. 1.1, criate. Cada lado de productos, le hace creer la multivjeta. Ok, ahí lo dice, crea un multivjeto
+[00:00:13 - 00:00:23] así o se la nota al pie. En 1.2.2 hace añadir especificación, pero también lo hace al multivjeto.
+[00:00:23 - 00:00:29] Es lo que no debería ser si estuviese por el suponamos que es el diagrama de secuencia, no?
+[00:00:29 - 00:00:38] No debería marcar la especificación de la diferencia de la especificación creada y la común y la multiojeto.
+[00:00:38 - 00:00:41] Pancáme que me partí con el 1.1.
+[00:00:41 - 00:00:48] Teo catalos de preguntas, está diciendo que tengo el criate. En el 1.1 tengo el otro criate que crea
+[00:00:48 - 00:00:53] la especificación del producto. Claro, creo que era un multivjeto vacío,
+[00:00:53 - 00:00:57] no una especificación del producto, acá eso, fantástico.
+[00:00:57 - 00:01:08] Ok, y después te dice y después te está que cuál era tu duda crea una especificación del producto.
+[00:01:08 - 00:01:15] 1.1, 1.1, acá crea la especificación del producto.
+[00:01:17 - 00:01:23] En 1.2 está añadiendo la próxima especificación al multivjeto, eso es lo que hace.
+[00:01:23 - 00:01:35] En 1.1, 1.2, 1.1, apes la especificación del...
+[00:01:35 - 00:01:43] Lo que pasa es que lo que yo estoy entrando, el catálogo de producto le dice la especificación al multivjeto
+[00:01:43 - 00:01:48] primero, ver el agar y después crea el producto, me parece que va a hacer eso.
+[00:01:48 - 00:01:54] Y luego va a enseñar un video y me voy a guardar la referencia, no solo una edificio,
+[00:01:54 - 00:02:00] todo todo lo que no. Y cuál es tu consulta? Volveme la repetir.
+[00:02:00 - 00:02:11] La separación de 2.1, 1.1 y 1.2.1, o sea, ¿por qué lo hace como distintos?
+[00:02:12 - 00:02:16] Si está creando, si haces el create solo, el que no tiene nada ningún parámetro,
+[00:02:16 - 00:02:20] ese sería el llamado el constructor, es nada más, es una indicación.
+[00:02:20 - 00:02:26] El patrón en sí aplicado es ese y después el otro es la creación de especificación del producto,
+[00:02:26 - 00:02:32] 1.1, que ese se hace un paso aparte.
+[00:02:32 - 00:02:35] Bien, María, bien, que se hace aparte.
+[00:02:35 - 00:02:40] O decir que no tiene sentido que el catálogo del producto tenga el create,
+[00:02:40 - 00:02:43] la especificación del producto y después ha dado otro create,
+[00:02:43 - 00:02:48] ha dado la especificación del producto de no algún diogeto al otro.
+[00:02:48 - 00:02:54] No sé si no tiene sentido, pero no se habría una forma como de separarlo,
+[00:02:54 - 00:02:57] porque vio de separarlo, de adjuntarlo.
+[00:02:57 - 00:02:59] Eso. Porque me resulta...
+[00:02:59 - 00:03:03] Y que lo hubiera hecho, lo hubiera hecho, dentro del...
+[00:03:03 - 00:03:06] Lo que pasa es cuando uno habla de un diogeto,
+[00:03:06 - 00:03:11] y también no me gusta poner especificación del producto y un diogeto.
+[00:03:11 - 00:03:15] Yo haría, por ejemplo, catálogo del producto, o igual o por el estilo,
+[00:03:15 - 00:03:19] para que me dé la idea de que es un contenedor.
+[00:03:19 - 00:03:24] Yo acá lo veo mal que haya hecho un create para crear, digamos,
+[00:03:24 - 00:03:27] como si fuera el catálogo de todas las especificaciones del producto,
+[00:03:27 - 00:03:33] no voy a hablar de un diogeto, aunque sea un diogeto.
+[00:03:34 - 00:03:39] Después, lo que es el catálogo del producto, a través de un meto,
+[00:03:39 - 00:03:43] le dice, bueno, tenés a ID, precio, descripción, creado.
+[00:03:43 - 00:03:47] Yo no lo veo mal.
+[00:03:47 - 00:03:55] Lo que pasa es que la lógica es que el catálogo vaya a especificación del producto
+[00:03:55 - 00:03:59] y el multiogeto después vaya al objeto en sí.
+[00:03:59 - 00:04:02] Sí, tendría más sentido eso.
+[00:04:03 - 00:04:08] Pero bueno, no sé por qué lo armó de esa manera de todas maneras,
+[00:04:08 - 00:04:11] lo permite por la visibilidad que tiene.
+[00:04:11 - 00:04:15] Ahí le está mandando por parámetros dentro del meto,
+[00:04:15 - 00:04:18] así que no estaría mal.
+[00:04:19 - 00:04:22] Bueno, no estaría mal.
+[00:04:22 - 00:04:27] No estaría mal, o sea, lo tiene permitido, digamos.
+[00:04:29 - 00:04:33] Lo tiene permitido, porque está pasando directamente de la ID,
+[00:04:33 - 00:04:36] no le está pasando todo lo bueno.
+[00:04:36 - 00:04:44] Yo creo que está bien la lógica.
+[00:04:44 - 00:04:48] Claro, porque el catálogo de productos maneja los multiogetos
+[00:04:48 - 00:04:51] y la especificación del producto sí, está bien.
+[00:04:51 - 00:04:55] Lo puede hacer de esa manera.
+[00:04:55 - 00:04:57] No está mal.
+[00:04:57 - 00:04:59] Lo que vamos a decir es que dentro del...
+[00:04:59 - 00:05:03] Lo que pasa que ahí lo que quiero creo que quería hacer larmanes,
+[00:05:03 - 00:05:09] es decir, bueno, tengo todos los metos de multiogeto
+[00:05:09 - 00:05:11] que lo maneja un multiogeto,
+[00:05:11 - 00:05:14] y después puedo también tener una relación estrecha
+[00:05:14 - 00:05:16] con lo que es especificación del producto
+[00:05:16 - 00:05:18] y un producto determinado.
+[00:05:18 - 00:05:26] Es de tal manera que todos los comportamientos que manejen
+[00:05:26 - 00:05:31] los objetos en su conjunto lo maneja ese multiogeto
+[00:05:31 - 00:05:34] si después especificación del producto.
+[00:05:34 - 00:05:37] Entonces, ¿para qué voy a pasar?
+[00:05:37 - 00:05:40] Lo tiene de esa manera, porque claro, catálogo de productos
+[00:05:40 - 00:05:41] es el contenedor.
+[00:05:41 - 00:05:43] No, no, yo no veo bien, ¿eh?
+[00:05:43 - 00:05:45] No lo veo bien.
+[00:05:45 - 00:05:48] No lo veo mal.
+[00:05:48 - 00:05:50] Si queréis lo vemos el...
+[00:05:50 - 00:05:51] Cuando... que tenemos la mano...
+[00:05:51 - 00:05:54] A mí termina de cerrar, o algo que voy a hacer y el investir.
+[00:05:54 - 00:05:58] No sé, que tenemos clase presencial y lo analizamos.
+[00:05:58 - 00:06:00] Hay con papel y lo vemos.
+[00:06:00 - 00:06:01] Pero no está en el lado.
+[00:06:01 - 00:06:04] Y el último en el dos ya directamente en el dos
+[00:06:04 - 00:06:06] que hacer que crea el registro.
+[00:06:06 - 00:06:09] Claro, hay el registro ya no lo guardan ningún lado.
+[00:06:09 - 00:06:13] O sea, el registro es solamente solo para el registro.
+[00:06:13 - 00:06:17] O sea, pasa el registro a una referencia de catálogo de cosas
+[00:06:17 - 00:06:19] estamos orientados al analizador.
+[00:06:19 - 00:06:20] Págancame.
+[00:06:20 - 00:06:26] Él tienda hacer un cría de registro,
+[00:06:26 - 00:06:30] una referencia de catálogo de productos de manera que
+[00:06:30 - 00:06:34] él tiene insidía permanente a este.
+[00:06:35 - 00:06:39] Yo no lo haría contienda que crea el registro.
+[00:06:39 - 00:06:44] Es más analizado porque es más registro y siquiera
+[00:06:44 - 00:06:46] sería el gestor de suyo.
+[00:06:46 - 00:06:49] Se había un juego de repartimiento de registro.
+[00:06:49 - 00:06:50] Claro, sí.
+[00:06:50 - 00:06:52] Que tienda crear el registro, no.
+[00:06:52 - 00:06:56] Para mí, el registro tiene que estar creado capaz de
+[00:06:56 - 00:06:59] con alguna clase artificial que día bueno.
+[00:06:59 - 00:07:01] Cuando empiezo a armar todos los objetos,
+[00:07:02 - 00:07:05] hay algunas clases que las tengo que ya tener creadas.
+[00:07:05 - 00:07:07] Y acá está bien lo que le dice catálogo de productos,
+[00:07:07 - 00:07:10] no la tenés que crear, ya la tenés que la pasen.
+[00:07:10 - 00:07:13] Te paso todo el objeto, todo el catálogo de productos
+[00:07:13 - 00:07:15] a lo que sería el gestor.
+[00:07:15 - 00:07:18] Entonces no necesitas crearlo.
+[00:07:18 - 00:07:23] Para mí lo que quiere hacer es que como no tiene una clase
+[00:07:23 - 00:07:28] y está bien porque recién está al inicio del análisis
+[00:07:28 - 00:07:32] y el arma no llega al código.
+[00:07:32 - 00:07:37] Para mí lo que quiere hacer es decir, bueno, hay clases que
+[00:07:37 - 00:07:39] yo las necesito que las tengo que instanciar,
+[00:07:39 - 00:07:44] obviamente las tenés que instanciar y no armó un objeto
+[00:07:44 - 00:07:48] que nosotros tenemos que ser yo, no sé, un objeto cuándo
+[00:07:48 - 00:07:52] vos comenzás a trabajar y, bueno, voy a crear un objeto
+[00:07:52 - 00:07:56] y hago las primeras instancias básicas y registro
+[00:07:56 - 00:08:01] y registro, tiene que estar catálogo, ya tiene que estar creado
+[00:08:01 - 00:08:04] y no tales por alguna de negocios y no por lo.
+[00:08:04 - 00:08:07] Por alguna como le había puesto yo, te decía,
+[00:08:07 - 00:08:12] había escrito por acá.
+[00:08:12 - 00:08:18] Hay una clase que sea como el setup,
+[00:08:18 - 00:08:24] no creo que había ya puesto ese nombre.
+[00:08:24 - 00:08:31] Pero vos tenés una clase básica, no capaz que no les escribir,
+[00:08:31 - 00:08:37] para instanciar clases, sino que como que estoy dando
+[00:08:37 - 00:08:42] al control de la gestor capaz de crear un catalo de producto
+[00:08:42 - 00:08:45] y no es de su responsabilidad.
+[00:08:45 - 00:08:50] Hay algunas clases que ya tienen que estar creadas, ¿ok?
+[00:08:50 - 00:09:00] Lo puse acá. No sé si me entres de esa loga punto.
+[00:09:00 - 00:09:03] Es decir, bueno, tengo, por ejemplo, no sé, voy a hacer.
+[00:09:03 - 00:09:06] Creo que sí, o sea, es la necesidad de asignar la responsabilidad
+[00:09:06 - 00:09:09] de que exista, de que alguien lo crea.
+[00:09:09 - 00:09:16] Claro, o sea, yo sé que por ejemplo, bueno, alumno, no, pero decir,
+[00:09:16 - 00:09:23] bueno, registro, estoy trabajando en un supermercado.
+[00:09:23 - 00:09:26] Y digo, bueno, el catalo ya está,
+[00:09:26 - 00:09:29] no voy a cada vez que paso por un gestor,
+[00:09:29 - 00:09:32] voy a preguntarme, el catalo está creado,
+[00:09:32 - 00:09:34] si no lo creo por primera vez,
+[00:09:34 - 00:09:37] y ya sé, años que está creado el catalo,
+[00:09:37 - 00:09:40] me va siguiendo el objeto.
+[00:09:40 - 00:09:44] Entonces lo que yo haría es decir, bueno, tengo una clase,
+[00:09:44 - 00:09:47] al inicio, la primera vez que lo secuto tengo,
+[00:09:47 - 00:09:51] una clase que arma de set up, que es como si fuera el main,
+[00:09:51 - 00:09:54] donde digo, bueno, empieza a crear primero las clases básicas.
+[00:09:54 - 00:09:57] Entonces, no le doy esa responsabilidad de atienda,
+[00:09:57 - 00:10:01] aquí no tendría porque crear ese gestor.
+[00:10:01 - 00:10:05] Ok, acá te lo está haciendo, porque está relacionando un poco
+[00:10:05 - 00:10:09] el análisis y no se acercó a esa transformación.
+[00:10:09 - 00:10:13] No llegó a ese nivel de atracción bastante bajo.
+[00:10:13 - 00:10:18] Para mí lo que intenta hacer es eso, por eso yo digo, no estaría mal.
+[00:10:18 - 00:10:23] Ahora, si yo lo tengo que mejorar y me estoy acercando cada vez al código
+[00:10:23 - 00:10:28] y voy a crear una clase artificial con algunos patros en el terminado,
+[00:10:28 - 00:10:31] si yo digo, bueno, voy a crear primer un set up,
+[00:10:31 - 00:10:36] una clase set up para tener algunos objetos y que registro,
+[00:10:36 - 00:10:40] no sé, especificación del producto o tienda, alumnos, clases que ya
+[00:10:40 - 00:10:44] tienen que estar construida, no tener que crearla, ya están.
+[00:10:44 - 00:10:47] Y ya entamente le pasa el objeto.
+[00:10:47 - 00:10:49] Yo creo que...
+[00:10:49 - 00:10:53] No, no, yo creo que no tiene que tener la responsabilidad de crear
+[00:10:53 - 00:10:55] registro, ¿eh?
+[00:10:55 - 00:10:58] No le correspondería si me voy acercando.
+[00:10:58 - 00:11:03] Estas creo que haber bancarme, que me voy a ver si...
+[00:11:03 - 00:11:07] está bueno lo que estás preguntando, bancarme,
+[00:11:07 - 00:11:09] voy a ver a la arma en un momento.
+[00:11:09 - 00:11:17] Bueno, yo por eso pregunté porque seguro que me han estado...
+[00:11:17 - 00:11:18] No, no, no, no.
+[00:11:18 - 00:11:21] Pero quería entender cómo pensaba la arma en cuando ha sido eso.
+[00:11:21 - 00:11:24] Gracias, por favor.
+[00:11:24 - 00:11:39] ¿Cuál era el cúmode que he hecho?
+[00:11:39 - 00:11:53] Según el creador controlado, todo estaba creado,
+[00:11:53 - 00:11:56] era el 30 de este 7, estaría bien en mi pote, todo.
+[00:11:56 - 00:12:04] 17, 17, no es 18.
+[00:12:04 - 00:12:16] La idea de creación yización se haría en la parte de la necesidad de trabajo
+[00:12:16 - 00:12:19] del diseño interior, si necesitan creer una tienda,
+[00:12:19 - 00:12:22] registro de catálogos, objetos específicos del producto,
+[00:12:22 - 00:12:26] si necesitan la figura, muestra un diseño,
+[00:12:26 - 00:12:28] si escogió la tienda,
+[00:12:28 - 00:12:31] si escogió la que tiene para crear catálogos del producto
+[00:12:31 - 00:12:33] y el registro segura el patrón creador.
+[00:12:33 - 00:12:36] Yo para mí no tiene sentido, ¿ok?
+[00:12:36 - 00:12:40] Pero bueno, está en nivel de la extracción más cerca al diseño todavía.
+[00:12:40 - 00:12:45] Si vos vas a pretender que tiene agua, torc, cree un gestor
+[00:12:45 - 00:12:48] y la realidad es que no está bueno.
+[00:12:48 - 00:12:53] Pero de acuerdo a las clases que tiene la puso ahí,
+[00:12:53 - 00:12:56] a veces uno hace eso, ¿no?
+[00:12:56 - 00:12:59] Se le hicieron el catálogo de productos para crear los objetos de especificación.
+[00:12:59 - 00:13:03] Recuerde que el este ojo que creación de las especificas tenés
+[00:13:03 - 00:13:08] es temporal. En el diseño general se matarellizará desde una base de datos
+[00:13:08 - 00:13:11] cuando sea necesario.
+[00:13:11 - 00:13:14] Integua la aclaración.
+[00:13:14 - 00:13:19] Es una desviación interesante entre el modelo real y en el señal.
+[00:13:19 - 00:13:23] Una tienda real podría al vergar muchos registros o terminares.
+[00:13:23 - 00:13:27] Si me amargues, estamos considerando un diseño de software no en la vida real.
+[00:13:27 - 00:13:30] En nuestros registros actuales nuestra tienda
+[00:13:30 - 00:13:34] solo necesita crear una única distancia de registros software.
+[00:13:34 - 00:13:39] Yo no lo haría contienda. No me parece que tenga esa responsabilidad de creador.
+[00:13:39 - 00:13:45] Está pero en el momento que él está diciendo lo tomo,
+[00:13:45 - 00:13:50] porque digamos es el objeto que tengo, no lo consideré mal en el libro.
+[00:13:50 - 00:13:55] Pero sí no le corresponde a tienda ser el creador.
+[00:13:55 - 00:13:57] En el momento en que quitamos los otros,
+[00:13:57 - 00:14:01] en el momento en que ya tenemos que ir haciendo ese doble clic
+[00:14:01 - 00:14:04] y ir dándole bajar ese nivel de atracción.
+[00:14:04 - 00:14:08] Bajar ese nivel de atracción.
+[00:14:08 - 00:14:13] Es lo que ya les decía y al principio los actores para ustedes
+[00:14:13 - 00:14:16] son al principio todos clases.
+[00:14:16 - 00:14:19] Y capaz que esas clases podrían decir,
+[00:14:19 - 00:14:29] que el juego no voy a crear el alumno, va a crear la registración.
+[00:14:29 - 00:14:31] Y no le corresponde.
+[00:14:31 - 00:14:35] Pero en la fase de análisis está bien porque está sentiendo el problema.
+[00:14:35 - 00:14:38] Cuando guayas, estás haciendo varias transformaciones
+[00:14:38 - 00:14:41] y no es lo que le corresponde.
+[00:14:41 - 00:14:46] Nosotros por eso yo creo que te digo tienda para mí no es el responsable de crear un gestor.
+[00:14:46 - 00:14:49] Eso ya tiene que estar.
+[00:14:49 - 00:14:53] Igual que estuvo bueno eso que dijiste de setup como lo nombres de setup.
+[00:14:53 - 00:14:55] No sé si así es la montaña.
+[00:14:55 - 00:14:58] No sé si lo dijiste acá.
+[00:14:58 - 00:15:00] Esa está interesante.
+[00:15:00 - 00:15:02] Claro que yo puedo comprender.
+[00:15:02 - 00:15:04] Tener clases.
+[00:15:04 - 00:15:06] Porque si no imagínate me voy este ejemplo.
+[00:15:06 - 00:15:08] Vamos con algo concreto.
+[00:15:08 - 00:15:12] Yo creo que está en la ejercicia acá.
+[00:15:12 - 00:15:13] Esa son consultas.
+[00:15:13 - 00:15:15] Una está mal pero no importa.
+[00:15:15 - 00:15:17] Después le digo acá, ven acá.
+[00:15:17 - 00:15:33] Y lo agirante que tenés todo esto.
+[00:15:33 - 00:15:35] Y tenés dos controladores.
+[00:15:35 - 00:15:40] Yo no necesito ni quién no va a hacer el cristancia en los controladores por primera vez.
+[00:15:40 - 00:15:45] Yo no sé si tan si.
+[00:15:45 - 00:15:48] Siempre voy a necesitar alguien que va a ser creador.
+[00:15:48 - 00:15:50] ¿Está muy acuerdo?
+[00:15:50 - 00:15:53] Sí, sí.
+[00:15:53 - 00:15:58] Entonces claro, digo bueno para al principio digo bueno, arme una clase.
+[00:15:58 - 00:16:04] Obviamente voy a tener que armar una fabricación pura y voy a decir bueno.
+[00:16:04 - 00:16:10] Porque excede al mundo real y yo voy a tener que armar una clase que puede ser setup.
+[00:16:10 - 00:16:12] Yo no me acuerdo el nombre que le puse.
+[00:16:12 - 00:16:15] Había encontrado un nombre más lindo.
+[00:16:15 - 00:16:19] Y bueno, algunas clases las tengo que crear.
+[00:16:19 - 00:16:25] Que tienen que estar dentro del dominio para que por ejemplo no sé.
+[00:16:26 - 00:16:32] Trabajo que es la voy a tener un único trabajo, una única clase de trabajo.
+[00:16:32 - 00:16:39] Y no la tenga que crear el controlador del controlador de la nácticlíquico o de gestor de nácticlíquico.
+[00:16:39 - 00:16:43] Directamente voy a tener una especie de setup y digo bueno, ¿quién necesito tener?
+[00:16:43 - 00:16:51] Y posiblemente voy a necesitar nomina, gestores, nomina, trabajo, catálogo.
+[00:16:51 - 00:16:52] Eso ya está.
+[00:16:53 - 00:16:58] Después tengo gestor, le paso todo el objeto de la nomina.
+[00:16:58 - 00:17:01] No tiene responsabilidad de creación, ya están creados.
+[00:17:03 - 00:17:09] Entonces todo lo que es administrativo y posiblemente necesito crear una fabricación pura, una especie de setup,
+[00:17:09 - 00:17:16] una clase de setup o algo que no lo vemos nosotros, pero que volvó que les que tener en mente que en algún momento lo vas a necesitar.
+[00:17:17 - 00:17:22] Si yo haría que las clases importantes estén ahí, la creación.
+[00:17:22 - 00:17:27] Como si fuera el main, digo bueno, ¿qué necesito crear esto?
+[00:17:27 - 00:17:30] Y después sí, empiezo a utilizar todos los objetos.
+[00:17:34 - 00:17:37] Pero hay clases que es más, yo lo voy también con...
+[00:17:37 - 00:17:39] Yo lo explico también con la parte de la administración.
+[00:17:39 - 00:17:46] Usted va a crear un gestor por cada vez que hacen una VM y la realidad que nos llenamos de eso.
+[00:17:47 - 00:17:53] Acá lo que vamos a poner es ser un foco a los principales objetos y después nomina de paciente.
+[00:17:53 - 00:17:58] Y yo es la realidad de que no quiero el controlador, el gestor de pacientes crea la nomina.
+[00:17:58 - 00:18:02] Eso para mí ya viene y es más acá creo que lo puse, ¿ver?
+[00:18:02 - 00:18:07] Pacientes. Es un objeto que te pase todos los pacientes,
+[00:18:07 - 00:18:12] te pase toda la nomina, arreglate a alguien saló hizo.
+[00:18:12 - 00:18:19] ¿Vaya a guillar más?
+[00:18:20 - 00:18:24] Sí, sí, creo que lo voy a seguir mirando igual, pero gracias.
+[00:18:26 - 00:18:28] Gracias, ahí lo otro bien, de normal que no se me está puesto muy bueno.
+[00:18:28 - 00:18:29] Y yo creo que ya estaría.
+[00:18:29 - 00:18:34] Claro, si no es como que le estoy dando una responsabilidad,
+[00:18:34 - 00:18:38] alguien que no le corresponde, es decir como si huban alumno,
+[00:18:38 - 00:18:41] tiene la responsabilidad de crear la clase y no.
+[00:18:41 - 00:18:48] Y ahora la clase que él la crea, me diría otro sector.
+[00:18:49 - 00:18:52] Sí, bueno la crea el departamento de alumnos.
+[00:18:52 - 00:18:55] Ah bueno, ¿y quién crea el departamento de alumnos?
+[00:18:55 - 00:19:02] Ah bueno, me voy a un nivel superior y bueno, lo crea en la universidad.
+[00:19:02 - 00:19:04] Y bueno, ¿y quién crea la clase de universidad?
+[00:19:04 - 00:19:06] Y ahí ya no me quedan a alguien.
+[00:19:06 - 00:19:11] Entonces hay algunas clases que las tengo que armar de alguna manera,
+[00:19:11 - 00:19:15] creo esa clase artificial, la especie de setup, y bueno, no sé,
+[00:19:16 - 00:19:18] la clase universidad de departamento.
+[00:19:18 - 00:19:21] Entonces salas crides, pues después de ser el objeto,
+[00:19:21 - 00:19:24] aquí no necesite todo el objeto, aquí no necesite.
+[00:19:24 - 00:19:28] Hacea controladores, estores, es lo que necesitas.
+[00:19:28 - 00:19:31] Está muy buena tu pregunta.
+[00:19:31 - 00:19:34] Ahí me he quedado mucho más claro, no robas, no lo chata.
+[00:19:34 - 00:19:35] No, por favor.
+[00:19:35 - 00:19:39] Igual que usted vengo un poquito más tranquila,
+[00:19:39 - 00:19:42] porque tenemos una clase más,
+[00:19:43 - 00:19:48] a diferencia de los de las lunes que los estoy rematando,
+[00:19:50 - 00:19:54] así que está bueno que esto pase.
+[00:19:54 - 00:19:58] La última clase previo el examen, que ya me voy a fijar,
+[00:19:58 - 00:20:01] acá se las voy a notar todo.
+[00:20:01 - 00:20:06] Tenemos la clase de hoy y la del 8 que es virtual.
+[00:20:06 - 00:20:10] La clase del 15 que es previo el examen,
+[00:20:10 - 00:20:13] la vamos a hacer presencial y ahí si lo que les voy a pedir es que,
+[00:20:13 - 00:20:16] vengan con ejercicios y que vengan con dudas,
+[00:20:16 - 00:20:20] es importante que nos tengan hecho en papel.
+[00:20:20 - 00:20:24] El Espido eso saben por qué, porque a veces en la computadora,
+[00:20:24 - 00:20:28] o sea no tengo problema de ver un ejercicio por computadora.
+[00:20:28 - 00:20:31] Pero la realidad es que el examen para ustedes va a ser en papel.
+[00:20:31 - 00:20:34] Entonces estuvieron estudiando siempre en la computadora
+[00:20:34 - 00:20:39] y el día que tiene el examen no se ubican en el espacio con el papel,
+[00:20:40 - 00:20:43] con el papel, parece una tontería, pero no se ubican con el espacio con el papel,
+[00:20:43 - 00:20:48] no saben trabajar con varios vistas en el papel,
+[00:20:48 - 00:20:51] porque siempre lo hicieron a través de la computadora.
+[00:20:51 - 00:20:56] Entonces, a la ejercicio, aunque sea de práctica con papel.
+[00:20:56 - 00:20:57] Pero fue?
+[00:20:57 - 00:20:58] Sí.
+[00:20:58 - 00:21:05] Una consulta, ¿qué tanto nivel de talle es esencial en los atributos,
+[00:21:06 - 00:21:08] en la privación de los métodos?
+[00:21:08 - 00:21:10] Creo que algo habías mencionado, pero...
+[00:21:10 - 00:21:12] Y los que sigan más relevantes.
+[00:21:12 - 00:21:13] Claro.
+[00:21:13 - 00:21:18] Si va por efecha, no te voy a pedir que me pongas hacia la atributo fecha,
+[00:21:18 - 00:21:24] está hacia ese privado público, está hacia la clase fecha,
+[00:21:24 - 00:21:26] eso es la verdad que no, pum pum.
+[00:21:26 - 00:21:30] O sea que refleje lo más importante que pienen en el enunciado suficiente.
+[00:21:30 - 00:21:31] Exacto.
+[00:21:32 - 00:21:35] Si os ves que yo estás haciendo un diagrama de secuencias
+[00:21:35 - 00:21:40] y ahí estás pasando un objeto determinado dentro de un parámetro y bueno,
+[00:21:40 - 00:21:45] ponelo, pero es más, si me ponen datos y abajo de ponentatos,
+[00:21:45 - 00:21:49] le paso de lo objeto y está más que bien.
+[00:21:49 - 00:21:55] Pero tampoco lo dejen vacío,
+[00:21:55 - 00:22:00] porque no puede evaluar determinados,
+[00:22:01 - 00:22:03] buenas prácticas del diseño,
+[00:22:03 - 00:22:06] si dejan solamente las clases y no tiene atributos, no tiene métodos.
+[00:22:06 - 00:22:09] Entonces hay cosas que yo no las puede evaluar.
+[00:22:09 - 00:22:12] Yo lo que voy a evaluar es que tengan los principios del buen diseño.
+[00:22:12 - 00:22:15] Entonces, los principios del buen diseño es que se va a modular,
+[00:22:15 - 00:22:20] que se experto, como voy a evaluar experto si no por ningún método.
+[00:22:20 - 00:22:24] ¿Me va siguiendo? ¿Dónde a punto?
+[00:22:24 - 00:22:26] Sí, sí.
+[00:22:26 - 00:22:28] Ahora, si no, pues lo haget y lo has set.
+[00:22:29 - 00:22:33] Yo tampoco los puedo evaluar, porque si es algo que...
+[00:22:33 - 00:22:35] como se llama,
+[00:22:35 - 00:22:41] las herramientas, las hides de desarrollo,
+[00:22:41 - 00:22:44] y hoy en día la hí de desarrollo se informa automática,
+[00:22:44 - 00:22:46] lo set y lo has de...
+[00:22:46 - 00:22:49] No me interesa absolutamente, no me aporta ningún valor
+[00:22:49 - 00:22:58] y es algo que lo has de una transformación prácticamente de una hí de desarrollo.
+[00:22:59 - 00:23:04] Por eso no me interesa a los dedos, si me interesa que ustedes puedan
+[00:23:04 - 00:23:10] identificar las funcionalidades importantes y cuál es el experto de cada uno
+[00:23:10 - 00:23:14] de esos comportamientos. Eso sí me fijó.
+[00:23:14 - 00:23:19] Si me pones, por ejemplo, voy ahora a crear...
+[00:23:19 - 00:23:24] Vamos a este ejercicio, allá los arries.
+[00:23:25 - 00:23:31] Estoy con el ejercicio de gimnasio, y bueno, crear clase y la clase
+[00:23:31 - 00:23:42] lo va a crear, y es eso, el pate, la clase pagos y no tiene sentido.
+[00:23:44 - 00:23:45] No tiene sentido.
+[00:23:45 - 00:23:49] Entonces, si es experto, me fijó, ¿qué clase...
+[00:23:49 - 00:23:53] qué fabricación es pura armate si tiene sentido?
+[00:23:54 - 00:24:02] Si vos creas solamente dominio y no tenés una fabricación pura,
+[00:24:02 - 00:24:08] es que también tiene un nivel muy arriba con un nivel de una fracción
+[00:24:08 - 00:24:12] muy elevada, que no logras sentir que para llevarlo a código necesitas
+[00:24:12 - 00:24:14] crear fabricaciones puras.
+[00:24:14 - 00:24:18] Y una fabricación pura puede ser un contenedor.
+[00:24:19 - 00:24:24] Después la modularidad, yo veo si vos realmente pensaste
+[00:24:24 - 00:24:28] en paquetes de acuerdo a la relación de control barra gestor,
+[00:24:28 - 00:24:33] con lo que lo como quieran, con tu diagrama o con tus clases
+[00:24:33 - 00:24:38] del dominio, más las clases artificiales de fabricación pura.
+[00:24:38 - 00:24:43] Entonces ahí yo veo cómo pudiste es model, cómo insiste las separaciones
+[00:24:43 - 00:24:48] en convencias. Y está totalmente de desprelíjo, no lo puedo evaluar
+[00:24:48 - 00:24:51] si uno de los relacionantes es con otro.
+[00:24:52 - 00:24:58] Que los mensajes sean anónimos, ya pasamos las fases de analismo
+[00:24:58 - 00:25:01] de la internet, el alumno genera y tenés todo el flujo.
+[00:25:01 - 00:25:05] A mí no me interesa el alumno, sí me interesa con la cuentidad,
+[00:25:05 - 00:25:10] pero no me interesa aquí el emisor porque yo necesito que sean emisores
+[00:25:10 - 00:25:13] anónimos para que llegue de mañana o sea.
+[00:25:13 - 00:25:20] El alumno que hizo click en la tableta, el alumno que hizo click en la computadora,
+[00:25:20 - 00:25:27] un excel que subió la secretaria para crear todas las registraciones
+[00:25:27 - 00:25:33] porque en ese momento no andaba el sistema, estaba o un mensaje
+[00:25:33 - 00:25:39] que contesta por WhatsApp alguien y se anotaba en la escribaba en esta clase,
+[00:25:39 - 00:25:45] tengo una gente y aquí está leyendo esa respuesta que le mandaste por WhatsApp
+[00:25:46 - 00:25:51] y le mando un mensaje, un servicio a la clase y se registra a tal persona.
+[00:25:51 - 00:25:58] Entonces yo lo que necesito ver que ustedes entiendan que el emisor,
+[00:25:58 - 00:26:01] digamos, es anónimo.
+[00:26:01 - 00:26:05] O sea que en análisis no lo ven y está bien que no lo vean
+[00:26:05 - 00:26:08] porque están en la etapa de entendimiento del negocio,
+[00:26:08 - 00:26:12] pero ya después cuando me voy acercando, yo tengo que lograr
+[00:26:12 - 00:26:19] tener un nivel de atomicidad y que sea lo más atómico posible
+[00:26:19 - 00:26:24] para que después el día de mañana sean servicios.
+[00:26:24 - 00:26:28] Me va siguiendo.
+[00:26:28 - 00:26:30] Sí, sí, sí, perfecto.
+[00:26:30 - 00:26:33] Entonces no me interesa, por eso siempre los mensajes en el diseño
+[00:26:33 - 00:26:35] la mayoría son anónimos.
+[00:26:35 - 00:26:42] Si estás con el hombre palo, no logra en hacer ese click en la cabeza.
+[00:26:42 - 00:26:45] Por eso los dejo anónimos.
+[00:26:45 - 00:26:50] Tengo todos los buenos principios del diseño, gente, vamos acá.
+[00:26:50 - 00:26:55] Esto es importante, por eso lo tengo un minuto,
+[00:26:55 - 00:27:04] creo que los viven por acá.
+[00:27:04 - 00:27:09] Algunos los tengo por acá, autos por allá, en otras presentaciones,
+[00:27:09 - 00:27:10] pero están acá.
+[00:27:10 - 00:27:21] Axtracción, un atributo de calidad, que sea cuysivo.
+[00:27:22 - 00:27:26] Obviamente todo lo que he dicho en el todo objeto, que esté bien escrito,
+[00:27:26 - 00:27:32] UML, que sea UML correcto, es importante porque es un lenguaje.
+[00:27:32 - 00:27:36] Yo lo tengo que entender, que tendría independencia funcional,
+[00:27:36 - 00:27:41] que te desea modular patrones, trantos, graps, como ahora vamos a ver vos.
+[00:27:41 - 00:27:46] Está y que bueno logra en bajar ese nivel de atracción.
+[00:27:47 - 00:27:55] Hay muchísimos más que fueron incorporando en las otras presentaciones,
+[00:27:55 - 00:28:01] pero básicamente es lo que siempre tomo, o sea patrones, graps,
+[00:28:01 - 00:28:10] y gof, conceptos del buen diseño que se logran y su transformación.
+[00:28:11 - 00:28:23] Obviamente que si no ponen mensajes, si las clases no tienen mensajes,
+[00:28:23 - 00:28:33] y yo no puedo evaluar, entonces la realidad es que en completo el ejercicio.
+[00:28:33 - 00:28:38] Por lo tanto, siempre yo les digo si traten de identificar los verbos importantes,
+[00:28:38 - 00:28:43] ver que esas funcionalidades estén dentro de su diagrama,
+[00:28:43 - 00:28:56] y que encuentren en la clase que realmente le corresponde hacerse cargo de ese método.
+[00:28:56 - 00:29:04] Después también he evaluado que si ustedes ponen algunos adributos que las tienen que poner,
+[00:29:04 - 00:29:10] y no tengo por ejemplo, tengo que otro método, acceder esos adributos,
+[00:29:11 - 00:29:16] y lo cambia y la realidad es que no se expertos sobre sus propios datos,
+[00:29:16 - 00:29:20] ahí también hay errores.
+[00:29:20 - 00:29:28] Yo lo que les recomiendo y que sirve muchísimo es que se queden todas las buenas prácticas del diseño.
+[00:29:28 - 00:29:33] Eso es un ejercicio y empiezan.
+[00:29:33 - 00:29:40] UML comprallan, es decir, si un piseo un lenguaje UML correcto, y he evaluado.
+[00:29:41 - 00:29:46] Me falta la multiplicidad, ustedes hagan su propia evaluación.
+[00:29:46 - 00:29:52] Me falta de una multiplicidad, no está ordenado, sólo de arriba hacia abajo,
+[00:29:52 - 00:29:58] izquierda derecha, por lo tanto puse los gestones donde quería,
+[00:29:58 - 00:30:05] no le falta en la navegabilidad a las asociaciones, le falta a nombres,
+[00:30:06 - 00:30:11] no puse en un atributo, puse muy pocos, está evaluado en eso.
+[00:30:11 - 00:30:18] La erencia, la escribimos, la dibujema, son cosas que uno va evaluando,
+[00:30:18 - 00:30:20] sigo con el segundo.
+[00:30:20 - 00:30:28] Separación de incumbencias, como se parece, como se la muda de la realidad,
+[00:30:28 - 00:30:33] porque es una herramienta para aplicar eso, para aplicarse para hacer incumbencias,
+[00:30:34 - 00:30:38] como hice la movilidad y la realidad, tengo acá una ronda,
+[00:30:38 - 00:30:44] tengo que dar la vuelta, está y armarlo, está, aplicaste, sí,
+[00:30:44 - 00:30:48] cómo está la relación entre los controller barra gestores,
+[00:30:48 - 00:30:51] control gestor con el modelo, está bien.
+[00:30:51 - 00:30:55] Híste separación en capas, utilizaste, se me desea y sí,
+[00:30:55 - 00:31:01] primero dice los control, después los gestores, pues el negocio y clases art y clases de fabricación pura.
+[00:31:02 - 00:31:08] Seguimos adelante, qué evaluado, Patrones Grab,
+[00:31:08 - 00:31:11] empiezo con los más básicos expertos y creadores,
+[00:31:11 - 00:31:16] si tengo un contenerador, es porque posiblemente se vea creador,
+[00:31:16 - 00:31:23] está el mensaje, no, bueno, me da siguiendo como en la forma de corrección.
+[00:31:23 - 00:31:31] Sí, sí, entonces lo que les ayuda muchísimo es decir,
+[00:31:32 - 00:31:34] bueno, escribo todas las buenas prácticas del diseño,
+[00:31:34 - 00:31:38] escribo todos los Patrones Grab, esto para ir estudiando,
+[00:31:38 - 00:31:41] escribo todos los Patrones Grab y empiezo.
+[00:31:41 - 00:31:45] Aplique creador, no pique creador en ninguna de las clases,
+[00:31:45 - 00:31:50] bueno, capaz que tengo que analizarlo, si no tienes ningún creador,
+[00:31:50 - 00:31:52] es porque algo está faltando.
+[00:31:52 - 00:31:56] Bueno, pero esta clase contiene la otra, si la contiene,
+[00:31:56 - 00:31:59] está, la contiene por atributo, lo está colocando,
+[00:32:00 - 00:32:04] y es porque la contiene y va a ser responsable de la creación, lo colocó.
+[00:32:06 - 00:32:11] Sí, es cohesivo y sí, bueno, pero este método no le corresponde,
+[00:32:11 - 00:32:17] bueno, lo cambio, tiene un acoplamiento acorde y si tengo una única clase,
+[00:32:17 - 00:32:20] esa clase está toda relacionada con los demás,
+[00:32:20 - 00:32:24] es porque tengo que hacer una otra transformación para poder mejorar eso.
+[00:32:26 - 00:32:29] Entonces, ahí es cómo vamos a evaluar.
+[00:32:34 - 00:32:37] Y también evaluamos, obviamente, y ahí empieza la gama,
+[00:32:37 - 00:32:40] yo digo, le habéis nico de las notas,
+[00:32:40 - 00:32:43] si no hay rel... a, otra cosa que también evaluamos,
+[00:32:43 - 00:32:46] la relación que yo lo digo siempre, pero bueno,
+[00:32:46 - 00:32:51] ahora pues estamos en una forma como es la corrección.
+[00:32:51 - 00:32:54] Bueno, la integración entre las vistas,
+[00:32:54 - 00:32:57] hay relación, nada nada que ver,
+[00:32:57 - 00:32:59] tiene estudiadrama de integración,
+[00:32:59 - 00:33:02] si hace cuensión de comunicación, le importa,
+[00:33:02 - 00:33:06] creas que los objetos que no están en el diagrama de clase,
+[00:33:06 - 00:33:12] ya ni seguimos, estamos hablando de cosas muy básicas,
+[00:33:12 - 00:33:15] bueno, son cosas que evaluamos.
+[00:33:15 - 00:33:20] Y después de acuerdo, al nivel de detalle y al nivel de profundidad
+[00:33:20 - 00:33:22] y transformaciones que vos llegaste a hacer,
+[00:33:22 - 00:33:25] ahí va la nota que ponemos,
+[00:33:25 - 00:33:30] por lo tanto, hay mucha variedad de notas,
+[00:33:30 - 00:33:33] no es lo mismo, alguien que no colocó ninguna tributo,
+[00:33:33 - 00:33:36] que alguien que colocó los objetos importantes,
+[00:33:36 - 00:33:38] hizo todos los comportamientos importantes,
+[00:33:38 - 00:33:43] aplicó un buen MBC, el lenguaje de UML es correcto,
+[00:33:43 - 00:33:46] como no hay ahí van la diferencia de notas.
+[00:33:46 - 00:33:57] Los marien, ¿os fue algo productivo entender como es la corrección?
+[00:33:59 - 00:34:05] No, no, no, se entendía, la verdad que me se vio para...
+[00:34:05 - 00:34:07] Para enfocarte.
+[00:34:07 - 00:34:10] Un buen proceso para el estudio de otra gente.
+[00:34:10 - 00:34:13] Claro, sí, para hacer los ejercicios.
+[00:34:13 - 00:34:16] Puedo me pasó, quiso un diarama de clases y tardaba en un montón de tiempo
+[00:34:16 - 00:34:18] en poner a tributos y después dije,
+[00:34:18 - 00:34:21] no sé si es tan importante, ¿pueden poner tantos a tributos?
+[00:34:21 - 00:34:22] No.
+[00:34:22 - 00:34:24] Mejor hacerle implotamente.
+[00:34:24 - 00:34:26] Por que no tienes que darte cuenta en cuáles,
+[00:34:26 - 00:34:30] si solo les hablo de digo, bueno, es sin por ejemplo,
+[00:34:30 - 00:34:35] en el que hicimos de los llamas,
+[00:34:35 - 00:34:38] el último que fue el de...
+[00:34:38 - 00:34:39] Caso estáis.
+[00:34:39 - 00:34:42] Los estadios, gracias, de los estadios.
+[00:34:42 - 00:34:44] Y si estoy diciendo,
+[00:34:44 - 00:34:49] lo importante es tener un registro de quién pasa,
+[00:34:49 - 00:34:52] quién no pasa de los accesos y el registro,
+[00:34:52 - 00:34:53] ¿no?
+[00:34:55 - 00:34:58] Y no estás cumpliendo con el objetivo principal.
+[00:34:58 - 00:35:02] Otra vez las cosas que se tienen que preguntar,
+[00:35:02 - 00:35:04] es lo importante en esto.
+[00:35:04 - 00:35:06] ¿Qué es lo más importante?
+[00:35:06 - 00:35:08] ¿Qué es lo que tengo que...
+[00:35:08 - 00:35:12] No puedo viarlo? ¿Cuál es el objetivo de hacer este sistema?
+[00:35:12 - 00:35:15] Y poder registrar los accesos?
+[00:35:15 - 00:35:18] Porque si hay algún lío, la policía ya accede
+[00:35:18 - 00:35:22] como fue el tránsito de esas personas hacia el estadio.
+[00:35:23 - 00:35:25] Está por donde pasó en qué hora.
+[00:35:25 - 00:35:30] Y ahí la hora sí es importante en el registro de accesos.
+[00:35:30 - 00:35:37] Haciendo ahora,
+[00:35:37 - 00:35:40] en las otras, y tal vez no es importante la hora.
+[00:35:40 - 00:35:45] Pero si eran el registro de accesos,
+[00:35:45 - 00:35:48] entonces que ustedes tengan la discapacidad
+[00:35:48 - 00:35:52] de poder dissenir lo importante y dónde,
+[00:35:52 - 00:35:54] porque vas a decir,
+[00:35:54 - 00:35:56] y la hora es importante,
+[00:35:56 - 00:36:00] y estoy diciendo un control de saustivo del acceso
+[00:36:00 - 00:36:05] y por el hora y día.
+[00:36:05 - 00:36:11] Me va siguiendo.
+[00:36:11 - 00:36:13] Sí, profe.
+[00:36:13 - 00:36:15] Ahora, el club,
+[00:36:15 - 00:36:19] para crear el club, tiene sentido por la hora y la fecha.
+[00:36:19 - 00:36:23] Entonces, en esas cosas sí me fijó mucho.
+[00:36:32 - 00:36:36] Otra duda, y arrancamos.
+[00:36:36 - 00:36:39] Hoy tenemos una clase de teoría como un proclóspido.
+[00:36:39 - 00:36:43] ¿No te escuché?
+[00:36:43 - 00:36:45] Podemos poner notas y las diaramos,
+[00:36:45 - 00:36:49] por si llegan a ver algo que nos enviéndome.
+[00:36:49 - 00:36:50] Por ejemplo,
+[00:36:50 - 00:36:53] o sea,
+[00:36:53 - 00:36:55] puntificar cualquier puse o no,
+[00:36:55 - 00:36:57] o no puse tal atributo,
+[00:36:57 - 00:36:59] tal método en una clase.
+[00:36:59 - 00:37:01] Sí, sí.
+[00:37:01 - 00:37:03] Ahora, después,
+[00:37:03 - 00:37:07] está también, digamos,
+[00:37:07 - 00:37:08] porque vamos a decir,
+[00:37:08 - 00:37:10] ahí no te pongo la fecha,
+[00:37:10 - 00:37:12] porque no se considera...
+[00:37:12 - 00:37:15] Y bueno,
+[00:37:15 - 00:37:17] o no hice el registro porque considera que lo va a hacer,
+[00:37:17 - 00:37:19] otro de lo...
+[00:37:19 - 00:37:22] Claro, lo que te pido es que también tenga...
+[00:37:22 - 00:37:24] coherencia,
+[00:37:24 - 00:37:27] lo que vos me estás escribiendo, ¿ok?
+[00:37:27 - 00:37:29] Lo que vos me está justificando.
+[00:37:29 - 00:37:30] Porque a veces me dice,
+[00:37:30 - 00:37:31] ahí no, no, no, no.
+[00:37:31 - 00:37:33] Este módulo no lo dice,
+[00:37:33 - 00:37:35] porque bueno, lo excede el sistema.
+[00:37:35 - 00:37:37] ¿Y quién dijo que excede el sistema?
+[00:37:37 - 00:37:39] Ahí, tu meta de disinción arquitetónica.
+[00:37:39 - 00:37:40] Bueno, no.
+[00:37:40 - 00:37:42] Si es coherente, sí,
+[00:37:42 - 00:37:44] lo tomo, ¿ok?
+[00:37:45 - 00:37:47] Ahora, si me decís, bueno,
+[00:37:47 - 00:37:50] voy a crear, no sé, suponete...
+[00:37:50 - 00:37:55] una clase y considero que...
+[00:37:55 - 00:37:59] a coplé de esta manera tal...
+[00:37:59 - 00:38:00] tal...
+[00:38:00 - 00:38:02] por ejemplo,
+[00:38:02 - 00:38:05] en este módulo que es muy chiquito,
+[00:38:05 - 00:38:07] el control de gestor lo voy a unir.
+[00:38:07 - 00:38:11] Bueno, es una decisión que te la puedo aceptar, ¿ok?
+[00:38:11 - 00:38:13] Me va siguiendo, ahora sí me decís.
+[00:38:13 - 00:38:14] El módulo debe...
+[00:38:14 - 00:38:18] de un módulo de...
+[00:38:18 - 00:38:21] de manejo, de laboratorio,
+[00:38:21 - 00:38:23] de la análisis, no lo hago,
+[00:38:23 - 00:38:25] eso lo sale en externo.
+[00:38:25 - 00:38:27] Y lo sé, ¿qué tiene acuerencia?
+[00:38:27 - 00:38:29] Y parece que va a decir,
+[00:38:29 - 00:38:31] hay profesorio lo que me está diciendo,
+[00:38:31 - 00:38:32] pero a veces no es obvio,
+[00:38:32 - 00:38:34] por eso también se lo saclaro.
+[00:38:34 - 00:38:36] Obviamente, si tiene sentido,
+[00:38:36 - 00:38:39] vamos para adelante con todas las consideraciones
+[00:38:39 - 00:38:42] que ustedes contemplen.
+[00:38:42 - 00:38:44] Si no tienen consideraciones,
+[00:38:44 - 00:38:47] lo sacan algo que no va,
+[00:38:47 - 00:38:51] también no lo voy a contemplar, ¿ok?
+[00:38:51 - 00:38:54] ¿A bien?
+[00:38:54 - 00:38:57] Sí, pero hace muchas gracias.
+[00:38:57 - 00:38:58] Sí, sí, sí,
+[00:38:58 - 00:39:03] sí porque ya me ha pasado.
+[00:39:03 - 00:39:06] No dices que módulo lo manejo a través de una pextermá,
+[00:39:06 - 00:39:09] igual no perder el corazón de lo que te quería resolver.
+[00:39:09 - 00:39:25] Duda, como vienen,
+[00:39:25 - 00:39:27] barracamos,
+[00:39:27 - 00:39:29] o no iba a pasar al carco un nuevo...
+[00:39:29 - 00:39:31] No, no, no son, 53,
+[00:39:31 - 00:39:33] que se sumaron todos.
+[00:39:33 - 00:39:34] Bueno,
+[00:39:34 - 00:39:36] hoy vamos a arrancar con un nuevo tema.
+[00:39:36 - 00:39:38] Está.
+[00:39:38 - 00:39:41] La idea es,
+[00:39:41 - 00:39:44] la clase de los chicos de los lunes
+[00:39:44 - 00:39:47] debe hacer todo teoría y práctica.
+[00:39:47 - 00:39:50] La idea con ustedes, como tenemos un día más,
+[00:39:50 - 00:39:52] es poder ver toda la parte teórica
+[00:39:52 - 00:39:53] y que ustedes estudian,
+[00:39:53 - 00:39:55] para después la clase que viene,
+[00:39:55 - 00:39:58] poder hacer algunas ejercicios, ¿ok?
+[00:39:58 - 00:40:02] Algo que,
+[00:40:02 - 00:40:04] a mí me gusta mucho,
+[00:40:04 - 00:40:06] es empezar con este slide.
+[00:40:06 - 00:40:08] Y yo lo uso mucho, ¿no?
+[00:40:08 - 00:40:11] Porque la idea es poder ir evolucionando y darse cuenta que...
+[00:40:11 - 00:40:15] que uno empieza con un nivel de extracción muy elevado,
+[00:40:15 - 00:40:17] está que se llama SIM,
+[00:40:17 - 00:40:21] que es modeles dependencia de la computación,
+[00:40:21 - 00:40:24] que es lo que ustedes hacen en análisis,
+[00:40:24 - 00:40:27] es detectar los modelos de negocio,
+[00:40:27 - 00:40:28] los casos de uso,
+[00:40:28 - 00:40:31] y la realidad es totalmente independiente
+[00:40:31 - 00:40:33] al lenguaje, al sistema que...
+[00:40:33 - 00:40:35] que lo están así,
+[00:40:35 - 00:40:37] que lo van a hacer.
+[00:40:37 - 00:40:40] Y lo que estamos poniendo foco acá,
+[00:40:40 - 00:40:42] es un nivel de extracción muy elevado,
+[00:40:42 - 00:40:45] es para entender el negocio en SIM.
+[00:40:45 - 00:40:48] Obviamente, a medida que van a hacer...
+[00:40:48 - 00:40:50] dejando lo que es requerimiento,
+[00:40:50 - 00:40:52] si van pasando análisis,
+[00:40:52 - 00:40:55] hay diferentes transformaciones,
+[00:40:55 - 00:40:58] que lo que dicen es que uno le empieza
+[00:40:58 - 00:41:01] a colocar determinados patrones.
+[00:41:01 - 00:41:02] Aplicar un MBC,
+[00:41:02 - 00:41:04] es aplicar un patrón,
+[00:41:04 - 00:41:06] aplicar...
+[00:41:06 - 00:41:08] decir, bueno, voy a hacer honder
+[00:41:08 - 00:41:12] y es un cierto lineamiento,
+[00:41:12 - 00:41:14] un cierto patrón,
+[00:41:14 - 00:41:17] de alguien que ya hizo algo y sabe que anda y que está bien,
+[00:41:17 - 00:41:21] es aplicar una transformación.
+[00:41:21 - 00:41:24] A medida que van haciendo transformaciones,
+[00:41:24 - 00:41:26] porque ustedes recuerdan que para llegar
+[00:41:26 - 00:41:28] de pasar análisis y senión,
+[00:41:28 - 00:41:29] ya está llegar al código,
+[00:41:29 - 00:41:34] uno lo hace informa integrativa e incremental,
+[00:41:34 - 00:41:38] se va realizando diferentes transformaciones,
+[00:41:38 - 00:41:40] y pueden llegar a una parte de análisis,
+[00:41:40 - 00:41:44] a una comunicación de análisis que es lo que se llama el pin,
+[00:41:44 - 00:41:47] model independiente de la plataforma.
+[00:41:47 - 00:41:51] Y si tienen, puede detectar las clases más importantes,
+[00:41:51 - 00:41:53] las clases del dominio,
+[00:41:53 - 00:41:56] está como se relacionan esas clases del dominio,
+[00:41:56 - 00:41:58] pero si yo lo quiero llevar al código,
+[00:41:58 - 00:42:01] y la realidad es que todavía está bastante inmahuro,
+[00:42:01 - 00:42:04] no me sirve porque necesito crear clases
+[00:42:04 - 00:42:07] que no corresponden al dominio,
+[00:42:07 - 00:42:10] pero que me dan suporte a la que va a ser la aplicación,
+[00:42:10 - 00:42:13] si no, no lo voy a poder crear.
+[00:42:13 - 00:42:16] En el dominio no existe una clase
+[00:42:16 - 00:42:18] que sea gestión de base de datos,
+[00:42:18 - 00:42:20] pero tengo que crear algo,
+[00:42:20 - 00:42:25] alguna clase o algún paquete está algo
+[00:42:25 - 00:42:30] para poder gestionar la comunicación a la base de datos.
+[00:42:30 - 00:42:34] Entonces, empiezas a crear fabricaciones puras,
+[00:42:34 - 00:42:36] los clases artificiales,
+[00:42:36 - 00:42:41] para poder soportar todo lo que yo arme en mi dominio.
+[00:42:41 - 00:42:44] Entonces, sigo colocando patrones,
+[00:42:44 - 00:42:48] estas patrones que está, por ejemplo,
+[00:42:48 - 00:42:51] una clase artificial o, decir, bueno, hago,
+[00:42:51 - 00:42:55] es que paquete o manejo algo que ya está nativo en un lenguaje
+[00:42:55 - 00:42:59] y que maneja la conexión a la base de datos,
+[00:42:59 - 00:43:02] está lo que hacen es agregarle también un componente,
+[00:43:02 - 00:43:05] pero ya lo hacen forma nativo en el lenguaje,
+[00:43:05 - 00:43:08] empiezan a hacer estas transformaciones hasta llegar
+[00:43:08 - 00:43:10] a lo que es PCM,
+[00:43:10 - 00:43:13] que es el modelo específico a la plataforma
+[00:43:13 - 00:43:15] que ya no estoy acercando muchísimo el código
+[00:43:15 - 00:43:20] y estoy a un paso de poder hacer transformación al código.
+[00:43:20 - 00:43:24] Hoy en día, estas transformaciones también
+[00:43:24 - 00:43:27] se dan de manera muy sencillas con la IA,
+[00:43:27 - 00:43:31] uno va a decir, bueno, acémen todas las...
+[00:43:31 - 00:43:34] un momentito.
+[00:43:34 - 00:43:37] Acémen todas las transformaciones,
+[00:43:37 - 00:43:40] acémen todas las transformaciones,
+[00:43:40 - 00:43:43] les va escribiendo y hasta pueden ir poblándolo,
+[00:43:43 - 00:43:45] pero la idea es que ustedes sepan que es lo que están pidiendo
+[00:43:45 - 00:43:48] y lo que están haciendo, ¿ok?
+[00:43:48 - 00:43:52] Entonces, ahí van irliendo como llegan
+[00:43:52 - 00:43:56] de un nivel elevado de la extracción a un nivel muy bajo
+[00:43:56 - 00:44:01] en donde el nivel bajo obviamente sería el código.
+[00:44:01 - 00:44:04] Ahora, yo es lo que tengo es que poner foco a lo que son patrones,
+[00:44:04 - 00:44:08] que es un patrón para ustedes,
+[00:44:08 - 00:44:10] para llegar a estas transformaciones,
+[00:44:10 - 00:44:21] que es un patrón.
+[00:44:21 - 00:44:27] Y es lo que es fácil que lo tienda a mi abuela.
+[00:44:27 - 00:44:32] La resolución que ya se hizo antes para saber un problema conocido.
+[00:44:32 - 00:44:37] Ok, alguien más, van que me va.
+[00:44:37 - 00:44:40] Un modelo para resolver problemas recurrentes.
+[00:44:40 - 00:44:42] Bueno, como si fuera un template,
+[00:44:42 - 00:44:45] son lo que son template, ¿no?
+[00:44:45 - 00:44:46] Una plantilla.
+[00:44:46 - 00:44:48] Una plantilla fantástica.
+[00:44:48 - 00:44:49] Es cierto.
+[00:44:49 - 00:44:53] Está la realidad, hay un...
+[00:44:53 - 00:45:01] También me gusta mucho el ejemplo de un mundial de fútbol hace mucho tiempo.
+[00:45:01 - 00:45:11] Una revidroquería sacar a un jugador, expulsarlo.
+[00:45:11 - 00:45:15] Y antes nos existía en las tarjetas.
+[00:45:15 - 00:45:19] Entonces, lo hablaba y no quería salir, no quería salir,
+[00:45:19 - 00:45:23] hasta que dijo, bueno, ¿qué es lo que puedo hacer?
+[00:45:23 - 00:45:26] El problema es terminado y dijo, bueno,
+[00:45:26 - 00:45:30] dijo, voy a usar el patrón del semáforo, ¿no?
+[00:45:30 - 00:45:33] Y puso y pintó una tarjeta roja
+[00:45:33 - 00:45:37] y de esa manera se la mostró y lo pudo expulsar.
+[00:45:37 - 00:45:41] Entonces, encontró con una solución en un...
+[00:45:41 - 00:45:45] en un ambiente totalmente diferente del que se manejaba
+[00:45:45 - 00:45:49] y la configuró esa solución para que la pudiera utilizar.
+[00:45:49 - 00:45:51] Ok.
+[00:45:51 - 00:45:54] Entonces, el patrón es eso, ¿no?
+[00:45:54 - 00:45:58] De saber tener que me sida como un lenguaje de comunicación con el otro,
+[00:45:58 - 00:46:04] saber que funciona y que anda, que no necesito probarla,
+[00:46:04 - 00:46:09] saber que tengo que adaptarla a lo que yo necesito realmente,
+[00:46:09 - 00:46:11] en la divación, un semáforo.
+[00:46:11 - 00:46:16] Tenía que agarrar una tarjeta roja y usar algo de ese semáforo.
+[00:46:16 - 00:46:17] Ok.
+[00:46:17 - 00:46:22] Entonces, siempre hay una configuración, adaptación de el uso del patrón.
+[00:46:22 - 00:46:24] Los patrónes vienen de...
+[00:46:24 - 00:46:27] ustedes saben que nuestra ingeniería es muy nueva vida,
+[00:46:27 - 00:46:33] vienen de los patrónes golf, vienen de Cristofa Laixander,
+[00:46:33 - 00:46:37] Cristofa Laixander era un arquitecto,
+[00:46:37 - 00:46:42] no tienen nada que ver con sistemas Cristofa Laixander
+[00:46:42 - 00:46:46] y lo que hizo fue decir, bueno, yo sería arquitecto
+[00:46:46 - 00:46:51] y veo que hay siempre determinados patrónes para poder generarnos
+[00:46:51 - 00:46:54] en una ciudad o un barrio, ¿no?
+[00:46:54 - 00:47:01] Casi siempre la ciudad estaba formada por el parque principal,
+[00:47:01 - 00:47:04] alrededor del parque tenía en frente a la iglesia,
+[00:47:04 - 00:47:09] al lado del colegio, en frente a la policía,
+[00:47:09 - 00:47:13] y una salita de auxilios.
+[00:47:14 - 00:47:16] Y a partir de ahí, ¿no?
+[00:47:16 - 00:47:17] Es como que...
+[00:47:17 - 00:47:20] Vio que siempre había prácticamente las mismas soluciones.
+[00:47:20 - 00:47:24] Entonces, empezó a definir un montón de patrónes para que también
+[00:47:24 - 00:47:28] la comunicación con sus pared se ama sencillo.
+[00:47:28 - 00:47:32] Siempre las me voy a arquitecturar patrónes de arquitecturas
+[00:47:32 - 00:47:37] y armó dos libros muy interesantes de lo que era la construcción
+[00:47:37 - 00:47:40] que se los utilizaba hoy en día,
+[00:47:40 - 00:47:46] y son estos dos y como nosotros teníamos una ingeniería muy nueva,
+[00:47:46 - 00:47:49] tomamos ese concepto.
+[00:47:49 - 00:47:52] Entonces, empezamos a aplicar patrónes.
+[00:47:52 - 00:47:56] Es decir, bueno, imagínense, estaba todo muy desfranzado,
+[00:47:56 - 00:47:58] y que no vamos a aplicar patrónes.
+[00:47:58 - 00:48:04] Y empezaron a armar patrónes grads y a patrónes.
+[00:48:04 - 00:48:08] Y después empezaron los patrónes, ¿no?
+[00:48:08 - 00:48:17] Hay patrónes en todas las disciplinas de la informática.
+[00:48:17 - 00:48:22] Obviamente nuestra materia hablamos de patrones de diseño, ¿ok?
+[00:48:22 - 00:48:27] Pero si ustedes van a programación y van a tener algunos patrones de programación
+[00:48:27 - 00:48:31] o buenas prácticas de programación.
+[00:48:31 - 00:48:36] Si ustedes van a base de datos y bueno, les van a recomendar buenas prácticas
+[00:48:36 - 00:48:42] y después se terminan adquiriendo y ya son patrones.
+[00:48:42 - 00:48:47] Si hablo de infraestructura más todavía, ¿no?
+[00:48:47 - 00:48:52] Ya hay patrones para lo que es la infraestructura y ya nadie necesita
+[00:48:52 - 00:48:56] explicar que cuando estoy hablando de algo de multiplicapa,
+[00:48:56 - 00:48:59] ya alguno entiende de lo que se trata.
+[00:48:59 - 00:49:04] Entonces, ya hay lenguajes que me sirve para poder comunicarme con otra persona
+[00:49:04 - 00:49:07] sin necesidad explicar lo que es.
+[00:49:07 - 00:49:10] Si yo voy les tengo que decir, bueno, que sea experto,
+[00:49:10 - 00:49:13] hoy ustedes me entiendes de lo que estoy hablando.
+[00:49:13 - 00:49:17] Por lo tanto, la comunicación, cuando estoy hablando de patrones,
+[00:49:17 - 00:49:19] mejora muchísimo.
+[00:49:19 - 00:49:27] Entonces, es una de las cosas, una de las grandes ventajas a lutar patrónes.
+[00:49:27 - 00:49:34] A principio de los 90, se armó, se juntaron como yo siempre digo,
+[00:49:34 - 00:49:39] voy a hablarlo como si fuera para que ustedes lo entiendan y no entiendas.
+[00:49:39 - 00:49:45] Me abuelaste a juntar a un cuatro personas, uno de las cuales seré gama,
+[00:49:45 - 00:49:50] o sea, buscar acá, uno de las cuales seré gama,
+[00:49:50 - 00:50:06] minutito, está en inglés en español, en macinoteos.
+[00:50:06 - 00:50:13] El libro de gama, cuatro que se juntaron a estas cuatro personas,
+[00:50:13 - 00:50:18] como gama después el primero, le puso su nombre, después quedó
+[00:50:18 - 00:50:20] en nominado el libro de gama.
+[00:50:20 - 00:50:24] Es el libro de patrones de diseños golf.
+[00:50:24 - 00:50:28] En su momento, lo que se hace es crear un marco teórico,
+[00:50:28 - 00:50:32] estas cuatro personas, y dijera, bueno, tenemos siempre,
+[00:50:32 - 00:50:36] cuando estamos programando, tenemos siempre los mismos problemas,
+[00:50:36 - 00:50:41] los tendríamos que ir identificando y ver cuál es la mejor manera de poder resolverlo,
+[00:50:41 - 00:50:46] o si ya está resuelto o alguien lo resolvió, poder pelas marlo.
+[00:50:47 - 00:50:52] En alumno, un marco teórico y tomarlo como un patron determinado,
+[00:50:52 - 00:50:56] del mismo concepto que hizo Cristo Ferralexandar,
+[00:50:56 - 00:51:00] decir, bueno, y hoy tengo que armar un baño,
+[00:51:00 - 00:51:04] les digo, bueno, un baño, un yacúcito, me entienden,
+[00:51:04 - 00:51:07] y no tengo que andar detallando cómo va a hacer el yacúcio,
+[00:51:07 - 00:51:09] ya sabemos de lo que estamos hablando.
+[00:51:09 - 00:51:12] Después, bueno, cada uno le va a dar su impronta, ¿no?
+[00:51:13 - 00:51:18] Y lo hicieron con este libro, con el libro diseño de patrones,
+[00:51:18 - 00:51:24] justamente fue eso, identificar algunos problemas que tenían en el diseño,
+[00:51:24 - 00:51:32] analizar si ya lo habían resuelto y encontrar las formas que lo resolvieron,
+[00:51:32 - 00:51:37] armarlo y armaron todo un marco teórico que se llama el libro de los golf.
+[00:51:37 - 00:51:42] Esto es teórico, historia, lo voy a pasar después lo leerán.
+[00:51:45 - 00:51:48] Entonces, ¿qué es lo que me brinda de las patrones?
+[00:51:48 - 00:51:53] Bueno, son soluciones, ellas son reducables, que están recorrentes,
+[00:51:53 - 00:51:57] que siempre tengan eso, que tienen un determinado problema
+[00:51:57 - 00:52:00] y ya sé que son soluciones andantes.
+[00:52:00 - 00:52:04] El famoso, si ya inventaron la rueda para aquí inventarla,
+[00:52:04 - 00:52:07] o sea, trato de tomarlo y usarlo.
+[00:52:08 - 00:52:17] Por lo tanto, saber qué anda me agiliza la solución.
+[00:52:17 - 00:52:20] ¿Por qué no tengo que tratar probando?
+[00:52:20 - 00:52:25] Porque sé que funciona bien, porque alguien lo analiza, etcétera.
+[00:52:25 - 00:52:30] ¿Cuáles son las características generales?
+[00:52:30 - 00:52:34] Primero, obviamente, soluciones en un problema.
+[00:52:34 - 00:52:39] Es un concepto que ya está probado, anda, funciona.
+[00:52:40 - 00:52:43] No tengo que andar testiando, no tengo que andar probando,
+[00:52:43 - 00:52:46] sé que esa solución, se analizó entre varias y encontraron que estar
+[00:52:46 - 00:52:48] a la más correcta.
+[00:52:51 - 00:52:55] Obviamente, tengo que darle alguna impronta,
+[00:52:55 - 00:52:58] no puedo aplicar los patrones porque sí tengo que encontrar
+[00:52:58 - 00:53:02] la forma de poder incluirlo dentro de mi modelo,
+[00:53:02 - 00:53:04] por lo tanto, la solución no está novia,
+[00:53:04 - 00:53:06] hay que hacer un trabajo.
+[00:53:07 - 00:53:11] Y después, bueno, algo que hicieron interesante en el libro,
+[00:53:11 - 00:53:16] es que definieron todos los patrones de la misma manera,
+[00:53:16 - 00:53:20] todos tienen que describen sus modulos de estructura,
+[00:53:20 - 00:53:26] cómo participan, cuál es la ventaja de utilizarlo, etcétera.
+[00:53:26 - 00:53:32] Y quedó ya como uno de los libros más importantes de sistemas,
+[00:53:33 - 00:53:38] como el libro de los dinosaurios también para lenguajes,
+[00:53:38 - 00:53:42] bueno, este es uno de las libras más importantes.
+[00:53:45 - 00:53:49] Bueno, es lo que tengo que entender, esto es algo muy parecer
+[00:53:49 - 00:53:53] que ya venimos hablando, son reutilizables,
+[00:53:53 - 00:53:56] resuelve un problema determinado, tengo que configurarlo.
+[00:53:58 - 00:54:05] Para que ustedes también tengan algún concepto que origamos.
+[00:54:06 - 00:54:13] Bueno, los patrones de diseño, obviamente,
+[00:54:13 - 00:54:17] refuelan problemas, la diseño que es donde yo le voy a crear
+[00:54:17 - 00:54:19] callada a mi producto.
+[00:54:21 - 00:54:26] Lo importante es que ellos analizaron determinados problemas,
+[00:54:26 - 00:54:29] encontraron 23 patrones dof.
+[00:54:29 - 00:54:35] De esos patrones dof lo que armaron, ese marco teórico en el libro,
+[00:54:36 - 00:54:39] pero en donde todos tienen la misma estructura,
+[00:54:39 - 00:54:42] el nombre objetivo, contexto aplicabilidad,
+[00:54:42 - 00:54:46] vamos a verlo, después nunca abre el libro,
+[00:54:46 - 00:55:07] entonces vamos a verlo, vamos a buscar al uno, vamos con esto.
+[00:55:07 - 00:55:18] Me voy a este, tengo el nombre, el nombre siempre es un acadizo.
+[00:55:18 - 00:55:23] Trata de ser bastante intuntivo, el nombre que ligieron de los patrones,
+[00:55:24 - 00:55:28] el nombre fue importante, ¿está cuál es el objetivo, el propósito,
+[00:55:28 - 00:55:37] ese, por qué lo, cuál es el objetivo, ese patrón,
+[00:55:37 - 00:55:39] es el problema que queda resolver.
+[00:55:41 - 00:55:44] Algo que tiene que ser muy importante y no está acá,
+[00:55:44 - 00:55:48] es la clasificación del patron, ahora vamos a ver,
+[00:55:48 - 00:55:51] ¿qué problema está tratando de resolver?
+[00:55:52 - 00:55:56] Es un problema de creación, estructura, comportamiento.
+[00:55:56 - 00:56:01] La motivación, la motivación es el escenario de ejemplo,
+[00:56:01 - 00:56:05] ¿no?, ¿por qué usaron ese patrón determinado?
+[00:56:05 - 00:56:11] Es tan pobitito.
+[00:56:11 - 00:56:14] También a veces escribe, ¿no?
+[00:56:14 - 00:56:18] Si hay otros nombres de uso común para el patrón,
+[00:56:18 - 00:56:23] la realidad es que casi siempre lo utilizamos en inglés
+[00:56:23 - 00:56:29] y hay algunos otros nombres, pero es mejor el nombre en inglés, ¿no?,
+[00:56:29 - 00:56:34] porque tiene fábrica abstracta o el cicletón llamarlo singular,
+[00:56:34 - 00:56:37] la realidad es que nadie me va a entender,
+[00:56:37 - 00:56:43] en cambio si yo de un síngletón sí, aplicabilidad,
+[00:56:43 - 00:56:49] los criterios de cómo puedo utilizar, acá, aplicabilidad,
+[00:56:49 - 00:56:53] cómo puedo utilizar el patrón, ¿cuál es el uso común
+[00:56:53 - 00:56:55] para poder aplicar ese patrón?
+[00:56:55 - 00:57:00] Tienen la estructura, todos tienen la estructura,
+[00:57:00 - 00:57:03] la estructura significa el diagrama de clases,
+[00:57:03 - 00:57:08] que intervienen en ese patrón, ¿qué son todas las clases que intervienen?
+[00:57:08 - 00:57:13] Tiene algo que es importante que tiene todos los que son los participantes,
+[00:57:13 - 00:57:16] acá también está escrito, ¿no?
+[00:57:16 - 00:57:20] Pues los son los participantes, ¿no?
+[00:57:20 - 00:57:29] Son todos los participantes, ¿no?
+[00:57:29 - 00:57:36] De esa estructura necesito entender la descripción de cada uno de estos objetos,
+[00:57:36 - 00:57:39] estas clases, bueno, ¿qué es lo que hace esta clase?
+[00:57:39 - 00:57:42] Está bien, mis sitios es el dibujo, pero ¿qué es lo que hace esa clase?
+[00:57:42 - 00:57:47] Entonces lo enumera, me describe que hace las clases abstractas,
+[00:57:47 - 00:57:52] ¿cuál es su rol, qué, cuál es el objetivo de crear esa clase?
+[00:57:52 - 00:57:58] También habla de colaboraciones, es decir, ¿cómo se interrelacionan entre los participantes?
+[00:57:58 - 00:58:04] Estamos hablando de las clases, ¿con secuencias?
+[00:58:04 - 00:58:09] Con secuencias, las consecuencias pueden ser positivas son negativas,
+[00:58:09 - 00:58:11] es decir, las ventacas y las ventacas,
+[00:58:11 - 00:58:16] de aplicar o no ese patrón, ¿no?
+[00:58:16 - 00:58:21] A la ventación, las implementaciones, ¿no?
+[00:58:21 - 00:58:24] ¿cómo implementan el código?
+[00:58:24 - 00:58:28] Se patrón, ¿tienen ejemplo?
+[00:58:30 - 00:58:34] ¿Y después quién es el patrón de este?
+[00:58:34 - 00:58:38] Y después tienen patrón de desrelacionados, ¿ok?
+[00:58:38 - 00:58:42] Usos colonos y dos son ejemplos de sistemas reales que usaron el patrón,
+[00:58:42 - 00:58:45] no importa de esa época, obviamente.
+[00:58:45 - 00:58:49] Y patrón de desrelacionados son referencias con quién me puedo relacionar,
+[00:58:49 - 00:58:52] este patrón con quién se relaciona, ¿ok?
+[00:58:52 - 00:58:54] De otros patrónes.
+[00:58:54 - 00:58:58] Algunos dicen, bueno, este siempre va con tal otro, ¿ok?
+[00:58:59 - 00:59:02] Entonces, hablan poco de las relaciones.
+[00:59:02 - 00:59:05] Todos tienen la misma estructura, si me voy al otro,
+[00:59:05 - 00:59:09] a otro patrón, ven que tienen exactamente la misma estructura,
+[00:59:09 - 00:59:13] cuando uno arma, un marco teórico, y lo presenta,
+[00:59:13 - 00:59:18] ¿vale? Esto fue evaluado en su momento, los presentos de esa manera.
+[00:59:18 - 00:59:23] Entonces, ya todos entienden este marco teórico.
+[00:59:26 - 00:59:27] Sígamos.
+[00:59:27 - 00:59:37] Miren lo, el libro de los Hof, o lo menos está ahí todo bastante claro.
+[00:59:37 - 00:59:44] Es bastante extenso, no les digo que lo lean porque hoy realmente si se van al libro
+[00:59:44 - 00:59:49] al sitio del Mapach, después está al final de esta presentación,
+[00:59:49 - 00:59:54] es mucho más amigable, es más conciso, más concreto,
+[00:59:54 - 01:00:00] pero pueden acceder al libro de Hof tranquilamente y girarlo un poco.
+[01:00:00 - 01:00:03] Tipos de patrónes.
+[01:00:03 - 01:00:07] Dentro de esos 23 patrónes que encontraron empezaron a dar a secuenta,
+[01:00:07 - 01:00:13] que algunos resolvían determinados problemas que estaban dentro de una voz.
+[01:00:13 - 01:00:16] Y encontraron que siempre había tres tipos de problemas,
+[01:00:16 - 01:00:20] problemas para poder crear el objeto, ¿ok?
+[01:00:21 - 01:00:28] Entonces, a veces eran objetos tan complicados o tan extensos o tan grandes
+[01:00:28 - 01:00:31] que la creación era muy complicada.
+[01:00:31 - 01:00:38] Entonces, lo que querían hacer es sacoplar la lógica de la creación a ese objeto
+[01:00:38 - 01:00:43] y armaban patrones de creación, ¿ok?
+[01:00:43 - 01:00:48] Entonces, encontraron que muchas veces encontraron con problemas de poder crearlo,
+[01:00:48 - 01:00:52] entonces armaban una solución.
+[01:00:52 - 01:00:56] Después encontraron con problemas estructurales, ¿ok?
+[01:00:56 - 01:01:01] tenían imaginaciones entre tenían un diagrama que crecía demasiado
+[01:01:01 - 01:01:06] en cuanto a la cantidad de clases, había mucha relación entre las clases,
+[01:01:06 - 01:01:19] había veces clases que se volvían a llamar así, que eran reposivos
+[01:01:19 - 01:01:21] y generaba problemas.
+[01:01:21 - 01:01:27] Entonces, dieron que había como problemas estructuras dentro del diagrama
+[01:01:27 - 01:01:35] y lo pudieron resolver con los patrones estructurales.
+[01:01:35 - 01:01:42] Y después, que son los mayor cantidad de ahí, que son los patrones de comportamiento
+[01:01:42 - 01:01:48] que resolve justamente los problemas de comunicación entre los objetos,
+[01:01:48 - 01:01:53] capaz que tenía muchísimo coplamiento, tenías de bajar ese nivel,
+[01:01:53 - 01:01:58] el de coplamiento, capaz que tenía una clase que accedía a otro,
+[01:01:58 - 01:02:05] solamente para acceder a un algoritmo o para quererme a otros sistemas,
+[01:02:05 - 01:02:10] y tenías que ir a pasar por un método, o tenías algoritmos muy complejos
+[01:02:10 - 01:02:13] y lo quería desacoplar.
+[01:02:13 - 01:02:18] Y bueno, encontraron que cuando había problemas de comunicación los se
+[01:02:18 - 01:02:25] enblobaron, los colocaron esos patrones en la bolsa de comportamiento.
+[01:02:25 - 01:02:30] Es fundamental que ustedes siempre se preguntan, porque nosotros lo que vamos a hacer
+[01:02:30 - 01:02:37] en los ejercicios de decir, bueno, tienen un problema determinado.
+[01:02:37 - 01:02:41] Y la primera que tienen de preguntar es qué tipo de problemas es este,
+[01:02:41 - 01:02:45] el problema que yo estoy creando el objeto, problema de que la estructura no
+[01:02:45 - 01:02:50] se entiende o problema de comunicación entre los objetos.
+[01:02:50 - 01:02:55] Una vez que tienen determinado eso es la primera categoría, la primera pregunta
+[01:02:55 - 01:03:03] que se tiene que responder, ahí recién, ahí se van a analizar la bolsa,
+[01:03:03 - 01:03:08] yo y la bolsa donde se encuentran los patrones de acuerdo a la categoría
+[01:03:08 - 01:03:11] y dicen, bueno, tengo este problema, ¿cómo lo puedo resolver?
+[01:03:11 - 01:03:15] Es un problema de creación, bueno, solamente analizar uno, dos, tres, cinco,
+[01:03:15 - 01:03:19] si es de comportamiento, ahí entonces tengo que analizar 11,
+[01:03:19 - 01:03:22] pero ya no tengo que ir analizando los 23.
+[01:03:22 - 01:03:27] Por lo tanto, es fundamental que ustedes puedan distinguir del problema que se le va
+[01:03:27 - 01:03:31] a dar qué tipo de categoría va a caer, ¿ok?
+[01:03:31 - 01:03:38] Vamos.
+[01:03:39 - 01:03:57] Barbar, un minutito, pan que me un segundo, un minutito gente,
+[01:03:57 - 01:04:13] allá que con ustedes, bueno, empecemos, vamos a ir primero con los patrones
+[01:04:13 - 01:04:16] creacionales, ¿ok?
+[01:04:16 - 01:04:20] Tengo recuerden, tengo problemas para poder crearlos, algunos métodos,
+[01:04:20 - 01:04:25] algunos, y clases tienen para poder instanciarlos, son bastante complicados,
+[01:04:25 - 01:04:30] entonces tratar de desargo, plaria, armar un patrón, gof de creación.
+[01:04:31 - 01:04:38] Me voy el más básico, talcula que ustedes saluvieron en programación,
+[01:04:38 - 01:04:47] vieron el singleton, todavía no, bien para entender.
+[01:04:47 - 01:04:48] Ahí, ¿qué es?
+[01:04:48 - 01:04:52] A inaclesan más donde se ve, no sé si sí, algunos.
+[01:04:52 - 01:04:59] Fantástico, programación avanzada, ¿vieron ustedes?
+[01:04:59 - 01:05:04] Ah, y parte de la temperatura de imagen, ¿está bien?
+[01:05:05 - 01:05:13] Es para ubicarme también hasta donde le voy a explicar, por si no, lo le doy ya hasta.
+[01:05:13 - 01:05:21] Antes de empezar con el singleton les voy a explicar, no voy a meter en otra materia,
+[01:05:21 - 01:05:27] que no me corresponde, pero necesito un concepto de programación,
+[01:05:27 - 01:05:32] que también después les van a venir en algún momento cuando curse en avanzado.
+[01:05:32 - 01:05:38] Y es el concepto de lo que es un método uatributo estático,
+[01:05:41 - 01:05:53] de lo que es un método abstracto,
+[01:05:53 - 01:05:58] está temo el ejemplo de lo que odía con mis alumnos,
+[01:05:58 - 01:06:10] quedo bien esta, que me quiero ubicar un poco.
+[01:06:10 - 01:06:33] Entonces, lo que hay una palabra estático, ¿ok?
+[01:06:36 - 01:06:40] A veces definimos algún método o algún atributo,
+[01:06:41 - 01:06:50] imagínense que digo, bueno estoy con una clase que es si va sin importar.
+[01:06:50 - 01:07:06] Producto, una clase que es producto y voy a definir más de una variable,
+[01:07:06 - 01:07:12] importa después. Y digo que esto va a ser estático, ¿ok?
+[01:07:12 - 01:07:17] Y define un atributo estático. Al definir un atributo estático,
+[01:07:17 - 01:07:23] lo que estoy diciendo es que esa variable va a ser compartida por todas las instancias de la clase,
+[01:07:23 - 01:07:30] ¿ok? Sólo existe una copia en memoria de esa variable, ¿ok?
+[01:07:30 - 01:07:35] No me puedo tener varias clases, varias instancias de producto,
+[01:07:35 - 01:07:40] pero va a haber una única variable stock, ¿ok?
+[01:07:40 - 01:07:44] Y para acceder a esa variable, son más,
+[01:07:44 - 01:07:49] siquiera podría tener, no podría tener ningún objeto instanciado,
+[01:07:49 - 01:07:53] ¿ok? Hasta lo podría utilizar sin haber instanciado ese objeto.
+[01:07:53 - 01:08:00] Lo mismo sucede, yo tengo que crear algún método estático,
+[01:08:02 - 01:08:14] supongo que les digo no sé, pero stock, muy importante, ¿ok?
+[01:08:14 - 01:08:22] Me reestoco, digo, bueno tengo un método y le digo que se metodo también es estático, ¿ok?
+[01:08:22 - 01:08:26] Al decir que se metodo, luego esa función, esa estática,
+[01:08:26 - 01:08:31] lo que hago es puedo llamarla directamente usando el nombre de la clase, ¿ok?
+[01:08:31 - 01:08:38] El producto punto, ver stock, sin necesidad de crear el objeto previamente,
+[01:08:38 - 01:08:43] es decir, sin tener en alguna parte del código el new, ¿ok?
+[01:08:43 - 01:08:51] Nunca hice el new product, ¿ok? Nunca tuve la necesidad de crear el producto,
+[01:08:51 - 01:08:58] el objeto producto, puedo acceder a los métodestáticos sin necesidad de crear el objeto,
+[01:08:58 - 01:09:03] no depende de una instancia, ¿ok?
+[01:09:03 - 01:09:12] Entonces, está buenísimo porque si lo utiliza mucho por ejemplo,
+[01:09:12 - 01:09:19] este, el atributo estático si lo utiliza por ejemplo para contadores y objetos,
+[01:09:19 - 01:09:26] para valores constante, digo bueno quiero hacer una, no sé, quiero hacer evaluar el diámetro tal
+[01:09:26 - 01:09:30] y bueno el valor pilo con lo aqua ahí, ¿ok? Porque sé que los van a usar todos,
+[01:09:30 - 01:09:37] como si fuera una configuración global, ¿ok? Y en los que es métodos,
+[01:09:37 - 01:09:44] también exactamente lo mismo, no necesito tener instanciada la clase,
+[01:09:44 - 01:09:49] está, lo puedo utilizar y lo puedo utilizar muchísimo, por ejemplo,
+[01:09:49 - 01:09:53] para que son operaciones matemáticas generales, algunas validación de datos,
+[01:09:53 - 01:09:59] que son todas iguales y la realidad es que está buenísimo porque actúa como el punto
+[01:09:59 - 01:10:05] de acceso global a una única instancia sin necesidad de haberla creado, ¿ok?
+[01:10:05 - 01:10:15] Entonces usa ese concepto, el concepto de estático para armarlo que se llama el singletón,
+[01:10:15 - 01:10:20] ¿ok? Y ahora vamos a ir. Ustedes saben que como hago para crear
+[01:10:20 - 01:10:25] una instancia ahí a través del constructor, ¿tamos la guardón?
+[01:10:25 - 01:10:29] Entonces yo acá tengo un constructor que se llama singletón,
+[01:10:29 - 01:10:33] casi siempre los constructores tienen el mismo nombre, ¿ok?
+[01:10:33 - 01:10:39] Tienen el mismo nombre, no conozco todos los lenguajes, pero tienen el mismo nombre que la clase.
+[01:10:39 - 01:10:47] Yo puedo tener singletón, acá tengo, o sea, lo tengo sin parámetros,
+[01:10:47 - 01:10:52] no le pasa ningún parámetro, pues llegan a tener abajo o algo que es a singletón
+[01:10:52 - 01:10:59] y le paso algún parámetro, ¿ok? Esa es una de las ventajas que me da la programación de sirvuelo, ¿no?
+[01:10:59 - 01:11:06] Detecta, si hago un singletón, por ejemplo, sin parámetros va a este,
+[01:11:06 - 01:11:11] si hago un singletón y le pongo el nombre analía, va a ir al otro objeto, ¿no?
+[01:11:11 - 01:11:21] Se va a dar cuenta a qué función tiene que ir de acuerdo a los parámetros que le voy a pasar.
+[01:11:21 - 01:11:24] Eso lo sabe en mi programación, ¿no? Vamos a guardar.
+[01:11:26 - 01:11:34] Pero acá algo que tiene este singletón es que justo el método es privado,
+[01:11:34 - 01:11:39] el método acá es privado, le tiene un menos, ¿ok? ¿Se dan cuenta?
+[01:11:39 - 01:11:43] Sí, sí, sí.
+[01:11:43 - 01:11:51] Por lo tanto no voy a poder hacer un nube, pero si tengo algo acá, está, es público,
+[01:11:52 - 01:11:58] que tiene esto y algo que no se ve acá, pero está subrayado, cuando está subrayado significa que
+[01:11:58 - 01:12:05] es estática, ustedes no lo subrallan en el diagrama, ponen directamente la palabra estática,
+[01:12:05 - 01:12:13] porque no lo voy a fijar eso, si es que lo hacen, esta sería estática y esta también es estática,
+[01:12:13 - 01:12:22] está variable, ¿ok? Está variable también. Por lo tanto tengo el constructor,
+[01:12:22 - 01:12:29] el constructor que es privado no voy a poder acceder, tengo la otra, el otro método que es estático,
+[01:12:29 - 01:12:37] puedo acceder sin necesidad de crear la instancia, por lo tanto voy a acceder la primera vez a el método,
+[01:12:37 - 01:12:49] que es estático, al singletón. Ojalámente el método estático, puede acceder a los atributos estáticos,
+[01:12:50 - 01:12:55] y lo puedo hacer acá, porque tengo que el singletón es un atributo que también es estático,
+[01:12:55 - 01:13:04] si no, no podría, ¿ok? Entonces, tengo el accedo sin necesidad de instanciarlo,
+[01:13:04 - 01:13:09] accedo al singletón, el singletón va a decir bueno, voy a dar una lógica,
+[01:13:09 - 01:13:16] es decir, tu instancia estática, hay un uno o un cero, está verdadero, está falso y está cero,
+[01:13:16 - 01:13:23] o sea que no tengo instancias creadas, este método va a poder llamar a singletón que es privado
+[01:13:23 - 01:13:33] y va a poder crear la nube. Y estoy en el segundo caso, tengo de vuelta, no podrías el constructor
+[01:13:33 - 01:13:44] de singletón porque es privado, voy a esta instancia, esta instancia verifica que ya el atributo fue
+[01:13:44 - 01:13:53] cambiado porque ya tengo un objeto creado, o lo tanto no voy a crear ningún objeto nuevo,
+[01:13:53 - 01:14:02] está y sigo para adelante, o lo tanto como se crea un singletón de esa manera,
+[01:14:02 - 01:14:07] defino un método de instancia que permite que el cliente acceda a una única instancia,
+[01:14:07 - 01:14:15] obviamente porque es estático, ¿ok? Esa misma clase la responsable de creación porque el singletón
+[01:14:15 - 01:14:24] que es el constructor lo dice pu, dice privado, de esa manera me aseguro tener un único punto global,
+[01:14:24 - 01:14:36] me van siguiendo. Sí me he vuelto.
+[01:14:36 - 01:14:50] Solo que les voy a pedirles también que ustedes después pasan a agarren este material,
+[01:14:50 - 01:14:57] revisen qué significa que algo sea estático, que sea privado, eso lo tienen que tener,
+[01:14:57 - 01:15:06] lo tienen que poder manejar, les vuelvo a repasar, con el nivel de detalle voy a ir solamente con esto,
+[01:15:06 - 01:15:18] de ir a código, ¿no? Ustedes quieren acceder a una clase, algún método de una clase que no esté instanciada,
+[01:15:19 - 01:15:31] imagínense que quiero ver tengo una clase que tengo una suma y esa suma es para todos los mismos,
+[01:15:31 - 01:15:38] puedo acceder a un método sin instancia a la clase a través de la palabra clave estático,
+[01:15:38 - 01:15:45] entonces lo manejo como si fuera una variable global, obviamente esta estática,
+[01:15:45 - 01:15:53] este método estático puede acceder solamente a tributos estáticos, que es una variable que está
+[01:15:53 - 01:16:02] compartida para toda la clase, es única, ejemplo se lo utiliza muchísimo en computadores de objetos,
+[01:16:02 - 01:16:11] valores constantes o una configuración global, esto lo tendrían que hablar de esa programación,
+[01:16:11 - 01:16:21] pero no es una cosa más importante, ¿ok? Entonces yo nunca producto y quiero acceder por primera vez
+[01:16:21 - 01:16:28] voy al método estático, obviamente yo acabo de poder tener el constructor,
+[01:16:28 - 01:16:41] así siempre tengo producto, producto tiene el mismo nombre, de la clase, casi siempre son públicas,
+[01:16:45 - 01:16:54] a las que dimas no importa, las que siempre son públicas, es más tener varios constructores y bueno acá le paso
+[01:16:54 - 01:17:06] nombres, acá le paso le he hecho de encimientos, todo esto es escribir en un importa,
+[01:17:06 - 01:17:16] entonces cuando yo o el new en algún otro objeto digo bueno que le pasamos y si le paso un new producto
+[01:17:16 - 01:17:24] y lo paso así el compilador sabe que tiene que ir a este porque no tiene parámetros,
+[01:17:24 - 01:17:36] si le paso el nombre que se yo le pongo crema en jueves, sabe que tiene que ir a este constructor,
+[01:17:36 - 01:17:43] una de las grandes ventajas de lo que se ha le dado objeto, si le paso así y le digo fecha de encimiento
+[01:17:43 - 01:17:53] no sé, no sé, del tres sabe que tiene que ir a este, ahora sí le saco esto y lo hago pu,
+[01:17:53 - 01:18:04] lo hago privado y lo hago privado y no voy a poder acceder el new porque está privado,
+[01:18:04 - 01:18:13] entonces no me queda otra que ir al método estático que si voy a poder acceder,
+[01:18:13 - 01:18:19] este método estático va a tener un comportamiento minutito,
+[01:18:19 - 01:18:25] o sea tengo un comportamiento, debo decir bueno ya hay una instancia creada,
+[01:18:25 - 01:18:29] cómo me fijo, se hay una instancia creada y porque esto está acá, instancia creada,
+[01:18:29 - 01:18:37] instancia creada, creada, hay una instancia creada y no está en serio, bueno,
+[01:18:37 - 01:18:45] entonces voy a crear acá si voy a poder hacer el new porque el new es privado,
+[01:18:45 - 01:18:51] entonces ya estoy dentro de la clase, lo puedo acceder, ¿ok?
+[01:18:51 - 01:18:58] todo está, digo obviamente me faltan más de una cosa, no importa,
+[01:18:58 - 01:19:07] y aparte le digo igual no, y pone de mi instancia creada, ya tengo uno, igual uno,
+[01:19:07 - 01:19:14] acabé de tener un is, no, obviamente, ¿vale?
+[01:19:14 - 01:19:20] entonces la próxima vez vuelvo de vuelta, voy a este instancia creada hasta uno,
+[01:19:20 - 01:19:24] como ya hay uno, salgo y no creo ninguna objeto, ¿vale?
+[01:19:24 - 01:19:34] Esas las grandes ventajas de usar estático, accedo directamente al método sin necesidad
+[01:19:34 - 01:19:40] de tener una clase instancia, ¿vale? ¿Me entendieron?
+[01:19:40 - 01:19:54] Sí, pero sí, por lo tanto revisas y existe y si la variable estático en italiano
+[01:19:54 - 01:20:02] y ahora tiene un valor la devuelve, está, y es nula, crea la instancia por primera vez
+[01:20:02 - 01:20:07] y obviamente cambia ese valor de este atributo, ¿ok?
+[01:20:07 - 01:20:14] para que la próxima vez no tenga que crearla, ¿vale?
+[01:20:14 - 01:20:26] Vamos, ¿vale? Esto, acá lo tiene, mira acá, pero en clíc, public class, singleton,
+[01:20:26 - 01:20:42] el método, el constructor es privado, por lo tanto lo que hago es evaluarlo con la clase estática, digo.
+[01:20:42 - 01:20:48] Bueno, vamos a pasar a otros, a ese nivel de código lo vamos a ver solamente con el singleton, ¿vale?
+[01:20:48 - 01:20:53] Pero la idea es que ustedes lo puedan entender, ¿por qué me quise detener un poco en el singleton?
+[01:20:53 - 01:21:03] Porque me encontré también con la otra comisión que no sabía lo que era algo estático.
+[01:21:03 - 01:21:11] Y bueno, también sirve como para ir incorporando más conocimiento, ¿vale?
+[01:21:11 - 01:21:16] Y vamos a otra, a las trasfáltor y, ¿ok?
+[01:21:16 - 01:21:21] Yo lo que voy a hacer es leer la definición y después lo voy a explicar.
+[01:21:21 - 01:21:31] La idea es poder explicarlo con algunos ejercios, algún ejemplo sencillo y después la clase que viene posiblemente hagamos ejercicios, ¿ok?
+[01:21:31 - 01:21:38] El patrón de la trasfáltor y si hay un patrón de creación, recuerden eso, estamos hablando de patrón de creación,
+[01:21:38 - 01:21:44] el asfáltor y nos permite crear mediante un interfaz un conjunto de objetos,
+[01:21:44 - 01:21:52] denominados productos que dependen mutuamente todo sin especificar cuál es el objeto concreto, ¿vale?
+[01:21:52 - 01:21:57] Quiere a familias de productos o familia de objetos, ¿vale?
+[01:21:57 - 01:22:09] ¿Cómo la estructura? ¿A las estructuras y la siguiente tengo estos componentes, tengo el cliente, tengo obviamente una interfaz que se llama abstract,
+[01:22:09 - 01:22:14] tengo otra interfaz que se llama abstract product, ¿ok?
+[01:22:14 - 01:22:25] Y después obviamente de involucrotearse cada uno de estos componentes.
+[01:22:26 - 01:22:36] Imagínense que tenemos que crear la catenmo, tengo un imagen, tengo estoy trabajando en una fábrica de muebles,
+[01:22:36 - 01:22:50] manejo tres estilos, a estilo moderno, estilo victoriano, art deco y siempre hago lo mismo productos, ¿cuáles son los productos?
+[01:22:50 - 01:22:56] Silla, silla y mesa de café, ¿vale?
+[01:22:56 - 01:23:05] Ahora yo lo que quieres crear familias de objetos relacionados con el estilo, con la factor y ¿vale?
+[01:23:05 - 01:23:13] Entonces lo que digo es bueno, dame, voy a crear todos los productos del estilo moderno, ¿vale?
+[01:23:13 - 01:23:23] Entonces crea las silla modernas, el silla moderno y la mesa moderna, ¿sí?
+[01:23:23 - 01:23:34] De abstractos le digo, creáme todos los victorianos, me creá justamente todo esto, sí mezclar con el otro estilo, ¿vale?
+[01:23:34 - 01:23:43] Entonces tengo, el cliente que le dice bueno, creáme tal familia de productos, ¿vale?
+[01:23:43 - 01:23:54] Entonces yo creo que esta factor y es un interfaz, siempre tengo, casi siempre en patrones tengo el uso mucho, uso mucho interfaz o mucha clase abstracta,
+[01:23:54 - 01:24:05] eso me permite ordenar un poco el código, ¿vale? Entonces, en una clase abstracta que me va a definir las operaciones, ¿vale?
+[01:24:05 - 01:24:19] Creí el producto y creí el producto aiver, entonces en acá y acá tengo el concreto de las factorías, tendría por ejemplo concreto factoría moderna, ¿vale?
+[01:24:19 - 01:24:33] Es el concreto de factoría de que hay de victoriana, acá tendría un tercero, concreto de factoría de arte de cost, ¿vale?
+[01:24:33 - 01:24:43] tengo las fábricas, son los productos, lo que crean los productos de ese estilo determinado,
+[01:24:43 - 01:24:53] estos en el cría y producto son los que hacen el nium, en el código, ¿qué es los que
+[01:24:53 - 01:24:59] crean? Y acá tengo un producto abstracto, que es un producto también, es un interfaz,
+[01:25:00 - 01:25:06] para definir un tipo de objeto, define que es el objeto en general, lo que es la silla,
+[01:25:06 - 01:25:14] lo que es la mesa, lo que es el sillon, acá define esto, entonces abstract product, que sería
+[01:25:14 - 01:25:26] abstract silla, acá que tendría abstract sofá, ¿me van siguiendo? Y después tengo los concretos,
+[01:25:26 - 01:25:34] acá tengo solamente la definición, acá tengo los concretos, es el mueble real que voy a usar,
+[01:25:34 - 01:25:46] son los objetos que nacen gracias al nium que hizo esta factoria, los crean el nium, por ejemplo,
+[01:25:46 - 01:25:56] estoy acá, arte moderno, y acá tengo los objetos, tengo la lógica para crear estos objetos,
+[01:25:57 - 01:26:03] entonces digo bueno, creo el producto de arte moderno, obviamente lo creo acá, le voy a agregar
+[01:26:03 - 01:26:11] uno más, con la funcionalidad que va a tener el producto, no importa, producto B, a cual me voy y
+[01:26:11 - 01:26:20] me voy a sefá, sefá tengo varios, entonces creo el producto correspondiente, el producto B,
+[01:26:20 - 01:26:33] pues solamente es el moderno, es este, de esa manera tengo esta separado, la lógica de lo que va
+[01:26:33 - 01:26:41] a hacer el producto, que la responsabilidad del producto con la creación del producto, el que
+[01:26:41 - 01:26:46] da la orden para crear lo sería el cliente, después voy a ver quién va a ser el cliente dentro de mi
+[01:26:46 - 01:26:56] diseño, el que ejecuta el nium sería los concretos, los concretos, y el del resultado el producto
+[01:26:56 - 01:27:03] concreto que sería producto a uno, product a dos, etcétera, y obviamente acá en el
+[01:27:03 - 01:27:09] astro-product voy a tener todas las funcionalidades, excepto la creación de lo que tiene que hacer ese
+[01:27:09 - 01:27:27] objeto, el producto, la naturaliza del patron hace que yo maneje productos, familias de productos,
+[01:27:27 - 01:27:37] es decir, que pueda crear cilla, cison, cilla, cison, faltaría la mesita de café, le importa,
+[01:27:38 - 01:27:43] pueda crear productos, pero también por el código concreto, en el concreto eso puede decir
+[01:27:43 - 01:27:49] no, me pasas por parámetro, y solamente quiero crear una moderno, lo puedo hacer, aunque sería
+[01:27:49 - 01:28:01] otro patron, pero lo podría llegar a hacer, entonces de esa manera puedo desacomplar la complejidad
+[01:28:01 - 01:28:09] de crear familias de objetos de una manera más sencisa, me voy con el próximo, builder,
+[01:28:09 - 01:28:22] ok, un minutito, el builder les sube las camimes, me gusta, vuelvo a leer la definición y después
+[01:28:22 - 01:28:29] le explico, como patron de diseño el patron builder constructor es usado para permitir la creación paso a
+[01:28:29 - 01:28:36] paso, esto es fundamental, de una variedad de objetos complejos desde un objeto fuente,
+[01:28:36 - 01:28:42] producto, y eran que acá paso paso uno, paso dos, paso tres, bueno, ¿qué es lo que hace?
+[01:28:42 - 01:28:49] vamos a analizar qué es lo que hace, obviamente tengo la estructura,
+[01:28:50 - 01:29:00] prácticamente tres componentes, el director el director, el salvo que lo usa,
+[01:29:00 - 01:29:08] el patron en sí es el builder, el contrase builder y el producto son tres componentes fundamentales
+[01:29:08 - 01:29:19] y cuypen, fundamentales, y vamos a entender un poquito el patron y después lo voy con un ejemplo,
+[01:29:20 - 01:29:31] tengo el builder, ¿qué es el builder? por lo pronto es una interfaz, ese interfaz acá
+[01:29:31 - 01:29:37] se puede tener entre parantes de sangulares interfaz o puede ser poner una estrata, interfaz
+[01:29:37 - 01:29:46] estrata, depende cómo lo quiere implementar, y ahí tengo acá la interfaz tengo la definición de los
+[01:29:46 - 01:29:53] métodos que voy a utilizar, obviamente tengo que escribir esos métodos, los escribo me
+[01:29:53 - 01:30:01] ante el concrete builder, el concreto de este, en el concreto que ahí simplemente lo que yo haya
+[01:30:01 - 01:30:06] definido en la interfaz ahí mantiene la referencia al producto creado, también una referencia,
+[01:30:06 - 01:30:14] y después de muy producto creado y el director es el que me pide construir el objeto,
+[01:30:15 - 01:30:24] ahora bien, imagínense que me vengo acá, tengo que crear, esto lo voy a borrar acá,
+[01:30:24 - 01:30:29] si lo pusieron ejemplo, no, tengo que crear que estoy en un amor de sería,
+[01:30:30 - 01:30:38] siempre voy a ver el ejemplo pero no importa, voy en una un amor de sería y quiero crear en la clase
+[01:30:38 - 01:30:50] hamburguesa, en la clase hamburguesa, esto es lo borro para él, hamburguesa, producto, no importa,
+[01:30:53 - 01:31:09] y obviamente tengo el constructor, tengo el constructor y le digo bueno, quiere crear la hamburguesa,
+[01:31:09 - 01:31:13] pero la hamburguesa tiene un montón de cosas, puede decir bueno pero qué tipo de carne,
+[01:31:13 - 01:31:22] qué tipo de carne crees, de carne de vaca, carne de pollo, carne, sí de pollo, no, no diría,
+[01:31:22 - 01:31:31] de cerdo, o no, yo soy vegetariana, bueno, está, te hago una hamburguesa vegetariana,
+[01:31:32 - 01:31:46] qué tipo de queso que eres, saca un tipo de carne, tipo de carne, tipo de carne, tipo de queso que
+[01:31:46 - 01:31:54] eres, que eso che dar o que eso común, eso de retiro, lo querés concebó ya o no,
+[01:31:54 - 01:32:07] capitales uno, lo querés con colectuga o no, sí, especiales dos y así empezamos a construir
+[01:32:07 - 01:32:15] constructores que son enormes, a ver eso, qué a ver eso que eres, a ver eso uno que eres mayor,
+[01:32:15 - 01:32:29] a ver eso, qué eres, qué chup, te saco, no sé, lo que es con panceta, acá les estoy escribiendo así
+[01:32:29 - 01:32:43] para acordarme, ¿no? Entonces, ¿qué sucede? Cuando voy a crear el nube, tengo lo que se llama
+[01:32:43 - 01:32:56] constructores masíos, ¿vale? Yo tengo que crear el nube, bueno, pongo acá, vaca, carne de vaca,
+[01:32:56 - 01:33:08] vaca, que es oche dar, y acá les puse, ¿que querías si querías tomate si lo quiero? Y acá querías si
+[01:33:08 - 01:33:17] querías cebolla, no quiero cebolla, ¿folts? Acá de eso, este era de qué chup, ¿qué eres? No, bueno,
+[01:33:17 - 01:33:24] sí, el script, ¿qué es? Y este era de mayones, ¿no? Folts, y este era, y este era si querías
+[01:33:24 - 01:33:32] si querías con panceta, y true. Entonces, no se encontra, y así puede ser enorme, entonces,
+[01:33:32 - 01:33:41] nosotros nos encontramos con constructores que son masíos y que a veces no sabemos porque
+[01:33:41 - 01:33:48] capaz que acá alguien puso otro, alguien agregó otro más, otro truble y después no sabemos
+[01:33:48 - 01:33:56] que ir a cada truca, a folca, ¿no? No sabemos, puede creciendo de una manera que no lo sabemos. Entonces,
+[01:33:56 - 01:34:06] para resolver este problema, lo que se aplica es el builder, yo quiero evitar usar un constructor
+[01:34:06 - 01:34:14] de esa magnitud, entonces digo, bueno, voy a crear un builder y el builder tengo dos formas de
+[01:34:14 - 01:34:22] evitar esos constructores monstruosos, horrible, que es aplicar dos implementaciones del builder, uno
+[01:34:22 - 01:34:27] que se le enfoque clásico y otro que se le enfoque moderno. En el enfoque clásico, el builder,
+[01:34:27 - 01:34:38] lo que hace es crear la instancia vacía, es decir, que lo que hace es nube, el producto va a ser,
+[01:34:38 - 01:34:55] acá, no importa, a un nube, hamburdeza, vacío, burdeza, bueno, no querés, la vacía, hamburdeza,
+[01:34:55 - 01:35:04] y le paso los parámetros vacíos y después en el código voy preguntando, paso a paso, lo querés
+[01:35:04 - 01:35:15] alguna un sí, y después le digo, ¿cómo voy a crecer pan? Pan, ¿con qué crees? Y compán de papa,
+[01:35:15 - 01:35:28] no sé, estoy lista, compán de papa, acá sería entre, tan importante, ¿cómo que con qué tipo de carne
+[01:35:28 - 01:35:41] querés? No voy a cambiar, voy a poner pollo, ¿ok? Entonces después le voy a asignar todos estos
+[01:35:41 - 01:35:50] valores a esos atributos, este sería el enfoque moderno, perdón, el enfoque clásico, el enfoque moderno,
+[01:35:50 - 01:35:58] que es el que más utiliza es al revés, es el builder tenerlo como si fuera una bolsa y voy pidiendo el
+[01:35:58 - 01:36:04] todo a las variables, y bueno, de pasame, ¿cómo querés la hamburguesa? ¿con qué pan? ¿con qué
+[01:36:04 - 01:36:12] carne? ¿con qué verduras? ¿Está armó todo eso? Lo tengo en variables locales y una vez que tenga
+[01:36:12 - 01:36:19] todos los datos recién, una vez que tengo todos los datos, ahí hago el nube, ¿no? Y hago el nube con todo
+[01:36:19 - 01:36:27] lo que estuve recolectando, ¿ok? Eso es el enfoque moderno. Entonces de esa manera luego lo
+[01:36:27 - 01:36:36] de sacoplar la complejidad de la construcción y tener esos parámetros, esos constructores horrorosos,
+[01:36:36 - 01:36:45] mostrosos, que no vamos a recordar nunca, que significa cada truca, a false, y aparte voy a tener
+[01:36:45 - 01:36:52] muchísimos constructores, se le da ese evitar todo eso y armarlo de esta manera. ¿Me siguieron?
+[01:36:52 - 01:37:06] Sí, el proyecto de esa coplar. Es cierto. Pero una pregunta para confirmar, entonces es como que el
+[01:37:06 - 01:37:11] clásico, vos en el main por así decirlo le mandas todas las cosas, para es punto, quiero esto,
+[01:37:11 - 01:37:17] punto, quiero otro, y en cambio el otro el moderno es como que ya te armás un director como que ya
+[01:37:17 - 01:37:24] conoce las recetas, algo así. Claro, tenés este paso a paso y bueno, en los dos,
+[01:37:24 - 01:37:30] hace lo mismo, pero hay un momento determinado que lo hace. En el primero creo el objeto y después
+[01:37:30 - 01:37:40] te voy preguntando, ¿ok? Paso uno, paso dos y voy llenando con esas, con lo que le estoy preguntando,
+[01:37:42 - 01:37:52] voy llenando esos atributos, ¿ok? El moderno es al revés. No creo todavía el objeto, pero obviamente tengo
+[01:37:52 - 01:38:03] un objeto, una, una, una, una, una fabricación pura, ¿sabes? Que lo que hago es que actúe como bolsa,
+[01:38:03 - 01:38:11] ¿no? Este builder va a actuar como una bolsa, y bueno, actuar como una bolsa y guardarme temporalmente
+[01:38:11 - 01:38:17] todos los parámetros de cómo quiero que sea la hamburguesa, entonces voy guardando todos los parámetros
+[01:38:17 - 01:38:23] en una, en variables locales, está una vez que defino todo, una vez que termino con el paso
+[01:38:23 - 01:38:30] tres, recién ahí hago el nube, pero ya tengo todos esos, todos esos datos. Ahí recién ejecuto el
+[01:38:30 - 01:38:37] nube, le envío todo eso y crea el objeto. De esta manera de la segunda manera el producto es
+[01:38:37 - 01:38:43] inmutable, no lo puedo cambiar después, si me quiero asegurar que real producto de tal manera lo hago
+[01:38:43 - 01:38:50] así, el enfoque clásico al modificarlo después, ahí empezan a modificar parte del co, y luego
+[01:38:50 - 01:38:57] tienes acceso a modificar, lo entonces no es tan inmutable como el primero, ¿ok? Eso es lo que yo
+[01:38:57 - 01:39:05] me estoy asegurando con el enfoque moderno, pero bueno, lo, lo importante es que logran entender,
+[01:39:05 - 01:39:14] ¿no? ¿Qué es lo que hace el builder? El sacóplo, la, en todos los sacóplo, la lógica de la creación,
+[01:39:14 - 01:39:27] ¿ok? Pero bueno, el objetivo es éste, digamos, un minutito, me explica los simbóxitos. Bueno,
+[01:39:27 - 01:39:33] el fato de imeto, eso es muy parecido al anterior, al abstract, más después lo voy a cambiar,
+[01:39:33 - 01:39:40] lo voy a poner juntos, ¿ok? Recuerdo en que yo les dije, si quiero crear un único producto por código,
+[01:39:40 - 01:39:47] podría decir, bueno, creo solamente el arte moderno, el producto Silla, y me voy a este caso,
+[01:39:47 - 01:39:54] estoy prácticamente haciendo un factor imetodo, ¿ok? Obviamente vuelvo a lo mismo, yo separo la
+[01:39:54 - 01:40:00] creación del objeto con la lógica que va a tener el objeto. Imagínense que lo único que hago
+[01:40:00 - 01:40:06] son camiones, camiones, camiones, camiones, camiones, en todos lados están negocios orientados al
+[01:40:06 - 01:40:16] camión, ¿ok? Imagínense que en todo el código va a estar la palabra camión, pero un día el
+[01:40:16 - 01:40:24] negocio me cambió, crece, y empiezo a repartir también, no sé, hacer barcos, es como está el
+[01:40:24 - 01:40:31] ejemplo acá. Entonces, tení en todos lados del código la palabra camión por todos lados,
+[01:40:32 - 01:40:39] entonces estaría tratando de forzar el código a que utiliza a rescribirlo, ¿no? Y obviamente
+[01:40:39 - 01:40:49] agregar un nuevo producto, entonces el factor imetodo es lo que hace justamente resolver ese problema,
+[01:40:49 - 01:41:02] creo en lugar de colocar en todo el código, camión por todos lados, creo, ni un camión
+[01:41:02 - 01:41:11] en un solo lugar, el día de mañana quiero volver a agregar otro caso, por ejemplo acá el
+[01:41:11 - 01:41:18] barquito, hago un new barco y ahí ya directamente estoy manejando bastante concreto, ¿no? estoy manejando
+[01:41:18 - 01:41:29] el producto, retorno el producto. Está formado por cuatro componentes, producto y creador,
+[01:41:29 - 01:41:38] obviamente son interfaces, son interfaces, el producto lo que tiene es lo que tienen común todo
+[01:41:38 - 01:41:44] el objeto, sería por ejemplo, en este caso un interfaz de transporte que hice bueno,
+[01:41:46 - 01:41:52] movete, es lo que hace el producto, lo que hace el camión, lo que hace el barco, después tengo el
+[01:41:52 - 01:41:57] concreto de producto, y ahí tengo la implementación del interfaz, pero con los objetos,
+[01:41:58 - 01:42:07] el día concreto es producto, camión, concreto, concreto, parquito, después ya tengo toda la
+[01:42:07 - 01:42:14] funcionalidad del barco, de sacóplo la funcionalidad de la creación, me voy al creador, clases
+[01:42:14 - 01:42:27] extractas también, ahí le vamos, voy a tener para crear el transporte, creo el transporte,
+[01:42:27 - 01:42:34] pero esto es una clas abstracta, donde lo voy a crear, donde lo voy a implementar es acá en el
+[01:42:34 - 01:42:40] concreto creador, acá tengo la implementación del método del creador de la fábrica, que me va a
+[01:42:40 - 01:42:46] retornar el producto, me va a retornar el producto, el que va a crear este producto,
+[01:42:50 - 01:42:57] la diferencia con el anterior, con el abstract factor y sesa, que el abstract factor y me crea una
+[01:42:57 - 01:43:03] familia completa de productos y el factor y método crea un solo producto a la vez,
+[01:43:03 - 01:43:14] obviamente poniendo foco en desacoplar la lógica de creación, me voy al siguiente,
+[01:43:14 - 01:43:32] termino con los de creación y hacemos un breve corte, me voy con el prototype, el prototype hago
+[01:43:32 - 01:43:37] como siempre, el leo y después lo es rico, tienen como finalidad de crear nuevos objetos,
+[01:43:37 - 01:43:47] clonando un instancia creada previamente, entonces me vengo acá, yo tengo que tener en algún lado el
+[01:43:47 - 01:43:55] new, imagínense que ya tengo el new, ya tengo el objeto y después lo que hago es clonarlos,
+[01:43:56 - 01:44:02] estoy con los videos juegos, casi siempre el prototype se usa cuando tengo que duplicar o
+[01:44:03 - 01:44:17] hacer muchísimos amanzas para objetos y al hacer un new lo que yo hago es asignarlo a un lugar de
+[01:44:17 - 01:44:25] memoria, en cambio si hago una clonación, esa memoria baja bastante, entonces me utilizaría
+[01:44:25 - 01:44:34] tantas recursos, ¿ok? ¿Por qué es diferente el funcionamiento? Entonces imagínense que estamos en
+[01:44:34 - 01:44:43] un videojuego y tengo que crear ese tipo como Minecraft, necesito crear elementos, muchos elementos
+[01:44:43 - 01:44:53] idénticos, ahí o bueno, Minecraft quiero crear, no sé, o vegeta, entonces si yo voy a hacer un new
+[01:44:53 - 01:45:00] poveja y son 100 ovejas y la realidad que voy a estar consumiendo y recargando la memoria de
+[01:45:00 - 01:45:08] informe inesesaria, porque color, que sello, la llana, entonces es algo bastante común, el color de la
+[01:45:08 - 01:45:17] beja, entonces voy a utilizar demasiada memoria y ahí baja un poco la performance, entonces como lo
+[01:45:17 - 01:45:24] resuelve a través del prototype, obviamente la primera beja, la primera beja, la tengo que
+[01:45:24 - 01:45:32] tener, o sea, un nuevo beja en algún punto lo voy a tener, uno, después una vez que tengo ese objeto
+[01:45:32 - 01:45:44] lo que hago es clonarlo, ¿ok? Entonces como hago, bueno tengo un prototype, está que es un interfaz,
+[01:45:44 - 01:45:53] está eso, es donde defino toda la regla, todo el contrato, es de lo que todos los objetos deben hacer,
+[01:45:53 - 01:46:01] tate con el clon, obviamente, ahora después tengo, esto, este clon lo tengo que implementar,
+[01:46:01 - 01:46:09] ¿ok? acá lo que voy a hacer es obviamente el objeto real, sabe cómo copiarse a sí mismo,
+[01:46:09 - 01:46:14] acabé de tener toda la lógica para poder plonarlo y el cliente es el que me dice bueno,
+[01:46:14 - 01:46:23] necesito 100 bejas, ¿ok? Entonces la primera beja la voy a crear, voy a tener un nuevo beja,
+[01:46:23 - 01:47:05] o beja original pongo y acá sí voy a hacer un nuevo beja, un nuevo beja y una vez y acá bueno,
+[01:47:05 - 01:47:18] empiezo a setearlo, lo quiero el color blanco, pues yo seteo, como lo quiero, o lo puedo hacer con el
+[01:47:18 - 01:47:32] constructor, pero bueno voy a pongo así ahora, o beja, set, color, en reparen entre, en portablanco,
+[01:47:33 - 01:48:07] después lo pongo, empiezo a jugar un poco, o lo puedo setear y lana, no sé, se te oto, después lo que
+[01:48:07 - 01:48:21] voy a hacer si es, si el patrón, una vez que ya tengo el nube y o bueno beja y ahí sí me voy con
+[01:48:21 - 01:48:27] los objetos, o beja ahí tengo que crear uno, ahí me empiezan con los objetos clonados,
+[01:48:30 - 01:48:46] clonado uno y de qué lo copio y de lo copio del orifinal, un intoclonar, no importa si no me
+[01:48:46 - 01:48:54] sien por el código, la idea es que puedan, y así voy clonando los todos, la idea es que clonando,
+[01:48:54 - 01:49:04] lo que estoy haciendo es ahorrarme en memoria, porque es muchísimo más rápido clonar que crear un nuevo
+[01:49:04 - 01:49:15] objeto, entonces ganamos por todos lados, ahora lo que también estoy viendo,
+[01:49:15 - 01:49:30] es que hoy en día hay muchos lenguajes que traen en forma nativa y en la forma de clonación,
+[01:49:30 - 01:49:40] es más profe, no sé si, o sea en Java, Crypt, prototype vienen ya armadas más, la
+[01:49:40 - 01:49:46] arena se hace a prototip de lo potente que es el patrón digamos, por eso sí, sí, muy bueno,
+[01:49:46 - 01:49:57] ¿qué lo aportó? Lo que hace el rico, muy bien, es cierto, la mayoría de los lenguajes tienen
+[01:49:57 - 01:50:02] esa en forma nativa, la posibilidad de poder clonar objeto, porque se utiliza muchísimo,
+[01:50:04 - 01:50:10] Java por ejemplo creo que usaba clon, me parece que usan super clon, manqué bien minuto,
+[01:50:14 - 01:50:24] lo que usaba el super clon, acá, super punto clon, lo que vos tenés,
+[01:50:35 - 01:50:40] lo que tenés acá, obviamente el super clon, lo que tenés básicamente, ese super clon es esto,
+[01:50:42 - 01:50:45] lo que pasa aquí, ya está el tan envenido que no necesitan, ya alguien lo armó,
+[01:50:45 - 01:50:56] entonces se lo utiliza, me van siendo, ya ya viene envenido, ya hay alguien que lo hizo y uno
+[01:50:56 - 01:51:05] utiliza esa freería, en sí ya creo que pasa algo parecido, yo me voy con algunos, no los
+[01:51:05 - 01:51:24] conozco todos, me lo da más amigable, el método tal me permite crear una copia superficial,
+[01:51:24 - 01:51:38] un saludo copo, es decir que tengo esta clase, lo hizo un puesto, mágicamente hay alguien que
+[01:51:38 - 01:51:45] escribió este código y este clon que retorna este código, ¿qué me había dicho?
+[01:51:45 - 01:51:54] Férico era, que me dijo, en Java un JavaScript, Java script, Java un JavaScript,
+[01:51:58 - 01:52:03] o sea por ejemplo, Java script cuando vos haces una eriancia, realmente estás usando un prototipo
+[01:52:03 - 01:52:08] del padre que a su vez a dentro tiene un prototipo de lo que sería la clase hija, es medio raro,
+[01:52:08 - 01:52:18] pero funciona, funciona, sí en Java, hace cosas raras o veces en Java, sí, sí, es cierto,
+[01:52:18 - 01:52:27] bueno pasa que vamos a ver qué es lo que hace para clonar la estructura de un objeto en JavaScript,
+[01:52:27 - 01:52:34] depende de la necesidad de superficie lo profunda y acá explica, tienes estructura de
+[01:52:34 - 01:52:44] clon, estructura de clon, y acá tienes la alternativa, es calculo que le me decís, la superficial
+[01:52:44 - 01:52:53] es esta, obviamente el código, ustedes no se den nunca, lo que hacen es acceder directamente al
+[01:52:53 - 01:52:58] nombre, le pasan los que quieren clonar y ya está es mágico, bueno, no es que hay magia, atrasa
+[01:52:58 - 01:53:04] todo este tema de todo este código, ¿cuál es el que me había dicho, Federico?
+[01:53:04 - 01:53:14] No, o sea, aparte de este, también tienes uno que tiene la clonación superficial y la que es más
+[01:53:14 - 01:53:22] profunda, lo usa también para la eriancia, decía, pero bueno eso ya es algo de Java script, no
+[01:53:23 - 01:53:31] es algo de Java, fantástico, pero no importa a lo que está bueno, el hecho de decir bueno está
+[01:53:31 - 01:53:38] bien, hay en lo usa pero no es mágico, es este prototip, viene de acá, viene en su momento claro y uno
+[01:53:38 - 01:53:45] lo ve tan nativo porque ya está tan incorporado y maneja la librería es una forma tan amigable que pensamos
+[01:53:45 - 01:53:51] que es magia, no, lo que hay es cuando vos da, si quieres acceder a esa librería, lo que tenés son todos
+[01:53:51 - 01:54:02] estos concretos, no, a mí me sento a escribirlo y después está, yo creo que en el PDF la
+[01:54:02 - 01:54:08] práctica de esos estudios clínicos creo que en ese ejemplo se usa un Patron Gov que justo es
+[01:54:08 - 01:54:17] la del prototype, que era para entender lo tipo es lo que pasaba era que había estudios que se
+[01:54:17 - 01:54:23] repetían como que ya existían en el clímic, y es como que lo tenía que utilizar, lo tenía que clonar
+[01:54:23 - 01:54:28] para poner en el estudio, no? Salina acuerda lo que hagas, pero confío más en lo que vos me
+[01:54:28 - 01:54:36] necesese ejemplo, lo habré hecho, sí, lo habré hecho, lo que pasa que quería entregarle acá creo
+[01:54:36 - 01:54:45] que había un acuador, sí, sí, lo hizo, no me acuerdo en lo que comía ser tico, pero que en la página 12 no
+[01:54:45 - 01:54:56] se estaba para arriba, ¿qué es? Lo que pasa que yo quería, esta más, esto documento lo
+[01:54:56 - 01:55:04] entregaba una vez terminado de dar patrones, entonces me podían entender, pero la realidad es que
+[01:55:04 - 01:55:11] prefería entregarse lo antes, para que también usted lo vayan estudiando y avanzando y no llegar con el
+[01:55:11 - 01:55:18] último día que le doy las cosas, hoy capaz que entender un poquito más lo que hice en esa parte de
+[01:55:18 - 01:55:26] patrón, esa capuce, patrones, claro, y acá piste uno, creo que no me acuerdo, reactivo, publicábamos en
+[01:55:26 - 01:55:33] la parte de otra, te está escrito, también bueno, tienen un ejemplo también como para ver, no me acordaba
+[01:55:33 - 01:55:44] que había hecho el patrón, después le había dicho de Python, usa la linea, Python usa esta linea,
+[01:55:44 - 01:55:58] un minuto, espera un minuto, debe ser un copico, clon, no me acuerdo qué hace, o deep,
+[01:55:59 - 01:56:12] deep copy, creo que hace deep, a ver qué me responde, acá, acá, acá, en Python la
+[01:56:12 - 01:56:19] asignación no copie objetos, sino creo una referencia al vínculo para duplicar datos, se utiliza el
+[01:56:19 - 01:56:26] concepto de yalo copy o deep copy, copy aprofunda, el término clon no existe como palabra reservada,
+[01:56:26 - 01:56:37] no importa, pero ya hay algo creado, tiene ese deep copy, algo parecido, acá tienen el código,
+[01:56:37 - 01:56:45] obviamente ustedes esto no van a, ya esto ya lo tienen hecho, en concreto ya de este, ya está hecho,
+[01:56:45 - 01:56:52] ustedes lo utilizan, hay qué fácil que es todo ahora, no sé lo que me costaba mi hacer un
+[01:56:52 - 01:57:07] compilador, y en el poquera todo más manual, bueno, no importa, a lo que apunto es, hoy está hay
+[01:57:07 - 01:57:15] muchas cosas que se están resuelta, que se están formas nativas en el lenguaje, voy a parar un
+[01:57:15 - 01:57:25] título, que es hasta en formas nativas en el lenguaje, acá me voy a poner la cámara, y la idea,
+[01:57:25 - 01:57:33] más allá de que uno lo utiliza, está en forma nativa, voy a comparar el compártelo, la idea es que
+[01:57:33 - 01:57:38] puedan entender también de dónde viene, porque si no uno usa destructor clon y, no, no, no,
+[01:57:38 - 01:57:42] tienes que modificar algo, modificar andas y podemos modificar algo de la librería,
+[01:57:42 - 01:57:51] que la mayoría de hoy de los lenguajes, algunas cosas las tienen, ya incorporadas, está nativa en el
+[01:57:51 - 01:57:59] lenguaje, y ahí empiezan a hacer esa transformación y acercándome cada vez más al código, voy a parar,
+[01:57:59 - 01:58:06] ahora vamos a hacer un corte de 20 minutos, necesito ir a tomar algo, porque si no me va a dar más, la
+[01:58:06 - 01:58:13] garganta, la idea es continuar y hoy ver todos los patrones golf para que ustedes
+[01:58:13 - 01:58:22] después lo se estudien y podemos dejar si se os ok, 15 minutos en las paredes son y 21 y 35,

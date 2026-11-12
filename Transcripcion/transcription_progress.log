@@ -1,0 +1,329 @@
+[2026-11-11 12:55:43] === INICIANDO PIPELINE DE TRANSCRIPCIÓN ===
+[2026-11-11 12:55:43] Total grabaciones a procesar: 14
+[2026-11-11 12:55:43] Grabaciones pendientes: 14
+[2026-11-11 12:55:43] Cargando modelo Whisper 'base' en CPU (int8, 8 threads)...
+[2026-11-11 12:55:44] Modelo cargado en 0.89s
+[2026-11-11 12:55:44] 
+--- [1/14] Procesando: Clase 01 - Parte 1 (Clase 01-20260820_082357-Grabación de la reunión.mp4) ---
+[2026-11-11 12:55:44] Extrayendo audio a transcripciones\temp_01_20260820_082357.wav...
+[2026-11-11 12:55:45] Audio extraído (211.7 MB). Iniciando transcripción Whisper...
+[2026-11-11 12:56:49]   > Progreso: 00:08:21 / 01:55:37 (7.2%) | Vel: 7.7x real-time
+[2026-11-11 12:57:05]   > Progreso: 00:17:42 / 01:55:37 (15.3%) | Vel: 13.2x real-time
+[2026-11-11 12:57:20]   > Progreso: 00:25:41 / 01:55:37 (22.2%) | Vel: 16.1x real-time
+[2026-11-11 12:57:35]   > Progreso: 00:35:12 / 01:55:37 (30.5%) | Vel: 19.0x real-time
+[2026-11-11 12:57:51]   > Progreso: 00:43:19 / 01:55:37 (37.5%) | Vel: 20.5x real-time
+[2026-11-11 12:58:06]   > Progreso: 00:51:26 / 01:55:37 (44.5%) | Vel: 21.7x real-time
+[2026-11-11 12:58:22]   > Progreso: 01:00:00 / 01:55:37 (51.9%) | Vel: 22.8x real-time
+[2026-11-11 12:58:37]   > Progreso: 01:08:05 / 01:55:37 (58.9%) | Vel: 23.6x real-time
+[2026-11-11 12:58:53]   > Progreso: 01:16:26 / 01:55:37 (66.1%) | Vel: 24.3x real-time
+[2026-11-11 12:59:08]   > Progreso: 01:24:39 / 01:55:37 (73.2%) | Vel: 24.8x real-time
+[2026-11-11 12:59:24]   > Progreso: 01:33:36 / 01:55:37 (81.0%) | Vel: 25.6x real-time
+[2026-11-11 12:59:39]   > Progreso: 01:41:37 / 01:55:37 (87.9%) | Vel: 26.0x real-time
+[2026-11-11 12:59:55]   > Progreso: 01:51:14 / 01:55:37 (96.2%) | Vel: 26.6x real-time
+[2026-11-11 13:00:08] Completado Clase 01 - Parte 1: 783 segmentos en 4.40 min (26.3x real-time)
+[2026-11-11 13:00:08] Guardado en transcripciones\01_20260820_082357.txt y transcripciones\01_20260820_082357.json
+[2026-11-11 13:00:08] 
+--- [2/14] Procesando: Clase 01 - Parte 2 (Clase 01-20260820_102934-Grabación de la reunión.mp4) ---
+[2026-11-11 13:00:08] Extrayendo audio a transcripciones\temp_01_20260820_102934.wav...
+[2026-11-11 13:00:09] Audio extraído (146.6 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:00:51]   > Progreso: 00:06:30 / 01:20:04 (8.1%) | Vel: 9.0x real-time
+[2026-11-11 13:01:08]   > Progreso: 00:08:59 / 01:20:04 (11.2%) | Vel: 9.0x real-time
+[2026-11-11 13:01:24]   > Progreso: 00:17:50 / 01:20:04 (22.3%) | Vel: 14.1x real-time
+[2026-11-11 13:01:39]   > Progreso: 00:25:42 / 01:20:04 (32.1%) | Vel: 16.9x real-time
+[2026-11-11 13:01:54]   > Progreso: 00:35:10 / 01:20:04 (43.9%) | Vel: 19.8x real-time
+[2026-11-11 13:02:10]   > Progreso: 00:43:16 / 01:20:04 (54.0%) | Vel: 21.3x real-time
+[2026-11-11 13:02:29]   > Progreso: 00:48:40 / 01:20:04 (60.8%) | Vel: 20.7x real-time
+[2026-11-11 13:02:45]   > Progreso: 00:58:16 / 01:20:04 (72.8%) | Vel: 22.3x real-time
+[2026-11-11 13:03:00]   > Progreso: 01:08:32 / 01:20:04 (85.6%) | Vel: 23.9x real-time
+[2026-11-11 13:03:15]   > Progreso: 01:17:18 / 01:20:04 (96.5%) | Vel: 24.7x real-time
+[2026-11-11 13:03:21] Completado Clase 01 - Parte 2: 466 segmentos en 3.21 min (24.9x real-time)
+[2026-11-11 13:03:21] Guardado en transcripciones\01_20260820_102934.txt y transcripciones\01_20260820_102934.json
+[2026-11-11 13:03:21] 
+--- [3/14] Procesando: Clase 02 - Completa (Teams meeting-20260827_081937-Grabación de la reunión.mp4) ---
+[2026-11-11 13:03:21] Extrayendo audio a transcripciones\temp_02_20260827_081937.wav...
+[2026-11-11 13:03:24] Audio extraído (343.9 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:05:52]   > Progreso: 00:09:32 / 03:07:48 (5.1%) | Vel: 3.8x real-time
+[2026-11-11 13:06:08]   > Progreso: 00:17:13 / 03:07:48 (9.2%) | Vel: 6.2x real-time
+[2026-11-11 13:06:24]   > Progreso: 00:24:24 / 03:07:48 (13.0%) | Vel: 8.0x real-time
+[2026-11-11 13:06:39]   > Progreso: 00:30:57 / 03:07:48 (16.5%) | Vel: 9.3x real-time
+[2026-11-11 13:06:55]   > Progreso: 00:38:39 / 03:07:48 (20.6%) | Vel: 10.8x real-time
+[2026-11-11 13:07:11]   > Progreso: 00:49:52 / 03:07:48 (26.6%) | Vel: 13.0x real-time
+[2026-11-11 13:07:27]   > Progreso: 00:57:18 / 03:07:48 (30.5%) | Vel: 14.0x real-time
+[2026-11-11 13:07:43]   > Progreso: 01:03:51 / 03:07:48 (34.0%) | Vel: 14.6x real-time
+[2026-11-11 13:07:58]   > Progreso: 01:07:32 / 03:07:48 (36.0%) | Vel: 14.6x real-time
+[2026-11-11 13:08:20]   > Progreso: 01:09:45 / 03:07:48 (37.1%) | Vel: 14.0x real-time
+[2026-11-11 13:08:36]   > Progreso: 01:17:21 / 03:07:48 (41.2%) | Vel: 14.7x real-time
+[2026-11-11 13:08:51]   > Progreso: 01:25:37 / 03:07:48 (45.6%) | Vel: 15.6x real-time
+[2026-11-11 13:09:06]   > Progreso: 01:32:28 / 03:07:48 (49.2%) | Vel: 16.0x real-time
+[2026-11-11 13:09:31]   > Progreso: 01:38:58 / 03:07:48 (52.7%) | Vel: 16.0x real-time
+[2026-11-11 13:09:56]   > Progreso: 01:42:00 / 03:07:48 (54.3%) | Vel: 15.5x real-time
+[2026-11-11 13:10:15]   > Progreso: 01:45:20 / 03:07:48 (56.1%) | Vel: 15.3x real-time
+[2026-11-11 13:10:30]   > Progreso: 01:56:12 / 03:07:48 (61.9%) | Vel: 16.2x real-time
+[2026-11-11 13:10:45]   > Progreso: 02:02:43 / 03:07:48 (65.3%) | Vel: 16.6x real-time
+[2026-11-11 13:11:20]   > Progreso: 02:06:19 / 03:07:48 (67.3%) | Vel: 15.8x real-time
+[2026-11-11 13:11:35]   > Progreso: 02:12:32 / 03:07:48 (70.6%) | Vel: 16.1x real-time
+[2026-11-11 13:11:51]   > Progreso: 02:17:03 / 03:07:48 (73.0%) | Vel: 16.1x real-time
+[2026-11-11 13:12:07]   > Progreso: 02:23:14 / 03:07:48 (76.3%) | Vel: 16.3x real-time
+[2026-11-11 13:12:22]   > Progreso: 02:30:27 / 03:07:48 (80.1%) | Vel: 16.7x real-time
+[2026-11-11 13:12:52]   > Progreso: 02:34:11 / 03:07:48 (82.1%) | Vel: 16.2x real-time
+[2026-11-11 13:13:08]   > Progreso: 02:41:52 / 03:07:48 (86.2%) | Vel: 16.5x real-time
+[2026-11-11 13:13:23]   > Progreso: 02:48:39 / 03:07:48 (89.8%) | Vel: 16.8x real-time
+[2026-11-11 13:13:38]   > Progreso: 02:55:26 / 03:07:48 (93.4%) | Vel: 17.1x real-time
+[2026-11-11 13:13:55]   > Progreso: 03:00:04 / 03:07:48 (95.9%) | Vel: 17.0x real-time
+[2026-11-11 13:14:12]   > Progreso: 03:07:41 / 03:07:48 (99.9%) | Vel: 17.3x real-time
+[2026-11-11 13:14:12] Completado Clase 02 - Completa: 1881 segmentos en 10.86 min (17.3x real-time)
+[2026-11-11 13:14:12] Guardado en transcripciones\02_20260827_081937.txt y transcripciones\02_20260827_081937.json
+[2026-11-11 13:14:12] 
+--- [4/14] Procesando: Clase 03 - Parte 1 (Clase 03-20260903_081406-Grabación de la reunión 1.mp4) ---
+[2026-11-11 13:14:12] Extrayendo audio a transcripciones\temp_03_20260903_081406.wav...
+[2026-11-11 13:14:14] Audio extraído (189.6 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:15:12]   > Progreso: 00:11:06 / 01:43:33 (10.7%) | Vel: 11.1x real-time
+[2026-11-11 13:15:28]   > Progreso: 00:14:58 / 01:43:33 (14.5%) | Vel: 11.9x real-time
+[2026-11-11 13:15:43]   > Progreso: 00:20:30 / 01:43:33 (19.8%) | Vel: 13.5x real-time
+[2026-11-11 13:15:58]   > Progreso: 00:27:32 / 01:43:33 (26.6%) | Vel: 15.6x real-time
+[2026-11-11 13:16:13]   > Progreso: 00:36:06 / 01:43:33 (34.9%) | Vel: 17.9x real-time
+[2026-11-11 13:16:44]   > Progreso: 00:44:11 / 01:43:33 (42.7%) | Vel: 17.4x real-time
+[2026-11-11 13:17:00]   > Progreso: 00:51:58 / 01:43:33 (50.2%) | Vel: 18.6x real-time
+[2026-11-11 13:17:15]   > Progreso: 00:59:18 / 01:43:33 (57.3%) | Vel: 19.5x real-time
+[2026-11-11 13:17:30]   > Progreso: 01:04:27 / 01:43:33 (62.2%) | Vel: 19.5x real-time
+[2026-11-11 13:17:46]   > Progreso: 01:12:20 / 01:43:33 (69.9%) | Vel: 20.3x real-time
+[2026-11-11 13:18:01]   > Progreso: 01:16:55 / 01:43:33 (74.3%) | Vel: 20.1x real-time
+[2026-11-11 13:18:17]   > Progreso: 01:23:12 / 01:43:33 (80.3%) | Vel: 20.4x real-time
+[2026-11-11 13:18:32]   > Progreso: 01:30:09 / 01:43:33 (87.1%) | Vel: 20.8x real-time
+[2026-11-11 13:18:51]   > Progreso: 01:32:50 / 01:43:33 (89.6%) | Vel: 20.0x real-time
+[2026-11-11 13:19:06]   > Progreso: 01:40:24 / 01:43:33 (97.0%) | Vel: 20.5x real-time
+[2026-11-11 13:19:14] Completado Clase 03 - Parte 1: 592 segmentos en 5.04 min (20.6x real-time)
+[2026-11-11 13:19:14] Guardado en transcripciones\03_20260903_081406.txt y transcripciones\03_20260903_081406.json
+[2026-11-11 13:19:14] 
+--- [5/14] Procesando: Clase 03 - Parte 2 (Clase 03-20260903_101348-Grabación de la reunión.mp4) ---
+[2026-11-11 13:19:14] Extrayendo audio a transcripciones\temp_03_20260903_101348.wav...
+[2026-11-11 13:19:16] Audio extraído (163.5 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:20:10]   > Progreso: 00:11:35 / 01:29:17 (13.0%) | Vel: 12.6x real-time
+[2026-11-11 13:20:25]   > Progreso: 00:18:49 / 01:29:17 (21.1%) | Vel: 16.0x real-time
+[2026-11-11 13:20:40]   > Progreso: 00:23:20 / 01:29:17 (26.1%) | Vel: 16.3x real-time
+[2026-11-11 13:20:57]   > Progreso: 00:27:56 / 01:29:17 (31.3%) | Vel: 16.4x real-time
+[2026-11-11 13:21:12]   > Progreso: 00:34:55 / 01:29:17 (39.1%) | Vel: 17.8x real-time
+[2026-11-11 13:21:28]   > Progreso: 00:42:36 / 01:29:17 (47.7%) | Vel: 19.2x real-time
+[2026-11-11 13:21:43]   > Progreso: 00:50:29 / 01:29:17 (56.5%) | Vel: 20.4x real-time
+[2026-11-11 13:21:58]   > Progreso: 00:56:30 / 01:29:17 (63.3%) | Vel: 20.7x real-time
+[2026-11-11 13:22:13]   > Progreso: 01:04:09 / 01:29:17 (71.8%) | Vel: 21.5x real-time
+[2026-11-11 13:22:28]   > Progreso: 01:11:24 / 01:29:17 (80.0%) | Vel: 22.1x real-time
+[2026-11-11 13:22:44]   > Progreso: 01:17:53 / 01:29:17 (87.2%) | Vel: 22.3x real-time
+[2026-11-11 13:23:02]   > Progreso: 01:22:36 / 01:29:17 (92.5%) | Vel: 21.8x real-time
+[2026-11-11 13:23:33]   > Progreso: 01:27:22 / 01:29:17 (97.9%) | Vel: 20.2x real-time
+[2026-11-11 13:23:36] Completado Clase 03 - Parte 2: 728 segmentos en 4.36 min (20.5x real-time)
+[2026-11-11 13:23:36] Guardado en transcripciones\03_20260903_101348.txt y transcripciones\03_20260903_101348.json
+[2026-11-11 13:23:36] 
+--- [6/14] Procesando: Clase 05 - Parte 1 (Clase 05-20260917_081823-Meeting Recording.mp4) ---
+[2026-11-11 13:23:36] Extrayendo audio a transcripciones\temp_05_20260917_081823.wav...
+[2026-11-11 13:23:38] Audio extraído (193.2 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:24:47]   > Progreso: 00:03:59 / 01:45:31 (3.8%) | Vel: 3.4x real-time
+[2026-11-11 13:25:02]   > Progreso: 00:07:12 / 01:45:31 (6.8%) | Vel: 5.0x real-time
+[2026-11-11 13:25:18]   > Progreso: 00:13:30 / 01:45:31 (12.8%) | Vel: 7.9x real-time
+[2026-11-11 13:25:47]   > Progreso: 00:18:24 / 01:45:31 (17.4%) | Vel: 8.4x real-time
+[2026-11-11 13:26:03]   > Progreso: 00:28:01 / 01:45:31 (26.6%) | Vel: 11.4x real-time
+[2026-11-11 13:26:18]   > Progreso: 00:35:54 / 01:45:31 (34.0%) | Vel: 13.3x real-time
+[2026-11-11 13:26:34]   > Progreso: 00:43:08 / 01:45:31 (40.9%) | Vel: 14.5x real-time
+[2026-11-11 13:26:50]   > Progreso: 00:51:30 / 01:45:31 (48.8%) | Vel: 15.9x real-time
+[2026-11-11 13:27:06]   > Progreso: 00:59:06 / 01:45:31 (56.0%) | Vel: 16.9x real-time
+[2026-11-11 13:27:21]   > Progreso: 01:06:40 / 01:45:31 (63.2%) | Vel: 17.7x real-time
+[2026-11-11 13:27:36]   > Progreso: 01:14:06 / 01:45:31 (70.2%) | Vel: 18.5x real-time
+[2026-11-11 13:27:52]   > Progreso: 01:22:58 / 01:45:31 (78.6%) | Vel: 19.4x real-time
+[2026-11-11 13:28:07]   > Progreso: 01:30:19 / 01:45:31 (85.6%) | Vel: 19.9x real-time
+[2026-11-11 13:28:23]   > Progreso: 01:38:52 / 01:45:31 (93.7%) | Vel: 20.7x real-time
+[2026-11-11 13:28:39]   > Progreso: 01:44:34 / 01:45:31 (99.1%) | Vel: 20.7x real-time
+[2026-11-11 13:28:40] Completado Clase 05 - Parte 1: 927 segmentos en 5.06 min (20.8x real-time)
+[2026-11-11 13:28:40] Guardado en transcripciones\05_20260917_081823.txt y transcripciones\05_20260917_081823.json
+[2026-11-11 13:28:40] 
+--- [7/14] Procesando: Clase 05 - Parte 2 (Clase 05-20260917_101702-Grabación de la reunión.mp4) ---
+[2026-11-11 13:28:40] Extrayendo audio a transcripciones\temp_05_20260917_101702.wav...
+[2026-11-11 13:28:41] Audio extraído (171.9 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:29:30]   > Progreso: 00:02:19 / 01:33:54 (2.5%) | Vel: 2.7x real-time
+[2026-11-11 13:29:46]   > Progreso: 00:10:00 / 01:33:54 (10.7%) | Vel: 9.0x real-time
+[2026-11-11 13:30:01]   > Progreso: 00:20:04 / 01:33:54 (21.4%) | Vel: 14.7x real-time
+[2026-11-11 13:30:17]   > Progreso: 00:29:55 / 01:33:54 (31.9%) | Vel: 18.5x real-time
+[2026-11-11 13:30:32]   > Progreso: 00:32:25 / 01:33:54 (34.5%) | Vel: 17.3x real-time
+[2026-11-11 13:30:47]   > Progreso: 00:41:47 / 01:33:54 (44.5%) | Vel: 19.6x real-time
+[2026-11-11 13:31:02]   > Progreso: 00:49:55 / 01:33:54 (53.2%) | Vel: 21.0x real-time
+[2026-11-11 13:31:18]   > Progreso: 00:59:33 / 01:33:54 (63.4%) | Vel: 22.5x real-time
+[2026-11-11 13:31:33]   > Progreso: 01:09:02 / 01:33:54 (73.5%) | Vel: 23.8x real-time
+[2026-11-11 13:31:49]   > Progreso: 01:13:31 / 01:33:54 (78.3%) | Vel: 23.3x real-time
+[2026-11-11 13:32:05]   > Progreso: 01:21:08 / 01:33:54 (86.4%) | Vel: 23.7x real-time
+[2026-11-11 13:32:21]   > Progreso: 01:29:44 / 01:33:54 (95.6%) | Vel: 24.3x real-time
+[2026-11-11 13:32:28] Completado Clase 05 - Parte 2: 872 segmentos en 3.80 min (24.7x real-time)
+[2026-11-11 13:32:28] Guardado en transcripciones\05_20260917_101702.txt y transcripciones\05_20260917_101702.json
+[2026-11-11 13:32:28] 
+--- [8/14] Procesando: Clase 06 - Parte 1 (Clase 06-20260924_082126-Grabación de la reunión.mp4) ---
+[2026-11-11 13:32:28] Extrayendo audio a transcripciones\temp_06_20260924_082126.wav...
+[2026-11-11 13:32:30] Audio extraído (259.1 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:33:47]   > Progreso: 00:13:15 / 02:21:30 (9.4%) | Vel: 10.0x real-time
+[2026-11-11 13:34:02]   > Progreso: 00:21:18 / 02:21:30 (15.1%) | Vel: 13.5x real-time
+[2026-11-11 13:34:18]   > Progreso: 00:30:38 / 02:21:30 (21.7%) | Vel: 16.6x real-time
+[2026-11-11 13:34:34]   > Progreso: 00:39:10 / 02:21:30 (27.7%) | Vel: 18.6x real-time
+[2026-11-11 13:34:49]   > Progreso: 00:46:14 / 02:21:30 (32.7%) | Vel: 19.6x real-time
+[2026-11-11 13:35:06]   > Progreso: 00:53:01 / 02:21:30 (37.5%) | Vel: 20.2x real-time
+[2026-11-11 13:35:22]   > Progreso: 01:05:58 / 02:21:30 (46.6%) | Vel: 22.8x real-time
+[2026-11-11 13:35:37]   > Progreso: 01:14:03 / 02:21:30 (52.3%) | Vel: 23.5x real-time
+[2026-11-11 13:35:52]   > Progreso: 01:21:08 / 02:21:30 (57.3%) | Vel: 23.8x real-time
+[2026-11-11 13:36:07]   > Progreso: 01:28:24 / 02:21:30 (62.5%) | Vel: 24.2x real-time
+[2026-11-11 13:36:22]   > Progreso: 01:36:55 / 02:21:30 (68.5%) | Vel: 24.8x real-time
+[2026-11-11 13:36:38]   > Progreso: 01:44:25 / 02:21:30 (73.8%) | Vel: 25.1x real-time
+[2026-11-11 13:36:56]   > Progreso: 01:50:18 / 02:21:30 (77.9%) | Vel: 24.7x real-time
+[2026-11-11 13:37:11]   > Progreso: 01:58:11 / 02:21:30 (83.5%) | Vel: 25.0x real-time
+[2026-11-11 13:37:27]   > Progreso: 02:06:31 / 02:21:30 (89.4%) | Vel: 25.4x real-time
+[2026-11-11 13:37:47]   > Progreso: 02:13:26 / 02:21:30 (94.3%) | Vel: 25.1x real-time
+[2026-11-11 13:37:59] Completado Clase 06 - Parte 1: 1075 segmentos en 5.52 min (25.6x real-time)
+[2026-11-11 13:37:59] Guardado en transcripciones\06_20260924_082126.txt y transcripciones\06_20260924_082126.json
+[2026-11-11 13:37:59] 
+--- [9/14] Procesando: Clase 06 - Parte 2 (Clase 06-20260924_114136-Grabación de la reunión.mp4) ---
+[2026-11-11 13:37:59] Extrayendo audio a transcripciones\temp_06_20260924_114136.wav...
+[2026-11-11 13:37:59] Audio extraído (36.9 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:38:18]   > Progreso: 00:07:02 / 00:20:10 (34.9%) | Vel: 21.7x real-time
+[2026-11-11 13:38:34]   > Progreso: 00:08:53 / 00:20:10 (44.0%) | Vel: 15.3x real-time
+[2026-11-11 13:38:50]   > Progreso: 00:15:35 / 00:20:10 (77.3%) | Vel: 18.5x real-time
+[2026-11-11 13:38:57] Completado Clase 06 - Parte 2: 251 segmentos en 0.96 min (21.0x real-time)
+[2026-11-11 13:38:57] Guardado en transcripciones\06_20260924_114136.txt y transcripciones\06_20260924_114136.json
+[2026-11-11 13:38:57] 
+--- [10/14] Procesando: Clase 07 - Parte 1 (Clase Diseño-20261001_082247-Grabación de la reunión.mp4) ---
+[2026-11-11 13:38:57] Extrayendo audio a transcripciones\temp_07_20261001_082247.wav...
+[2026-11-11 13:38:58] Audio extraído (217.2 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:40:14]   > Progreso: 00:06:39 / 01:58:35 (5.6%) | Vel: 5.1x real-time
+[2026-11-11 13:40:30]   > Progreso: 00:14:29 / 01:58:35 (12.2%) | Vel: 9.3x real-time
+[2026-11-11 13:40:46]   > Progreso: 00:21:35 / 01:58:35 (18.2%) | Vel: 11.8x real-time
+[2026-11-11 13:41:02]   > Progreso: 00:29:16 / 01:58:35 (24.7%) | Vel: 14.0x real-time
+[2026-11-11 13:41:18]   > Progreso: 00:36:00 / 01:58:35 (30.4%) | Vel: 15.3x real-time
+[2026-11-11 13:41:38]   > Progreso: 00:41:51 / 01:58:35 (35.3%) | Vel: 15.5x real-time
+[2026-11-11 13:41:54]   > Progreso: 00:49:39 / 01:58:35 (41.9%) | Vel: 16.8x real-time
+[2026-11-11 13:42:09]   > Progreso: 00:58:04 / 01:58:35 (49.0%) | Vel: 18.1x real-time
+[2026-11-11 13:42:25]   > Progreso: 01:07:23 / 01:58:35 (56.8%) | Vel: 19.4x real-time
+[2026-11-11 13:42:40]   > Progreso: 01:13:53 / 01:58:35 (62.3%) | Vel: 19.8x real-time
+[2026-11-11 13:42:56]   > Progreso: 01:21:31 / 01:58:35 (68.7%) | Vel: 20.4x real-time
+[2026-11-11 13:43:12]   > Progreso: 01:24:19 / 01:58:35 (71.1%) | Vel: 19.8x real-time
+[2026-11-11 13:43:28]   > Progreso: 01:31:31 / 01:58:35 (77.2%) | Vel: 20.2x real-time
+[2026-11-11 13:43:43]   > Progreso: 01:39:27 / 01:58:35 (83.9%) | Vel: 20.8x real-time
+[2026-11-11 13:43:59]   > Progreso: 01:48:07 / 01:58:35 (91.2%) | Vel: 21.5x real-time
+[2026-11-11 13:44:14]   > Progreso: 01:55:44 / 01:58:35 (97.6%) | Vel: 21.9x real-time
+[2026-11-11 13:44:20] Completado Clase 07 - Parte 1: 1290 segmentos en 5.39 min (22.0x real-time)
+[2026-11-11 13:44:20] Guardado en transcripciones\07_20261001_082247.txt y transcripciones\07_20261001_082247.json
+[2026-11-11 13:44:20] 
+--- [11/14] Procesando: Clase 07 - Parte 2 (Clase Diseño-20261001_103650-Grabación de la reunión.mp4) ---
+[2026-11-11 13:44:20] Extrayendo audio a transcripciones\temp_07_20261001_103650.wav...
+[2026-11-11 13:44:21] Audio extraído (137.9 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:45:11]   > Progreso: 00:05:09 / 01:15:18 (6.8%) | Vel: 6.0x real-time
+[2026-11-11 13:45:27]   > Progreso: 00:11:15 / 01:15:18 (15.0%) | Vel: 10.1x real-time
+[2026-11-11 13:45:43]   > Progreso: 00:18:16 / 01:15:18 (24.3%) | Vel: 13.2x real-time
+[2026-11-11 13:45:58]   > Progreso: 00:24:47 / 01:15:18 (32.9%) | Vel: 15.2x real-time
+[2026-11-11 13:46:14]   > Progreso: 00:29:13 / 01:15:18 (38.8%) | Vel: 15.5x real-time
+[2026-11-11 13:46:31]   > Progreso: 00:33:36 / 01:15:18 (44.6%) | Vel: 15.4x real-time
+[2026-11-11 13:46:47]   > Progreso: 00:38:07 / 01:15:18 (50.6%) | Vel: 15.6x real-time
+[2026-11-11 13:47:02]   > Progreso: 00:44:00 / 01:15:18 (58.4%) | Vel: 16.3x real-time
+[2026-11-11 13:47:18]   > Progreso: 00:50:58 / 01:15:18 (67.7%) | Vel: 17.2x real-time
+[2026-11-11 13:47:37]   > Progreso: 00:54:11 / 01:15:18 (72.0%) | Vel: 16.5x real-time
+[2026-11-11 13:47:52]   > Progreso: 01:01:30 / 01:15:18 (81.7%) | Vel: 17.4x real-time
+[2026-11-11 13:48:08]   > Progreso: 01:08:34 / 01:15:18 (91.0%) | Vel: 18.1x real-time
+[2026-11-11 13:48:20] Completado Clase 07 - Parte 2: 464 segmentos en 4.00 min (18.8x real-time)
+[2026-11-11 13:48:20] Guardado en transcripciones\07_20261001_103650.txt y transcripciones\07_20261001_103650.json
+[2026-11-11 13:48:20] 
+--- [12/14] Procesando: Clase 08 - Completa (Clase-20261008_082230-Grabación de la reunión.mp4) ---
+[2026-11-11 13:48:20] Extrayendo audio a transcripciones\temp_08_20261008_082230.wav...
+[2026-11-11 13:48:23] Audio extraído (345.9 MB). Iniciando transcripción Whisper...
+[2026-11-11 13:50:45]   > Progreso: 00:06:28 / 03:08:53 (3.4%) | Vel: 2.7x real-time
+[2026-11-11 13:51:00]   > Progreso: 00:13:46 / 03:08:53 (7.3%) | Vel: 5.2x real-time
+[2026-11-11 13:51:15]   > Progreso: 00:21:04 / 03:08:53 (11.2%) | Vel: 7.2x real-time
+[2026-11-11 13:51:35]   > Progreso: 00:27:50 / 03:08:53 (14.7%) | Vel: 8.6x real-time
+[2026-11-11 13:51:51]   > Progreso: 00:30:52 / 03:08:53 (16.3%) | Vel: 8.8x real-time
+[2026-11-11 13:52:06]   > Progreso: 00:36:41 / 03:08:53 (19.4%) | Vel: 9.8x real-time
+[2026-11-11 13:52:29]   > Progreso: 00:46:14 / 03:08:53 (24.5%) | Vel: 11.2x real-time
+[2026-11-11 13:52:45]   > Progreso: 00:54:38 / 03:08:53 (28.9%) | Vel: 12.4x real-time
+[2026-11-11 13:53:12]   > Progreso: 01:01:15 / 03:08:53 (32.4%) | Vel: 12.6x real-time
+[2026-11-11 13:53:27]   > Progreso: 01:10:00 / 03:08:53 (37.1%) | Vel: 13.7x real-time
+[2026-11-11 13:53:42]   > Progreso: 01:19:12 / 03:08:53 (41.9%) | Vel: 14.8x real-time
+[2026-11-11 13:54:02]   > Progreso: 01:21:37 / 03:08:53 (43.2%) | Vel: 14.3x real-time
+[2026-11-11 13:54:17]   > Progreso: 01:27:56 / 03:08:53 (46.6%) | Vel: 14.8x real-time
+[2026-11-11 13:54:33]   > Progreso: 01:36:33 / 03:08:53 (51.1%) | Vel: 15.6x real-time
+[2026-11-11 13:54:48]   > Progreso: 01:43:39 / 03:08:53 (54.9%) | Vel: 16.0x real-time
+[2026-11-11 13:55:04]   > Progreso: 01:56:05 / 03:08:53 (61.5%) | Vel: 17.3x real-time
+[2026-11-11 13:55:29]   > Progreso: 02:04:29 / 03:08:53 (65.9%) | Vel: 17.4x real-time
+[2026-11-11 13:55:44]   > Progreso: 02:11:51 / 03:08:53 (69.8%) | Vel: 17.8x real-time
+[2026-11-11 13:56:00]   > Progreso: 02:18:51 / 03:08:53 (73.5%) | Vel: 18.1x real-time
+[2026-11-11 13:56:22]   > Progreso: 02:25:42 / 03:08:53 (77.1%) | Vel: 18.1x real-time
+[2026-11-11 13:56:38]   > Progreso: 02:37:17 / 03:08:53 (83.3%) | Vel: 19.0x real-time
+[2026-11-11 13:56:54]   > Progreso: 02:46:19 / 03:08:53 (88.1%) | Vel: 19.4x real-time
+[2026-11-11 13:57:09]   > Progreso: 02:55:15 / 03:08:53 (92.8%) | Vel: 19.9x real-time
+[2026-11-11 13:57:25]   > Progreso: 03:03:52 / 03:08:53 (97.3%) | Vel: 20.2x real-time
+[2026-11-11 13:57:32] Completado Clase 08 - Completa: 1567 segmentos en 9.20 min (20.5x real-time)
+[2026-11-11 13:57:32] Guardado en transcripciones\08_20261008_082230.txt y transcripciones\08_20261008_082230.json
+[2026-11-11 13:57:32] 
+--- [13/14] Procesando: Clase 09 - Completa (Clase 1510-20261015_082342-Grabación de la reunión.mp4) ---
+[2026-11-11 13:57:32] Extrayendo audio a transcripciones\temp_09_20261015_082342.wav...
+[2026-11-11 13:57:36] Audio extraído (415.6 MB). Iniciando transcripción Whisper...
+[2026-11-11 14:01:01]   > Progreso: 00:06:52 / 03:46:58 (3.0%) | Vel: 2.0x real-time
+[2026-11-11 14:01:16]   > Progreso: 00:13:53 / 03:46:58 (6.1%) | Vel: 3.7x real-time
+[2026-11-11 14:01:32]   > Progreso: 00:20:31 / 03:46:58 (9.0%) | Vel: 5.1x real-time
+[2026-11-11 14:01:48]   > Progreso: 00:28:31 / 03:46:58 (12.6%) | Vel: 6.7x real-time
+[2026-11-11 14:02:04]   > Progreso: 00:34:23 / 03:46:58 (15.2%) | Vel: 7.6x real-time
+[2026-11-11 14:02:19]   > Progreso: 00:40:32 / 03:46:58 (17.9%) | Vel: 8.5x real-time
+[2026-11-11 14:02:39]   > Progreso: 00:46:37 / 03:46:58 (20.5%) | Vel: 9.1x real-time
+[2026-11-11 14:02:59]   > Progreso: 00:52:16 / 03:46:58 (23.0%) | Vel: 9.6x real-time
+[2026-11-11 14:03:14]   > Progreso: 00:55:50 / 03:46:58 (24.6%) | Vel: 9.8x real-time
+[2026-11-11 14:03:30]   > Progreso: 01:02:25 / 03:46:58 (27.5%) | Vel: 10.5x real-time
+[2026-11-11 14:03:47]   > Progreso: 01:05:09 / 03:46:58 (28.7%) | Vel: 10.4x real-time
+[2026-11-11 14:04:20]   > Progreso: 01:12:25 / 03:46:58 (31.9%) | Vel: 10.6x real-time
+[2026-11-11 14:04:50]   > Progreso: 01:18:45 / 03:46:58 (34.7%) | Vel: 10.8x real-time
+[2026-11-11 14:05:06]   > Progreso: 01:23:58 / 03:46:58 (37.0%) | Vel: 11.1x real-time
+[2026-11-11 14:05:22]   > Progreso: 01:31:13 / 03:46:58 (40.2%) | Vel: 11.7x real-time
+[2026-11-11 14:05:55]   > Progreso: 01:37:03 / 03:46:58 (42.8%) | Vel: 11.6x real-time
+[2026-11-11 14:06:10]   > Progreso: 01:44:02 / 03:46:58 (45.8%) | Vel: 12.1x real-time
+[2026-11-11 14:06:32]   > Progreso: 01:49:30 / 03:46:58 (48.2%) | Vel: 12.2x real-time
+[2026-11-11 14:06:56]   > Progreso: 01:53:06 / 03:46:58 (49.8%) | Vel: 12.0x real-time
+[2026-11-11 14:07:12]   > Progreso: 01:57:56 / 03:46:58 (52.0%) | Vel: 12.2x real-time
+[2026-11-11 14:07:38]   > Progreso: 02:01:59 / 03:46:58 (53.8%) | Vel: 12.1x real-time
+[2026-11-11 14:07:53]   > Progreso: 02:05:15 / 03:46:58 (55.2%) | Vel: 12.1x real-time
+[2026-11-11 14:08:09]   > Progreso: 02:12:43 / 03:46:58 (58.5%) | Vel: 12.5x real-time
+[2026-11-11 14:08:24]   > Progreso: 02:17:01 / 03:46:58 (60.4%) | Vel: 12.6x real-time
+[2026-11-11 14:08:39]   > Progreso: 02:21:51 / 03:46:58 (62.5%) | Vel: 12.8x real-time
+[2026-11-11 14:08:59]   > Progreso: 02:26:29 / 03:46:58 (64.5%) | Vel: 12.8x real-time
+[2026-11-11 14:09:14]   > Progreso: 02:32:34 / 03:46:58 (67.2%) | Vel: 13.0x real-time
+[2026-11-11 14:09:29]   > Progreso: 02:35:55 / 03:46:58 (68.7%) | Vel: 13.0x real-time
+[2026-11-11 14:09:45]   > Progreso: 02:42:17 / 03:46:58 (71.5%) | Vel: 13.3x real-time
+[2026-11-11 14:10:00]   > Progreso: 02:47:16 / 03:46:58 (73.7%) | Vel: 13.4x real-time
+[2026-11-11 14:10:16]   > Progreso: 02:53:20 / 03:46:58 (76.4%) | Vel: 13.6x real-time
+[2026-11-11 14:10:36]   > Progreso: 02:58:25 / 03:46:58 (78.6%) | Vel: 13.7x real-time
+[2026-11-11 14:10:51]   > Progreso: 03:05:29 / 03:46:58 (81.7%) | Vel: 13.9x real-time
+[2026-11-11 14:11:14]   > Progreso: 03:11:51 / 03:46:58 (84.5%) | Vel: 14.0x real-time
+[2026-11-11 14:11:30]   > Progreso: 03:18:28 / 03:46:58 (87.4%) | Vel: 14.2x real-time
+[2026-11-11 14:11:46]   > Progreso: 03:25:00 / 03:46:58 (90.3%) | Vel: 14.4x real-time
+[2026-11-11 14:12:01]   > Progreso: 03:29:08 / 03:46:58 (92.1%) | Vel: 14.4x real-time
+[2026-11-11 14:12:26]   > Progreso: 03:30:09 / 03:46:58 (92.6%) | Vel: 14.1x real-time
+[2026-11-11 14:12:49]   > Progreso: 03:32:39 / 03:46:58 (93.7%) | Vel: 13.9x real-time
+[2026-11-11 14:13:19]   > Progreso: 03:37:48 / 03:46:58 (96.0%) | Vel: 13.8x real-time
+[2026-11-11 14:13:34]   > Progreso: 03:44:08 / 03:46:58 (98.8%) | Vel: 14.0x real-time
+[2026-11-11 14:13:41] Completado Clase 09 - Completa: 3648 segmentos en 16.16 min (14.0x real-time)
+[2026-11-11 14:13:41] Guardado en transcripciones\09_20261015_082342.txt y transcripciones\09_20261015_082342.json
+[2026-11-11 14:13:41] 
+--- [14/14] Procesando: Clase 11 - Completa (Clase 11-20261029_082145-Grabación de la reunión.mp4) ---
+[2026-11-11 14:13:41] Extrayendo audio a transcripciones\temp_11_20261029_082145.wav...
+[2026-11-11 14:13:44] Audio extraído (240.1 MB). Iniciando transcripción Whisper...
+[2026-11-11 14:15:16]   > Progreso: 00:07:47 / 02:11:08 (5.9%) | Vel: 5.0x real-time
+[2026-11-11 14:15:31]   > Progreso: 00:14:41 / 02:11:08 (11.2%) | Vel: 8.0x real-time
+[2026-11-11 14:15:47]   > Progreso: 00:21:24 / 02:11:08 (16.3%) | Vel: 10.2x real-time
+[2026-11-11 14:16:03]   > Progreso: 00:25:28 / 02:11:08 (19.4%) | Vel: 10.8x real-time
+[2026-11-11 14:16:18]   > Progreso: 00:33:18 / 02:11:08 (25.4%) | Vel: 12.8x real-time
+[2026-11-11 14:16:33]   > Progreso: 00:40:08 / 02:11:08 (30.6%) | Vel: 14.0x real-time
+[2026-11-11 14:16:48]   > Progreso: 00:47:23 / 02:11:08 (36.1%) | Vel: 15.2x real-time
+[2026-11-11 14:17:04]   > Progreso: 00:54:07 / 02:11:08 (41.3%) | Vel: 16.1x real-time
+[2026-11-11 14:17:19]   > Progreso: 01:01:12 / 02:11:08 (46.7%) | Vel: 16.9x real-time
+[2026-11-11 14:17:34]   > Progreso: 01:09:00 / 02:11:08 (52.6%) | Vel: 17.8x real-time
+[2026-11-11 14:17:53]   > Progreso: 01:16:25 / 02:11:08 (58.3%) | Vel: 18.2x real-time
+[2026-11-11 14:18:09]   > Progreso: 01:23:34 / 02:11:08 (63.7%) | Vel: 18.8x real-time
+[2026-11-11 14:18:24]   > Progreso: 01:30:13 / 02:11:08 (68.8%) | Vel: 19.2x real-time
+[2026-11-11 14:18:39]   > Progreso: 01:37:18 / 02:11:08 (74.2%) | Vel: 19.6x real-time
+[2026-11-11 14:19:09]   > Progreso: 01:44:46 / 02:11:08 (79.9%) | Vel: 19.2x real-time
+[2026-11-11 14:19:25]   > Progreso: 01:52:28 / 02:11:08 (85.8%) | Vel: 19.7x real-time
+[2026-11-11 14:19:41]   > Progreso: 02:01:02 / 02:11:08 (92.3%) | Vel: 20.2x real-time
+[2026-11-11 14:20:01]   > Progreso: 02:04:36 / 02:11:08 (95.0%) | Vel: 19.7x real-time
+[2026-11-11 14:20:16]   > Progreso: 02:10:04 / 02:11:08 (99.2%) | Vel: 19.8x real-time
+[2026-11-11 14:20:17] Completado Clase 11 - Completa: 1353 segmentos en 6.60 min (19.9x real-time)
+[2026-11-11 14:20:17] Guardado en transcripciones\11_20261029_082145.txt y transcripciones\11_20261029_082145.json
+[2026-11-11 14:20:17] 
+=== TODAS LAS TRANSCRIPCIONES FINALIZARON CON ÉXITO ===

@@ -1,0 +1,6776 @@
+{
+  "metadata": {
+    "id": "11_20261029_082145",
+    "class_label": "Clase 11 - Completa",
+    "date": "2026-10-29",
+    "file": "Clase 11-20261029_082145-Grabación de la reunión.mp4"
+  },
+  "duration": 7868.48,
+  "segments": [
+    {
+      "start": 3.89,
+      "end": 15.82,
+      "text": "Muchas gracias, más que nada porque también tengo que subir esta clase a los alumnos. Bueno, en partos,"
+    },
+    {
+      "start": 15.82,
+      "end": 69.48,
+      "text": "guardando un poquito, hay me imagino que ya están viendo mi... ¿Y es sopa?"
+    },
+    {
+      "start": 69.48,
+      "end": 73.45,
+      "text": "Sí, pero es que se ve."
+    },
+    {
+      "start": 73.45,
+      "end": 75.13,
+      "text": "Antes estamos viendo."
+    },
+    {
+      "start": 75.13,
+      "end": 86.14,
+      "text": "Vamos a tener que se recuerda, ¿no?"
+    },
+    {
+      "start": 86.14,
+      "end": 95.06,
+      "text": "Lo que diseño está muy relacionado con todas las etapas del desarrollo del software."
+    },
+    {
+      "start": 95.06,
+      "end": 100.82,
+      "text": "Por lo tanto, también dentro de lo que es el diseño donde entregamos la calidad y todo lo que"
+    },
+    {
+      "start": 100.82,
+      "end": 106.3,
+      "text": "ya estimos viendo, tenemos que ir pensando cómo vamos a hacer estas pruebas."
+    },
+    {
+      "start": 106.3,
+      "end": 112.74,
+      "text": "Porque ya acuerda al tipo de pruebas que voy a hacer, voy a validar los atributos de calidad"
+    },
+    {
+      "start": 112.74,
+      "end": 116.86,
+      "text": "que yo quería tener dentro de mi solución."
+    },
+    {
+      "start": 116.86,
+      "end": 126.78,
+      "text": "Entonces acá ustedes recuerdan el famoso... la famosa virándole, el focus siempre es la calidad."
+    },
+    {
+      "start": 126.78,
+      "end": 135.1,
+      "text": "Y yo tengo en todo ese proceso que ellos definiendo cuál esperan estos atributos de calidad."
+    },
+    {
+      "start": 135.42,
+      "end": 144.45,
+      "text": "Ahora, yo tengo que ir pensando también cómo voy a hacer, cómo voy a probar esos atributos"
+    },
+    {
+      "start": 144.45,
+      "end": 145.45,
+      "text": "de calidad."
+    },
+    {
+      "start": 145.45,
+      "end": 151.93,
+      "text": "Porque si por ejemplo quería que fuera seguro, bueno tengo que ver y pensar cómo voy a probar"
+    },
+    {
+      "start": 151.93,
+      "end": 156.93,
+      "text": "que ese sistema sea seguro o que esa solución te aseguras."
+    },
+    {
+      "start": 156.93,
+      "end": 165.26,
+      "text": "Entonces, desde día una, supongo que ir pensando cómo armar también mi diseño, mi solución,"
+    },
+    {
+      "start": 165.26,
+      "end": 171.98,
+      "text": "cómo voy a hacer estos tipos de pruebas para comprobar que realmente este atributo,"
+    },
+    {
+      "start": 171.98,
+      "end": 176.54,
+      "text": "yo quería tener dentro de mi solución lo tengo."
+    },
+    {
+      "start": 176.54,
+      "end": 180.94,
+      "text": "Entonces ahí obviamente que entran los testón las pruebas."
+    },
+    {
+      "start": 180.94,
+      "end": 190.14,
+      "text": "Ustedes ya habrán tenido alguna materia de test o de calidad."
+    },
+    {
+      "start": 190.14,
+      "end": 191.94,
+      "text": "¿La tuvieron o no?"
+    },
+    {
+      "start": 191.94,
+      "end": 198.73,
+      "text": "Para saber a dónde volvino."
+    },
+    {
+      "start": 198.73,
+      "end": 204.44,
+      "text": "En su momento en programación, cuando era programación avanzada, había algo de test."
+    },
+    {
+      "start": 204.44,
+      "end": 211.34,
+      "text": "Ok, alguien más dio."
+    },
+    {
+      "start": 211.34,
+      "end": 217.86,
+      "text": "Recuerda que había en principio de calidad test y de cajala, cajane, era algo explicaba."
+    },
+    {
+      "start": 217.86,
+      "end": 219.02,
+      "text": "Fantástico."
+    },
+    {
+      "start": 219.02,
+      "end": 229.3,
+      "text": "Ok, alguien más, así me van orientando hasta donde puedo para no quedarme con cajable en"
+    },
+    {
+      "start": 229.3,
+      "end": 231.98,
+      "text": "el cojaneer."
+    },
+    {
+      "start": 231.98,
+      "end": 232.98,
+      "text": "Nada más."
+    },
+    {
+      "start": 232.98,
+      "end": 241.7,
+      "text": "Bueno, la realidad es que obviamente yo tengo que comprobar, probar y tengo esos atributos"
+    },
+    {
+      "start": 241.7,
+      "end": 242.9,
+      "text": "que había definido."
+    },
+    {
+      "start": 242.9,
+      "end": 250.26,
+      "text": "Recuerden que los atributos, por ejemplo, si yo quiero comprobar la parte funcional, decía"
+    },
+    {
+      "start": 250.26,
+      "end": 254.86,
+      "text": "que el atributo es que sea completo a nivel funcional."
+    },
+    {
+      "start": 254.86,
+      "end": 261.18,
+      "text": "Recuerdan, yo siempre hablo que sea completo y no cumple que sea completo y la verdad"
+    },
+    {
+      "start": 261.18,
+      "end": 266.5,
+      "text": "que no cumple con la funcionalidad y no va a tener calidad."
+    },
+    {
+      "start": 266.5,
+      "end": 269.18,
+      "text": "Y después yo tengo varios atributos de calidad."
+    },
+    {
+      "start": 269.18,
+      "end": 272.86,
+      "text": "Ahora tengo que comprobarlos y verificarlos."
+    },
+    {
+      "start": 272.86,
+      "end": 278.38,
+      "text": "Hay una cierta diferencia entre lo que es verificar y valiar."
+    },
+    {
+      "start": 278.38,
+      "end": 280.38,
+      "text": "¿Puede lo vieron?"
+    },
+    {
+      "start": 280.38,
+      "end": 293.58,
+      "text": "Bueno, cuando estamos haciendo un programa, quiero que funcione bien."
+    },
+    {
+      "start": 293.58,
+      "end": 301.86,
+      "text": "Y si yo quiero una funcionalidad, comprobar si realmente cumple con a nivel funcional,"
+    },
+    {
+      "start": 301.86,
+      "end": 305.98,
+      "text": "lo que tiene que hacer, estoy validando esos requerimientos."
+    },
+    {
+      "start": 305.98,
+      "end": 310.94,
+      "text": "Hay una pequeña sutile, entonces la idea es que yo voy a tener un montón de artillería"
+    },
+    {
+      "start": 310.94,
+      "end": 316.14,
+      "text": "de una para verificar técnicamente y otras para validarlos funcionalmente."
+    },
+    {
+      "start": 316.14,
+      "end": 319.18,
+      "text": "A grandes rasgos significa esa la diferencia."
+    },
+    {
+      "start": 319.9,
+      "end": 324.3,
+      "text": "Para bien, nosotros tenemos varios procesos."
+    },
+    {
+      "start": 324.3,
+      "end": 332.3,
+      "text": "Nosotros, por ejemplo, escribimos trabajando con ROOP y en ROOP, no sé si ustedes recuerdan"
+    },
+    {
+      "start": 332.3,
+      "end": 336.58,
+      "text": "esto también sirve para el paso del parcial que viene."
+    },
+    {
+      "start": 336.58,
+      "end": 341.43,
+      "text": "¿Estás recuerdan que era este diagrama?"
+    },
+    {
+      "start": 341.43,
+      "end": 348.86,
+      "text": "Está imagen?"
+    },
+    {
+      "start": 348.86,
+      "end": 350.63,
+      "text": "Es partón."
+    },
+    {
+      "start": 350.63,
+      "end": 353.47,
+      "text": "Bueno, vamos a hacer un repaso."
+    },
+    {
+      "start": 353.47,
+      "end": 358.51,
+      "text": "Ustedes recuerdan que ROOP se dividían cuatro fases que eran inicia, elaboración,"
+    },
+    {
+      "start": 358.51,
+      "end": 360.23,
+      "text": "construcción y transición."
+    },
+    {
+      "start": 360.23,
+      "end": 372.19,
+      "text": "Y obviamente como era un proceso incremental y evolutivo, y donde iba pasando, iba alterando"
+    },
+    {
+      "start": 372.19,
+      "end": 375.59,
+      "text": "por cada disciplina en cada etapa."
+    },
+    {
+      "start": 375.59,
+      "end": 382.66,
+      "text": "Bueno, yo tengo en todas las etapas voy transitando todas las disciplinas, eso es lo que"
+    },
+    {
+      "start": 382.66,
+      "end": 384.98,
+      "text": "es para llegar a trabajar el riesgo."
+    },
+    {
+      "start": 384.98,
+      "end": 391.3,
+      "text": "Entonces, si yo analizo esto, digo, bueno, estoy en la parte de TST que es la verdad,"
+    },
+    {
+      "start": 391.3,
+      "end": 399.9,
+      "text": "la verdad claro, también tengo algo de TST, pero al final del proyecto, para empezar a hablar"
+    },
+    {
+      "start": 399.9,
+      "end": 400.9,
+      "text": "del TST."
+    },
+    {
+      "start": 400.9,
+      "end": 408.06,
+      "text": "Desde el día 1 ya voy empezando a pensar, obviamente con diferentes esfuerzos, cada uno de estas"
+    },
+    {
+      "start": 408.06,
+      "end": 416.62,
+      "text": "olas y significa el esfuerzo, que yo voy a destinar cada disciplina de acuerdo a cada"
+    },
+    {
+      "start": 416.62,
+      "end": 418.62,
+      "text": "fases de este modelo de ROOP."
+    },
+    {
+      "start": 418.62,
+      "end": 424.1,
+      "text": "Y acá tengo muy leve al inicio y después obviamente va incrementando el esfuerzo a medida"
+    },
+    {
+      "start": 424.1,
+      "end": 428.12,
+      "text": "que voy transitando las diferentes fases."
+    },
+    {
+      "start": 428.12,
+      "end": 432.36,
+      "text": "Pero ya desde el día 1 tengo que ir pensando."
+    },
+    {
+      "start": 432.36,
+      "end": 440.64,
+      "text": "Lo mismo sucede, yo me voy a un escran y la realidad es que también voy colocando dentro"
+    },
+    {
+      "start": 440.64,
+      "end": 444.44,
+      "text": "de las historias ensuarias, como quiero ir probando."
+    },
+    {
+      "start": 444.44,
+      "end": 453.62,
+      "text": "Ustedes recuerdan o siguieron algo con las tarjetas ensuarias que hacían para poder verificar"
+    },
+    {
+      "start": 453.62,
+      "end": 455.62,
+      "text": "o valiar el TST."
+    },
+    {
+      "start": 455.62,
+      "end": 466.7,
+      "text": "Hay un sector en dentro de lo que son las tarjetas ensuarias que tienen validad o criterios"
+    },
+    {
+      "start": 466.7,
+      "end": 467.7,
+      "text": "de validación también."
+    },
+    {
+      "start": 467.7,
+      "end": 480.37,
+      "text": "Y además, y necesito tener algún atributo extra, ahí bueno, y ahí era una especificación"
+    },
+    {
+      "start": 480.37,
+      "end": 484.89,
+      "text": "que es otra vista, donde voy a definir qué tipo de atributos y tiene ese símbolo."
+    },
+    {
+      "start": 484.89,
+      "end": 492.25,
+      "text": "Por ejemplo bueno que tengo una performance que soporta tanta cantidad de usuarios, que"
+    },
+    {
+      "start": 492.25,
+      "end": 499.25,
+      "text": "cumpla con las normas o webs o lo que sea, ahí tienen que describirlo para poder"
+    },
+    {
+      "start": 499.25,
+      "end": 500.25,
+      "text": "cumplirlo."
+    },
+    {
+      "start": 500.25,
+      "end": 507.57,
+      "text": "Por no tanto desde el día 1 está teniendo que ir pensando en el TST, no en la especificación"
+    },
+    {
+      "start": 507.57,
+      "end": 515.08,
+      "text": "sino en que bueno tengo una atributa de calidad que cumplir, que tengo que agredarlo dentro"
+    },
+    {
+      "start": 515.08,
+      "end": 523.98,
+      "text": "del diseño y que además eso, en algún momento lo tengo que ir probando para hacer el check"
+    },
+    {
+      "start": 523.98,
+      "end": 526.1,
+      "text": "de que este atributo lo cumple."
+    },
+    {
+      "start": 526.1,
+      "end": 536.9,
+      "text": "Por lo tanto lo que se empieza a armar, si también esto trapa otra taría que hace el"
+    },
+    {
+      "start": 536.9,
+      "end": 543.4,
+      "text": "arquitecto de software o bueno, yo ahora lo llamo una lista funcional o antes."
+    },
+    {
+      "start": 543.4,
+      "end": 547.88,
+      "text": "Y es lo que se llama es armar una estrategia de prueba."
+    },
+    {
+      "start": 547.88,
+      "end": 556.85,
+      "text": "La fruteta de pruebas es un poco de momento, ahí está ayudado mucho por la ira, pero lo"
+    },
+    {
+      "start": 556.85,
+      "end": 564.09,
+      "text": "que me permite es poder planificar este tipo de pruebas, crear, bueno, definir que"
+    },
+    {
+      "start": 564.09,
+      "end": 569.09,
+      "text": "atributos de calidad y cómo lo voy a probar, voy a hacer lo que se llama el diseño de los"
+    },
+    {
+      "start": 569.09,
+      "end": 576.33,
+      "text": "casos de prueba, ahora vamos a charlar un poco, cómo lo voy a desitutar, cómo lo voy a recolucir"
+    },
+    {
+      "start": 576.33,
+      "end": 581.89,
+      "text": "esos datos, que conectar esos datos y obviamente después viene un trabajo de evaluación para"
+    },
+    {
+      "start": 581.89,
+      "end": 587.29,
+      "text": "ver si tengo que hacer cambios o si cumple o no con los atributos de calidad que yo"
+    },
+    {
+      "start": 587.29,
+      "end": 588.29,
+      "text": "haya definido."
+    },
+    {
+      "start": 588.29,
+      "end": 596.14,
+      "text": "Vamos a empezar el testing, obviamente para definir todas estas estrategias de prueba, primero"
+    },
+    {
+      "start": 596.14,
+      "end": 600.82,
+      "text": "tengo que conocer el negocio que estoy haciendo, tengo que conocer la solución que estoy"
+    },
+    {
+      "start": 600.82,
+      "end": 608.93,
+      "text": "implementando, me voy a conocer las tecnologías y tengo que ver también las necesidades del"
+    },
+    {
+      "start": 608.93,
+      "end": 616.44,
+      "text": "cliente, si estoy trabajando en bancas y posiblemente la parte de teoría es importante,"
+    },
+    {
+      "start": 616.44,
+      "end": 627.89,
+      "text": "si es una solución para el gimnasio y posiblemente las teorías no sea de importe, pero no tanto,"
+    },
+    {
+      "start": 627.89,
+      "end": 634.45,
+      "text": "entonces tengo que analizar esos atributos de calidad para poder también planificarlo."
+    },
+    {
+      "start": 634.45,
+      "end": 642.91,
+      "text": "Y después cada adributo tengo que pensar cómo los voy a ejecutar, si tengo algunas herramientas"
+    },
+    {
+      "start": 642.91,
+      "end": 645.72,
+      "text": "o si lo tengo que hacer en forma manual."
+    },
+    {
+      "start": 645.72,
+      "end": 653.62,
+      "text": "Por eso lo que vamos a hablar es de cómo se hacen los diferentes testes para que después"
+    },
+    {
+      "start": 653.62,
+      "end": 663.99,
+      "text": "el rol del arquitecto pueda definir cómo ir armando estas estrategias de prueba."
+    },
+    {
+      "start": 663.99,
+      "end": 670.39,
+      "text": "La realidad es que lo que se suele hacer es que las buenas prácticas recomiendan,"
+    },
+    {
+      "start": 670.39,
+      "end": 674.67,
+      "text": "eso obviamente siempre vire en nuestra estrategia en imperial, de los más chicos hacia lo"
+    },
+    {
+      "start": 674.67,
+      "end": 677.19,
+      "text": "más grande."
+    },
+    {
+      "start": 677.19,
+      "end": 687.28,
+      "text": "Cuando nosotros comenzamos a trabajar en una solución, estamos en la fase de construcción por así"
+    },
+    {
+      "start": 687.28,
+      "end": 695.47,
+      "text": "decirlo, empezamos con las pruebas unitarias de código, con ustedes están programando,"
+    },
+    {
+      "start": 695.47,
+      "end": 699.87,
+      "text": "están probando si lo que estuvieron programando funciona o no."
+    },
+    {
+      "start": 699.87,
+      "end": 708.32,
+      "text": "Ahí la están verificando y me da horror o no."
+    },
+    {
+      "start": 708.32,
+      "end": 715.0,
+      "text": "Hoy la realidad es que las pruebas unitarias son bastantes de sentillas, más hasta las mismas"
+    },
+    {
+      "start": 715.0,
+      "end": 726.7,
+      "text": "herramientas hoy están en forma muy automatizada, hasta que tienen algunos agentes de hí, en"
+    },
+    {
+      "start": 726.7,
+      "end": 730.1,
+      "text": "los de las herramientas bastante amigables."
+    },
+    {
+      "start": 730.1,
+      "end": 735.34,
+      "text": "Pero lo que sí les quería comentar es que, porque después vamos a hablar de este tema,"
+    },
+    {
+      "start": 735.34,
+      "end": 742.1,
+      "text": "es que si nosotros hacemos un componente, componente de un móvil de la manera que sea,"
+    },
+    {
+      "start": 742.1,
+      "end": 747.26,
+      "text": "o porque los programaron ustedes, o porque ustedes equilieron un prompt y les salieron"
+    },
+    {
+      "start": 747.26,
+      "end": 752.82,
+      "text": "directamente el código, lo que sea, desde el día 1 no van a tener toda la solución."
+    },
+    {
+      "start": 752.82,
+      "end": 758.58,
+      "text": "Por lo tanto empiezan a hacer esas pruebas sanitarias, como las empiezan a hacer un bueno,"
+    },
+    {
+      "start": 758.58,
+      "end": 766.14,
+      "text": "tienen algunas herramientas y posiblemente ustedes están, bueno, voy a dejar que voy a hacer"
+    },
+    {
+      "start": 766.14,
+      "end": 772.54,
+      "text": "un moque, por así decirlo, los dos objetos simulados, pues así, objetos simulados, que"
+    },
+    {
+      "start": 772.54,
+      "end": 783.89,
+      "text": "sí, bueno, necesito hacer un dos más dos, pero bueno, o hacer a más de, bueno, voy a simular,"
+    },
+    {
+      "start": 783.89,
+      "end": 792.85,
+      "text": "voy a reemplazar, le voy a dejar que odiar datos, entonces eso es el denominado representándose,"
+    },
+    {
+      "start": 792.85,
+      "end": 799.29,
+      "text": "está, o algunos, los denominamos mox, está, son más comun, es como si los suela denominar,"
+    },
+    {
+      "start": 799.29,
+      "end": 808.41,
+      "text": "más comúnmente. De ahí la idea es, y yo voy a tener unas dependencias, siempre hay una"
+    },
+    {
+      "start": 808.41,
+      "end": 815.25,
+      "text": "dependencia hacia otros componentes, y bueno, pero no tengo todavía armados hacia otro componente,"
+    },
+    {
+      "start": 815.25,
+      "end": 826.68,
+      "text": "entonces los simulos a través de tab, representantes, mox o objetos simulados. Ahora bien, y también,"
+    },
+    {
+      "start": 828.4,
+      "end": 842.28,
+      "text": "vuelvo a decir, si yo estoy trabajando en algún, me voy a llamar, en alguna herramienta de programación,"
+    },
+    {
+      "start": 842.28,
+      "end": 847.84,
+      "text": "bueno, eso lo tengo totalmente resuelto, pero el concept, yo quiero que se vayan con la idea"
+    },
+    {
+      "start": 847.84,
+      "end": 854.8,
+      "text": "del concepto. Lo mismo sucede con decir, bueno, ya un módulo o un componente que estoy armando,"
+    },
+    {
+      "start": 854.8,
+      "end": 864.22,
+      "text": "pero necesito de alguna manera tener también otro componente, otro código creado, lo puedo crear"
+    },
+    {
+      "start": 864.22,
+      "end": 870.94,
+      "text": "de manera temporal para simular la activación de este nivel, de este módulo o este componente que"
+    },
+    {
+      "start": 870.94,
+      "end": 881.07,
+      "text": "siga viaj programado, eso se lo denomina controlador. Entonces, la realidad es que esto sirve"
+    },
+    {
+      "start": 881.07,
+      "end": 890.77,
+      "text": "muchísimo para ver cómo hago las pruebas de integración. Una vez que yo ya terminé con las pruebas"
+    },
+    {
+      "start": 890.77,
+      "end": 897.25,
+      "text": "unitarias, dieron que las pruebas unitarias realmente no le doy mucho valor, o sea, en cuanto al"
+    },
+    {
+      "start": 897.25,
+      "end": 903.98,
+      "text": "diseño, porque eso es una tarea que realmente lo debería hacer el programador o el analista, si es que"
+    },
+    {
+      "start": 903.98,
+      "end": 912.62,
+      "text": "está generando código a través de una idea, estas pruebas unitarias, las herramientas salos hacen,"
+    },
+    {
+      "start": 915.84,
+      "end": 923.39,
+      "text": "son bastantes simples, las hide de desarrollo, ya lo trae incorporado. Ahora bien,"
+    },
+    {
+      "start": 923.39,
+      "end": 929.51,
+      "text": "me voy siguiendo esas pruebas de integración de los más chicos hacia los más grandes, ya pasé"
+    },
+    {
+      "start": 929.59,
+      "end": 935.91,
+      "text": "los que son las pruebas unitarias, me voy a lo que son las pruebas de diseño de integración. Yo"
+    },
+    {
+      "start": 935.91,
+      "end": 941.78,
+      "text": "justamente en esta etapa donde tengo que ir pensando cómo voy a hacer las pruebas."
+    },
+    {
+      "start": 948.1,
+      "end": 957.27,
+      "text": "La realidad es que cuando uno quiere acelerar el proceso, la programación, la construcción,"
+    },
+    {
+      "start": 957.27,
+      "end": 962.47,
+      "text": "tiene varios kilos de trabajo y después lo que tenemos que hacer es ir armando estos"
+    },
+    {
+      "start": 962.47,
+      "end": 974.98,
+      "text": "sitios de trabajo y empezar a integrar los niveles. A nivel teórico, hay muchas, hay algunas formas"
+    },
+    {
+      "start": 974.98,
+      "end": 981.5,
+      "text": "para poder integrarlo, las más comunes, el binbal, es decir, agarro todos los componentes que"
+    },
+    {
+      "start": 981.5,
+      "end": 990.14,
+      "text": "hayan programado, que hayan construido, los juntos y empiezos a las pruebas. Lo que genera este tipo"
+    },
+    {
+      "start": 990.14,
+      "end": 998.77,
+      "text": "de pruebas del Big Bang es que realmente como no puedo tener una trasa de firma, junto a B y"
+    },
+    {
+      "start": 998.77,
+      "end": 1006.05,
+      "text": "a prueba, no que imagínense que tengo 100 componentes y los juntos de una bolsa y la realidad es que"
+    },
+    {
+      "start": 1006.05,
+      "end": 1013.0,
+      "text": "me va a costar mucho identificar dónde es el origen del error. Por lo tanto, uno es muy utilizado,"
+    },
+    {
+      "start": 1013.0,
+      "end": 1019.2,
+      "text": "pero forma parte del marco teórico de lo que son las ciudades de integración. Luego vienen las"
+    },
+    {
+      "start": 1019.68,
+      "end": 1026.9,
+      "text": "pruebas de integración, a nivel intervental, descendente y ascendente. Ya acuerdo al tipo de"
+    },
+    {
+      "start": 1026.9,
+      "end": 1035.26,
+      "text": "tecnologías, a cómo hayan definido el arquitecto, la forma de construir la aplicación,"
+    },
+    {
+      "start": 1035.26,
+      "end": 1046.22,
+      "text": "y la técnica de la ciudad. Voy a definir si voy a ser un descendente o ascendente. Y eso también"
+    },
+    {
+      "start": 1046.82,
+      "end": 1055.3,
+      "text": "está bueno saberlo porque yo voy a definir cómo va a ser esa integración. Entonces vamos a hablar un"
+    },
+    {
+      "start": 1055.3,
+      "end": 1061.62,
+      "text": "poco de la integración en forma intervental. Imagínense que yo tengo diferentes componentes,"
+    },
+    {
+      "start": 1061.62,
+      "end": 1070.34,
+      "text": "sentidades y obviamente yo quiero que sean bien atónicas, para que sean esas como pacitas y"
+    },
+    {
+      "start": 1070.34,
+      "end": 1077.53,
+      "text": "integraciones, no se lo de hacen. Espero que bueno, cada uno me va a dar un determinado servicio"
+    },
+    {
+      "start": 1077.53,
+      "end": 1085.62,
+      "text": "y en conjunto me va a determinar lo que se llama y servicaciones de mis aplicaciones compuestas."
+    },
+    {
+      "start": 1086.62,
+      "end": 1094.14,
+      "text": "Entonces digo, bueno, voy a tener esta vacer yo te pensaba, estoy enseñando cómo va a ser la"
+    },
+    {
+      "start": 1094.14,
+      "end": 1102.62,
+      "text": "solución. Bueno, si yo tengo ya en mi cabeza cómo va a ser la solución, puedo empezar a definir cómo"
+    },
+    {
+      "start": 1102.62,
+      "end": 1110.22,
+      "text": "va a ser la integración. Entonces imagínense que estoy con páginas HTML, entonces digo bueno,"
+    },
+    {
+      "start": 1110.22,
+      "end": 1118.06,
+      "text": "páginas HTML, yo sé que voy a tener un home, ese home va a tener determinadas funcionalidades y después tengo"
+    },
+    {
+      "start": 1118.06,
+      "end": 1126.3,
+      "text": "un árbol donde coloco todas las dependencias de las páginas y bueno, ahí realmente está bueno"
+    },
+    {
+      "start": 1126.3,
+      "end": 1133.74,
+      "text": "pensar en un incremental descendente en profundidad de una anchura, ahora lo vamos a ver, estaría bueno."
+    },
+    {
+      "start": 1133.74,
+      "end": 1143.14,
+      "text": "Ahora estoy armando unas páginas o páginas HTML y las realidad es que no suele ser de ir"
+    },
+    {
+      "start": 1143.94,
+      "end": 1149.54,
+      "text": "que sea un incremental descendente, es decir tener la párgata del formulario o ir para arriba"
+    },
+    {
+      "start": 1149.54,
+      "end": 1157.9,
+      "text": "a ver cómo voy a hacer el camino inverso. Entonces, de acuerdo a esa tecnología puedo definir si voy a"
+    },
+    {
+      "start": 1157.9,
+      "end": 1165.98,
+      "text": "hacer un incremental descendente o bastante. Estoy trabajando por ejemplo con servicios, ahí podría estar"
+    },
+    {
+      "start": 1165.98,
+      "end": 1172.04,
+      "text": "tranquilamente también una sentente o con procesos bien atónicos, ahí lo podría estar."
+    },
+    {
+      "start": 1172.04,
+      "end": 1179.9,
+      "text": "El incremental descendente en profundidad, una vez que yo tengo ya pensado en el diseño cómo va a ser"
+    },
+    {
+      "start": 1183.89,
+      "end": 1193.96,
+      "text": "el acoplamiento, cómo va a ser la relación entre todas estos componentes, ahí puedo definir cómo va a ser la"
+    },
+    {
+      "start": 1193.96,
+      "end": 1199.44,
+      "text": "entrega, en donde lo voy a definir en esta estrategia de pruebas que habíamos definido en la 13, en esa"
+    },
+    {
+      "start": 1199.44,
+      "end": 1207.18,
+      "text": "estrategia de pruebas que habíamos dicho que era nuestra obligación azar, ozca, tengo que definir cómo"
+    },
+    {
+      "start": 1207.18,
+      "end": 1220.0,
+      "text": "va a ser la integración. Y tengo un descendente en profundidad, obviamente tengo en la parte superior,"
+    },
+    {
+      "start": 1220.0,
+      "end": 1229.51,
+      "text": "el nivel superior, ahí voy agregando los móbulos o los componentes que voy integrando que son"
+    },
+    {
+      "start": 1229.51,
+      "end": 1237.55,
+      "text": "lo del nivel inferior. Estoy yo defino que voy a hacer descendente en profundidad y primero tendría que"
+    },
+    {
+      "start": 1237.55,
+      "end": 1248.62,
+      "text": "tener M1, después sería M2, M5 y M8. Después debería volver a M8, ahí ya tengo que empezar a"
+    },
+    {
+      "start": 1248.62,
+      "end": 1256.54,
+      "text": "definir cómo lo voy a hacer, si quiero volver a M6 o si quiero hacer M3 a M7 y quiero hacer turista,"
+    },
+    {
+      "start": 1256.54,
+      "end": 1265.98,
+      "text": "puedo hacer M1, M2, M5, M8, M8, M8. Y termino con este lado del camino."
+    },
+    {
+      "start": 1265.98,
+      "end": 1275.15,
+      "text": "Descendente por anchura, voy descendiendo también, es decir que T1, que sería el módulo superior,"
+    },
+    {
+      "start": 1275.75,
+      "end": 1284.66,
+      "text": "y después vuelco a los módulos inferiores, pero a través de anchura es el circo, M1, M2, M3, M4."
+    },
+    {
+      "start": 1284.66,
+      "end": 1295.38,
+      "text": "Después el hijo, ahí tengo que definir yo porque rama voy a continuar, si quiero hacer M2,"
+    },
+    {
+      "start": 1295.38,
+      "end": 1305.84,
+      "text": "M5, M6 o si quiero hacer M3, M7. Pero ya voy por anchura, no hago todo un camino, eso va a"
+    },
+    {
+      "start": 1305.84,
+      "end": 1311.28,
+      "text": "defender también de la centrada de las que yo quería, con el cliente de la base que me dice,"
+    },
+    {
+      "start": 1311.28,
+      "end": 1317.92,
+      "text": "yo quiero que yo estoy haciendo el esquina, quiero que yo probar todo lo que es la gestión de pados,"
+    },
+    {
+      "start": 1317.92,
+      "end": 1323.7,
+      "text": "sin capas que la gestión de pados es un único camino. Ahora si me dice, no, la verdad quiero"
+    },
+    {
+      "start": 1323.7,
+      "end": 1334.08,
+      "text": "viviendo cómo sería, voy a hacer un profundidad en anchura, eso también está muy relacionado de"
+    },
+    {
+      "start": 1334.08,
+      "end": 1343.54,
+      "text": "acuerdo, si estoy haciendo con tarjetas de usuarios y estoy haciendo pruebas con user experience,"
+    },
+    {
+      "start": 1343.54,
+      "end": 1349.74,
+      "text": "y bueno la realidad que me va a convenir más un hacer una vez, les enter en anchura,"
+    },
+    {
+      "start": 1350.62,
+      "end": 1359.48,
+      "text": "y después ir profundizando, liberando profundidad, eso lo van a tener que decidir el arquitecto en el"
+    },
+    {
+      "start": 1359.48,
+      "end": 1366.91,
+      "text": "momento que también está definiendo cómo van a estar las pruebas, incrementar la ascendente que sería"
+    },
+    {
+      "start": 1366.91,
+      "end": 1379.78,
+      "text": "por lo que estivemos hablando, en ahí me van a donar. ¿Araño desde abajo del árbol?"
+    },
+    {
+      "start": 1379.78,
+      "end": 1389.12,
+      "text": "Exacto, en el caso de abajo del árbol, desde el estilo del árbol inferior, en el caso de M8 tengo"
+    },
+    {
+      "start": 1389.12,
+      "end": 1393.8,
+      "text": "bien atómico, ahí es cuando estoy hablando de servicios, son micros servicios de cereal o ideal,"
+    },
+    {
+      "start": 1393.8,
+      "end": 1399.96,
+      "text": "de fino bien los servicios, y después veo cómo empezó a hacer esas relaciones y ya con el"
+    },
+    {
+      "start": 1399.96,
+      "end": 1407.12,
+      "text": "empiece, es decir, relaciones del servicio, con el ve, con el fe, y empiece a encadenarlos, y ahí"
+    },
+    {
+      "start": 1407.12,
+      "end": 1412.18,
+      "text": "voy a tener lo que llama aplicaciones compuestas, y ahí podría llegar a hacer también lo que se llama"
+    },
+    {
+      "start": 1412.18,
+      "end": 1418.54,
+      "text": "incrementar la ascendente, es decir, en M8, M5, M2, M2, M2, etc."
+    },
+    {
+      "start": 1418.74,
+      "end": 1428.54,
+      "text": "Y tienen de, de intentar usar un descendente o un ascendente y en algunos casos voy a tener que tener"
+    },
+    {
+      "start": 1428.54,
+      "end": 1441.13,
+      "text": "de en magaga, en algunos casos, y yo empiezo desde, desde la ascendente y la realidad es que como estoy"
+    },
+    {
+      "start": 1441.13,
+      "end": 1450.36,
+      "text": "en bien lo más atómico, en la ascendente sería la hoja inferior, acá, la hoja inferior,"
+    },
+    {
+      "start": 1450.36,
+      "end": 1456.04,
+      "text": "empezaría por el M8 y bueno, la realidad es que si empiezo como el M8 no tendría que tener ningún"
+    },
+    {
+      "start": 1456.04,
+      "end": 1464.44,
+      "text": "representante o ningún mox, ni un simulador, ni un estado, solamente necesitaría un único controlador,"
+    },
+    {
+      "start": 1465.0,
+      "end": 1475.13,
+      "text": "estamos de acuerdo, por lo tanto también ahí estoy ganando, digamos, estoy economizando lo que"
+    },
+    {
+      "start": 1475.13,
+      "end": 1485.12,
+      "text": "sería las pruebas, porque no tengo que simular tantos representantes o crear tantos componentes temporales"
+    },
+    {
+      "start": 1485.12,
+      "end": 1493.12,
+      "text": "para acumular una funcionalidad, sino que estoy como, como estoy en lo más atómico, entonces no"
+    },
+    {
+      "start": 1493.84,
+      "end": 1500.56,
+      "text": "necesito nada más que tener que simular un componente de nivel superior, los estábys ya los"
+    },
+    {
+      "start": 1500.56,
+      "end": 1512.43,
+      "text": "tendría en cambio, tengo para acá, estoy en un descendente tanto en profundidad como en anchura y que"
+    },
+    {
+      "start": 1512.43,
+      "end": 1524.13,
+      "text": "empiezo por ejemplo acá en el M2, M3, M4 y acá voy a tener que tener posiblemente si estoy en el nivel"
+    },
+    {
+      "start": 1524.13,
+      "end": 1528.85,
+      "text": "superior el controlador, es lo que está ya probando así que no había problema, pero si"
+    },
+    {
+      "start": 1528.85,
+      "end": 1536.13,
+      "text": "vengan a tener muchísimas más representantes, voy a tener muchísimos más códigos creados de manera"
+    },
+    {
+      "start": 1536.13,
+      "end": 1542.93,
+      "text": "temporal para poder simular todo ese proceso que necesito probar del componente que estoy haciendo,"
+    },
+    {
+      "start": 1542.93,
+      "end": 1551.87,
+      "text": "me van siendo, por lo tanto también en la definición y en la decisión de cómo quiero hacer"
+    },
+    {
+      "start": 1551.87,
+      "end": 1559.63,
+      "text": "una prueba de integración, voy a tener en uno más trabajo que en el otro y acuerdo a cómo yo"
+    },
+    {
+      "start": 1559.63,
+      "end": 1578.26,
+      "text": "voy a vivir esta estructura, me van siendo, sí, entonces eso recuerda en la olla, yo tengo un con"
+    },
+    {
+      "start": 1578.26,
+      "end": 1583.98,
+      "text": "las cuando hago pruebas de integración, voy a tener en algunos y mayor trabajo que en otros,"
+    },
+    {
+      "start": 1583.98,
+      "end": 1587.48,
+      "text": "por lo menos que tengo en el que voy a tener que crear mayor mox, que yo de estas,"
+    },
+    {
+      "start": 1587.48,
+      "end": 1599.06,
+      "text": "mayor representantes, que si me dijo una prueba o la otra, me acuerdo a cómo es la definición"
+    },
+    {
+      "start": 1599.06,
+      "end": 1610.42,
+      "text": "de mi solución, vale, no es la que es otro concepto del modelo que tengo, de lo que tiene"
+    },
+    {
+      "start": 1610.42,
+      "end": 1621.74,
+      "text": "es el testing que son las pruebas de relación, no es lo que tengo, estamos incorrigiendo los"
+    },
+    {
+      "start": 1621.74,
+      "end": 1633.98,
+      "text": "errores, nosotros necesitamos una experiencia en el primer montón de temas funcionales,"
+    },
+    {
+      "start": 1633.98,
+      "end": 1641.42,
+      "text": "que finimos todas las pruebas funcionales que vamos a hacer, cómo obtrimíamos la parte"
+    },
+    {
+      "start": 1641.42,
+      "end": 1647.02,
+      "text": "funcional que debe tener la pitação, cómo les criamos o con qué evita lo veíamos,"
+    },
+    {
+      "start": 1647.02,
+      "end": 1687.03,
+      "text": "cualquier proceso que soja, rup, cram, no sé de escuchar la pregunta,"
+    },
+    {
+      "start": 1687.03,
+      "end": 1698.65,
+      "text": "y más que ni si tengo que tener unas pruebas funcionales, cómo yo defino con el usuario antes de"
+    },
+    {
+      "start": 1698.65,
+      "end": 1704.57,
+      "text": "arrancar, prueba, bastante de arrancar la solución, cómo defino esta vista funcional,"
+    },
+    {
+      "start": 1704.57,
+      "end": 1713.38,
+      "text": "el arquitecto, cómo lo define, esos deseos funcionales que tienen cuenta,"
+    },
+    {
+      "start": 1713.38,
+      "end": 1718.14,
+      "text": "esas necesidades funcionales, qué tipo de vista hacen?"
+    },
+    {
+      "start": 1718.14,
+      "end": 1729.55,
+      "text": "Y para las vista funcionales podría optarse, cuando uno, a ver, hace un poco un microfanoccio,"
+    },
+    {
+      "start": 1729.67,
+      "end": 1735.03,
+      "text": "cuando uno está con el cliente, tratar de extravarlo con los estudios de usuario,"
+    },
+    {
+      "start": 1735.03,
+      "end": 1739.19,
+      "text": "y después por ahí llevarlo como casos de uso o algo que permitaba las funciones."
+    },
+    {
+      "start": 1739.19,
+      "end": 1746.31,
+      "text": "¿Cuántas? Es decir, si la vista de tienen el arquitecto para analizar la parte funcional,"
+    },
+    {
+      "start": 1746.31,
+      "end": 1751.39,
+      "text": "pues, o una especificación de negocios, como cuando yo les tengo el Extamin,"
+    },
+    {
+      "start": 1751.83,
+      "end": 1755.83,
+      "text": "cuando tienen todas las necesidades del cliente,"
+    },
+    {
+      "start": 1755.83,
+      "end": 1760.91,
+      "text": "los puedo elaborar más, puedo tener el usuario, lo puedo elaborar más,"
+    },
+    {
+      "start": 1760.91,
+      "end": 1765.56,
+      "text": "porque son muy convitados, capásticos de uso,"
+    },
+    {
+      "start": 1765.56,
+      "end": 1773.32,
+      "text": "también puedo evaluarlo a través de user experience y armar protoclipados."
+    },
+    {
+      "start": 1773.32,
+      "end": 1780.88,
+      "text": "Entonces, son todas digamos, partes funcionales de vista funcionales para hacer estas cosas."
+    },
+    {
+      "start": 1780.92,
+      "end": 1784.64,
+      "text": "Obviamente, cuando yo estoy haciendo la solución,"
+    },
+    {
+      "start": 1784.64,
+      "end": 1791.45,
+      "text": "no voy a tener de día uno toda la solución completa, sino que es increímental."
+    },
+    {
+      "start": 1791.45,
+      "end": 1797.61,
+      "text": "El principio voy a ingínense que voy a pasar por cuatro versiones,"
+    },
+    {
+      "start": 1797.61,
+      "end": 1804.37,
+      "text": "y bueno, voy a agarrar de todos esos paquetes de historias de usuario o de casos de uso,"
+    },
+    {
+      "start": 1804.37,
+      "end": 1810.49,
+      "text": "voy agarrado algunos, y voy a, en la versión uno, voy a definir qué es lo que quiero hacer."
+    },
+    {
+      "start": 1810.53,
+      "end": 1815.85,
+      "text": "En la versión dos voy a agregarle otras funcionalidades."
+    },
+    {
+      "start": 1815.85,
+      "end": 1820.05,
+      "text": "En la versión tres, ya le voy a agregar más funcionalidades,"
+    },
+    {
+      "start": 1820.05,
+      "end": 1827.63,
+      "text": "ahí en la versión cuatro ya debería tener una solución completa a nivel funcional."
+    },
+    {
+      "start": 1827.63,
+      "end": 1831.63,
+      "text": "Entonces, como yo tengo un desarrollo increímental,"
+    },
+    {
+      "start": 1831.63,
+      "end": 1836.47,
+      "text": "desde día uno no voy a poder hacer pruebas, porque si yo hago el día uno todas las pruebas,"
+    },
+    {
+      "start": 1836.51,
+      "end": 1839.28,
+      "text": "y estoy haciendo un big band."
+    },
+    {
+      "start": 1839.28,
+      "end": 1842.4,
+      "text": "Entonces, hay un concepto que llama pruebas de integración."
+    },
+    {
+      "start": 1842.4,
+      "end": 1843.56,
+      "text": "Es una buena idea."
+    },
+    {
+      "start": 1843.56,
+      "end": 1851.37,
+      "text": "Y bueno, voy a probar una versión uno en conjunto de pruebas,"
+    },
+    {
+      "start": 1851.37,
+      "end": 1856.6,
+      "text": "es la verdad, llamar F1, que son características."
+    },
+    {
+      "start": 1856.6,
+      "end": 1861.88,
+      "text": "Después tengo las pruebas de regresiones, y le agrego nuevas funcionalidades,"
+    },
+    {
+      "start": 1861.88,
+      "end": 1868.32,
+      "text": "que serían un F2, pero tengo que olvidar que también tenía funcionalidades"
+    },
+    {
+      "start": 1868.82,
+      "end": 1871.54,
+      "text": "y ya realizadas en la versión uno."
+    },
+    {
+      "start": 1871.54,
+      "end": 1877.14,
+      "text": "Por lo tanto tengo que hacer una prueba de regresión de F1."
+    },
+    {
+      "start": 1877.14,
+      "end": 1882.86,
+      "text": "Cuando soy en la versión tres, tengo que probar lo que le agregue más estados."
+    },
+    {
+      "start": 1882.86,
+      "end": 1885.62,
+      "text": "La realidad es que las pruebas de regresión,"
+    },
+    {
+      "start": 1885.62,
+      "end": 1894.66,
+      "text": "si yo voy a hacer un proceso más versionados,"
+    },
+    {
+      "start": 1894.66,
+      "end": 1898.02,
+      "text": "y la realidad que las vea de regresión son bastante complicadas,"
+    },
+    {
+      "start": 1898.02,
+      "end": 1904.87,
+      "text": "porque tengo que volver a probar cosas que yo ya había probado."
+    },
+    {
+      "start": 1904.87,
+      "end": 1909.74,
+      "text": "Pero la realidad es que tampoco puedo no probarlas,"
+    },
+    {
+      "start": 1909.74,
+      "end": 1916.74,
+      "text": "porque yo sé que hay un acoplamiento entre los componentes"
+    },
+    {
+      "start": 1916.74,
+      "end": 1920.38,
+      "text": "que tengo que valiar, que sigan funcionando,"
+    },
+    {
+      "start": 1920.38,
+      "end": 1925.31,
+      "text": "que no sea a ser rotos, que yo había que estaba."
+    },
+    {
+      "start": 1925.43,
+      "end": 1932.14,
+      "text": "Este problema es que este prueba de regresión se tengo mucho retrabajo,"
+    },
+    {
+      "start": 1932.14,
+      "end": 1936.62,
+      "text": "a medida que voy entregando tengo mayor esfuerzo en lo que es el T-Sync,"
+    },
+    {
+      "start": 1936.62,
+      "end": 1941.92,
+      "text": "y se me dilatan los tiempos, que es tiendo los tiempos."
+    },
+    {
+      "start": 1941.92,
+      "end": 1945.44,
+      "text": "Por lo tanto, lo que es la gilidad al cambio,"
+    },
+    {
+      "start": 1945.44,
+      "end": 1947.72,
+      "text": "no estoy llegando en forma rápida."
+    },
+    {
+      "start": 1947.72,
+      "end": 1954.02,
+      "text": "Entonces ahí empiezan todo lo que se llaman automatización de pruebas."
+    },
+    {
+      "start": 1954.02,
+      "end": 1958.56,
+      "text": "Ahí después vamos a volver a hablar del sistema."
+    },
+    {
+      "start": 1958.56,
+      "end": 1961.6,
+      "text": "Lo que se suele hacer para resolver este problema"
+    },
+    {
+      "start": 1961.6,
+      "end": 1965.08,
+      "text": "es lo del llama Smoutes o pruebas de humo."
+    },
+    {
+      "start": 1965.08,
+      "end": 1968.24,
+      "text": "Alguien tiene este concepto, alguien lo utiliza."
+    },
+    {
+      "start": 1968.24,
+      "end": 1973.34,
+      "text": "Smoutes o pruebas de humo en una materia de hallambito,"
+    },
+    {
+      "start": 1973.34,
+      "end": 1984.37,
+      "text": "en una área de trabajo, no tiene este concepto."
+    },
+    {
+      "start": 1984.37,
+      "end": 1986.26,
+      "text": "¿Unos otro?"
+    },
+    {
+      "start": 1986.26,
+      "end": 1988.98,
+      "text": "No, no."
+    },
+    {
+      "start": 1988.98,
+      "end": 1992.39,
+      "text": "Bueno, el Smoutes..."
+    },
+    {
+      "start": 1992.39,
+      "end": 1998.51,
+      "text": "Siempre reguaron que yo les digo que en generales no se evitan,"
+    },
+    {
+      "start": 1998.51,
+      "end": 2005.85,
+      "text": "entonces vamos al Kirino de otras ni generales ni generales ni generales ni generales."
+    },
+    {
+      "start": 2005.85,
+      "end": 2011.01,
+      "text": "El Smoutes viene de un concepto de la construcción,"
+    },
+    {
+      "start": 2011.01,
+      "end": 2016.49,
+      "text": "donde acá tiene una cañería y si se rompe una imagen,"
+    },
+    {
+      "start": 2016.49,
+      "end": 2024.55,
+      "text": "así que tengo acá paúa, si hay algo roto en una cañería y sin un tatodo."
+    },
+    {
+      "start": 2024.55,
+      "end": 2028.83,
+      "text": "Entonces lo que hizo la ingeniería era única es decir,"
+    },
+    {
+      "start": 2028.83,
+      "end": 2033.15,
+      "text": "bueno, si tengo un gran caño de agua y hay alguna rotura,"
+    },
+    {
+      "start": 2033.15,
+      "end": 2040.89,
+      "text": "voy a detener este paso y lo voy a hacer es pasar humo."
+    },
+    {
+      "start": 2040.89,
+      "end": 2048.24,
+      "text": "Entonces donde yo vea que sale humo es porque hay una rotura y resuelvo eso."
+    },
+    {
+      "start": 2048.28,
+      "end": 2053.48,
+      "text": "Entonces es muy utilizado en los que se enseñaría civil y aerábulica,"
+    },
+    {
+      "start": 2053.48,
+      "end": 2058.19,
+      "text": "el concepto de Smoutes, ¿cuánto están haciendo este tipo de pruebas?"
+    },
+    {
+      "start": 2058.19,
+      "end": 2062.59,
+      "text": "Y nosotros tomamos esa palabra básicamente para decir, bueno,"
+    },
+    {
+      "start": 2062.59,
+      "end": 2065.99,
+      "text": "voy a hacer pruebas de regresión,"
+    },
+    {
+      "start": 2065.99,
+      "end": 2072.49,
+      "text": "pero voy a definir un conjunto de pruebas y no voy a probar todo."
+    },
+    {
+      "start": 2072.49,
+      "end": 2077.77,
+      "text": "Me vas a hacer una entrega, pero voy a probar de los 10 casos de uso"
+    },
+    {
+      "start": 2077.81,
+      "end": 2082.09,
+      "text": "o de las 10 historias de usuario que me vas a entregar en esta versión"
+    },
+    {
+      "start": 2082.09,
+      "end": 2087.24,
+      "text": "y voy a probar por lo menos 3."
+    },
+    {
+      "start": 2087.24,
+      "end": 2091.36,
+      "text": "Voy a definir, como arquitecto, tengo la responsabilidad de definir,"
+    },
+    {
+      "start": 2091.36,
+      "end": 2100.18,
+      "text": "cuáles son esas funcionalidades claves y esas pruebas sale mal."
+    },
+    {
+      "start": 2100.18,
+      "end": 2105.34,
+      "text": "Las aceptaciones en invalida, la prueba es invalida, no continuo."
+    },
+    {
+      "start": 2105.34,
+      "end": 2107.26,
+      "text": "No lo acepto."
+    },
+    {
+      "start": 2107.26,
+      "end": 2110.22,
+      "text": "La rechaza completamente la prueba."
+    },
+    {
+      "start": 2110.22,
+      "end": 2115.7,
+      "text": "Y esas pruebas salieron bien, continuo con una prueba un poco más relajada."
+    },
+    {
+      "start": 2115.7,
+      "end": 2118.42,
+      "text": "Es este tipo de Smoutes o pruebas de hubo,"
+    },
+    {
+      "start": 2118.42,
+      "end": 2121.66,
+      "text": "se utiliza mucho, por ejemplo, cuando estoy trabajando"
+    },
+    {
+      "start": 2121.66,
+      "end": 2124.5,
+      "text": "con diferentes grupos de desarrollo,"
+    },
+    {
+      "start": 2124.5,
+      "end": 2127.5,
+      "text": "entonces digo, bueno, estoy, por ejemplo, estoy en un banco."
+    },
+    {
+      "start": 2127.5,
+      "end": 2132.34,
+      "text": "El en el banco trabajo en la parte de homoelidación que esté y viene"
+    },
+    {
+      "start": 2132.34,
+      "end": 2136.1,
+      "text": "en el área de desarrollo y en el chat te voy a entregar una nueva versión."
+    },
+    {
+      "start": 2136.1,
+      "end": 2141.38,
+      "text": "Bueno, para, voy a hacer una prueba de hubo que tal vez tardado un día,"
+    },
+    {
+      "start": 2141.38,
+      "end": 2145.54,
+      "text": "está con pruebas que si no pasan,"
+    },
+    {
+      "start": 2145.54,
+      "end": 2148.3,
+      "text": "las pruebas son invalidas, si lo rechazo."
+    },
+    {
+      "start": 2148.3,
+      "end": 2155.58,
+      "text": "Entonces, este es una prueba más áscil y más rápida de hacer."
+    },
+    {
+      "start": 2155.58,
+      "end": 2159.18,
+      "text": "Lavorablemente se utiliza muchísimo, se habla mucho del pruebas de hubo,"
+    },
+    {
+      "start": 2159.18,
+      "end": 2168.22,
+      "text": "es un concepto que está como insinucionado dentro de la informática."
+    },
+    {
+      "start": 2168.22,
+      "end": 2175.76,
+      "text": "Exceces es muy utilizado, pero básicamente es eso."
+    },
+    {
+      "start": 2175.76,
+      "end": 2182.78,
+      "text": "Ahora me voy enfocando a lo que es orientado objeto."
+    },
+    {
+      "start": 2182.78,
+      "end": 2187.3,
+      "text": "Imagínense que yo tengo en orientado objeto, tengo determinadas clases,"
+    },
+    {
+      "start": 2187.3,
+      "end": 2191.34,
+      "text": "o puede ser también delicio."
+    },
+    {
+      "start": 2191.34,
+      "end": 2199.22,
+      "text": "Tengo, imagínense que cada uno de estas piezas es una clase."
+    },
+    {
+      "start": 2199.22,
+      "end": 2204.06,
+      "text": "No tengo, y aquí no digo, bueno, tengo varios programadores,"
+    },
+    {
+      "start": 2204.06,
+      "end": 2208.62,
+      "text": "cada uno, me armé una arquitectura, por suerte armé una arquitectura y dije,"
+    },
+    {
+      "start": 2208.62,
+      "end": 2214.22,
+      "text": "bueno, tienen estas clases con estos métodos, vos haces esto,"
+    },
+    {
+      "start": 2214.22,
+      "end": 2218.34,
+      "text": "vos haces lo otro, cada uno hace sus pruebas unitarias,"
+    },
+    {
+      "start": 2218.38,
+      "end": 2223.08,
+      "text": "y bueno, después que me voy a empezar a relacionarlos, empezar a integrarlos."
+    },
+    {
+      "start": 2223.08,
+      "end": 2228.6,
+      "text": "Hay dos tipos de integración básicamente en lo que es orientado objeto,"
+    },
+    {
+      "start": 2228.6,
+      "end": 2232.82,
+      "text": "uno de los llamas de negras y hidrobasadas en uso."
+    },
+    {
+      "start": 2232.82,
+      "end": 2237.02,
+      "text": "Me voy primero a las basadas en uso, son un poco más de espillas,"
+    },
+    {
+      "start": 2237.02,
+      "end": 2240.1,
+      "text": "y se prueba primero la clase independiente,"
+    },
+    {
+      "start": 2240.1,
+      "end": 2244.74,
+      "text": "las que no están muy relacionadas, se tiene bajo complemento,"
+    },
+    {
+      "start": 2244.74,
+      "end": 2248.38,
+      "text": "y luego vas avanzando con las dependientes."
+    },
+    {
+      "start": 2248.38,
+      "end": 2259.86,
+      "text": "Mi obviamente, él tengo también pruebas de regresión en busca."
+    },
+    {
+      "start": 2259.86,
+      "end": 2267.86,
+      "text": "Cada conjunto, cada clase te va a probar las que están más cohesivas,"
+    },
+    {
+      "start": 2267.86,
+      "end": 2273.06,
+      "text": "el programa que estamos agopladas, las pruebas, las que están más relacionadas,"
+    },
+    {
+      "start": 2273.06,
+      "end": 2274.58,
+      "text": "las pruebas que no me da un día."
+    },
+    {
+      "start": 2274.58,
+      "end": 2281.78,
+      "text": "Si yo sé qué hace, relaciona mucho con ver, voy a relacionar eso."
+    },
+    {
+      "start": 2281.86,
+      "end": 2287.5,
+      "text": "Entonces, ahí no empiezo con las que son independientes."
+    },
+    {
+      "start": 2287.5,
+      "end": 2291.46,
+      "text": "Voy primero con las que tienen una unidad específica,"
+    },
+    {
+      "start": 2291.46,
+      "end": 2298.3,
+      "text": "es si probaría, por ejemplo, pago tipo de pago,"
+    },
+    {
+      "start": 2298.3,
+      "end": 2303.42,
+      "text": "está las que están todas relacionadas."
+    },
+    {
+      "start": 2303.42,
+      "end": 2305.98,
+      "text": "Así que, hay dos formas también de integrarlos,"
+    },
+    {
+      "start": 2305.98,
+      "end": 2310.26,
+      "text": "pero los conceptos de regresión y de edas,"
+    },
+    {
+      "start": 2310.26,
+      "end": 2316.85,
+      "text": "de regresión y desmuntes funcionan para ambas."
+    },
+    {
+      "start": 2317.57,
+      "end": 2319.97,
+      "text": "Ahora, me voy a lo que son las casos de prueba."
+    },
+    {
+      "start": 2319.97,
+      "end": 2324.85,
+      "text": "Yo tengo que tener una relación entre las que son los casos de uso o historias de usuario"
+    },
+    {
+      "start": 2324.85,
+      "end": 2326.77,
+      "text": "con los casos de prueba."
+    },
+    {
+      "start": 2326.77,
+      "end": 2330.18,
+      "text": "Imagínense que estoy ingresando un Home Banking."
+    },
+    {
+      "start": 2330.18,
+      "end": 2333.86,
+      "text": "Estos lo copietas al cual en su momento no se si,"
+    },
+    {
+      "start": 2333.86,
+      "end": 2338.22,
+      "text": "cambio, tengo una página web, me voy a responder de Galicia,"
+    },
+    {
+      "start": 2338.22,
+      "end": 2341.82,
+      "text": "en el Home Banking de Galicia tengo para iniciar sección"
+    },
+    {
+      "start": 2341.82,
+      "end": 2348.26,
+      "text": "ingresos usuario y la clave y bold al botón iniciar sección."
+    },
+    {
+      "start": 2348.26,
+      "end": 2351.14,
+      "text": "La realidad justo tiene una relación muy estrecha,"
+    },
+    {
+      "start": 2351.14,
+      "end": 2356.18,
+      "text": "con el caso de uso del PSOA ya definido o con la estrella de usuario no importa."
+    },
+    {
+      "start": 2356.18,
+      "end": 2359.3,
+      "text": "Entonces, tengo el cliente ingresa a dotar."
+    },
+    {
+      "start": 2359.3,
+      "end": 2363.02,
+      "text": "Imagínate ingreso, el cliente ingresa usuario de Galicia,"
+    },
+    {
+      "start": 2363.02,
+      "end": 2367.74,
+      "text": "el cliente ingresa clave, el usuario se clic,"
+    },
+    {
+      "start": 2367.74,
+      "end": 2372.02,
+      "text": "y el sistema de dirección a de Home."
+    },
+    {
+      "start": 2372.02,
+      "end": 2376.66,
+      "text": "Hay una relación dentro de cómo yo escribí esa especificación,"
+    },
+    {
+      "start": 2376.66,
+      "end": 2378.1,
+      "text": "caso de uso de historias de usuario,"
+    },
+    {
+      "start": 2378.1,
+      "end": 2380.06,
+      "text": "lo que sea con la prueba de usuario."
+    },
+    {
+      "start": 2380.06,
+      "end": 2384.42,
+      "text": "Yo tengo que empezar a decir, ¿qué voy a probar?"
+    },
+    {
+      "start": 2384.42,
+      "end": 2390.51,
+      "text": "Por lo tanto, de un caso de uso o de un historio de usuario,"
+    },
+    {
+      "start": 2390.51,
+      "end": 2397.08,
+      "text": "voy a tener varios casos de prueba."
+    },
+    {
+      "start": 2398.08,
+      "end": 2408.17,
+      "text": "Pero vende a hacer un caso de prueba por cada escenario alternativo"
+    },
+    {
+      "start": 2408.17,
+      "end": 2410.25,
+      "text": "que tiene el caso de uso."
+    },
+    {
+      "start": 2410.25,
+      "end": 2414.21,
+      "text": "Perfecto."
+    },
+    {
+      "start": 2414.21,
+      "end": 2416.89,
+      "text": "Es decir, tengo un caso de prueba de usuario de usuario,"
+    },
+    {
+      "start": 2416.89,
+      "end": 2419.89,
+      "text": "le importa y digo, bueno, voy a empezar con el primero."
+    },
+    {
+      "start": 2419.89,
+      "end": 2425.84,
+      "text": "El cliente ingresa correctamente el usuario y ingresa correctamente"
+    },
+    {
+      "start": 2425.84,
+      "end": 2430.12,
+      "text": "la clave me da tal resultado."
+    },
+    {
+      "start": 2430.12,
+      "end": 2434.04,
+      "text": "Acá lo escribí muy simple el caso de prueba."
+    },
+    {
+      "start": 2434.12,
+      "end": 2440.16,
+      "text": "Pero también tengo el camino, digamos, el feliz y todos los infelices,"
+    },
+    {
+      "start": 2440.16,
+      "end": 2440.88,
+      "text": "por así decirlo."
+    },
+    {
+      "start": 2440.88,
+      "end": 2444.72,
+      "text": "Ustedes no me gustan hablar de camino feliz."
+    },
+    {
+      "start": 2444.72,
+      "end": 2448.36,
+      "text": "Yo tengo el camino correcto y todos los otros caminos,"
+    },
+    {
+      "start": 2448.36,
+      "end": 2451.74,
+      "text": "los alternativos, lo se canviezo."
+    },
+    {
+      "start": 2451.74,
+      "end": 2455.14,
+      "text": "El cliente ingresa usuario campo vacío,"
+    },
+    {
+      "start": 2455.14,
+      "end": 2457.26,
+      "text": "ingresa clave correcta."
+    },
+    {
+      "start": 2457.26,
+      "end": 2462.13,
+      "text": "Es el resultado y dirección a página de error."
+    },
+    {
+      "start": 2462.13,
+      "end": 2465.89,
+      "text": "Ya no me direcciónas la com, me direcciónas página de error."
+    },
+    {
+      "start": 2465.89,
+      "end": 2469.13,
+      "text": "Tengo que escuelas el resultado de esperado en la casa de prueba."
+    },
+    {
+      "start": 2469.13,
+      "end": 2472.61,
+      "text": "Y si yo ingreso esto me direcciónas una página de error."
+    },
+    {
+      "start": 2472.61,
+      "end": 2475.25,
+      "text": "Voy con otro caso, el cliente ingresado."
+    },
+    {
+      "start": 2475.25,
+      "end": 2479.89,
+      "text": "Suario correcto, clave vacía, que me direcciona página de error."
+    },
+    {
+      "start": 2479.89,
+      "end": 2485.47,
+      "text": "Y así con todos los N casos que yo vaya detectando."
+    },
+    {
+      "start": 2485.47,
+      "end": 2492.39,
+      "text": "Hoy, por suerte, tenemos agentes de día que también me voy viendo"
+    },
+    {
+      "start": 2492.39,
+      "end": 2494.71,
+      "text": "que genera un montón de casos de prueba"
+    },
+    {
+      "start": 2494.71,
+      "end": 2500.59,
+      "text": "a través de este artefato de entrada que seía el caso de uso,"
+    },
+    {
+      "start": 2500.59,
+      "end": 2505.67,
+      "text": "el historiario usuario, me va como armando algunas historias,"
+    },
+    {
+      "start": 2505.67,
+      "end": 2509.59,
+      "text": "perdón, algunas casos de prueba en forma automática."
+    },
+    {
+      "start": 2509.59,
+      "end": 2512.43,
+      "text": "No tanto acelero la creación de las casos de prueba."
+    },
+    {
+      "start": 2515.62,
+      "end": 2517.94,
+      "text": "Eso está bueno porque la realidad es que yo después tengo"
+    },
+    {
+      "start": 2517.94,
+      "end": 2521.3,
+      "text": "que tener una relación en los casos de prueba con las automatizaciones"
+    },
+    {
+      "start": 2521.3,
+      "end": 2525.44,
+      "text": "que eso después le vamos a ver."
+    },
+    {
+      "start": 2525.44,
+      "end": 2529.2,
+      "text": "Pero yo tengo lo que tienen que hacer es que tengo un artefato"
+    },
+    {
+      "start": 2529.2,
+      "end": 2532.4,
+      "text": "de entrada, sea cual sea."
+    },
+    {
+      "start": 2532.4,
+      "end": 2535.24,
+      "text": "Y después voy a tener un montón de artefatos de salida"
+    },
+    {
+      "start": 2535.24,
+      "end": 2540.06,
+      "text": "que son las pruebas de usuario, las casos de prueba, perdón."
+    },
+    {
+      "start": 2540.06,
+      "end": 2543.82,
+      "text": "Pero en los casos de prueba."
+    },
+    {
+      "start": 2543.82,
+      "end": 2547.25,
+      "text": "Y que después tengo que tener una relación."
+    },
+    {
+      "start": 2547.25,
+      "end": 2552.81,
+      "text": "Puede venir una persona que hace desinfucional"
+    },
+    {
+      "start": 2552.81,
+      "end": 2554.85,
+      "text": "y te va a dar el primer caso de prueba."
+    },
+    {
+      "start": 2554.85,
+      "end": 2556.61,
+      "text": "Voy haciendo un check."
+    },
+    {
+      "start": 2556.61,
+      "end": 2559.57,
+      "text": "El primer paso dice bien, el segundo paso dice bien,"
+    },
+    {
+      "start": 2559.57,
+      "end": 2562.89,
+      "text": "el tercer paso dice bien, el tercer paso dice que vire"
+    },
+    {
+      "start": 2562.89,
+      "end": 2570.42,
+      "text": "en clave y no me deja de escribir."
+    },
+    {
+      "start": 2570.42,
+      "end": 2575.3,
+      "text": "Y siquiera llegué a poder ver cuál era el resultado esperado,"
+    },
+    {
+      "start": 2575.3,
+      "end": 2577.66,
+      "text": "tira que mi dirección a página de error."
+    },
+    {
+      "start": 2577.66,
+      "end": 2583.46,
+      "text": "Todo eso tiene que estar escrito para que después poder evaluar"
+    },
+    {
+      "start": 2583.46,
+      "end": 2590.07,
+      "text": "y recolectar todos los datos y poder evaluar y mejorarlo."
+    },
+    {
+      "start": 2590.07,
+      "end": 2595.82,
+      "text": "Algo que está bueno es que yo tengo muchas pruebas de regresión."
+    },
+    {
+      "start": 2595.82,
+      "end": 2598.58,
+      "text": "Y estos casos de prueba les voy a hacer varias veces."
+    },
+    {
+      "start": 2598.58,
+      "end": 2603.34,
+      "text": "Imagínense que estoy en un home banking y tengo llavo"
+    },
+    {
+      "start": 2603.34,
+      "end": 2609.18,
+      "text": "por la regresión, perdón por la versión de entrega número"
+    },
+    {
+      "start": 2609.18,
+      "end": 2610.7,
+      "text": "de los 10015."
+    },
+    {
+      "start": 2610.7,
+      "end": 2616.06,
+      "text": "Voy a volver a probar todos los casos de ingreso."
+    },
+    {
+      "start": 2616.06,
+      "end": 2617.9,
+      "text": "Y qué se lló?"
+    },
+    {
+      "start": 2617.9,
+      "end": 2627.58,
+      "text": "Pero bueno, he dado alguna error o una falla y algunas pruebas voy a estar."
+    },
+    {
+      "start": 2627.58,
+      "end": 2630.42,
+      "text": "Entonces lo que se suele hacer es decir,"
+    },
+    {
+      "start": 2630.42,
+      "end": 2639.96,
+      "text": "bueno, voy a asociar a esta prueba con una automatización."
+    },
+    {
+      "start": 2639.96,
+      "end": 2646.26,
+      "text": "Y lo que voy a tener es un montón de herramientas."
+    },
+    {
+      "start": 2646.26,
+      "end": 2650.68,
+      "text": "Lo que me va a permitir es abrir la home,"
+    },
+    {
+      "start": 2650.68,
+      "end": 2658.72,
+      "text": "dentro de la jornada de la lista,"
+    },
+    {
+      "start": 2658.72,
+      "end": 2666.35,
+      "text": "dentro de la jornada de la lista,"
+    },
+    {
+      "start": 2666.35,
+      "end": 2667.83,
+      "text": "dentro de la jornada de la lista,"
+    },
+    {
+      "start": 2667.83,
+      "end": 2672.33,
+      "text": "esto es nivel funcional."
+    },
+    {
+      "start": 2672.33,
+      "end": 2680.0,
+      "text": "Y tengo acá activado una herramienta que digo,"
+    },
+    {
+      "start": 2680.0,
+      "end": 2689.32,
+      "text": "bueno, ingreso nombre, analía, ingreso apellido, marido."
+    },
+    {
+      "start": 2689.32,
+      "end": 2690.76,
+      "text": "Y tengo la herramienta,"
+    },
+    {
+      "start": 2690.76,
+      "end": 2693.8,
+      "text": "si lo que va a hacer es todos esos pasos que voy haciendo,"
+    },
+    {
+      "start": 2693.8,
+      "end": 2695.6,
+      "text": "los va grabando."
+    },
+    {
+      "start": 2695.6,
+      "end": 2698.7,
+      "text": "Entonces tengo una de las grabaciones."
+    },
+    {
+      "start": 2698.7,
+      "end": 2702.83,
+      "text": "Lo que hace es capturar eso,"
+    },
+    {
+      "start": 2702.83,
+      "end": 2706.15,
+      "text": "otra vez que la clase tiene la herramienta y va diciendo,"
+    },
+    {
+      "start": 2706.15,
+      "end": 2712.26,
+      "text": "bueno, te ves un código, un scriptil,"
+    },
+    {
+      "start": 2712.26,
+      "end": 2714.7,
+      "text": "y en el scriptil van a ver que he visto ingreso,"
+    },
+    {
+      "start": 2714.7,
+      "end": 2720.45,
+      "text": "total, analía, clave, apellido, marido."
+    },
+    {
+      "start": 2720.45,
+      "end": 2724.2,
+      "text": "Entonces tengo ese scriptil y después lo que tengo que hacer,"
+    },
+    {
+      "start": 2724.2,
+      "end": 2728.48,
+      "text": "cuando tengo ese script, es decir, bueno, acá tengo analía,"
+    },
+    {
+      "start": 2728.48,
+      "end": 2731.44,
+      "text": "bueno, se vaya un excel con todas las claves,"
+    },
+    {
+      "start": 2731.44,
+      "end": 2737.4,
+      "text": "que haga un query a la base para que haga todo la simule,"
+    },
+    {
+      "start": 2737.4,
+      "end": 2739.24,
+      "text": "todo lo su usuario y clave."
+    },
+    {
+      "start": 2739.24,
+      "end": 2746.11,
+      "text": "Entonces, tengo en forma maciga varias pruebas."
+    },
+    {
+      "start": 2746.11,
+      "end": 2752.59,
+      "text": "Por ejemplo, acá estoy con una de las herramientas."
+    },
+    {
+      "start": 2752.59,
+      "end": 2753.47,
+      "text": "Una herramienta."
+    },
+    {
+      "start": 2753.79,
+      "end": 2755.39,
+      "text": "Entonces, esta herramienta, lo que me permite,"
+    },
+    {
+      "start": 2755.39,
+      "end": 2760.76,
+      "text": "vamos a grabar un poquito, lo que realmente es decir, bueno,"
+    },
+    {
+      "start": 2760.76,
+      "end": 2766.68,
+      "text": "empiezo a grabar todo lo que voy a inmular en el browser"
+    },
+    {
+      "start": 2766.68,
+      "end": 2772.26,
+      "text": "o en una aplicación funcional tiene que estar,"
+    },
+    {
+      "start": 2772.26,
+      "end": 2773.26,
+      "text": "¿ok?"
+    },
+    {
+      "start": 2773.26,
+      "end": 2774.86,
+      "text": "Lo va ir grabando."
+    },
+    {
+      "start": 2774.86,
+      "end": 2777.26,
+      "text": "Mira, en el que acá, por ejemplo, puse,"
+    },
+    {
+      "start": 2777.26,
+      "end": 2784.26,
+      "text": "a ver, o es verdad, no se de bien, pero vamos acá."
+    },
+    {
+      "start": 2784.26,
+      "end": 2786.58,
+      "text": "Acá puse, por ejemplo, el intro y usarme en,"
+    },
+    {
+      "start": 2786.58,
+      "end": 2788.7,
+      "text": "entro, no se tal."
+    },
+    {
+      "start": 2788.7,
+      "end": 2791.82,
+      "text": "Pavo, entro o acá está intentado."
+    },
+    {
+      "start": 2791.82,
+      "end": 2797.34,
+      "text": "Entonces, después yo puedo decir, bueno, no lo jarco de es,"
+    },
+    {
+      "start": 2797.34,
+      "end": 2800.34,
+      "text": "como, obviamente al principio lo va a jarco de algo,"
+    },
+    {
+      "start": 2800.34,
+      "end": 2805.58,
+      "text": "porque lo que hace es ir grabando todo lo que yo hago."
+    },
+    {
+      "start": 2805.58,
+      "end": 2807.3,
+      "text": "Pero después yo puedo ir modificando,"
+    },
+    {
+      "start": 2807.3,
+      "end": 2811.82,
+      "text": "decir de acá, andate a un excel, andate a un query,"
+    },
+    {
+      "start": 2811.82,
+      "end": 2816.18,
+      "text": "andate a otro lado, un textel, lo que sea,"
+    },
+    {
+      "start": 2816.18,
+      "end": 2819.26,
+      "text": "y captura todos los nombres, los user names,"
+    },
+    {
+      "start": 2819.26,
+      "end": 2822.22,
+      "text": "de ahí para hacerlo, en forma más cura."
+    },
+    {
+      "start": 2822.22,
+      "end": 2824.26,
+      "text": "Entonces, es muy utilizado."
+    },
+    {
+      "start": 2824.26,
+      "end": 2833.38,
+      "text": "Hoy también, ya, al día, que ayuda mucho a lo que es el armado"
+    },
+    {
+      "start": 2833.38,
+      "end": 2836.19,
+      "text": "del sentedato."
+    },
+    {
+      "start": 2836.19,
+      "end": 2839.51,
+      "text": "Bueno, acá es otro tipo de herramientas,"
+    },
+    {
+      "start": 2839.51,
+      "end": 2843.99,
+      "text": "este es para lo que es parte web."
+    },
+    {
+      "start": 2843.99,
+      "end": 2848.43,
+      "text": "Ya acá tienen, por ejemplo, agregar y acá te dicen qué tipo"
+    },
+    {
+      "start": 2848.43,
+      "end": 2852.03,
+      "text": "de configuración, cómo la realidad que tienen,"
+    },
+    {
+      "start": 2852.03,
+      "end": 2855.19,
+      "text": "que haber un tiene, que haber un trabajo de mejora,"
+    },
+    {
+      "start": 2855.19,
+      "end": 2858.99,
+      "text": "que modificar esa macro."
+    },
+    {
+      "start": 2858.99,
+      "end": 2861.79,
+      "text": "Si ustedes están después en algún proyerto web"
+    },
+    {
+      "start": 2861.79,
+      "end": 2864.79,
+      "text": "dentro de la facultad, este lo puede utilizar porque es el"
+    },
+    {
+      "start": 2864.79,
+      "end": 2867.52,
+      "text": "atrito."
+    },
+    {
+      "start": 2867.52,
+      "end": 2871.2,
+      "text": "En cual me manacer es una herramienta que me permite tener"
+    },
+    {
+      "start": 2871.2,
+      "end": 2878.01,
+      "text": "todo el set, es decir, tener el caso de prueba,"
+    },
+    {
+      "start": 2878.01,
+      "end": 2880.29,
+      "text": "el pardon, el caso de uso, el historio de usuario,"
+    },
+    {
+      "start": 2880.29,
+      "end": 2882.57,
+      "text": "y después de este caso de historias usuarios,"
+    },
+    {
+      "start": 2882.57,
+      "end": 2885.09,
+      "text": "derivarlos en el caso de prueba."
+    },
+    {
+      "start": 2885.09,
+      "end": 2886.49,
+      "text": "Entonces, ¿qué me sirve tener?"
+    },
+    {
+      "start": 2886.49,
+      "end": 2889.73,
+      "text": "Y después de esos casos de prueba, relacionar, es decir,"
+    },
+    {
+      "start": 2889.73,
+      "end": 2893.34,
+      "text": "tengo el script, ya he hecho, tengo el script, ya he hecho."
+    },
+    {
+      "start": 2893.34,
+      "end": 2896.02,
+      "text": "Ah, pero bueno, ese script lo relaciona con este caso"
+    },
+    {
+      "start": 2896.02,
+      "end": 2897.06,
+      "text": "de prueba."
+    },
+    {
+      "start": 2897.06,
+      "end": 2901.99,
+      "text": "Entonces, el quejo la noche tal vez probando la automatización"
+    },
+    {
+      "start": 2901.99,
+      "end": 2906.27,
+      "text": "que hice y al otro día tengo acá el caso de prueba OK,"
+    },
+    {
+      "start": 2906.27,
+      "end": 2909.91,
+      "text": "este caso de prueba fallo, este caso de prueba estuvo bien,"
+    },
+    {
+      "start": 2909.91,
+      "end": 2914.64,
+      "text": "este tengo, ya en forma automática, un resultado."
+    },
+    {
+      "start": 2914.64,
+      "end": 2924.63,
+      "text": "Pero necesito tener un enlace de todo el caso de uso,"
+    },
+    {
+      "start": 2924.63,
+      "end": 2927.59,
+      "text": "con la historia de un usuario, con la automatización."
+    },
+    {
+      "start": 2927.59,
+      "end": 2929.83,
+      "text": "Eso me los dan otros tipos de herramientas."
+    },
+    {
+      "start": 2929.83,
+      "end": 2934.63,
+      "text": "Hay muchas herramientas, eso me fui a una como cuantimanas."
+    },
+    {
+      "start": 2934.63,
+      "end": 2941.86,
+      "text": "Entonces, acá tengo, por ejemplo,"
+    },
+    {
+      "start": 2941.86,
+      "end": 2943.14,
+      "text": "es decir, bueno, voy a ejecutarlo,"
+    },
+    {
+      "start": 2943.14,
+      "end": 2946.94,
+      "text": "dejo ejecutando, tengo todo lo que son requerimientos,"
+    },
+    {
+      "start": 2946.94,
+      "end": 2952.7,
+      "text": "tengo ejecución que pueden ser en forma automática."
+    },
+    {
+      "start": 2952.7,
+      "end": 2956.38,
+      "text": "Asi que esa prueba la voy a ejecutar una sola vez y hago"
+    },
+    {
+      "start": 2956.38,
+      "end": 2960.1,
+      "text": "solamente una prueba manual."
+    },
+    {
+      "start": 2960.1,
+      "end": 2963.26,
+      "text": "Le digo una persona que lo pruebe si lo voy a estar en EVS,"
+    },
+    {
+      "start": 2963.26,
+      "end": 2965.98,
+      "text": "porque tengo muchas pruebas de regresión y ahí ya me"
+    },
+    {
+      "start": 2965.98,
+      "end": 2967.3,
+      "text": "combiné automatizarla."
+    },
+    {
+      "start": 2970.25,
+      "end": 2974.02,
+      "text": "Que le decía, decid, acá vamos a ver esto."
+    },
+    {
+      "start": 2974.02,
+      "end": 2976.78,
+      "text": "Entonces, yo, por ejemplo, si lo dejo ejecutando,"
+    },
+    {
+      "start": 2976.78,
+      "end": 2978.7,
+      "text": "digo, bueno, a ver cuál es el resultado."
+    },
+    {
+      "start": 2978.7,
+      "end": 2983.38,
+      "text": "Y de algún, que dio 155 pruebas bien, 75 con errores."
+    },
+    {
+      "start": 2983.38,
+      "end": 2985.1,
+      "text": "Bueno, cliqueo y ahí me muestre,"
+    },
+    {
+      "start": 2985.1,
+      "end": 2989.22,
+      "text": "¿cuáles son los casos de prueba que fallaron?"
+    },
+    {
+      "start": 2989.22,
+      "end": 2990.74,
+      "text": "Si no entiendo el caso de prueba,"
+    },
+    {
+      "start": 2990.74,
+      "end": 2993.58,
+      "text": "hago un link y me voy al caso de uso."
+    },
+    {
+      "start": 2993.58,
+      "end": 2995.78,
+      "text": "Está todo muy relacionado."
+    },
+    {
+      "start": 2995.78,
+      "end": 2999.78,
+      "text": "Tendré una herramienta así que también"
+    },
+    {
+      "start": 2999.78,
+      "end": 3003.54,
+      "text": "es inicia muchísimo el destino."
+    },
+    {
+      "start": 3003.54,
+      "end": 3005.78,
+      "text": "O están todas integradas."
+    },
+    {
+      "start": 3005.78,
+      "end": 3010.86,
+      "text": "Hay mucho día dando vuelta, antes de también lo que es,"
+    },
+    {
+      "start": 3010.86,
+      "end": 3021.68,
+      "text": "vengo acá lo que es análisis, lo que se la analisis mejora muchísimo."
+    },
+    {
+      "start": 3021.68,
+      "end": 3026.04,
+      "text": "Ya, estas herramientas hoy vienen con niñas."
+    },
+    {
+      "start": 3026.04,
+      "end": 3027.4,
+      "text": "Acá también tengo, por ejemplo,"
+    },
+    {
+      "start": 3027.4,
+      "end": 3028.72,
+      "text": "¿cuáles fueron los que fallaron?"
+    },
+    {
+      "start": 3028.72,
+      "end": 3029.96,
+      "text": "¿Cuáles no?"
+    },
+    {
+      "start": 3029.96,
+      "end": 3033.12,
+      "text": "Me da diferentes formas."
+    },
+    {
+      "start": 3033.12,
+      "end": 3036.8,
+      "text": "Esto está buenísimo, porque yo tengo una software factor."
+    },
+    {
+      "start": 3036.8,
+      "end": 3040.28,
+      "text": "Y que lo único que hago es testin, tengo un cliente que tengo"
+    },
+    {
+      "start": 3040.28,
+      "end": 3044.72,
+      "text": "que enviarles unos reportes, tengo una herramienta que en forma"
+    },
+    {
+      "start": 3044.72,
+      "end": 3051.68,
+      "text": "de skill me ayuda a gestionar unos reportes muy buenos."
+    },
+    {
+      "start": 3051.68,
+      "end": 3055.74,
+      "text": "Entonces, es muy utilizado."
+    },
+    {
+      "start": 3055.74,
+      "end": 3058.82,
+      "text": "¿Dudas hasta acá sobre este tema?"
+    },
+    {
+      "start": 3058.82,
+      "end": 3065.18,
+      "text": "Voy a seguir por esto."
+    },
+    {
+      "start": 3065.18,
+      "end": 3067.22,
+      "text": "No, ninguna duda."
+    },
+    {
+      "start": 3067.22,
+      "end": 3068.5,
+      "text": "Anda."
+    },
+    {
+      "start": 3068.5,
+      "end": 3073.3,
+      "text": "Bueno, acá lo que dice son todas lo que es las pruebas orientadas,"
+    },
+    {
+      "start": 3073.3,
+      "end": 3076.32,
+      "text": "así es un buen diseño, ¿no?"
+    },
+    {
+      "start": 3078.42,
+      "end": 3081.26,
+      "text": "Y dice un buen diseño, ¿no?"
+    },
+    {
+      "start": 3081.26,
+      "end": 3086.93,
+      "text": "Que justamente el foco nuestro de esta herramienta, de esta materia."
+    },
+    {
+      "start": 3086.93,
+      "end": 3100.44,
+      "text": "Pero tampoco me pude olvidar porque yo como arquitecto tengo que"
+    },
+    {
+      "start": 3100.44,
+      "end": 3105.51,
+      "text": "los requisitos, la parte es funcional."
+    },
+    {
+      "start": 3105.51,
+      "end": 3108.67,
+      "text": "Y acá tengo lo que se termina en pruebas de evaluación funcional,"
+    },
+    {
+      "start": 3108.67,
+      "end": 3112.03,
+      "text": "pruebas alfa, pruebas beta."
+    },
+    {
+      "start": 3112.03,
+      "end": 3122.75,
+      "text": "Acá hay varios autores que tienen diferencia entre lo que es una prueba alfa y una"
+    },
+    {
+      "start": 3122.75,
+      "end": 3123.91,
+      "text": "prueba beta."
+    },
+    {
+      "start": 3123.91,
+      "end": 3128.9,
+      "text": "Nosotros vamos a enfocar en lo que dicen Presman."
+    },
+    {
+      "start": 3128.9,
+      "end": 3133.7,
+      "text": "A prueba alfa son pruebas con un ambiente un poco más controlado."
+    },
+    {
+      "start": 3133.7,
+      "end": 3137.98,
+      "text": "Las pruebas beta ya se los entregan a los usuarios."
+    },
+    {
+      "start": 3137.98,
+      "end": 3139.02,
+      "text": "¿Qué quiero decir con este?"
+    },
+    {
+      "start": 3139.02,
+      "end": 3147.58,
+      "text": "Imagínense que tengo que probar un videojuego el FIFA 2027."
+    },
+    {
+      "start": 3147.58,
+      "end": 3151.38,
+      "text": "Está que voy a lanzar y tengo a hacer el que hace el fin de la febrico."
+    },
+    {
+      "start": 3151.38,
+      "end": 3156.26,
+      "text": "Febrico es un fanático del FIFA, es un excelente usuario."
+    },
+    {
+      "start": 3156.26,
+      "end": 3161.57,
+      "text": "Tuve que tener el que tener el fin de 20 años?"
+    },
+    {
+      "start": 3161.57,
+      "end": 3167.58,
+      "text": "Te les 15 años mínimo de jugar a la play seguramente."
+    },
+    {
+      "start": 3167.58,
+      "end": 3168.38,
+      "text": "Es experto."
+    },
+    {
+      "start": 3168.38,
+      "end": 3174.3,
+      "text": "Entonces le digo yo soy el dueño de EAA, no creo que ya me haya."
+    },
+    {
+      "start": 3174.3,
+      "end": 3174.98,
+      "text": "No me acuerdo."
+    },
+    {
+      "start": 3174.98,
+      "end": 3176.18,
+      "text": "Bienes son los que inventaron."
+    },
+    {
+      "start": 3176.18,
+      "end": 3176.7,
+      "text": "Sí."
+    },
+    {
+      "start": 3176.7,
+      "end": 3177.18,
+      "text": "En fin."
+    },
+    {
+      "start": 3177.18,
+      "end": 3178.18,
+      "text": "Gracias."
+    },
+    {
+      "start": 3178.18,
+      "end": 3179.18,
+      "text": "Gracias."
+    },
+    {
+      "start": 3179.18,
+      "end": 3180.18,
+      "text": "Gracias."
+    },
+    {
+      "start": 3180.18,
+      "end": 3182.18,
+      "text": "Gracias."
+    },
+    {
+      "start": 3182.18,
+      "end": 3187.86,
+      "text": "Entonces le digo bueno, Cérico, te voy a dar para que pruebes en tu vengan."
+    },
+    {
+      "start": 3187.86,
+      "end": 3190.1,
+      "text": "Ven, perdón, te invito a Estados Unidos."
+    },
+    {
+      "start": 3190.1,
+      "end": 3198.02,
+      "text": "Si lo venit de Estados Unidos, te voy a hacer probar el FIFA 2028."
+    },
+    {
+      "start": 3198.02,
+      "end": 3202.86,
+      "text": "Está y te dejo en un ambiente totalmente controlado."
+    },
+    {
+      "start": 3202.86,
+      "end": 3204.22,
+      "text": "En fin, que lo te has instalado."
+    },
+    {
+      "start": 3204.22,
+      "end": 3210.7,
+      "text": "O sea, vos vas a ser invitados de unirse a mi ambiente y me va a iniciar las mejoras."
+    },
+    {
+      "start": 3210.7,
+      "end": 3212.5,
+      "text": "Y los vengan las que son las pruebas alpha."
+    },
+    {
+      "start": 3212.5,
+      "end": 3217.5,
+      "text": "Ya pruebas beta es decir, ya tengo a febrico, tengo a Francisco, tengo a Javier."
+    },
+    {
+      "start": 3217.5,
+      "end": 3223.42,
+      "text": "Yo sé que son super usuarios y les digo, saben que todavía no salió la versión"
+    },
+    {
+      "start": 3223.42,
+      "end": 3227.22,
+      "text": "de FIFA 2028, pero te lo voy a dar para que juegas."
+    },
+    {
+      "start": 3227.22,
+      "end": 3234.14,
+      "text": "Está ya, no es un ambiente controlado, te lo voy a vos vas a probarlos."
+    },
+    {
+      "start": 3234.14,
+      "end": 3245.74,
+      "text": "Lo que está bueno es que esos tipos de usuarios son considerados muy valiosos y hasta que"
+    },
+    {
+      "start": 3245.74,
+      "end": 3247.78,
+      "text": "se escuchen, es decir, bueno, ¿sabes qué?"
+    },
+    {
+      "start": 3247.78,
+      "end": 3255.06,
+      "text": "El rico me dijo que no sé que cuando hay un cambio de hora, el cambio no me permite,"
+    },
+    {
+      "start": 3255.06,
+      "end": 3258.54,
+      "text": "tal vez te digamos que agregar esto funcionalmente no anda bien."
+    },
+    {
+      "start": 3258.54,
+      "end": 3265.34,
+      "text": "O sea, se escucha cuando hay una prueba beta de ese tipo de usuarios y después lo pueden"
+    },
+    {
+      "start": 3265.34,
+      "end": 3266.34,
+      "text": "implementar."
+    },
+    {
+      "start": 3266.34,
+      "end": 3270.9,
+      "text": "Obviamente, hay pruebas beta 1, 2, 3, o sea, de acuerdo en nivel, después capaz que son"
+    },
+    {
+      "start": 3270.9,
+      "end": 3274.58,
+      "text": "en forma más vacíos y ahí no se lo se escucha tanto de sus usuarios."
+    },
+    {
+      "start": 3274.58,
+      "end": 3280.51,
+      "text": "Pero es ya en un ambiente que no tengo control, ¿ok?"
+    },
+    {
+      "start": 3280.51,
+      "end": 3285.63,
+      "text": "Y después obviamente una vez que hice las pruebas funcionales, ya tuve pruebas alpha,"
+    },
+    {
+      "start": 3285.63,
+      "end": 3292.23,
+      "text": "tuve pruebas beta y tuve el tengo que decir, bueno, basta, ya tengo una prueba de aceptación"
+    },
+    {
+      "start": 3292.23,
+      "end": 3310.32,
+      "text": "completa, el lanzo, el producto, me voy con otro, es yo que me llevas esto."
+    },
+    {
+      "start": 3310.32,
+      "end": 3319.95,
+      "text": "Tengo, el Homemante tengo y acá empiezo a hacer lo que son las pruebas de, ah, ahí se"
+    },
+    {
+      "start": 3319.95,
+      "end": 3327.02,
+      "text": "me fue, automatización, ingreso, y acá empiezo a escribir el código, la herramienta"
+    },
+    {
+      "start": 3327.02,
+      "end": 3334.3,
+      "text": "empieza a escribir mucho código, empieza a hacer scripting, lo que yo quiero es decir, bueno,"
+    },
+    {
+      "start": 3334.3,
+      "end": 3340.4,
+      "text": "si yo hago una relación y o esta prueba, está relacionado con este script automático,"
+    },
+    {
+      "start": 3340.4,
+      "end": 3345.64,
+      "text": "automatizado, y el día de mañana digo, bueno, voy a cambiar, en vez de de ney,"
+    },
+    {
+      "start": 3345.64,
+      "end": 3355.54,
+      "text": "antes tenía, tenía usuario y clave, ahora voy a agregar también de ney, funcionalmente"
+    },
+    {
+      "start": 3355.54,
+      "end": 3366.31,
+      "text": "a dar el caso de uso, agrego de ney, que no lo tenía, tengo un montón de casos relacionados"
+    },
+    {
+      "start": 3366.31,
+      "end": 3370.68,
+      "text": "que van a estar impactados por este cambio."
+    },
+    {
+      "start": 3370.68,
+      "end": 3375.96,
+      "text": "Entonces lo que suele hacer cuando estoy ya, ya lo tenía automatizado, no sé lo que"
+    },
+    {
+      "start": 3375.96,
+      "end": 3384.55,
+      "text": "suele hacer es grabo la parte cita que me corresponde, lo agrego y se vea replicado,"
+    },
+    {
+      "start": 3384.55,
+      "end": 3395.2,
+      "text": "o con la idea lo agrego en un solo caso y automáticamente se replica en todos los casos"
+    },
+    {
+      "start": 3395.2,
+      "end": 3401.28,
+      "text": "que tengo automatizado posiblemente ese caso."
+    },
+    {
+      "start": 3401.28,
+      "end": 3406.29,
+      "text": "Y después el lanzó la prueba."
+    },
+    {
+      "start": 3406.29,
+      "end": 3411.37,
+      "text": "Esto está buenísimo porque yo lo que necesito es tener la gilidad al cambio y si yo tengo"
+    },
+    {
+      "start": 3411.37,
+      "end": 3420.05,
+      "text": "que viene un cambio a nivel funcional como que tuve acá que ya tenía usuario y clave,"
+    },
+    {
+      "start": 3420.05,
+      "end": 3426.49,
+      "text": "ahora también tengo de ney, bueno en forma bastante más simple, voy a hacer un análisis"
+    },
+    {
+      "start": 3426.49,
+      "end": 3434.64,
+      "text": "de cuáles son los casos de pruebas que están impactados de este cambio funcional y además"
+    },
+    {
+      "start": 3434.64,
+      "end": 3443.4,
+      "text": "también veo cuál es de estos estas pruebas, tengo una automatización como para agregar"
+    },
+    {
+      "start": 3443.4,
+      "end": 3452.4,
+      "text": "el código correspondiente, esto es cómo se hace chicos en un día a día, ¿no?"
+    },
+    {
+      "start": 3452.4,
+      "end": 3460.64,
+      "text": "Me voy a lo último prueba de sistemas que son todos los adributos, digamos no funcionales"
+    },
+    {
+      "start": 3460.64,
+      "end": 3469.9,
+      "text": "por así decirlo, bueno, se han tenido una caída como se recupera sin falla a nivel de"
+    },
+    {
+      "start": 3469.9,
+      "end": 3474.74,
+      "text": "escribir como lo hago, cómo son las pruebas de performance, cómo son pruebas de seguridad,"
+    },
+    {
+      "start": 3474.74,
+      "end": 3479.74,
+      "text": "son todas las que son las últimas pruebas porque ya necesito tener la solución andando,"
+    },
+    {
+      "start": 3479.74,
+      "end": 3488.5,
+      "text": "puedo hacer antes una humbread acercamiento pero ya debería tener la solución prácticamente"
+    },
+    {
+      "start": 3488.5,
+      "end": 3495.32,
+      "text": "por lo menos en una prueba beta o alpha, ¿ok? Entonces ahí me voy en lo que son pruebas de"
+    },
+    {
+      "start": 3495.32,
+      "end": 3499.64,
+      "text": "performance, la realidad es que la prueba de performance lo voy a leer tal cual está"
+    },
+    {
+      "start": 3499.64,
+      "end": 3504.48,
+      "text": "es el proceso de emular usuarios en una aplicación real con herramienta de generación"
+    },
+    {
+      "start": 3504.48,
+      "end": 3509.52,
+      "text": "de carga para encontrar dónde están los errores, imagino en el que estoy, sigo todavía"
+    },
+    {
+      "start": 3509.52,
+      "end": 3515.16,
+      "text": "con el ejemplo del Galicia y digo bueno estoy haciendo el login y quiero que entren"
+    },
+    {
+      "start": 3515.16,
+      "end": 3525.35,
+      "text": "con tus sueles tenés y tengo alrededor de 400 mil usuarios pero el primer el primero de"
+    },
+    {
+      "start": 3525.35,
+      "end": 3534.35,
+      "text": "mes no tengo 400 mil accesos, el primero de mes tengo entran diez veces la misma persona, tengo"
+    },
+    {
+      "start": 3534.35,
+      "end": 3540.51,
+      "text": "que analizar cómo es esa prueba de performance, bueno yo tengo que automatizar obviamente,"
+    },
+    {
+      "start": 3540.51,
+      "end": 3548.73,
+      "text": "tengo que automatizar esa prueba y después ir probando y probando completamente, no la parte"
+    },
+    {
+      "start": 3548.73,
+      "end": 3556.25,
+      "text": "funcional sino cómo funciona la base de datos, cómo funciona las redes, cómo funciona los servicios,"
+    },
+    {
+      "start": 3556.25,
+      "end": 3564.84,
+      "text": "me va haciendo, tengo que evaluar absolutamente todo, entonces yo siempre lo divido en dos"
+    },
+    {
+      "start": 3564.84,
+      "end": 3571.08,
+      "text": "estéticos de pruebas de performance, primero porque yo tengo que ir tomando datos, acá tengo"
+    },
+    {
+      "start": 3571.08,
+      "end": 3578.48,
+      "text": "una persona, esta persona que está ahí pedaleando sería para mí, siquiera funcionando en la"
+    },
+    {
+      "start": 3578.48,
+      "end": 3588.54,
+      "text": "energía, el código, el scripting que yo arme, tengo un scripting y después tengo que ir capturando"
+    },
+    {
+      "start": 3588.54,
+      "end": 3598.94,
+      "text": "esos datos, no me sirve nada, simular que entra 400 personas y no tengo herramientas de"
+    },
+    {
+      "start": 3598.94,
+      "end": 3604.88,
+      "text": "monitoreo, no tengo una herramienta de monitoreo de la base de datos, no tengo una herramienta de"
+    },
+    {
+      "start": 3604.88,
+      "end": 3614.76,
+      "text": "monitoreo para la parte de redes, entonces tengo que tener una estructura muy bien pensado"
+    },
+    {
+      "start": 3614.76,
+      "end": 3619.24,
+      "text": "y voy muy bien armada para decir bueno está bien, que eres una prueba de performance, pero qué"
+    },
+    {
+      "start": 3619.24,
+      "end": 3625.68,
+      "text": "tipo de performance y de la base de datos, bueno y del servidor, bueno necesito tener herramientas de"
+    },
+    {
+      "start": 3625.68,
+      "end": 3630.76,
+      "text": "monitoreo que nos te monitoreando los procesos, cuando de la base de datos como el sistema operativo,"
+    },
+    {
+      "start": 3630.76,
+      "end": 3638.2,
+      "text": "me va haciendo, entonces necesito armar una infraestructura, un diagrama de explí, contemple esas"
+    },
+    {
+      "start": 3638.2,
+      "end": 3646.91,
+      "text": "herramientas, no me sirve de nada hacer una automatización, si del otro lado no hay una herramienta"
+    },
+    {
+      "start": 3646.91,
+      "end": 3658.57,
+      "text": "de monitoreo que esté capturando todos esos eventos, lo digo por parece algo trivial, pero entonces en"
+    },
+    {
+      "start": 3658.57,
+      "end": 3665.19,
+      "text": "las pruebas de performance tengo algo bastante similar en lo que ustedes ya estuvieron viendo, tengo"
+    },
+    {
+      "start": 3665.19,
+      "end": 3672.88,
+      "text": "la parte de generación y automatizar esas pruebas funcionales, siempre dando"
+    },
+    {
+      "start": 3672.88,
+      "end": 3682.06,
+      "text": "pruebas funcionales, tengo que mejorar esas pruebas, tengo que escutarlos y analizarlos,"
+    },
+    {
+      "start": 3682.06,
+      "end": 3687.0,
+      "text": "donde viene la complejidad de las pruebas funcionales, ya me voy a decir otro tema, donde viene la"
+    },
+    {
+      "start": 3687.0,
+      "end": 3694.81,
+      "text": "complejidad de las pruebas funcionales, casi siempre en lo que son los datos, porque digo bueno voy"
+    },
+    {
+      "start": 3694.81,
+      "end": 3702.01,
+      "text": "a simular el ingreso a 400 mil usuarios de la ANCO Valencia y a todas le pongo analía y clave"
+    },
+    {
+      "start": 3702.01,
+      "end": 3707.81,
+      "text": "a analía y la realidad es que en algún momento la base de datos se le pese a indexar y que"
+    },
+    {
+      "start": 3707.81,
+      "end": 3716.61,
+      "text": "era acentar abajo, por lo tanto tener un set de datos es bastante complicado, hoy con todo lo que es"
+    },
+    {
+      "start": 3716.61,
+      "end": 3727.78,
+      "text": "laía, atrás aceleró muchísimo el armado de tener un set de datos valido para lo que es una"
+    },
+    {
+      "start": 3727.78,
+      "end": 3741.33,
+      "text": "prueba de performance, un minutito, es una de las grandes problemas que tenía, tiene varios problemas,"
+    },
+    {
+      "start": 3741.33,
+      "end": 3749.87,
+      "text": "muchas les dice, herramientas de monitoreo, muchas veces quieren hacer pruebas de performance y no"
+    },
+    {
+      "start": 3749.87,
+      "end": 3754.87,
+      "text": "tienen las herramientas para capturarlos y después el set de datos, tienen regal, no sé de datos"
+    },
+    {
+      "start": 3754.87,
+      "end": 3762.35,
+      "text": "muy trivial o tienen regal, sino usuarios y te tienen una prueba de 500 mil y la realidad es que"
+    },
+    {
+      "start": 3762.35,
+      "end": 3777.02,
+      "text": "una es viable, me voy a otro, ya me estoy quedando sin voz, me voy a otro, que es un tema de seguridad,"
+    },
+    {
+      "start": 3777.02,
+      "end": 3791.03,
+      "text": "hoy en día la seguridad está más que en la parte de hardware está en problemas en lo que"
+    },
+    {
+      "start": 3791.03,
+      "end": 3796.91,
+      "text": "sea programado, en lo que sea construido, el 75 por ciento tengo que volver la validada, pero"
+    },
+    {
+      "start": 3796.91,
+      "end": 3807.03,
+      "text": "este del año pasado el 75 por ciento eran dentro de lo que era la capa de código, o"
+    },
+    {
+      "start": 3807.03,
+      "end": 3815.12,
+      "text": "aplicaciones web, pero la mayoría de la capa de código entraban a mis datos a través de manipulación"
+    },
+    {
+      "start": 3815.12,
+      "end": 3826.9,
+      "text": "de web. OK, o modificaban algo de pero entraban a través de lo que era el código, por lo tanto programar"
+    },
+    {
+      "start": 3827.7,
+      "end": 3835.9,
+      "text": "con seguridad es ya diferente, entonces hay herramientas que es como si fueran los mismos como los"
+    },
+    {
+      "start": 3835.9,
+      "end": 3844.38,
+      "text": "de que escanea la computadora para ver si tenemos un virus, un antivirus, el antivirus lo que hace es"
+    },
+    {
+      "start": 3844.38,
+      "end": 3852.38,
+      "text": "tengo una escanea toda la computadora va hacia la nube para ver cuáles son los nuevos virus que dan,"
+    },
+    {
+      "start": 3853.1,
+      "end": 3861.59,
+      "text": "cómo los pueden detectar y cómo lo pueden resolver y escanea la computadora de cada uno. Bueno,"
+    },
+    {
+      "start": 3861.59,
+      "end": 3869.98,
+      "text": "hay herramientas que hacen exactamente el mismo trabajo van a la nube casi siempre acá,"
+    },
+    {
+      "start": 3870.58,
+      "end": 3911.93,
+      "text": "por la seguridad, así siempre hay organizaciones que detectan, hay lugares donde uno va, o sea,"
+    },
+    {
+      "start": 3911.93,
+      "end": 3918.37,
+      "text": "la herramienta lo que hace es ir a una nueva de la nube donde encuentran cuáles son los problemas"
+    },
+    {
+      "start": 3918.37,
+      "end": 3927.41,
+      "text": "de seguridad, este es uno de los uno de los más conocidos, o que encuentran errores o vulnerabilidades"
+    },
+    {
+      "start": 3927.41,
+      "end": 3938.2,
+      "text": "mejor dicho, vulnerabilidades las publican, encuentran como resolverlas, en sí, no te dicen acá"
+    },
+    {
+      "start": 3938.2,
+      "end": 3948.39,
+      "text": "tienes el error, no te dicen, posiblemente tengas tal error analizales y hace un análisis de"
+    },
+    {
+      "start": 3948.39,
+      "end": 3956.24,
+      "text": "todo el código, entonces tienen el código y van encontrando cuáles son las mejoras, no solamente el"
+    },
+    {
+      "start": 3956.24,
+      "end": 3961.28,
+      "text": "código también de la aplicación server, es decir, tenés una aplicación server muy vieja,"
+    },
+    {
+      "start": 3961.28,
+      "end": 3969.76,
+      "text": "estoy saldo, cuando podría dar esta recomendación, ahora hay herramientas a mansalba ya hacen este"
+    },
+    {
+      "start": 3969.76,
+      "end": 3983.51,
+      "text": "tipo de trabajo y casi todo hay muchísimas herramientas y bueno, me permiten agilizar todo ese tipo"
+    },
+    {
+      "start": 3987.65,
+      "end": 3994.85,
+      "text": "y obviamente el rol que ustedes van a tener como arquitectos y como analistas funcionales,"
+    },
+    {
+      "start": 3994.85,
+      "end": 4001.89,
+      "text": "señor, ustedes tienen que ver un poco cómo va a hacer el test, porque también te lo"
+    },
+    {
+      "start": 4001.89,
+      "end": 4006.45,
+      "text": "incrementar cómo va a ser la solución que van a presentar, no es lo mismo una solución que les"
+    },
+    {
+      "start": 4006.45,
+      "end": 4010.85,
+      "text": "piden seguridad o una solución que le piden para forman con lo que es la opción de datos o"
+    },
+    {
+      "start": 4011.37,
+      "end": 4020.83,
+      "text": "o bajas de datos con una aplicación de genusuales, entonces y acuerdo, los eses atributos de calidad"
+    },
+    {
+      "start": 4020.83,
+      "end": 4026.87,
+      "text": "que no sean no funcionales, ustedes van a orientar también la solución, es por eso que testi está"
+    },
+    {
+      "start": 4026.87,
+      "end": 4036.62,
+      "text": "incluido dentro del diseño, si tienen, yo siempre digo no, si yo tengo que ir a una solución donde es"
+    },
+    {
+      "start": 4036.62,
+      "end": 4045.41,
+      "text": "por ejemplo como un retail, no un supermarcado, donde tengo mucho forma constante el uso de"
+    },
+    {
+      "start": 4045.41,
+      "end": 4054.21,
+      "text": "base de datos y tengo que tener una buena base de datos que maneje, va el acceso muy bien,"
+    },
+    {
+      "start": 4054.21,
+      "end": 4064.56,
+      "text": "tengo que hacer un análisis, es yo, es un momento trabajaba con de 2 horas de informe,"
+    },
+    {
+      "start": 4064.56,
+      "end": 4070.56,
+      "text": "yo sabía que si era bien algo muy utilizado y un iba para informe, ahora si quería hacer,"
+    },
+    {
+      "start": 4070.56,
+      "end": 4077.92,
+      "text": "tenía otro tipo de soluciones donde necesitaba sección de datos, me iba a 1 hora que le con de 2,"
+    },
+    {
+      "start": 4077.92,
+      "end": 4085.36,
+      "text": "entonces entender un poco cómo va a ser la infraestructura y cuáles son las necesidades de usuario y me ayuda"
+    },
+    {
+      "start": 4085.36,
+      "end": 4091.6,
+      "text": "también perdón a definir la infraestructura, que es uno de los roles fundamentales de la arquitecta,"
+    },
+    {
+      "start": 4091.6,
+      "end": 4107.22,
+      "text": "cómo vienen, bien pero con suñita, está como ahí, está muy bien, bueno, me queda un solo tema más"
+    },
+    {
+      "start": 4107.22,
+      "end": 4117.78,
+      "text": "que es bastante cortito y hoy los voy a liberar temprano, pero ya me estoy viendo, este es uno de los"
+    },
+    {
+      "start": 4117.78,
+      "end": 4130.88,
+      "text": "temas que entran también, espero que no se me dúan mal, sino lo verán después, porque ya no hay más clase"
+    },
+    {
+      "start": 4130.88,
+      "end": 4140.9,
+      "text": "de consultas, estamos, hace terminos chicos, ya estamos en la recta final, cómo vienen con muchos"
+    },
+    {
+      "start": 4140.9,
+      "end": 4149.55,
+      "text": "exámenes y esta semana, yo ya estuve 1, así que me vienen las otras, estamos así, una semana tras otra estudiar,"
+    },
+    {
+      "start": 4149.55,
+      "end": 4160.46,
+      "text": "los demás, yo empecé con la maratón, empecé la semana pasa con sus materias después, otra elunes y la"
+    },
+    {
+      "start": 4160.46,
+      "end": 4164.94,
+      "text": "semana que vive tengo de vueltas con materia y encima tengo una presentación en otra,"
+    },
+    {
+      "start": 4168.3,
+      "end": 4186.78,
+      "text": "están haciendo muchas materias 3, 4, 6, y la jugada, sí, yo creo que se bomba,"
+    },
+    {
+      "start": 4186.78,
+      "end": 4197.47,
+      "text": "lo terminamos, o sea, se ha se completado, bueno, vamos a lo último tema, espero no perdemos"
+    },
+    {
+      "start": 4197.47,
+      "end": 4219.46,
+      "text": "la camina, no lejos, no, bueno, estamos en el tiempo real, vuelvo a preguntar, supuestamente el sistema"
+    },
+    {
+      "start": 4219.46,
+      "end": 4232.34,
+      "text": "de tiempo real entra dentro de lo que es principios, quiero saber si ustedes lo vieron, sí, sí, me suena,"
+    },
+    {
+      "start": 4232.34,
+      "end": 4242.54,
+      "text": "me suena, sí, nada más, sí, sí, pero recuerda que hasta hacíamos los diagramas, cuando"
+    },
+    {
+      "start": 4242.54,
+      "end": 4249.02,
+      "text": "existe más tiempo real, es verdad, bueno, yo la realidad es que diagramas el sistema de tiempo real"
+    },
+    {
+      "start": 4251.21,
+      "end": 4264.74,
+      "text": "no voy a hablar, incluso en el ver, flujos de datos, eso, ok, está bien, ahora hablamos un poquito de"
+    },
+    {
+      "start": 4264.74,
+      "end": 4272.26,
+      "text": "la de ese tema, bueno, el sistema de tiempo real es un sistema obviamente como todos los demás,"
+    },
+    {
+      "start": 4272.26,
+      "end": 4278.02,
+      "text": "es un sistema informático, pero lo que sí está relacionado con el entorno físico, entonces,"
+    },
+    {
+      "start": 4278.02,
+      "end": 4284.18,
+      "text": "en vez de tener un computador en un teclado donde yo estoy ingresando los datos, voy a tener artefactos"
+    },
+    {
+      "start": 4284.18,
+      "end": 4293.82,
+      "text": "que están capturando esos datos, que te cambia capturar el dato en un teclado, si la temperatura 39 en el"
+    },
+    {
+      "start": 4293.82,
+      "end": 4299.74,
+      "text": "teclado y que alguien esté capturando absolutamente nada, tengo que vender salógica, lo que sí me sirve,"
+    },
+    {
+      "start": 4299.74,
+      "end": 4308.25,
+      "text": "que tengo que manipular obviamente, como yo lo llamo, para filtros, ahora sensores, por así decir,"
+    },
+    {
+      "start": 4310.06,
+      "end": 4318.28,
+      "text": "y además también posiblemente voy a tener algo que ejecutar, ahora lo hablamos, pero básicamente tengo"
+    },
+    {
+      "start": 4318.28,
+      "end": 4327.5,
+      "text": "una entrada de datos y una salida, están relacionados con hardware, además puedo llegar a tener dentro"
+    },
+    {
+      "start": 4327.5,
+      "end": 4335.75,
+      "text": "el sistema de tiempo real, sistema o algún proceso tradicional como las que estúbimos viendo, los que se ven"
+    },
+    {
+      "start": 4337.99,
+      "end": 4353.4,
+      "text": "en este orientado, digamos, con los sensores o los autores, bueno, un sistema de tiempo real, voy a tener"
+    },
+    {
+      "start": 4353.56,
+      "end": 4361.3,
+      "text": "dispositivos de entrada de salida, tengo una reacción muy estrecha con el ambiente, estoy capturando"
+    },
+    {
+      "start": 4361.3,
+      "end": 4373.96,
+      "text": "el ambiente, y obviamente tengo, como estoy capturando el ambiente, esos que esa captura de datos tengo"
+    },
+    {
+      "start": 4373.96,
+      "end": 4381.16,
+      "text": "que tenercios y respesiones de tiempo, imagínense que estoy entre la, estoy para en coto y en coto tiene"
+    },
+    {
+      "start": 4381.32,
+      "end": 4388.98,
+      "text": "la apertura de puerta, y estoy así, un minuto y media, de verdad no que me abre la puerta, y la"
+    },
+    {
+      "start": 4388.98,
+      "end": 4395.54,
+      "text": "realidad es que ese extensor y la sirve, esa reflexión de tiempo que tiene extensor no sirve, no"
+    },
+    {
+      "start": 4395.54,
+      "end": 4401.57,
+      "text": "respondió a la apertura de puerta, de forma rápida, me da cansando y me da tracasando,"
+    },
+    {
+      "start": 4401.57,
+      "end": 4408.09,
+      "text": "leyendo a un sistema de tiempo real de apertura de puerta que tiene, tiene una línea de código, hay persona,"
+    },
+    {
+      "start": 4408.09,
+      "end": 4416.33,
+      "text": "habilitita, te reimporta y es algo sencillo que tengo que tener una reflexión del tiempo,"
+    },
+    {
+      "start": 4416.33,
+      "end": 4423.06,
+      "text": "por lo tanto las características de los sistemas de tiempo reales que, obviamente es un proceso real,"
+    },
+    {
+      "start": 4423.06,
+      "end": 4432.3,
+      "text": "porque estoy dentro de un ambiente determinado, un ambiente real, es un ambiente físico, sino de"
+    },
+    {
+      "start": 4432.3,
+      "end": 4437.74,
+      "text": "complicos las reflexiones temporales, tengo que decir cada extensor, tiene un tiempo a una"
+    },
+    {
+      "start": 4437.74,
+      "end": 4444.7,
+      "text": "reflexión para capturar este, este, este, este dato y aparte tengo que tener una reflexión para"
+    },
+    {
+      "start": 4444.7,
+      "end": 4452.24,
+      "text": "dar una respuesta, eh, he metido obviamente respuestas correctas, siempre queremos en las"
+    },
+    {
+      "start": 4452.24,
+      "end": 4459.08,
+      "text": "respuestas correctas, pero te acuerdo a la utilicidad, tengo que evaluar el tipo de pruebas que voy"
+    },
+    {
+      "start": 4459.08,
+      "end": 4468.65,
+      "text": "a realizar, eh, la persona que va a tirar eh, no sé, no es lo mismo, una apertura de puerta en coto,"
+    },
+    {
+      "start": 4468.65,
+      "end": 4474.73,
+      "text": "que es históico, un sensor de temperatura o el uso en corda de altura de un avión,"
+    },
+    {
+      "start": 4474.73,
+      "end": 4484.94,
+      "text": "o no tanto tengo que tener los forontes, eh, criterios para armar la solución, eh, el sistema no"
+    },
+    {
+      "start": 4484.94,
+      "end": 4490.97,
+      "text": "vuelve atrás, y yo llegué a coto, de acoto no me abrió la puerta, bueno tendría que volver a"
+    },
+    {
+      "start": 4490.97,
+      "end": 4497.93,
+      "text": "lo volver a leer, pero no puedo volver atrás, eh, a diferencia tal vez, es un proceso tradicional"
+    },
+    {
+      "start": 4497.93,
+      "end": 4503.45,
+      "text": "que si me equivoco en en genero una estructura puedo tener una vuelta atrás acá no puedo,"
+    },
+    {
+      "start": 4503.45,
+      "end": 4510.12,
+      "text": "eh, y los estímulos por en genera son imparalelos, es decir, trabajo con varios estímulos, entonces,"
+    },
+    {
+      "start": 4510.12,
+      "end": 4519.54,
+      "text": "esto ya lo tuvieron que haber visto, eh, tiempo real, estricto, eh, necesito es que la respuesta"
+    },
+    {
+      "start": 4519.54,
+      "end": 4528.26,
+      "text": "se produzca dentro de los límites del terminado, o sea, captura el evento, y tengo que dar"
+    },
+    {
+      "start": 4528.26,
+      "end": 4535.06,
+      "text": "una respuesta rápida, tiempo de real, no es cierto, bueno puedo permitirme cierta"
+    },
+    {
+      "start": 4535.06,
+      "end": 4544.26,
+      "text": "eh, pérdidas y después eh, tengo también real firme, no se utiliza mucho, es cuando se permite"
+    },
+    {
+      "start": 4544.26,
+      "end": 4551.46,
+      "text": "la pérdida ocasional, pero no implica ni beneficios ya que la respuesta retrasa es descartada,"
+    },
+    {
+      "start": 4551.46,
+      "end": 4563.98,
+      "text": "retrasada es descartada, ok, y veo que no hay una respuesta que no se da continuo, me vuelen"
+    },
+    {
+      "start": 4563.98,
+      "end": 4574.84,
+      "text": "lo más lindo, tengo el sistema tradicional, tengo un entrado y una salida, eh, ahora esa"
+    },
+    {
+      "start": 4574.84,
+      "end": 4585.98,
+      "text": "tendrá la captura a través de sensores, eh, los sensores, lo que hacen es capturar la temperatura,"
+    },
+    {
+      "start": 4585.98,
+      "end": 4595.54,
+      "text": "la humedad, la velocidad, hay muchísimos sensores, sensores de velocidad, del auto, velocidad,"
+    },
+    {
+      "start": 4595.54,
+      "end": 4603.9,
+      "text": "y se desinjaron, eh, las go más del auto todo, tá, todos son, tenemos sensores y nos van capturando,"
+    },
+    {
+      "start": 4603.9,
+      "end": 4611.26,
+      "text": "para yo necesito tener un sistema, un sistema corticaptur, esos eventes, esos perdones"
+    },
+    {
+      "start": 4611.26,
+      "end": 4617.94,
+      "text": "a centradas de datos, de determinados sensores y que pueda tener una cierta lógica para ver"
+    },
+    {
+      "start": 4617.94,
+      "end": 4628.69,
+      "text": "qué acción artiene, ok, eh, algunos sistemas de control, como lo que me dicen es bueno, eh,"
+    },
+    {
+      "start": 4628.69,
+      "end": 4635.41,
+      "text": "es una bomba que está en media baja, lanza dentro de un sistema, una alerta, están, no tengo ninguna"
+    },
+    {
+      "start": 4635.41,
+      "end": 4643.26,
+      "text": "actuadora, me lanza, que tenés una bomba que raso, una bomba baja, que hay que resolver, o tengo,"
+    },
+    {
+      "start": 4643.26,
+      "end": 4654.38,
+      "text": "por ejemplo, que un sensor para ver y tiene, eh, alguien se me va a causar por delante del,"
+    },
+    {
+      "start": 4655.34,
+      "end": 4664.78,
+      "text": "del auto y el sistema, eh, valúa eso y tiene posiblemente una, una respuesta para un actuador que"
+    },
+    {
+      "start": 4664.78,
+      "end": 4675.74,
+      "text": "puede ser, por ejemplo, el freno, ok, entonces tengo algunos actuadores, eh, hay una acción en el mundo"
+    },
+    {
+      "start": 4675.74,
+      "end": 4681.74,
+      "text": "real, pero siempre el sistema de control lo tengo que, que tener, o sea, te puedo tener respuestas,"
+    },
+    {
+      "start": 4682.06,
+      "end": 4687.26,
+      "text": "dentro de mi sistema propio, o puedo dar una respuesta a un actuador para que haga algo,"
+    },
+    {
+      "start": 4687.26,
+      "end": 4695.38,
+      "text": "en el ejemplo de coto, si yo tengo, tengo una pre, tengo un sensor que está viendo si estoy en la"
+    },
+    {
+      "start": 4695.38,
+      "end": 4703.46,
+      "text": "puerta o no, el sistema captura, si hay un imagen, esta, es apertura o no de puertas,"
+    },
+    {
+      "start": 4703.46,
+      "end": 4709.38,
+      "text": "eh, capaz que puedo decir, bueno, no tengo mucha gente, no voy a abrir la puerta, imagínese que estoy en un"
+    },
+    {
+      "start": 4709.38,
+      "end": 4718.57,
+      "text": "banco, digo, solamente puedo tener a 15 personas dentro del banco, y los demás hacen las filas"
+    },
+    {
+      "start": 4718.57,
+      "end": 4726.29,
+      "text": "fuera, entonces hay una cierta lógica que le voy a dar dentro del sistema de control, eso ya sería"
+    },
+    {
+      "start": 4726.29,
+      "end": 4735.53,
+      "text": "una lógica de negocio, ok, y habilitos o no de actuador, no es una mezcla dentro del sistema de control,"
+    },
+    {
+      "start": 4736.46,
+      "end": 4743.02,
+      "text": "bueno, el sensor son los dispositivos que capturan obviamente como estoy dentro del mundo real,"
+    },
+    {
+      "start": 4743.02,
+      "end": 4750.94,
+      "text": "capturan datos dentro de mi mundo, dentro de mi ambiente, ok, algunos pueden ser separados por"
+    },
+    {
+      "start": 4750.94,
+      "end": 4759.42,
+      "text": "periódicos y guapérodicos, está, y de acuerdo a cómo voy capturando esos cedentos, algunos los"
+    },
+    {
+      "start": 4759.42,
+      "end": 4766.3,
+      "text": "clasifican como analógicos binarios o digitales, algunos son pasivos y activos ambientales,"
+    },
+    {
+      "start": 4766.3,
+      "end": 4777.46,
+      "text": "químicos o mecánicos, a mí me gusta muchísimo ahora separarlos, los estructuras, según si son activos o no de"
+    },
+    {
+      "start": 4777.46,
+      "end": 4785.02,
+      "text": "alimentación o no, los sensores obviamente me tengo que comunicar, los sensores me tengo que"
+    },
+    {
+      "start": 4785.02,
+      "end": 4795.21,
+      "text": "comunicar con la solución, acá dice con mi sistema, tengo que comunicarme, entonces si"
+    },
+    {
+      "start": 4795.21,
+      "end": 4805.49,
+      "text": "requieren o calimentaciones muy buenos, porque después tenemos sensores que dejan de funcionar"
+    },
+    {
+      "start": 4805.49,
+      "end": 4819.25,
+      "text": "porque consumía mucho, eso ahora lo vamos a charlar, hay sensores que se comunican, acá"
+    },
+    {
+      "start": 4819.25,
+      "end": 4827.96,
+      "text": "los puse traves wifi, hay sensores que se comunican en forma cableada, imagínense un sensor de temperatura,"
+    },
+    {
+      "start": 4827.96,
+      "end": 4835.12,
+      "text": "bueno, cableo de sensores de temperatura, hay algunos otros que no, y también tienen un"
+    },
+    {
+      "start": 4835.64,
+      "end": 4840.92,
+      "text": "se comunican a través de algún protocolo de comunicación, acá les puse wifi pero hay varios,"
+    },
+    {
+      "start": 4840.92,
+      "end": 4845.68,
+      "text": "hay, se pueden comunicar como si fueran los web de bluetooth, por ejemplo,"
+    },
+    {
+      "start": 4845.68,
+      "end": 4853.0,
+      "text": "quieran que bluetooth ustedes tienen los auriculares y tienen el celular, hay una relación estrecha entre el"
+    },
+    {
+      "start": 4853.0,
+      "end": 4859.32,
+      "text": "auricular el celular, esos son mediante un protocolo que se llama bluetooth, que es de 1 a 1,"
+    },
+    {
+      "start": 4860.35,
+      "end": 4868.61,
+      "text": "este tipo de sensores comunican con otro tipo de protocolos, que hace una energía con bluetooth,"
+    },
+    {
+      "start": 4871.47,
+      "end": 4876.39,
+      "text": "wifi podría pensarlo de esa manera pero es un protocolo que gasta mucho menos,"
+    },
+    {
+      "start": 4876.39,
+      "end": 4890.86,
+      "text": "si, creo que ya no me acuerdo, sí, acá, es exactamente lo mismo que un bluetooth pero"
+    },
+    {
+      "start": 4890.86,
+      "end": 4896.9,
+      "text": "gasta muchísimo menos, la consume mucho menos, la comunicación no es de 1 a 1,"
+    },
+    {
+      "start": 4897.9,
+      "end": 4903.18,
+      "text": "entonces yo puedo distribuir varios sensores, imagínense en una caza, tengo varias sensores de"
+    },
+    {
+      "start": 4903.18,
+      "end": 4909.98,
+      "text": "temperatura pero el último que está muy alejado no se puede comunicar con el sistema de control,"
+    },
+    {
+      "start": 4909.98,
+      "end": 4916.62,
+      "text": "entonces este tipo de tecnologías, sí, lo que hace el sirvano, este sensor se lo comunica a este,"
+    },
+    {
+      "start": 4916.62,
+      "end": 4923.9,
+      "text": "el sistema cercano para poder comunicarse con el sistema de control, son más económicos en cuanto"
+    },
+    {
+      "start": 4923.9,
+      "end": 4943.66,
+      "text": "al consumo, que más tiene, y no me tiro olvidar de nada, ya lo que sí, obviamente tiene es,"
+    },
+    {
+      "start": 4943.66,
+      "end": 4952.03,
+      "text": "no es como, por ejemplo, como bluetooth, que bueno el celular me puede transitir a mi auricular,"
+    },
+    {
+      "start": 4952.55,
+      "end": 4963.18,
+      "text": "una canción archivos más pesados, el ciclino, me da información más concrétal y concista,"
+    },
+    {
+      "start": 4963.18,
+      "end": 4971.62,
+      "text": "temperatura tal, activar, encendete, apagate, estamos por lo tanto también eso hace que economice en"
+    },
+    {
+      "start": 4971.62,
+      "end": 4976.06,
+      "text": "cuanto a la comunicación, y si yo quiere economizar en cuanto a la comunicación,"
+    },
+    {
+      "start": 4976.06,
+      "end": 4981.42,
+      "text": "coloco una pila que me puede llegar a durar dos o tres años, pero más siguiendo por qué"
+    },
+    {
+      "start": 4981.42,
+      "end": 4988.77,
+      "text": "hago de economizar, porque si no tengo el cableado, no tengo el cableado para la comunicación y el cableado"
+    },
+    {
+      "start": 4988.77,
+      "end": 4997.29,
+      "text": "eléctrico, que a veces es bastante complicado, estoy en un, imagínense que estoy en medio de una"
+    },
+    {
+      "start": 4997.29,
+      "end": 5006.21,
+      "text": "montana, quiero tener un sensor X y no puedo cablear darle el electricidad a una montaña, entonces"
+    },
+    {
+      "start": 5006.21,
+      "end": 5014.55,
+      "text": "tengo que economizar de alguna manera, además acá tienen en el UEJ digitales que estoy"
+    },
+    {
+      "start": 5014.55,
+      "end": 5026.35,
+      "text": "trabajando la última vez, entender los sensores, las necesidades, cómo se comunica, ventajas y"
+    },
+    {
+      "start": 5026.35,
+      "end": 5034.63,
+      "text": "desventajas, forma parte también del rol de ustedes para poder describir un poco la solución."
+    },
+    {
+      "start": 5037.41,
+      "end": 5045.71,
+      "text": "Ahora hay un montón de sensores chinos que son divinos, que tienen muy poco consumo,"
+    },
+    {
+      "start": 5045.71,
+      "end": 5054.11,
+      "text": "que la comunicación con los sistemas de control son muy buenos, tienen muy buen alcance,"
+    },
+    {
+      "start": 5054.71,
+      "end": 5061.95,
+      "text": "algunos sensores vienen ya con una lógica del control chiquitita, entonces imagínense que"
+    },
+    {
+      "start": 5061.95,
+      "end": 5069.11,
+      "text": "tengo que entender un sensor de temperatura muy bueno que hace una captura analógica, pero yo"
+    },
+    {
+      "start": 5069.11,
+      "end": 5077.95,
+      "text": "la necesito digital, entonces este sensor capturó un 39,8 números, pero yo necesito se"
+    },
+    {
+      "start": 5077.95,
+      "end": 5084.85,
+      "text": "ampliarlo a 32,1 números, nada más, entonces ya tengo dentro de ese sensor la"
+    },
+    {
+      "start": 5084.85,
+      "end": 5092.51,
+      "text": "posibilidad de tener también algo del control para que me envíe de información, hay otros que"
+    },
+    {
+      "start": 5092.51,
+      "end": 5100.43,
+      "text": "directamente puedo colocar una mínima lógica, entonces ya llegan al sistema de control un poco más,"
+    },
+    {
+      "start": 5101.39,
+      "end": 5108.35,
+      "text": "un poco más elaborada la data de entrada, y hay otros como acá que no directamente del"
+    },
+    {
+      "start": 5108.35,
+      "end": 5115.31,
+      "text": "sistema de control no tiene, es perdón el sensor, no tiene ninguna lógica de captura y bueno a"
+    },
+    {
+      "start": 5115.31,
+      "end": 5121.91,
+      "text": "arralo, es más no tiene si queda un sistema de control para ver si el sistema de control lo capturó"
+    },
+    {
+      "start": 5121.91,
+      "end": 5131.21,
+      "text": "o no ese dato que les he condiado, entonces hay un montón de sensores que hay que analizar y"
+    },
+    {
+      "start": 5131.21,
+      "end": 5137.21,
+      "text": "acuerdo a la solución que se desqueden de infinito definiendo, en este por ejemplo de"
+    },
+    {
+      "start": 5137.21,
+      "end": 5142.45,
+      "text": "detector de hueyas hay algunos detectores de hueyas que ya vienen acá lo mismo que hacen es que"
+    },
+    {
+      "start": 5142.45,
+      "end": 5148.13,
+      "text": "algunos capturan y otros tienen ya un sistema pequeño del control que hace una desintentificación"
+    },
+    {
+      "start": 5148.13,
+      "end": 5159.68,
+      "text": "y directamente la clave, entonces hay que entender un poco la parte hardware de los sensores como para"
+    },
+    {
+      "start": 5159.68,
+      "end": 5167.96,
+      "text": "también ver cómo ir armando toda esa infraestructura y cuál sería nuestro aporte, por eso también se los"
+    },
+    {
+      "start": 5167.96,
+      "end": 5179.98,
+      "text": "doy más orientado a hardware a diagamas de la relación, de ahora lo vamos a charlar, de acuerdo a"
+    },
+    {
+      "start": 5179.98,
+      "end": 5188.33,
+      "text": "cómo van a hacer los sistemas de las señales tengo que tener una lógica diferente a"
+    },
+    {
+      "start": 5188.33,
+      "end": 5196.0,
+      "text": "cuadra a cada señal, eso también lo tienen que evaluar, por ejemplo si están más señales continuos"
+    },
+    {
+      "start": 5196.0,
+      "end": 5202.12,
+      "text": "que puede ser la velocidad de un automóvil, está en forma permanente, ahora cada del culo que"
+    },
+    {
+      "start": 5202.12,
+      "end": 5210.64,
+      "text": "por ejemplo, si yo tengo que hablar con una persona que tiene diabetes, tengo un sensor directamente"
+    },
+    {
+      "start": 5210.64,
+      "end": 5217.32,
+      "text": "en el cuerpo, tal que a veces quieren como si fuera una especie de curita, es un poco más complicado"
+    },
+    {
+      "start": 5217.32,
+      "end": 5227.6,
+      "text": "pero no importa, entonces cada tanto puede ir evaluando o un mar capazos, cada segundo puedo ir evaluando"
+    },
+    {
+      "start": 5227.6,
+      "end": 5235.04,
+      "text": "cómo viene el corazón o cómo viene la diabetes, después tengo las señales digitales, que por ejemplo"
+    },
+    {
+      "start": 5235.04,
+      "end": 5241.88,
+      "text": "digo bueno, necesito una señal completamente digital, tengo ya el sensor en forma digital,"
+    },
+    {
+      "start": 5241.88,
+      "end": 5253.25,
+      "text": "intermómetro digital y ya lo envía esa información de esa manera, así que lo importante cuando"
+    },
+    {
+      "start": 5253.25,
+      "end": 5258.73,
+      "text": "ustedes están haciendo una solución, por ejemplo de idomótica, he trabajado en una solución"
+    },
+    {
+      "start": 5258.73,
+      "end": 5266.04,
+      "text": "de idomótica y analizar los sensores es fundamental, pero principalmente una de las grandes complicaciones"
+    },
+    {
+      "start": 5266.56,
+      "end": 5277.36,
+      "text": "es justamente el tema de la comunicación, no perderlo, hay algunos por ejemplo, hay cosas"
+    },
+    {
+      "start": 5277.36,
+      "end": 5285.54,
+      "text": "divinas, donde por ejemplo un, encender la luz hay algunos ahora que vienen directamente sin"
+    },
+    {
+      "start": 5285.54,
+      "end": 5294.74,
+      "text": "dar la posibilidad de estar caudliado directamente con el doble, cambiar, genera un impulso que hace la"
+    },
+    {
+      "start": 5294.74,
+      "end": 5302.26,
+      "text": "comunicación a través del síguil y el sistema de control, entonces habilita la luz, no necesito"
+    },
+    {
+      "start": 5302.26,
+      "end": 5313.84,
+      "text": "ni siquiera el sensor eléctrico ni caballar la parte eléctrica ni caballar la parte de comunicación,"
+    },
+    {
+      "start": 5313.84,
+      "end": 5323.89,
+      "text": "hay cosas que se avanzó muchísimo, entonces cuando ustedes tienen que definir una solución de idomótica o"
+    },
+    {
+      "start": 5323.89,
+      "end": 5331.01,
+      "text": "una solución para de salud tienen que analizar bien cómo va a hacer esos dos problemas principalmente,"
+    },
+    {
+      "start": 5331.01,
+      "end": 5343.32,
+      "text": "la comunicación con un sistema de central o sistema de control y me tardé el sistema de control y"
+    },
+    {
+      "start": 5344.68,
+      "end": 5351.78,
+      "text": "la comunicación y que obviamente tengan energía, que tengan energía porque si el sensor no puede estar"
+    },
+    {
+      "start": 5351.78,
+      "end": 5360.66,
+      "text": "haciendo su trabajo, no puede, no puede en siquiera en día era una señal, eso es algo muy importante"
+    },
+    {
+      "start": 5360.66,
+      "end": 5367.38,
+      "text": "a resolver, imagínense en un marcapazo, uno a veces hay gente hace muchos años, decían bueno,"
+    },
+    {
+      "start": 5367.38,
+      "end": 5374.02,
+      "text": "me marca paso, si como viera la pila del marcapazo, era el chiste no, la pila que le vi en hoy ya hay pilas"
+    },
+    {
+      "start": 5374.02,
+      "end": 5381.86,
+      "text": "que duran más de 100 años para los marcapazos, entonces bueno es un tema un problema menos y aparte"
+    },
+    {
+      "start": 5381.86,
+      "end": 5389.78,
+      "text": "los marcapazos también traen sensores por si están dando mal, entonces le llegan al celular o a"
+    },
+    {
+      "start": 5389.78,
+      "end": 5396.02,
+      "text": "veces hasta los mismos médicos que están dando mal el marcapazo y que te tenían que ir a verlo,"
+    },
+    {
+      "start": 5397.06,
+      "end": 5407.33,
+      "text": "los avances son buenísimos, me voy a los actuadores, los actuadores solamente yo tengo los sensores y me van"
+    },
+    {
+      "start": 5407.33,
+      "end": 5413.25,
+      "text": "tardando todos los datos de entrada, esos datos de entrada tengo que ir manipulando, o sea,"
+    },
+    {
+      "start": 5413.25,
+      "end": 5420.29,
+      "text": "puedo decir bueno, tengo, imagínense tengo el sensor de luz y digo, tengo un sensor de luz que si yo veo"
+    },
+    {
+      "start": 5420.29,
+      "end": 5428.05,
+      "text": "que hay luz levanto la perciana, me va siguiendo, entonces tengo un sensor que me está diciendo levantar"
+    },
+    {
+      "start": 5428.05,
+      "end": 5439.14,
+      "text": "la perciana, hay luz levanto la perciana, fantástico, el actuador va a hacer un on y va a levantar, tengo un motor,"
+    },
+    {
+      "start": 5439.14,
+      "end": 5445.06,
+      "text": "que va a levantar la perciana, ahora yo puso la lógica y dije bueno levantar la perciana, pero"
+    },
+    {
+      "start": 5445.06,
+      "end": 5451.74,
+      "text": "del primero de enero al 15 enero me voy a invacaciones, por lo tanto no quiero que levantes completamente la"
+    },
+    {
+      "start": 5451.74,
+      "end": 5459.14,
+      "text": "perciana, entonces tengo que tener también dentro de mi solución, más allá de capturar el"
+    },
+    {
+      "start": 5459.14,
+      "end": 5464.18,
+      "text": "levant de tener algo simple, tengo que tener también la lógica para decir bueno puedo haber una"
+    },
+    {
+      "start": 5464.18,
+      "end": 5470.74,
+      "text": "excepción si que cuando una persona define que se va de vacaciones, levante la perciana que un 30"
+    },
+    {
+      "start": 5470.74,
+      "end": 5477.7,
+      "text": "en 40% un 60% o que directamente no la levante, me van siguiendo, entonces en piezo a relacionar"
+    },
+    {
+      "start": 5477.7,
+      "end": 5485.22,
+      "text": "no solamente tengo un aseo no hacer en el detenimiento, no entiendete puedo llegar a también tener una cierta"
+    },
+    {
+      "start": 5485.22,
+      "end": 5494.11,
+      "text": "lógica de negocio, eso hoy se los llaman escenarios dentro de lo que es el mundo de domotica por ejemplo,"
+    },
+    {
+      "start": 5495.12,
+      "end": 5505.36,
+      "text": "me voy a los otros actuadores, tengo, tengo los actuadores que aficiéndose por ejemplo de la"
+    },
+    {
+      "start": 5505.36,
+      "end": 5509.36,
+      "text": "perciana, levantar una perciana necesito realmente que el motor no lo puedo manejar a pila,"
+    },
+    {
+      "start": 5509.36,
+      "end": 5517.6,
+      "text": "hay ya necesito un caudeadom más fuerte directamente con energía para poder levantar un motor,"
+    },
+    {
+      "start": 5517.6,
+      "end": 5523.2,
+      "text": "hay algunos que son más sencillos como por ejemplo en cender o apagar una aire acondicionado,"
+    },
+    {
+      "start": 5523.2,
+      "end": 5528.7,
+      "text": "ahí no necesitaría tener tanto cableado energético porque el cubo que enviándole una"
+    },
+    {
+      "start": 5528.7,
+      "end": 5537.69,
+      "text": "siquiera se puede en cender o no, pero casi todos requieren ya hay un cableado eléctrico concierado,"
+    },
+    {
+      "start": 5539.05,
+      "end": 5546.24,
+      "text": "y aparte el cableado eléctrico, el cableado de la comunicación, el cableado de la comunicación con"
+    },
+    {
+      "start": 5546.24,
+      "end": 5556.0,
+      "text": "este tipo de actuadores puede ser también mediante wifi, sig, v, mutu, lo que sea,"
+    },
+    {
+      "start": 5558.88,
+      "end": 5566.6,
+      "text": "pero ya como en el lugar de motores hay si necesito un cableado para la parte eléctrica,"
+    },
+    {
+      "start": 5566.6,
+      "end": 5576.96,
+      "text": "con todos temas que uno cuando se lo plantea el usuario no lo tiene en cuenta pero hay que considerarlo,"
+    },
+    {
+      "start": 5577.69,
+      "end": 5585.98,
+      "text": "porque también de acuerdo si yo tengo no el ejercidad ahí hasta puedo cambiar el protocolo de"
+    },
+    {
+      "start": 5585.98,
+      "end": 5593.82,
+      "text": "comunicación no me voy a lo tan tan básico como el sick-beam me voy a dar a otro tipo de protocolos,"
+    },
+    {
+      "start": 5596.27,
+      "end": 5602.75,
+      "text": "bueno vamos a hacer un resumen, el sistema yo tengo el sistema de control que es el corazón,"
+    },
+    {
+      "start": 5603.47,
+      "end": 5612.99,
+      "text": "el corazón es lo que es el emisistema tengo recibe los eventes y recibe las centradas a través de"
+    },
+    {
+      "start": 5615.32,
+      "end": 5624.68,
+      "text": "a través de controles de señales etc etc y después tengo los actuadores, ahora el que manja todo"
+    },
+    {
+      "start": 5624.68,
+      "end": 5634.08,
+      "text": "es el sistema de control, las que siempre son completamente autónomos, pero hoy en día estoy con"
+    },
+    {
+      "start": 5634.08,
+      "end": 5641.28,
+      "text": "que relaciona el sistema de control posiblemente con un celular porque digo que hace mucho calor y"
+    },
+    {
+      "start": 5641.28,
+      "end": 5651.79,
+      "text": "estoy a 30 minutos de mi casa o en el sender en la aire acondicionado, entonces ese informe a través"
+    },
+    {
+      "start": 5651.79,
+      "end": 5657.79,
+      "text": "del celular le tiene que llegar al algún lado posiblemente a la nube y la nube le tiene que decir a mi"
+    },
+    {
+      "start": 5657.79,
+      "end": 5665.15,
+      "text": "casa sistema de control activada tal aire acondicionado, por lo tanto hoy el sistema de control también"
+    },
+    {
+      "start": 5665.15,
+      "end": 5674.19,
+      "text": "tiene una conexión estrecha con la nube, me van siguiendo, lo tanto no es una alarma, no es algo"
+    },
+    {
+      "start": 5674.19,
+      "end": 5682.27,
+      "text": "completamente cerrado y no es de allá hoy en día los sistemas de control están talentes y tienen"
+    },
+    {
+      "start": 5682.27,
+      "end": 5688.83,
+      "text": "que salir al exterior para dar respuesta, ahí como se puede dar mediante API, es lo más"
+    },
+    {
+      "start": 5688.83,
+      "end": 5698.67,
+      "text": "común pero mediante una API y donde yo tengo que tener un sistema X que diga bueno tengo la nube"
+    },
+    {
+      "start": 5698.67,
+      "end": 5706.14,
+      "text": "o algo que lo uso como base, que es lo que se utiliza mucho para este tipo de sistema de tiempo real"
+    },
+    {
+      "start": 5706.14,
+      "end": 5712.06,
+      "text": "armar lo que se llama un esquema de plantas y los tienes que tener un esquema de plantas como"
+    },
+    {
+      "start": 5712.06,
+      "end": 5720.49,
+      "text": "bastante definición de mis sensores y de mis actuadores, si yo no colo con mis sensores y mis"
+    },
+    {
+      "start": 5720.49,
+      "end": 5727.13,
+      "text": "actuadores y puede ser que me haya perdiado algunos, si veo que tengo un actuador y no tengo una"
+    },
+    {
+      "start": 5727.13,
+      "end": 5735.12,
+      "text": "correlación estrecha con mi sensor y ahí tengo que mirar bien que es lo que está pasando puede ser"
+    },
+    {
+      "start": 5735.12,
+      "end": 5742.2,
+      "text": "que ese actuador no tengo un sensor que lo merejca a través de una aplicación que tengo en el"
+    },
+    {
+      "start": 5742.2,
+      "end": 5751.59,
+      "text": "celular o no o tengo un sensor y lo puedo manejar de ambas con ambos lados con el sensor y con"
+    },
+    {
+      "start": 5751.59,
+      "end": 5759.39,
+      "text": "la aplicación que yo pido customizar en el celular, entonces armado un esquema de plantas me permite"
+    },
+    {
+      "start": 5759.39,
+      "end": 5765.11,
+      "text": "ver más allá de cómo voy a distribuir, no olvidarme en uno de los sensores y no olvidarme en uno de los"
+    },
+    {
+      "start": 5765.11,
+      "end": 5771.99,
+      "text": "actuadores, tener un sensor me ayuda también a definir cuál es el estímulo que voy a tener que manejar"
+    },
+    {
+      "start": 5772.47,
+      "end": 5781.28,
+      "text": "en lo que se puede hacer, tener una lista de sensores y al lado colocar la lista de los estímulos,"
+    },
+    {
+      "start": 5781.28,
+      "end": 5790.2,
+      "text": "de los estímulos que quiero manipular y esos estímulos tienen que estar relacionados a"
+    },
+    {
+      "start": 5790.2,
+      "end": 5797.76,
+      "text": "que lo haya colocado con un intervalo de tiempo, cuánto tiempo necesito dar respuesta del terminado"
+    },
+    {
+      "start": 5797.76,
+      "end": 5805.08,
+      "text": "de estímulo para el actuador y hacía algo una relación estrecha, entonces más allá de todos los"
+    },
+    {
+      "start": 5805.08,
+      "end": 5811.23,
+      "text": "diagramas que ustedes haya visto lo que se le suma dentro de lo cual nos estamos hablando dentro"
+    },
+    {
+      "start": 5811.23,
+      "end": 5818.58,
+      "text": "de sistema de tiempo real es armar un esquema de planta, armar un instado de todos los que son"
+    },
+    {
+      "start": 5818.58,
+      "end": 5828.25,
+      "text": "sensores actuadores con su intervalo de tiempo, algunos les dicen utilizar un der porque la mayoría se"
+    },
+    {
+      "start": 5828.25,
+      "end": 5838.57,
+      "text": "solía utilizar con el salido automatizar a los actuadores y a los sensores con programación que"
+    },
+    {
+      "start": 5838.57,
+      "end": 5844.17,
+      "text": "no era orientado a objetos, entonces si que ni estaba de herramienta de relación hoy eso no es"
+    },
+    {
+      "start": 5844.17,
+      "end": 5852.19,
+      "text": "problema en absoluto, hoy la complejidad en los sistemas de tiempo real se dan en la comunicación"
+    },
+    {
+      "start": 5852.19,
+      "end": 5859.82,
+      "text": "después el control, el sistema de control que algunos lo tienen dentro de los sensores pero"
+    },
+    {
+      "start": 5859.82,
+      "end": 5868.32,
+      "text": "tenés que tener un sistema de control que sea el cor que sea el jabo, que puedan manipular la"
+    },
+    {
+      "start": 5868.32,
+      "end": 5877.26,
+      "text": "entrada que le envía el sensor y además manipular si hay alguna regla de negocia que le haya colocado"
+    },
+    {
+      "start": 5877.26,
+      "end": 5886.5,
+      "text": "el usuario, como en el ejemplo que le vi de las personas, si no le levanten la temperatura de la"
+    },
+    {
+      "start": 5886.5,
+      "end": 5894.89,
+      "text": "conexión, la forma que hagas río les pido vacaciones, se arra la casa, entonces le voy agregando a ese"
+    },
+    {
+      "start": 5894.89,
+      "end": 5901.69,
+      "text": "jab a ese sistema central, toda esa lógica también de negocio, para que después envíe una respuesta al"
+    },
+    {
+      "start": 5901.69,
+      "end": 5911.74,
+      "text": "actuador, se sigue utilizando, estoy en una herramienta en lo que imaginas que una casa de"
+    },
+    {
+      "start": 5911.74,
+      "end": 5921.36,
+      "text": "omótica, si quiere hacer también configurar tu casa de omótica cada vez en un celular, sigo utilizando"
+    },
+    {
+      "start": 5921.36,
+      "end": 5930.36,
+      "text": "y usar expedient, sigo utilizando casos de uso, puedo manejarme muchísimo con app porque necesito tener"
+    },
+    {
+      "start": 5930.36,
+      "end": 5940.92,
+      "text": "una U en la Nube y posiblemente necesito aplicar conceptos de servicios binatómicos o sea que cada uno"
+    },
+    {
+      "start": 5940.92,
+      "end": 5948.4,
+      "text": "haga lo que tenga que hacer, envía, le dice bueno, tengo que subir la temperatura pero estoy yendo en el auto y lo coloco"
+    },
+    {
+      "start": 5948.4,
+      "end": 5957.48,
+      "text": "temperatura cuando yo a mi casa, 20 grados, le llega la Nube, le adiza el sistema central de la casa y el"
+    },
+    {
+      "start": 5957.48,
+      "end": 5967.31,
+      "text": "sistema central le ha informa al actuador, más allá de algunos sistemas de imporreal y habitando"
+    },
+    {
+      "start": 5967.31,
+      "end": 5973.67,
+      "text": "el de la herramienta de la relación hoy la realidad es que se manejamos otra vez de servicios binatómicos"
+    },
+    {
+      "start": 5973.67,
+      "end": 5983.75,
+      "text": "y la de polo tanto el foco ha puesto este tema de tiempo real, vuelvo a decirlo, a ver el esquema de planta,"
+    },
+    {
+      "start": 5983.75,
+      "end": 5990.88,
+      "text": "optimizaciones, actuadores, analizar bien cada sensoria, todo lo que me va a hacer es alimentar y cómo se va a"
+    },
+    {
+      "start": 5990.88,
+      "end": 6000.88,
+      "text": "comunicar con el cabo o el sistema central y después todo lo demás y cómo se va a comunicar con los actuadores,"
+    },
+    {
+      "start": 6000.88,
+      "end": 6013.28,
+      "text": "por no lo voy a alimentar y cómo voy a comunicar este actuador con el sistema central y después le agregamos"
+    },
+    {
+      "start": 6013.28,
+      "end": 6025.88,
+      "text": "el valor agregado, te le da muchos otros con toda la lógica de negocio, dudas hasta acá algunos"
+    },
+    {
+      "start": 6025.88,
+      "end": 6036.77,
+      "text": "ha trabajado con algo de sistema de tiempo real, la materia de paso observativos avanzados hacemos"
+    },
+    {
+      "start": 6036.77,
+      "end": 6045.96,
+      "text": "un algo del costo para el actuador y eso es algo de un poco, bueno barbaro, genial, por lo tanto esta charla era"
+    },
+    {
+      "start": 6045.96,
+      "end": 6059.4,
+      "text": "bastante simple para la parácte, ¿no? Bien, bueno, que entra al extremante, todo lo que es más visto,"
+    },
+    {
+      "start": 6059.4,
+      "end": 6075.36,
+      "text": "ahora voy a subir dentro ofitó, estas presentaciones les voy a decir que tienen que leer de Prisma y sí bueno,"
+    },
+    {
+      "start": 6075.36,
+      "end": 6086.55,
+      "text": "ya estarían terminando, no me lo dirían que ver más, la entrega de la entrega de la vamos a hacer,"
+    },
+    {
+      "start": 6086.55,
+      "end": 6102.63,
+      "text": "va a ser presencial, no sé, depende de si tengo no aula, lo que sí, yo lo que sube hacer, todavía no termine,"
+    },
+    {
+      "start": 6102.63,
+      "end": 6114.66,
+      "text": "estoy en un 70% de la corrección de los alumnos de los lunes, no sé ni arranque, no sé, la idea es que sean todos en el mismo de las"
+    },
+    {
+      "start": 6114.66,
+      "end": 6132.38,
+      "text": "más fechas, por una sacatoria de llevo, por eso no me comprometo, vieron que la entrega de nota era el dos, y llevo antes del cinco, la subo a través de"
+    },
+    {
+      "start": 6132.38,
+      "end": 6143.92,
+      "text": "miel por lo menos para que ustedes tengan una idea, sino ya después el dos ahí están las dos notas, y ahí bueno evaluarán,"
+    },
+    {
+      "start": 6143.92,
+      "end": 6157.5,
+      "text": "¿a qué recuperatorio que viene? ¿Sabes, seguramente se puede recuperar un exámen, y esa era la definición de que nos dio el departamento,"
+    },
+    {
+      "start": 6157.5,
+      "end": 6171.82,
+      "text": "para definición de los bien departamentos, y la realidad es que ustedes vendíamos bien, pero sí, eso es la verdad,"
+    },
+    {
+      "start": 6171.82,
+      "end": 6189.72,
+      "text": "así que bueno, pongan de foco a esta, el segundo es mucho más del cinco, ahí, igual me parece que nos fue tan mal en los exámen,"
+    },
+    {
+      "start": 6190.72,
+      "end": 6211.11,
+      "text": "hay que ver el juez, ustedes van en caminaísnos, pero bueno, depende, depende, porque la obra está compartida, y cuando yo tengo entrega de nota la otra"
+    },
+    {
+      "start": 6211.11,
+      "end": 6221.27,
+      "text": "comisión, tiene pacián, y me pidi una aula, perzan todos con parcelados, con esta época, también se vuelve muy complicado,"
+    },
+    {
+      "start": 6224.64,
+      "end": 6232.64,
+      "text": "sino aprofé una pregunta, capaz es una tontería, pero podría hablarse como, o sea, el parcial en general, no dura tres horas o cuatro horas,"
+    },
+    {
+      "start": 6232.64,
+      "end": 6242.64,
+      "text": "para que cuando ellos liberen el aula, hacen la entrega nota, porque no se los voy en este momento, es que esa menuda como decir, una hora o mínimo,"
+    },
+    {
+      "start": 6243.64,
+      "end": 6255.85,
+      "text": "pero hoy nos juntamos con José, y empezamos la corrección de esta menuda, para poder entregarse loco."
+    },
+    {
+      "start": 6255.85,
+      "end": 6273.2,
+      "text": "Igual, para que no me explica bien, tipo, ¿me refería a Vista que decís que la otra comisión para que compartimos a bolas con parcelados?"
+    },
+    {
+      "start": 6273.2,
+      "end": 6274.2,
+      "text": "Sí."
+    },
+    {
+      "start": 6274.2,
+      "end": 6281.72,
+      "text": "Bueno, me refería que cuando ellos terminan el parcial, o sea, un parcial en general dura tres horas o menos,"
+    },
+    {
+      "start": 6282.94,
+      "end": 6286.94,
+      "text": "entonces, si liberan el aula, por ejemplo, 10 y mediano se podríamos usar más y menos antes,"
+    },
+    {
+      "start": 6286.94,
+      "end": 6296.13,
+      "text": "Déjame el aula en los santes y sí, en vez de juntarnos al 8, lo juntabíamos, tipo, 10 y mediano, y así no les molestamos, ellos pueden hacer parcial."
+    },
+    {
+      "start": 6296.13,
+      "end": 6307.23,
+      "text": "Voy a el aula con los santes, porque si empiezan a la 10, a la 10, la la la la la ha sido claro, claro, sí no las voy, estaba hasta, bueno, ¿sí tomó tu idea a CÉRICO?"
+    },
+    {
+      "start": 6307.23,
+      "end": 6313.08,
+      "text": "Pero eso sí sería para él, el 12."
+    },
+    {
+      "start": 6313.08,
+      "end": 6329.28,
+      "text": "y la realidad es que como si no estoy mucho, yo creo que toda la ciudad siempre como son de la noche, no a la mañana."
+    },
+    {
+      "start": 6329.28,
+      "end": 6334.28,
+      "text": "Este año, a la mañana."
+    },
+    {
+      "start": 6334.28,
+      "end": 6341.28,
+      "text": "No conozco por el nucho, entonces le pedías favores a todo el mundo y conseguí aulas, ahora no cuesta algo más."
+    },
+    {
+      "start": 6341.28,
+      "end": 6344.46,
+      "text": "No conozco el agente de la momentía."
+    },
+    {
+      "start": 6344.46,
+      "end": 6346.46,
+      "text": "Sí, si se te cambia."
+    },
+    {
+      "start": 6346.46,
+      "end": 6351.66,
+      "text": "Para Stan Charles nos vamos a conocer."
+    },
+    {
+      "start": 6351.66,
+      "end": 6357.95,
+      "text": "Bueno, hoy soy cortita de la clase."
+    },
+    {
+      "start": 6357.95,
+      "end": 6365.95,
+      "text": "Venga, recuerda que si yo llevo media hora más tarde porque estoy..."
+    },
+    {
+      "start": 6365.95,
+      "end": 6372.3,
+      "text": "A veces me atierne rápido para la propia, a veces estar un poquito más."
+    },
+    {
+      "start": 6372.3,
+      "end": 6376.62,
+      "text": "No se preocupen, llego."
+    },
+    {
+      "start": 6376.62,
+      "end": 6380.62,
+      "text": "Así que no se pongan nerviosos."
+    },
+    {
+      "start": 6380.62,
+      "end": 6381.62,
+      "text": "¿Qué más reciba decir?"
+    },
+    {
+      "start": 6381.62,
+      "end": 6382.62,
+      "text": "Ah no te encena de Excel."
+    },
+    {
+      "start": 6382.62,
+      "end": 6384.62,
+      "text": "Y yo digo 40 personas."
+    },
+    {
+      "start": 6384.62,
+      "end": 6390.68,
+      "text": "No me van a llevar otro copia, se informa innecessaria."
+    },
+    {
+      "start": 6390.68,
+      "end": 6394.29,
+      "text": "Ah no te estés y van a ir."
+    },
+    {
+      "start": 6394.29,
+      "end": 6396.29,
+      "text": "¿Qué más?"
+    },
+    {
+      "start": 6396.29,
+      "end": 6397.29,
+      "text": "Diabronto a mí mismo."
+    },
+    {
+      "start": 6397.29,
+      "end": 6399.29,
+      "text": "Tiene el mismo Excel."
+    },
+    {
+      "start": 6399.29,
+      "end": 6404.28,
+      "text": "Es el mismo Excel, creo que sí, es el mismo Excel."
+    },
+    {
+      "start": 6404.28,
+      "end": 6405.28,
+      "text": "Ok, ok."
+    },
+    {
+      "start": 6405.28,
+      "end": 6408.35,
+      "text": "Y es lo mismo, la misma hora también por las dudas?"
+    },
+    {
+      "start": 6408.35,
+      "end": 6409.7,
+      "text": "Sí."
+    },
+    {
+      "start": 6409.7,
+      "end": 6411.7,
+      "text": "Ok, sí, una ula más grande."
+    },
+    {
+      "start": 6411.7,
+      "end": 6412.7,
+      "text": "La misma ula."
+    },
+    {
+      "start": 6412.7,
+      "end": 6415.7,
+      "text": "Yo te digo cuáles de la ula o tengo un día."
+    },
+    {
+      "start": 6415.7,
+      "end": 6417.7,
+      "text": "Ustedes estoy la siento de rendizal."
+    },
+    {
+      "start": 6417.7,
+      "end": 6422.71,
+      "text": "Profes, bon dia."
+    },
+    {
+      "start": 6422.71,
+      "end": 6426.18,
+      "text": "Yo no tengo decidas."
+    },
+    {
+      "start": 6426.18,
+      "end": 6432.04,
+      "text": "Entonces, de lo que vimos hoy,"
+    },
+    {
+      "start": 6432.04,
+      "end": 6435.36,
+      "text": "solo teoría, digamos."
+    },
+    {
+      "start": 6435.36,
+      "end": 6437.36,
+      "text": "No vamos a ver un esquema de plan."
+    },
+    {
+      "start": 6437.36,
+      "end": 6441.52,
+      "text": "La verdad que no lo pensé, pero un esquema de planta es un dibujo."
+    },
+    {
+      "start": 6441.52,
+      "end": 6445.52,
+      "text": "Imagínate que te digo, quiero hacer un no se te digo."
+    },
+    {
+      "start": 6445.52,
+      "end": 6450.52,
+      "text": "No creo que lo haga, pero te puede ser para el final, ok?"
+    },
+    {
+      "start": 6450.52,
+      "end": 6455.59,
+      "text": "Tenés un imagínate, el diste leabra a ver para que pensaba."
+    },
+    {
+      "start": 6455.59,
+      "end": 6462.96,
+      "text": "Viste el ejercicio de que tenía los sensores"
+    },
+    {
+      "start": 6462.96,
+      "end": 6470.53,
+      "text": "y el escútbol de las centradas."
+    },
+    {
+      "start": 6470.53,
+      "end": 6472.17,
+      "text": "Claro."
+    },
+    {
+      "start": 6472.17,
+      "end": 6474.17,
+      "text": "Sí, sí, sí, que tenía el cuadro de la edad."
+    },
+    {
+      "start": 6474.17,
+      "end": 6477.17,
+      "text": "Imagínate que te digo, ¿qué sensores pasa con lo carg?"
+    },
+    {
+      "start": 6477.17,
+      "end": 6487.45,
+      "text": "¿Qué hace una esquema de planta de la área de la cancha?"
+    },
+    {
+      "start": 6487.45,
+      "end": 6493.45,
+      "text": "Y es un dibujo, la de cual la cancha, la puerta volinete."
+    },
+    {
+      "start": 6493.45,
+      "end": 6496.45,
+      "text": "Eso sí, eso sería un esquema de planta."
+    },
+    {
+      "start": 6496.45,
+      "end": 6499.45,
+      "text": "Lo que sí te diría mucho va a ser sentido,"
+    },
+    {
+      "start": 6499.45,
+      "end": 6504.64,
+      "text": "es decir, bueno, sea de un listo de sensores actuadores,"
+    },
+    {
+      "start": 6504.64,
+      "end": 6508.64,
+      "text": "el estímulo, pero eso tendría que ser algo con un ejercicio."
+    },
+    {
+      "start": 6508.64,
+      "end": 6511.96,
+      "text": "Eso sí se te puede pedir a un final, por ejemplo."
+    },
+    {
+      "start": 6511.96,
+      "end": 6514.96,
+      "text": "Prof. I, le puedo mostrar una esquema de planta."
+    },
+    {
+      "start": 6514.96,
+      "end": 6516.76,
+      "text": "Vale."
+    },
+    {
+      "start": 6516.76,
+      "end": 6525.46,
+      "text": "Pero es un dibujo de sencillo."
+    },
+    {
+      "start": 6525.46,
+      "end": 6531.94,
+      "text": "¿Qué compartiendo?"
+    },
+    {
+      "start": 6531.94,
+      "end": 6533.93,
+      "text": "¿CB?"
+    },
+    {
+      "start": 6536.21,
+      "end": 6538.44,
+      "text": "Y agranda lo bien."
+    },
+    {
+      "start": 6538.44,
+      "end": 6541.87,
+      "text": "Sí."
+    },
+    {
+      "start": 6541.87,
+      "end": 6543.87,
+      "text": "Y bancada en el notito, ¿no?"
+    },
+    {
+      "start": 6543.87,
+      "end": 6547.62,
+      "text": "Ya lo verdad."
+    },
+    {
+      "start": 6547.62,
+      "end": 6548.81,
+      "text": "Un poquito más."
+    },
+    {
+      "start": 6548.81,
+      "end": 6571.87,
+      "text": "Bancada en el notito."
+    },
+    {
+      "start": 6571.87,
+      "end": 6575.87,
+      "text": "Bueno, acá lo que usted es claricamente es el de FD nivel 0."
+    },
+    {
+      "start": 6575.87,
+      "end": 6578.32,
+      "text": "Claro."
+    },
+    {
+      "start": 6578.32,
+      "end": 6580.32,
+      "text": "No es una esquema de planta."
+    },
+    {
+      "start": 6580.32,
+      "end": 6581.32,
+      "text": "¿A ver?"
+    },
+    {
+      "start": 6581.32,
+      "end": 6589.85,
+      "text": "Estos de FD, no les voy a tomar de FD."
+    },
+    {
+      "start": 6589.85,
+      "end": 6590.85,
+      "text": "¿A qué?"
+    },
+    {
+      "start": 6590.85,
+      "end": 6593.84,
+      "text": "¿A qué?"
+    },
+    {
+      "start": 6593.84,
+      "end": 6594.84,
+      "text": "¿A qué?"
+    },
+    {
+      "start": 6594.84,
+      "end": 6595.84,
+      "text": "¿A qué?"
+    },
+    {
+      "start": 6595.84,
+      "end": 6596.84,
+      "text": "¿A qué?"
+    },
+    {
+      "start": 6596.84,
+      "end": 6597.84,
+      "text": "Claro."
+    },
+    {
+      "start": 6597.84,
+      "end": 6598.84,
+      "text": "¿A qué?"
+    },
+    {
+      "start": 6598.84,
+      "end": 6599.84,
+      "text": "¿A qué?"
+    },
+    {
+      "start": 6599.84,
+      "end": 6601.84,
+      "text": "Estar todo eso es un de FD."
+    },
+    {
+      "start": 6601.84,
+      "end": 6608.84,
+      "text": "La idea es que al comienzo al inicio de la sistema de tiempo real,"
+    },
+    {
+      "start": 6608.84,
+      "end": 6613.84,
+      "text": "el sistema de tiempo real no se utilizaba lo que es programación de ventaugjetos"
+    },
+    {
+      "start": 6613.84,
+      "end": 6617.84,
+      "text": "por un tema de que en mi es entonces lo que era programación de ventaugjetos"
+    },
+    {
+      "start": 6617.84,
+      "end": 6619.84,
+      "text": "era mucho más lento."
+    },
+    {
+      "start": 6619.84,
+      "end": 6621.84,
+      "text": "La performance era mala."
+    },
+    {
+      "start": 6621.84,
+      "end": 6627.19,
+      "text": "Entonces, utilizaba el lenguaje más estructurado."
+    },
+    {
+      "start": 6628.22,
+      "end": 6634.44,
+      "text": "Dentro de lo que es el diseño estructurado, no tenés diagrama de clases."
+    },
+    {
+      "start": 6634.44,
+      "end": 6639.7,
+      "text": "Si no estoy dentro del ámbito de ventaugjetos,"
+    },
+    {
+      "start": 6639.7,
+      "end": 6642.7,
+      "text": "el modelado que utilizaba era de FD."
+    },
+    {
+      "start": 6642.7,
+      "end": 6650.12,
+      "text": "Era procesos, a través del círculo, procesos principales,"
+    },
+    {
+      "start": 6650.12,
+      "end": 6653.12,
+      "text": "y después tener las centradas y las salidas."
+    },
+    {
+      "start": 6654.12,
+      "end": 6656.12,
+      "text": "Casi siempre, un sistema de tiempo real,"
+    },
+    {
+      "start": 6656.12,
+      "end": 6660.12,
+      "text": "tenés dasentadas que van a ser tus sensores y los actuadores como salidas."
+    },
+    {
+      "start": 6660.12,
+      "end": 6664.12,
+      "text": "Hacia los actuadores, no las salidas, hacia los actuadores."
+    },
+    {
+      "start": 6664.12,
+      "end": 6670.12,
+      "text": "Eso está excelente, pero hoy en día evolucionó porque ya hay, por ejemplo,"
+    },
+    {
+      "start": 6670.12,
+      "end": 6674.12,
+      "text": "programación de ventaugjetos, orientados y temas de tiempo real,"
+    },
+    {
+      "start": 6674.12,
+      "end": 6677.12,
+      "text": "que la gilidad y la performance camion muchísimo."
+    },
+    {
+      "start": 6677.12,
+      "end": 6682.12,
+      "text": "Entonces, la mayor y aparte, empezamos a mezclar,"
+    },
+    {
+      "start": 6682.12,
+      "end": 6685.12,
+      "text": "no es una barrofa de terreno entre ahí y ahí,"
+    },
+    {
+      "start": 6685.12,
+      "end": 6688.12,
+      "text": "y empezamos a colocar partes de negocio."
+    },
+    {
+      "start": 6688.12,
+      "end": 6691.12,
+      "text": "Entonces, hoy ya no está estructurado."
+    },
+    {
+      "start": 6691.12,
+      "end": 6694.66,
+      "text": "Está buenísimo para entender que se hacía,"
+    },
+    {
+      "start": 6694.66,
+      "end": 6702.17,
+      "text": "hoy casi siempre lo que se hace es manejar los como si fueran sistemas tradicionales"
+    },
+    {
+      "start": 6702.17,
+      "end": 6709.17,
+      "text": "y las sensores se comunican, le envían información a través de servenicios"
+    },
+    {
+      "start": 6709.17,
+      "end": 6712.17,
+      "text": "al sistema de control."
+    },
+    {
+      "start": 6713.17,
+      "end": 6716.17,
+      "text": "Entonces, realmente pensar en una estructura hoy en día,"
+    },
+    {
+      "start": 6716.17,
+      "end": 6721.17,
+      "text": "no creo que les aporte mucho, por eso no se ve deje en diseño,"
+    },
+    {
+      "start": 6721.17,
+      "end": 6723.17,
+      "text": "si en principio."
+    },
+    {
+      "start": 6723.17,
+      "end": 6728.04,
+      "text": "Y profe, entonces digamos, sin el final,"
+    },
+    {
+      "start": 6728.04,
+      "end": 6732.04,
+      "text": "espero no llegamos ahí, pero si nos pidiera a un esquema de plantar,"
+    },
+    {
+      "start": 6732.04,
+      "end": 6734.04,
+      "text": "¿cómo sería el esquema de planta?"
+    },
+    {
+      "start": 6734.04,
+      "end": 6737.74,
+      "text": "Sí, oye, perfecto, en cambio."
+    },
+    {
+      "start": 6737.74,
+      "end": 6740.74,
+      "text": "Ahí le estoy mostrando en unos que, por ejemplo, no lo suelo pedir,"
+    },
+    {
+      "start": 6741.74,
+      "end": 6748.0,
+      "text": "pero todo puede pasar."
+    },
+    {
+      "start": 6748.0,
+      "end": 6750.0,
+      "text": "Profesión, compañero Lucas, igual a junto a uno,"
+    },
+    {
+      "start": 6750.0,
+      "end": 6752.0,
+      "text": "no sé si es algo para sí."
+    },
+    {
+      "start": 6752.0,
+      "end": 6756.0,
+      "text": "Ahora lo vemos, manqué, ¿teno que te guste buscando en unos?"
+    },
+    {
+      "start": 6756.0,
+      "end": 6759.92,
+      "text": "Era de las bateras, ¿tienes?"
+    },
+    {
+      "start": 6759.92,
+      "end": 6790.92,
+      "text": "Y van a querme en un minuto, van a querme, van a querme."
+    },
+    {
+      "start": 6790.92,
+      "end": 6797.72,
+      "text": "¿Van a ver qué pasó Lucas? ¿No es la pasaste, Lucas?"
+    },
+    {
+      "start": 6797.72,
+      "end": 6799.72,
+      "text": "¿Lo pasé, le echaste?"
+    },
+    {
+      "start": 6799.72,
+      "end": 6802.72,
+      "text": "Es comprador de pulsera, bueno acá tendría que entender el negocio,"
+    },
+    {
+      "start": 6803.72,
+      "end": 6806.52,
+      "text": "¿no? ¿Más ni nada pulsador de cómo?"
+    },
+    {
+      "start": 6806.52,
+      "end": 6809.52,
+      "text": "Es el mismo enunciado que pasé el compañero a su rato."
+    },
+    {
+      "start": 6809.52,
+      "end": 6816.22,
+      "text": "No, no tengo yo, pero bueno importa, contar un poco de que se trata."
+    },
+    {
+      "start": 6816.22,
+      "end": 6826.96,
+      "text": "Era básicamente un sistema sobre una cerveza iría,"
+    },
+    {
+      "start": 6826.96,
+      "end": 6834.96,
+      "text": "donde tenía que cráccular la temperatura de las botellas,"
+    },
+    {
+      "start": 6834.96,
+      "end": 6837.96,
+      "text": "o sea de las cervezas que hay en el lugar."
+    },
+    {
+      "start": 6837.96,
+      "end": 6843.16,
+      "text": "Bueno, sólo pearía lo que se denomida un esquema de planta,"
+    },
+    {
+      "start": 6843.16,
+      "end": 6848.66,
+      "text": "lo vemos para acá, voy a compartir yo ahora, un minuto."
+    },
+    {
+      "start": 6848.66,
+      "end": 6855.89,
+      "text": "Lo que se denomina a un esquema de planta es como yo,"
+    },
+    {
+      "start": 6855.89,
+      "end": 6859.89,
+      "text": "un sistema de tiempo real, estoy dentro de un ámpito real,"
+    },
+    {
+      "start": 6859.89,
+      "end": 6865.89,
+      "text": "estoy dentro de un ámpito, en un ambiente,"
+    },
+    {
+      "start": 6865.89,
+      "end": 6868.96,
+      "text": "lo que se suele hacer es definir ese ámpiente"
+    },
+    {
+      "start": 6868.96,
+      "end": 6873.34,
+      "text": "y definir dónde irían los sensores y los actuadores."
+    },
+    {
+      "start": 6873.34,
+      "end": 6877.34,
+      "text": "Eso lo que me permite es no olvidarme de ningún sensor"
+    },
+    {
+      "start": 6877.34,
+      "end": 6881.3,
+      "text": "y no olvidarme de ningún actuador."
+    },
+    {
+      "start": 6881.3,
+      "end": 6888.83,
+      "text": "Por ejemplo, en acá tengo una casa y empiezo,"
+    },
+    {
+      "start": 6888.83,
+      "end": 6893.83,
+      "text": "sensores de temperatura, sensores de movimiento, sensores de agua,"
+    },
+    {
+      "start": 6894.89,
+      "end": 6900.24,
+      "text": "al culo que va a ver a lo de elefacción,"
+    },
+    {
+      "start": 6900.24,
+      "end": 6905.94,
+      "text": "sensor de luz, acá tengo un sensor de temperatura."
+    },
+    {
+      "start": 6905.94,
+      "end": 6908.94,
+      "text": "Entonces, la idea es que no puedan estar."
+    },
+    {
+      "start": 6908.94,
+      "end": 6915.16,
+      "text": "Es un dibujo como los líneas de jardín infantes,"
+    },
+    {
+      "start": 6915.16,
+      "end": 6922.36,
+      "text": "es decir, bueno, tenemos, supongo que estoy en el ejemplo del policía"
+    },
+    {
+      "start": 6923.36,
+      "end": 6926.36,
+      "text": "que tenía pocos sensores y actuadores,"
+    },
+    {
+      "start": 6926.36,
+      "end": 6929.36,
+      "text": "tenía el molidete, tenía que decir el molidete,"
+    },
+    {
+      "start": 6929.36,
+      "end": 6932.36,
+      "text": "el policía con los celulares podría llegar a hacerlo"
+    },
+    {
+      "start": 6932.36,
+      "end": 6936.8,
+      "text": "si es que tenían que escanear algo y nada más."
+    },
+    {
+      "start": 6936.8,
+      "end": 6940.8,
+      "text": "Estoy con un ejemplo de domótica, el ejemplo de domótica,"
+    },
+    {
+      "start": 6940.8,
+      "end": 6945.19,
+      "text": "saben lo que es de domótica, son los que son casas inteligentes,"
+    },
+    {
+      "start": 6945.19,
+      "end": 6948.19,
+      "text": "donde yo voy a tener una alarma,"
+    },
+    {
+      "start": 6948.19,
+      "end": 6951.19,
+      "text": "si me tengo una alarma, bueno, que tengo,"
+    },
+    {
+      "start": 6952.19,
+      "end": 6957.19,
+      "text": "un ejemplo, sensor de apertura en las ventanas y en las puertas,"
+    },
+    {
+      "start": 6957.19,
+      "end": 6961.19,
+      "text": "tengo algún sensor de movimiento de infrarrojo"
+    },
+    {
+      "start": 6961.19,
+      "end": 6963.19,
+      "text": "y lo tengo que colocar en donde."
+    },
+    {
+      "start": 6963.19,
+      "end": 6968.48,
+      "text": "Entonces, yo lo que hago definiendo todos esos sensores,"
+    },
+    {
+      "start": 6968.48,
+      "end": 6971.48,
+      "text": "es decir, bueno, tengo el sensor, imagínate,"
+    },
+    {
+      "start": 6971.48,
+      "end": 6978.72,
+      "text": "tengo, aún listado de todos los sensores,"
+    },
+    {
+      "start": 6980.55,
+      "end": 6991.98,
+      "text": "tengo sensor de apertura de puerta,"
+    },
+    {
+      "start": 6991.98,
+      "end": 6998.22,
+      "text": "es decir, sensor ventana 1,"
+    },
+    {
+      "start": 6998.22,
+      "end": 7008.27,
+      "text": "tengo ventana 1, sensor ventana 2,"
+    },
+    {
+      "start": 7008.27,
+      "end": 7013.67,
+      "text": "eso se digo bueno, ¿cuál es el tiempo de respuesta?"
+    },
+    {
+      "start": 7013.67,
+      "end": 7016.67,
+      "text": "tengo que poner todo en su tipo de respuesta,"
+    },
+    {
+      "start": 7016.67,
+      "end": 7024.69,
+      "text": "va a pensarlo, a mí el sistema me encanta,"
+    },
+    {
+      "start": 7024.69,
+      "end": 7027.94,
+      "text": "pero bueno, entonces yo cuáles,"
+    },
+    {
+      "start": 7028.94,
+      "end": 7031.94,
+      "text": "y estoy en el tiempo ventana 1 y ventana 2,"
+    },
+    {
+      "start": 7031.94,
+      "end": 7033.94,
+      "text": "apenas si yo puse la alarma,"
+    },
+    {
+      "start": 7033.94,
+      "end": 7035.94,
+      "text": "y apenas se abre la alarma,"
+    },
+    {
+      "start": 7035.94,
+      "end": 7039.94,
+      "text": "y le doy un 0,1 segundo para que se activo,"
+    },
+    {
+      "start": 7039.94,
+      "end": 7044.1,
+      "text": "2 segundos para que se active la alarma y da respuesta."
+    },
+    {
+      "start": 7044.1,
+      "end": 7047.12,
+      "text": "Aquí va a dar respuesta,"
+    },
+    {
+      "start": 7047.12,
+      "end": 7049.12,
+      "text": "acá tendría el del otro,"
+    },
+    {
+      "start": 7049.12,
+      "end": 7057.32,
+      "text": "a la alarma sonora, ¿vale?"
+    },
+    {
+      "start": 7057.32,
+      "end": 7064.99,
+      "text": "Ahora, se abre la puerta y si abre la puerta,"
+    },
+    {
+      "start": 7065.99,
+      "end": 7068.99,
+      "text": "estoy ingresando en mi casa y suena los 2 segundos,"
+    },
+    {
+      "start": 7068.99,
+      "end": 7072.99,
+      "text": "no me da el 15 tiempo de poner el código de la alarma,"
+    },
+    {
+      "start": 7072.99,
+      "end": 7074.99,
+      "text": "entonces acá ya tengo que cambiar,"
+    },
+    {
+      "start": 7074.99,
+      "end": 7077.99,
+      "text": "y cuándo necesito tener una respuesta de la alarma sonora,"
+    },
+    {
+      "start": 7077.99,
+      "end": 7079.99,
+      "text": "y acá le doy 15 segundos,"
+    },
+    {
+      "start": 7079.99,
+      "end": 7087.21,
+      "text": "y no tengo la clave apertura,"
+    },
+    {
+      "start": 7087.21,
+      "end": 7089.21,
+      "text": "y no tengo clave,"
+    },
+    {
+      "start": 7089.21,
+      "end": 7091.21,
+      "text": "que suena el 2 más o no, sonora."
+    },
+    {
+      "start": 7091.21,
+      "end": 7093.21,
+      "text": "Ventana 2, y la ventana 2,"
+    },
+    {
+      "start": 7093.21,
+      "end": 7097.28,
+      "text": "estoy en una ventana que, bueno,"
+    },
+    {
+      "start": 7097.28,
+      "end": 7100.28,
+      "text": "a veces pasa el gato, esto, bueno,"
+    },
+    {
+      "start": 7100.28,
+      "end": 7102.28,
+      "text": "tengo 4 segundos más,"
+    },
+    {
+      "start": 7102.28,
+      "end": 7104.28,
+      "text": "pues eso es yo,"
+    },
+    {
+      "start": 7104.28,
+      "end": 7106.28,
+      "text": "para que después la vuelva a cerrar,"
+    },
+    {
+      "start": 7106.28,
+      "end": 7108.28,
+      "text": "no sé, veo, o como una alarma."
+    },
+    {
+      "start": 7108.28,
+      "end": 7110.28,
+      "text": "Bueno, esos son todas las fiefas,"
+    },
+    {
+      "start": 7110.28,
+      "end": 7111.28,
+      "text": "hay que hacer."
+    },
+    {
+      "start": 7111.28,
+      "end": 7113.28,
+      "text": "Lo que ustedes tienen que hacer,"
+    },
+    {
+      "start": 7113.28,
+      "end": 7125.29,
+      "text": "eso es rinde lo que voy a hacer,"
+    },
+    {
+      "start": 7125.29,
+      "end": 7126.29,
+      "text": "pero no importa,"
+    },
+    {
+      "start": 7126.29,
+      "end": 7128.29,
+      "text": "si analizar todo eso,"
+    },
+    {
+      "start": 7128.29,
+      "end": 7130.29,
+      "text": "tienen que armarse un listado"
+    },
+    {
+      "start": 7130.29,
+      "end": 7132.39,
+      "text": "o todos los sensores,"
+    },
+    {
+      "start": 7132.39,
+      "end": 7137.31,
+      "text": "imagínense que tengo sensor de humo,"
+    },
+    {
+      "start": 7139.56,
+      "end": 7142.23,
+      "text": "sensor de humo,"
+    },
+    {
+      "start": 7142.23,
+      "end": 7145.23,
+      "text": "tengo sensores de temperatura,"
+    },
+    {
+      "start": 7145.23,
+      "end": 7152.23,
+      "text": "y además tengo,"
+    },
+    {
+      "start": 7152.23,
+      "end": 7159.58,
+      "text": "tengo sensor lumínico,"
+    },
+    {
+      "start": 7159.58,
+      "end": 7161.58,
+      "text": "entonces digo, bueno, tengo una casa,"
+    },
+    {
+      "start": 7161.58,
+      "end": 7176.92,
+      "text": "y ya se hace años, chico,"
+    },
+    {
+      "start": 7176.92,
+      "end": 7183.48,
+      "text": "no uso esto, tengo una casa,"
+    },
+    {
+      "start": 7183.48,
+      "end": 7185.48,
+      "text": "hace nací, tengo la puerta,"
+    },
+    {
+      "start": 7185.48,
+      "end": 7187.48,
+      "text": "acá pongo un sensor de,"
+    },
+    {
+      "start": 7187.48,
+      "end": 7189.48,
+      "text": "lo hago sí, no más,"
+    },
+    {
+      "start": 7189.48,
+      "end": 7193.18,
+      "text": "acá tengo el dejado,"
+    },
+    {
+      "start": 7193.18,
+      "end": 7196.18,
+      "text": "el sistema central, por ejemplo,"
+    },
+    {
+      "start": 7196.18,
+      "end": 7201.18,
+      "text": "acá tengo el sensor de la apertura de puerta,"
+    },
+    {
+      "start": 7201.18,
+      "end": 7203.18,
+      "text": "tengo acá una ventana,"
+    },
+    {
+      "start": 7203.18,
+      "end": 7206.28,
+      "text": "acá tengo un sensor de la apertura de ventana,"
+    },
+    {
+      "start": 7206.28,
+      "end": 7209.95,
+      "text": "esto sería el límín,"
+    },
+    {
+      "start": 7209.95,
+      "end": 7213.93,
+      "text": "esto sería la cocina,"
+    },
+    {
+      "start": 7213.93,
+      "end": 7215.93,
+      "text": "o sea, estoy diciendo, ¿no?"
+    },
+    {
+      "start": 7215.93,
+      "end": 7217.93,
+      "text": "entonces acá tengo el sensor de humo,"
+    },
+    {
+      "start": 7217.93,
+      "end": 7223.49,
+      "text": "acá tengo afuera en el patio,"
+    },
+    {
+      "start": 7223.49,
+      "end": 7225.49,
+      "text": "tengo el sensor lumínico,"
+    },
+    {
+      "start": 7226.49,
+      "end": 7230.51,
+      "text": "tengo el actuador,"
+    },
+    {
+      "start": 7230.51,
+      "end": 7233.7,
+      "text": "es el motor para levantar esto,"
+    },
+    {
+      "start": 7233.7,
+      "end": 7237.83,
+      "text": "tengo dentro de la habitación,"
+    },
+    {
+      "start": 7237.83,
+      "end": 7239.83,
+      "text": "solamente la habitación lo loco,"
+    },
+    {
+      "start": 7239.83,
+      "end": 7242.83,
+      "text": "porque es donde tienes que estar con una temperatura agradable,"
+    },
+    {
+      "start": 7242.83,
+      "end": 7244.83,
+      "text": "tengo el sensor de temperatura,"
+    },
+    {
+      "start": 7244.83,
+      "end": 7248.01,
+      "text": "el sensor de temperatura,"
+    },
+    {
+      "start": 7248.01,
+      "end": 7250.01,
+      "text": "y acá tengo el aire acondicionado,"
+    },
+    {
+      "start": 7250.01,
+      "end": 7257.01,
+      "text": "ahí le aire, ahí le aire,"
+    },
+    {
+      "start": 7257.01,
+      "end": 7260.01,
+      "text": "entonces tengo el actuador,"
+    },
+    {
+      "start": 7260.01,
+      "end": 7262.01,
+      "text": "entonces voy definiendo actuadores,"
+    },
+    {
+      "start": 7262.01,
+      "end": 7265.01,
+      "text": "un color, el sensor es en otro,"
+    },
+    {
+      "start": 7265.01,
+      "end": 7267.14,
+      "text": "lo voy definiendo bien, ¿no?"
+    },
+    {
+      "start": 7267.14,
+      "end": 7270.14,
+      "text": "y así van armando su sistema de plantas,"
+    },
+    {
+      "start": 7270.14,
+      "end": 7272.14,
+      "text": "obviamente el sistema central,"
+    },
+    {
+      "start": 7272.14,
+      "end": 7274.14,
+      "text": "lo que se suele hacer,"
+    },
+    {
+      "start": 7274.14,
+      "end": 7277.14,
+      "text": "después ver cómo me comunico,"
+    },
+    {
+      "start": 7277.14,
+      "end": 7280.14,
+      "text": "estos sensores con el sistema central,"
+    },
+    {
+      "start": 7280.14,
+      "end": 7282.33,
+      "text": "está, estoy hablando,"
+    },
+    {
+      "start": 7282.33,
+      "end": 7284.33,
+      "text": "este bit, el bluetooth,"
+    },
+    {
+      "start": 7284.33,
+      "end": 7286.33,
+      "text": "está ablado, ¿ok?"
+    },
+    {
+      "start": 7286.33,
+      "end": 7288.33,
+      "text": "algunos se comunican como wifi,"
+    },
+    {
+      "start": 7288.33,
+      "end": 7292.42,
+      "text": "porque tengo un teléfono celular,"
+    },
+    {
+      "start": 7292.42,
+      "end": 7296.41,
+      "text": "y ahí me he de conectar a la nube,"
+    },
+    {
+      "start": 7296.41,
+      "end": 7299.41,
+      "text": "esto estaría mucho más lindo,"
+    },
+    {
+      "start": 7299.41,
+      "end": 7301.73,
+      "text": "me conecto a la nube,"
+    },
+    {
+      "start": 7301.73,
+      "end": 7303.73,
+      "text": "y después este se conecta acá,"
+    },
+    {
+      "start": 7303.73,
+      "end": 7305.76,
+      "text": "esto es una esquema de plantas,"
+    },
+    {
+      "start": 7305.76,
+      "end": 7308.76,
+      "text": "no tiene ninguna lógica de WML,"
+    },
+    {
+      "start": 7308.76,
+      "end": 7311.76,
+      "text": "no tiene ningún, digamos,"
+    },
+    {
+      "start": 7311.76,
+      "end": 7315.92,
+      "text": "recomendación,"
+    },
+    {
+      "start": 7315.92,
+      "end": 7318.92,
+      "text": "de tu infraestructura física,"
+    },
+    {
+      "start": 7318.92,
+      "end": 7321.92,
+      "text": "por cierto, también es un sistema tiempo real,"
+    },
+    {
+      "start": 7321.92,
+      "end": 7323.92,
+      "text": "está solo un ambiente real,"
+    },
+    {
+      "start": 7323.92,
+      "end": 7326.92,
+      "text": "empezar a definir todos tus sensores y actuadores,"
+    },
+    {
+      "start": 7326.92,
+      "end": 7329.04,
+      "text": "a como para no olvidarte,"
+    },
+    {
+      "start": 7329.04,
+      "end": 7333.04,
+      "text": "cuáles son los estímulos que vas a ir capturando,"
+    },
+    {
+      "start": 7333.04,
+      "end": 7339.28,
+      "text": "no, eso es lo que vamos a,"
+    },
+    {
+      "start": 7339.28,
+      "end": 7342.37,
+      "text": "lo que ustedes tienen que llevarse de esta clase,"
+    },
+    {
+      "start": 7342.37,
+      "end": 7346.46,
+      "text": "digamos, no, no vemos,"
+    },
+    {
+      "start": 7346.46,
+      "end": 7350.46,
+      "text": "ya tienen bastante complicada como apartar,"
+    },
+    {
+      "start": 7350.46,
+      "end": 7353.46,
+      "text": "también sumarle de GD, la materia,"
+    },
+    {
+      "start": 7353.46,
+      "end": 7355.78,
+      "text": "y aparte,"
+    },
+    {
+      "start": 7355.78,
+      "end": 7360.44,
+      "text": "ya lo vieron,"
+    },
+    {
+      "start": 7360.44,
+      "end": 7362.51,
+      "text": "y les voy a decir,"
+    },
+    {
+      "start": 7362.51,
+      "end": 7369.0,
+      "text": "hoy en día no se lo utiliza,"
+    },
+    {
+      "start": 7369.0,
+      "end": 7371.0,
+      "text": "tanto el de GD, está bueno que lo sepan,"
+    },
+    {
+      "start": 7371.0,
+      "end": 7375.45,
+      "text": "porque me ayuda a entender un poco,"
+    },
+    {
+      "start": 7375.45,
+      "end": 7378.45,
+      "text": "pero hoy en día,"
+    },
+    {
+      "start": 7378.45,
+      "end": 7381.45,
+      "text": "los sensores se comunican a través,"
+    },
+    {
+      "start": 7381.45,
+      "end": 7383.45,
+      "text": "tienen como una especie,"
+    },
+    {
+      "start": 7383.45,
+      "end": 7385.45,
+      "text": "de centro del sensor,"
+    },
+    {
+      "start": 7385.45,
+      "end": 7387.45,
+      "text": "donde le envían la información"
+    },
+    {
+      "start": 7387.45,
+      "end": 7389.45,
+      "text": "al sistema central,"
+    },
+    {
+      "start": 7389.45,
+      "end": 7391.45,
+      "text": "y el sistema central,"
+    },
+    {
+      "start": 7391.45,
+      "end": 7393.45,
+      "text": "tiene una lógica"
+    },
+    {
+      "start": 7393.45,
+      "end": 7395.45,
+      "text": "que no es procedural,"
+    },
+    {
+      "start": 7395.45,
+      "end": 7397.45,
+      "text": "no es un lenguaje procedural,"
+    },
+    {
+      "start": 7397.45,
+      "end": 7398.45,
+      "text": "ya sé,"
+    },
+    {
+      "start": 7398.45,
+      "end": 7400.45,
+      "text": "todos los servicios,"
+    },
+    {
+      "start": 7400.45,
+      "end": 7402.45,
+      "text": "los servicios que se comunican a través de la piedad fuera,"
+    },
+    {
+      "start": 7402.45,
+      "end": 7405.45,
+      "text": "porque si solamente hago un sistema"
+    },
+    {
+      "start": 7405.45,
+      "end": 7408.12,
+      "text": "de estructurado,"
+    },
+    {
+      "start": 7408.12,
+      "end": 7413.12,
+      "text": "entonces no pierde la extensibilidad del sistema,"
+    },
+    {
+      "start": 7413.12,
+      "end": 7415.12,
+      "text": "hoy en día,"
+    },
+    {
+      "start": 7415.12,
+      "end": 7420.6,
+      "text": "y tengo un sensor muy complicado,"
+    },
+    {
+      "start": 7420.6,
+      "end": 7423.43,
+      "text": "que realmente necesito"
+    },
+    {
+      "start": 7423.43,
+      "end": 7425.75,
+      "text": "que tenga bajo consumo,"
+    },
+    {
+      "start": 7425.75,
+      "end": 7427.75,
+      "text": "y si, ahí, bueno, me pongo"
+    },
+    {
+      "start": 7427.75,
+      "end": 7429.94,
+      "text": "programar en Asemple,"
+    },
+    {
+      "start": 7429.94,
+      "end": 7431.94,
+      "text": "o usaría un GD,"
+    },
+    {
+      "start": 7431.94,
+      "end": 7433.94,
+      "text": "cuáles fantasía está entrada,"
+    },
+    {
+      "start": 7433.94,
+      "end": 7436.94,
+      "text": "un proceso de atentrada de la tu salida,"
+    },
+    {
+      "start": 7436.94,
+      "end": 7439.07,
+      "text": "pero ya si tenés,"
+    },
+    {
+      "start": 7439.07,
+      "end": 7440.07,
+      "text": "un GD,"
+    },
+    {
+      "start": 7440.07,
+      "end": 7442.07,
+      "text": "o tenés un proceso de negocio,"
+    },
+    {
+      "start": 7442.07,
+      "end": 7443.07,
+      "text": "este proceso no se lo va a hacer,"
+    },
+    {
+      "start": 7443.07,
+      "end": 7446.8,
+      "text": "unamente estructurado."
+    },
+    {
+      "start": 7446.8,
+      "end": 7447.8,
+      "text": "Por lo menos,"
+    },
+    {
+      "start": 7447.8,
+      "end": 7450.12,
+      "text": "vamos a estar con una piedad y un servicio."
+    },
+    {
+      "start": 7450.12,
+      "end": 7451.12,
+      "text": "Entonces,"
+    },
+    {
+      "start": 7451.12,
+      "end": 7454.12,
+      "text": "ya no se utiliza tanto el GD,"
+    },
+    {
+      "start": 7454.12,
+      "end": 7457.37,
+      "text": "por eso que lo vieron en principios,"
+    },
+    {
+      "start": 7457.37,
+      "end": 7459.37,
+      "text": "acá ven otra cosa,"
+    },
+    {
+      "start": 7459.37,
+      "end": 7463.44,
+      "text": "se encuentran con otros problemas,"
+    },
+    {
+      "start": 7463.44,
+      "end": 7466.44,
+      "text": "ya el problema de la comunicación entre los tensores,"
+    },
+    {
+      "start": 7466.44,
+      "end": 7468.44,
+      "text": "como tendría que,"
+    },
+    {
+      "start": 7468.44,
+      "end": 7470.44,
+      "text": "que es lo que le van a pedir a ustedes con otra bajen"
+    },
+    {
+      "start": 7470.44,
+      "end": 7472.44,
+      "text": "de arquitectos,"
+    },
+    {
+      "start": 7472.44,
+      "end": 7473.44,
+      "text": "del sistema."
+    },
+    {
+      "start": 7473.44,
+      "end": 7475.44,
+      "text": "A bien, este aparatito,"
+    },
+    {
+      "start": 7475.44,
+      "end": 7476.44,
+      "text": "viene de China,"
+    },
+    {
+      "start": 7476.44,
+      "end": 7477.44,
+      "text": "ah, ¿qué bueno?"
+    },
+    {
+      "start": 7477.44,
+      "end": 7478.44,
+      "text": "Ahí con los aportillos divinos,"
+    },
+    {
+      "start": 7478.44,
+      "end": 7480.44,
+      "text": "hay unas aportillos que se decían en mi aparatito,"
+    },
+    {
+      "start": 7480.44,
+      "end": 7481.44,
+      "text": "la luz,"
+    },
+    {
+      "start": 7481.44,
+      "end": 7484.24,
+      "text": "bueno, ¿cómo me comunico?"
+    },
+    {
+      "start": 7484.24,
+      "end": 7485.24,
+      "text": "Y es mediante Civil,"
+    },
+    {
+      "start": 7485.24,
+      "end": 7486.24,
+      "text": "tengo que hablar, tengo que hablar,"
+    },
+    {
+      "start": 7486.24,
+      "end": 7487.24,
+      "text": "cómo captura el evento,"
+    },
+    {
+      "start": 7487.24,
+      "end": 7488.24,
+      "text": "así,"
+    },
+    {
+      "start": 7488.24,
+      "end": 7489.24,
+      "text": "bueno, tengo que armar"
+    },
+    {
+      "start": 7489.24,
+      "end": 7490.24,
+      "text": "una red en malla,"
+    },
+    {
+      "start": 7490.24,
+      "end": 7493.24,
+      "text": "porque lo tenemos muy lejos de donde está el sistema."
+    },
+    {
+      "start": 7493.24,
+      "end": 7495.26,
+      "text": "Bueno,"
+    },
+    {
+      "start": 7495.26,
+      "end": 7497.26,
+      "text": "esas son los problemas con los que se van a encontrar"
+    },
+    {
+      "start": 7497.26,
+      "end": 7499.26,
+      "text": "el sistema de tiempo real."
+    },
+    {
+      "start": 7499.26,
+      "end": 7502.26,
+      "text": "Hoy no se van a encontrar con que"
+    },
+    {
+      "start": 7502.26,
+      "end": 7506.93,
+      "text": "no se programar un sensor"
+    },
+    {
+      "start": 7506.93,
+      "end": 7507.93,
+      "text": "o un actuador,"
+    },
+    {
+      "start": 7507.93,
+      "end": 7509.93,
+      "text": "porque está bajo assemblar."
+    },
+    {
+      "start": 7509.93,
+      "end": 7512.03,
+      "text": "Eso ya viene todo armado."
+    },
+    {
+      "start": 7512.03,
+      "end": 7513.03,
+      "text": "Bien, todo armado,"
+    },
+    {
+      "start": 7513.03,
+      "end": 7517.03,
+      "text": "tiene el actuador con esa pequeña lógica,"
+    },
+    {
+      "start": 7517.03,
+      "end": 7519.03,
+      "text": "y ya lo único que hace es subir,"
+    },
+    {
+      "start": 7519.03,
+      "end": 7521.03,
+      "text": "ensonde, apagar, controlar."
+    },
+    {
+      "start": 7521.03,
+      "end": 7522.03,
+      "text": "Y ustedes, lo que tienen que tener,"
+    },
+    {
+      "start": 7522.03,
+      "end": 7524.03,
+      "text": "toda la lógica,"
+    },
+    {
+      "start": 7524.03,
+      "end": 7525.03,
+      "text": "de manejar los servicios,"
+    },
+    {
+      "start": 7525.03,
+      "end": 7527.03,
+      "text": "pagar, subirme la temperatura,"
+    },
+    {
+      "start": 7527.03,
+      "end": 7529.03,
+      "text": "si estoy llegando a mi casa,"
+    },
+    {
+      "start": 7529.03,
+      "end": 7532.03,
+      "text": "ponerme la barro para la estrella mañana,"
+    },
+    {
+      "start": 7532.03,
+      "end": 7535.03,
+      "text": "porque me sale más barata la energía,"
+    },
+    {
+      "start": 7535.03,
+      "end": 7537.03,
+      "text": "me van siguiendo,"
+    },
+    {
+      "start": 7537.03,
+      "end": 7540.03,
+      "text": "me llamaron del control de mi casa,"
+    },
+    {
+      "start": 7540.03,
+      "end": 7541.03,
+      "text": "lo caron el timbre,"
+    },
+    {
+      "start": 7541.03,
+      "end": 7542.03,
+      "text": "pero no estoy,"
+    },
+    {
+      "start": 7542.03,
+      "end": 7546.38,
+      "text": "pero directamente me lo atiende desde mi celular."
+    },
+    {
+      "start": 7546.38,
+      "end": 7547.38,
+      "text": "Bueno,"
+    },
+    {
+      "start": 7547.38,
+      "end": 7549.38,
+      "text": "esa lógica,"
+    },
+    {
+      "start": 7549.38,
+      "end": 7551.38,
+      "text": "la tienen que manejar a través del servicio."
+    },
+    {
+      "start": 7551.38,
+      "end": 7557.82,
+      "text": "UML es un paso para ordenarse en cuanto servicios."
+    },
+    {
+      "start": 7557.82,
+      "end": 7559.82,
+      "text": "Así que bueno,"
+    },
+    {
+      "start": 7559.82,
+      "end": 7561.82,
+      "text": "no voy a ir con un paso atrás,"
+    },
+    {
+      "start": 7561.82,
+      "end": 7563.82,
+      "text": "que es el de FEDL."
+    },
+    {
+      "start": 7563.82,
+      "end": 7565.82,
+      "text": "Está excelente que lo hayan visto,"
+    },
+    {
+      "start": 7565.82,
+      "end": 7566.82,
+      "text": "no digo que no,"
+    },
+    {
+      "start": 7566.82,
+      "end": 7570.49,
+      "text": "y yo ya te van a mostrarles"
+    },
+    {
+      "start": 7570.49,
+      "end": 7579.28,
+      "text": "otros problemas que van a tener en sistema de tiempo real."
+    },
+    {
+      "start": 7579.28,
+      "end": 7581.28,
+      "text": "Así que no tenés miedo con lo de FEDL."
+    },
+    {
+      "start": 7581.28,
+      "end": 7585.94,
+      "text": "Una vez que no tomo algo,"
+    },
+    {
+      "start": 7585.94,
+      "end": 7589.08,
+      "text": "le quiere que lo tomen."
+    },
+    {
+      "start": 7589.08,
+      "end": 7590.08,
+      "text": "No, no, no, no, no,"
+    },
+    {
+      "start": 7590.08,
+      "end": 7601.98,
+      "text": "pero si puedo llegar a tomar eso,"
+    },
+    {
+      "start": 7601.98,
+      "end": 7603.98,
+      "text": "o preguntarle que hizo un esquema de planta,"
+    },
+    {
+      "start": 7603.98,
+      "end": 7605.98,
+      "text": "y no me muestre de un FEDL."
+    },
+    {
+      "start": 7605.98,
+      "end": 7607.98,
+      "text": "Salos muy sencillo,"
+    },
+    {
+      "start": 7607.98,
+      "end": 7610.98,
+      "text": "es el tema de tiempo real de tu ambiente real,"
+    },
+    {
+      "start": 7610.98,
+      "end": 7614.98,
+      "text": "cómo distribuir todos tus sensores y actuadores"
+    },
+    {
+      "start": 7614.98,
+      "end": 7617.98,
+      "text": "y donde pondría el sistema central."
+    },
+    {
+      "start": 7617.98,
+      "end": 7619.98,
+      "text": "Hoy en día te voy a decir,"
+    },
+    {
+      "start": 7619.98,
+      "end": 7622.98,
+      "text": "si tenés una alarma con lo que ha salgo,"
+    },
+    {
+      "start": 7622.98,
+      "end": 7624.98,
+      "text": "pero si no, a veces muchas veces,"
+    },
+    {
+      "start": 7624.98,
+      "end": 7626.98,
+      "text": "esto trabaje en que se las celulares."
+    },
+    {
+      "start": 7626.98,
+      "end": 7628.98,
+      "text": "O sea, necesito tener una infraestructura"
+    },
+    {
+      "start": 7628.98,
+      "end": 7630.98,
+      "text": "y te pediría otra lista,"
+    },
+    {
+      "start": 7630.98,
+      "end": 7632.98,
+      "text": "te pediría un diagrama de espliedad."
+    },
+    {
+      "start": 7633.98,
+      "end": 7635.98,
+      "text": "Pero sí, para hacerse los sectores de todo,"
+    },
+    {
+      "start": 7635.98,
+      "end": 7637.98,
+      "text": "te pediría un diagrama de espliedad en una esquema de plantas."
+    },
+    {
+      "start": 7637.98,
+      "end": 7646.06,
+      "text": "Y hay un montón de sensores,"
+    },
+    {
+      "start": 7646.06,
+      "end": 7651.6,
+      "text": "por ejemplo, no se están con calderas."
+    },
+    {
+      "start": 7651.6,
+      "end": 7654.6,
+      "text": "Bueno, tengo que subir la temperatura de la caldera,"
+    },
+    {
+      "start": 7654.6,
+      "end": 7656.6,
+      "text": "entonces tengo que calder."
+    },
+    {
+      "start": 7656.6,
+      "end": 7659.6,
+      "text": "Y son más cosas que ustedes también tienen que ir pensando."
+    },
+    {
+      "start": 7659.6,
+      "end": 7664.02,
+      "text": "Porque como hago para que llegue a la caldera,"
+    },
+    {
+      "start": 7664.02,
+      "end": 7667.02,
+      "text": "y bueno, los sigbite permite,"
+    },
+    {
+      "start": 7668.02,
+      "end": 7671.12,
+      "text": "no van a saber todo eso,"
+    },
+    {
+      "start": 7671.12,
+      "end": 7674.12,
+      "text": "pero sí la idea de esta clase es que ustedes"
+    },
+    {
+      "start": 7674.12,
+      "end": 7679.12,
+      "text": "ya el día de mañana tienen que hacer algo de domótica"
+    },
+    {
+      "start": 7679.12,
+      "end": 7682.12,
+      "text": "o lo quieren hacer en sus casas para automatizar."
+    },
+    {
+      "start": 7682.12,
+      "end": 7688.56,
+      "text": "Hoy piden cositas de China y tienen sensores"
+    },
+    {
+      "start": 7688.56,
+      "end": 7691.56,
+      "text": "algo que es fundamental, por ejemplo,"
+    },
+    {
+      "start": 7691.56,
+      "end": 7696.56,
+      "text": "es el sensor para ver si hay escape de gas o no en la cocina."
+    },
+    {
+      "start": 7697.56,
+      "end": 7699.56,
+      "text": "Creo que en las de China sale 60 mil pesos,"
+    },
+    {
+      "start": 7699.56,
+      "end": 7702.56,
+      "text": "salvo de barato y salvo de alarma."
+    },
+    {
+      "start": 7702.56,
+      "end": 7706.11,
+      "text": "Usted lo puede automatizar, le pueden llegar a una alarma,"
+    },
+    {
+      "start": 7706.11,
+      "end": 7708.11,
+      "text": "al celular."
+    },
+    {
+      "start": 7708.11,
+      "end": 7711.11,
+      "text": "Hoy se puede hacer, hoy no son cosas caras."
+    },
+    {
+      "start": 7711.11,
+      "end": 7715.11,
+      "text": "Entonces, el objetivo de esto es que ustedes"
+    },
+    {
+      "start": 7715.11,
+      "end": 7720.64,
+      "text": "sepan que existen, sepan que ya lo sepan,"
+    },
+    {
+      "start": 7720.64,
+      "end": 7725.64,
+      "text": "sepan que pueden comunicarse con cobras con algún celular"
+    },
+    {
+      "start": 7725.64,
+      "end": 7728.64,
+      "text": "porque la comunicación se puede hacer a todas las tardes de YouTube."
+    },
+    {
+      "start": 7728.64,
+      "end": 7730.64,
+      "text": "Pero bueno, ¿qué pasa? ¿Qué pasa?"
+    },
+    {
+      "start": 7730.64,
+      "end": 7731.64,
+      "text": "¿Qué es otra de YouTube?"
+    },
+    {
+      "start": 7731.64,
+      "end": 7734.64,
+      "text": "Tengo que vincular. Tengo que tener una mínima lógica"
+    },
+    {
+      "start": 7734.64,
+      "end": 7737.64,
+      "text": "para hacerlo. Bueno, la idea de la clase de sistema de tiempo real"
+    },
+    {
+      "start": 7737.64,
+      "end": 7740.64,
+      "text": "y de presentarlo en un montón de sensores y tartadores"
+    },
+    {
+      "start": 7740.64,
+      "end": 7745.86,
+      "text": "es para que puedan el día de mañana si tienen que hacer algo"
+    },
+    {
+      "start": 7745.86,
+      "end": 7760.89,
+      "text": "recordar que tienen que analizar estas cosas."
+    },
+    {
+      "start": 7760.89,
+      "end": 7763.94,
+      "text": "¿Estás?"
+    },
+    {
+      "start": 7763.94,
+      "end": 7765.94,
+      "text": "Ah, y otro que voy a subir,"
+    },
+    {
+      "start": 7765.94,
+      "end": 7772.04,
+      "text": "son las que me voy a hacer mucho."
+    },
+    {
+      "start": 7772.04,
+      "end": 7775.04,
+      "text": "En el video, yo escribi, le voy a pasar también,"
+    },
+    {
+      "start": 7775.04,
+      "end": 7778.04,
+      "text": "ya se lo he pasado así, me he habido."
+    },
+    {
+      "start": 7778.04,
+      "end": 7786.73,
+      "text": "Algo de soba está muy bien detallado."
+    },
+    {
+      "start": 7786.73,
+      "end": 7792.05,
+      "text": "Las primeras cinco, seis hojas de un apunte,"
+    },
+    {
+      "start": 7792.05,
+      "end": 7796.05,
+      "text": "que arme en su momento de soba para lo que es servicios."
+    },
+    {
+      "start": 7796.05,
+      "end": 7798.05,
+      "text": "Eso también entra."
+    },
+    {
+      "start": 7798.05,
+      "end": 7802.48,
+      "text": "Era estiórico."
+    },
+    {
+      "start": 7802.48,
+      "end": 7804.48,
+      "text": "¿Ok? Hola, les subo todo."
+    },
+    {
+      "start": 7804.48,
+      "end": 7812.74,
+      "text": "Todo lo que vimos más eso, que quiero que desoba hacia autoestudia."
+    },
+    {
+      "start": 7812.74,
+      "end": 7815.89,
+      "text": "Estamos proceder, gracias."
+    },
+    {
+      "start": 7815.89,
+      "end": 7819.89,
+      "text": "Fantástico. No se olviden de sino ir, yo,"
+    },
+    {
+      "start": 7819.89,
+      "end": 7825.53,
+      "text": "mi arco les a la tarde, estoy sacando la cantidad de alumnos"
+    },
+    {
+      "start": 7825.53,
+      "end": 7828.53,
+      "text": "que voy a van a ir a rendir el examen,"
+    },
+    {
+      "start": 7828.53,
+      "end": 7830.82,
+      "text": "sino van,"
+    },
+    {
+      "start": 7830.82,
+      "end": 7838.07,
+      "text": "va a entrar en el Excel y saldeme la existencia."
+    },
+    {
+      "start": 7839.36,
+      "end": 7844.96,
+      "text": "Así no me llevo tantos suavemente a mi casa."
+    },
+    {
+      "start": 7844.96,
+      "end": 7850.38,
+      "text": "Nos vemos chicos, le deseo lo mejor, nos vemos el jueves,"
+    },
+    {
+      "start": 7850.38,
+      "end": 7853.38,
+      "text": "éxitos, estudian y nos vemos."
+    },
+    {
+      "start": 7853.38,
+      "end": 7859.8,
+      "text": "Yo he hecho el profe."
+    },
+    {
+      "start": 7859.8,
+      "end": 7860.8,
+      "text": "Nos vemos el profe."
+    },
+    {
+      "start": 7860.8,
+      "end": 7861.8,
+      "text": "¿Qué ha hecho?"
+    },
+    {
+      "start": 7861.8,
+      "end": 7867.99,
+      "text": "Nos vemos para la grabación, sí."
+    }
+  ]
+}

@@ -1,0 +1,2971 @@
+{
+  "metadata": {
+    "id": "03_20260903_081406",
+    "class_label": "Clase 03 - Parte 1",
+    "date": "2026-09-03",
+    "file": "Clase 03-20260903_081406-Grabación de la reunión 1.mp4"
+  },
+  "duration": 6213.824,
+  "segments": [
+    {
+      "start": 15.86,
+      "end": 131.65,
+      "text": "Hola. Hola, ¿cómo andan? Buen día. Buen día, nunca. Buen día. Buen día. Buen día, ¿cómo andan? Ahora sí, ¿cómo están todos acá? Buen apropio. No, poquito soy. No conseguí aula para el día de hoy. Así que, tuvimos que hacer la reunión virtual por eso mandé la invitación. La clase que viene sí, tengo aula. Ahora se las voy a pasar. Así ya les queda."
+    },
+    {
+      "start": 131.65,
+      "end": 234.52,
+      "text": "Aquí está el aula es la 136. Aquí se van organizando la transmando un minuto y arrancamos. Bueno, yo con ustedes calidad lo dí no, sí, lo dí. Lo voy a cerrar. Vamos a comentar un poco con UML."
+    },
+    {
+      "start": 234.52,
+      "end": 278.47,
+      "text": "Se debemos hacer la clase de hoy, un repaso sobre todos los diagramas, vamos a hacer por parte un minuto. Vamos a compartir."
+    },
+    {
+      "start": 278.47,
+      "end": 337.58,
+      "text": "¿También no me imagina? Sí. Y trafe. Bueno, voy a usar otra cosita más ya estoy con ustedes, me encuentro."
+    },
+    {
+      "start": 337.58,
+      "end": 366.48,
+      "text": "Voy a ver una de las presentaciones que vimos el tema de día porque me gusta retomar desde el punto anterior que estúnos bien y trabajando para empezar a relacionar el tema."
+    },
+    {
+      "start": 366.48,
+      "end": 384.57,
+      "text": "Recuerdan que vivimos esto, tuvimos hablando sobre la ingeniería de software, nuestro focus siempre en lo que ingeniería y dependiente de las ingenierías, es construir un producto con calidad y obviamente nos bajamos en algunos procesos."
+    },
+    {
+      "start": 384.57,
+      "end": 409.66,
+      "text": "Estudimos trabajados los dos primeras clases fundamentalmente con una metodología tipo Scram, en donde usamos algunos elementos que nos aprendaba las metodologías áciles como podríamos hacer las historias de usuario, hicimos el prototipado y hicimos..."
+    },
+    {
+      "start": 409.66,
+      "end": 435.6,
+      "text": "Vamos para acá. Hicimos también pruebas de usabilidad y hicimos una simulación. tuvimos como una especie de evaluación de la sistema de usuario y les pusimos una prioridad simulando que ustedes sean el cliente."
+    },
+    {
+      "start": 435.6,
+      "end": 469.97,
+      "text": "Hacamos trabajando un montón, pero siempre basándonos en metodologías áciles, los minutitos de abro esto. Vimos yagramos en la viabilidad también. Hicimos una especie de simulación en donde la idea era empezar a relacionar la vista de la historia de usuario, armamos un sprint, muy básico porque la idea estaba siendo obviamente una simulación."
+    },
+    {
+      "start": 469.97,
+      "end": 490.32,
+      "text": "En cuatro horas pero no importa y después de eso empezamos a armar un guión de acuerdo a la historia de usuario que llevamos a probar armamos que el objetivo y después empezamos a hacer la prueba de usabilidad. Esto los recuerdan."
+    },
+    {
+      "start": 490.32,
+      "end": 513.01,
+      "text": "La idea es que siempre vamos mezclando usando diferentes metodologías, las metodologías puras, puras, es muy difícil de utilizar uno, va conociendo diferentes procesos y va utilizando esos procesos las buenas prácticas de los mismos."
+    },
+    {
+      "start": 513.01,
+      "end": 525.52,
+      "text": "Por lo tanto, es muy correcto que la universidad y ustedes en otras materias les van a enseñar que las metodologías son totalmente puras y es cierto."
+    },
+    {
+      "start": 525.52,
+      "end": 541.52,
+      "text": "Pero después en la realidad lo que sucede es que uno empieza a mezclar buenas prácticas de metodologías y tal vez no estoy en una metodología tipo Scram, estoy en otro tipo de metodologías, equipe o estoy en algunas nuevas de ahora."
+    },
+    {
+      "start": 541.52,
+      "end": 554.0,
+      "text": "Yo voy a realizar un prototipado, voy a utilizar historias de usuario o esta parte funcional es muy complicada, voy a utilizar otro tipo de metodologías."
+    },
+    {
+      "start": 554.0,
+      "end": 566.0,
+      "text": "Cuando necesito alguna metodología con mayor ceremonia, entonces me voy a alguna otra que me brinde mayor de celebrados."
+    },
+    {
+      "start": 566.0,
+      "end": 579.41,
+      "text": "Y ahí estuvimos siempre hablando de Rubb, dentro de nuestro diseño, obviamente nos brinamos un proceso muy extenso, donde pasamos por diferentes disciplinas,"
+    },
+    {
+      "start": 579.41,
+      "end": 591.41,
+      "text": "una de esas disciplinas es el diseño de brinda el método de cómo diseñar y le herramienta que nos brindaba esto lo que es respecto a lo humilde."
+    },
+    {
+      "start": 591.41,
+      "end": 600.41,
+      "text": "Obviamente es un proceso que está aliado por historias de usuarios, eso viene posterior a este proceso, sino que está aliado por casos de uso."
+    },
+    {
+      "start": 600.41,
+      "end": 612.02,
+      "text": "Entonces vamos a hacer un repaso de los casos de uso, me imagino que ustedes casos de uso de la obra, ¿misto?"
+    },
+    {
+      "start": 612.02,
+      "end": 616.42,
+      "text": "Sí, sí me tengo que ver."
+    },
+    {
+      "start": 616.42,
+      "end": 626.46,
+      "text": "Yo suelo empezar a relacionar un poco los temas y tratar de darle un contexto con respecto al diseño, ¿ok?"
+    },
+    {
+      "start": 626.46,
+      "end": 631.15,
+      "text": "Un minuto, bueno vamos a empezar."
+    },
+    {
+      "start": 631.15,
+      "end": 638.86,
+      "text": "Para ustedes que si ya no tengo que decir, tienes un caso de uso, ¿cómo me lo pueden definir?"
+    },
+    {
+      "start": 638.86,
+      "end": 648.41,
+      "text": "Acá estoy mostrando alguna."
+    },
+    {
+      "start": 648.41,
+      "end": 653.98,
+      "text": "Describimos una funcionalidad completa desde el punto de vista del usuario."
+    },
+    {
+      "start": 653.98,
+      "end": 660.98,
+      "text": "Fantástico, estamos de acuerdo, me rinla una funcionalidad completa, podemos saber si significa esto para nosotros."
+    },
+    {
+      "start": 662.46,
+      "end": 666.46,
+      "text": "Nos vemos una funcionalidad para de qué es lo que hace."
+    },
+    {
+      "start": 666.46,
+      "end": 681.56,
+      "text": "La realidad es que yo voy a tener en los casos de uso diferentes formalidades, se suelen denominar, ¿ok?"
+    },
+    {
+      "start": 681.56,
+      "end": 693.56,
+      "text": "Esas formalidades pueden ser tres, que son las breves informales y completas, está en un caso de uso, no me desquivel, esta funcionalidad o esa interacción, ¿está?"
+    },
+    {
+      "start": 693.56,
+      "end": 714.04,
+      "text": "De todo son requisitos de lo que va a hacer el sistema y se basa en escenarios y de acuerdo a las sigas las formalidades y a los detalles, que yo les voy a ir dando, se pueden separar entre,"
+    },
+    {
+      "start": 715.04,
+      "end": 717.04,
+      "text": "los detalles informales y completos."
+    },
+    {
+      "start": 717.04,
+      "end": 732.04,
+      "text": "En breves son casos de uso muy concizos, posiblemente de un párrafo, es más, si quiero ser una osquecea analogía, podría decir que son como las historias de usuario, bien concretas y cortas."
+    },
+    {
+      "start": 733.17,
+      "end": 754.17,
+      "text": "Luego está en las según las formalidades son los informales, ya hay comprése en varios escenarios, son más párrafos, no es un único párrafo como el anterior, y después el que vieron posiblemente ustedes, y es el que se enseña, es el completo,"
+    },
+    {
+      "start": 755.68,
+      "end": 778.68,
+      "text": "ella es un poco más elaborado, se define una secuencia entre el actor y el sistema, hay una instancia, pero de una mira una instancia del caso de uso, es una historia particular y donde si yo voy a ir con todas las disfruccaciones del historio de usuario, ya habéis de hablar de algunos, de incluir algunos externos."
+    },
+    {
+      "start": 780.38,
+      "end": 799.43,
+      "text": "Los elementos que tienen en el caso de uso, vamos a borrar así, los elementos tienen, se acuerdan acá los vemos, como están formados los casos de uso, ¿qué tienen?"
+    },
+    {
+      "start": 799.43,
+      "end": 804.39,
+      "text": "Les digo, empiezan a hacer un caso de uso, ¿qué es lo que tiene?"
+    },
+    {
+      "start": 804.39,
+      "end": 809.94,
+      "text": "Actores, actores fantásticos, ¿qué más?"
+    },
+    {
+      "start": 809.94,
+      "end": 821.5,
+      "text": "No te escuches, roles, bueno, ¿qué más?"
+    },
+    {
+      "start": 821.5,
+      "end": 823.5,
+      "text": "El sistema de la ansi mismo que es el rectángulo."
+    },
+    {
+      "start": 823.5,
+      "end": 833.61,
+      "text": "El sistema bueno, ahora lo vamos a hablar, más en el diagrama del caso de uso, pero está bien, ¿qué más tiene?"
+    },
+    {
+      "start": 833.61,
+      "end": 837.61,
+      "text": "¿Qué es la acción entre el caso de uso? ¿O con otros casos de uso?"
+    },
+    {
+      "start": 837.61,
+      "end": 854.61,
+      "text": "Ahí, ya no es el caso de uso, sino el diagrama del caso de uso, pero está bien, es mala, voy a empezar a subir un minuto, ya que estamos, para empezar a hablar un poquito de las diferencias entre lo que es la especificación del caso de uso y el diagrama del caso de uso."
+    },
+    {
+      "start": 854.61,
+      "end": 870.23,
+      "text": "¿No se escriben también la interacción entre el sistema y el actor?"
+    },
+    {
+      "start": 870.23,
+      "end": 872.23,
+      "text": "Fantástico, interacción."
+    },
+    {
+      "start": 872.23,
+      "end": 876.3,
+      "text": "Obviamente esta es prácticamente la edificción, ¿no?"
+    },
+    {
+      "start": 876.3,
+      "end": 885.3,
+      "text": "Son requisitos, significa que es lo que va a hacer el sistema, basándonos justamente en escenario, interacción entre el actor y el sistema."
+    },
+    {
+      "start": 888.89,
+      "end": 898.0,
+      "text": "Un minuto, pagado muy más de la gargante, cada tanto, estoy tomando algo minuta, ahí está."
+    },
+    {
+      "start": 898.0,
+      "end": 913.44,
+      "text": "Y obviamente yo tengo dos elementos para especificar casos de uso o para, porque la que estoy haciendo en un caso de uso, es escribir la funcionalidad, ¿no?"
+    },
+    {
+      "start": 913.44,
+      "end": 934.49,
+      "text": "Entonces es una vista funcional, la recuerden, tengo el ojito de mirando la parte funcional de la solución, después veo de otro tipo de solucion, otro tipo de vista, y voy a ver en la sala de los datos, ¿no? ¿Y algún der? ¿Usted va a ser datos de hieron, ¿no?"
+    },
+    {
+      "start": 934.49,
+      "end": 935.49,
+      "text": "¿Sí?"
+    },
+    {
+      "start": 935.49,
+      "end": 955.81,
+      "text": "Entonces, tengo que ir, voy a trabajar con un sistema donde la base de datos es relacional, o me voy a manejar con base de datos relacionales, digo, en el diseño de arbunder es otra vista."
+    },
+    {
+      "start": 955.81,
+      "end": 977.13,
+      "text": "Si yo quiero enfocarme en la vista del diseño, digo, bueno, ¿qué voy a hacer? Y puedo hacer historias usuarios, puedo hacer casos de uso, y capaz que lo puedo confler dar con otros, otros, otra vista, es justamente el diagrama de casos de uso."
+    },
+    {
+      "start": 977.13,
+      "end": 1004.19,
+      "text": "Ok, acá tengo la especificación más detallada de un caso de uso, y si yo quiero ver una vista general de todos los casos de uso, me voy a otra vista, porque realmente tener leer todos los casos de uso no me va a poder dar una foto general de todo el sistema, entonces me voy a otra vista que me va a brindar justamente UML, ¿no? ¿Qué son los casos de uso?"
+    },
+    {
+      "start": 1004.19,
+      "end": 1017.67,
+      "text": "¿Qué son los diagramas de casos de uso? ¿Qué es diferente al caso de uso? Ahora vamos a ir después al caso de uso, yo trato de hacer un panio general de todos los diagramas."
+    },
+    {
+      "start": 1017.67,
+      "end": 1033.57,
+      "text": "Bueno, entonces si me voy a la especificación del caso de uso, lo que yo estoy describiendo, tengo diferentes tipos de elementos, obviamente ustedes me comentaron este actor, fundamental en el actor."
+    },
+    {
+      "start": 1033.57,
+      "end": 1041.13,
+      "text": "Y si tengo que definir el actor, ¿cómo lo definirían? ¿Qué es el actor?"
+    },
+    {
+      "start": 1041.13,
+      "end": 1043.13,
+      "text": "El que hace algo."
+    },
+    {
+      "start": 1043.13,
+      "end": 1065.98,
+      "text": "El que hace algo, es algo o alguien con comportamiento, y algo que para mí es fundamental, reaclarir a casi ya se los queda, es que tiene una objetivo, no está porque sí en el caso de uso, tiene la objetivo posiblemente, no, del nombre que yo le voy a dar ese caso de uso."
+    },
+    {
+      "start": 1065.98,
+      "end": 1076.98,
+      "text": "Me digo, registrarme y vas a tener el actor y el objetivo de lograr la registración, es el mayor beneficio saca de obtener esa registración."
+    },
+    {
+      "start": 1076.98,
+      "end": 1094.36,
+      "text": "Yo quiero algún otro caso de uso como bueno, voy a los más sencillos, ¿no? Olví a la Pajor, bueno, el actor que tiene el objetivo principal de obtener esa clave."
+    },
+    {
+      "start": 1094.36,
+      "end": 1104.39,
+      "text": "Por lo tanto, cuando ustedes duden como detectar el actor, esta civil, ¿quién será la celetaria o el coordinador?"
+    },
+    {
+      "start": 1104.39,
+      "end": 1114.39,
+      "text": "Bueno, ahí piensan quién tiene, quién saca el mayor provecho de lograr ese caso de uso, está aquí en el objetivo principal."
+    },
+    {
+      "start": 1114.39,
+      "end": 1121.97,
+      "text": "Está bien se vivía en entre en activos, pasivos y apoyo."
+    },
+    {
+      "start": 1123.42,
+      "end": 1137.99,
+      "text": "Activos o a veces los denominan también otros, allá van principales, de acuerdo a la autor con el que estoy trabajando."
+    },
+    {
+      "start": 1139.73,
+      "end": 1146.86,
+      "text": "Principal es porque tienen lo objetivo primordial, el mayor beneficio de todo esto."
+    },
+    {
+      "start": 1146.86,
+      "end": 1153.84,
+      "text": "Los de apoyo, me voy a empezar con los de apoyo."
+    },
+    {
+      "start": 1153.84,
+      "end": 1164.7,
+      "text": "Los de apoyo son los que están proporcionando algún servicio, porque la proporcionan algún servicio."
+    },
+    {
+      "start": 1165.7,
+      "end": 1172.7,
+      "text": "Por ejemplo, estoy con algún sistema externo y me brinda algún servicio."
+    },
+    {
+      "start": 1172.7,
+      "end": 1183.7,
+      "text": "Y los pasivos, obviamente, está interesado en que alguien te pueda realizar ese caso de uso, pero realmente está con un interés menor."
+    },
+    {
+      "start": 1183.7,
+      "end": 1194.14,
+      "text": "Por ejemplo, puede ser a Fib, si yo quiero, procesar una venta y le informo a la Fib, bueno, eso lo tengo como un interesado,"
+    },
+    {
+      "start": 1194.14,
+      "end": 1197.14,
+      "text": "pero lo he interesado totalmente secundario."
+    },
+    {
+      "start": 1197.14,
+      "end": 1204.91,
+      "text": "Hay una relación, no me brinda un servicio sino que bueno, estoy interesado en el ejecutad."
+    },
+    {
+      "start": 1204.91,
+      "end": 1219.94,
+      "text": "En cambio, si estoy por ejemplo en un sistema donde veo la temperatura del día de hoy y bueno, ya acuerdo eso, levanto, no la prasiana, de mi casa."
+    },
+    {
+      "start": 1220.94,
+      "end": 1230.94,
+      "text": "El actor va a decir, bueno, levantar la prasiana y capaz que necesito un servicio del aléfico argentino para evaluar si está soviado, no por ejemplo."
+    },
+    {
+      "start": 1230.94,
+      "end": 1238.94,
+      "text": "Entonces ahí si tengo, me brinda un servicio, me proporciona un servicio y se los denominar los de apoyo."
+    },
+    {
+      "start": 1240.38,
+      "end": 1258.66,
+      "text": "No voy a fijarme en la separación de estos tres tipos de actores, pero bueno, también a medida que uno va transitando la carrera también y va refrescando a veces los contenidos van quedando."
+    },
+    {
+      "start": 1258.66,
+      "end": 1261.66,
+      "text": "Entonces también por eso lo hablamos."
+    },
+    {
+      "start": 1262.82,
+      "end": 1267.82,
+      "text": "Otro de los elementos fundamentales que tienen es el nombre, es fundamental que sea el nombre."
+    },
+    {
+      "start": 1267.82,
+      "end": 1279.06,
+      "text": "O sea, recuerdan cómo tenía que ser el nombre, siempre se han colubbergo con un verbo perfecto."
+    },
+    {
+      "start": 1279.06,
+      "end": 1283.74,
+      "text": "No escuché cómo."
+    },
+    {
+      "start": 1283.74,
+      "end": 1288.74,
+      "text": "Normalmente un verbo y un sustantivo, por ejemplo, registrar venta."
+    },
+    {
+      "start": 1288.74,
+      "end": 1292.84,
+      "text": "Registrar venta casi siempre claro, fantástico."
+    },
+    {
+      "start": 1292.84,
+      "end": 1306.35,
+      "text": "Tengo precondición en el otro de los elementos, de los casos de uso, las precondiciones tienen que ser precondiciones que sean coherentes y válidas."
+    },
+    {
+      "start": 1307.35,
+      "end": 1313.35,
+      "text": "No vamos a poner que esté entendida la computadora o que haya la electricidad o que ya me haya loviado."
+    },
+    {
+      "start": 1313.35,
+      "end": 1318.51,
+      "text": "Es algo, cuando son obvías no se ponen."
+    },
+    {
+      "start": 1318.51,
+      "end": 1325.37,
+      "text": "Ponemos las precondiciones que ameritan."
+    },
+    {
+      "start": 1325.37,
+      "end": 1339.22,
+      "text": "Después tenemos el escenario, flujo principal, que es con ustedes, estuvieron trabajando los anteriores y el flujo secundario."
+    },
+    {
+      "start": 1340.22,
+      "end": 1345.54,
+      "text": "Hay dos tipos de modelos de los casos de uso."
+    },
+    {
+      "start": 1345.54,
+      "end": 1351.55,
+      "text": "Un minuto."
+    },
+    {
+      "start": 1351.55,
+      "end": 1357.87,
+      "text": "La realidad de que calculo que ustedes utilizaron es el uno de..."
+    },
+    {
+      "start": 1357.87,
+      "end": 1368.87,
+      "text": "donde explica que hay un barra fobreve y lo que hace es colocar en una única columna, en una única columna,"
+    },
+    {
+      "start": 1369.87,
+      "end": 1375.16,
+      "text": "todos los pasos de interacción entre el actor y el usuario."
+    },
+    {
+      "start": 1375.16,
+      "end": 1381.16,
+      "text": "Es un flujo donde van detallando todos los pasos. Esta es la primera forma."
+    },
+    {
+      "start": 1381.16,
+      "end": 1386.16,
+      "text": "Es la más utilizada en el análisis."
+    },
+    {
+      "start": 1386.16,
+      "end": 1393.29,
+      "text": "Es la que usaron ustedes."
+    },
+    {
+      "start": 1394.29,
+      "end": 1405.99,
+      "text": "Después está la segunda forma, donde ya no tengo una columna, tengo ya dos columnas, en donde separo las acciones del actor con las acciones del sistema."
+    },
+    {
+      "start": 1405.99,
+      "end": 1413.09,
+      "text": "¿Está a usarlo?"
+    },
+    {
+      "start": 1413.09,
+      "end": 1415.09,
+      "text": "No, no me suena."
+    },
+    {
+      "start": 1415.09,
+      "end": 1418.09,
+      "text": "Recordo que la mostraron pero no la usamos."
+    },
+    {
+      "start": 1419.09,
+      "end": 1430.09,
+      "text": "De los dos formas de casos de uso, lo que se suele utilizar es que en el análisis, por eso también se lo mostró, porque uno tiene que empezar a transicionar del análisis al diseño."
+    },
+    {
+      "start": 1430.09,
+      "end": 1447.18,
+      "text": "Entonces, cuando tenemos el diseño, empezamos a trabajar el diseño fundamental, porque la realidad es que el artefacto de entrada es lo que ustedes haya hecho en el análisis."
+    },
+    {
+      "start": 1448.18,
+      "end": 1459.0,
+      "text": "Estamos de acuerdo, yo necesito que ustedes salgan, aunque sea mentalmente, una análisis en lo que van a estar."
+    },
+    {
+      "start": 1459.0,
+      "end": 1478.0,
+      "text": "Entonces, ustedes estuvieron trabajando en los años anteriores, en los cuadremeces anteriores, si hicieron de haber a una especificación o casos de uso, y posiblemente trabajaron esto y tenemos que llevarlo a cercarnos cada vez, a hacer una transformación y a cercarnos cada vez más al diseño."
+    },
+    {
+      "start": 1478.0,
+      "end": 1501.09,
+      "text": "La realidad es que este tipo, estas formas, la más usada en el análisis, pero cuando ya nos vamos acercando, no se recomienda para el análisis del diseño, pero la realidad es que a mí me gusta más la formador del caso de uso, porque ya empiezas a separar lo que hace el actor y lo que hace el sistema."
+    },
+    {
+      "start": 1501.09,
+      "end": 1516.31,
+      "text": "Entonces, acá tengo todas las acciones del actor y acá tengo todas las acciones que representan las acciones propias del sistema."
+    },
+    {
+      "start": 1517.47,
+      "end": 1528.54,
+      "text": "Arrasten otros elementos, pos condiciones, uso alternativo, si estoy trabajando en las formas dos, los flujes alternativos también, respeto estas dos columnas."
+    },
+    {
+      "start": 1529.54,
+      "end": 1538.54,
+      "text": "Excepción, después acá he empezado a poblarlo para basar, para llegar a unas formas super completas."
+    },
+    {
+      "start": 1538.54,
+      "end": 1559.74,
+      "text": "Y acá tengo un prototipo si quiere agregarlos, etcétera. La realidad es que esta, a mí la llamada me gusta, simple hecho de que ya he empezado a hacer un principio del buen diseño,"
+    },
+    {
+      "start": 1560.74,
+      "end": 1564.74,
+      "text": "si lo tengo por acá en los principios del buen diseño, no, no, no voy a buscar."
+    },
+    {
+      "start": 1564.74,
+      "end": 1576.74,
+      "text": "Empiezo a aplicar uno de los principios del buen diseño, que es justamente la separación de incumbencias y que sea experto y que cada uno haga lo que le corresponde, hay muchos."
+    },
+    {
+      "start": 1576.74,
+      "end": 1593.57,
+      "text": "Empezar a separar, que sea acuésivo. Empiezo ya aplicar desde ese momento, un minutito, esta acá vamos a dar."
+    },
+    {
+      "start": 1596.94,
+      "end": 1605.8,
+      "text": "Y después se lo busquise en su."
+    },
+    {
+      "start": 1605.8,
+      "end": 1636.37,
+      "text": "O sea, todo el buen diseño. Esto las pongo acá para que lo lean todos los días antes de empezar la gracia."
+    },
+    {
+      "start": 1636.37,
+      "end": 1646.65,
+      "text": "Entonces, en piso a separarlos. Vamos a hacer uno. Nosotros estuvimos trabajando con el ejercicio del gimnasio,"
+    },
+    {
+      "start": 1647.65,
+      "end": 1652.65,
+      "text": "se recuerdan que en el ejercicio del gimnasio estuvimos también trabajando, esto lo voy a programar, ¿no?"
+    },
+    {
+      "start": 1652.65,
+      "end": 1662.02,
+      "text": "Así ya no es de la mano. Estoy trabajando con un montón de casos de, perdón, de historias de usuario."
+    },
+    {
+      "start": 1662.02,
+      "end": 1681.78,
+      "text": "Obviamente, no me ditan si era algún momento era lo único que teníamos, entonces la realidad es que si utilizaba muchísimo,"
+    },
+    {
+      "start": 1682.78,
+      "end": 1691.78,
+      "text": "después fuimos incorporando otros elementos en nuestra ingeniería y aparecieron las historias de usuario, los protocipados."
+    },
+    {
+      "start": 1691.78,
+      "end": 1700.78,
+      "text": "Entonces fuimos evolucionando, entonces no se le di ya aplicamos casos de uso en algunos casos muy puntuales."
+    },
+    {
+      "start": 1700.78,
+      "end": 1709.39,
+      "text": "O si estoy haciendo un desarrollo muy complejo que requiere muchas pruebas ahí sí va de la pena."
+    },
+    {
+      "start": 1710.65,
+      "end": 1719.65,
+      "text": "Si yo quiero llevar a algunos de estos, bueno voy a empezar a pensar cómo puedo llevarlo a una especificación de caso de uso."
+    },
+    {
+      "start": 1719.65,
+      "end": 1730.63,
+      "text": "Yo voy a basar en algo sencillo, voy a ir, imagínense que tenemos que pensar, bueno, en un minuto,"
+    },
+    {
+      "start": 1731.63,
+      "end": 1769.94,
+      "text": "voy a ir a lo más simple, que es la especificación de en un minuto, vamos a ir a pagar fotos de escribnación."
+    },
+    {
+      "start": 1769.94,
+      "end": 1785.7,
+      "text": "Si yo la realidad es que todo lo demás es bastante sencillo, pero quiero saber quienes son los que están activos,"
+    },
+    {
+      "start": 1786.93,
+      "end": 1799.0,
+      "text": "quiero dar más una gotina, vamos a lo que involucrio algo más conocido, que involucre a varios casos de uso,"
+    },
+    {
+      "start": 1799.0,
+      "end": 1802.0,
+      "text": "y voy a decir, bueno voy a pagar la quota de escribnación."
+    },
+    {
+      "start": 1802.0,
+      "end": 1840.86,
+      "text": "Obviamente lo que me estoy haciendo, un verbo para dar complejidad, prioridad, no les digo prioridad,"
+    },
+    {
+      "start": 1841.86,
+      "end": 1844.86,
+      "text": "está requerimiento de funcionar así o tampoco, importan."
+    },
+    {
+      "start": 1844.86,
+      "end": 1852.02,
+      "text": "Pero en la segunda forma recuerden, por lo tanto tengo ya dos columbnas, tengo el actor,"
+    },
+    {
+      "start": 1852.02,
+      "end": 1863.3,
+      "text": "yo les digo una definición simple, está como para que ustedes recuerden, el que quiere que realmente pagar la quota aquí en un tiempo a hacer."
+    },
+    {
+      "start": 1863.3,
+      "end": 1865.01,
+      "text": "Eso sí."
+    },
+    {
+      "start": 1867.99,
+      "end": 1876.92,
+      "text": "Dos sios alumnos, ahí después vemos cómo queda, y obviamente el sistema queda con nombre de sistema."
+    },
+    {
+      "start": 1876.92,
+      "end": 1885.94,
+      "text": "Entonces, esto, empieza a pensar, obviamente si yo ya he trabajado con IWX, ya tengo el prototipado,"
+    },
+    {
+      "start": 1885.94,
+      "end": 1890.94,
+      "text": "estoy sin interacción, el que va a recibir el prototipado lo va a conocer."
+    },
+    {
+      "start": 1890.94,
+      "end": 1894.94,
+      "text": "Ahora si tengo algo muy complejo, me voy a interactuar con otros sistemas,"
+    },
+    {
+      "start": 1895.94,
+      "end": 1902.07,
+      "text": "tengo que pedir la información a la feedback y tengo que conectarme con mi, con mi está,"
+    },
+    {
+      "start": 1902.07,
+      "end": 1908.07,
+      "text": "o tengo que conectarme con mercado pago, y bueno ya pueden empezar a pensar en algo de mayor detalle."
+    },
+    {
+      "start": 1908.07,
+      "end": 1913.07,
+      "text": "Lo puedo decir bien, la historia de usuario si estoy trabajando exclusivamente con Scram,"
+    },
+    {
+      "start": 1913.07,
+      "end": 1918.07,
+      "text": "si ahora si estoy trabajando en una empresa donde realmente hacen casos de uso,"
+    },
+    {
+      "start": 1918.07,
+      "end": 1928.07,
+      "text": "y ahora continuo con esto, son diferentes herramientas que me permiten tener la misma vista, la vista funcional."
+    },
+    {
+      "start": 1928.07,
+      "end": 1941.38,
+      "text": "Entonces digo el bueno en socio, ingresa a la sección de casos, no sé si va a hacer así,"
+    },
+    {
+      "start": 1941.38,
+      "end": 1946.93,
+      "text": "pero le voy a dar bastante contenido para poder trabajar después."
+    },
+    {
+      "start": 1947.93,
+      "end": 1980.11,
+      "text": "El tema muestra el estado de la cuenta del socio y las monta a pagar más las diferentes formas de pago."
+    },
+    {
+      "start": 1982.49,
+      "end": 1997.52,
+      "text": "En el 3 selección la opción para pagar cuota, la opción para pagar cuota,"
+    },
+    {
+      "start": 1997.52,
+      "end": 2015.35,
+      "text": "estoy acá, capaz que no hay muestra opciones del pago, puede ser por ejemplo una cuota,"
+    },
+    {
+      "start": 2015.35,
+      "end": 2041.42,
+      "text": "un pago, una cuota, hay una promo, promoción de tres veces, promoción anual y tan bien el sistema de muestra,"
+    },
+    {
+      "start": 2041.42,
+      "end": 2050.77,
+      "text": "las diferentes formas de pago."
+    },
+    {
+      "start": 2052.86,
+      "end": 2066.3,
+      "text": "Forma de pago, voy a ser transferencia, me ha estado pago, la cita del erenso, la cita del erenso,"
+    },
+    {
+      "start": 2066.3,
+      "end": 2079.61,
+      "text": "y después vamos."
+    },
+    {
+      "start": 2079.61,
+      "end": 2087.81,
+      "text": "Siempre tengo que ir por un flujo, por un escenario,"
+    },
+    {
+      "start": 2087.81,
+      "end": 2091.81,
+      "text": "recorda que tengo el caso de uso y yo tengo que instanciarlo,"
+    },
+    {
+      "start": 2092.81,
+      "end": 2097.87,
+      "text": "está por lo tanto voy a definir el flujo, voy a decir que voy a elegir,"
+    },
+    {
+      "start": 2097.87,
+      "end": 2102.0,
+      "text": "cambiad de mes de zapagar de la promoción tres,"
+    },
+    {
+      "start": 2102.0,
+      "end": 2112.1,
+      "text": "y selección la forma de paz, entonces el exocio,"
+    },
+    {
+      "start": 2113.58,
+      "end": 2142.49,
+      "text": "selección, la cita del erenso, una opción de tres veces, pro-emocción, lección,"
+    },
+    {
+      "start": 2142.49,
+      "end": 2153.74,
+      "text": "la forma del pago, y la pago, la fuita del erenso."
+    },
+    {
+      "start": 2160.43,
+      "end": 2166.62,
+      "text": "En análisis, los que es bien es que siempre esté dentro de un mismo,"
+    },
+    {
+      "start": 2166.62,
+      "end": 2172.17,
+      "text": "de un recuadro, tengo varias acciones."
+    },
+    {
+      "start": 2172.17,
+      "end": 2176.17,
+      "text": "A mí ya cuando me entizo a acercar un poco al disserio,"
+    },
+    {
+      "start": 2176.17,
+      "end": 2181.17,
+      "text": "algunos autores dicen que esto podrían colocarlo en otro paso,"
+    },
+    {
+      "start": 2181.17,
+      "end": 2186.17,
+      "text": "como para pensar ya en todo mi servir, bastante bien las acciones."
+    },
+    {
+      "start": 2187.17,
+      "end": 2194.09,
+      "text": "Yo lo voy a dejar como ustedes lo vieron en análisis,"
+    },
+    {
+      "start": 2194.09,
+      "end": 2198.09,
+      "text": "pero no está mal ya cuando estoy acercando en el diseño,"
+    },
+    {
+      "start": 2198.09,
+      "end": 2202.09,
+      "text": "decir que estará a tomizar todas las acciones,"
+    },
+    {
+      "start": 2202.09,
+      "end": 2205.09,
+      "text": "ya no tengo un flujo bastante extenso,"
+    },
+    {
+      "start": 2205.09,
+      "end": 2207.09,
+      "text": "sino que tengo pequeñas acciones."
+    },
+    {
+      "start": 2207.09,
+      "end": 2213.09,
+      "text": "Yo lo que empiezo a pensar en el diseño es que esté bien las acciones bien atomisadas."
+    },
+    {
+      "start": 2214.22,
+      "end": 2218.97,
+      "text": "Ok, un minuto."
+    },
+    {
+      "start": 2218.97,
+      "end": 2222.13,
+      "text": "Después voy a empezar acá, lo que haría el sistema."
+    },
+    {
+      "start": 2222.13,
+      "end": 2233.26,
+      "text": "Bueno, está una de las acciones total,"
+    },
+    {
+      "start": 2233.26,
+      "end": 2239.41,
+      "text": "más con fuestos de poner, sin fuestos, alcúle al mundo,"
+    },
+    {
+      "start": 2239.41,
+      "end": 2253.23,
+      "text": "todo tal, perdón, sin fuestos,"
+    },
+    {
+      "start": 2254.23,
+      "end": 2258.19,
+      "text": "la muestra,"
+    },
+    {
+      "start": 2258.19,
+      "end": 2273.14,
+      "text": "la muestra y los datos de transferencia."
+    },
+    {
+      "start": 2273.14,
+      "end": 2281.79,
+      "text": "Me parece voy a mostrar los datos y para llevar a cabo la transferencia,"
+    },
+    {
+      "start": 2281.79,
+      "end": 2284.79,
+      "text": "las datos de transferencia,"
+    },
+    {
+      "start": 2286.72,
+      "end": 2289.3,
+      "text": "para hablarle un poco más,"
+    },
+    {
+      "start": 2289.3,
+      "end": 2294.83,
+      "text": "se puede ser de un alias,"
+    },
+    {
+      "start": 2294.83,
+      "end": 2313.82,
+      "text": "un montón de distancia de otra,"
+    },
+    {
+      "start": 2313.82,
+      "end": 2328.18,
+      "text": "acá, el socio visualista aprueba a la transferencia,"
+    },
+    {
+      "start": 2328.18,
+      "end": 2339.06,
+      "text": "le da lo que hay final,"
+    },
+    {
+      "start": 2339.06,
+      "end": 2353.03,
+      "text": "y acá el sistema realiza el comprobante de pago."
+    },
+    {
+      "start": 2353.03,
+      "end": 2355.03,
+      "text": "Yo sé que esto es medio,"
+    },
+    {
+      "start": 2355.03,
+      "end": 2357.03,
+      "text": "antes de pago,"
+    },
+    {
+      "start": 2357.03,
+      "end": 2360.35,
+      "text": "medio tedioso para ustedes,"
+    },
+    {
+      "start": 2360.35,
+      "end": 2364.35,
+      "text": "pero bueno, no necesito para poder avanzar un minuto,"
+    },
+    {
+      "start": 2364.35,
+      "end": 2375.18,
+      "text": "esto lo he abarrado."
+    },
+    {
+      "start": 2375.18,
+      "end": 2378.18,
+      "text": "Entonces el sistema realiza comprobante de pago,"
+    },
+    {
+      "start": 2379.18,
+      "end": 2383.18,
+      "text": "bañada datos, vamos a poner,"
+    },
+    {
+      "start": 2383.18,
+      "end": 2385.82,
+      "text": "distra,"
+    },
+    {
+      "start": 2385.82,
+      "end": 2389.82,
+      "text": "pago como pendiente,"
+    },
+    {
+      "start": 2389.82,
+      "end": 2393.95,
+      "text": "o de apondación, pendiente de valiación,"
+    },
+    {
+      "start": 2393.95,
+      "end": 2397.18,
+      "text": "pendiente de,"
+    },
+    {
+      "start": 2397.18,
+      "end": 2402.42,
+      "text": "para pendiente,"
+    },
+    {
+      "start": 2402.42,
+      "end": 2409.52,
+      "text": "pendiente de, no sé,"
+    },
+    {
+      "start": 2409.52,
+      "end": 2411.52,
+      "text": "respuesta bancaria,"
+    },
+    {
+      "start": 2411.52,
+      "end": 2413.74,
+      "text": "respuesta del banco."
+    },
+    {
+      "start": 2413.74,
+      "end": 2421.24,
+      "text": "Una vez que yo tengo el sistema nuestra la confirmación,"
+    },
+    {
+      "start": 2421.24,
+      "end": 2424.34,
+      "text": "podría haber hecho estos test pasos todos juntos,"
+    },
+    {
+      "start": 2424.34,
+      "end": 2426.34,
+      "text": "en el mismo paso sí,"
+    },
+    {
+      "start": 2426.34,
+      "end": 2429.34,
+      "text": "pero yo quiero ya empezar a tomisarlo,"
+    },
+    {
+      "start": 2429.34,
+      "end": 2431.34,
+      "text": "por eso lo separo,"
+    },
+    {
+      "start": 2431.34,
+      "end": 2434.34,
+      "text": "si ustedes van a un autónomo,"
+    },
+    {
+      "start": 2434.34,
+      "end": 2437.34,
+      "text": "le pone mucho foco en lo que se la analicis,"
+    },
+    {
+      "start": 2437.34,
+      "end": 2441.34,
+      "text": "y les va a decir que esto tendría que estar en un único paso,"
+    },
+    {
+      "start": 2441.34,
+      "end": 2445.34,
+      "text": "porque no hay una unidibuelta entre el actoria de sistema,"
+    },
+    {
+      "start": 2445.34,
+      "end": 2448.34,
+      "text": "si van a un autónomo,"
+    },
+    {
+      "start": 2448.34,
+      "end": 2451.34,
+      "text": "donde están muy enfocado al dicedia y les dice,"
+    },
+    {
+      "start": 2451.34,
+      "end": 2454.34,
+      "text": "vayan tensando,"
+    },
+    {
+      "start": 2454.34,
+      "end": 2458.34,
+      "text": "tienen que ir a tomisando y el día de mañana transformar"
+    },
+    {
+      "start": 2458.34,
+      "end": 2461.34,
+      "text": "todas esas acciones en servicios,"
+    },
+    {
+      "start": 2461.34,
+      "end": 2463.34,
+      "text": "yo les voy tirando algunas palabras,"
+    },
+    {
+      "start": 2463.34,
+      "end": 2465.34,
+      "text": "como para ir después,"
+    },
+    {
+      "start": 2465.34,
+      "end": 2468.07,
+      "text": "dando,"
+    },
+    {
+      "start": 2468.07,
+      "end": 2470.07,
+      "text": "para que ustedes después me vayan entendiendo,"
+    },
+    {
+      "start": 2470.07,
+      "end": 2473.26,
+      "text": "y van a ir incorporando algunas palabras."
+    },
+    {
+      "start": 2473.26,
+      "end": 2476.26,
+      "text": "Entonces lo puedo tomizar esta manera,"
+    },
+    {
+      "start": 2476.26,
+      "end": 2478.26,
+      "text": "que el día de mañana,"
+    },
+    {
+      "start": 2478.26,
+      "end": 2479.26,
+      "text": "al estar tan atómico,"
+    },
+    {
+      "start": 2479.26,
+      "end": 2482.84,
+      "text": "lo puedo transformar en pequeñas servicios."
+    },
+    {
+      "start": 2482.84,
+      "end": 2484.84,
+      "text": "Ahora bien, tenemos flujos alternativos,"
+    },
+    {
+      "start": 2484.84,
+      "end": 2486.84,
+      "text": "sí sí, porque yo acá seleccioné,"
+    },
+    {
+      "start": 2486.84,
+      "end": 2489.84,
+      "text": "por ejemplo, forma de pago, transferencia,"
+    },
+    {
+      "start": 2489.84,
+      "end": 2492.84,
+      "text": "podría seleccionar otra,"
+    },
+    {
+      "start": 2492.84,
+      "end": 2495.84,
+      "text": "o también podría decir que en cualquier paso,"
+    },
+    {
+      "start": 2495.84,
+      "end": 2496.84,
+      "text": "entonces pongo asterisco,"
+    },
+    {
+      "start": 2496.84,
+      "end": 2500.0,
+      "text": "entonces significa que cancelo,"
+    },
+    {
+      "start": 2500.0,
+      "end": 2504.0,
+      "text": "cancelar en cualquier paso,"
+    },
+    {
+      "start": 2504.0,
+      "end": 2506.0,
+      "text": "en cualquier momento,"
+    },
+    {
+      "start": 2506.0,
+      "end": 2516.01,
+      "text": "y acá defino,"
+    },
+    {
+      "start": 2516.01,
+      "end": 2531.93,
+      "text": "es lo que hago, uno,"
+    },
+    {
+      "start": 2531.93,
+      "end": 2536.81,
+      "text": "una malestrita,"
+    },
+    {
+      "start": 2536.81,
+      "end": 2549.75,
+      "text": "o va, paso dos,"
+    },
+    {
+      "start": 2549.75,
+      "end": 2552.75,
+      "text": "y acá haces,"
+    },
+    {
+      "start": 2552.75,
+      "end": 2556.3,
+      "text": "cancelar,"
+    },
+    {
+      "start": 2556.3,
+      "end": 2559.8,
+      "text": "y acá,"
+    },
+    {
+      "start": 2559.8,
+      "end": 2567.63,
+      "text": "y acá hay algunos detalles más,"
+    },
+    {
+      "start": 2567.63,
+      "end": 2570.63,
+      "text": "y acuerdos a lo que ustedes han cancelado."
+    },
+    {
+      "start": 2570.63,
+      "end": 2574.37,
+      "text": "Pero acá, me voy con el paso cinco,"
+    },
+    {
+      "start": 2574.37,
+      "end": 2577.37,
+      "text": "el paso cinco yo dije que para la transferencia,"
+    },
+    {
+      "start": 2577.37,
+      "end": 2581.54,
+      "text": "vamos a escribir otros,"
+    },
+    {
+      "start": 2581.54,
+      "end": 2583.54,
+      "text": "a ver si voy a poner,"
+    },
+    {
+      "start": 2583.54,
+      "end": 2585.54,
+      "text": "si voy a hacer la forma de pago,"
+    },
+    {
+      "start": 2585.54,
+      "end": 2587.54,
+      "text": "el tarjeta de crédito,"
+    },
+    {
+      "start": 2587.54,
+      "end": 2589.9,
+      "text": "forma de pago,"
+    },
+    {
+      "start": 2589.9,
+      "end": 2590.9,
+      "text": "tarjeta,"
+    },
+    {
+      "start": 2590.9,
+      "end": 2592.9,
+      "text": "y vamos a un tarjeta de crédito."
+    },
+    {
+      "start": 2592.9,
+      "end": 2603.36,
+      "text": "Me voy el paso donde tengo esa disfurcación,"
+    },
+    {
+      "start": 2603.36,
+      "end": 2604.36,
+      "text": "que es el cinco,"
+    },
+    {
+      "start": 2604.36,
+      "end": 2609.88,
+      "text": "como estoy en uno de los tipos,"
+    },
+    {
+      "start": 2609.88,
+      "end": 2614.26,
+      "text": "puedo tener pago de contacta de crédito,"
+    },
+    {
+      "start": 2614.26,
+      "end": 2616.26,
+      "text": "puedo tener también pago,"
+    },
+    {
+      "start": 2616.26,
+      "end": 2617.26,
+      "text": "como lo habíamos dicho,"
+    },
+    {
+      "start": 2617.26,
+      "end": 2619.26,
+      "text": "como he marcado pago,"
+    },
+    {
+      "start": 2619.26,
+      "end": 2620.26,
+      "text": "en efectivo,"
+    },
+    {
+      "start": 2620.26,
+      "end": 2621.26,
+      "text": "el efectivo,"
+    },
+    {
+      "start": 2621.26,
+      "end": 2623.74,
+      "text": "y le he estado bueno como,"
+    },
+    {
+      "start": 2623.74,
+      "end": 2627.74,
+      "text": "como historia principal,"
+    },
+    {
+      "start": 2627.74,
+      "end": 2628.74,
+      "text": "o camina feliz,"
+    },
+    {
+      "start": 2628.74,
+      "end": 2635.22,
+      "text": "como algunas autores lo llaman."
+    },
+    {
+      "start": 2635.22,
+      "end": 2638.95,
+      "text": "Vamos acá,"
+    },
+    {
+      "start": 2638.95,
+      "end": 2639.95,
+      "text": "forma de pago,"
+    },
+    {
+      "start": 2639.95,
+      "end": 2641.95,
+      "text": "tarjeta de crédito,"
+    },
+    {
+      "start": 2641.95,
+      "end": 2644.02,
+      "text": "entonces acá,"
+    },
+    {
+      "start": 2644.02,
+      "end": 2646.1,
+      "text": "pongo,"
+    },
+    {
+      "start": 2646.1,
+      "end": 2648.1,
+      "text": "pinto,"
+    },
+    {
+      "start": 2648.1,
+      "end": 2650.03,
+      "text": "punto 1,"
+    },
+    {
+      "start": 2650.03,
+      "end": 2651.03,
+      "text": "el primer paso,"
+    },
+    {
+      "start": 2651.03,
+      "end": 2653.03,
+      "text": "aquí voy a seleccionar,"
+    },
+    {
+      "start": 2653.03,
+      "end": 2656.03,
+      "text": "el systema,"
+    },
+    {
+      "start": 2656.03,
+      "end": 2658.03,
+      "text": "redis,"
+    },
+    {
+      "start": 2658.03,
+      "end": 2666.82,
+      "text": "subinisten a efeccion de pago con tarjeta de crédito,"
+    },
+    {
+      "start": 2666.82,
+      "end": 2674.18,
+      "text": "coinco punto a punto dos,"
+    },
+    {
+      "start": 2674.18,
+      "end": 2681.38,
+      "text": "esta cosa del socio,"
+    },
+    {
+      "start": 2681.38,
+      "end": 2683.73,
+      "text": "ingresa,"
+    },
+    {
+      "start": 2683.73,
+      "end": 2688.27,
+      "text": "datos de la tarjeta de crédito,"
+    },
+    {
+      "start": 2688.27,
+      "end": 2706.62,
+      "text": "el número, más de negris, más apellido, nombre completo, fecha de vencimiento de la tarjeta,"
+    },
+    {
+      "start": 2706.62,
+      "end": 2723.11,
+      "text": "y la clave, la clave de la tarjeta de crédito. El sistema, me vengo acá, también 5.a,"
+    },
+    {
+      "start": 2723.11,
+      "end": 2754.56,
+      "text": "un to tres, el sistema, acá, valida, valida, con movizas, de se llama con viza, sí sería con"
+    },
+    {
+      "start": 2754.56,
+      "end": 2761.54,
+      "text": "el sistema, pero voy a poner viza para que ustedes también desean más familias y espera"
+    },
+    {
+      "start": 2761.54,
+      "end": 2777.91,
+      "text": "las puestas. Puedo separarlos, sí, me encantaría separarlos, pero lo voy a dejar así, es como"
+    },
+    {
+      "start": 2777.91,
+      "end": 2795.81,
+      "text": "ustedes lo hubiera. Un copunto a punto 4, confirmó pago, una vez que, no firmó pago,"
+    },
+    {
+      "start": 2795.81,
+      "end": 2813.45,
+      "text": "ya acá, el sistema, vamos a poner esto, se está pago, y se está pago en su sistema, con el estado"
+    },
+    {
+      "start": 2813.45,
+      "end": 2824.16,
+      "text": "aprobado, registra pago, como aprobado, que estaría tendiendo seguramente, y nuestra confirmación."
+    },
+    {
+      "start": 2824.52,
+      "end": 2839.7,
+      "text": "Yo voy a tener varios historias, perdón, varias casos de uso, pagar cuantas, puedo ser registrar"
+    },
+    {
+      "start": 2839.7,
+      "end": 2849.36,
+      "text": "me al fina, registrar una clase, cancelar clase, voy a tener varios. Si yo voy a tener un documento,"
+    },
+    {
+      "start": 2849.36,
+      "end": 2857.21,
+      "text": "muy extenso y la realidad te va a llevar un momento, que no voy a tener una foto única de todo lo que"
+    },
+    {
+      "start": 2857.21,
+      "end": 2863.49,
+      "text": "hace el sistema, entonces nos vamos a otra vista, que es la que me proporciona UML en donde puedo tener"
+    },
+    {
+      "start": 2863.49,
+      "end": 2872.98,
+      "text": "un como una foto general, uno verbiú de todos los casos de uso, y de cómo se relacionan esos"
+    },
+    {
+      "start": 2872.98,
+      "end": 2878.86,
+      "text": "casos de uso. No voy a tener detalle que sí lo tenemos en la especificación, si lo que es"
+    },
+    {
+      "start": 2878.86,
+      "end": 2887.5,
+      "text": "de no solamente el overview de todos los casos de uso, para eso me voy a estar lista, otro"
+    },
+    {
+      "start": 2887.5,
+      "end": 2904.32,
+      "text": "jito tengo completamente diferente, voy a crear acá un modelo, el modelo para la inflación,"
+    },
+    {
+      "start": 2904.32,
+      "end": 2912.74,
+      "text": "dentro del modelo voy a dar diferentes tipos de diagramas, con el que me brinda, no verió"
+    },
+    {
+      "start": 2912.74,
+      "end": 2916.22,
+      "text": "todos los casos de uso, el que estuvimos hablando, cómo se llama."
+    },
+    {
+      "start": 2916.22,
+      "end": 2932.78,
+      "text": "Ehh, use case diagrama. Muy bien, diagrama de casos de uso, ok, en diagrama de casos de uso, yo me quiero"
+    },
+    {
+      "start": 2932.78,
+      "end": 2941.38,
+      "text": "ir a otro tipo de diagrama, como el que ustedes estudian también trabajando en las materias previas,"
+    },
+    {
+      "start": 2941.38,
+      "end": 2946.54,
+      "text": "al diseño, que calculo que es penicidio, si ya no, no, me voy a un diagrama de actividad que"
+    },
+    {
+      "start": 2946.54,
+      "end": 2956.64,
+      "text": "es seguramente lo que hagan. Voy a ir transicionando de una vista a la otra, y dieron cómo, si"
+    },
+    {
+      "start": 2956.64,
+      "end": 2961.84,
+      "text": "voy transicionando una vista a la otra, el toolbox cambia, obviamente de acuerdo a los elementos"
+    },
+    {
+      "start": 2961.84,
+      "end": 2968.15,
+      "text": "que le corresponden a cada uno de los sos de diagrama, ok, si me voy a el caso de uso, veo"
+    },
+    {
+      "start": 2968.15,
+      "end": 2975.25,
+      "text": "cómo los elementos relacionados, ese diagrama de caso de uso, van a cambiar a una seulta"
+    },
+    {
+      "start": 2975.25,
+      "end": 2981.25,
+      "text": "y talmente diferentes si me voy a un diagrama de actividad, cambio los elementos. Por lo tanto,"
+    },
+    {
+      "start": 2981.25,
+      "end": 2987.7,
+      "text": "también es una muy buena manera de estudiar, así como en los elementos corresponden a cada diagrama"
+    },
+    {
+      "start": 2987.7,
+      "end": 2996.38,
+      "text": "y a estar capen y ver qué tipo de elementos contienen. Me voy a el caso de uso, tengo uno"
+    },
+    {
+      "start": 2996.38,
+      "end": 3004.41,
+      "text": "verbió de todos los casos de uso, obviamente tengo el actor principal y me voy al mismo ejemplo,"
+    },
+    {
+      "start": 3004.41,
+      "end": 3019.32,
+      "text": "hasta podría llegar a tener profesor, ¿no? Elir, elir, elir, elir, elir, hay el hijo algo,"
+    },
+    {
+      "start": 3019.32,
+      "end": 3050.95,
+      "text": "ok, obviamente el elemento fundamental son los casos de uso, tengo registración, tengo, y es que"
+    },
+    {
+      "start": 3050.95,
+      "end": 3063.58,
+      "text": "me puedo poner acá la registración, elir clase, ¿cómo esta? Elir clase, sí, pero no quería"
+    },
+    {
+      "start": 3063.58,
+      "end": 3071.34,
+      "text": "elegir ni quería usar de vuelta a registración, escribir, escribirse, no quería usar de claro,"
+    },
+    {
+      "start": 3071.34,
+      "end": 3079.26,
+      "text": "no quería usar estas palabras, reservar, voy a usar algo para poder diferenciarlo con la"
+    },
+    {
+      "start": 3079.26,
+      "end": 3093.82,
+      "text": "registración, hacer barclases, ok, tengo acá cancelar barclases, obviamente tengo pados,"
+    },
+    {
+      "start": 3093.82,
+      "end": 3104.6,
+      "text": "eso es que voy acá, como quiero hacer todo las listas, tengo que tener una relación estrecha,"
+    },
+    {
+      "start": 3104.6,
+      "end": 3112.68,
+      "text": "pero el mismo nombre, ok, para que después podamos hacer una trasa de que este caso de uso,"
+    },
+    {
+      "start": 3112.68,
+      "end": 3118.2,
+      "text": "hay herramientas que cliqueo al caso de uso y me abre todo el detalle del caso de uso,"
+    },
+    {
+      "start": 3118.2,
+      "end": 3131.42,
+      "text": "empieza a hacer una trastabilidad, se denomina, entonces es el mismo elemento dentro del modelo,"
+    },
+    {
+      "start": 3131.42,
+      "end": 3138.6,
+      "text": "es el mismo elemento dentro de todo el modelo de arquitectura, pero obviamente lo uso de diferentes"
+    },
+    {
+      "start": 3138.6,
+      "end": 3166.34,
+      "text": "maneras, cancelar clase, muy minutos, no me acuerdo, tengo también crear clase,"
+    },
+    {
+      "start": 3166.34,
+      "end": 3192.84,
+      "text": "agregar profesor, profesor, no sé, tengo varias cosas, hoy es una rutina, y ahí lo voy armando,"
+    },
+    {
+      "start": 3193.56,
+      "end": 3201.77,
+      "text": "ahora bien, yo acá tuve en Agarco, Telefima, se tuve lo que se llama el camino feliz,"
+    },
+    {
+      "start": 3201.77,
+      "end": 3209.21,
+      "text": "también tuve el flujo alternativo que representa posiblemente otro flujo, otro caso de uso,"
+    },
+    {
+      "start": 3209.21,
+      "end": 3233.09,
+      "text": "me voy a dar concreta, algo que tienen que tener muy claro es que en lo que es el diagrama de casos"
+    },
+    {
+      "start": 3233.09,
+      "end": 3242.1,
+      "text": "de vista no representa secuencialidad, no representa sin acercación, estoy representándose"
+    },
+    {
+      "start": 3242.1,
+      "end": 3247.66,
+      "text": "con acercación, estoy representando algo, uno de los casos y cómo se relacionan, por lo tanto,"
+    },
+    {
+      "start": 3247.66,
+      "end": 3256.79,
+      "text": "si quiero poner primero, cancelar clase y después poner reservar clase fantástico, no hay ningún"
+    },
+    {
+      "start": 3256.79,
+      "end": 3266.95,
+      "text": "problema, no estoy representando la variable tiempo en el diagrama de casos de uso, sí que"
+    },
+    {
+      "start": 3266.95,
+      "end": 3275.02,
+      "text": "tienen la costumbre que está bueno en el análisis porque uno tiene el pensamiento secuencial,"
+    },
+    {
+      "start": 3275.02,
+      "end": 3281.3,
+      "text": "entonces como parábamos un mayor orden, y se llama primera, más registra al gimnasio, después"
+    },
+    {
+      "start": 3281.3,
+      "end": 3290.66,
+      "text": "de espabla a tu botar, después de reserva a la clase, después de lo cancelo y hacen todo eso,"
+    },
+    {
+      "start": 3290.66,
+      "end": 3301.5,
+      "text": "y la realidad hagan lo, no hay problema, pero no es el objetivo del caso de uso, yo puedo ponerlo"
+    },
+    {
+      "start": 3301.5,
+      "end": 3312.9,
+      "text": "en cualquier lugar porque no representa disuad, secuencialidad, me voy a pagar cuota, tengo"
+    },
+    {
+      "start": 3312.9,
+      "end": 3320.09,
+      "text": "otro de los elementos, esta que es la generalización y identificos los elementos con el caso de uso,"
+    },
+    {
+      "start": 3320.09,
+      "end": 3330.47,
+      "text": "la asociación común, y acá tengo pagar cuota, pagar crédito, pagar con, no se entran,"
+    },
+    {
+      "start": 3330.47,
+      "end": 3344.04,
+      "text": "para ser un crédito hipotecario, guarda, pago cuota, tengo un camino determinado, puede ser"
+    },
+    {
+      "start": 3344.04,
+      "end": 3352.69,
+      "text": "un efectivo, lo que sea, y después digo bueno voy a hacerle pagar con arjetas, un otro, acá"
+    },
+    {
+      "start": 3352.69,
+      "end": 3364.6,
+      "text": "sólo definí, y había una condición, si la forma de pago era tarjeta de crédito, así a"
+    },
+    {
+      "start": 3364.6,
+      "end": 3373.36,
+      "text": "estas pasas del terminado era un flujo alternativo, entonces yo acá como lo represento con un cludo"
+    },
+    {
+      "start": 3373.36,
+      "end": 3385.36,
+      "text": "un extene, con un extene, porque habría varias opciones, exacto, y aparte nos ejecuta siempre,"
+    },
+    {
+      "start": 3386.88,
+      "end": 3417.28,
+      "text": "como minuto, siempre tiene que tener una condición, hay algunas herramientas, yo puedo las formas de pago,"
+    },
+    {
+      "start": 3417.28,
+      "end": 3456.0,
+      "text": "y acá me sale el nombre, pero acá no, en esta herramienta no, en otra sí, en deparentes y"
+    },
+    {
+      "start": 3456.0,
+      "end": 3462.56,
+      "text": "sangulares pueden, perdón entre, con carchetes pueden poner forma de pago, tarjeta de crédito,"
+    },
+    {
+      "start": 3463.77,
+      "end": 3472.48,
+      "text": "no pueden con una nota como lo que sea, pero le va a dar más nivel de detalle, más o menos el"
+    },
+    {
+      "start": 3472.48,
+      "end": 3479.97,
+      "text": "encendimiento, si tengo pago arco de aliginas y tengo también un caso de uso para ir a"
+    },
+    {
+      "start": 3479.97,
+      "end": 3497.0,
+      "text": "de vuelta en el sistema que dice bueno, cambiar, habilitar, habilitar, creencial, una vez que pago"
+    },
+    {
+      "start": 3497.0,
+      "end": 3511.42,
+      "text": "la táqueda del gimnasio, sí o sí, si habilita, era habilitar la creencial, entonces este caso de uso"
+    },
+    {
+      "start": 3511.42,
+      "end": 3537.3,
+      "text": "que sería un incluido en el sistema, también he visto muchas veces, lo vi, voy a poner lo vi, lo vi,"
+    },
+    {
+      "start": 3537.3,
+      "end": 3547.55,
+      "text": "no me gusta porque tiene que ser un verbo pero no es por tampoco lo vi, hago lo vi, no, hago lo vi, lo hace el"
+    },
+    {
+      "start": 3547.55,
+      "end": 3558.46,
+      "text": "socio y después hice ni ya y después recién después pueden un incluir a reservar clases o el"
+    },
+    {
+      "start": 3558.46,
+      "end": 3568.12,
+      "text": "sistema de horribucial, la realidad es que no porque tanto en lo vi como reservar clases son"
+    },
+    {
+      "start": 3570.12,
+      "end": 3579.17,
+      "text": "funcionalidades independientes, no hay una relación tan estrecha, y le puedo arremar cada"
+    },
+    {
+      "start": 3579.61,
+      "end": 3588.79,
+      "text": "yo en el diagrama de casos de uso no estoy mostrando secuencia y lo que está tratando de hacer ustedes"
+    },
+    {
+      "start": 3588.79,
+      "end": 3595.03,
+      "text": "modelando de esa manera del login para hacerle como un incluido en el sistema importe hacia otros"
+    },
+    {
+      "start": 3595.03,
+      "end": 3600.39,
+      "text": "es que estoy mostrando una secuencialidad antes de observar la clase de tenés que haber el"
+    },
+    {
+      "start": 3600.39,
+      "end": 3607.75,
+      "text": "escrito o haberte lo guiado, yo esa secuencialidad no la veo, ahora sí empagar la creencialidad"
+    },
+    {
+      "start": 3607.75,
+      "end": 3614.15,
+      "text": "del gimnasio tengo algo que ha sido si ejecuto después de tal función que es habilitar la"
+    },
+    {
+      "start": 3614.15,
+      "end": 3624.07,
+      "text": "creencial, me va siguiendo, se van a encontrar internet con muchos ejemplos, pero yo les tengo que"
+    },
+    {
+      "start": 3624.07,
+      "end": 3631.4,
+      "text": "marcar que cuál es el objetivo del diagrama de casos de uso no muestro secuencialidad, están grabando"
+    },
+    {
+      "start": 3632.4,
+      "end": 3642.16,
+      "text": "en los años, pero sí, pero que ha sido una hora, perdón, porque los tengo los salidas de las"
+    },
+    {
+      "start": 3642.16,
+      "end": 3648.88,
+      "text": "comisiones, los lunes que tienen cuatro feriados y les dije que les iba a grabar para que tengan un"
+    },
+    {
+      "start": 3648.88,
+      "end": 3661.37,
+      "text": "repaso de UML, bueno genial gracias chicos, la grabación, pero no para acá, sí, otro de los"
+    },
+    {
+      "start": 3661.37,
+      "end": 3667.61,
+      "text": "diagramas que ustedes tienen que haber visto, así no hay dudas después de que esto no lo vi, no lo"
+    },
+    {
+      "start": 3667.61,
+      "end": 3674.5,
+      "text": "es, es el diagrama de artidad, ¿no? ¿sabuérdame el diagrama de artividad? Es uno de los diagramas que más"
+    },
+    {
+      "start": 3674.5,
+      "end": 3681.92,
+      "text": "se utilizan dentro del diagrama de mi, perdón dentro de la disciplina de la análisis, es más yo"
+    },
+    {
+      "start": 3681.92,
+      "end": 3687.92,
+      "text": "siempre digo que es uno de los diagramas que no tengo ni idea por dónde comenzar y bueno vamos a"
+    },
+    {
+      "start": 3687.92,
+      "end": 3700.64,
+      "text": "dar por un diagrama de artidad, ¿sotto? Recuerdan que estoy dentro del mismo modelo, a ver, modelo de"
+    },
+    {
+      "start": 3700.64,
+      "end": 3705.6,
+      "text": "gimnasia, me vengo acá, guatón derecho, ustedes van a usar otro tipo de herramientas seguramente,"
+    },
+    {
+      "start": 3705.6,
+      "end": 3713.94,
+      "text": "uno no tan eschentosa como esta, pero a mí me es más fácil, no dependo de internet, de la buena"
+    },
+    {
+      "start": 3713.94,
+      "end": 3722.01,
+      "text": "conexión con el do y yo, etcétera, entonces uso mucho esto, no hay un diagrama de artidad,"
+    },
+    {
+      "start": 3722.01,
+      "end": 3725.87,
+      "text": "dieron cómo cambia todo el menú de acuerdo a la diagrama de artidad, solo tenía la"
+    },
+    {
+      "start": 3725.87,
+      "end": 3736.56,
+      "text": "garantía, no, vamos a armar diagramas en forma necesaria, tengo el diagrama de artividad, tengo flujos,"
+    },
+    {
+      "start": 3739.26,
+      "end": 3746.52,
+      "text": "acá tengo inicio, siempre se inicia con este, siempre se termina con este,"
+    },
+    {
+      "start": 3746.52,
+      "end": 3758.18,
+      "text": "ahora te digo Lucas, tengo acción, estoy en una fase de análisis, hablo más de actividad,"
+    },
+    {
+      "start": 3758.18,
+      "end": 3766.09,
+      "text": "estoy en una fase de diseño porque yo puedo decir quiero modelar la comunicación con el"
+    },
+    {
+      "start": 3766.09,
+      "end": 3777.0,
+      "text": "forma de Pacón, el sistema de pago de risa, algo muy puntual, es, sería como un método,"
+    },
+    {
+      "start": 3777.56,
+      "end": 3782.22,
+      "text": "pero va a tener determinados pasitos y es bastante complicado, entonces como lo quiero"
+    },
+    {
+      "start": 3782.22,
+      "end": 3788.92,
+      "text": "modelar con un diagrama de artividad, ya no hablo tanto de artidad, hablo más de acciones,"
+    },
+    {
+      "start": 3789.92,
+      "end": 3794.89,
+      "text": "pues te van a encontrar también con algunos autores que hablan de esta manera,"
+    },
+    {
+      "start": 3794.89,
+      "end": 3810.63,
+      "text": "vamos a ver una decisión, control, bueno, tengo acción 1, acción 2, minuto,"
+    },
+    {
+      "start": 3810.63,
+      "end": 3829.05,
+      "text": "el general no entiendo el proceso, si ahí estoy, voy a darle importancia a las secuencialidad,"
+    },
+    {
+      "start": 3829.77,
+      "end": 3840.88,
+      "text": "primero el usuario se registra en el Shim, acción, acción, después hay un pago,"
+    },
+    {
+      "start": 3840.88,
+      "end": 3860.54,
+      "text": "habo cuota, habilitó, habilitó, ingreso, habilitó ingreso, el lleto algo muy con un nivel de"
+    },
+    {
+      "start": 3860.54,
+      "end": 3867.18,
+      "text": "abstracción, muy elevado, recuerdan que hablamos del nivel de abstracción, ya es del negocio"
+    },
+    {
+      "start": 3867.18,
+      "end": 3885.32,
+      "text": "de esto, habilitó ingreso, se pueden escribir inscripción a clácer de arutila,"
+    },
+    {
+      "start": 3885.32,
+      "end": 3904.29,
+      "text": "estoy en un momento de entendimiento del negocio y lo que puedo hacer es trabajar con un diagrama de"
+    },
+    {
+      "start": 3904.29,
+      "end": 3927.31,
+      "text": "casos de uso, me gusta mucho para lograr tener un entendimiento general, minuto,"
+    },
+    {
+      "start": 3945.5,
+      "end": 3950.26,
+      "text": "él se digo voy a usar canales porque estoy ya en una etapa de analisis,"
+    },
+    {
+      "start": 3954.31,
+      "end": 3962.63,
+      "text": "entonces, empiezo a ver las responsabilidades y cada uno, él se digo bueno, el socio voy allá,"
+    },
+    {
+      "start": 3965.55,
+      "end": 3976.27,
+      "text": "para tener una registración, para cuota, habilitó ingreso, se pueden escribir a canales,"
+    },
+    {
+      "start": 3976.27,
+      "end": 4005.29,
+      "text": "a clácer de arutina, realmente esto es algo muy básico, pero me da un entendimiento de lo que cada uno"
+    },
+    {
+      "start": 4005.29,
+      "end": 4016.28,
+      "text": "tiene que hacer, esto corresponde a analisis, no corresponde tanto al diseño, pero está bueno"
+    },
+    {
+      "start": 4016.28,
+      "end": 4037.81,
+      "text": "hablarlo, entonces le moja, está con la realidad, no, por correspondiente a la analisis,"
+    },
+    {
+      "start": 4037.81,
+      "end": 4056.74,
+      "text": "yo que son canales, es decir, tiene la acción y corras potemás al analisis, aunque a veces se"
+    },
+    {
+      "start": 4056.74,
+      "end": 4061.3,
+      "text": "usa en el histenio, estoy trabajando con otros sistemas, entonces digo por ejemplo, acá"
+    },
+    {
+      "start": 4062.3,
+      "end": 4068.86,
+      "text": "estoy trabajando en un sistema donde tengo muchas comunicaciones con otros sistemas, como puede"
+    },
+    {
+      "start": 4068.86,
+      "end": 4077.83,
+      "text": "ser visa, máster, percado pago y cada uno, lo puedo hacer, está como para tener un entendimiento,"
+    },
+    {
+      "start": 4077.83,
+      "end": 4083.11,
+      "text": "pero siempre con un elevado nivel de acercción, estoy entrando en el detalle,"
+    },
+    {
+      "start": 4083.11,
+      "end": 4108.83,
+      "text": "voy a crear otro astía, en el lado de la actividad, luego del diseño, yo obviamente digo bueno,"
+    },
+    {
+      "start": 4108.83,
+      "end": 4124.33,
+      "text": "quiero ver cómo es el pago, ejecutar pago, estoy pensando, así que capaz que una mezcla"
+    },
+    {
+      "start": 4124.33,
+      "end": 4148.55,
+      "text": "es perfecto el flujo, pero no importa, están a leer lo que puse, no, sistema en la data,"
+    },
+    {
+      "start": 4148.55,
+      "end": 4164.92,
+      "text": "información, es más, yo puedo utilizar otro, no sé si lo tengo acá, soy un salido,"
+    },
+    {
+      "start": 4164.92,
+      "end": 4211.22,
+      "text": "usar y voy un salido otro, utilizar, tengo otro elemento, está del senseinal, es una acción"
+    },
+    {
+      "start": 4211.22,
+      "end": 4220.73,
+      "text": "que envíe un mensaje o un asignal, acción más que nada, una actividad, y que estoy esperando"
+    },
+    {
+      "start": 4220.73,
+      "end": 4231.71,
+      "text": "después respuestas, esto se digo, cargadatos, envíe a autorización, intenta utilizar cosas que"
+    },
+    {
+      "start": 4231.71,
+      "end": 4248.31,
+      "text": "posiblemente las vean, envíe a autorización, pago aceptado, parteriza, puede ser, pago aceptado,"
+    },
+    {
+      "start": 4248.31,
+      "end": 4258.55,
+      "text": "ya estoy con este evento que se llama aceptado, es una acción que espera el mensaje y no puedo"
+    },
+    {
+      "start": 4258.55,
+      "end": 4287.8,
+      "text": "continuar con otro, si no tengo este, remarca mucho eso, si me gusta, te lo vean, bueno,"
+    },
+    {
+      "start": 4287.8,
+      "end": 4298.56,
+      "text": "cargadatos, actión, cháno se me agurre más, digo bueno, en piezo, flujo de contador,"
+    },
+    {
+      "start": 4298.56,
+      "end": 4317.5,
+      "text": "me empieza a cargar los datos, lendío, autorización avisa y también, bueno, por acá, inutito,"
+    },
+    {
+      "start": 4317.5,
+      "end": 4340.45,
+      "text": "pecho, o así me digo que por el semilla, es digo que el foco me lo llamo, bueno, en parte,"
+    },
+    {
+      "start": 4340.45,
+      "end": 4356.45,
+      "text": "eso se digo, bueno, con receta, cargadatos, hago una acción, esta ejecuta de sección y esta acción,"
+    },
+    {
+      "start": 4356.45,
+      "end": 4369.8,
+      "text": "está generado dos salidas, me voy para acá, y me voy para acá, mientras le pido una autorización avisa,"
+    },
+    {
+      "start": 4369.8,
+      "end": 4380.32,
+      "text": "hace un acción en el sistema, en el dos, acción dos le pongo, ok, acción dos, acá lo que estoy"
+    },
+    {
+      "start": 4380.32,
+      "end": 4394.18,
+      "text": "usando que es un fork o un join, es exacto, quiero decir que voy a tener dos actividades o acciones"
+    },
+    {
+      "start": 4394.18,
+      "end": 4402.63,
+      "text": "concurrentes ahí después de esto, pero digo bueno, tengo que aceptar el pago, está una vez que"
+    },
+    {
+      "start": 4402.63,
+      "end": 4411.23,
+      "text": "acepta el pago, pues si en ahí voy a crear las facturas, entonces voy a usar que un fork o join"
+    },
+    {
+      "start": 4411.23,
+      "end": 4424.48,
+      "text": "para sincronizar flujo datos concurrentes, ahí, un join, muy bien, un análisis, muy bien análisis,"
+    },
+    {
+      "start": 4431.63,
+      "end": 4457.48,
+      "text": "tengo alguna posibilidad, un títodo, tengo alguna posibilidad de decir no es el ejercicio,"
+    },
+    {
+      "start": 4457.48,
+      "end": 4466.9,
+      "text": "ni importa, estoy mostrando un poco más que nada lo que es los elementos de UML, está notando"
+    },
+    {
+      "start": 4466.9,
+      "end": 4473.02,
+      "text": "tanto el flujo, pero imagínense que digo vulcardo de datos si hay un pago anulado porque escribió mal,"
+    },
+    {
+      "start": 4473.02,
+      "end": 4481.49,
+      "text": "no sé, la fecha del vencimiento, ok, yo se digo bueno, una vez que tengo el pago anulado,"
+    },
+    {
+      "start": 4481.49,
+      "end": 4493.18,
+      "text": "si cancelas, puedo utilizar este tipo de flujos para decir este flujo, que es un único flujo, se va a"
+    },
+    {
+      "start": 4493.18,
+      "end": 4505.18,
+      "text": "terminar ahí, puedo tener varios y también tengo el final, yo define cuál va a ser el final,"
+    },
+    {
+      "start": 4505.18,
+      "end": 4517.37,
+      "text": "de acuerdo al flujo principal, tengo acá crear facturas, ok, por lo tanto tengo que ver"
+    },
+    {
+      "start": 4517.37,
+      "end": 4534.35,
+      "text": "que de acuerdo a qué vamos a ver si lo tengo acá, mi dibujito, pero se lo subí, pero igual vamos"
+    },
+    {
+      "start": 4534.35,
+      "end": 4546.56,
+      "text": "a hablar, ya de acuerdo, el nivel de esta acción, estoy manejando, está, se recién entendiendo el"
+    },
+    {
+      "start": 4546.56,
+      "end": 4553.04,
+      "text": "negocio y bueno me voy a un diagrama bien básico, posiblemente con canales, donde cada canal va"
+    },
+    {
+      "start": 4553.04,
+      "end": 4559.56,
+      "text": "a representar posiblemente los actores que haya definido en donde y en el diagrama de caso de uso,"
+    },
+    {
+      "start": 4561.07,
+      "end": 4568.79,
+      "text": "casi siempre el diagrama de la tía de alto nivel, el diánal y si es una especie de diagrama de caso de"
+    },
+    {
+      "start": 4568.79,
+      "end": 4579.91,
+      "text": "uso con flujo de tiempo, ok, ahora si ya estoy entrando del excel y quiere decir bueno no tengo que hacer"
+    },
+    {
+      "start": 4579.91,
+      "end": 4586.79,
+      "text": "esto y como y qué pasos tienen el pago de gana y ahí empiezo ya con los diagramas de actividad,"
+    },
+    {
+      "start": 4586.79,
+      "end": 4592.68,
+      "text": "pero ya no tanto pensando en actividad y no pensando en acciones, por lo tanto se van a encontrar con"
+    },
+    {
+      "start": 4592.68,
+      "end": 4604.62,
+      "text": "algunos autores que hablan de esta manera, ahora bien yo tengo que irme a otro tipo de diagrama,"
+    },
+    {
+      "start": 4605.44,
+      "end": 4615.18,
+      "text": "también voy a ir al de el corazón del diseño, es imaginaran que igual va a ser,"
+    },
+    {
+      "start": 4615.18,
+      "end": 4630.51,
+      "text": "el diagrama de clases, oye, ¿qué es la? el diagrama de clases, oye, ¿mento ustedes estuvieron trabajando"
+    },
+    {
+      "start": 4630.51,
+      "end": 4638.43,
+      "text": "en el diagrama de dominio, estuvieron trabajando en análisis en lo que es el diagrama de dominio,"
+    },
+    {
+      "start": 4638.99,
+      "end": 4642.33,
+      "text": "voy a hacer primero un repaso antes de comenzar a trabajar con esto,"
+    },
+    {
+      "start": 4642.33,
+      "end": 4650.83,
+      "text": "el diagrama de clases, obviamente lo que me prego ve es una vista estática o destruyada del"
+    },
+    {
+      "start": 4650.83,
+      "end": 4657.67,
+      "text": "sistema, por eso está dentro de dentro de las categorías de diagramas de huemer estáticos,"
+    },
+    {
+      "start": 4657.67,
+      "end": 4666.47,
+      "text": "ok, no represento el tiempo, no veo la vista, el cambio de acuerdo a algún evento, se refleje el"
+    },
+    {
+      "start": 4666.47,
+      "end": 4674.92,
+      "text": "tiempo, claro representan elementos físicos, no lo cambian con el tiempo, los elementos son las"
+    },
+    {
+      "start": 4674.92,
+      "end": 4686.35,
+      "text": "clases las asos, voy a los más las más importantes, clase, y me muestra una clase,"
+    },
+    {
+      "start": 4686.35,
+      "end": 4693.32,
+      "text": "entonces como lo pueden contar a lo de la otra, es una odiedad que encaps básica que encapsula"
+    },
+    {
+      "start": 4693.32,
+      "end": 4703.16,
+      "text": "información del objeto, es lo que me muestra, mientras voy a ir, atributos muy bien, muy bien,"
+    },
+    {
+      "start": 4703.16,
+      "end": 4717.73,
+      "text": "en estos dos fantásticos, tengo el nombre, la debería ir más fútcula, bueno, vale,"
+    },
+    {
+      "start": 4717.73,
+      "end": 4724.99,
+      "text": "ponemos más fútcula, su igual en estas cosas no me fijó, nombre atributos, pero vamos bien,"
+    },
+    {
+      "start": 4724.99,
+      "end": 4745.48,
+      "text": "atributos, atributos, atributos, ¿qué más? métodos, bueno, y tal más pero los distintos modificadores"
+    },
+    {
+      "start": 4745.48,
+      "end": 4782.01,
+      "text": "de acceso, es muy bien, y los métodos, profeciarse en capié en eso, justo que digo"
+    },
+    {
+      "start": 4782.01,
+      "end": 4789.21,
+      "text": "en compañero, no, no tanto, pero si lo mostramos, no porque calculo que ustedes esto lo van"
+    },
+    {
+      "start": 4789.21,
+      "end": 4799.72,
+      "text": "a ver en programación, o sea, eso lo deberían ver en programación, si es el más, si es algo"
+    },
+    {
+      "start": 4799.72,
+      "end": 4809.51,
+      "text": "público o no, la realidad es que lo van a ver en programación, y lo voy a ver, si lo que"
+    },
+    {
+      "start": 4809.51,
+      "end": 4818.56,
+      "text": "voy a remarcar, si es una clase concreta, si es una clase abstracta, o si es una clase,"
+    },
+    {
+      "start": 4818.56,
+      "end": 4829.2,
+      "text": "o si me interfaz, eso sí lo pido, pero igual ahora vamos a ir a eso, pero la realidad que"
+    },
+    {
+      "start": 4829.2,
+      "end": 4837.36,
+      "text": "lo demás no, también está difícil verlo en un examen, si es más o menos algo"
+    },
+    {
+      "start": 4837.36,
+      "end": 4848.23,
+      "text": "que no es tan importante, ¿ok? obviamente lo sí, en el examen los getters y los setters,"
+    },
+    {
+      "start": 4848.23,
+      "end": 4854.93,
+      "text": "no los pedimos, no los pido porque a lo de salio, es a lo que hoy en día, después les voy"
+    },
+    {
+      "start": 4854.93,
+      "end": 4861.45,
+      "text": "a subir más adelante, cuando tenemos un poquito más avanzados con la parte teórica, les voy"
+    },
+    {
+      "start": 4861.45,
+      "end": 4865.65,
+      "text": "a subir una ejercicio justamente donde hablo de los getters y los setters, la realidad es que a"
+    },
+    {
+      "start": 4865.65,
+      "end": 4870.89,
+      "text": "mí los getters y los setters, hoy en día no me britan mucha información, hay herramientas"
+    },
+    {
+      "start": 4870.89,
+      "end": 4878.28,
+      "text": "y que ya hacen los getters y los setters en fondo automático, la herramienta, no tanto no es alguna"
+    },
+    {
+      "start": 4878.28,
+      "end": 4888.48,
+      "text": "aporte tras el ambiental dentro del diseño, lo que yo voy a hacer en el diseño es definir las"
+    },
+    {
+      "start": 4888.48,
+      "end": 4894.2,
+      "text": "cosas que tienen mayor riesgo de entendimiento, ¿ok? Por lo tanto, hacer los getters y lo"
+    },
+    {
+      "start": 4894.2,
+      "end": 4902.76,
+      "text": "setter, la realidad no me importa ahora, sí que sí que los van a tener, ahora si estoy en"
+    },
+    {
+      "start": 4902.76,
+      "end": 4911.32,
+      "text": "el diseño, supone, en el día de nada más de secuencia necesito usar algún getter, lo pongo"
+    },
+    {
+      "start": 4911.32,
+      "end": 4918.51,
+      "text": "de 10, ¿puedes ponerlo? Puedes ponerlo como para que yo vea que acá, que hace una relación"
+    },
+    {
+      "start": 4918.51,
+      "end": 4925.99,
+      "text": "estrecha entre los, entre los, entre las vistas del mismo modelo, ¿ok? Obvio, ¿puedes ponerlo?"
+    },
+    {
+      "start": 4925.99,
+      "end": 4932.55,
+      "text": "pero no pongas todos los getters y los setters de todo el modelo, porque te va a llevar mucho tiempo"
+    },
+    {
+      "start": 4932.55,
+      "end": 4937.35,
+      "text": "y la realidad es que hay en día las herramientas que los hacen en fondo automática."
+    },
+    {
+      "start": 4937.35,
+      "end": 4941.67,
+      "text": "Aparte, no es una buena práctica de ponerlo, pero que es eso, por ejemplo, vivían a los"
+    },
+    {
+      "start": 4941.67,
+      "end": 4947.12,
+      "text": "querías, los getters, los que estaban en el día de nada más de secuencia. Sí, porque me permite"
+    },
+    {
+      "start": 4947.12,
+      "end": 4953.12,
+      "text": "a mi ver una, una, me permite evaluar otra cosa, más que los getters y los setters, lo que me"
+    },
+    {
+      "start": 4953.12,
+      "end": 4959.08,
+      "text": "permite evaluar es que el alumno haya entendido que hay una relación entre los diferentes"
+    },
+    {
+      "start": 4959.08,
+      "end": 4968.23,
+      "text": "vistas, ¿ok? Como justamente, estás modelando una vista, en vez que modelar la, tienes que contemplar"
+    },
+    {
+      "start": 4968.23,
+      "end": 4972.83,
+      "text": "los cambios en una y en la otra, porque estamos hablando del mismo modelo. Si vos estás haciendo"
+    },
+    {
+      "start": 4972.83,
+      "end": 4985.28,
+      "text": "por una herramienta así, tipo software, os cuando vergas un método en el diagrama de secuencia"
+    },
+    {
+      "start": 4985.28,
+      "end": 4992.24,
+      "text": "o en la comunidad de comunicación o en los diagrama de interacción, automáticamente"
+    },
+    {
+      "start": 4992.24,
+      "end": 4998.64,
+      "text": "se vean reflejados en el diagrama de clases. Por lo tanto, esa relación estrecha está, ahora"
+    },
+    {
+      "start": 4998.64,
+      "end": 5004.44,
+      "text": "si yo lo hago, yo ven el diagrama de clases, hago todos los getters y los setters, porque la"
+    },
+    {
+      "start": 5004.44,
+      "end": 5010.46,
+      "text": "herramienta me lo permite, no lo vas a haber reflejado en el diagrama de secuencia, ¿ok?"
+    },
+    {
+      "start": 5010.46,
+      "end": 5015.62,
+      "text": "Y ni siquiera lo que le es instanciado sea diagrama de secuencia. Entonces, no me brinde"
+    },
+    {
+      "start": 5015.62,
+      "end": 5023.18,
+      "text": "a mayor información, lo que calcula, que calcula, que quiere ver, que posiblemente yo también"
+    },
+    {
+      "start": 5023.18,
+      "end": 5029.3,
+      "text": "lo quiero ver es que si vos estás trabajando con un diagrama de interacción o un diagrama"
+    },
+    {
+      "start": 5029.3,
+      "end": 5035.02,
+      "text": "de estado también, por ejemplo, puede llegar a estar, bueno, que los mismos elementos que"
+    },
+    {
+      "start": 5035.02,
+      "end": 5041.3,
+      "text": "ya has utilizado en una vista lo vean reflejados en la otra, ¿ok? Eso sí es algo que se"
+    },
+    {
+      "start": 5041.3,
+      "end": 5049.18,
+      "text": "valúa y mucho, pero no por lo que se refiere a la gente. Y si, claro, o sea lo que quiero"
+    },
+    {
+      "start": 5049.18,
+      "end": 5053.3,
+      "text": "remarcar de cisono es que todo lo que tiene que estar en un lado tiene que estar en el otro,"
+    },
+    {
+      "start": 5053.3,
+      "end": 5060.42,
+      "text": "pero justamente, más, ahora todo vamos a hacerlo, voy a dar mal un diagrama de secuencia,"
+    },
+    {
+      "start": 5060.42,
+      "end": 5066.3,
+      "text": "entre el diagrama de secuencia me permite ver esa relación estrecha entre la visita vista."
+    },
+    {
+      "start": 5068.17,
+      "end": 5077.35,
+      "text": "No hacía revés, bueno, en la gestión de tengo pago, se va a ver ya apuntar, ah, si ya sé, si decime,"
+    },
+    {
+      "start": 5077.35,
+      "end": 5083.51,
+      "text": "vos tenés. Lo que dijo el compañero sobre los getis y los setes, también aplica para los"
+    },
+    {
+      "start": 5083.51,
+      "end": 5092.03,
+      "text": "constructores. Los constructores es un mundo aparte, ¿ok? Porque yo lo que voy a estar viendo,"
+    },
+    {
+      "start": 5093.22,
+      "end": 5098.58,
+      "text": "lo que voy a estar viendo dentro del diseño son las patrones de raps y ahí tengo el criador,"
+    },
+    {
+      "start": 5101.78,
+      "end": 5107.68,
+      "text": "para usar el criador voy a tener que ser una clase contenedora, todavía no quiero avanzar un"
+    },
+    {
+      "start": 5107.68,
+      "end": 5115.48,
+      "text": "poquito más pero sí lo voy a explicar esto. El constructor, lo que me permite a mí es,"
+    },
+    {
+      "start": 5115.48,
+      "end": 5125.91,
+      "text": "digamos, para así decirlo es, es un elemento técnico para poder crear el objeto,"
+    },
+    {
+      "start": 5125.91,
+      "end": 5134.96,
+      "text": "¿ok? Entonces yo voy a tener, puedo tener un constructor en donde le estoy pasando parámetros y"
+    },
+    {
+      "start": 5134.96,
+      "end": 5138.96,
+      "text": "voy a tener un constructor donde no le paso el parámetro y me crea el objeto vacío y después,"
+    },
+    {
+      "start": 5138.96,
+      "end": 5145.36,
+      "text": "a medida que voy usando ese objeto, le voy a agregar valores a esos parámetros, ¿ok? Pero"
+    },
+    {
+      "start": 5146.64,
+      "end": 5155.51,
+      "text": "vuelve a repetir tu pregunta, ¿me estoy decidiría crearlo? ¿Qué se hace falta modelarlo?"
+    },
+    {
+      "start": 5155.51,
+      "end": 5165.85,
+      "text": "Depende, si lo estás modelando en un diagrama de secuencia, colocalo. Ahora, yo ya sumo que por"
+    },
+    {
+      "start": 5165.85,
+      "end": 5171.89,
+      "text": "defecto va a tener un constructor aunque sea vacío digamos aunque no pase parámetros voy a poder crear"
+    },
+    {
+      "start": 5171.89,
+      "end": 5181.28,
+      "text": "ese objeto, ¿ok? ¿Me va siguiendo? Sí, creo que sí. ¿Por qué vos cuando estás programando y sí,"
+    },
+    {
+      "start": 5181.28,
+      "end": 5185.96,
+      "text": "bueno, creé y pago capaz que no tenés el constructor, pero automáticamente lo vas a tener o sea,"
+    },
+    {
+      "start": 5185.96,
+      "end": 5195.22,
+      "text": "es una herramienta, es un elemento fundamental dentro de la programación para poder instanciar ese objeto."
+    },
+    {
+      "start": 5195.22,
+      "end": 5201.04,
+      "text": "Ahora, bien, no es el responsable de crearlo, responsable de crearlo contra los patrones"
+    },
+    {
+      "start": 5201.04,
+      "end": 5207.96,
+      "text": "grabs que ustedes ya lo vieron, es otra clase, ¿ok? Y no tiene nada que ver con el que lo crea que es"
+    },
+    {
+      "start": 5207.96,
+      "end": 5214.52,
+      "text": "el constructor, voy a tener el creador, el responsable de la creación y después voy a tener el"
+    },
+    {
+      "start": 5214.52,
+      "end": 5222.74,
+      "text": "constructor que al lo técnico que me permite ver cómo se crea, ¿eh? Pero eso lo vamos a ver un"
+    },
+    {
+      "start": 5222.74,
+      "end": 5231.02,
+      "text": "poquito más adelante, el crear pago. Y también va a defender de la cantidad de parámetros que uno le"
+    },
+    {
+      "start": 5231.02,
+      "end": 5239.98,
+      "text": "pasa, así que le hacer algo dentro de ese constructor o no, ¿ok? Bueno, esto lo dejo así por lo que me acuerdo"
+    },
+    {
+      "start": 5239.98,
+      "end": 5264.53,
+      "text": "en ella, en foto. Y tengo una asociación, ¿verdad? Lo de lo año, tengo una relación estrecha,"
+    },
+    {
+      "start": 5266.82,
+      "end": 5279.46,
+      "text": "el lo año tiene perro, tengo que ver la multiplicidad, no hablamos de multiplicidad,"
+    },
+    {
+      "start": 5282.1,
+      "end": 5297.31,
+      "text": "me acuerdo cómo lo hice el dibujito pero vamos a poner acá, tengo la multiplicidad,"
+    },
+    {
+      "start": 5297.31,
+      "end": 5311.29,
+      "text": "lo del helen y tengo que tener otro, abajo, pero estamos multiplicando, lo que me va a"
+    },
+    {
+      "start": 5311.29,
+      "end": 5321.9,
+      "text": "participar a mí es la relación, ¿no? Es ver la cantidad de la cardinalidad y la relación"
+    },
+    {
+      "start": 5321.9,
+      "end": 5327.53,
+      "text": "de los objetos, es decir, cuantos objetos están conectados o no con otra instancia. Yo acá puedo"
+    },
+    {
+      "start": 5327.53,
+      "end": 5342.42,
+      "text": "poner 0, 1 o 3, es decir, no puedo tener una instancia o 1 o 3, mía 2 o 5, ni esta, puedo definir bien"
+    },
+    {
+      "start": 5342.42,
+      "end": 5352.49,
+      "text": "la multiplicidad que yo quiero. Puedo poner un asteroico, puedo poner 0 para más"
+    },
+    {
+      "start": 5352.49,
+      "end": 5360.64,
+      "text": "valor de tarmos, no sé, pero esto, ¿qué más puedo poner para dar?"
+    },
+    {
+      "start": 5362.64,
+      "end": 5371.72,
+      "text": "Siempre me olvido si el asteroico esto muglean los, si el asteroico incluye el 0, siempre me olvido,"
+    },
+    {
+      "start": 5373.28,
+      "end": 5388.67,
+      "text": "y después lo repaso, si el asteroico incluye el 0, ahí está, salen contra el asteroico"
+    },
+    {
+      "start": 5388.67,
+      "end": 5398.89,
+      "text": "en el celular en contra, el asteroico incluye el 0, por tanto, si quiero decir que es de 1 para"
+    },
+    {
+      "start": 5398.89,
+      "end": 5409.84,
+      "text": "adelante, pongo esto. También podría decir, m, m, está ahí, después de definir, m, m, m, m,"
+    },
+    {
+      "start": 5413.89,
+      "end": 5419.41,
+      "text": "y por lo tanto me brinda información, sí, me brinda, porque el día de mañana, cuando yo todo esto se"
+    },
+    {
+      "start": 5419.41,
+      "end": 5428.71,
+      "text": "lo pase al programador, vas a ver que la cardinalidad me va a permitir crear, vamos a grabar, donde está,"
+    },
+    {
+      "start": 5429.94,
+      "end": 5437.8,
+      "text": "o uno, o tres, o cinco, ¿ok? Me brinda información en cuanto a la programación. Por lo tanto,"
+    },
+    {
+      "start": 5437.8,
+      "end": 5445.36,
+      "text": "la multiplicidad en ver los objetos están conectados, un a otro es bastante útil en el diseño."
+    },
+    {
+      "start": 5447.71,
+      "end": 5464.16,
+      "text": "¿Qué más? Nombres a las relaciones, es importón de colocarla, suenio tiene, está, cuando hay herramientas"
+    },
+    {
+      "start": 5464.16,
+      "end": 5475.15,
+      "text": "que nos permiten hacer transformaciones de diagramas de clases a código, el nombre de la"
+    },
+    {
+      "start": 5475.15,
+      "end": 5482.94,
+      "text": "asociación a veces es muy útil, hasta lo van a ver más adelante, pero es muy útil, lo tenemos que"
+    },
+    {
+      "start": 5482.94,
+      "end": 5495.42,
+      "text": "poner, después tenemos generalizaciones, vamos a grabar, generalizaciones, eso se me voy a ir a"
+    },
+    {
+      "start": 5495.42,
+      "end": 5508.34,
+      "text": "tuca, ya estoy con el animal, tengo una generalización, ustedes lo deben conocer como"
+    },
+    {
+      "start": 5508.34,
+      "end": 5516.38,
+      "text": "erencia, está, es una clase, una clase su clase de otra y simplemente de esta manera con una"
+    },
+    {
+      "start": 5516.38,
+      "end": 5522.5,
+      "text": "flechita para arriba, no con lo que le esto nos exámenes, porque después se, si es una asciación"
+    },
+    {
+      "start": 5522.5,
+      "end": 5531.94,
+      "text": "dirigida, o si es una herencia, por lo tanto, cómo se ve la herencia de esta manera,"
+    },
+    {
+      "start": 5533.38,
+      "end": 5549.36,
+      "text": "tratan de ser proelíjos que es fundamental dentro del diseño. ¿Está permitida la relación en"
+    },
+    {
+      "start": 5549.36,
+      "end": 5561.91,
+      "text": "a n en esta materia? Depende, la realidad es que yo no tengo problema porque tal o sea lo que estoy"
+    },
+    {
+      "start": 5561.91,
+      "end": 5570.47,
+      "text": "tratando de hacer en diseño, es tener un panorama de cómo va a ser la solución, basternas"
+    },
+    {
+      "start": 5570.47,
+      "end": 5581.38,
+      "text": "de más cosas complicadas, que un NIN, primero vas a tener que manejar bien a los que es controladores,"
+    },
+    {
+      "start": 5582.58,
+      "end": 5590.61,
+      "text": "vas a tener más cosas, por lo tanto, y vos tenés, darnos un ejemplo de NIN que haya torturado en"
+    },
+    {
+      "start": 5590.61,
+      "end": 5599.64,
+      "text": "otras materias. Pregunto porque a nosotros en la disintiretamente no nos dejaban. Sí, ya sé,"
+    },
+    {
+      "start": 5599.64,
+      "end": 5614.31,
+      "text": "decime una cosa, un ejemplo para poder trabajarlo, persona auto, sí, podría ser."
+    },
+    {
+      "start": 5614.31,
+      "end": 5625.13,
+      "text": "Acá no, acá la verdad que no, porque yo quiero poner un poco en personas y vas a tener otra clase,"
+    },
+    {
+      "start": 5625.69,
+      "end": 5650.68,
+      "text": "que no te lo debería permitir. En este ejemplo no, bebiendo algo trivial, ahora si tú pregunta"
+    },
+    {
+      "start": 5650.68,
+      "end": 5660.88,
+      "text": "estáis me va a poner un dos porque tengas un NN, no, pero bueno, el abanico de notas varía por"
+    },
+    {
+      "start": 5660.88,
+      "end": 5675.7,
+      "text": "otras cosas, ¿ok? La paz que no llegas al 7, pero no va a ver un 2 por esto, entonces este es"
+    },
+    {
+      "start": 5675.7,
+      "end": 5689.82,
+      "text": "más tranquilo. Sí, pero gracias. Y está bien que en análisis no les haya puesto, pero capaz"
+    },
+    {
+      "start": 5689.82,
+      "end": 5697.9,
+      "text": "que en el transcurso de esta materia entiendas, porque lo que yo quiero hacer en el diseño es que lo van"
+    },
+    {
+      "start": 5697.9,
+      "end": 5706.26,
+      "text": "a lo vamos a ir trabajando, es que cada uno, cada componente a lo que le corresponda,"
+    },
+    {
+      "start": 5706.98,
+      "end": 5713.42,
+      "text": "entonces yo tengo una multiplicidad, por ejemplo, dueños y estoy manejando también la pila"
+    },
+    {
+      "start": 5713.42,
+      "end": 5718.34,
+      "text": "dentro de ese objeto, entonces no me conviene, tengo que atomisarlo lo más posible,"
+    },
+    {
+      "start": 5718.34,
+      "end": 5726.8,
+      "text": "pero no me vas a poder entender ahora, así más adelante, cuando te hacemos hablar un poco de"
+    },
+    {
+      "start": 5726.8,
+      "end": 5731.72,
+      "text": "patrones, draps, cuestion, todo eso, ¿ok? Quiero tranquilo, después volvemos a este tema."
+    },
+    {
+      "start": 5731.72,
+      "end": 5755.66,
+      "text": "Yo tengo una asociación, puedo decir que la avión contiene a la, o que está totalmente"
+    },
+    {
+      "start": 5755.66,
+      "end": 5767.91,
+      "text": "permitido, y eso es una asociación fuerte. Y yo quiero remarcarlo, porque quiero que el programador"
+    },
+    {
+      "start": 5767.91,
+      "end": 5774.35,
+      "text": "entienda, te estoy hablando de una relación mucho más estrecha, mucho más fuerte en un"
+    },
+    {
+      "start": 5774.35,
+      "end": 5783.27,
+      "text": "objeto, en este caso el avión, o sea el otro, o sea el otro, entonces me voy a una que una"
+    },
+    {
+      "start": 5783.27,
+      "end": 5802.81,
+      "text": "composición o una agregación, una composición, ¿ok? El avión va a tener alas, voy a poner el"
+    },
+    {
+      "start": 5802.81,
+      "end": 5819.08,
+      "text": "motor, una gente que estamos con un avión de un único motor, si no sé si tienen dos motor"
+    },
+    {
+      "start": 5819.08,
+      "end": 5841.8,
+      "text": "y se hace de mi puerta, en el niño que lo hice esa maniera, la inserción en el dos o en el"
+    },
+    {
+      "start": 5841.8,
+      "end": 5864.12,
+      "text": "uno, no se acuerdan, ¿no? Creo que es el del dos. Ahí está. Es una relación muy fuerte, entonces"
+    },
+    {
+      "start": 5864.12,
+      "end": 5871.6,
+      "text": "cuando quiero transitar, hacer una transformación al código, lo que estoy acá demostrando es que si"
+    },
+    {
+      "start": 5871.6,
+      "end": 5877.08,
+      "text": "voy a ahorrar avión o el imino, a un distro de la avión, tengo que hacer un distro ideal"
+    },
+    {
+      "start": 5877.08,
+      "end": 5884.8,
+      "text": "y de motor, ¿ok? Entonces a nivel código me brinda información tener una composición, no ha"
+    },
+    {
+      "start": 5884.8,
+      "end": 5892.86,
+      "text": "sido el caso de una agregación, que es una relación un poco más fuerte, no? No, no sé, está"
+    },
+    {
+      "start": 5892.86,
+      "end": 5918.06,
+      "text": "contenido, pero sigue funcionando. Es una relación, es una relación fuerte, pero la realidad"
+    },
+    {
+      "start": 5918.06,
+      "end": 5934.66,
+      "text": "es que, pero voy a me voy a siento, la avión obviamente va a pasar, van a contener pasajeros,"
+    },
+    {
+      "start": 5934.66,
+      "end": 5939.74,
+      "text": "está en un objeto contiene el otro, no me gusta mucho el ejemplo, pero no importa, puede ser"
+    },
+    {
+      "start": 5939.74,
+      "end": 5952.11,
+      "text": "equipos jugadores también. Pero la realidad es que hacer una agregación a nivel código y hacer"
+    },
+    {
+      "start": 5952.11,
+      "end": 5957.43,
+      "text": "una asociación es exactamente lo mismo, por lo tanto, usted se ona en contra que en"
+    },
+    {
+      "start": 5957.43,
+      "end": 5962.51,
+      "text": "algunos, en algunos acciones de alumnos, autores, usa agregación y otras que no. La realidad"
+    },
+    {
+      "start": 5962.51,
+      "end": 5967.11,
+      "text": "es que yo prefiero evitar la agregación, porque a nivel código cuando hay una transformación"
+    },
+    {
+      "start": 5967.11,
+      "end": 5975.63,
+      "text": "es exactamente lo mismo que hacer una asociación, ¿ok? Por lo tanto no es prácticamente lo mismo,"
+    },
+    {
+      "start": 5975.63,
+      "end": 5986.3,
+      "text": "la única información que me podría llegar a brindar, no, no, una una información que me podría"
+    },
+    {
+      "start": 5986.3,
+      "end": 5998.7,
+      "text": "llegar a brindar para acá. Es que la cardinidad del lado del todo siempre va a ser uno, ¿ok?"
+    },
+    {
+      "start": 5998.7,
+      "end": 6008.21,
+      "text": "Por lo tanto la cardinidad es lo que es el avión, no la puse, porque siempre va a ser uno. Es lo"
+    },
+    {
+      "start": 6008.21,
+      "end": 6016.33,
+      "text": "único que me da brindar, por lo tanto si yo uso composiciones agregación, el problema que tuvo"
+    },
+    {
+      "start": 6016.33,
+      "end": 6024.51,
+      "text": "el compañero con N&N o va a ser un, digamos, necesaria porque ahí ya la estás resolviendo."
+    },
+    {
+      "start": 6026.8,
+      "end": 6035.93,
+      "text": "¿Qué más? Cuando tengo un método que contiene al otro y siempre va a ser uno, ¿ok? Por lo"
+    },
+    {
+      "start": 6035.93,
+      "end": 6040.56,
+      "text": "tanto ahí no tendrías este problema. ¿Qué más?"
+    },
+    {
+      "start": 6043.43,
+      "end": 6047.66,
+      "text": "Incibilidad lo vamos a dar más adelante, pues los voy a volver loco."
+    },
+    {
+      "start": 6049.43,
+      "end": 6062.7,
+      "text": "Y vamos a seguir pero con otra cosita. Bueno, prácticamente son las 10, yo tengo que seguir,"
+    },
+    {
+      "start": 6062.7,
+      "end": 6071.56,
+      "text": "con ustedes tengo muy bien porque tengo cuatro clases más que los compañeros de las lunes,"
+    },
+    {
+      "start": 6071.56,
+      "end": 6078.32,
+      "text": "así que vamos a hacer un corte de 15 minutitos y volvemos, pues tampoco quiero relajarme. La idea con"
+    },
+    {
+      "start": 6078.32,
+      "end": 6088.65,
+      "text": "ustedes que quiero hacer es un repaso de todos los diagramas que era la idea del día de hoy,"
+    },
+    {
+      "start": 6088.65,
+      "end": 6095.89,
+      "text": "ya la clase que viene vamos a empezar con patrones, graves y hacer ejercicios pero en el aula,"
+    },
+    {
+      "start": 6097.05,
+      "end": 6104.96,
+      "text": "pero tenemos que hacer un repaso de todos los, de todos las vistas, de todos los diagramas. Por lo"
+    },
+    {
+      "start": 6104.96,
+      "end": 6114.07,
+      "text": "tanto el objetivo, si en sé que esté dioso a escucharme a mí me parece que a veces hasta"
+    },
+    {
+      "start": 6114.07,
+      "end": 6124.39,
+      "text": "los, no me gusta que sea tan teórica, trato de hacer un poco que tengan un poco de práctica,"
+    },
+    {
+      "start": 6124.39,
+      "end": 6129.67,
+      "text": "pero bueno, la ventaja de la mente explico que quiero comenzar con todo el mismo nivel por lo menos"
+    },
+    {
+      "start": 6129.67,
+      "end": 6136.13,
+      "text": "en cuanto a diagramas, entonces la clase de idea debe hacer eso, vamos a hacer un pequeño corte,"
+    },
+    {
+      "start": 6136.13,
+      "end": 6147.86,
+      "text": "vamos a buscar un sitio, un caspecito y seguimos, les parece, hasta que hora y cuarto les parece"
+    },
+    {
+      "start": 6147.86,
+      "end": 6156.26,
+      "text": "15 minutos, son las bien, no tengo el aula, son las 9,56, pero sí, les parece bien, 15 cuarto, así,"
+    },
+    {
+      "start": 6156.26,
+      "end": 6160.82,
+      "text": "nada, perfecto, por lo del proceso, empiezo y así cuarto,"
+    }
+  ]
+}

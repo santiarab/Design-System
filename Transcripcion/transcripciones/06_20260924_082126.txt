@@ -1,0 +1,1082 @@
+# Clase 06 - Parte 1 - 2026-09-24
+Archivo de origen: Clase 06-20260924_082126-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 02:21:30
+
+---
+
+[00:00:07 - 00:00:47] Están grabando. Y profe. Tontásticos. Estilla. No me voy a subir acá en el chat. Para no tener tantas cosas, porque está en el documento, en el work que yo subí, dice guía de ejercicios para clases estudiantes. Es el ejercicio de casos de estados. La idea de ejercicios, yo las voy a empezar a arrancar,
+[00:00:47 - 00:01:07] arrancar con algunos diagramas, voy a hacer un bosquejo de diagrama de clases, voy a hacer también alguno de secuencia y después lo que les voy a pedir es que trabajen alguno de secuencia como para poder adicionarlo.
+[00:01:07 - 00:01:15] Les dejo cinco minutos de parece para que lo puedan leer y arranco. Les parece.
+[00:01:19 - 00:01:34] ¿Qué es el proceso? Si, tiene una forma de ponerlo en pausa y después de volver a comenzar, cada vez, tengo que decir así, estopiarla.
+[00:01:34 - 00:01:43] No creo que no tiene forma de pausa, ni la de tener.
+[00:01:43 - 00:11:04] Bueno, les dejo cinco minutos. Desculpame qué es? Que es largo del licenciado. Bueno, les dejo un ratito más, estoy acá.
+[00:11:04 - 00:11:10] Fue, cuando dice que se puede comprar la entrada en cajeros y otros canales de comerse de craco.
+[00:11:10 - 00:11:22] Es podría ser que llega por, vamos a lo que llega directamente por, por mayo, por mayo o por medio de sulectro en cobaxado, lo que sea.
+[00:11:22 - 00:11:26] Claro, pues justo me he generado ahí como una duda. No, no estaba claro.
+[00:11:26 - 00:11:34] Claro, que va a sacar esa parte porque los confunde más de la cosa así que ya parten las como se hace ahora.
+[00:11:34 - 00:11:39] Bueno, gracias perfecto.
+[00:11:39 - 00:11:47] ¿Qué sería una minucia? No te entiendo. ¿Qué? ¿Qué sería una minucia? ¿Dónde queda eso?
+[00:11:47 - 00:12:00] Minucia, ¿sí se? Y en el dos en la parte de carne intransferible.
+[00:12:00 - 00:12:13] En cada cabeza. En el ronde de los minucias de las huella digitales, en el rolamiento de la ficción, se toma los datos de las minucias y una foto.
+[00:12:13 - 00:12:20] Cuando se toma la huella digital, no sé si se cae un error, vos lo que hace es poder tenerlo en forma...
+[00:12:20 - 00:12:23] No, tomar la huella digital.
+[00:12:23 - 00:12:27] ¿Vale? ¿Vale? ¿Vale?
+[00:12:27 - 00:12:55] Es lo que voy a estar dando por así.
+[00:12:55 - 00:13:07] Sí es sacar todos los detalles y la entidad de la huella digitales. Si lo fue opunder, se toman todos los datos personales.
+[00:13:07 - 00:13:15] Y...
+[00:13:15 - 00:13:26] Las huella personales y la huella y las huechas de actiladas.
+[00:13:26 - 00:13:36] Eso no sé si tomaría todas las huechas de actiladas. Calculo que una sola, pero bueno, vamos a dejarlo ahí.
+[00:13:36 - 00:13:46] en este caso no soy la policía, acá va a ser con una sola alca, no es como cuando uno va al banco, creo que cuando ahora se puede sacar con huayas
+[00:13:46 - 00:14:05] hospital no hay unos cajeros, infide solamente una huayas hospital como el celular están?
+[00:14:05 - 00:14:14] Sí, creo que.
+[00:14:14 - 00:14:19] Bueno, fantástico arranquemos la chica, están viendo en el maquina, ¿no?
+[00:14:19 - 00:14:23] Sí, y creo que sí.
+[00:14:23 - 00:14:36] Bueno, la realidad es que cuando ustedes ven el exáeste, su fue un exámen, obviamente que yo en el exámeno les puedo pedir todo esto.
+[00:14:36 - 00:14:48] Como después este ejercicio se transformó en parte de un ejercicio para hacer en clase, les pido más cosas como para que también tengan un mayor nivel del tendimiento,
+[00:14:48 - 00:15:01] ya parte porque, bien, en el primer exámeno, mucho foco en los diagramas cor del diseño, después tiene en otro parcial de también puedo llegar a tomar algo, ¿ok?
+[00:15:01 - 00:15:07] Entonces, la realidad es que te las pide más por eso.
+[00:15:07 - 00:15:25] Es un ejercicio bastante largo y para tener un mismo nivel de entendimiento, voy a armar lo que llamamos el diagrama de alquididad, para por lo menos entender cuál es el flujo principal del negocio.
+[00:15:26 - 00:15:34] Es por eso que arranqué, no para acá, y voy a arrancar con algunos diagramas.
+[00:15:34 - 00:15:44] ¿Qué tal vez en el exámeno ustedes los puedan tener alguna parte o a veces que lo soy como parten en un más fluente entendimiento?
+[00:15:45 - 00:15:58] O les digo, bueno, podemos modificarlo, tengo un error, valió en lo, y después pide lo tomo en la segunda parte en un poquito más que en profundidad.
+[00:15:58 - 00:16:13] Voy a empezar con un diagrama de alquididad general, donde voy a poner foco el flujo principal del negocio, más que nada para que estemos todos de acuerdo y en lo que es el cor, ¿ok?
+[00:16:13 - 00:16:31] Lo que es el corazón de lo que tenemos que refogar. Voy a poner empadronamiento, empadronamiento, relajicionado, ¿ok?
+[00:16:31 - 00:16:43] Empezamos con el empadronamiento de la gestionado, acá habla un poco la idea, vamos a acá, la idea es, vamos acá.
+[00:16:44 - 00:16:51] Los clubes de fútbol podrán hacer una más organización, como esta les decía, en el tiempo de los organismos del Estado,
+[00:16:51 - 00:17:02] tendrá una herramienta de gestionado para garantizar la mayor que hubo día dentro de los estudios, del estadio, perdón, para asistir a un partido de fútbol cada fice,
+[00:17:02 - 00:17:17] y el empezionado deberá estar inscripto previamente en un padrón nacional de apistionado, el empadronamiento se alrespela como un trámite de personal en las redes de las clubes, donde cada incha deberá refitarse con su nombre, foto de mis símili, de nombre de documento, etcétera, guayas, digitales,
+[00:17:17 - 00:17:42] redistirá por correo, una tarjeta, un capaz que se lo hace el nuevo evento, no hay digamos, no hemos disincaría el negocio, una vez inscripto en el sistema edificiado estará invitado para comprar la centrada de los partidos que serán comercializados con la otra de los automáticos, esto lo vamos a eliminar, a través de canales electrónicos vamos a dejar,
+[00:17:42 - 00:18:01] de esta manera de desaparecer el expendio de entradas en las boliterías, una instancia que interáversas, domedaciones y la reventa, el Partido habrá con todos los policiales dispuestos en los perímetros que comprobarán mediante un minutito,
+[00:18:01 - 00:18:29] si van a comprobar, si realmente es el evento que tienen que ir, si tienen la entrada correcta, etcétera, después tienen otro control y ahí donde ingresan las huelas digitales y lo haría huelas de quitar con la tarjeta.
+[00:18:29 - 00:18:53] Los datos de los espectadores serán validados de manera casi instantánea, no la base datos de tal, no importa, procedimientos, tengo un empadronamiento donde la idea es, yo necesito controlar el acceso a que haya un registro de ese acceso a este evento,
+[00:18:53 - 00:19:08] vamos a hablar de Partido de Fútbol, la idea es que se registren y una vez que tengan el registro, ahí recién van a poder comprar una entrada.
+[00:19:09 - 00:19:51] Los datos voy a empezar a entender un poco el negocio, tengo el empadronamiento del aficionado, lo que hago es una nota, es registrar una vez que tengo el empadronamiento, ingresan sus datos, las huelas digitales, valían el de negría, lo hacen directamente en los clubes,
+[00:19:51 - 00:20:15] entonces más que nada, tal o que si no se vía un empadronamiento, le podrían hacer por el intapel, valiación de la aficionado de poner a teniendo esto.
+[00:20:15 - 00:20:53] Es una valiación mínima de la aficionado, vamos a hacer una notita, ya que estamos periodotos, valiérashicionados, luego en el con, quiero que estoy haciendo bastante secuencial, no estoy haciendo canales, nada por el fin, lo que yo quiero es tener una idea, como es el flujo general,
+[00:20:53 - 00:21:18] no en pienso con las disfrutaciones, con los casos, que pueden generar varios caminos, sino voy con el más lógico y el básico, una vez que tengo la valiación de la aficionado de la aficionado, recién ahí puede comprar la entrada al evento.
+[00:21:18 - 00:21:49] Cuando nos cuento stock, la realidad es que no voy a poner mucho poco en el proceso de compra, tanto le pongo que va a ser bastante simple, si lo queremos de la idea es ponerlo hacer lo más simple posible.
+[00:21:49 - 00:22:12] Después si una vez que ya tenéis el empadamiento, valiérashicionado puede comprar la entrada, ahí lo que hacemos es una vez que va a el evento, tengo dos controles, uno le voy a poner uno pre-control,
+[00:22:12 - 00:22:38] lo que hago es una lectura, cuando el aficionado llega al estado, deberá pasar por un pre-control policial que verificará mediante un dispositivo de lectura de la tarjeta para comprobar que posee la entrada y que la puerta por donde ente el de ingresar sea la correcta.
+[00:22:38 - 00:23:09] Cuando un ingresar está acercando al club, lo que hacen es tener un control policial, te den la entrada para valir, imagínense que no sé qué, me voy a un recital y ese recital tiene 3 o 4 días, bueno está en el día correcto, parece una valiación tan tanta, pero suele haberlo.
+[00:23:10 - 00:23:35] Entonces bueno está en el día correcto, está bueno, si no, vos tenés que entrar a la puerta, es sur, bueno, tienes que ir por el otro lado, entonces hay un pre-control policial, después se llega a lo que sería el acceso a la puerta en sí, donde ya tenés el control del molinente.
+[00:23:35 - 00:24:11] Entonces vamos a ponerle pre-control, le puse pre-control uno para poder tener un show nivel de entendimiento, el primero se hace 1, pues se lo ha roto, y acabo llevar 2 en control, lui voy a poner control molinente, para que también no sea un poco más amigable para el entendimiento del problema.
+[00:24:11 - 00:24:49] El control en el inicial, tengo un control en el perímetro de estadio, la policía estoy escribiendo algunas notas para tener un mayor nivel de entendimiento del expresión, la policía le entra la entrada, como lo le puede ser con un celular,
+[00:24:49 - 00:25:30] la idea, un dispositivo, ahora lo vamos a buscar, valida la valida, si la entrada es correcta, pues eso es un proceso manual, o lo lees, no, que estás confundiendo de día, bien día, el día es correcto, si está camino a la puerta correcta,
+[00:25:30 - 00:25:44] si está camino a la puerta de acceso correcta o habilitada, pues vamos a corresponde antes.
+[00:25:44 - 00:26:25] Y obviamente podría llegar a ser si es un usuario o un aficionado habilitado, pero en que ahora también hay unas respiciones a aquellos que no abonan a padres que no abonan,
+[00:26:25 - 00:26:52] los hijos, bueno, hay un montón de condiciones para expulsarlos, más allá de que papás haya hecho algo incorrecto, y también esto, un minuto, bueno, una vez que tengo el control del molinente, algo que es fundamental y que es el objetivo del negocio,
+[00:26:52 - 00:27:45] tengo que registrar el acceso, registrar los accesos, voy a poner el control del molinente también, lo que voy a poner es valida la polla tal, por respondiente, no,
+[00:27:45 - 00:28:19] la polla tal, así ya también, que es bonito, un minuto, vanía la polla hospital, nacional, valida, sinda, entrada o corresponde la puerta, voy a poner el molinente,
+[00:28:19 - 00:28:41] pero fue el pre-contro, sí, mancán del minuto, malo, acorde, yo voy a poner el acorde, ya voy a esperar el minuto, vacina el video, acorde la pregunta, cuarta de ingreso, y acá el objetivo principal es registrar los ingresos,
+[00:28:41 - 00:29:08] un minuto, y ya estoy con vos, vancán, decime, pero un to, pues, viste en el pre-contro, yo estoy pensando allá para el lidera, me se pueden ver como que te da una idea esto,
+[00:29:08 - 00:29:20] en el pre-contro no valida ya si se le entradas correcta para encargar para el molinete, claro te va a ir a valida vuelta, en el congo,
+[00:29:20 - 00:29:32] y tú lo avaliarte, tienes dos validaciones, un o que dice, un imagínate que estás yendo a un recital y tenés varios días en ese recital,
+[00:29:32 - 00:29:42] yo no hago más general como para fortificar tantos, la segunda validación también abarca que el tema del horario y día, ¿no?
+[00:29:42 - 00:29:57] el radio, día, entonces digo bueno, vos estoy en tengo que ir, no sé, ya me olvides, tengo que ir a platear a alta,
+[00:29:57 - 00:30:06] a sol, el lado sur, bueno, estás entrando por el lado norte, entonces, haces un pre-contro y después que te va,
+[00:30:06 - 00:30:15] o sea, como que vas, yo siempre digo que es como que uno va chica un poco los problemas,
+[00:30:15 - 00:30:22] entonces acá tienes un pre-contro donde vos vas direccionando y después tenés posiblemente policías,
+[00:30:22 - 00:30:29] o están con los molinetes, pero ya si no pasas el molinete, o sea, con la oya de chital y la tarjeta,
+[00:30:29 - 00:30:38] que la tarjeta sería hoy en día es con el celular que mostrabe el QR, más la oya de chital,
+[00:30:38 - 00:30:51] esto ya cambió un focito, pero lo hacen de esa manera como para que no se genere tanto con un frito,
+[00:30:51 - 00:30:58] porque si no, cuando vos llegas al molinete, tenés mucha gente que no están en el molinete correcto,
+[00:30:58 - 00:31:05] entonces el pre-contro del policial te hace y además lo que yo quiero justamente validar son todos los registros,
+[00:31:05 - 00:31:12] y si yo tengo una persona que no sé que lleve un control policial y que después no pudo acceder,
+[00:31:12 - 00:31:21] está bueno registrarlo también, un minutito, vamos a poner un poquito los...
+[00:31:21 - 00:31:35] Obviamente son decisiones de negocio, yo pienso en algunos recitales que fui la mayoría hace eso,
+[00:31:35 - 00:31:45] en la vida real la realidad es que el pre-contro del policial no tenéis una herramienta tipo PDA,
+[00:31:53 - 00:32:02] básicamente hoy con un celular, ¿no? ¿sabes de acá?
+[00:32:02 - 00:32:12] Este es el que me encanta a mí, yo trabajé con algunos de estos, la realidad es que acá tenés el lector del código QR
+[00:32:12 - 00:32:21] y acá tenés toda la tentación, esto es algo mucho más sencillo que tener un celular que te divirta,
+[00:32:22 - 00:32:32] entonces está bastante viola, si los policías tuvieran eso capaz que sería muchísimo más sencillo,
+[00:32:32 - 00:32:44] un minutito, sí, perfecto, esto nos colocó en este color como para que no se confundan que no es parte del diagrama de actividad,
+[00:32:44 - 00:32:47] sino que son algunas notas que yo voy colocando.
+[00:32:48 - 00:32:54] La realidad es que este es muy básico, es una diagrama de actividad muy básico,
+[00:32:54 - 00:32:58] pero me sirve para tener un entendimiento de lo que yo quiero hacer,
+[00:32:58 - 00:33:06] algo que ustedes se tienen que preguntar siempre es un pueblo con el objetivo principal de todo lo que me están pidiendo,
+[00:33:06 - 00:33:13] porque muchas veces esto en este tipo de ejercicio y después en la vida, a ver que me sirve,
+[00:33:13 - 00:33:19] en la vida cuando tienen que trabajar curlo con el objetivo, porque tiene muchos requerimientos,
+[00:33:19 - 00:33:24] si sí se tienen que empadronar y después le envían ese empadronamiento, le imprimen,
+[00:33:24 - 00:33:29] le imprimen en una tallie y esa impresora se tiene que conectar con el club y el club,
+[00:33:29 - 00:33:37] se tiene que conectar con la afa y tienen tantas requerimientos que después se olviden el objetivo principal
+[00:33:37 - 00:33:43] y el objetivo principal es justamente que cuando sea el día de evento,
+[00:33:43 - 00:33:50] pueda ir registrando todos los accesos por si hay algún problema o si hay alguien que no debería entrar.
+[00:33:50 - 00:34:00] ¿Ok? Entonces, si hayan para preguntas, cumplo con el objetivo principal de todo esto,
+[00:34:00 - 00:34:04] no, el video de registrado de los accesos, el video de registrado de los accesos,
+[00:34:06 - 00:34:12] está mal en el ejercicio, entonces pregunta básica, pero pregunta, ¿sí se cumple con el objetivo principal?
+[00:34:12 - 00:34:29] Me escribieron, habiliten el micrófono, estamos considerando que deberíamos el caso feliz,
+[00:34:29 - 00:34:32] más no es un feliz, están permitidos las notas en el examen,
+[00:34:32 - 00:34:37] el examen sí, vos podes escribir, la nota te están permitidos, es un lenguaje.
+[00:34:37 - 00:34:41] La realidad, estamos considerando en este diagrama el caso feliz,
+[00:34:41 - 00:34:51] en sí es un diagrama de actividad de negocio, donde yo tengo acá en una única foto,
+[00:34:51 - 00:35:02] el único diagrama, el proceso fundamental de cómo sería.
+[00:35:02 - 00:35:06] Ahora, no voy con todas las disfurcaciones, no hago el doble clic,
+[00:35:06 - 00:35:17] pero el nivel bajo o alto de atracción, en el más alto, ¿qué han contestado?
+[00:35:17 - 00:35:23] Federico, Federico, gracias, Federico, muy bien, estoy en nivel muy elevado de atracción,
+[00:35:23 - 00:35:30] es más, sería más, soy más cerca, ni siquiera al análisis, prácticamente un relevamiento,
+[00:35:30 - 00:35:37] pero la idea es que esto me da un entendimiento de lo que yo tengo que hacer,
+[00:35:37 - 00:35:42] y no tengo, viene claro, ¿cuál es el flujo principal del negocio?
+[00:35:42 - 00:35:45] La realidad es que no puedo arrancar, ¿ok?
+[00:35:45 - 00:35:49] Entonces, se las doy por ese tema.
+[00:35:49 - 00:35:55] Otro diagrama que a mí me sirve muchísimo, más que nada, cuando tengo tantas tecnologías
+[00:35:55 - 00:36:03] y tengo varios actes, esto es armarme un diagrama del componente, perdón, de despliegue.
+[00:36:03 - 00:36:09] Hoy estoy en medio de a media, estoy dormida, chivo como usted,
+[00:36:09 - 00:36:13] acá, el diagrama del componente, el diagrama de despliegue.
+[00:36:13 - 00:36:21] Puedo hacer un diagrama de despliegue, acá, vamos a estar seno, pero después,
+[00:36:21 - 00:36:29] despliegue, despliegue, despliegue, despliegue, es mi tuave, ¿ok?
+[00:36:29 - 00:36:37] Puedo hacerlo acá, sí, puedo hacerlo, lo voy a hacer muy muy rápido,
+[00:36:37 - 00:36:50] un gochío, un usuario, pero el control, biometrizo,
+[00:36:50 - 00:36:56] el terreno, terreno comercial, lo fundamental que se te reivindó,
+[00:36:56 - 00:37:01] ahora lo vemos, ¿eh? Y nos mastas, ya estaría.
+[00:37:01 - 00:37:11] Bueno, me voy a ver con una notita, ya que no tengo acá.
+[00:37:11 - 00:37:24] Recuerden que estoy con un ML2, no tengo, hayo tan lindo como lo otro.
+[00:37:24 - 00:37:35] Engo toda la infraestructura de los clubes, las pc de los clubes.
+[00:37:35 - 00:37:44] A mí no me gusta estar lo tan limpial, pero lo voy a hacer de esta manera,
+[00:37:44 - 00:37:52] apartar también que haya un nivel de entendimiento en mi paz, rana, ¿eh?
+[00:37:52 - 00:38:02] El terreno comercial es conocerlo tan limpial.
+[00:38:02 - 00:38:08] Te comercial, puse pc club, ahora voy a poner usuario, ¿eh?
+[00:38:08 - 00:38:13] Ahora lo hago secuencial, porque lo pienso de esta manera,
+[00:38:13 - 00:38:22] hago uno, el pre-control, el control, ya está voy a poner el segundo,
+[00:38:22 - 00:38:30] mira el segundo era el entenso idiométrico, control biometrico, o el molinete.
+[00:38:30 - 00:38:38] Lo hice bastante secuencial, puse primero el pc de la
+[00:38:38 - 00:38:43] infraestructura, el industrial que va a comprar la entrada y después tengo los control.
+[00:38:43 - 00:38:48] Si ustedes ponen esto acá y esto acá se está saltando en lo mismo, ¿ok?
+[00:38:48 - 00:38:57] Yo lo que estoy viendo acá es la infraestructura, lo hice bastante lial en el sentido como si fuera secuencial,
+[00:38:57 - 00:39:03] pero no es el objetivo de este diagrama, ¿sabes?
+[00:39:03 - 00:39:10] El objetivo este diagrama es darle infraestructura, lo digo porque esto ya no sería un pc usuario,
+[00:39:10 - 00:39:14] o sea, estamos hablando de usuario como esta nuestra nuestra, ¿sabes?
+[00:39:14 - 00:39:29] Es más, cuando lo haga con el otro, el drop i o va a saber que lo voy a modificar y voy a apanar que es lo que entra en el
+[00:39:29 - 00:39:35] que, así con el, con la pc, que pueden tratan con un celular, etcétera, ahora lo cambiamos.
+[00:39:35 - 00:39:36] ¿Pero dijo?
+[00:39:36 - 00:39:38] Acá, técnico.
+[00:39:38 - 00:39:42] T técnico, el mismo técnico, técnico ahora lo cambiamos.
+[00:39:42 - 00:39:48] Claro, yo tengo todo lo que es la lógica del empadronamiento y también la parte comercial,
+[00:39:48 - 00:39:54] es decir, el usuario compra el fitted y tengo toda la parte de bueno,
+[00:39:54 - 00:40:09] el evitar, el evento, que parte de la cancha puedo habilitar, todo eso forma parte del área comercial y que genera el evento, etcétera.
+[00:40:09 - 00:40:21] Vamos acá, en el caso a Jericho, ese usuario, porque estamos hablando de infraestructuras muy bien,
+[00:40:23 - 00:40:34] sería una especie de nube, que como no tengo acá lo hago de esta manera, después tengo un pre control y un control de la vida,
+[00:40:34 - 00:41:00] me es difícilmente acá tengo un servidor de control de excesos, ¿ok? ¿Qué es lo que yo quiero hacer?
+[00:41:05 - 00:41:10] Justo una free line y no una comunicación de paz, ¿cuál importa?
+[00:41:10 - 00:41:21] O siguiblemente, esto también es en relacionado el servidor de control de dentro de regalamiento, el usuario comercial, este con este,
+[00:41:23 - 00:41:38] yo también acá haría un ser general y la vacía de datos y la vacía de donde podría estar la vacía de datos.
+[00:41:39 - 00:41:44] Igual esa la haría dentro del mismo server comercial o server de control de exceso, ¿cuál es la vacía?
+[00:41:44 - 00:41:45] Podría.
+[00:41:49 - 00:41:53] No entiendo por ejemplo, o sea que sería el server general para que lo usaríamos.
+[00:41:53 - 00:42:05] No, yo siempre pongo un server donde voy capturando datos y tengo ya una parte donde puedo asegurarme todo esta información, ¿ok?
+[00:42:06 - 00:42:13] Como una especie de vacía siempre lo haría de esa manera, pero bueno, ¿cómo que reclaro?
+[00:42:13 - 00:42:16] Como que replico los datos, ¿ok?
+[00:42:16 - 00:42:17] No le tenía.
+[00:42:17 - 00:42:26] A un poco de redundancia y más cuando lo haría de esa manera, ahora si vuelvo a poner sólo lo ponemos en un informe,
+[00:42:26 - 00:42:34] es indistinto, no pasa nada, pero bueno en este momento en un estudiador que le aclacicite lo muestro,
+[00:42:34 - 00:42:38] porque la realidad es que lo usan de esa manera, o redundancia.
+[00:42:38 - 00:42:46] Y cada uno te tiene una vacía de datos y acá tendríamos servido a la vacía de datos y después tendría otros para hacer redundancia de la vacía de datos también, ¿ok?
+[00:42:48 - 00:42:51] Vea la nube si a donde sean, ¿o importa?
+[00:42:51 - 00:43:03] Si algo si también no puse y lo vamos a poner acá son servidores de organizaciones externas, servicios externas, no voy a poner.
+[00:43:05 - 00:43:17] Estos de insaciones externas, o sea algún intervicio de policial, policial o algún...
+[00:43:17 - 00:43:21] ¿Y sería limpiar contra el empadernamiento verdad?
+[00:43:21 - 00:43:27] Sería limpiar, sólo limpiaría directamente no con el empadernamiento o no.
+[00:43:27 - 00:43:32] O sea, por el hecho de que es general, porque me sirve todo, ¿ok?
+[00:43:33 - 00:43:44] Entonces, pondría foco a toda la lógica del empadernamiento en el server y después le mandaría lo más importante a este y a este directamente que se comunitó en el exterior con el sistema externo.
+[00:43:44 - 00:43:50] Si tengo algún problema en el momento de acceso, ahora, estamos viendo tu pregunta.
+[00:43:50 - 00:44:01] Si en el momento de que yo estoy haciendo el empadernamiento tengo que validar, suponete, tengo que validar con...
+[00:44:02 - 00:44:16] Con la policía, con la información policial, está con algún server judicial y bueno, ahí sí tengo la lógica de la conexión en este server, ahí sí podría ser esto.
+[00:44:20 - 00:44:24] Ahora, ¿qué es el momento que ya pasé por todas estas tapas?
+[00:44:24 - 00:44:30] En el control de acceso y ahí tengo, me conecta directamente, yo me conectaría con este.
+[00:44:31 - 00:44:34] Eso son decisiones arquitectónicas, ¿eh?
+[00:44:34 - 00:44:35] Sí.
+[00:44:35 - 00:44:43] O por ejemplo, si yo ya termine el evento, ok, termine el evento de...
+[00:44:43 - 00:44:56] Ahora, si estamos con el argentino, no sé dónde jugar argentino, termino el evento y al finalizar el evento, están todos saliendo y hay un problema, hay alguien que no sé,
+[00:44:57 - 00:45:09] hay un problema, el uno de las plateas, bueno, me voy con directamente con este, a ver quién se accedieron, quién estuvieron acceder algunos,
+[00:45:09 - 00:45:18] que accedieron en el primer control pero no pasaron en el segundo, que posiblemente capaz que hasta picolaron, están o no están, bueno, ahí tengo toda esta información,
+[00:45:18 - 00:45:21] la tendría a caer directamente con el estaría con esta.
+[00:45:22 - 00:45:30] O sea, por eso, del estaría general porque lo vas a usar, es como que lo vas a terminar usando en todos, entonces preferir directamente con la precisión y la de la sección.
+[00:45:30 - 00:45:39] Para no tener tanto link, tanto link, ¿ok? Porque solo que quieras que se sobre entienda, si a donde estoy llendo, si no ves que es como que...
+[00:45:39 - 00:45:41] Sí, sí, queda muy bien.
+[00:45:42 - 00:45:43] Sí, sí.
+[00:45:43 - 00:45:57] Ahora, perfecto, porque estoy en nivel elevado de la extracción, ahora cuando ya empiezo a hacer este doble click y digo, bueno, para voy a implementar esto, a nivel de infraestructura,
+[00:45:58 - 00:46:14] ahí posiblemente estén, el serro del padradamiento que se comunite con esto, o sea, lo vas a tener, estas vas a abrir haciendo ese doble click y eso, y estén enlace, estén enlace de como encasar la vas a tener.
+[00:46:14 - 00:46:20] Pero yo lo que quiero es que vos puedas transmitir la idea.
+[00:46:21 - 00:46:24] Y yo sé que puedo leer algo que vamos con eso si no te vamos a hacer el nivel.
+[00:46:24 - 00:46:45] En este momento es un nivel de extracción elevado, porque bueno, alcanza, después cómo lo vas a implementar calculo que tendrán alguna materia de infraestructura, no recuerdo, pero posiblemente en redes,
+[00:46:46 - 00:47:04] tener algo por el estilo. Me voy al mismo, en el mismo, pero con un poco más lindo, me gusta un poco más, porque también me da un nivel de entendimiento un poquito más mayor compensión.
+[00:47:05 - 00:47:19] Ahora de me estoy ubicando, dispositivo de oficina, de oficina, ¿qué tal es que sea?
+[00:47:21 - 00:47:34] Me voy a decir que es suerte, es lo que pasa horrible, como ponen, tenía un cuadro más lindo, pero bueno, no lo encuentro.
+[00:47:34 - 00:47:45] Los clubes, voy a llegar a los clubes, voy a tratar de llevar este que es medio feo, esta al otro. Ambo sirven, obviamente.
+[00:47:46 - 00:47:55] Y teniendo otro que en el nivel, no sé si es que está horrible.
+[00:47:55 - 00:48:46] Aunque me estoy ubicando, ya voy, que se puede usar, de un pea, me tengo peas, este le va a cargar a dar.
+[00:48:46 - 00:49:07] Y yo, también, para dámosle soledores. Y brores, calent... No, y van que me estoy organizándome mentalmente todo en oróries,
+[00:49:07 - 00:49:16] lo voy a hacer, donde están los usados, los usuarios,
+[00:49:16 - 00:49:49] voy a volver acá, ponía una de las policía,
+[00:49:49 - 00:49:51] hoy uno pira en el comercial,
+[00:49:51 - 00:49:55] y luego no lo terminó para un minuto,
+[00:49:55 - 00:50:35] lo sabía, este es una fe, así que vamos a ver.
+[00:50:35 - 00:50:50] Vamos a empezar acá, voy a poner una nota.
+[00:50:50 - 00:51:11] Bueno, a ver, lo que es la parte de Quibes,
+[00:51:11 - 00:51:19] tengo una infraestructura simple en las clúbes,
+[00:51:19 - 00:51:22] el objetivo de los clúbes, que se puedan hacer la registración,
+[00:51:22 - 00:51:25] y obviamente lo que yo voy a hacer en cada uno de estos,
+[00:51:25 - 00:51:29] es poder hacer, o sea,
+[00:51:29 - 00:51:34] es poder hacer justamente la captura de la huella digital,
+[00:51:34 - 00:51:44] la huella digital.
+[00:51:44 - 00:51:56] Porque es importante justamente por eso, por eso tenemos.
+[00:51:56 - 00:52:06] Me voy a usar, ver más tipo,
+[00:52:06 - 00:52:17] y voy a decir un favor,
+[00:52:17 - 00:52:21] calculo que acabo de tener todo lo que es la parte del empalda de un ambiente,
+[00:52:21 - 00:52:24] podría llegar a colocar una protección server,
+[00:52:24 - 00:52:27] y se ve ya pidieron el shendo, es que con el ícliculo lean,
+[00:52:27 - 00:52:33] a ver, una protección server,
+[00:52:33 - 00:52:36] puede ser que la protección server también tenga la vaciada
+[00:52:36 - 00:52:41] o que puede ser pero,
+[00:52:41 - 00:52:45] vamos a poner a uno de estos son virtuales,
+[00:52:45 - 00:53:01] porque ahora,
+[00:53:01 - 00:53:06] no sé qué no sé de virtual que esté conectado,
+[00:53:06 - 00:53:27] o sea, el hardware de folga.
+[00:53:27 - 00:53:30] Bueno, va tomando un poquito más de forma
+[00:53:30 - 00:53:33] y voy entendiendo un poco más, ¿no?
+[00:53:33 - 00:53:37] como es que quiero modelar este diagrama de que...
+[00:53:37 - 00:53:39] Una vez que luego con los clúbes,
+[00:53:39 - 00:53:41] paso a todo lo que en la parte de usuarios,
+[00:53:41 - 00:53:45] está los usuarios podrían acceder con diferentes formas.
+[00:53:46 - 00:53:51] Ahí como ya esté el info, creo que es puede ser desde una computadora,
+[00:53:51 - 00:53:55] es de una tableta, de una tablet, de un celular,
+[00:53:55 - 00:54:05] está bueno,
+[00:54:05 - 00:54:07] remarca el tipo de tecnologías,
+[00:54:07 - 00:54:11] también a mí me da un cierto adapto para acá,
+[00:54:11 - 00:54:27] es de cómo yo nivel de entendimiento
+[00:54:27 - 00:54:38] y con qué tecnologías voy a trabajar.
+[00:54:38 - 00:54:42] Obviamente esto en el examen, no se los te dimos,
+[00:54:42 - 00:54:45] pero está bueno que ustedes tengan esta herramienta,
+[00:54:45 - 00:54:50] como para ver cómo pueden trabajar después,
+[00:54:50 - 00:54:54] si les piden, un diagrama de desfiegue en el trabajo.
+[00:54:54 - 00:54:59] Y ahora me voy, sí, con la parte comercial que yo había armado, ¿no?
+[00:54:59 - 00:55:02] ¿No? ¿Te acuerdan? Yo había dicho que el PC,
+[00:55:02 - 00:55:06] las PC de usuarios se conectaban con todo lo que era el servidor comercial.
+[00:55:06 - 00:55:09] Ahí como ya tengo toda la lógica,
+[00:55:11 - 00:55:14] para que pueda agregar un evento,
+[00:55:14 - 00:55:17] para que pueda agregar,
+[00:55:17 - 00:55:22] pueda habilitar las ventas de los tickets,
+[00:55:22 - 00:55:24] ¿eh?
+[00:55:24 - 00:55:28] pueda conectarnos posiblemente con mercado pado,
+[00:55:28 - 00:55:32] con diferentes funcionalidades o puntos de venta, etc.
+[00:55:32 - 00:55:34] No se acaba de tener otro,
+[00:55:34 - 00:55:37] posiblemente sea una declaration,
+[00:55:37 - 00:55:45] no tiene nada. Voy a dar un abril de Jones para él.
+[00:55:45 - 00:55:47] Acá también me he escaltado el nombre,
+[00:55:47 - 00:55:52] acabo de poner la área comercial,
+[00:55:52 - 00:55:55] observar comercial,
+[00:55:55 - 00:55:58] para no confundirnos,
+[00:55:58 - 00:56:01] y acá en el video de ponerla,
+[00:56:01 - 00:56:02] perro de camarero,
+[00:56:02 - 00:56:10] ¿no?
+[00:56:10 - 00:56:27] El instalamiento de la prueba comercial.
+[00:56:27 - 00:56:31] Lada de alta todo el tema de vuelo de repetir,
+[00:56:31 - 00:56:34] ¿dónde está esto?
+[00:56:35 - 00:56:49] Todo lo que es comercial.
+[00:56:49 - 00:56:58] Esto me está haciendo, bueno,
+[00:56:58 - 00:57:13] dejó server com, no sé qué pasa después lo ananjaré.
+[00:57:13 - 00:57:17] Bueno, ¿ok? Entonces acá tengo todo lo que es el servidor comercial,
+[00:57:17 - 00:57:20] todo lo que es la lógica de decir,
+[00:57:20 - 00:57:21] tengo que agregar,
+[00:57:21 - 00:57:23] que Argentina va a jugar,
+[00:57:23 - 00:57:24] tal día,
+[00:57:24 - 00:57:25] en tal horario,
+[00:57:25 - 00:57:27] voy a habilitar,
+[00:57:27 - 00:57:31] en la teada baja,
+[00:57:32 - 00:57:34] viene,
+[00:57:34 - 00:57:36] o sea, los homenistones,
+[00:57:36 - 00:57:40] bueno, voy a habilitar también el campo,
+[00:57:40 - 00:57:43] cosa que en un partido de fútbol no puedo,
+[00:57:43 - 00:57:47] entonces todo acá lo voy a setear en todo lo que es la parte comercial,
+[00:57:47 - 00:57:53] y además también voy a tener todo lo que es la parte de venta, ¿ok?
+[00:57:53 - 00:57:56] Entonces,
+[00:57:56 - 00:58:01] si quiero acá poner algo con resto y todo lo que hicimos la otra vez,
+[00:58:01 - 00:58:03] si lo tengo acá, acá,
+[00:58:03 - 00:58:06] vista y acá, el de vista no puedo hacer,
+[00:58:06 - 00:58:17] no puedo dar también marcado pagos,
+[00:58:17 - 00:58:19] y ahí ampliar un poquito más.
+[00:58:19 - 00:58:21] Este sí, Amerita,
+[00:58:21 - 00:58:25] que esté en este servidor
+[00:58:25 - 00:58:26] y no en este,
+[00:58:26 - 00:58:32] estamos de acuerdo,
+[00:58:32 - 00:58:34] Amerita, que esté en este y no en este,
+[00:58:34 - 00:58:37] todo lo que es la parte de ventas, ¿ok?
+[00:58:37 - 00:58:38] No, no.
+[00:58:38 - 00:58:42] Voy a dejar un poquito para acá.
+[00:58:42 - 00:58:43] Y por qué?
+[00:58:43 - 00:58:45] Bueno, en padernadros a registrar el acceso,
+[00:58:45 - 00:58:48] no tenemos que tener tanto agoplamiento con cosas que no van.
+[00:58:48 - 00:58:49] ¿Tá?
+[00:58:49 - 00:58:52] ¿Cómo estar hablando con este vocabulario que me encanta?
+[00:58:52 - 00:58:53] Fantástico.
+[00:58:53 - 00:59:00] Se ve que la tortura mal.
+[00:59:00 - 00:59:02] Bueno, me voy con otro.
+[00:59:02 - 00:59:05] Ahora ya, no es menos está teniendo forma,
+[00:59:05 - 00:59:07] me voy a lo que es el pre-control,
+[00:59:07 - 00:59:10] y el control biométrico y el servidor de acceso.
+[00:59:10 - 00:59:12] Pues vemos, tengo algo más.
+[00:59:12 - 00:59:15] Acá recuerden que también puedo tener marcado pagos, etc.
+[00:59:16 - 00:59:17] ¿Ok?
+[00:59:17 - 00:59:19] Me voy a el pre-control.
+[00:59:19 - 00:59:22] También.
+[00:59:22 - 00:59:23] Pre-control.
+[00:59:23 - 00:59:25] Yo creo que te dean, ¿no hay?
+[00:59:25 - 00:59:30] No hay, no hay.
+[00:59:30 - 00:59:31] No hay ninguno.
+[00:59:31 - 00:59:36] ¡Ahora!
+[00:59:36 - 00:59:42] Control de te dean.
+[00:59:42 - 00:59:46] Esa es que me va a estar.
+[00:59:46 - 00:59:47] Y lo último,
+[00:59:47 - 00:59:48] a la última vez,
+[00:59:48 - 01:00:01] a donde la policía no está ahora,
+[01:00:01 - 01:00:03] no lo pueden encontrar.
+[01:00:03 - 01:00:21] O sea, lo está bueno.
+[01:00:21 - 01:00:24] Me he marcado el minutito.
+[01:00:24 - 01:00:30] Yo sé que parezco que he estado viendo el tiempo para darles.
+[01:00:30 - 01:00:33] Es decir, es muchísimo para dar un nivel de entendimiento.
+[01:00:33 - 01:00:35] Un minutito usuario.
+[01:00:35 - 01:00:53] Un minuto, minuto.
+[01:00:53 - 01:00:54] Es como así.
+[01:00:54 - 01:01:02] ¡No está!
+[01:01:02 - 01:01:03] Bueno, está.
+[01:01:03 - 01:01:04] ¡Avíselo!
+[01:01:04 - 01:01:41] Había uno, después le voy a buscar bien.
+[01:01:41 - 01:01:42] ¿Ok?
+[01:01:42 - 01:01:44] Entonces yo acá, de esta manera,
+[01:01:44 - 01:01:52] empiezo a definir usuarios. ¿Ok?
+[01:01:52 - 01:01:55] Entonces me voy a el primer pre-control policial.
+[01:01:58 - 01:02:08] Uno, lo habíamos puesto pre-control.
+[01:02:08 - 01:02:10] Pero pasa la España, ¿vale?
+[01:02:10 - 01:02:11] No importa.
+[01:02:11 - 01:02:27] Pre-control anterior.
+[01:02:27 - 01:02:30] Si le pongo esta queda así,
+[01:02:30 - 01:02:31] ahí está.
+[01:02:31 - 01:02:35] La puse toda juntito para que no me agarío.
+[01:02:35 - 01:02:39] Y después tengo el tema de los molineses.
+[01:02:39 - 01:02:51] Uno que estaba bastante bueno,
+[01:02:51 - 01:02:53] que tampoco lo voy a encontrar ahora.
+[01:02:53 - 01:02:55] Me voy a encontrar muy importante.
+[01:02:55 - 01:02:58] No voy a...
+[01:02:58 - 01:03:03] No voy a un cubo básico.
+[01:03:09 - 01:03:26] Este será la segunda parte del control biometrica.
+[01:03:26 - 01:03:51] El control biometrico, obviamente,
+[01:03:51 - 01:03:53] también tengo esto y esto.
+[01:03:53 - 01:04:02] El control biometrico.
+[01:04:02 - 01:04:05] Se muestra el molinete,
+[01:04:05 - 01:04:08] posiblemente, hasta algún uso es más automatizado.
+[01:04:08 - 01:04:10] No debería estar la policía,
+[01:04:10 - 01:04:13] pero vamos a poner algún usuario básico,
+[01:04:13 - 01:04:17] una o qué sea.
+[01:04:17 - 01:04:24] ¿Sí?
+[01:04:24 - 01:04:26] Este mirando.
+[01:04:26 - 01:04:27] ¿OK?
+[01:04:27 - 01:04:31] Y después, ¿se me ha tenido...
+[01:04:31 - 01:04:34] Bueno, tengo que tener servidor, obviamente.
+[01:04:34 - 01:04:39] El server, sí, le me le también
+[01:04:39 - 01:04:41] sea una ligación server.
+[01:04:45 - 01:04:47] ¿O no? ¿Podría llegar a ser otro?
+[01:04:47 - 01:04:49] Pero vamos a dejar una ligación server.
+[01:04:49 - 01:04:54] Hay alguna app que esté capturando estos eventos
+[01:04:54 - 01:04:55] y nada más.
+[01:04:55 - 01:04:58] Está porque lo que hago es capturar
+[01:04:58 - 01:05:00] y registrar.
+[01:05:00 - 01:05:04] ¿OK?
+[01:05:04 - 01:05:07] Y mi informa, si puede afectar habilitado o no.
+[01:05:07 - 01:05:15] ¿Aún no estas tienes tu propio...
+[01:05:15 - 01:05:18] tu propia base de datos,
+[01:05:18 - 01:05:20] lo puedes tener dentro de este servidor?
+[01:05:20 - 01:05:23] ¿O no?
+[01:05:23 - 01:05:26] ¿Y ya has afundido en el arquitector mi casera?
+[01:05:26 - 01:05:35] Y el control acceso.
+[01:05:35 - 01:05:41] El servidor de control de acceso.
+[01:05:41 - 01:05:43] ¿Y después puedes tener también...
+[01:05:43 - 01:05:46] ¿Me voy a otro server?
+[01:05:46 - 01:05:58] Me voy a otro...
+[01:05:58 - 01:06:01] Me voy a otro server.
+[01:06:01 - 01:06:05] No pongo un color azul para que vayan que no desviño
+[01:06:05 - 01:06:08] ese externo.
+[01:06:08 - 01:06:12] Me voy a alguna que sea de servidores de
+[01:06:12 - 01:06:15] organizaciones externas de seguridad.
+[01:06:15 - 01:06:30] No sé, estábamos...
+[01:06:30 - 01:06:32] y bancarme.
+[01:06:32 - 01:06:34] Voy a esperar en un rito de ya estoy.
+[01:06:34 - 01:06:35] ¿OK?
+[01:06:35 - 01:06:38] ¿Y ese podría llegar a conectarse con este?
+[01:06:38 - 01:06:40] ¿O cómo habíamos planteado la primera vez?
+[01:06:40 - 01:06:41] ¿Bankame?
+[01:06:41 - 01:06:46] Retened la pregunta, pues, ¿cómo habíamos dicho la última vez?
+[01:06:46 - 01:06:49] Es decir, bueno, tengo...
+[01:06:49 - 01:06:56] No me lo despejo.
+[01:06:56 - 01:06:57] Yo tenía grata.
+[01:06:57 - 01:06:58] Tengo...
+[01:06:58 - 01:07:01] No tengo un menja en la fiera, pero tengo un mismo básico.
+[01:07:01 - 01:07:09] No me voy a ver esto.
+[01:07:09 - 01:07:13] Tengo este que capturaba de todos los otros servidores
+[01:07:13 - 01:07:17] capturaba de todos los otros server.
+[01:07:17 - 01:07:28] Y acá un minutito.
+[01:07:28 - 01:07:36] Me voy...
+[01:07:36 - 01:07:37] Ya está.
+[01:07:37 - 01:07:38] Bankame.
+[01:07:38 - 01:07:41] No, no, no.
+[01:07:41 - 01:07:42] Oye acá.
+[01:07:42 - 01:07:45] Este...
+[01:07:45 - 01:07:48] La buscando antes y más fácil.
+[01:07:48 - 01:07:49] ¿OK?
+[01:07:49 - 01:07:52] Es un poco más fácil de entender.
+[01:07:52 - 01:07:53] ¿OK?
+[01:07:53 - 01:07:59] Y acá también hay una relación en derecha.
+[01:07:59 - 01:08:03] Es un poco más fácil de entender.
+[01:08:03 - 01:08:08] Después que eran hacer este doble clic, acabamos de clírentes.
+[01:08:08 - 01:08:10] Esticionados.
+[01:08:10 - 01:08:14] Y después quiero hacer otro doble clic.
+[01:08:14 - 01:08:18] Voy a hacer el servidor con todas las comunicaciones con todos.
+[01:08:18 - 01:08:20] Los sistemas extravamos también.
+[01:08:20 - 01:08:23] Lo puedo hacer a ver, pero ya estoy haciendo como ese doble clic
+[01:08:23 - 01:08:25] bajando ese nivel de atracción.
+[01:08:25 - 01:08:29] Es mucho más fácil de entender algo que yo sigo aplicando.
+[01:08:29 - 01:08:31] Son todos los principios del buen diseño.
+[01:08:31 - 01:08:32] Ago.
+[01:08:32 - 01:08:36] Separación de enconvencias en lo que es mi infraestructura para dar soporte
+[01:08:36 - 01:08:38] a todos los que se van a conectar.
+[01:08:38 - 01:08:39] ¿OK?
+[01:08:39 - 01:08:43] Entonces tengo bien los ambientes bien separados.
+[01:08:44 - 01:08:48] Sí, alguien me iba a escribir, me iba a preguntar.
+[01:08:48 - 01:08:51] Y la puse de chá.
+[01:08:51 - 01:08:54] Así no te olvidaba, cien.
+[01:08:54 - 01:09:00] Yo tengo un chisino de documentos que mandaste.
+[01:09:00 - 01:09:01] Después lo vemos, Lucas.
+[01:09:01 - 01:09:04] Sí, quería que le habé todo al fin y a cien asio posible.
+[01:09:04 - 01:09:06] Sí, sí.
+[01:09:06 - 01:09:07] Barbaro.
+[01:09:07 - 01:09:10] Por eso pregunte al inicio.
+[01:09:10 - 01:09:11] ¿OK?
+[01:09:11 - 01:09:13] Bueno, después lo vemos.
+[01:09:13 - 01:09:16] Igual, el profe.
+[01:09:17 - 01:09:21] Perdón, tenía que escribirnos para abajo el mensaje.
+[01:09:21 - 01:09:24] La había preguntado si amenita otros sistemas que se encarga
+[01:09:24 - 01:09:26] de los accesos de negados.
+[01:09:26 - 01:09:32] Sí, acá, ¿no?
+[01:09:32 - 01:09:39] ¿A finales todos?
+[01:09:39 - 01:09:42] A medida otros sistemas que se encarga de los accesos de negados.
+[01:09:42 - 01:09:49] No, porque yo lo que voy a hacer acá, por cómo está planteado.
+[01:09:49 - 01:09:54] Es todos los accesos, voy a definir lo que son accesos positivos
+[01:09:54 - 01:09:56] y negativos.
+[01:09:56 - 01:10:00] Lo voy a manejar desde acá.
+[01:10:00 - 01:10:05] Si tengo alguien que no pudo pasarle pre-control,
+[01:10:05 - 01:10:14] voy a tener esa petición con la respuesta de negado
+[01:10:14 - 01:10:21] que tiene que estar dentro y vamos registrado dentro de esta parte
+[01:10:21 - 01:10:23] de este servidor de control de accesos.
+[01:10:24 - 01:10:28] No voy a separarlo por positivos y negativos.
+[01:10:28 - 01:10:35] ¿OK? ¿Está bien? ¿Estamos de acuerdo?
+[01:10:35 - 01:10:38] ¿Solo que ya voy?
+[01:10:38 - 01:10:42] Estamos con una petición y esa petición tiene una respuesta.
+[01:10:42 - 01:10:46] Aceso positivo o negativo, por ejemplo, ¿vale?
+[01:10:46 - 01:10:51] ¿Qué es el acceso negativo? Bueno, va a haber también
+[01:10:51 - 01:10:56] lo voy registrando y después voy a tener
+[01:10:56 - 01:11:00] una acción que ya es un proceso manual de que la policía
+[01:11:00 - 01:11:03] decía, bueno, bueno, puede entrar.
+[01:11:03 - 01:11:07] Y es porque después se enteraría otro tema,
+[01:11:07 - 01:11:12] ¿sí es porque no se sos... estás educado por la ley?
+[01:11:12 - 01:11:14] Bueno, te llevo preso.
+[01:11:14 - 01:11:17] Sí es porque no pagaste la cuota de alimentos,
+[01:11:17 - 01:11:19] no te llevo preso, pero no te dejo entrar.
+[01:11:19 - 01:11:23] Después hay diferentes, pero eso es algo manual.
+[01:11:23 - 01:11:27] La policía de acuerdo a la respuesta de la petición
+[01:11:27 - 01:11:30] que hizo va a tomar una decisión.
+[01:11:30 - 01:11:34] ¿OK? Puede ser que esa decisión esté registrada así,
+[01:11:34 - 01:11:37] puede ser, pero yo lo que estoy acá haciendo es
+[01:11:37 - 01:11:41] contragar el acceso. Y después la policía dice,
+[01:11:41 - 01:11:43] bueno, ¿vos lo puedes entrar?
+[01:11:43 - 01:11:45] Porque no sé, porque estás buscado por la ley.
+[01:11:45 - 01:11:49] Bueno, ahí tendrá un sistema propio de la policía donde diga,
+[01:11:49 - 01:11:52] bueno, tienes una denuncia, esa denuncia,
+[01:11:52 - 01:11:56] te tengo que... ahí ten el sistema propio de la policía.
+[01:11:56 - 01:11:58] Ella eso accedería.
+[01:11:58 - 01:12:01] Volsa a calor que haces es controlar los accesos.
+[01:12:01 - 01:12:05] Y si alguien tiene que no acceder acceso de negado,
+[01:12:05 - 01:12:09] pero no da registrar. ¿OK?
+[01:12:09 - 01:12:14] ¿No me acuerdo? ¿Te digimos?
+[01:12:14 - 01:12:15] Sí.
+[01:12:15 - 01:12:21] Otro diagrama que, bueno, ya me da un cierto entendimiento.
+[01:12:22 - 01:12:26] ¿OK? Me brinda mucho información para arrancar.
+[01:12:26 - 01:12:30] Otro de los diagrama, si es el diagrama de componentes.
+[01:12:30 - 01:12:32] ¿OK? Yo el diagrama de componentes,
+[01:12:32 - 01:12:36] lo voy a hacer muy simple.
+[01:12:36 - 01:12:40] Ya vi, el diagrama describe y estuve armando de una manera
+[01:12:40 - 01:12:43] tal de que yo contengo todo lo que es la parte del empadronamiento,
+[01:12:43 - 01:12:46] la parte comercial, la parte del control de accesos.
+[01:12:46 - 01:12:49] Lo voy a mantener bien simple.
+[01:12:50 - 01:12:56] Un nivel de atracción un poco elevado como para poder armar paquetes.
+[01:12:56 - 01:13:03] Perdón, simplemente.
+[01:13:03 - 01:13:07] Entonces lo armo.
+[01:13:07 - 01:13:10] Y digo, bueno, voy a armar todo lo que es el empadronamiento.
+[01:13:10 - 01:13:18] Voy a armar lo que es el módulo comercial,
+[01:13:18 - 01:13:23] la parte comercial, sé que no le gusta que ponga comercial o paquete comercial.
+[01:13:25 - 01:13:28] Y voy a armar todo lo que es el control de accesos.
+[01:13:28 - 01:13:36] Tengo la naturaleza de todos los paquetes bien definidos.
+[01:13:36 - 01:13:37] OK?
+[01:13:37 - 01:13:41] Obviamente cuando yo hago ese doble clic de lo que es el área comercial,
+[01:13:41 - 01:13:46] y he empezado a tener evento ticket, tipo de pagos,
+[01:13:46 - 01:13:50] está empezado a explotarlo,
+[01:13:50 - 01:13:55] a bajar ese nivel de atracción y he empezado a tener mayor nivel de detalle.
+[01:13:55 - 01:14:00] Pero por lo menos esto me sirve como para ordenarme en el diagrama de clase.
+[01:14:01 - 01:14:03] Lo mismo que el empadronamiento.
+[01:14:03 - 01:14:09] Bueno, el club, el empadronamiento, el listado del empadronamiento, el aficionado.
+[01:14:09 - 01:14:14] Todo eso va a estar de la huella, la captura de la huella digital, la lógica
+[01:14:14 - 01:14:16] para poder capturar la huella digital.
+[01:14:16 - 01:14:19] Todo eso va a estar dentro de lo que es el empadronamiento.
+[01:14:19 - 01:14:23] Después tengo todo lo que es el control de accesos.
+[01:14:23 - 01:14:25] Bueno, cuál es el control de accesos?
+[01:14:25 - 01:14:28] Tengo lo que es el primer control.
+[01:14:28 - 01:14:34] Segundo cuando tengo también la huella adaptilar y tengo también la registración,
+[01:14:34 - 01:14:40] no está, que no es parte del dominio, pero yo hubiera estado en el 1800,
+[01:14:40 - 01:14:44] si tengo que registrar el acceso a un evento,
+[01:14:44 - 01:14:54] posiblemente tengo un libro donde voy registrando, entró a Napáula las 9-05-05-52-2-0-0-0-0-0-0.
+[01:14:54 - 01:15:02] Lo tengo registrado, eso es un registro, el registro es una posiblemente una regla artificial
+[01:15:02 - 01:15:06] que tengo que armar para dar sostén a lo más importante que es la registración
+[01:15:06 - 01:15:09] de los controles de acceso.
+[01:15:09 - 01:15:21] Voy a hacer el control de acceso alemando el aficionado.
+[01:15:21 - 01:15:25] Lo voy a mandar lo más importante, no?
+[01:15:27 - 01:15:40] Y todo, también le mandaría el aficionado, donde es acceso, el evento entrada,
+[01:15:40 - 01:15:44] y el aficionado, no tengo el empadronamiento.
+[01:15:44 - 01:15:55] Tengo algo básico como para arrancar.
+[01:15:55 - 01:16:00] Me voy a lo que yo pido arrancar, pero sí.
+[01:16:00 - 01:16:03] Pero un tonto, ¿por qué hay un meso de la teleficionada?
+[01:16:03 - 01:16:05] ¿Por qué no te escuché?
+[01:16:05 - 01:16:07] Pero ahí se me escucha.
+[01:16:08 - 01:16:12] En el mal anterior, ¿por qué hay más adelante de aficionado?
+[01:16:12 - 01:16:13] ¿Tipo significa algo?
+[01:16:13 - 01:16:15] En el anterior, en Cámbles.
+[01:16:15 - 01:16:18] Cuando tiraste la fluchita, ponía más aficionado.
+[01:16:18 - 01:16:21] No, le de público, y la visita pública.
+[01:16:21 - 01:16:24] Claro, sí. Gracias.
+[01:16:24 - 01:16:27] No, de nada.
+[01:16:27 - 01:16:33] Bueno, empezamos con el diagrama de clases.
+[01:16:33 - 01:16:37] Yo les voy a dejar algo armado, la idea es que después ustedes lo sigan trabajando.
+[01:16:37 - 01:16:51] Yo ya empecé a pensar cómo quiero armar esos paquetes o esos como lo voy a empezar, no a separar.
+[01:16:51 - 01:16:59] Y lo separe muy básico en padronamiento, comercial, control de acceso, etcétera.
+[01:16:59 - 01:17:08] Es más, también pondría otro que sea todo lo que es control de acceso a los videos médicos que después lo vamos a dar.
+[01:17:10 - 01:17:13] Vamos a empezar por lo pronto con lo más sencillo.
+[01:17:13 - 01:17:21] Recuerdan que yo tengo en la primera parte, todo lo que es, en la parte superior, todos los controladores que voy a estar capturando.
+[01:17:21 - 01:17:30] En la parte de abajo, los controladores, voy a tener todo lo que es el negocio, ¿ok?
+[01:17:30 - 01:17:35] Entonces, siguiendo.
+[01:17:35 - 01:17:40] Y después podría llegar a tener que no lo vemos todo lo que es la conexión a los datos.
+[01:17:40 - 01:17:53] Vengo datos porque no sé si puede ser hacer un dato más de datos relacionado a lo que sea o capaz que no voy a registrar en tipo de log todos los registros.
+[01:17:53 - 01:18:00] ¿Ok? Porque es más ágil que hacerlo por base de datos. No sé, son decisiones de arquitectura.
+[01:18:02 - 01:18:08] Y lo se empieza con lo que es el control de empadronamiento.
+[01:18:08 - 01:18:14] Para poder ubicar nuestros, voy a ponerse en padronamiento.
+[01:18:14 - 01:18:26] Pues tengo otro, lo sé para ir con lo que es toda la parte del área comercial.
+[01:18:26 - 01:18:32] Puedo hacer otro de clic y ir viviendo los sigo, obviamente.
+[01:18:32 - 01:18:36] Pero por lo pronto, esto es bastante suena, bastante lógico.
+[01:18:36 - 01:18:46] Y lo parte del control de acceso. En sí yo haría diferentes soluciones.
+[01:18:46 - 01:18:58] Pero bueno, lo voy a dejar de esta manera porque soy también en el terminal para poder hacer el dejadcil.
+[01:18:58 - 01:19:01] Y ahora sí, empezamos con las clases del dominio.
+[01:19:01 - 01:19:06] Me imagino cómo hace ustedes para detectar clases del dominio.
+[01:19:06 - 01:19:14] Y vamos a en Rusia, pero vamos resaltando las partes que pueden ser clases.
+[01:19:15 - 01:19:20] Perfecto. Muy bien.
+[01:19:20 - 01:19:23] Vínuto.
+[01:19:23 - 01:19:25] Voy a la ejercicio.
+[01:19:25 - 01:19:29] Paz una buena manera. Después tiene otras.
+[01:19:29 - 01:19:33] Yo acá les había puesto.
+[01:19:33 - 01:19:49] En qué me creo que no está acá.
+[01:19:49 - 01:19:59] En el 2018, cuando me fui al futuro, o sí me he de cuenta.
+[01:19:59 - 01:20:02] Creo que tienen también una tablita.
+[01:20:02 - 01:20:07] Para tenderlo yo siempre se los digo, vayan al libro de la arma ni idea en la lista de categorías,
+[01:20:07 - 01:20:09] de clases conceptuales.
+[01:20:09 - 01:20:12] Side muchísimo también para poder detectar.
+[01:20:12 - 01:20:18] Y después acá tienen los nombres más comunes.
+[01:20:18 - 01:20:21] Un app.
+[01:20:21 - 01:20:23] ¿Y cuyo pan?
+[01:20:23 - 01:20:25] Esa dos tablas que debimos hacer un retito.
+[01:20:25 - 01:20:29] La podemos llegar a esa lista de tables o al que no hay las de memoria.
+[01:20:29 - 01:20:31] No, no tenés que saber las de memoria.
+[01:20:31 - 01:20:32] Tenés que usarla.
+[01:20:32 - 01:20:35] Y después te van a salir de forma normal, si damos.
+[01:20:35 - 01:20:36] ¿Acinte?
+[01:20:36 - 01:20:37] ¿Acinte?
+[01:20:37 - 01:20:40] No lo he valué. Déjame lo pensar.
+[01:20:40 - 01:20:50] Porque la realidad es que no me preocupa lo que sí les voy a dejar y siempre los patrones dos.
+[01:20:50 - 01:20:51] Eso sí.
+[01:20:51 - 01:20:53] No.
+[01:20:53 - 01:20:57] Tienen porque estudiar los patrones dos. No tienen sentido.
+[01:20:57 - 01:20:59] ¿Cabas que lo tampoco tendrá sentido?
+[01:20:59 - 01:21:01] Déjame lo pensar y ver lo que pasa.
+[01:21:01 - 01:21:08] Y después se transforman en que pueden un montón de papeles y se transforman en un caos.
+[01:21:08 - 01:21:11] Por eso siempre le dejo solamente las patrones dos.
+[01:21:11 - 01:21:13] ¿Qué?
+[01:21:13 - 01:21:15] Me tardí.
+[01:21:15 - 01:21:17] Ah, sí.
+[01:21:17 - 01:21:24] Entonces, empezamos a armar por lo menos las clases de dominio que sería más importante.
+[01:21:24 - 01:21:26] Ustedes me irán diciendo.
+[01:21:26 - 01:21:41] ¿Vas a iniciándome algunas clases que crean que tienen que ser clase dominion?
+[01:21:41 - 01:21:42] Aficionado.
+[01:21:42 - 01:21:43] Aficionado.
+[01:21:43 - 01:21:44] El aficionado.
+[01:21:44 - 01:21:45] Fantástico.
+[01:21:45 - 01:21:46] El aficionado tiene que estar.
+[01:21:46 - 01:21:51] Si no está aficionado.
+[01:21:51 - 01:21:52] El evento.
+[01:21:52 - 01:21:53] El evento.
+[01:21:53 - 01:21:54] Muy bien.
+[01:21:54 - 01:21:59] Podríamos ir a la misma clara.
+[01:21:59 - 01:22:00] A mí me gusta.
+[01:22:00 - 01:22:07] A mí me gusta más decir evento que partido de football.
+[01:22:07 - 01:22:12] Porque yo quiero hacer un sistema que sea extensible.
+[01:22:12 - 01:22:16] Para mí un partido de fútbol y un recital es un evento.
+[01:22:16 - 01:22:17] ¿Ok?
+[01:22:17 - 01:22:19] Sí.
+[01:22:19 - 01:22:22] A mí me había dicho algo.
+[01:22:22 - 01:22:27] Sí, iba a decir de poner las cedres, pero no sé si es de área falta.
+[01:22:27 - 01:22:30] Bueno, pongo club cedres.
+[01:22:30 - 01:22:31] Sí.
+[01:22:31 - 01:22:37] Después se evaluamos y es importante, si no.
+[01:22:37 - 01:22:39] ¿Ok?
+[01:22:39 - 01:22:45] Este bebé no sé, es evaluamos una vez.
+[01:22:45 - 01:22:50] Lo que sí estaría importante si alguien no dijo algo.
+[01:22:50 - 01:22:55] El empadronamiento también podría hacer tanto de datos.
+[01:22:55 - 01:23:01] El empadronamiento sí, yo le pondría más que el empadronamiento padrón,
+[01:23:01 - 01:23:08] como si fuera el padrón electoral, y era el empadron electoral y cada uno de nosotros
+[01:23:08 - 01:23:10] sería la recital.
+[01:23:11 - 01:23:12] Pero al lado.
+[01:23:12 - 01:23:15] Unido pregunta. ¿Por qué hace falta el de Norglas 2?
+[01:23:15 - 01:23:19] O sea, el due de aficionado que no esté empadronado directamente no estaría en nuestro sistema.
+[01:23:19 - 01:23:22] ¿Por qué tenemos que tener dos clases para registrar lo que no se?
+[01:23:22 - 01:23:23] No, no, no.
+[01:23:23 - 01:23:24] Esperarme.
+[01:23:24 - 01:23:30] O sea, no sería directamente padrón en ese caso.
+[01:23:30 - 01:23:39] No sé qué registramos los aficionados que no están empadronados.
+[01:23:39 - 01:23:41] Me gusta tu pregunta, cero.
+[01:23:41 - 01:23:47] Ahora lo vamos a charlar.
+[01:23:47 - 01:23:51] Esto es una nota, ¿eh?
+[01:23:51 - 01:23:53] Perfecto.
+[01:23:53 - 01:23:59] Cuando yo hago, imagínate que digo, bueno, voy a dar de alta una aficionado.
+[01:23:59 - 01:24:06] Voy a tener una clase, obviamente lo que corresponde es que si hubiera una clase que iba a hacer la creadora
+[01:24:06 - 01:24:13] que no es lo mismo que el constructor, eso siempre hablamos, y yo voy a crear la aficionado.
+[01:24:13 - 01:24:19] La aficionado, tengo acá, podría llegar a tener directamente acá, acá, lo puedo hacer.
+[01:24:20 - 01:24:22] Me está tengo diferentes visibilidades.
+[01:24:22 - 01:24:31] Ahora, yo lo que hago es decir, bueno, te voy a agregar dentro del padrón y lo agregua acá.
+[01:24:31 - 01:24:40] Y primero agregua acá y después agrego del padrón para hacer el responsable de crear la aficionado.
+[01:24:40 - 01:24:46] Ahora bien, vamos a decir, pero bueno, el padrón es el conjunto de todos los aficionados.
+[01:24:46 - 01:24:47] ¿No?
+[01:24:47 - 01:24:53] No lo pensaba así, o sea, pensaba el padrón como que sería el registro individual de cada aficionado,
+[01:24:53 - 01:24:57] más que un general.
+[01:24:57 - 01:25:02] Claro, lo que está diciendo es que el padrón, el padrón electoral.
+[01:25:02 - 01:25:06] No, si eso es el genérico, es todo el no, restado, personas.
+[01:25:06 - 01:25:15] Y después tenés un hombre, Federico, Manuel, no yo había perdido, después digo, bueno, no, pero Federico, Manuel,
+[01:25:15 - 01:25:22] ¿dónde tiene que estar? Y ahí voy, ahí, primero te voy a buscar acá atrás del padrón y una vez que tengo
+[01:25:22 - 01:25:23] el tributo a todos tus pasos.
+[01:25:23 - 01:25:28] Ah, ok, padrón sería como una, o sea, una categoría que sirve para el grupo para hacer los aficionados.
+[01:25:28 - 01:25:29] Sí, pero los aficionados.
+[01:25:29 - 01:25:30] Sí, sí, sí, sí.
+[01:25:30 - 01:25:31] Claro, ahí va el entenedor.
+[01:25:31 - 01:25:32] Ahora, ¿qué es sentido?
+[01:25:32 - 01:25:34] Para que desapoplarlo, claro.
+[01:25:34 - 01:25:35] Exacto.
+[01:25:35 - 01:25:41] Yo lo que, yo lo desacoplo a diferencia de lo que sucede tal vez en un der, ¿sabes?
+[01:25:41 - 01:25:43] No, bueno, lo tenés.
+[01:25:43 - 01:25:47] Pero porque yo lo que tengo acá es diferente comportamiento.
+[01:25:47 - 01:25:52] Acá tengo acá maninjo, todos los comportamientos géneres de todos.
+[01:25:52 - 01:25:57] Y acá tengo comportamiento exclusivamente para un objeto.
+[01:25:57 - 01:26:01] Entonces, yo a diferencia de lo que es un der,
+[01:26:01 - 01:26:07] que no tengo comportamiento, acá sí tengo comportamientos.
+[01:26:07 - 01:26:09] Entonces, por eso lo separo.
+[01:26:09 - 01:26:11] De esta coplo, esa funcionalidad.
+[01:26:11 - 01:26:14] No quiero que aficionado, un aficionado,
+[01:26:14 - 01:26:19] que inhabilite, yo te digo todo lo que escribí en este partido,
+[01:26:19 - 01:26:24] todo lo que estoy diciendo, cualquier cosa,
+[01:26:24 - 01:26:28] lo que está en dentro del padrón tal, los eliminos, no sé,
+[01:26:28 - 01:26:32] esa funcionalidad que está en paz en un aficionado.
+[01:26:32 - 01:26:36] Esa sentido, es ser el padrón un agrupador,
+[01:26:36 - 01:26:39] aunque, por ejemplo, imaginando el recén lo que plantea
+[01:26:39 - 01:26:42] es también el serio de otra cosa.
+[01:26:42 - 01:26:51] Ambos van a ir de la misma tabla de aficionado.
+[01:26:51 - 01:26:55] Pero yo tengo el comportamiento diferente.
+[01:26:55 - 01:27:03] Entonces, el aficionado no tiene por qué está buscando uno,
+[01:27:03 - 01:27:06] o un cámete de las mujeres.
+[01:27:06 - 01:27:11] Yo te digo, bueno, búsquame todas las aficionadas mujeres
+[01:27:12 - 01:27:17] de 15, de 20 a 25, donde les voy a hacer un,
+[01:27:17 - 01:27:20] no sé, enviar una notificación.
+[01:27:20 - 01:27:25] No tiene por qué estar esa que se comportamente no aficionado.
+[01:27:25 - 01:27:26] 100 padrón.
+[01:27:26 - 01:27:31] Es lo que va a buscar.
+[01:27:31 - 01:27:36] Entonces yo tengo un montón de comportamientos y por eso lo separo.
+[01:27:36 - 01:27:44] Aunque me vaya la misma tabla.
+[01:27:44 - 01:27:49] O sea, que padrón quedaría para consultas más generales.
+[01:27:50 - 01:27:54] O sea, por ejemplo, que ver filtrar o lo que fuera.
+[01:27:54 - 01:27:58] O que ya no sería el creador de aficionados.
+[01:27:58 - 01:28:01] Para hacer algo consable de crearlos.
+[01:28:01 - 01:28:05] Porque el empadrón a mi todo es así, pero voy a hacer el gestor.
+[01:28:05 - 01:28:10] Sí, es cierto, pero yo quiero que cada uno se experto
+[01:28:10 - 01:28:12] de lo que le corresponde.
+[01:28:12 - 01:28:19] Entonces, si el controlador, su objetivo principal es capturar el evento.
+[01:28:20 - 01:28:24] Voy a necesitar a armar una clase artificial.
+[01:28:24 - 01:28:28] Claro, o sea, ese padrón sería más que nada como un gestor.
+[01:28:28 - 01:28:40] Bueno, podrías decir no, porque el gestor lo que hace es toda la lógica del negocio.
+[01:28:40 - 01:28:42] Claro, acá es simplemente registrarlo.
+[01:28:42 - 01:28:45] La gente no hay mucho lógica de negocio, por eso no es que...
+[01:28:46 - 01:28:50] Todo lo que es la gestión del empadronamiento.
+[01:28:50 - 01:28:51] El padrón, perdón.
+[01:28:51 - 01:28:54] O sea, se colizas el padrón.
+[01:28:54 - 01:28:58] No puedo hacer nada.
+[01:28:58 - 01:29:05] Este padrón se le envío estos datos a lo congelos, lo archivo,
+[01:29:05 - 01:29:10] lo vuelvo a modificar, cuando fue lo más que modificaste el padrón.
+[01:29:10 - 01:29:14] Obviamente que está relacionado cuando me modifique a un último aficionado.
+[01:29:15 - 01:29:19] Pero si yo quiero ver esa información, debería tener en el padrón.
+[01:29:19 - 01:29:24] Que ahora necesite otro experto para saber cuál fue el último aficionado de otra cosa.
+[01:29:24 - 01:29:31] Siempre voy a necesitar minis otros expertos.
+[01:29:31 - 01:29:35] Entonces, ¿perún es una pregunta para ver si terminé de entender bien?
+[01:29:35 - 01:29:39] El padrón sería más con el agrupador, como un single,
+[01:29:39 - 01:29:43] o sea, uno va a tener en el padrón.
+[01:29:44 - 01:29:47] Porque estaba pensando en el hecho de...
+[01:29:47 - 01:29:51] Si te hubiéramos varios padrónes, si quisiera buscar, como decía,
+[01:29:51 - 01:29:53] a las aficionadas mujeres.
+[01:29:53 - 01:29:56] Entonces, acá en instancia de el padrón tendríamos que preguntarle.
+[01:29:56 - 01:29:58] O sea, sería una sola, digamos.
+[01:29:58 - 01:30:01] Sí, es una única.
+[01:30:01 - 01:30:09] Ni siquiera lo tendrías que vos cuando estás modelando,
+[01:30:09 - 01:30:14] vos reteneré una primera instancia donde vas a crear,
+[01:30:15 - 01:30:22] y las clases, los objetos básicos, está.
+[01:30:22 - 01:30:25] Clue, ya está creado.
+[01:30:25 - 01:30:28] El padrón también.
+[01:30:28 - 01:30:33] No es que cada vez que paso por el control comercial voy a crear el padrón.
+[01:30:33 - 01:30:35] Está creado.
+[01:30:35 - 01:30:38] Aquí lo voy a ver, el gestor lo debería ver,
+[01:30:38 - 01:30:42] porque ya está creado alguien, una clase artificial,
+[01:30:43 - 01:30:51] está, se puede hacer un ran de primera instancia o una parte administrativa,
+[01:30:51 - 01:30:57] creo algunos objetos, está, y después el empadrónamiento lo utiliza.
+[01:30:57 - 01:31:02] Tiene una relación estrecha, pero no es el creador, ¿ok?
+[01:31:02 - 01:31:05] Lo contiene, pero no es el creador.
+[01:31:05 - 01:31:06] Claro.
+[01:31:06 - 01:31:09] Si no acabas de que paso por el control, voy a crear el padrón.
+[01:31:09 - 01:31:10] Sí, si, si.
+[01:31:11 - 01:31:12] No tiene sentido.
+[01:31:12 - 01:31:16] Entonces, yo lo que estoy modelando acá, no es la parte administrativa.
+[01:31:16 - 01:31:19] No está neviendo por acá, perdón, nada.
+[01:31:19 - 01:31:22] No es la parte administrativa donde tengo que estar tengo,
+[01:31:22 - 01:31:26] posiblemente tengo una, cuando uno empieza, tengo un ran,
+[01:31:26 - 01:31:28] donde tienes una clase.
+[01:31:28 - 01:31:30] Claro, es que voy a evitar claro.
+[01:31:30 - 01:31:31] Claro.
+[01:31:31 - 01:31:35] Entonces, este sería, por ejemplo, responsable de crear el padrón.
+[01:31:35 - 01:31:38] Ahora, vos me dijiste, bueno, tengo un singleton, sí, bueno.
+[01:31:38 - 01:31:44] En el singleton yo digo, bueno, ya está creado, sí está creado.
+[01:31:44 - 01:31:49] Si no está creado, lo creo y si no lo dejo, ¿ok?
+[01:31:49 - 01:31:50] Uso es esto.
+[01:31:50 - 01:31:51] Claro.
+[01:31:51 - 01:31:58] Pero para qué voy a hacerme esa pregunta, cada vez que tengo un evento o un gestor.
+[01:31:58 - 01:32:01] ¿Sería una relación por el momento de usar?
+[01:32:01 - 01:32:02] Exacto.
+[01:32:02 - 01:32:06] Sería una relación estrecha, no de creación.
+[01:32:06 - 01:32:10] Está buenísimo, la verdad no me acabas preguntando.
+[01:32:10 - 01:32:16] Y ahora, déjame que me ubique donde estoy.
+[01:32:16 - 01:32:18] Ok, ya estoy.
+[01:32:18 - 01:32:27] Entonces, yo vieron que estoy colocando las clases de negocio, de acuerdo, ¿no?
+[01:32:27 - 01:32:32] A la naturaleza del control barra gestor.
+[01:32:32 - 01:32:35] Ok, después ustedes tenieran que ponerle los gestores y quieran.
+[01:32:37 - 01:32:45] Y si es bueno, el club podría estar acá en el medio, está por la compartida con el empadro de la niente y la parte comercial.
+[01:32:45 - 01:32:49] Tengo el evento, tengo cedas.
+[01:32:49 - 01:32:58] Yo haría que luten las zonas, lugo, lugar, o está, no sé, zonas.
+[01:32:58 - 01:33:07] Estas zonas tengan puertas, cuarta de acceso, esta cual habilitó cual no.
+[01:33:08 - 01:33:24] Cada zona tiene un aforo, uno que está permitido, tengo una aforo de, no sé, en plate alta, tengo solamente 500 personas.
+[01:33:24 - 01:33:39] Bueno, pero para este evento solamente voy a visitar 350 por qué, o un boca río, o porque hubo problemas y laja dijo que puede ir solamente 70 por ciento de las fógras.
+[01:33:40 - 01:33:46] No me permite el 100, porque en el partido anterior hubo problemas, entonces como un castigo y cironizo,
+[01:33:46 - 01:33:52] les puedo definir el aforo, está permitido y lo que habilitó.
+[01:33:52 - 01:34:06] Tengo posiblemente compra, compra del ticket, voy a hacer algo básico, compra, pado, después ustedes lo pondrán un poquito mejor.
+[01:34:07 - 01:34:26] Y entrada, una vez que tengo el acomprada de entrada, tengo agicionado, decían que podía llegar a tener un carnet, no sé, y a mi herita,
+[01:34:26 - 01:34:40] pero si tengo una lógica de ese carnet donde tengo que infrimirlo, tengo que dar un formato de lo puedo desacoplar y que toda la lógica de lo que es el arma del carnet no tengo aparte.
+[01:34:40 - 01:34:45] Ya está tendría una dependencia, no tendría una relación estrecha, para lo uso de un lista.
+[01:34:45 - 01:35:07] Después tengo control de accesos, tenía dos tipos de acceso, lo voy a separar, acceso policial y acceso diométrico,
+[01:35:07 - 01:35:17] voy a poner simplemente porque es más cómplico, más fácil para entenderlo monimete, es el acceso diométrico.
+[01:35:17 - 01:35:41] Y obviamente acá tengo, posiblemente acá también tengo una clase que se vean todo lo que es datos diométricos.
+[01:35:41 - 01:35:43] Eso lo he llegado a contraficilado.
+[01:35:43 - 01:36:08] Ahora lo vamos a dar, datos diométricos, bancame, datos diométricos, ya poner esto, ya lo muevo, o ella, fiscal, bancame.
+[01:36:13 - 01:36:20] Lo tengo de esta manera, posiblemente el empadronamiento utilice datos diométricos, está para poder,
+[01:36:20 - 01:36:32] el historia de salud, el libro en captura, el aficionado, la huella digital, los va a capturar cuando capturo lo que yo hago es
+[01:36:32 - 01:36:42] tener como si fuera un imagen, donde tengo el negro todo lo que es la huella digital en blanco, lo estudiando surcos de la huesta.
+[01:36:42 - 01:36:55] Y después digo bueno, hagamos un, tengo este imagen, hacerme el hash y dame la clave de esa huella digital.
+[01:36:55 - 01:37:07] Entonces lo que quieres de estar coflar esa funcionalidad, me llega, datos diométricos, una imagen y después hago la lógica para poder entregarle una clave.
+[01:37:08 - 01:37:16] Me van siguiendo como lo hago, hoy hay herramientas que lo hacen en forma automática, estamos viendo algo más caceros.
+[01:37:16 - 01:37:27] Entonces quiero separar esa lógica que la va a utilizar tanto lo que es el empadronamiento, como también el arteso policial.
+[01:37:27 - 01:37:48] La que es el policial tengo también, va a pasar por el bolinete, me envía el bolinete, un imagen, es si imagen tienen lo que hacer, como yo tengo que leer esa imagen y capturar el hash, me devuelve un aquí,
+[01:37:48 - 01:37:58] está aquí, es correcta la fisionado del aquí, voy guardando la imagen, capturosa esa clave incritada.
+[01:37:58 - 01:38:14] Sí, bueno, entonces tanto el padrón, como el acceso del volinete van a leer algo de datos diométricos, donde tengo toda la lógica para el cristal y de ser incriptar y que me den esa clave que corresponde a esa huella digital.
+[01:38:15 - 01:38:20] ¿Estamos de acuerdo? ¿Cómo lo pence?
+[01:38:20 - 01:38:22] Sí, pero afectamos de acuerdo.
+[01:38:22 - 01:38:31] Si no lo vemos porque puede ser que también tengan los venidos, no me conecto con un sistema externo, también es viable.
+[01:38:31 - 01:38:38] Estoy acá tratando de hacerlo un poco más caceros como para que tengamos también un entendimiento a donde van.
+[01:38:38 - 01:38:57] Y el día de mañana de huella digital, voy a decir bueno, la policía también hace captura de Iris, la lógica va a ser diferente y lo voy agregando de esta manera.
+[01:38:57 - 01:39:15] Un usado esto, uso esta huella digital.
+[01:39:16 - 01:39:26] Van a un segundo, de acceso de policía, son volinentes de lo que no me puedo olvidar es el resisto de acceso.
+[01:39:26 - 01:39:30] Es el fundamental, es para lo que estoy haciendo todo esto.
+[01:39:30 - 01:39:53] Y yo es esto, tengo que llevar a que estrenar años atrás, tengo un, posiblemente lo que hacía era tener un padrón y tenía un policía sentado y estaba sentado en una mesa,
+[01:39:53 - 01:40:06] donde escribía, bueno, vas a pasar bolsivo, en un pable, ponía la hora, los minutos y los segundos en lo cual pasaba de una puerta hacia la otra.
+[01:40:06 - 01:40:15] Eso sigue siendo parte del dominio, para mí, porque yo veo como lo haría antes, si bueno tenía esto.
+[01:40:16 - 01:40:21] Ahora tengo que desacoplar y eso es fundamental, es para lo que estoy haciendo todo esto.
+[01:40:21 - 01:40:35] Voy a registrar, es importante, a una de lasciones estrechas, a medida que voy a registrar, voy haciendo esta registro de acceso,
+[01:40:35 - 01:40:42] obviamente con la respuesta del control biometrico. Si Lucas será...
+[01:40:44 - 01:40:52] Supongamos que la huesa digital, en la parte de la derecha esturina del lado derecho,
+[01:40:52 - 01:40:58] sería correcto que la relación entre aficionada y la huesa digital, pasen por la abril, no?
+[01:40:58 - 01:41:00] ¿No? ¿Pondrón la hora?
+[01:41:00 - 01:41:05] Estaría bien, bueno, una repitida abre nunca.
+[01:41:05 - 01:41:12] O sea, a 10 noches se cambia reciente, sería correcto que la relación entre aficionada y huesa digital,
+[01:41:12 - 01:41:15] pasa por encima de los controladores.
+[01:41:15 - 01:41:28] O de si esto no lo logró entender esto, esto lo ponga desde arriba, o vos decís que haya una relación y que lo haga a través de los controladores.
+[01:41:28 - 01:41:34] O sea, por arriba de los controladores para no, para que se pueda desviérmelo con el diagrama.
+[01:41:34 - 01:41:38] O de si esto escríame, que quiero entenderte, ¿eh?
+[01:41:38 - 01:41:41] El aficionado me voy al control de acceso, esto.
+[01:41:41 - 01:41:46] No, no, no. O sea, aficionado directo con la huesa digital.
+[01:41:46 - 01:41:53] Aficionado directo, ¿y es lo que hice?
+[01:41:53 - 01:42:00] Pero como no es una relación tan estrecha, sino que lo utilizo, hice una dependencia.
+[01:42:04 - 01:42:20] Yo no tengo acá lo que posiblemente tengas que aficionado al crearlo o el padrón, después vemos que hayan lo que le voy a decir es tengo un documento,
+[01:42:21 - 01:42:28] un archivo, ese archivo tengo la imagen de la huesa digital, le digo, ¿huesa digital?
+[01:42:28 - 01:42:38] ¿Ten vio esto? No me interesa aquí, no me interesa a la aficionado, le mio por parámetro, le mio ese archivo,
+[01:42:38 - 01:42:44] ese archivo lo captura o ella digital, le dices, bueno, ¿cómo estás tieta que te manden aquí?
+[01:42:45 - 01:43:04] Me pasaste el archivo, que es la imagen de tu huesa digital, tengo toda la lógica acá para transformar esa huesa digital, esos puntitos negros en una clave, después hago un hash y se lo mio, le envío la clave.
+[01:43:04 - 01:43:09] La clave, que va a estar inquietada, no me da no ser, se la pasa aficionado.
+[01:43:10 - 01:43:17] Pero la lógica de armar la clave de la huesa, la voy a tener acá, no tengo que tener acá.
+[01:43:17 - 01:43:36] Es tal manera de que si cambio algo, imagínate que llevo a momento digo, bueno, voy a cambiar esto porque ya no es seguro, está estufil, todo lo que es el empadrón ambient utiliza esto que ya cambio y el accesomolíndito también,
+[01:43:37 - 01:43:51] sino tendría que estar modificando el accesomolíndito y la aficionado, porque cada uno tendría algo, una lógica para digitar la huesa digital totalmente diferente, no habría una relación estrecha.
+[01:43:53 - 01:44:12] Esto es lo que dice yo, porque no lo pongo como una relación, como una asociación, porque no lo considero que sea un contenedor o algo fundamental.
+[01:44:13 - 01:44:25] Si sé que tengo esa huesa digital, la digitalísimo la manda, lo uso puntualmente, no se mantiene esa relación durante largo tiempo.
+[01:44:25 - 01:44:36] Por eso, se lo puedo mandar a través de un método como un parámetro dentro de un escometodo. ¿Me va siguiendo?
+[01:44:39 - 01:44:41] ¿Me te perdí?
+[01:44:41 - 01:44:44] Te sí, me lo he preguntado.
+[01:44:44 - 01:44:48] Le puedo pasar un ejemplo para el chap para que se me entienda mejor.
+[01:44:48 - 01:45:01] Dale, ¿ otros que en el dudas? ¿Mientras está? Bueno.
+[01:45:02 - 01:45:14] El registro de acceso a policía y acceso a un volinete no sería generalización porque lo acomodas para que se ajuste con el controlador.
+[01:45:14 - 01:45:18] No sería herencia, por qué no podías hacer.
+[01:45:18 - 01:45:31] No, porque por qué no lo parámetro es una herencia, porque yo lo quedaba acá, voy a tener toda la lógica para que el policía pueda capturar,
+[01:45:31 - 01:45:40] esto es lo otro, pero una vez que lo captura tengo que tener la lógica de si bueno, registro todos los accesos.
+[01:45:40 - 01:45:49] Y yo tengo, quiero desacoplar, no me interesa dónde lo registro, qué lo registra, la fecha, esto.
+[01:45:49 - 01:45:53] Lo hago en otra clase, lo desacoplo.
+[01:45:54 - 01:46:04] Entonces, sí, hay una relación estrecha muy fuerte porque justamente todo lo que estoy agarrando, está agarrando el policía y capturar, validar el QR.
+[01:46:04 - 01:46:17] Todo eso, busco a la entrada, ingreso, no sé, el policial también, si usted tiene que posible no interregistrar.
+[01:46:18 - 01:46:32] Todo eso lo voy a registro, lo voy a dejar acá, pero lo que hice el registro en sí, como está lo importante, lo voy a manejar en otra clase.
+[01:46:32 - 01:46:36] Acá como si fuera el libro, digamos, el libro de registro.
+[01:46:36 - 01:46:42] Claro, como son lógicas distintas, entonces es como una forma inversa que lo separas.
+[01:46:43 - 01:47:09] Lo separo porque el día de mañana el acceso lo quiero de otra manera, y esto no lo toco, todo lo que tiene la lógica del policía con su pdA, con su dispositivo, está que tenga a validar, lectura QR, medio de un arrogo, todo lo que es, tengo acoplado ahí y lo que no le corresponde lo desacopla.
+[01:47:10 - 01:47:15] Para desflexible además por si hay otro acceso a futuras, también está hoy.
+[01:47:15 - 01:47:16] Claro, está bueno.
+[01:47:16 - 01:47:19] No sé, lo hemos jugado por qué se yo.
+[01:47:19 - 01:47:30] Sí, ya que es como el evento del policial, imagínate que tengo, cuando hay eventos, por ejemplo, de text, ¿no?
+[01:47:30 - 01:47:41] Y igual, cálculo que en fútbol se debe hacer, tienes un acceso VIP, entonces accedezas de terminadas zonas y te mueves, cuando he terminado zonas para ver a los jugas.
+[01:47:41 - 01:47:45] Ver a los jugadores, está, también quiero registrar eso.
+[01:47:45 - 01:48:04] Y eso como lo ha tenido a través de no sé, no es, y a través de policial, a través de molinete, esa a través no sé, yo te tengo el policía con la secretaria, tengo una secretaria que tengo también, no te posiblemente un pdA, está que va capturando lo que hubo este escolte,
+[01:48:04 - 01:48:13] tienes una tarjeta coluada que te permite manejarte dentro del evento y tienes puertas para poder acceder.
+[01:48:13 - 01:48:18] Bueno, estas puertas de acceso a través de la tarjeta, tienes otra.
+[01:48:18 - 01:48:25] Entonces vas colocando pero el registro es el mismo.
+[01:48:25 - 01:48:26] Ayer quiero ir registrando.
+[01:48:26 - 01:48:28] Sí, sí, sí, lo pueden tener.
+[01:48:28 - 01:48:29] Gracias.
+[01:48:29 - 01:48:30] No, por favor.
+[01:48:30 - 01:48:45] Yo sé que lo digo que en esta materia de diferencia de la de más, yo tengo que tratar de hacer mi sistema lo más configurable posible, extensible posible.
+[01:48:45 - 01:48:57] Ahora voy como el luca, lo más extensible posible y justamente la manera de poder hacer los extensibles que sea lo más atónico posible.
+[01:48:57 - 01:49:06] Es tal manera de que si viene como estamos hablando recién con finera convicable acceso a VIP.
+[01:49:06 - 01:49:09] Yo profe, yo creo que es ella.
+[01:49:09 - 01:49:24] Yo sé, tengo que hablar con ella, tengo acceso a VIP pero también lo tengo que ir registrando y el acceso a VIP, esa a través de una tarjeta que uno tiene colgado
+[01:49:24 - 01:49:31] y puede acceder a diferentes puertas, está los del molivete y lo del policiano y lo deberían tener esto.
+[01:49:31 - 01:49:46] Bueno, pero también quiero ir registrando lo algo, la lógica para acceder, para capturar esos eventos, pero también después la registración es el mismo.
+[01:49:47 - 01:49:56] En vivo esto, alguien se ingresó en tal puerta, bueno, ahí lo voy viendo.
+[01:49:56 - 01:50:00] Fantástico, profe, gracias.
+[01:50:00 - 01:50:10] Bueno, vamos, esto lo van a ir acomodando ustedes, después yo les voy a mandar una solución también, ¿sí?
+[01:50:10 - 01:50:12] Me voy a otra cosa.
+[01:50:12 - 01:50:14] Perdón, una pregunta.
+[01:50:15 - 01:50:18] Una pregunta antes de seguir, ¿a da ferico la vuelta?
+[01:50:18 - 01:50:31] Para terminar de hacer un SAR, porque quiero ver si entendí, o sea, nosotros en laficionado guardaríamos según dato de, por ejemplo, la huilla digital, pero la clase huilla digital sería tipo normal de la seta búsqueda.
+[01:50:32 - 01:50:41] ¿Cómo va a llevar de ney mail celular de contacto? ¿Cómo le va a llegar a la entrada? ¿Si está?
+[01:50:41 - 01:50:43] ¿Citaz todo lo dato de laficionado?
+[01:50:43 - 01:50:46] ¿Y si no está todo biómetro? ¿Cos datos biómetros donde la guardaría?
+[01:50:46 - 01:50:54] Los datos biómetros donde la guardaría estarían bien estarían, bueno guardar el cielo, ahí está muy buena tu pregunta.
+[01:50:55 - 01:51:07] Bueno, voy a guardarla aquí, o no la voy a guardarla aquí más la imagen de la huilla digital, ¿sí?
+[01:51:07 - 01:51:25] No sería lógico guardarla imagen de la huilla digital, ¿ok? Por un tema de seguridad, pero imagínate que lo que vas a estar, debería estar dentro de laficionado, o poder decir que aficionado tiene datos biómetros.
+[01:51:27 - 01:51:36] ¿Qué sería en distintos de los que teníamos a la derecha? ¿Sabes? ¿Dacá serían para guardar y los datos de la derecha serían para usar?
+[01:51:37 - 01:51:45] datos, datos, datos biómetro, claro, este sería los datos de imagínate que digo bueno, ¿sabes qué?
+[01:51:46 - 01:51:53] Estamos en un momento muy crítico y te dicen, quiero, la huilla digital y también el místil.
+[01:51:53 - 01:52:02] Yo sé, estoy mirando pero lo importa, entonces ya la haficionado como los datos biómetros van a ser tan complejos, digo bueno, voy a guardar.
+[01:52:04 - 01:52:23] Quiero guardar, no debería, ¿eh? La imagen de la huilla digital, la aquí, que es lo que más me interesa, quiero guardar también cuál es el código, no debería tampoco, debería estar todo incriptado, pero no importa.
+[01:52:24 - 01:52:36] Para desencriptar esa clave, yo bueno, lo agrupo está y lo de esa coplo de aficionado porque está incriptado, ¿sabes?
+[01:52:36 - 01:52:45] Lo podría ser de esta manera, ahora para nosotros acá estaría más que suficiente ¿sabes?
+[01:52:47 - 01:52:57] Entonces guardaríamos la aquí como un atributo aficionado y en la derecha la clase que teníamos que la huilla digital sería no más para usar para verificar cosas.
+[01:52:57 - 01:53:14] Claro, imaginate que ponés domicilio, dom, encámen, domicil, encámen, ahora sí.
+[01:53:19 - 01:53:23] O sea, me pregunté a más que nada porque me estaba construido el tenado de datos biómetros a la derecha.
+[01:53:23 - 01:53:31] Ese de ahí sería para verificar en el momento que uno pasa, que verifica la tipo general aquí y la compara contra la aficionado que ya te llamo acá.
+[01:53:31 - 01:53:32] Acá me lo he llegado aquí.
+[01:53:32 - 01:53:34] Bueno, cámenme un minutito, va a caer un minutito.
+[01:53:34 - 01:53:35] Sí.
+[01:53:35 - 01:53:52] Porque tengo esto y digo bueno, voy a hacer esto.
+[01:53:52 - 01:54:02] Es un cilo que acá tendría que ir con la jage.
+[01:54:02 - 01:54:04] Vaya la jage.
+[01:54:04 - 01:54:09] La jage de la huilla.
+[01:54:09 - 01:54:11] La clave tendría ¿no?
+[01:54:11 - 01:54:12] Sí.
+[01:54:12 - 01:54:18] Y acá mancáme un minutito, lo que soaría, ¿ok?
+[01:54:23 - 01:54:25] Acá le segaría.
+[01:54:25 - 01:54:28] Te pongo dame, le importa.
+[01:54:29 - 01:54:38] Es para tendar, jage, tame la jage de la huilla.
+[01:54:38 - 01:54:45] Y está asicionado cuando la estoy agredando, buen padrón.
+[01:54:45 - 01:54:55] Te pide que mando el material de la gestionado, por detémando la imagen digitalizando el imagen.
+[01:54:55 - 01:55:04] Primero digitalizo el imagen, usar, digitalizar.
+[01:55:06 - 01:55:17] Imagínate que una vez que digitalizo el imagen creó la jage, voy a ponerlo otra más.
+[01:55:17 - 01:55:24] Crear la clave de la huilla.
+[01:55:24 - 01:55:35] Y dame, imagínate que le llega, dame la jage y bueno, creé primero digitalizo el imagen y después creé la jage y se la devuelve.
+[01:55:36 - 01:55:39] Le devuelve, les vuelve una clave.
+[01:55:39 - 01:55:50] Ahora, acá fue a través de comportamientos, le mando en el comportamiento el archivo de la imagen de la huilla.
+[01:55:50 - 01:55:56] Igual no se vuelva en locos, estamos con esto.
+[01:55:56 - 01:56:00] Pero así es como funcionaría.
+[01:56:01 - 01:56:10] O le diría una api, bueno, tengo la api, estoy digitalizando el imagen, en sí ya los aparatos que digitalizan el imagen.
+[01:56:10 - 01:56:14] Algunos tienen ya para digitalizar y para darte la clave.
+[01:56:14 - 01:56:19] Ahí les queme la cabeza.
+[01:56:19 - 01:56:24] No, pero sí, me voy a desarguer una clase, lo de día directamente lo para tope.
+[01:56:24 - 01:56:30] Pero acá lo más lejamos con una clase porque no suponemos que tenemos un aparato que ya lo hagas, sino que lo veíamos nosotros.
+[01:56:31 - 01:56:40] Pero ya hoy en día, cuando vos estás dijiste, por lo que hace para que capturé tu bella digital,
+[01:56:40 - 01:56:47] ya esos mismos aparatos hoy hacen esa digitalidad, digitalizarle imagen y crearte la clave.
+[01:56:47 - 01:56:50] Ya lo hacen en forma automática.
+[01:56:50 - 01:56:59] Ahora, tenés que estar muy de acuerdo en que hizo el empadronamiento, el club, tiene el mismo tecnología que el del molimete.
+[01:57:02 - 01:57:16] Acá lo estoy haciendo un poco más génerico para poder entender cómo realmente podemos estar bien en día, mañana que nos aplicar otra huella, lo modifico, quiero ideeliris la cara,
+[01:57:16 - 01:57:20] ahora se leen las caras.
+[01:57:20 - 01:57:31] Pero no lo tengo que ir, no envío ya la imagen, ya prácticamente hoy no hacen los dispositivos.
+[01:57:31 - 01:57:41] Pero está buena la pregunta. Yo lo que tira acá es que ustedes vayan entendiendo un poquito, y después bueno, a nivel arquitectura,
+[01:57:41 - 01:57:57] vos le tenés algún dispositivo o que permite digitalizar o si digitalizar las imágenes y crearte la clave de las huechas bienvenidos a hoyamente.
+[01:58:00 - 01:58:11] No reinventar la rueda, pero sí entender que lo que estamos haciendo, y yo acá lo que estoy tratando de hacer es el entender qué es lo que voy a hacer.
+[01:58:11 - 01:58:22] Y vos vas a seguir avanzando, vas a hacer esta transformación y no, voy a utilizar uno dispositivos, esos dispositivos.
+[01:58:24 - 01:58:37] La captura de la huella digital acá se tenemos un hash, no vas a tener la imagen, vas a tener una clave, y ya está reequiptada que lo hizo el dispositivo.
+[01:58:37 - 01:58:46] Ahora, después posiblemente también tu sistema tenga para intentar esa clave y no sé, y deciré esta clave corresponde a tal,
+[01:58:46 - 01:58:55] ahí ya podré hacer otra cosa, pero la idea es poder ordenarnos un poco.
+[01:58:56 - 01:59:23] Van acá en el nutito, vamos con, voy a crear la gran medicuencia. Una pregunta muy interesante que no la respondí en el documento que subí,
+[01:59:24 - 01:59:45] un minuto, no lo respondí, el otro día le estaba leyendo, lo respondí en su momento, pero se ve que quedó en una versión vieja, no que arreglar en esta pregunta esta madre.
+[01:59:45 - 01:59:55] Y cuando quiero realizar el diagrama de secuencia siempre termino, realizándolo después de clase, y siento que termina todo quedando mal,
+[01:59:55 - 02:00:07] porque quería adaptar al diagrama que ya tengo hecho, algún consejo, bueno, sí, mi consejo no esperen esa de última instancia, está como estoy haciendo yo acá.
+[02:00:07 - 02:00:25] Yo acá estoy teniendo un cierto orden, pero a medida que van ordenándose con el diagrama de secuencia, con el diagrama de clase, empiecen a pensar en un diagrama de secuencia, por lo menos la parte del escenario.
+[02:00:26 - 02:00:31] Voy a armar un escenario, y el escenario va a ser un poco más complicado, está bien.
+[02:00:31 - 02:00:37] No se perdón que interromba, pero el compañero Lucas había dicho que mandaba la imagen al chat y creo que no le contesta más.
+[02:00:38 - 02:00:59] Me olvides, gracias. Aquí para que voy a ver que he impuso, una refería a hacer esto, a hacer que la relación entre estas dos clases vayan por encima de las controladores para poder leer el diagrama.
+[02:00:59 - 02:01:05] Lo hacíamos en las materias anteriores, sino dejaban y hasta nos osconcejaban hacerlo.
+[02:01:10 - 02:01:28] La realidad es que vuelvo a decir, usted con un email es un lenguaje, se le desquera derecha y abajo se arriba hacia abajo.
+[02:01:29 - 02:01:44] Yo no voy a evaluar cómo está la flecha ahí, lo que yo haría es ponerle una cierta navega, si pases eso, tendrán que ponerle una navega, y nombre.
+[02:01:44 - 02:01:56] Es posiblemente pasarle el nombre, el parámetro de lo que estás haciendo, para que sea fácil de entender, porque la realidad es que uno le derrío hacia abajo y es que derra derecha.
+[02:01:57 - 02:02:08] Entonces, se complican la lectura cuando empezamos a tirar flechas por arriba. Por aquí van las clases, la realidad es que yo lo que voy a colocar son las más importantes.
+[02:02:08 - 02:02:24] Si a vos te ayuda a hacerlo, para mí queda muchísimo más fácil de este por abajo de esta manera, como me notíntese.
+[02:02:24 - 02:02:32] Yo lo entiendo de esta manera, parece que es mucho más fácil de entender.
+[02:02:32 - 02:02:49] Ahora, eso un lenguaje, es como decir, un código de 100 líneas y el mismo lo dice con 50.
+[02:02:50 - 02:02:56] Una de lo que comenté y el otro no, la realidad es que no se suele colocar desde arriba.
+[02:02:56 - 02:03:01] Mira qué trabajen varias organizaciones, si nunca hay un miesto.
+[02:03:03 - 02:03:11] Siempre vi que, digamos, poner las cosas más importantes arriba después y bajando.
+[02:03:11 - 02:03:19] Lo mismo que lo que hice acá es domicidio. Yo no le he visto una asociación, aunque significa eso.
+[02:03:20 - 02:03:29] Yo puse de esta manera porque es trivial.
+[02:03:29 - 02:03:38] En este caso me parece que yo no sé cómo, la pondría de esta manera.
+[02:03:38 - 02:04:00] Lo pondría de esta manera. Estas en el examen y por un tema de que obviamente no tenemos una herramienta como un aire modelado,
+[02:04:01 - 02:04:08] herramienta de modelo para hacerlo.
+[02:04:08 - 02:04:12] Y más me preguntaste.
+[02:04:12 - 02:04:14] ¿Era eso?
+[02:04:14 - 02:04:23] Te vuelvo a decir, Lucas, no tengas miedo, no te voy a poner un 2 por esto al guiarte.
+[02:04:24 - 02:04:28] No, no me fijo en estas cosas.
+[02:04:28 - 02:04:35] Lo que yo quiero es que sea fácil, o sea es un lenguaje que yo quiero transmitir una idea.
+[02:04:35 - 02:04:41] Entonces, ustedes tienen que encontrar la mejor manera y obviamente hay muy buenas prácticas.
+[02:04:41 - 02:04:46] La práctica es que se lee de una determinada manera.
+[02:04:46 - 02:04:51] Si no tienes que ponerle nombre y naveabilidad a todas las asesiones.
+[02:04:52 - 02:04:55] Si no respetase esa forma de lectura.
+[02:04:55 - 02:05:00] A veces en los examenes, lo que les pido es que lo coloquen más que nada para poder entender
+[02:05:00 - 02:05:09] porque no tienen una herramienta o una idea de modelo para acomodar las clases o las asesaciones.
+[02:05:09 - 02:05:15] Eso sí está bueno, bueno, bueno, bueno, para que te damos acá.
+[02:05:15 - 02:05:21] Quiero hacer aunque sea un diagrama de secuestra.
+[02:05:22 - 02:05:30] Un diagrama de secuestria para que después puedan ustedes trabajar.
+[02:05:30 - 02:05:33] Voy a hacer uno que es un poquito más complicado.
+[02:05:33 - 02:05:42] Imagínense que la haficionado se acerca al estadio, está de la gente policial, de la gente policial, lee el QR.
+[02:05:42 - 02:05:52] Lo que voy a hacer es lee QR, verificar la entrada que sea válida para el evento actual, verificar la entrada.
+[02:05:52 - 02:06:02] Verificar si la haficionado está habilitado y registrar el acceso.
+[02:06:02 - 02:06:04] Así tiene acceso a hoy, registrarlo.
+[02:06:04 - 02:06:16] Hoy, a mí, yo estoy trabajando con elementos dentro de ningún modelo, lo así para poder ocupar más.
+[02:06:18 - 02:06:24] Me voy con estoy, recuerden, y la haficionado se acerca al estadio y esté con la gente policial.
+[02:06:25 - 02:06:31] Por lo tanto, con el controlador que voy a estar, sin con el controlador de acceso, está muy acuerdo.
+[02:06:31 - 02:06:35] Sí sí.
+[02:06:35 - 02:06:46] Y obviamente me voy a manejar con el policial porque voy a acercar ese en escenario que yo lo definí, y lo tienen que escribir.
+[02:06:46 - 02:06:51] Estaba acá no lo escribir, por un tema de que quiero cortar un ratito para que ustedes puestas trabajan.
+[02:06:52 - 02:07:00] La haficionado se acerca al estadio, la gente policial va a estar capturando, por lo tanto tengo lo que es el acceso policial.
+[02:07:10 - 02:07:20] El acceso policial, lo que va a hacer primero es decir, bueno, busco la entrada, está en el fijo, si la entrada es la correcta, está.
+[02:07:21 - 02:07:33] La entrada voy a detectar cuál es la puerta de levanto, está por lo tanto, no sé si tengo entrada, sin la puse o no la puse, sino así la puse.
+[02:07:36 - 02:07:42] La entrada ya está creada, alguien se hizo responsable de crearla, ¿ok?
+[02:07:42 - 02:07:49] Y después lo que voy a hacer es validar si la haficionado, eso había hecho si la haficionado está habilitado o no.
+[02:07:51 - 02:08:04] Para eso podría ir directamente a la haficionado, pero voy a pasar por el padrón, ya está creado, obviamente.
+[02:08:04 - 02:08:41] Y en haficionado, un pitó que voy a hacer un pitó más proligio, ya tengo los elementos al 5 o esto para tener el toolbox correspondiente.
+[02:08:42 - 02:08:56] Bueno, me voy a el control de acceso, vuelvo a repetir el escenario, la haficionado está cerca del estadio, está bien en la gente policial lee el cuarta.
+[02:08:57 - 02:09:40] Ahora le he capaz que la haficionado lo tiene la entrada en el celular, que es como se se dio hoy en día, le pido la altura de cuarta, y posiblemente le paso el cuarta, la entrada.
+[02:09:40 - 02:10:07] A ver si es así, si es grande, en el main lo tengo acá, un piso a poblarlo, después tengo que hacer una validación si está bien, pero por los fronteros me va a dar una idea.
+[02:10:10 - 02:10:23] La captura del cuarta le ingresó eso y lo capturó el controlador de acceso, ahora el acceso policial lo que va a hacer es validar si ese QR está bien, quiero validarlo.
+[02:10:24 - 02:10:53] Entonces voy a validar el QR, le mando el QR de entrada de vuelta, y después lo puedo hablar.
+[02:10:54 - 02:11:11] Y acá digo bueno, el control de acceso policial, me fijo, me piso buscar la entrada, cuyo buscar la entrada por QR, pues veo si le corras, ¿pondio?
+[02:11:15 - 02:11:30] Y bueno, me llegó a validar QR, lo que hago es buscar el QR, tengo una lógica para buscar el QR, tendría que mandar los métodos a QR o algo por estilo, pero voy a dejarlo acá ahora.
+[02:11:32 - 02:11:52] Una vez que tengo la información digo bueno, lo que había dicho yo en mi escenario, ese es el evento correcto, me voy a entrada, obtene el evento, una vez que tengo el QR que ya tengo el entrada, me voy a entrada, obtener el evento,
+[02:11:55 - 02:12:30] sería la información del evento, tengo este evento, estoy bien, se lo pido la entrada, si me si está entrada está bien, si es para este evento.
+[02:12:30 - 02:12:46] Y acá digo bueno, es la puerta, fuerte, evento, corta, vento, dame la puerta, como así, puerta, punto, vento, no me da dejar el evento.
+[02:12:51 - 02:13:26] Y también la verdad me la fecha, todo la entrada, no, confundir con Roseta, validarme la fecha, ya fecha, capaz que ahí voy a tener la lógica, decir, en día actuales igual a la fecha que te mandé de la entrada,
+[02:13:26 - 02:13:38] Ok, está ok, esa persona está ok, está bien ubicada, se ve lo sé.
+[02:13:38 - 02:14:02] Imagínense que me da un error, se ha roto, se equivoco de fecha.
+[02:14:02 - 02:14:10] Acá el acceso policial lo te diría que registrar, ok, ya acá no lo dicen el registro todavía,
+[02:14:10 - 02:14:27] no importa, sigo, eso es muy bien, no sé si lo estoy bien,
+[02:14:27 - 02:14:41] bueno, bueno, un bug, un bug, un bug, un bug, lo que no dice fue obviamente registrarlo,
+[02:14:41 - 02:14:56] me voy a la registración, o sea, este es en el caso nada más que llevo una entrada,
+[02:14:56 - 02:15:01] está en cidad, con él, este es un ejemplo, un caminete,
+[02:15:01 - 02:15:10] pancán, un segundo, que me perdi, reja, era, le puse ese nombre acá, está,
+[02:15:10 - 02:15:22] lo voy a correr este, esto también ya está creado, no tengo por mi crearlo,
+[02:15:22 - 02:15:28] va a ir a fecha, va a ir a entrar a acceso policial, le llevo este error,
+[02:15:28 - 02:15:50] la locatura y o bueno, registrar, con registrar a primer tramo o registración, sin primer tramo,
+[02:15:50 - 02:15:58] no me importa si fue positivo negativo, yo lo registro, la cisterna es acceso,
+[02:15:58 - 02:16:12] que fue acceso a enegado, no importa, ahora pues tenon la respuesta también,
+[02:16:12 - 02:16:39] para que me meten, ya estoy con ustedes, y lo voy armando, acá tengo puerte de ver
+[02:16:39 - 02:16:46] todo, valiar fecha, esta lectura de QR y esa madre lo voy poblando un poquito más,
+[02:16:46 - 02:16:50] lo que yo les voy a pedir a ustedes, yo esto se los quiera,
+[02:16:50 - 02:16:55] y en el que se los pase y lo pisa a trabajar ya con estos elementos,
+[02:16:55 - 02:17:04] bueno, se las puse igual, en la mano, sí, pero yo estaba buena la idea,
+[02:17:04 - 02:17:11] claro, sí, los que me la cabeza que no me responden ni siquiera algo básico,
+[02:17:11 - 02:17:16] bueno, entonces yo esto se los voy a pasar y la idea es que ustedes,
+[02:17:16 - 02:17:21] si tienes el Estado de ML ya saben dónde, yo se los subí el Estado de ML,
+[02:17:21 - 02:17:26] se puedan trabajar en grupos y que armen un diagrama de secuencia,
+[02:17:26 - 02:17:31] porque yo veo que siempre falla un poquito el tema del diagrama de 50 en el Extramen,
+[02:17:31 - 02:17:43] lo que les pido es que escriban, son canales escribir, pero escriban en el escenario,
+[02:17:43 - 02:17:47] escriban, eso les va a brindar muchísimo lógica, yo siempre,
+[02:17:47 - 02:17:52] a mí lo que me ayuda mucho a hacer usar en la interfaz,
+[02:17:52 - 02:17:55] llego a ver qué hago con esto, bueno,
+[02:17:55 - 02:18:01] y dieron que muchas veces les remarqué que la haficionado se acerca al Estado,
+[02:18:01 - 02:18:06] que la gente está policial, la gente del policial, captura,
+[02:18:06 - 02:18:13] le muestra la entrada al policía, el policía, lo captura, bueno,
+[02:18:13 - 02:18:20] a partir de ahí, yo mi ubicó y a partir de ahí pienso en esa interfaz
+[02:18:20 - 02:18:24] en lo que debería capturar el controlador,
+[02:18:24 - 02:18:27] y a partir de ahí empiezo a hacer toda la lógica,
+[02:18:27 - 02:18:32] a veces cuesta decir, bueno, pero solo haría todo en el acceso policial,
+[02:18:32 - 02:18:38] y sí, bueno, ahí estamos con el problema de que estamos armando ese gran código sábana,
+[02:18:38 - 02:18:44] donde una entidad se todo, lo que tengo, justamente lo que tengo que lograr,
+[02:18:44 - 02:18:48] es actualizar lo que es muy difícil,
+[02:18:48 - 02:18:52] entonces lo que les voy a hacer ahora es, no lograr ver,
+[02:18:53 - 02:19:00] voy a estopear un minutito que me ubico,
+[02:19:00 - 02:19:11] vamos a dar a que esto, lo que vamos a hacer ahora es,
+[02:19:11 - 02:19:13] le voy a mandar esto ya mismo,
+[02:19:13 - 02:19:31] forechats, forechats un minuto, o les clases a ellos,
+[02:19:31 - 02:19:33] clases a ellos,
+[02:19:33 - 02:19:52] ¿qué idea si ustedes hagan un diagrama de secuencia?
+[02:19:52 - 02:20:00] ¿Pues de pasamos a bolchar?
+[02:20:00 - 02:20:03] Un diagrama de secuencia, de fina en el escenario,
+[02:20:03 - 02:20:06] y que obviamente vean que hay una relación estrecha,
+[02:20:06 - 02:20:10] recuerda, cuando yo creo dentro del diagrama de secuencia,
+[02:20:10 - 02:20:14] le tengo que dar un más para que haya una relación estrecha entre el diagrama de secuencia
+[02:20:14 - 02:20:17] y el diagrama de clases,
+[02:20:17 - 02:20:21] hubieron que hago eso, hubo un momento que dije hubo que hubo que,
+[02:20:21 - 02:20:26] porque les quería mano, pero la idea es que haya una relación entre ambos,
+[02:20:26 - 02:20:28] que me han cuidado con eso,
+[02:20:28 - 02:20:36] la idea es que voy a ir rotando entre los grupos para ver como avanza,
+[02:20:36 - 02:20:44] y voy a dar que lo ir fríjate, y vayan a ver, o si quieren,
+[02:20:44 - 02:20:46] vayan directamente a los grupos,
+[02:20:46 - 02:20:48] ¿y ustedes?
+[02:20:48 - 02:20:53] En cuanto a grupos tienen, son seis grupos,
+[02:20:53 - 02:20:56] grupos, así que los podamos manejar.
+[02:20:56 - 02:21:01] Bueno, consultas dudas,
+[02:21:01 - 02:21:07] ¿con mi parte de la parte?
+[02:21:07 - 02:21:08] No, no.
+[02:21:08 - 02:21:09] Bueno, voy a detener...
+[02:21:09 - 02:21:11] ¿Puedes tener la verdad?
+[02:21:11 - 02:21:12] ¿Eh?
+[02:21:13 - 02:21:15] Sí, sí, después volvamos a la general.
+[02:21:15 - 02:21:17] Voy a detener la grabación,
+[02:21:17 - 02:21:24] porque yo quiero compartir esta grabación para me dar los cinco,
+[02:21:24 - 02:21:26] los lunes,
+[02:21:26 - 02:21:29] voy a estopiarla.
+[02:21:29 - 02:21:30] Si no va a quedar una hora...

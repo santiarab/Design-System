@@ -1,0 +1,473 @@
+# Clase 01 - Parte 2 - 2026-08-20
+Archivo de origen: Clase 01-20260820_102934-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 01:20:04
+
+---
+
+[00:00:56 - 00:01:09] Bueno, buenas y traientas tan. Estamos profesando. Están, están, no se fueron. Todos méritos de eso.
+[00:01:51 - 00:01:58] Era la metodología ROOP. Nosotros nos vamos a basar en ROOP porque gracias a ROOP tenemos UML.
+[00:01:58 - 00:02:10] Ustedes, si bien, aprendieron UML, bueno, ¿prende dónde bien es? ¿Cuál es el proceso que me recomienda? Bueno, para eso está dentro de esa metodología.
+[00:02:10 - 00:02:17] Ahora bien, la realidad es que cuando uno trabaja en proyectos, no trabaja exclusivamente con una metodología. ROOP es muy utilizado cuando
+[00:02:18 - 00:02:26] se requiere, como hablábamos antes, una ceremonia muy fuerte, un ceremonial muy fuerte porque, bueno, capaz que
+[00:02:26 - 00:02:33] que que que muy la empresa que el cotiza en bolsa, yo cotizo en bolsa, si que una empresa y cotizo en bolsa como puede ser un banco
+[00:02:33 - 00:02:42] acá, es muy poca en Argentina que contestan, por ejemplo, la hueta de Estados Unidos, será no se da any de calcular, no sé, estoy diciendo nada,
+[00:02:42 - 00:02:53] voy a nadar para ver esto. Pero si vos tenés una empresa, creo que si era el oarc, o también cotizar en bolsa
+[00:02:53 - 00:03:05] Estados Unidos, necesitas para determinados proyectos tener una estructura muy fuerte en cuanto a la implementación
+[00:03:06 - 00:03:20] en software. Entonces, una metodología ágil no va a servir porque necesitamos tener un rastreo muy fuerte. Eso es por un tema de, ya cuando estemos
+[00:03:20 - 00:03:37] en presenciales, voy a contar un poco la historia porque se hizo eso, pero es un tema legal, en donde se requería que ante el pasaje aún, a producción de un software,
+[00:03:37 - 00:03:59] fue una solución clave financieramente, estuviera con muchos aprobadores, entonces se necesita un proceso mucho más fuerte, que nadie puede acceder a producción y cambiar algo, sino no podías cotizar en la bolsa de Estados Unidos.
+[00:04:00 - 00:04:15] Y acá hay algo parecido un poco más flexible, pero hay algo parecido, entonces te acuerdo a las necesidades también de la organización, ven si se pueden ir a una metodología más rija o más ágil.
+[00:04:16 - 00:04:35] Y van a Netflix y Netflix no sé si para todo lo que es aplicaciones con los clientes, no, pero capaz que financieran las soluciones que sean financieras y si tienen que ir a una metodología un poco más rija y no utilicen a metodología.
+[00:04:36 - 00:04:54] Me van siguiendo, porque a veces se les siden a nivel de negocio, no, no lo vamos a elegir una metodología o la otra, después cuando nos juntemos hablaremos un poquito en los de ese tema y les cuento un poco la parte legal de eso.
+[00:04:55 - 00:05:42] Eso es una metodología más tradicional y no es fuerte, más ceremonia, y ahora vamos a una metodología más ágil, ustedes estuvieron viendo metodología ágil, calculo que sí, vamos a hacer y eran metodología ágil, y fueron la mano fantástica, entonces acabo de ir más rápido.
+[00:05:43 - 00:05:57] Así vamos a la parte tráctica, vamos a abrir, ¿qué batería? Creo que en sistemas de información.
+[00:05:57 - 00:06:15] Fantástico, bueno, vamos a ir un por ridido, obviamente, volvemos a lo mismo, esto recordan que era, acá estamos en los 52, lo vimos la primera debimos, los principios de la ingeniería de software.
+[00:06:19 - 00:06:30] Antes acá teníamos el proceso RUP, el método de diseño, los recomendaciones de RUP y las herramientas, que acá decían WML.
+[00:06:30 - 00:06:48] Ahora vamos a ir a otra metodología, que es Scram, que tiene tantas ceremonias en la cuanto del método de diseño y tiene otras herramientas que son las historias usuarios, los web, y ahora más el curso y WML.
+[00:06:48 - 00:07:16] Y muy poco, pero vamos a empezar, antes de esto ágil, esto lo supongo que como lo vieron, vieron que el RUP fue más que nada orientado a metodología más tradicionales, con mayor cantidad de ceremonias,
+[00:07:16 - 00:07:41] pero se dieron cuenta que necesitaban algo más en ágil como dice la palabra para determinados proyectos. Entonces en el 2001, la Seleizo, una Argonia en también, introducieron un manifiesto ágil de la misma manera de la misma manera, en lo que les va a ser humano, de la misma manera,
+[00:07:41 - 00:08:02] de RUP, tienes tus principios, son estos, hay, en todo lo que está aquí lo hizo lo mismo, y eso es el mismo proceso, y se va a ver, voy a definir mi filosofía o mis principios,
+[00:08:02 - 00:08:26] para usar una palabra pero es lo mismo, para poder justamente armar un proceso un poco más ágil para el desarrollo del software, y se va a saludar a algunos principios, obviamente hay cuatro que son los fundamentales, que son los individuos y interacciones ante los procesos de extución y la herramienta,
+[00:08:26 - 00:08:45] software que funciona, ver sus documentación, la colaboración por el cliente, trabajar una forma muy estrecha con el cliente, responderan del cambio, eso es algo que también están en RUP, y después algunos otros principios, no, se hace el cliente,
+[00:08:45 - 00:08:59] un cambio, entrega frecuente, un maverga interesante, conversación cara cara, software funcionando, excelencia técnica, es un grupo un poco más chico,
+[00:08:59 - 00:09:13] y por lo tanto se puede manejarse, puede administrar, son autogestrenables, cada uno tiene que saber por lo que es lo que tiene que hacer para trabajar, no le tenemos que estar diciendo bueno,
+[00:09:13 - 00:09:23] cierta al función de la vida lo hacen, son más autónomos, entonces se puede hacer que sean
+[00:09:23 - 00:09:34] grupos más ágilas. Vamos a otro, esto es altamente lo mismo, no voy a ser a que lo vieron,
+[00:09:34 - 00:09:43] vamos a hacerlo un poquito más rápido. Y bueno vamos un poquito a dentro de metodología
+[00:09:43 - 00:09:52] de las ágilas, qué tipo de procesos vieron, acá vamos a hablar un poco de estrambos, pero qué
+[00:09:52 - 00:10:05] marco de trabajo ha sido utilizaron, qué vieron, qué me encanta.
+[00:10:05 - 00:10:13] Qué te piensan? Muy bien. Cambam también, ¿qué es eso? Cambam, me encanta, se está más
+[00:10:13 - 00:10:20] enfrentado a lo que es el próximo? En Canta Canva. ¿Qué más? Es más para proyectos, es más para
+[00:10:20 - 00:10:31] mi extención, no, algo. O más para para mi jeera industrial, creo que construir un, un
+[00:10:31 - 00:10:36] suponete, un auto, bueno, primero empieza con la chássi, bueno, paso esto y acá, peor para
+[00:10:36 - 00:10:45] chássis, más es muy pisado, ahí me encanta, puede hacer nuestra presente, porque como
+[00:10:45 - 00:11:01] que uno la aceptamos en la materia, no lo habrá pedido, no hay un minuto, te puedo saber, no
+[00:11:01 - 00:11:23] hay un poco nada de ella, abricen cuando pasa esto así, bueno, ¿qué le pidió? Ahora anivar
+[00:11:23 - 00:11:39] el rostro, pero hace rostro, bueno, muy bien, Canva, qué más? algo más de XP, el famoso
+[00:11:39 - 00:11:48] programar entre pares, ahí yo creo que no podría utilizar esa metodología, que no
+[00:11:48 - 00:11:53] está mirando cuando igual ahora se codifica mucho más ágil, pero no importa. Se debe de
+[00:11:53 - 00:11:59] ver, ¿cómo está? Que desmiren la comunicadora. Bueno, no importa, vamos con Scram, bueno,
+[00:11:59 - 00:12:08] hace un marco de trabajo, también de proceso ágil, nos ayuda a gestionar y completar
+[00:12:08 - 00:12:14] y armar, no, proyectos, pero lo interesante es que son ciclos cortos de trabajo, para estos
+[00:12:14 - 00:12:21] ciclos cortos y los denominas sprint, que es de una, cuatro semanas, la realidad es que
+[00:12:21 - 00:12:31] solo en Zardos, la documentación, recomienda dos, son grupos de autorganizados, de adaptan
+[00:12:31 - 00:12:39] para ti al cambio, tienen determinados roles, ahora creo que los vamos a ver, pero bueno,
+[00:12:39 - 00:12:46] básicamente son grupos que el equipo tiene mucho expertise y que pueden gestionar los
+[00:12:46 - 00:12:56] proyectos, esto son los principios del Scram, tras parences, instección, adaptación,
+[00:12:56 - 00:13:02] colaboración, enfoque del valor, empoderamiento del equipo, que sean autorganizados, estos
+[00:13:02 - 00:13:14] chicos le dan los, es marco teórico dentro del Scram, vamos a lo más interesante, empezamos
+[00:13:14 - 00:13:23] con los roles, nosotros en Rube teníamos miles de roles, en el project manas, tenemos un
+[00:13:23 - 00:13:30] montón de roles, obviamente acá están mucho más acotados, prácticamente se las pueden
+[00:13:30 - 00:13:40] separar o categorizar en tres roles, el Product Owner, no que es el propietario, vamos a decirlo
+[00:13:40 - 00:13:48] del Producto, define la prioridad de que estiona las tareas, está pendiente del Product
+[00:13:48 - 00:13:57] Bank, lo que ahora lo vamos a charlar, y obviamente es el que tiene mayor interés en el negocio,
+[00:13:57 - 00:14:07] después tenemos el Scram Master, lo conoce, imagínense lo conoce, si no se ponen a ver
+[00:14:07 - 00:14:13] la película, el Scram Master es el que facilita el proceso, está no es un gerente de
+[00:14:13 - 00:14:21] proyectos pero facilita el proceso, trata de eliminar los riesgos, que pueden frenar
+[00:14:21 - 00:14:31] al equipo, a la construcción del Producto, y obviamente hace toda la actividad es que recomienda
+[00:14:31 - 00:14:38] el Scram, que ya ahora las vamos a ver, como la reunión diaria, la planificación etcétera,
+[00:14:38 - 00:14:47] y después tenemos el equipo, es un equipo chico, acá recomienda siete más menos más personas,
+[00:14:47 - 00:14:58] no es un equipo grande, es un equipo autoralizado, multifunicional, que tiene muchas partes, esto
+[00:14:58 - 00:15:05] nos conocen también, la privada, tendría siempre dió lo mismo, tendría que actualizarlo con
+[00:15:05 - 00:15:16] otra foto, pero bueno, quedo ahí, bueno algunos elementos del Scram, esto también lo tendrían
+[00:15:16 - 00:15:23] que haber visto pero vamos a repasar, tienen el Producto, acá hay un estado yo, y hablamos
+[00:15:23 - 00:15:31] de los más para mí, utilizados como el Producto Baglock, que es, o a veces se lo deí,
+[00:15:31 - 00:15:39] es directamente Baglock, es la lista de todo lo necesario para el proyecto ordenado por prioridades,
+[00:15:39 - 00:15:45] casi siempre son historias usuarios, cada Baglock va a tener un listado de todas las historias de
+[00:15:45 - 00:15:59] hacerlo, después tenen el Spring Baglock, también es una lista, una lista de todas las tareas,
+[00:15:59 - 00:16:08] como tarjetas usuarios, para el Spring actual que vamos a trabajar, no está lo incremento,
+[00:16:08 - 00:16:20] que es importante, es el Producto terminado para cada Spring, que más está el Spring Planning,
+[00:16:20 - 00:16:26] la Planificación, que es la reunión inicial para definir qué va a ser, es Spring,
+[00:16:27 - 00:16:36] después está la reunión diaria, la plan de reunión diaria, ya está, de Unity, está que es
+[00:16:36 - 00:16:45] una reunión donde se ajustan esos integrantes y en 15 minutos está donde debe como está el equipo
+[00:16:45 - 00:16:53] nomás si hay algún problema, ese es el después puntualmente con estas personas, o si hay una persona
+[00:16:53 - 00:17:01] que requiere de otra, un trabajo dependendo del otro, después en esa reunión, salta el tema y
+[00:17:01 - 00:17:10] después continuará, pero la idea es que sea una reunión diaria rápida de 15 minutos, el Spring Review,
+[00:17:10 - 00:17:17] no sé si está acá, Spring Plan, Spring Plan, no lo puse, así el review, ahí está el review,
+[00:17:18 - 00:17:27] Spring Review, que es también es una vez finalizado el Spring, bueno, como fue una
+[00:17:27 - 00:17:37] reición, como fue el trabajo completo de este título, y el Spring de la reestructividad está
+[00:17:37 - 00:17:44] muy buena, es un espacio para reflexionar sobre qué hay que mejorar para el siguiente, y la realidad
+[00:17:44 - 00:17:50] es muy útil, porque a veces hay que hablar de lo bueno y de lo malo, o sea, he visto lo hicimos
+[00:17:50 - 00:17:58] mal, no sé, y se dice, esta base de datos pero me di cuenta que no funciona, lo voy a cambiar,
+[00:18:01 - 00:18:08] tuve con este cliente no pude avanzar y me fico con otro, porque la verdad que es mucho más
+[00:18:08 - 00:18:15] amigable y a partir de ahí empezamos a trabajar con el otro cliente, o sea, tener un espacio para
+[00:18:15 - 00:18:23] reflexionar está muy bueno y nos permite mejorar, por lo tanto, es algo que se lo utiliza muchísimo,
+[00:18:26 - 00:18:32] si vamos, bueno, yo voy a tener, quiero que tengo el Product Baglog, voy a tener acá tarjetas
+[00:18:32 - 00:18:37] en suario, por así decirlo, saben las casanas tarjetas en suario, después lo vamos a ver, sino,
+[00:18:37 - 00:18:53] no saben, bueno, para lo ver, voy a tener funcionalidades, ese es el Product Baglog y yo voy a
+[00:18:53 - 00:19:07] definir en cada sprint que era el sprint, era un sprint, es el ciclo, es el ciclo que van a ser,
+[00:19:07 - 00:19:16] en un sprint voy a definir de ese Product Baglog, cuál es mi sprint Baglog para poder trabajar,
+[00:19:16 - 00:19:27] de todos los días, tengo estas reuniones, tengo la reunión final para poder hacer estas
+[00:19:27 - 00:19:35] mejoras, a veces, a veces la mejora es seguir con la misma, por ejemplo no sé, bueno,
+[00:19:35 - 00:19:42] trabajé con Pablo y la verdad que fue exitoso, voy a continuar el próximo sprint trabajando con él,
+[00:19:42 - 00:19:52] porque me di cuenta que sabe sobre, no sé, ok, o sabes sobre el negocio, o a veces sucede que,
+[00:19:52 - 00:19:59] bueno, tal sprint nada, mirad, y vamos a hacer tal Baglog para el próximo sprint, bueno, trabaja con
+[00:19:59 - 00:20:08] Juancito, que sabe muchísimo sobre el negocio, entonces realmente es interesante de hacer este tipo de
+[00:20:08 - 00:20:14] reuniones, nosotros lo que vamos a hacer ahora es un especie de simulacro, ahora lo vamos a hacer
+[00:20:14 - 00:20:20] en donde vamos a definir algunas historias de usuario, y esos historias de usuario vamos a armar el
+[00:20:20 - 00:20:30] Product Baglog, y del Product Baglog vamos después a definir, definir la criticidad por donde vamos a
+[00:20:30 - 00:20:44] comenzar y definir los sprint backlog, ok, bueno, DailyMitting es muy sencillo, cada 15 minutos,
+[00:20:44 - 00:20:50] y no más, se responde estas preguntas que dice que haré que problemas tengo forma pontual, si hay
+[00:20:50 - 00:20:58] algún problema muy específico se continúan en otro tipo de reunión, pero los otros integrantes
+[00:20:58 - 00:21:03] van a seguir avanzando en los suyas, ahora bien, yo tengo que armar este Product Baglog y lo que
+[00:21:03 - 00:21:14] me voy a basar es en tarjetas de usuarios, ok, son notas que representan una necesidad del cliente,
+[00:21:18 - 00:21:28] como si fueron casi de uso muy pequeño corto con un ciso, si me para hablar del requerimiento,
+[00:21:28 - 00:21:38] no tiene mayor nivel técnico, tienen el título, un nombre corto claro que es lo que va a hacer,
+[00:21:38 - 00:21:48] tienen un rol, siempre empezamos con el usuario, yo como jefe, necesito tal cosa, si tienen un rol,
+[00:21:49 - 00:21:57] yo como comprador, yo como secretaria, está, y una acción, ¿qué quiere hacer el usuario?
+[00:21:57 - 00:22:01] Por ejemplo, yo como comprador, quiero pagar con tarjeta de crédito, ¿ok?
+[00:22:04 - 00:22:16] tiene un valor para qué se usa, porque quiero obtener el producto, yo como dueño de este
+[00:22:16 - 00:22:21] de tréosio, quiero facturar, o que si no, no, lo objecto y lo entender para qué lo quiero,
+[00:22:21 - 00:22:29] en algunas son sencillos, otras no, a lo que se suele utilizar mucho a la filtrera de aceptación,
+[00:22:31 - 00:22:40] que son como una especie de criterias de testing, a medida que se va interando se puede ir a agregar
+[00:22:40 - 00:22:47] esos detalles, a veces está buena para la criticidad, si es importante, si no,
+[00:22:51 - 00:22:58] la realidad es que se utiliza muchísimo, es muy simple, y si no, si lo puse acá,
+[00:22:58 - 00:23:08] a la búsqueda, acá, acá, sí, y acá tengo algunas, historias de usuario, por ejemplo,
+[00:23:09 - 00:23:17] sí un modelo muy simple, yo como, yo como, ahí colocan un rol, yo como integrante, yo como comprador,
+[00:23:18 - 00:23:26] bien a lo largo, quiero una, ahí es lo que tienen que hacer, quiero poner la acción, y siempre
+[00:23:26 - 00:23:35] es para poner el para al final, entonces yo digo yo como clientes, quiero poder comprar para llevar
+[00:23:35 - 00:23:42] el producto, entonces tenemos el cómo, el quiero y el para en las historias del usuario,
+[00:23:43 - 00:23:52] es un texto que sirve de guía, el sirve para poder interactuar y ver las cosas más importantes,
+[00:23:52 - 00:24:00] no voy a entrar en el detalle como si lo haría en un caso de uso, vamos a esto,
+[00:24:00 - 00:24:06] a minutito, hasta la pongo acá, entonces tengo el producto bugle, tengo voy a definir por donde
+[00:24:06 - 00:24:17] comenzar una vez que le dí el valor a cada una, y empezó a trabajar en con mi metodología,
+[00:24:17 - 00:24:22] bien, algo que me importa, esto lo de apondar acá, algo que me importa de las historias
+[00:24:22 - 00:24:30] del usuario son las características, porque me importa, porque soy de diseño y tengo que hacer que
+[00:24:30 - 00:24:39] mi producto tenga calidad, no tengo dentro del escram, no tengo una metodología de diseño como la
+[00:24:39 - 00:24:44] puedo llegar a tener con Rube que me dice el paso a paso como armar una retextura y qué cual es
+[00:24:45 - 00:24:53] el tarsalto, que tengo que tener el diagrama de arquilidad, el diagrama de clases, no me da esas
+[00:24:53 - 00:24:59] recomendaciones, entonces es importante que las historias del usuario tengan determinadas características
+[00:24:59 - 00:25:08] para poder meterle un poco, calidad y de orden muy requerido en el diseño,
+[00:25:08 - 00:25:14] es dentro de esta metodología, por lo tanto necesito las historias sean independientes que
+[00:25:14 - 00:25:23] nos se repiten, que cada uno sea única, que sea negociable, que pueda hablar con el
+[00:25:23 - 00:25:29] cliente, que sea que demuestre valor, por eso es importante cuando lo estoy escribiendo poner el
+[00:25:29 - 00:25:37] para, que sea estimable, es un trabajo que yo tengo una historia de usuario, necesito una
+[00:25:37 - 00:25:42] solución para la biblioteca y la realidad que no me sirve, porque no la puedo estimar, mientras
+[00:25:42 - 00:25:52] más corta, más pequeña la puedo estimar, bueno que sea pequeña, que sea bien atómica, me gusta
+[00:25:52 - 00:25:58] hablar de atómicitad más orientada de ejemplos, que sea verificable, que pueda ver que le pueda
+[00:25:58 - 00:26:06] comprobar, como lo puedo probar, bueno que sea simple, no se enrojen en la escritura, perdón,
+[00:26:07 - 00:26:13] me di de la cansada, que sea realista que se ha centrado en el usuario, son las características
+[00:26:13 - 00:26:23] de historias de usuario para poner, empezar a colocar algo de principios del buen diseño,
+[00:26:23 - 00:26:30] dentro de una metodología, como a Scram, que no se basta mucho en esos principios del buen diseño,
+[00:26:30 - 00:26:39] porque calculo que tengo un grupo autogestionado y con mucho esquí para hacerlo, esta saludismo me
+[00:26:39 - 00:26:56] vengo acá, esto que le hace acordar, me dijeron en una metodología, acá podría yo aplicar,
+[00:26:56 - 00:27:05] ya puedo empezar a meter otras procesos, entonces digo bueno, meto algún procedido como
+[00:27:05 - 00:27:11] campan y digo bueno tengo el usuario y después yo voy diciendo como lo harmo, tengo el
+[00:27:11 - 00:27:17] baglo, en tu duro que estoy haciendo, lo que ya está hecho, a mí me gusta muchísimo
+[00:27:17 - 00:27:24] campan, hay herramientas muy lindas, no nos vamos a poner en foco porque campan pero realmente
+[00:27:24 - 00:27:33] utilizan lo, el probaglo, tengo las historias de usuarios, los criterios, esto se lo
+[00:27:33 - 00:27:48] muestro simplemente como ejemplo, bueno para en un minutito, lo dejo para las las
+[00:27:48 - 00:28:07] ideas y vamos a jugar un poquito, también no de maquira, se van al canal, para en un minuto
+[00:28:07 - 00:28:33] lo cuento son, pasando al canal mientras tanto, dentro del canal, 26 segundo 4 y
+[00:28:33 - 00:28:52] 3, van a este pizarro, y ahí todos ahí, ahí los veo, esto lo dejan un poquito de lado,
+[00:28:52 - 00:29:08] vengo para acá, ustedes van a jugar acá en esta área, despido disculpas, a los que están
+[00:29:08 - 00:29:17] recursando la materia pero no tuve tiempo de cambiar el ejercicio, así que vamos a repetir
+[00:29:17 - 00:29:30] el 4 y 5 este pasado, están ahí en la carinta que nos pasa, es un área de trabajo, acá
+[00:29:30 - 00:29:48] tienen para agregar unas notitas, yo lo que les voy a pedir, bueno ahora lo hacemos todos,
+[00:29:48 - 00:29:57] me interesa la idea de este, podamos jugar un poco y que hagamos una especie de simulación,
+[00:29:57 - 00:30:02] si, son 58 personas, va a ser un caos, después yo lo organizaré, no te preocupen, pero
+[00:30:02 - 00:30:07] la idea que ustedes puedan jugar un poquito, qué lo que vamos a hacer, vamos a hacer un juego
+[00:30:07 - 00:30:17] de roll play, la idea de este juego de roll play es que vamos a jugar ahora y posiblemente
+[00:30:17 - 00:30:27] la siguiente clase, voy a necesitar de ustedes y que todos colaboren y que traten más o
+[00:30:27 - 00:30:36] menos de ir armándolo, si yo veo que se repita y no importa, después lo arreglaré,
+[00:30:36 - 00:30:42] vamos, la idea es que todos ahora participemos un poco, qué lo que vamos a hacer, imagínense
+[00:30:42 - 00:30:50] que yo soy la arquitecta, ustedes son el grupo de screenmaster desarrolladores, yo hice
+[00:30:50 - 00:31:00] un relevamiento de algo que tenemos que hacer, ahí empezamos a trabajar, por lo tanto
+[00:31:00 - 00:31:09] hoy ustedes son todos desarrolladores que ya manejan Scram y ya manejan trajetas de usuario,
+[00:31:09 - 00:31:21] y les vengo a plantear un nuevo proyecto, estamos de acuerdo, bien proyecto, entonces dentro
+[00:31:21 - 00:31:32] este nuevo proyecto yo voy a comenzar a relatar, a relatar, ustedes acá van a ir creando
+[00:31:32 - 00:31:38] tarjetitas y van a ir armando las tarjetas de usuario, yo estoy tratando de estimular una
+[00:31:38 - 00:31:48] especie de figma, ustedes saben lo que es figma, la universidad no me permite tener un figma
+[00:31:48 - 00:31:58] porque sale plata, está vamos a dar, pero el figma es una herramienta que viene, yo no tengo para
+[00:31:58 - 00:32:09] que todos se sumen, a ver no, no sé, acá vamos al figma, no sé quién es este, pero el figma me
+[00:32:09 - 00:32:16] permite crear, manejar un área de trabajo, me permite manejar imágenes diseñar, crear
+[00:32:16 - 00:32:23] un poquito, estábamos, entonces la idea es que yo voy a ir relatando el relevamiento que
+[00:32:23 - 00:32:32] hice con el cliente, ustedes se empiezan a armar las historias de usuario, recuerden como
+[00:32:32 - 00:32:38] me pueden hacer un recoratorio, cómo era esa historia de usuario, cómo empezaba, yo cómo
+[00:32:38 - 00:32:53] o cómo, el hombre, quiero poner el propósito, claro, para y el propósito, está, ¿ok?
+[00:32:53 - 00:33:16] cómo, cómo el rol, cómo el rol me dan a decir, el verbo, el verbo, vamos a una acción,
+[00:33:16 - 00:33:30] mejor la acción, yo cómo quiero para, ¿ok? Concrito el conciso, está, esto lo voy a borrar,
+[00:33:30 - 00:33:38] entonces yo voy a ir escribiendo, ustedes van a tener que ir armando las historias de usuario,
+[00:33:38 - 00:33:44] de acuerdo a lo que yo digo, si se pierde, se pierde, no importa, está la idea que
+[00:33:44 - 00:33:51] estemos ejercitando realmente como funciona este tipo de metodología con esto, porque
+[00:33:51 - 00:33:56] aparte lo vamos a realizar las zonas con otra cosa, bueno, arranco, están todos preparados,
+[00:33:56 - 00:34:05] ya todos agarraron algún, cada tarjeta es única, si encuentro otro requerimiento, encuentro
+[00:34:05 - 00:34:10] otro requerimiento, ustedes susen esta área, yo me ven por un tema de que quiero leer un
+[00:34:10 - 00:34:18] poquito, ¿ok? ustedes susen esta área, la de la del lado, esto me lo dejan a calibre,
+[00:34:18 - 00:34:30] ¿ok? cada uno tiene que mirar su área, es más, lo dejaría de compartir, quiero ver que
+[00:34:30 - 00:34:39] estén trabajando, ¿vamos listos? ¿quién? ¿quién? ¿quién? ¿quién? ¿quién?
+[00:34:39 - 00:34:48] ¿quién? Bueno, vamos a hacer un, tenemos que hacer una solución para un gimnasio que está
+[00:34:48 - 00:34:55] ubicado en Ael Ramos, es un centro de entrenamiento orientado para personas que bueno, buscan, mejor
+[00:34:55 - 00:35:01] a su estado de salud, a la mañana hay mucha gente grande, me contaba, yo hablo, ¿eh? me contaba
+[00:35:01 - 00:35:10] el gerente, mucha gente grande, mucha gente en la área de musculación y también tiene
+[00:35:10 - 00:35:21] clases grupales tradicionales como puede ser, no sé, espímic, correr, etcétera, ¿eh?
+[00:35:21 - 00:35:30] Gap, etcétera, es un proceso de barrio, ¿no? no es gran, no es una gran cadena, pero tiene
+[00:35:30 - 00:35:36] dos gimnasios y calcula que van a tener otro más, por lo tanto quieren una aplicación
+[00:35:36 - 00:35:43] como para que el usuario pueda, el client, el que entren puede ir un lado para el otro y
+[00:35:43 - 00:35:49] puede utilizar con el mismo pago, las tres gimnasios que van a tener, ahora tienen dos,
+[00:35:49 - 00:35:57] pero tienen van a tener tres, el gimnasio tiene activo alrededor de tres, cinco y una persona,
+[00:35:57 - 00:36:02] la idea es que están haciendo mucha publicidad y se sumen más y el promedio va desde los
+[00:36:02 - 00:36:07] veinte o se los cinco y cinco, aunque ese es el atarde bien en chicos más pequeños pero bueno,
+[00:36:07 - 00:36:14] y a la mañana da mucha gente grande, mucha gente grande para hablar con la gente de musculación,
+[00:36:14 - 00:36:22] por lo tanto a la mañana se requiere más profesores, se necesito hacer una aplicación, me
+[00:36:22 - 00:36:28] voy a tener una aplicación donde los profesores puedan crear rutinas, donde los usuarios pueden
+[00:36:28 - 00:36:37] ver si están con la cuota al día o no y si no están con la cuota al día, pueden ver que tienen
+[00:36:37 - 00:36:47] que pagar, pueden ver las quechas de encimiento y si hay algún aumento también, cuánto sale, quieren
+[00:36:47 - 00:36:56] hacer también definir el cliente quiere definir clases disponibles como pueden ser gap, clases
+[00:36:56 - 00:37:10] tradicionales, spinning, clases de yoga, quieren poner los horarios pero como ven que a veces se llena el
+[00:37:10 - 00:37:19] lugar, mucha gente que por ejemplo va a llorar, quieren poner como una reserva a las clases, está
+[00:37:19 - 00:37:29] que puedan reservar y que puedan cancelar, entonces bueno de esa manera ya que el lugar para ser
+[00:37:29 - 00:37:36] gimnasiana está amplio, poder acotarlo y que no se vuelva un lío, y si vemos que el usuario
+[00:37:36 - 00:37:45] digamos el soció no va, bueno, ponerlo como un ranking, los vas, tienes más prioridad para
+[00:37:45 - 00:37:53] acceder a esas clases y si no capaz que no pueda cancelar, algo hay que hacer algo que hay que pensar,
+[00:37:53 - 00:38:00] está pero es uno de las problemas que tienen, el túneo quiere ver obviamente los socios que pagan,
+[00:38:00 - 00:38:06] quieren invitar a sus socios que están inantivos, así que hay que separarlos algunos que no hayan
+[00:38:06 - 00:38:13] venido, ver si hay una forma de contactarlos por nadie y mandar invitación o que la solución tenga
+[00:38:13 - 00:38:29] algo de eso, obviamente si tienen un para poder acceder, un QR en el celular y habilita el acceso
+[00:38:29 - 00:38:37] solamente a los socios que están activos, a veces se le he encargado o la secretaria, quiere
+[00:38:38 - 00:38:49] agregar clases que algún profe le recomienda, tiene que haber siempre musculación en el área
+[00:38:49 - 00:38:56] de musculación que está todo el día, tiene que estar cubiertos por dos profesores, la secretaria
+[00:38:56 - 00:39:05] también hace, me dijo que hace inscripciones, quiere hacer inscripciones y ahí una vez que hace inscripciones
+[00:39:05 - 00:39:13] le llega, le debería llegar al cliente, no sé, un mail para poder acceder a esta aplicación por
+[00:39:13 - 00:39:20] celular para que pueda tener todo el bón, la rutina ahí, pero la secretaria también quiere ver
+[00:39:20 - 00:39:28] esta íclica de las clases, quienes participan, cuáles son los horarios preferidos, bueno pero no
+[00:39:28 - 00:39:33] tienen tanta prioridad pero lo que queda y algo que es importante es que el profe, los profes
+[00:39:33 - 00:39:41] deberían tener una especie de tablet, obviamente con la solución para poder armarle las rutinas
+[00:39:41 - 00:39:51] de musculación si son profesores de musculación, ok, eso son los que quiere resolver, obviamente la
+[00:39:51 - 00:40:04] prioridad está puesto en que el usuario sepa, si tiene que pagar o no, que el gimnasio sepa quienes
+[00:40:04 - 00:40:11] el que no pagó y el quien está activo, la idea es poder tener un mayor control porque
+[00:40:11 - 00:40:19] hay está totalmente descontrolado el tema de quién paga y qué no paga y pasan todo el mundo y
+[00:40:19 - 00:40:27] tienen grandes problemas con el tema de las clases puntuales, clases tipo yoga, que a veces no hay nadie
+[00:40:27 - 00:40:32] y a veces hay un montón de personas y la gente se va enojada porque a veces no tienen lugar en
+[00:40:32 - 00:40:39] incitir a para poner la colchoneta, entonces es un problema que hay que resolver, la idea es poder
+[00:40:39 - 00:40:51] armar una solución para los socios que puedan tener un ambiente de donde tengan sus rutinas, sus
+[00:40:51 - 00:40:59] avances, superfil, cuánto pagó que salgan alguna notificación, a veces sucede que hay un feriado,
+[00:40:59 - 00:41:07] pero ese feriado lo abrimos a la mañana, entonces que reciban una notificación, por ejemplo, 8 de
+[00:41:08 - 00:41:18] diciembre va a estar abierto de su ponete, de 8 a la una del mediodía que todos reciban esa
+[00:41:18 - 00:41:28] notificación, o el dinero del trabajador, recuerdan que mañana está va a estar cerrado el gimnasio,
+[00:41:28 - 00:41:35] bueno, todas las notificaciones que los socios no puedan recibir, es fundamental que el profe también
+[00:41:35 - 00:41:44] pueda ver las rutinas de los socios y armarle nuevas rutinas pero no perder la rutina que ya tenía
+[00:41:44 - 00:41:54] y fundamentalmente para el dueño que se le paga el tema de las cuotas, el perdón en tema del pago,
+[00:41:55 - 00:42:08] por eso vamos a comenzar, tengo cómo le fue, pudieron hacer algo, yo no he terminado,
+[00:42:12 - 00:42:22] trater lo mejor que pudo en el peor, pero quiero darle la cara algo se hizo, yo hizo nada, yo
+[00:42:22 - 00:42:31] estuve tratando, pero estuolando muy rápido y no se se ha llevado esto, bueno, es un ejercicio,
+[00:42:31 - 00:42:43] esto es ejercita, ¿eh? Y demás, veo que hicieron cosas, son cómo, hay varios, bueno,
+[00:42:45 - 00:42:50] esto es lo que vamos a comenzar a trabajar, tenemos con las historias de usuario, yo después las voy a
+[00:42:50 - 00:42:55] bajar y las voy a ir armando y con algún criterio capaz que hay algunas que ya están repetidas,
+[00:42:55 - 00:43:04] otras no, lo voy a ir armando y vamos a trabajar la clase que viene con esto, ¿cuál es el objetivo
+[00:43:04 - 00:43:11] empezar a trabajar con otra metodología que se llama user experience también, vamos a meter
+[00:43:11 - 00:43:16] escram con user experience, ¿qué saben de user experience?
+[00:43:19 - 00:43:26] he captado mucho sobre la osabilidad que tiene un sistema, perfecto, es mi able, exacto,
+[00:43:26 - 00:43:33] la experiencia de usuarios, y minutito, me tengo que ir a otra cosa, yo necesito,
+[00:43:33 - 00:43:48] yo he usado experiencia, lo voy a hacer muy cortito, después vamos a volver acá, ahora también
+[00:43:48 - 00:44:00] me voy a tomar mi máquina, ¿no? Sí, sí, sí, bueno, obviamente yo tengo que armar una interfaz,
+[00:44:00 - 00:44:07] esto vamos a, esto es la escuela, lo voy a explicar, no importa, me voy a user experience, yo lo que quiero
+[00:44:07 - 00:44:15] con user experience es ver, habla de un poco de la emocionalidad del usuario, crear esa necesidad,
+[00:44:15 - 00:44:22] entonces lo que yo tengo que hacer es esto, lo voy a repasar, pero yo lo que quiero es que nosotros
+[00:44:22 - 00:44:30] vamos a trabajar con dos cosas, primero, del caso de uso que nosotros vamos a hacer, voy a armar
+[00:44:30 - 00:44:40] un prototipado, ¿eh? entonces ahora van a decidir ustedes un grupo, y voy a decir, bueno, voy a armar
+[00:44:40 - 00:44:49] un prototipo, es decir, pantalla, usted ha decidido algún prototipado, algún meca, ¿maps? ¿si hicieron?
+[00:44:50 - 00:44:56] Sí, sí, ¿femocap? ¿si querré que herramientas utilizaron?
+[00:44:56 - 00:45:03] Había una herramienta, aparte de firma yo había otra herramienta que hemos usado wireframes, creo que
+[00:45:03 - 00:45:14] ¿a? Sí, ok, adaptico, bueno, la van a poder utilizar, entonces no me voy a meter con esto, lo que
+[00:45:14 - 00:45:23] vamos a hacer es lo siguiente, son alrededor, ahí capaz que José me va a ayudar un poco, creo
+[00:45:23 - 00:45:34] que son cuando son 60 ¿no José? Sí, sí, muy buen, y que era yo te digo, 57, ¿si?
+[00:45:34 - 00:45:45] Ahora vamos a hacer un grupo de ocho, que si no, va a quedar en algunos medios sueltos, pero no importa,
+[00:45:45 - 00:45:53] la idea es que armamos grupo de ocho, que ustedes se lijan, algunas funcionalidades para hacer
+[00:45:53 - 00:46:05] este mocap, ya que ustedes saben este concepto, lo vamos a hacer, y que hagan digamos las pantallas para
+[00:46:05 - 00:46:15] cubrir ese, ese historia de usuario, ok, yo lo que les voy a pedir es que antes de empezar
+[00:46:16 - 00:46:21] me informen para que no todos hagamos la misma historia de usuario, la misma historia de
+[00:46:21 - 00:46:32] usuario, ok, entonces vamos a ver acá, esto no, después voy a hacer yo, me van a definir las
+[00:46:32 - 00:46:41] tarjetas de usuario, me van a escribir así veo que no se estén solapando y armen la misma
+[00:46:41 - 00:46:48] historia de usuario, y de paso yo también veo que ese historiario respetarla dentro de la planificación
+[00:46:48 - 00:46:56] del escram, ok, entonces va a tener que hacer un mocap sencillo, se cumpla una de estas
+[00:46:56 - 00:47:05] historias de usuario, ok, la idea es que esté para la clase que viene, para poder hacer un
+[00:47:05 - 00:47:13] simula con esto, ok, lo necesito sí o sí, la idea es empezar primero con user experience y utilizar
+[00:47:13 - 00:47:26] lo que ustedes hagan con eso, ok, usen estaría de trabajo para elegir después con los compañeros,
+[00:47:26 - 00:47:34] que vamos a ir armando después, después le dejo un ratito para quedarme en el grupo, para que
+[00:47:34 - 00:47:45] ustedes armen este mocap, ahora bien, yo voy a detener en cuanto a todo lo que es la parte teórica,
+[00:47:45 - 00:47:52] pero también les quiero dejar otra tarea, esto es el inicio, después la clase que viene voy a hacer
+[00:47:52 - 00:48:00] algo con user experience, quedan sebranquidos, lo que vamos a hacer ahora es lo siguiente,
+[00:48:00 - 00:48:27] un minuto, ustedes utilizaron mocap, la realidad es que yo lo que necesito es que también pasen a
+[00:48:27 - 00:48:35] queriendo algún conocimiento de HTML, vieron HTML en alguna materia, no vamos a probar, no,
+[00:48:35 - 00:48:40] no, no, en una materia, no, no, en un curso solo este independientemente en un curso así,
+[00:48:51 - 00:49:07] necesitas que medían quién sabe HTML, igual va a ser muy rápido, pero también para ver el nivel
+[00:49:07 - 00:49:25] del perfecto, bueno, bastante gente sabe HTML, así que esto lo pueden obir, pero para el resto
+[00:49:25 - 00:49:31] esto, yo necesito por lo menos que sepan porque cuando empiezo a meterme un poco y hablar
+[00:49:31 - 00:49:38] de las capas, de diseño, y empiezo a hablar un poco de prototipado y la realidad es que
+[00:49:38 - 00:49:45] necesitamos que ustedes me vayan entendiendo un poco de lo que yo estoy hablando. Por lo tanto,
+[00:49:45 - 00:49:56] necesito que al menos empiezo a entender que esa HTML es para poder seguir, para que
+[00:49:56 - 00:50:02] ustedes me puedan entender después de la práctica. Arme un documento que la voy a subir, que
+[00:50:02 - 00:50:08] es un trabajo práctico que el que no tiene conocimiento estaría bueno que lo haga. El
+[00:50:08 - 00:50:22] que ya sabe la realidad es que es muy básico, pero como no quiero dejarlos así en la nada,
+[00:50:22 - 00:50:56] vamos a hacer un poquito de auto guiado y HTML. Vamos a jugar un poquito, el que sabe puede
+[00:50:56 - 00:51:03] obviar esto, se puede buscar un café porque después te quedan para armar los grupos y armar lo que
+[00:51:03 - 00:51:14] él trabajó que le dejó pendiente. Bueno, HTML, HTML es un, alguna vez lo llama, la L es
+[00:51:14 - 00:51:22] justo HTML es el lenguaje, el lenguaje de mercado de hipertextos, lo queremos ser super correcto,
+[00:51:22 - 00:51:28] es un lenguaje que se usa obviamente para organizar la estructura de las páginas web, es decir,
+[00:51:28 - 00:51:34] el navegador es lo que él tiende, le llega un archivo, pero ahora el navegador que dice,
+[00:51:34 - 00:51:39] yo lo quiero poner lindo, lo quiero poner una tabla, quiero poner un link, cómo lo sé, y bueno,
+[00:51:39 - 00:51:45] lo hace a través de un lenguaje, algunos no lo llaman lenguaje, pero no importa, es un lenguaje de
+[00:51:45 - 00:51:54] etiquetas, que le dice al navegador cómo mostrar mágiles, cómo mostrar textos, cómo armar un formulario
+[00:51:55 - 00:52:02] y básicamente lo que tenemos que es conocer un poco a las etiquetas, hoy en día la realidad y con la
+[00:52:02 - 00:52:12] ía nos da el HTML y queda divino, hermoso, super haz y no tengo que andar editando absolutamente
+[00:52:12 - 00:52:20] nada, pero yo tengo que tener un entendimiento, es como decir, bueno, para que voy a poner a hacer una cuenta
+[00:52:20 - 00:52:28] de multiplicar con cuatro números, si tengo la calculadora es cierto, pero tengo que empezar a saber
+[00:52:28 - 00:52:34] que es realmente multiplicar, y tengo que entender que es lo que estoy haciendo, entender el concepto,
+[00:52:34 - 00:52:42] es por eso que me voy a explicar un poquito de HTML, acá le decía un poquito el entendimiento,
+[00:52:43 - 00:52:51] entonces, una introducción de qué es lo que hace HTML, entonces el browser lo que hace es
+[00:52:51 - 00:53:02] le recibe de algún server, no importa recibe un documento y gracias a que hay etiquetas que
+[00:53:02 - 00:53:10] ahora lo vamos a ver, él puede, el browser digamos, puede decir, bueno, esto es un texto,
+[00:53:10 - 00:53:20] esto es un imagen, esto es un informulario, esto es un video, se puede dar cuenta y te lo arma
+[00:53:20 - 00:53:30] de una manera más limita como hoy conocemos, por lo tanto, acá casi siempre, casi siempre
+[00:53:30 - 00:53:36] comenzamos los ejercicios, ustedes van a ver que todos los ejercicios, es que en práctica
+[00:53:36 - 00:53:45] es así para poder, ¿cómo están con un index HTML para que el browser o el navegador,
+[00:53:45 - 00:54:00] ¿tadón? pueda saber que recibe un archivo que lo tiene que interpretar que una interpretar,
+[00:54:00 - 00:54:09] para interpretar esas etiquetas, tiene que tener el formato punto HTML, ¿ok? Por lo tanto,
+[00:54:09 - 00:54:17] nosotros lo que vamos a hacer siquiera lo pueden ir haciendo es en una carpeta crear un
+[00:54:17 - 00:54:27] tecisté que tenga ese formato, el punto HTML, ¿tad? Que es lo que yo les pido acá? Como les dije,
+[00:54:27 - 00:54:38] HTML, lo voy a copiar para ir viendo, HTML tiene etiquetas, ¿ok? Si organiza, se puede
+[00:54:38 - 00:54:50] organizar de forma etiqueta, ¿ok? Debe acá, HTML y cierro con barritas HTML, casi siempre,
+[00:54:50 - 00:55:00] vamos a ver, tengo este etiqueta para iniciar para saber cuál es el margen, acá es mi área de trabajo,
+[00:55:00 - 00:55:08] afuera, yo puedo escribir código, si quisiera, ahora vemos, toda este escrib, o algo, esto lo dejo,
+[00:55:08 - 00:55:21] pero acá tengo mi HTML, ahora bien, yo voy a tener otras etiquetas como por ejemplo de el encabezado y
+[00:55:21 - 00:55:31] yo tengo acá por resto, tengo el encabezado, acá puedo poner todos los metadatos, esto les pido que
+[00:55:31 - 00:55:42] ustedes también vean, acá el doctite me indica que usa una versión un poco moderna de HTML,
+[00:55:42 - 00:55:49] está el que aduarda todos los datos de la configuración, puedo guardar todos de la configuración de idioma,
+[00:55:49 - 00:55:57] los metadatos, está algo que ahí le voy a pedir ustedes que investigan, pero ya con esto para
+[00:55:57 - 00:56:13] mí me alcanza, entonces acá tengo mi primera página para los chicos del día jueves, voy grabando al
+[00:56:13 - 00:56:26] tener un eliso al poder hacer así o poner, y me levantaría el momento acá, y me levanta lo que voy a
+[00:56:26 - 00:56:35] ver, no hice nada, porque no tengo absolutamente nada, pero lo le show, ok, digamos, ahora voy con el
+[00:56:35 - 00:56:45] lo del cuerpo, uso tres etiquetas que se llama Bodhi, siempre tengo la etiqueta de inicio y la del
+[00:56:45 - 00:56:55] cierre, y dentro de estas dos etiquetas, yo tengo que colocar todo el cuerpo, el cuerpo con pire todo
+[00:56:55 - 00:57:06] lo que el usuario ven la pantalla, le van siguiendo, esto se dice bueno, voy a poner, H son los
+[00:57:06 - 00:57:13] títulos de mayor a menor tamaño, en la importa, PEC y de para escribir para fotel texto,
+[00:57:15 - 00:57:36] para crear, y pongo A, me permite crear un enlace, si quiero crear un imagen pongo y NG,
+[00:57:36 - 00:57:43] pongo donde voy a tener ese imagen, y me la vamos a ver en la pantalla, la realidad es que bastante
+[00:57:43 - 00:57:59] amigable, ok, bueno eso por un lado, entonces estoy aprendiendo HTML, mejor curso, miren qué buena
+[00:57:59 - 00:58:08] restoy, tengo acá, puedo ser lo mismo, que ella pareció mi primera página web, qué es lo que me
+[00:58:08 - 00:58:16] estoy mostrando, vamos a hacer una relación, H1, yo les dije que me mostaba el título, P,
+[00:58:16 - 00:58:40] me dedirla un salto de párrafo, pongo 2, ahí me fijó si logrades, ahí está, me muestra el párrafo,
+[00:58:40 - 00:58:50] ok, lo vuelvo, entonces a través de etiquetas el browser puede armar el HTML, ok,
+[00:58:50 - 00:58:58] lo que le voy a pedir es que obviamente vean, acá les estoy colocando las más importantes,
+[00:58:58 - 00:59:07] títulos, acá esto pueden jugar usted su montón, acá vamos a hacer esto, les dije ejemplo,
+[00:59:07 - 00:59:12] como para nosotros también lo vea todo dentro del bodino, acá tienen listas, vamos a dar las listas,
+[00:59:41 - 00:59:53] me parece listado, acá hay pongo listas, y me aparece HTML, etc, sigamos, esto quiero que lo lea,
+[00:59:53 - 01:00:07] y ya está lo que yo quiero saber, dentro de HTML hay una gran, gran ventaja de poder utilizar un
+[01:00:07 - 01:00:17] lenguaje que se llama Script, ya es Script, y se le utiliza las siguientes etiquetas, esto lo borro,
+[01:00:17 - 01:00:30] yo piso las siguientes etiquetas, Script siempre lo cierro, tengo la etiqueta de apertura, la etiqueta de
+[01:00:30 - 01:00:36] cierre, y después yo tengo que aprender, ¿no? ¿qué es lo que puedo poner ahí?
+[01:00:36 - 01:00:44] Está, eso ya y leemos paso a paso, acá puso una alerta nada más, yo de controlesen,
+[01:00:44 - 01:00:58] ahora así no bro tantas, me parece una alerta, hola estoy utilizando JavaScript,
+[01:00:58 - 01:01:10] pero le dije que JavaScript está buenísimo porque me permite obviamente antes de hacer validas,
+[01:01:10 - 01:01:19] si bueno quiero ir formulario, y tengo que validar que haya puesto un número de teléfono, no me lo mande
+[01:01:19 - 01:01:26] vacío, un campo, bueno antes de que lo valide en el servidor y utilizo una Script que está dentro
+[01:01:26 - 01:01:33] del navegador lo interretó y lo va a ejecutar y no lo va a enviar antes de no hacer estas validas,
+[01:01:33 - 01:01:38] por lo tanto esas validas, cuando hacemos HTML no las requiero, no las necesito,
+[01:01:38 - 01:01:44] no vamos a hacer mucho lo que es web para hacerlo algo bien concreto y que no quede tan en el aire,
+[01:01:46 - 01:01:55] sí, algo que está muy bueno es justamente separar lo que es el index, las páginas HTML con los
+[01:01:55 - 01:02:02] lenguajes de JavaScript, si yo puedo aplicar acá, esto lo uso porque los ejemplos que habes
+[01:02:02 - 01:02:14] deseado, esta es lo utilizo, es como si fuera un include, el navegador sabe que tengo acá,
+[01:02:15 - 01:02:28] navegador sabe que tiene que ir a buscar este código y en este código que tengo esto,
+[01:02:28 - 01:02:38] tengo esto, tengo lo que yo tenía, ya en el código, pero lo quedo más gerenante,
+[01:02:38 - 01:02:45] y empiezo a separar los problemas, entonces el día de mañana tengo que un error,
+[01:02:45 - 01:02:53] bueno, y tengo un error en el script, no tengo el HTML, empiezo a separar, no sé si lo
+[01:02:53 - 01:03:05] hice bien, te lo vamos a probarlo, está perfecto, el bravo usar le llegó este index HTML,
+[01:03:05 - 01:03:11] sabe que tiene que leer esto, de en plazas como si fuera un include, reembrase a lo que tengo acá y
+[01:03:11 - 01:03:18] coloca eso en el HTML y lo lee y lo ejecuta, tiene la capacidad de interpretarlo,
+[01:03:18 - 01:03:29] dentro del script yo puedo poner variables, funciones y bueno, y hay alguna funcionalidad,
+[01:03:29 - 01:03:36] acá pongo un shunt, saludar, por ejemplo, esto lo vamos a ver, es lo que quiero ver antes del
+[01:03:36 - 01:03:47] terminar, banquerme, esto le pido que por favor lo hagan, es lo que a mí más me interesa, es el
+[01:03:47 - 01:03:56] tema de formularios, esto lo borro para que no me salte ese, es el tema de formularios,
+[01:03:56 - 01:04:15] a formularios necesito tener estas setitetas, y dentro de todos los campos que yo quiero colocar,
+[01:04:15 - 01:04:24] para armar, por ejemplo, un formulario de registración para el famoso Ignacio que estamos haciendo,
+[01:04:24 - 01:04:34] dentro de estas dos setitetas, tengo que colocar todo el formulario, entonces en piezo,
+[01:04:34 - 01:04:44] voy a primero con un acá los puse bien bien, para que ustedes se ha autogiado, y ahora me
+[01:04:44 - 01:04:52] empieza con un campo de texto, el label me permite a mí identificar el nombre, ahora lo vemos,
+[01:04:53 - 01:04:59] está, y este va a ser el campito que yo voy a poder ingresar el nombre, control este,
+[01:04:59 - 01:05:24] lo grado, ya está, esto lo saco, ya está, ya está, te va a ver, importa, si lo borre, me voy a importar,
+[01:05:24 - 01:05:52] ahora lo voy a decir, vamos a otra, control este, te va a ser datos, parece, tengo un problema con el
+[01:05:52 - 01:06:07] mayor y el menor, pero no, no, no, está bien, presó lo básico, ahí, ahí aparece, formularios,
+[01:06:07 - 01:06:24] hayan dado otro barrazo para poder identificar lo mejor, y empieza, el nombre, y acá tengo
+[01:06:24 - 01:06:40] nombre, ya pechillamos a poner, si no se pueden, nombre ya pechillos, vieron que en gris, está
+[01:06:40 - 01:06:48] bueno utilizar así una herramienta donde podamos ver la programación, con el separadito de lo que
+[01:06:48 - 01:06:55] es etiqueta, y lo que es una dicional de la etiqueta, de lo que es el contenido, así que
+[01:06:55 - 01:07:01] tratan de usarlo, el texto está buenísimo, yo, pero lo hacía yo a principios de los 2000,
+[01:07:01 - 01:07:08] usted ya por suerte es el volucionado eso, y tiene lo que es importante es que acá me está
+[01:07:08 - 01:07:19] diciendo que la id, le llega a una funcionalidad de X, después verá que la variable de ahí nombre va
+[01:07:19 - 01:07:26] a tener el que le quiera dar yo a la línea, ahí le va a llegar a algo de importar, necesito
+[01:07:26 - 01:07:33] que vayan entendiendo esto que para mí es fundamental, estoy diciendo que es el tipo texto y que el nombre
+[01:07:33 - 01:07:47] que la id es nombre, ahí, me voy con una contraseña, ahí está, son vueltrector, contraseña, voy a copiar esto
+[01:07:51 - 01:08:07] y en vez de nombre, tengo claves, así claves, y acá estoy diciendo una, acá estoy diciendo que es
+[01:08:07 - 01:08:20] ingresa, ingresa clave, ingresa clave, y estoy diciendo que el campito es de tipo pago, acá era tipo
+[01:08:20 - 01:08:32] texto, acá es de tipo pago y que la id, como le va a llegar a la función ed, la id es clave, clave
+[01:08:32 - 01:08:39] tal, está, lo voy a poder manejar de esa manera, es importante de usted, este panesto, ya con
+[01:08:39 - 01:08:49] la tropada jocabra, que sea más amigable, control ese, vamos a saber, entonces, nombre ha pecido
+[01:08:49 - 01:09:04] ingresa clave, al ser de tipo pago no debería ver las letras, cosa que acá sí, ok, le van siguiendo
+[01:09:08 - 01:09:17] es, re inicial, pero yo necesito que empiece, porque muchas veces he estado, estos dos ejemplos con
+[01:09:17 - 01:09:24] HTML y a veces cierto, cuando me entienden, entonces quiero hacer un queso unos minutitos de HTML para que
+[01:09:24 - 01:09:38] usted me va a entender, adió, modalidad, acá, bueno tengo un radio butón, la modalidad de la
+[01:09:38 - 01:09:55] materia, estoy ende mirando, no sé qué, hay, control ese, sigamos, modalidad de la radio butón o el hijo
+[01:09:55 - 01:10:16] o el hijo el otro, dos no, eso me voy a un checkbox, voy a aquí, y acá, ustedes van a, el que no
+[01:10:16 - 01:10:37] sabe nada, le pido que programación checkbox, aquí, HTML, es, vayan jugando un poco, les vuelvo a
+[01:10:37 - 01:10:45] decir, yo sé, no soy autusa, sé que esto hoy con la guía lo hacen a los dos minutos, pero yo necesito
+[01:10:45 - 01:10:56] a ustedes, cuando le digo bueno, le mando el tipo en un campo clave, modalidad, todo y en viocent, a veces no
+[01:10:56 - 01:11:02] logran entienderme lo que apunta, ok, entonces necesito que empiezen a entender un poco de HTML,
+[01:11:02 - 01:11:15] tengo nadie de texto divino, comentarios, comentarios, me gustó la materia y ahí me do, los
+[01:11:15 - 01:11:24] destrozan o los quieren, un poco de cada uno, destrozan o los quieren, no sé, yo disfruto de la
+[01:11:24 - 01:11:37] ignorancia en el sentido, bueno y ahí acá escriben patético, ¿sabes? Vamos, digamos, y viene el hermoso
+[01:11:37 - 01:11:50] botón, tengo dos, vamos a este que tiene más, vamos, primero vamos a hacer este, obviamente el botón
+[01:11:50 - 01:12:02] tiene que estar dentro de las etiquetas del form, ok, botoncito, registrar, ingre, registrar, chín o
+[01:12:02 - 01:12:26] socio, no lo empés, registrar, sociético, cuando registro, sociolemando todos los datos de este
+[01:12:26 - 01:12:32] formulario, el envío, el nombre, el contenido, el nombre con el aire de nombre, el envío el contenido,
+[01:12:32 - 01:12:41] el aclave, con el aire clave, envío lo que yo seleccioné, el radio botón, lo que me
+[01:12:41 - 01:12:46] seleccioné del checkbox, de todo lo que haya seleccionado el checkbox etcétera, eso es lo que acá
+[01:12:46 - 01:12:58] en registrar, socio, voy a escribir qué es lo que tengo que hacer y digo bueno ejecutátenlo
+[01:12:58 - 01:13:03] en este, ¿sabes, trip? o bueno lo mando al server después veo que hago, pero mi importa,
+[01:13:04 - 01:13:12] el botón bueno tengo también de Tion AI Lee, tengo bueno, estos son onpigs, ¿sabes? esto me dice bueno,
+[01:13:12 - 01:13:19] dentro del JavaScript o hace iniciar registro o del server, después vemos cómo lo hacemos, ¿sabes?
+[01:13:19 - 01:13:28] pero yo acá es la funcionalidad, es el método que le estoy pasando todo este formulario, me van
+[01:13:28 - 01:13:33] siguiendo los que no saben a HTML en lo que si saben me imagino de tu chalo recontra clara,
+[01:13:38 - 01:13:45] y acá les dejo, esto le pedía la idea que me lo haga, está un ejemplo, las ideas que ustedes
+[01:13:45 - 01:13:52] lo vayan probando, acá vamos a la información, acá por ejemplo tengo un código, esto es
+[01:13:52 - 01:14:03] JavaScript, lo que hago es detal de lo que yo has ingresado, poder verlo, para jugar un poco no
+[01:14:03 - 01:14:11] necesitan pagarlo, pero sí que vayan entendiendo cómo funciona, ¿sabes? un minuto me detengo acá
+[01:14:11 - 01:14:19] algo que quiero ponerles si acá está, a ver en esta, hay algunas etiquetas que no las usem,
+[01:14:19 - 01:14:30] por ejemplo el archerreff ir de una página a la otra, hacer el link, el enlace, eso es algo que les
+[01:14:30 - 01:14:39] voy a pedir que también lo vea, este trabajo práctico es una introducción muy, muy intro,
+[01:14:39 - 01:14:50] vamos a esto, son muy intros, HTML, pero necesito que empecemos a hablar en el mismo idioma,
+[01:14:50 - 01:14:54] porque a veces me pasa que yo digo bueno acá tienes la HTML, acá tienes la otra,
+[01:14:54 - 01:15:02] les formó la HTML como le llega, y haces todo el id y vuelta y agregó nombre, agregó clave,
+[01:15:02 - 01:15:09] no, viaja todo, ¿ok? entonces necesito que ya empiecen a pensar por lo menos a separar
+[01:15:09 - 01:15:17] las capas de la interfaz, lo que vamos a manejar mucho es toda la parte web, para poderlo
+[01:15:17 - 01:15:24] venar en concreto, ¿ok? entonces, estaría para el día de hoy, todo deja de compartir,
+[01:15:24 - 01:15:33] igual ahora lo subo, estaría que les queda hoy, la clase que viene vamos a ver, ilusir
+[01:15:33 - 01:15:39] experience, por lo tanto necesito que haga a ustedes el mockup, o si tienen gana de aplicar
+[01:15:39 - 01:15:45] todos los conocimientos de HTML, los voy a hacer en HTML, me encantaría que quedan HTML,
+[01:15:45 - 01:15:52] ¿ok? y aparte, vuelvo a decir, no pueden hacer con la hía, a mí lo que me interesa es que por
+[01:15:52 - 01:15:58] lo menos todas las etiquetas del armado del formulario lo entiendan, ¿ok?
+[01:16:03 - 01:16:11] lo usa la hía, hoy ya prácticamente se usa la hía, pero necesito que lo entiendan, vuelvo a decir
+[01:16:11 - 01:16:17] el mismo ejemplo, por más que tengan la calculadora, ustedes pasaron toda la primaria haciendo
+[01:16:17 - 01:16:26] cuantitas para que ustedes puedan entender el concepto, acá sucede lo mismo, ¿ok? entonces les voy
+[01:16:26 - 01:16:32] a pasar lo que tienen que estudiar de lo que vimos hoy, todo lo que es RU, metodología ságiles,
+[01:16:32 - 01:16:41] CRAM, y tienen que de lo que hicimos del ejercicio de gimnasio tienen que elegir a algún
+[01:16:41 - 01:16:49] historiario de usuario para hacer el mock up, si lo hacen en HTML es genial, me tienen que avisar para
+[01:16:49 - 01:16:55] no salabarnos en la funcionalidad, estas y todas esas registraciones y la realidad que no me sirve para
+[01:16:55 - 01:17:02] hacer un simulador a la cláste que viene, si no hacen ninguna, no voy a obliter a nadie, si no lo hacen
+[01:17:02 - 01:17:09] quedar ahí, el ejercicio sin hacer y yo paso a otro tema, pero la idea es poder hacer un
+[01:17:09 - 01:17:18] juego de roleplay para ver cómo se aplica Scram con User Expliante, ¿ok?
+[01:17:18 - 01:17:46] 2 hasta ahora, recuerden que vuelvo a remarcar, ahí están las mismas, ¿no? Dentro del canal,
+[01:17:46 - 01:17:56] 2, 26, según lo quadrías 3, yo voy a colocar acá clases, uno, todo lo que se veió, las
+[01:17:56 - 01:18:03] presentaciones que he dí, voy a escribir un tecliste como le estoy siguiendo acá, eso siempre
+[01:18:03 - 01:18:11] pongo los temas vistos, subo todo y lo que es que aprendí el deporte de ustedes, les dejo 10 minutos
+[01:18:11 - 01:18:21] como para que vayan armando a los grupos, creo que pueden, y de esa manera voy a
+[01:18:21 - 01:18:31] la cuidando de alta en un grupo privado, y así tiene un área de trabajo, les parece, me
+[01:18:31 - 01:18:39] avistan y los vamos armando, o yo los vamos, los vamos armando un grupo privado y ya están,
+[01:18:39 - 01:18:55] gente, bueno, la materia sin tensa, vieron que prácticamente tuvimos 12 minutos y tu
+[01:18:55 - 01:19:06] se quinta y arranqué, y esta es un aire, así que, bueno, a seguir no es una materia difícil,
+[01:19:06 - 01:19:13] es fácil, pero bueno hay que estar encima, gracias por estar, nos vemos la clase que viene,
+[01:19:13 - 01:19:23] para tendernos, un mensaje por Teams, mejor, los integrantes, si no tienen grupo, bueno,
+[01:19:23 - 01:19:33] ahora no igual trabaja, los trabajos, y me avisan y después los vamos sumando a otros grupos,
+[01:19:33 - 01:19:47] ok, quieren que les deje la clase para que ustedes se puedan organizar, bueno,
+[01:19:47 - 01:20:03] y ahora vamos a ver, vamos, chau chau, chau, chau, chau, chau, chau, chau, chau, chau, chau,

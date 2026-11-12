@@ -1,0 +1,1574 @@
+# Clase 08 - Completa - 2026-10-08
+Archivo de origen: Clase-20261008_082230-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 03:08:53
+
+---
+
+[00:00:01 - 00:00:33] Vamos a hacer un ejercicio, estaba a dustinas, que tenía dudas, terminó con la parte teórica y arrancamos con las dudas de austinas. Si austinas es algo sobre la parte práctica hoy la vamos a ver. Así que a última anotate tu consulta para ver si la vemos antes, pues ese vale o alo.
+[00:00:33 - 00:01:05] Un minuto, están grabando. Sí, pero estamos grabando. Manta, tipo, porque tengo el pedido especial de los alumnos, de los lunes, que les te gustan de un otro feriado más por lo del papa. Así que estaban bastante preocupados y me pidieron que por favor grabé estas clases.
+[00:01:08 - 00:01:21] Bueno, la última clase llegamos hasta el patrón mediador, recuerdan que el patrón mediador, qué tipo de patronera, qué categoría era?
+[00:01:21 - 00:01:29] De comportamiento. Perfecto. Un minuto, guarda un minuto.
+[00:01:29 - 00:02:16] Es más susto. Fantástico. Era de comportamiento. Siempre para mí es sumamente importante distinguir de qué categoría cae porque voy a acuerda el problema.
+[00:02:16 - 00:02:30] A ustedes se les van a presentar, van a poder definir de qué categoría de problemas tienen. Por lo tanto, allá acotan la cantidad de patrones que podrían llegar a aplicar.
+[00:02:30 - 00:02:45] Por lo tanto, es importante que ustedes definan, ni qué categoría es. El mediador, por último, que vimos, recuerdan que el ejemplo que vimos, a ver, nos sacamos.
+[00:02:45 - 00:03:08] El ejemplo que vimos, capaz de que con este dibujito se acuerdan, cuál era. No les acuerda, me lo dices, pero quiero saber hasta dónde llegué realmente. Si bien puse, mediador, quiero saber qué con ustedes lo vimos completo.
+[00:03:08 - 00:03:17] El era de los aviones, perfecto. Exacto. Ah, sí, sí. Y la torre de control.
+[00:03:17 - 00:03:40] Ok, minuto. Exacto era el tema de los aviones, teníamos la torre de control, que sería el mediador, y la idea es si yo tengo varias clases y la comunicación la va a ser realmente el mediador.
+[00:03:40 - 00:03:50] Entonces, les acoplo el problema de comunicación entre todos estos intervinientes, que serían colegas y lo hace el mediador.
+[00:03:50 - 00:04:09] La estructura del mediador era el siguiente, obviamente, el mediador y los colegas son clases abstractas. Eso es por si yo tengo varios mediadores y varios colegas, entonces como la funcionalidad, serían similares, tengo una clacia abstracta.
+[00:04:09 - 00:04:21] Y después tengo los mediadores concretos, que sería la torre de control y todos los colegas que serían en las clases que hablaran entre sí, que deberían hablar entre sí.
+[00:04:21 - 00:04:36] En el dominio, esos colegas en el dominio, esos colegas están hablan entre sí. Ahora, la realidad es que yo tengo que ir haciendo bajando ese nivel de abstraction, tratar de que no sean solamente clases de dominio.
+[00:04:36 - 00:04:46] Entonces, el dominio, entonces, utilizo uno de las patróres, que es el mediador. Esto sería una fabricación pura, el mediador, el concreto mediador.
+[00:04:46 - 00:04:57] La idea es tratar de reducir el desorden de comunicación entre todos estos objetos a través del mediador. Continuamos.
+[00:04:57 - 00:05:17] Ya nos ubicamos en donde quedamos. Una pregunta. No sé si están ahí, no están tan tan agnolísticos desde el día de a día. Bueno, vamos con el memento.
+[00:05:17 - 00:05:33] El memento, o recuerdo, captura, justamente también lo que sirve es como para capturar, guardar el estado interno de algunos objetos. Vamos a ver acá.
+[00:05:33 - 00:05:41] Si yo tengo que acadir, yo tengo que restaurar un sistema, tengo que volver a un estado anterior, lo puedo hacer a través del memento.
+[00:05:41 - 00:05:50] La idea es que podamos restaurarlo y queremos hacer, si queremos, y aparte lo que también nos permite es hacer una acción.
+[00:05:50 - 00:06:03] Por lo tanto, es bastante utilizado. Nos vamos a la estructura. Tenemos tres componentes básicos.
+[00:06:03 - 00:06:17] Tenemos el originador, es el objeto que queremos guardar. Después tenemos memento, es el archivo guardado,
+[00:06:17 - 00:06:28] obviamente que es el objeto inmutable, no lo puedo modificar, y guarda el estado completo.
+[00:06:28 - 00:06:45] El estado culto excepto para el originador. El estado culto excepto para ésta. Y después tenemos el cuidador, que es este tercer componente.
+[00:06:45 - 00:07:00] Entonces, si guardamos todos los mementos, como si fue una especie de lista, no solamente tengo el último, sino que puedo tener toda la historia de los mementos.
+[00:07:00 - 00:07:08] Entonces, tengo todo el historial de los objetos que yo quería copiar.
+[00:07:08 - 00:07:22] Por ejemplo, imagínense que tengo tickets o entrada, sería el originador, obviamente no le voy a ponerle una nota.
+[00:07:22 - 00:07:31] Y tengo memento de entrada, y acá tengo todo el listado de cómo fue evolucionando esos estados de entrada, por ejemplo.
+[00:07:31 - 00:07:37] Me van siguiendo.
+[00:07:37 - 00:07:56] Entonces, cuando tenemos que manejar historiales, está buenísimo poder utilizar un memento, porque ya tengo acá, tengo la estructura para manejar el listado, el historial.
+[00:07:56 - 00:08:05] Después tengo el memento en sí, donde es un objeto inmutable, sea el macero, tal cual está.
+[00:08:05 - 00:08:14] Y acá tengo el objeto que yo quiero copiar, que tiene vida, el está, y yo le voy enviando todo el objeto, todo el estado.
+[00:08:14 - 00:08:27] Seguramente en algunos ejercicios de análisis y diseño tuvieron que hacer algún historial, les hicieron...
+[00:08:30 - 00:08:31] ¿Qué?
+[00:08:31 - 00:08:40] tuvieron que modelar algún historial, guarda el histórico de...
+[00:08:40 - 00:08:42] Yo no me recuerdo haber hecho eso.
+[00:08:42 - 00:08:53] No recordaba. Bueno, ahora si en algunos momentos te pide algún historico guardar histórico, ya sabes cómo es la estructura de un determinado patrón,
+[00:08:53 - 00:08:57] que te permite de una manera más sencilla aplicarlo.
+[00:09:00 - 00:09:10] Posiblemente capaz que lo hacen intuitivamente, pero acá ya tienen una forma más amigable y donde ya la comunicación decía,
+[00:09:10 - 00:09:18] bueno, ya tengo que hacer un histórico, voy a aplicar un memento, ya saben cómo implementarlo.
+[00:09:18 - 00:09:21] Estabas donde es muy utilizado.
+[00:09:21 - 00:09:24] Bueno, me voy a la observar.
+[00:09:26 - 00:09:34] Un minuto.
+[00:09:34 - 00:09:41] Y cuípenme en el ayer, fue terrible en papel y hoy ya es que me he arrefrado a fiquita tanto voy a detenerme minutita.
+[00:09:41 - 00:09:43] Bueno, me voy a la observa.
+[00:09:43 - 00:09:49] El observa también es un patrón es muy utilizado a mí, es una de las que más me gusta.
+[00:09:49 - 00:09:55] En sí me gustan muchos, se aplicaría muchísimo en todos los modelos.
+[00:09:56 - 00:10:04] Espero que el observador salgo bastante útil y tiene un comportamiento de suscripción.
+[00:10:04 - 00:10:14] Imagínense que todos estamos en Twitter y seguimos a Messi.
+[00:10:15 - 00:10:25] Entonces, cuando Messi hace una publicación, le tiene que hacer la publicación lo que hace decir,
+[00:10:25 - 00:10:35] bueno, Messi ha cambiado de estado, entonces lo que voy a hacer es estar visal a todos los que sean suscrito, los que sean anotados para seguirlo.
+[00:10:35 - 00:10:44] Entonces, el observador lo que hace justamente es eso, es decir, bueno, Messi, cambio de estado, le voy a visar a todos los que están en esa lista.
+[00:10:45 - 00:10:50] Esperando que Messi haya agregado algún mensaje nuevo.
+[00:10:50 - 00:10:59] Lo que sucede en el dominio, si yo estoy en el dominio, es que imagínense que ustedes son 40, ¿no?
+[00:10:59 - 00:11:10] Son 40 procesos que están preguntando en forma permanente si Messi subió en estado, Messi subió en estado y en todo el tiempo están Messi subió en estado.
+[00:11:11 - 00:11:20] La realidad es que sería bastante difícil, tendríamos una performance muy mala, tendríamos muchos objetos.
+[00:11:20 - 00:11:33] Siguiendo de tener 41 personas que le están siguiendo, tenemos, no sé, más de 5 millones y la realidad es que tendríamos muchos procesos preguntando simultáneamente si Messi subió un mensaje.
+[00:11:33 - 00:11:37] Por lo tanto, la realidad es que no tiene un muy buena performance.
+[00:11:37 - 00:11:56] Entonces, acá solo hemos varios problemas. Primero de sacóplo, toda la lógica de gestionar una pila, manejo la suscripción, es decir, tengo alberto, acenteno, a vayllermo, que se van a suscribir.
+[00:11:56 - 00:12:07] Entonces, el ego bueno, voy a suscribir a matayllermo, entonces a una touch, a touch y llermo lo pongo en esa pila porque va a ser uno de los que va a ser notificados.
+[00:12:07 - 00:12:15] Está Sebastián, no, ahora quiere salir Sebastián, no los quiere seguir másamente, a algún de touch.
+[00:12:15 - 00:12:29] Entonces, toda la lógica de la gestión de la pila lo hago a través de este componente, que es el subject, obviamente acá tengo toda la definición, tengo que tener el concreto del subject.
+[00:12:29 - 00:12:38] Todo la gestión de la pila lo hago a través de estos dos componentes, el subject y el concreto.
+[00:12:38 - 00:12:54] Ahora, después tengo todos los... perdón, luego de atrás de este. Ahora el concreto subject, lo que hago es mantener la referencia al objeto, aquí va a cambiar de estado.
+[00:12:54 - 00:13:14] Entonces, tengo el sujeto, tiene los datos, cambia el estado y tiene la lista de los suscriptores y tengo los observadores, acá tardó, que yo no confundir, o sea, tengo los observadores que sería los objetos que quieren enterarse de que Messi subía un cambio.
+[00:13:15 - 00:13:33] Todo tiene el método en común que sería el actualizar el app. Activa cuando ocurre, este mensaje activa cuando ocurre el evento, que sería, por ejemplo, que Messi haya cambiado de estado.
+[00:13:34 - 00:13:46] Es muy utilizado, me permite desacoplar la lógica de lanzar o que varios elementos están preguntando si cambio de estado, sino al revés.
+[00:13:46 - 00:13:59] Camila está del aviso a todos los que están interesados. Por eso se dice que tiene, por eso se dice que tiene, no lo puse acá.
+[00:14:00 - 00:14:13] Tiene el concepto de suscripción, tiene la lógica de la suscripción o de suscribirme, está si estoy interesado en algún cambio de estado de otros componentes.
+[00:14:15 - 00:14:43] Dudas con este, lo vamos a ver en un ejercicio. El estado, el state, también el state es un estado que me permite que cuando se altere completamente el comportamiento de interno cambia totalmente el componente.
+[00:14:44 - 00:14:50] Y se utiliza cuando el comportamiento de un objeto cambia dependiendo del estado del mismo.
+[00:14:51 - 00:15:09] Imagínense que estoy con una alarma, una alarma de las casas y la alarma puede ser que esté sonando o que esté en espera y tiene esos dos estados.
+[00:15:09 - 00:15:19] Ahora la alarma sonando tiene un comportamiento muy definido y la alarma les espera también, muy definido totalmente diferente de lo que es una alarma que esté activa.
+[00:15:20 - 00:15:35] No nos va a estar activada, como cambia completamente todo el comportamiento de la entidad del componente, se podemos aplicar un cambio de estado.
+[00:15:36 - 00:15:51] ¿Cómo lo aplicamos de la siguiente manera? Obviamente tengo el contexto, en contexto sería la clase principal donde guardo la variable de cambiar en estado.
+[00:15:51 - 00:16:00] Y después tengo el state, un interfaz, porque puedo tener varios estados.
+[00:16:00 - 00:16:12] Ahora lo importante es conocer los estados de ese objeto y de saco a hablar en la funcionalidad del comportamiento.
+[00:16:12 - 00:16:24] Entonces acá tendría, por ejemplo, una alarma, tendría, estáis sería alarma, o estado de alarma y los concredes de este sería alarma activa, alarma inactiva.
+[00:16:25 - 00:16:33] Con todo el comportamiento de la alarma activa y acá tendría todo el comportamiento de la alarma de espera o inactiva.
+[00:16:33 - 00:16:49] Me van siguiendo, acá voy a dar todo la funcionalidad del componente cuando está en ese estado. Es una clase por cada estado real.
+[00:16:54 - 00:17:10] ¿Me van siguiendo? Cada uno decía cómo va reaccionando con los concretos, cada uno decía cómo va reaccionante, los comportamientos o acciones.
+[00:17:10 - 00:17:28] Vale la pena cuándo vuelvo de filo. Ahora sí yo tengo que una alarma, una barropa, estoy viendo cosas que cambian completamente.
+[00:17:30 - 00:17:36] Al cambiar el estado cambia completamente el objeto. Entonces ahí sí vale la pena aplicar un estate.
+[00:17:36 - 00:17:48] El estrategi es muy similar, si ustedes ven van a ver que tiene la misma estructura.
+[00:17:49 - 00:17:59] Vamos, voy a copiar acá, voy a compiar el estate después de la borró. Este es el estrategi y este es el estate.
+[00:17:59 - 00:18:06] Vieron que son prácticamente similares con la diferencia que acá el conquer, el estrategi tiene un concreto más.
+[00:18:06 - 00:18:13] Tiene acá abajo un concreto más pero es exactamente, es muy parecido.
+[00:18:14 - 00:18:27] Pancían, me van siguiendo la borró. Justamente también mantenerse para las clases independientes a ver si es objeto.
+[00:18:27 - 00:18:46] Si usan estrategi porque a diferencia del anterior el estrategi y el I que estrategi usar el momento de que se estaba en esa ley de las palabras.
+[00:18:47 - 00:18:55] El momento de ejecución, ahí está, el momento de ejecución a diferencia del estate que no lo hago antes.
+[00:18:55 - 00:19:08] Antes voy a definir cómo voy a hacer el objeto. Un cambio acá en el contexto cambia el estrategia y acá tengo que estrategias voy a utilizar.
+[00:19:10 - 00:19:27] Los componentes son muy similares, tengo el contexto, la clase que usa el usuario y donde guardo la referencia, la estrategia que eligen y obviamente le dégan trabajo a la estrategia.
+[00:19:28 - 00:19:44] Obviamente tengo la estrategia, es un interfaz algo común, que en cumplir todos los algoritmos, tengo los mismos algoritmos y después yo por ponir más y más voy a definir aquí tipo de estrategias voy a ir si ala, el V, el C.
+[00:19:45 - 00:19:54] Y después tengo que implementar obviamente este método, tengo acá con esta interfaz lo tengo de implementar.
+[00:19:55 - 00:20:23] Entonces acá si tengo el componente, perdón, el comportamiento real, si tiene el algoritmo específico, pensemos que no sé, estoy de una estrategia, vamos a hacer uno que está en la realidad del mismo, pero podemos decir bueno, tengo el estrategia de carreras de auto.
+[00:20:24 - 00:20:43] Una estrategia es cuando llueve o cuando no llueve, uno usa, no conozco mucho de fórmula uno, pero uno usa una determinada rueda si odrona.
+[00:20:44 - 00:21:04] Entonces de acuerdo en el momento de la carrera yo voy a definir que estrategia usar, digo bueno, paso un parámetro determinado que me va a ayudar obviamente por polismar fismo a ver dónde voy a ir y digo bueno, está lluviendo, bueno voy a la estrategia, está en destener determinadas tipos de gomas.
+[00:21:05 - 00:21:23] Entonces es una forma también de cambiar el comportamiento en tiempo de ejecución, ¿vale? Vamos.
+[00:21:23 - 00:21:24] Vamos.
+[00:21:24 - 00:21:35] Entonces se diferencia únicamente en el que el state es para los estados del contexto y el estrategia es para los implementaciones que quiero hacer.
+[00:21:35 - 00:21:37] Todo del componente.
+[00:21:37 - 00:21:38] Claro.
+[00:21:39 - 00:21:49] El todo el componente. Acabas a definir por ejemplo, no sé, una concret, una estrategia determinada, un comportamiento más sacotado.
+[00:21:49 - 00:22:08] Es muy subtila, diferencia, hay más, al ser tan similar, pues lo puedes implementar y después te das cuenta de un estrategia, voy a hacer un, pero es muy subtil, uno es el momento de ejecución y el otro no, es bueno, cambia todo el estado, me voy al comprobar.
+[00:22:08 - 00:22:18] El comportamiento que es muy diferente, por ejemplo, el de la barropa, ¿vale?
+[00:22:18 - 00:22:28] No sé, la barropa funcionando cuando está en espera, bueno, o está sin difugando, tiene un comportamiento radicalmente opuesto, ¿vale?
+[00:22:29 - 00:22:54] El componente en sí. Entonces es muy subtila, diferencia, pero básicamente eso, uno es cambia completamente el objeto, en el state, cambia completamente el objeto y en el estrategia le puedo cambiar la estrategia en el momento de ejecución.
+[00:22:54 - 00:23:14] En el state, los estados, los estados concretos, no, suelen conocerse, porque, ya parte porque provoca las transiciones, o sea, termino del lavado me paso al sin difugado, el concreto conoce las transiciones, en el estrés, sí, no, ¿vale?
+[00:23:16 - 00:23:18] Sí, se profe, perfecto.
+[00:23:18 - 00:23:29] Se veimos, entendemos el método, bueno, vamos, voy a leerlo y después damos un ejemplo, ¿vale?
+[00:23:29 - 00:23:37] El tema del método permite redefirir ciertos pasos seguros del algoritmo sin cambiar la estructura del algoritmo.
+[00:23:38 - 00:23:43] Lo que hace el templo, ustedes saben lo que es un templato, ¿no?
+[00:23:43 - 00:23:47] Una plantilla. Es una plantilla.
+[00:23:47 - 00:23:57] La idea es decir, bueno, tengo, estoy pensando en un ejemplo, imagínense que tenemos que armar una caza.
+[00:23:58 - 00:24:03] Entonces, la caza siempre tiene para armar la caza, que es un determinado proceso.
+[00:24:03 - 00:24:23] La primera, bueno, armos, lo que se llama los cimientos, todo lo que es la parte base, después que empiezo a armar la estructura, después de que armo la estructura empiezo a armar las paredes y después recién de las paredes va al techo.
+[00:24:24 - 00:24:34] O sea, que tengo como un orden, por así decirlo, el alterable, porque no voy a poner el techo si no tengo las paredes, ¿ok?
+[00:24:34 - 00:24:40] Entonces, tengo como un especie de pasos para determinados procesos.
+[00:24:40 - 00:24:45] Ahora yo también puedo tener una caza de madera y una caza de vidrio.
+[00:24:45 - 00:24:52] Ahora que sí, vamos a las cazas para que puedas ver, entonces todas tienen ventanales.
+[00:24:53 - 00:25:01] Ahora, bueno, el templo y lo que me hace es decir, bueno, básicamente el proceso es el mismo.
+[00:25:01 - 00:25:13] Me importa que tipo de caza sea el proceso de vidrio, que debe ser igual, cambia algunas sufilesas, pero el plantilla es exactamente lo mismo.
+[00:25:14 - 00:25:20] Entonces, como tengo ese mismo proceso y tengo diferentes cazas, digo bueno, voy a hacer un templo de método.
+[00:25:20 - 00:25:26] Entonces, la estructura es la siguiente, tengo dos clases.
+[00:25:26 - 00:25:35] En la clase abstracta voy a definir la plantilla, que contengo obviamente los pasos, el día del algoritmo, del orden correcto.
+[00:25:36 - 00:25:50] Obviamente, algunos pasos ya son similares para todos y otros que no sean similares para todos nos desarían blanco y después lo voy a implementar en las concretas.
+[00:25:50 - 00:25:59] Y acá tendría las concretas de algunos algoritmos que no nos pude implementar en la clase abstracta.
+[00:26:00 - 00:26:16] Es básicamente, si no quieres hacer eso, es una erencia simple, pero lo que estoy haciendo es justamente separar la lógica, el comportamiento.
+[00:26:21 - 00:26:26] Es muy sencillo porque es lo que ustedes hacen con la erencia.
+[00:26:26 - 00:26:38] Me voy a perdón, visitante, hubo este es un poco más complicado, en un minuto.
+[00:26:38 - 00:27:14] Bueno, vamos a al visitante, leo y después damos un ejemplo y se es una forma de separar el algoritmo de la estructura de una objeto.
+[00:27:15 - 00:27:38] Cuando tengo objetos que tienen muchísimo comportamiento y que de acuerdo a quien pide, que se realice ese comportamiento, tiene algún cambio y bueno, ya lo que hay que pensar para no tener esos clases tan grandes.
+[00:27:39 - 00:27:50] Lo que se hace es crear clases y sacarle determinadas funciones.
+[00:27:51 - 00:28:07] Hay un ejemplo de esa entidad en los libros que está muy bueno, si lo conébenas que están en un shopping y tenemos diferentes tipos de locales.
+[00:28:08 - 00:28:16] Una tienda de ropa, tiene el cine, en el baño, tienen diferentes tipos de lugares.
+[00:28:16 - 00:28:20] Ahora va el inspector, sería el incidente.
+[00:28:21 - 00:28:44] Yo quiero ver cómo está las puertas de seguridad, si se abre no lo mismo, en las del baño o en la del cine o en la de un local de negocio a la vista.
+[00:28:45 - 00:28:49] Entonces hay determinadas cosas que hay que hacer.
+[00:28:49 - 00:29:09] Y viene el visitante de que algo de más en detalle, el visitante de seguridad y quienes para ver si cumbre cuando terminadas normas, no es lo mismo.
+[00:29:10 - 00:29:23] El inspector, seguridad y hime, mira el del local de ropa, en uno va a ser con más otros fun días que con otro.
+[00:29:24 - 00:29:35] El inspector está en el momento de que el director de artista se ocupa esa coplar, esa lógica, se escenero a este patrón, el patrón el visitador.
+[00:29:35 - 00:29:37] ¿Qué está formado por la siguiente manera?
+[00:29:37 - 00:29:49] Primero tengo el cliente, tengo el cliente, no lo puse, tengo el cliente, que es el director de artista, es el instancia del visitante.
+[00:29:50 - 00:30:09] El inspector de valević tiene, el inspector de arma, el inspector de impuestos, el de la FIPS, yo voy a el cliente, es el que instancia el visitante concreto.
+[00:30:11 - 00:30:26] Después tengo el visitante, vamos a visitante, el visitante es un interfaz, este es un interfaz común, y define los métodos para visitar cada tipo de objetos de lo que tengo de la estructura,
+[00:30:27 - 00:30:52] y después tengo los concretos, separo, la operación real que quiere hacer, acá tendría el inspector, el inspector de la impuestos, que tienen diferentes necesidades, y que le voy a dar a la profunda profundidad a lo que yo quiero solicitar.
+[00:30:54 - 00:31:21] Después tengo el elemento, acá también tengo otro interfaz, separo, tengo una acábia a definir las reglas del sistema para tener el método y aceptar al visitante, voy a aceptar el visitante, y acá tenemos los concretos, las clases reales que van a ser visitadas.
+[00:31:22 - 00:31:39] Es decir, por ejemplo, el restaurante, el cine, el local de ropa, entonces acepto al visitante, pero alguna modificación de la lógica de lo que quiere ser visitante le voy a estar.
+[00:31:40 - 00:31:55] No es lo mismo que cuando yo acepto el visitante, por ejemplo, de seguridad y giene, y acá tengo el restaurante, y posiblemente cuando tenga esa relación, el comportamiento va a ser diferente.
+[00:31:56 - 00:32:13] Si yo tengo el visitante de Arba, y tengo acá tengo baño y la realidad es que no me sirve, posiblemente ni siquiera tengo nada absolutamente nada, o algo algo muy chiquitito porque tenga que no ser.
+[00:32:14 - 00:32:35] En algún elemento dentro del baño, algo de monedas para obtener determinado elemento, eso se modifica. Entonces estoy saco plando, quién me lo está pidiendo, y de acuerdo quién me lo está pidiendo, a veces tengo determinado tipo de comportamiento.
+[00:32:36 - 00:32:52] Lo lo voy a decir, si yo ustedes les pregunto cuál es tu nombre, y usted es capaz que me dicen la pechillo y el nombre y el apellido. En cambio, si se las pide un compañero, no les va a decir el apellido, le va a decir directamente el nombre.
+[00:32:52 - 00:33:20] Entonces a veces de acuerdo tienes el que lo pide, tienen determinado forma de responder. Es lógica que la puede resolver con un visitante. Es bastante complicado implementarlo, no lo pido en los ejercicios, pero sí quiero darse los para que te lo vean.
+[00:33:23 - 00:33:37] ¿Cuál es el objetivo? Ya terminamos con todos los patrones golf, la idea de los que nosotros tenemos estamos armando el diseño justamente, tenemos un nivel de atracción medio elevado y vamos tomando estas decisiones.
+[00:33:37 - 00:33:49] A decisiones que ustedes, fuimos lejimos dando, tienen patrones, grabamos haciendo lo que se llama transformaciones.
+[00:33:49 - 00:34:19] Se empezaron con el modelo de dominio, simples, son clases que ve justamente en el dominio, en el negocio y son las ustedes definen. Entre las realidades, si quieren llevarlo al coile, solamente los clases de dominio no sirven, pero se van haciendo transformaciones con todas las buenas calcitas que estuvimos viendo con patrones de grab, con patrones golf.
+[00:34:20 - 00:34:37] Con todas las buenas prácticas que pueden ser, modularidad, separación de inconvenience, abstractión, y ahí van acercándose a hacer lo que yo siempre les digo a dormir está y esas clases y ir acercándome al código.
+[00:34:37 - 00:34:50] Entonces, digo un nivel muy elevado de atracción y acercándome, voy a tener muchísimas fabricaciones puras que las voy a necesitar para poder implementar este dominio.
+[00:34:50 - 00:35:01] Y voy a tener un modelo más cercano a lo que es el código.
+[00:35:01 - 00:35:22] Entonces, pasé, estuvieron viendo una análisis, era un modelo que se llama sim, reloj independiente de la computación y ir aplicando todos sus patrones y las buenas prácticas del diseño me acercan a lo que se llama PCM, que es modelo específico de la plataforma.
+[00:35:23 - 00:35:43] Ya me voy acercando al código. Como último mensaje de la parte teorica, no abuso de usar patrones, las patrones golf si utilizan cuando tienen algún inconveniente o un mismo.
+[00:35:45 - 00:35:57] Lo que hacemos en los ejercicios es darle un problema, un problema resolver y cómo lo pueden llevar a cabo a través de los patrones.
+[00:35:59 - 00:36:21] Algo que les quería dejar es el refarto en grú, si te veo por acá lo decen, la falta en grú, me gusta mucho, es un sitio en el tanto de los patrones golf, lo pueden unirar, están separados por patrones.
+[00:36:22 - 00:36:41] Los dibujitos son los mismos, porque la realidad está muy bien abarpado. Así que quieren toda la parte teorica como para mirarlos.
+[00:36:46 - 00:37:15] Me voy a detener 5 minutos y arrancamos con la parte práctica, les parece mientras voy subiendo toda esta parte a la clase del día de hoy, que es la número 8, creo, 5 minutos que estoy viendo, es la número 8.
+[00:37:15 - 00:37:18] 10 minutos arrancamos la parte práctica.
+[00:37:20 - 00:39:44] ¿O qué proveemos? ¿Tafé?
+[00:39:44 - 00:40:18] 10 mes.
+[00:40:18 - 00:40:22] ¿Qué le he dado? Confundar la duda que puse en el chat.
+[00:40:22 - 00:40:42] Sí, sí, la vi, ahí está viendo, páncame, minutito, había puesto acá, estaba leyendo lo que me estiguieron, porque las clases clientes se llaman contexto.
+[00:40:42 - 00:40:48] De acuerdo, se llama contexto porque bueno actúan con el escenario.
+[00:40:48 - 00:41:02] Y cliente, la realidad es que a veces nunca misiones se apreunta, pero el cliente es porque bueno, vos estás accediendo directamente a una relación.
+[00:41:03 - 00:41:11] La verdad que me mataste, porque las clases clientes se llaman contexto.
+[00:41:11 - 00:41:23] No sabía definirte. En algunos libros llaman clientes en otro contexto, para mí exactamente lo mismo.
+[00:41:24 - 00:41:32] El contexto es preso porque actúan con una determinada situación o escenario.
+[00:41:32 - 00:41:39] Estas principalmente en las estrategias, ¿dónde lo viste vos?
+[00:41:39 - 00:41:43] Así voy viendo como lo...
+[00:41:43 - 00:41:46] Y me parece que la estrategia...
+[00:41:46 - 00:41:49] Sí, quiero que lesas.
+[00:41:50 - 00:42:06] Si estoy pensando, la realidad es que las clases clientes se llaman contexto.
+[00:42:06 - 00:42:17] Estoy pensando si hay alguna otra más con el canal.
+[00:42:17 - 00:42:24] Así esperamos a los compañeros.
+[00:42:24 - 00:42:30] Tienes acá viviendo las de cliente, acá tenés contexto.
+[00:42:31 - 00:42:35] Porque yo lo creo es almacenar y prober el entorno de ejecución.
+[00:42:35 - 00:42:39] En el contexto acalomismo.
+[00:42:39 - 00:42:43] Estoy buscando el cliente, acá no tengo.
+[00:42:43 - 00:42:49] Acá tampoco, acá sí tengo.
+[00:42:49 - 00:42:55] Acá lo que hago es que el cliente me define,
+[00:42:55 - 00:43:04] no está necesito alguien que me esté pasando y me modifique este cliente llama al contexto.
+[00:43:04 - 00:43:07] En el que le te llama el contexto.
+[00:43:07 - 00:43:14] Y la función del contexto es almacenar y prober el entorno de la ejecución.
+[00:43:14 - 00:43:19] De esa coplo, acá sí tienen sentido, no es lo mismo.
+[00:43:19 - 00:43:26] Me voy a vuelta a este, acá lo llama, este lo llama, no me da armada.
+[00:43:26 - 00:43:30] El cliente lo utiliza.
+[00:43:30 - 00:43:35] De esto, déjame investigar, pero acá el culo que tiene que ver con que el cliente utiliza
+[00:43:35 - 00:43:42] y el contexto me provee toda la función principal de almacenar y prober el entorno de ejecución.
+[00:43:42 - 00:43:46] Me parece que está más orientado a eso.
+[00:43:46 - 00:43:50] Igual es su tílbira, está acá lo utilizo.
+[00:43:50 - 00:43:59] Este lo utiliza, lo utiliza, le pide,
+[00:43:59 - 00:44:03] pero no me arma absolutamente nada del entorno de ejecución.
+[00:44:03 - 00:44:08] Acá lo utilizo, te estoy diciendo clonalo.
+[00:44:08 - 00:44:15] Y en el contexto lo estás viendo en el otro, en el estratégico y en el de creación.
+[00:44:15 - 00:44:17] Me voy para abajo.
+[00:44:17 - 00:44:27] Me voy a estos dos, el contexto.
+[00:44:27 - 00:44:38] Acá me pide un cambio, está almacena y me prober el entorno de ejecución y acá también.
+[00:44:38 - 00:44:43] Acá tendría que tener otro cliente que modifique el contexto.
+[00:44:43 - 00:44:49] Por ejemplo, no sé, está soviendo.
+[00:44:49 - 00:45:00] Pero el contexto me permite almacenar esto y prober el entorno de ejecución para el estratégico.
+[00:45:00 - 00:45:04] Para mí viene por eso.
+[00:45:04 - 00:45:14] El cliente me define el escenario, es como un punto de entrada.
+[00:45:14 - 00:45:28] Y después tiene el contexto que me permite, digamos, prober el entorno, el entorno de la ejecución.
+[00:45:28 - 00:45:31] Es muy útil también la diferencia.
+[00:45:31 - 00:45:39] Cuando vas haciendo un ejercicio, vas a tener que decir,
+[00:45:39 - 00:45:45] bueno, ¿quién es el que te lo pide y define el cliente o el contexto?
+[00:45:45 - 00:45:51] ¿Quién es el que te dice que a quién es?
+[00:45:51 - 00:45:55] El que mantiene la referencia y ya no es el que te lo pide.
+[00:45:55 - 00:46:02] Entonces tengo que armar todo ese ambiente, esa función, proberme ese entorno.
+[00:46:02 - 00:46:04] Entonces, es muy subtila diferencia.
+[00:46:04 - 00:46:10] Algunos el que me lo pide, vamos acá, esto es el que me da un entorno.
+[00:46:10 - 00:46:14] Acá me encuentro, a un cliente, no, vamos a ver.
+[00:46:14 - 00:46:27] Es más, acá hay cliente, hay que hacer las peticiones y el otro me armar el entorno,
+[00:46:27 - 00:46:35] y el otro armar el entorno, o acá contestó, confíure el objeto y armar el entorno.
+[00:46:35 - 00:46:41] Centeno, ¿todo nombre cuál es?
+[00:46:41 - 00:46:43] Lucas.
+[00:46:43 - 00:46:49] Para mí tiene que ver con eso, Lucas.
+[00:46:49 - 00:46:55] Ok, muchas gracias.
+[00:46:55 - 00:47:03] Igual profe ahí un compañero dice mandó en el chat como lo que usted dijo que un cliente
+[00:47:03 - 00:47:05] después utilizaría el contexto.
+[00:47:05 - 00:47:06] Ah, bueno.
+[00:47:06 - 00:47:11] ¿Lo escribo por laía?
+[00:47:11 - 00:47:14] No, no, no, el factor ingurúa parece.
+[00:47:14 - 00:47:16] La factor ingaja fantástico.
+[00:47:16 - 00:47:19] Bueno, genial, entonces no estaba tan errada.
+[00:47:19 - 00:47:26] Ok, cuando venen en el, cuando empiezan a analizar todo lo sí acá.
+[00:47:26 - 00:47:34] Liente, contexto de fin y mental, arma toda la estructura para soportar todo el patrón
+[00:47:34 - 00:47:35] y el otro pide.
+[00:47:35 - 00:47:36] Perfecto.
+[00:47:36 - 00:47:37] Bueno, genial.
+[00:47:37 - 00:47:46] Bueno, están todos arrancamos, subí un minuto, sacado.
+[00:47:46 - 00:47:59] Parece el todo mensaje, ahora.
+[00:47:59 - 00:48:07] Vamos, vamos a arrancar con el ejercicio y un tito.
+[00:48:07 - 00:48:23] Vamos a arrancar con el ejercicio.
+[00:48:23 - 00:48:31] Bueno, lo debamos hacer es hacer un ejercicio obviamente muy simple, pero para ver cómo
+[00:48:31 - 00:48:41] podemos implementar algunos patrones dentro de los patrones golf, ok?
+[00:48:41 - 00:48:42] Un tito.
+[00:48:51 - 00:48:58] Cuando ustedes comenzan con un ejercicio, ustedes van a tener una especificación.
+[00:48:58 - 00:49:04] Una especificación es todo lo que ustedes tienen que implementar.
+[00:49:04 - 00:49:11] Y de eso, lo que empiezan a hacer es primero leer todo lo que son las trasendominales, detectar
+[00:49:11 - 00:49:18] lo que son las clases principales, clases del dominio, empezan a definir que algunos
+[00:49:18 - 00:49:22] vergos posiblemente sean comportamientos importantes.
+[00:49:22 - 00:49:32] Algunos sustantidos que no sean tan triviales podrían llegar a ser atributos, empiezan a pensar
+[00:49:32 - 00:49:39] como modular, como a armar esos componentes, empiezan a pensar también si empiezos separar
+[00:49:39 - 00:49:45] a hacer separación de inconvenencias, como voy a aplicar los patrones, los controlers,
+[00:49:45 - 00:49:49] empiezan a armar una base.
+[00:49:49 - 00:49:54] Imagínense que están en un ejercicio donde lo que tienen que hacer es armar un ejercicio
+[00:49:54 - 00:50:28] de fútbol, de juegos de play, minuto que le voy a buscar, si tienen que hacer un juego
+[00:50:28 - 00:50:33] de play, play para dar de fútbol, ok?
+[00:50:33 - 00:50:45] Van a quedar ese de salicimos, estadios, salicimos.
+[00:50:45 - 00:50:53] En cuando lo tengo que hacer un videojuego, he dicho, y se hizo juego de completar todas
+[00:50:53 - 00:51:02] las reglas del deporte definido, juego entre dos conjuntos de donce jugadores, cuatro árbitros,
+[00:51:02 - 00:51:07] el terreno de los juegos de rectangular con adquiros en cada lado del campo, el equipo que
+[00:51:07 - 00:51:13] le obre más doles al cabo del partido es el que resulta ganado del juego, el objetivo
+[00:51:13 - 00:51:20] del juego es desplazar cualquier parte del cuerpo que no sean las brazos o las manos,
+[00:51:20 - 00:51:26] una pelota de través del campo para introducirlo, dentro de largo contrario de la que se
+[00:51:26 - 00:51:31] nomina a marcar un gol, existe en cuatro categorías de jugadores, delanteros de frensores,
+[00:51:31 - 00:51:36] medio campistas, volantes, arquero, cada categoría de jugador tiene una forma particular para
+[00:51:36 - 00:51:43] jugar que la define la velocidad, la fuerza, la calidad de la reflexión, el paz, el tiro.
+[00:51:43 - 00:51:50] En el campo juega el arquero y de jugadores más, te pueden distribuirse en cualquier combinación,
+[00:51:50 - 00:51:56] por ejemplo, puede haber cuatro defensas, cuadros central campistas, dos delanteros y la cantidad
+[00:51:56 - 00:52:06] de jugadores en cada posición termina el estilo o estrategia, esto no lo vamos a estar.
+[00:52:06 - 00:52:25] Entonces le llegan una ejercicio, hacemos el ejercicio del parcial, si lo que
+[00:52:25 - 00:52:36] empiezan, por donde empiezan, si lo van a tener que leer todo esto y qué hacen.
+[00:52:36 - 00:52:40] Empezaría con algún diagrama para entender la lógica del negocio.
+[00:52:40 - 00:52:46] El diagrama de actividad, por ejemplo.
+[00:52:46 - 00:52:55] El diagrama de actividad, mira que también te corre el tiempo, puede se arrancarlo.
+[00:52:55 - 00:53:01] A veces no nos fue lo de dar muy seguido, a veces sí hay algunos ejercicios que son complicados
+[00:53:01 - 00:53:10] de entender en cuanto a la parte del negocio y a veces el espacio, el modelo muy de alto nivel
+[00:53:10 - 00:53:16] con un nivel de atracción muy elevado de lo que sería el diagrama de actividad.
+[00:53:16 - 00:53:24] Pero está bien, si tenés tiempo y estás trabajando en una empresa, un diagrama de actividad
+[00:53:24 - 00:53:32] es un buen comienzo y no que harían los que ya entienden en el negocio.
+[00:53:32 - 00:53:35] Lo entendés bastante y estás leyendo y qué haces.
+[00:53:35 - 00:53:36] ¿Cómo que?
+[00:53:36 - 00:53:38] ¿Cómo entendés?
+[00:53:38 - 00:53:39] ¿Quién ha hablado?
+[00:53:39 - 00:53:40] Yo, aquí.
+[00:53:40 - 00:53:41] Joaquín, ¿qué?
+[00:53:41 - 00:53:42] Martín es auto.
+[00:53:42 - 00:53:43] Joaquín, ¿qué?
+[00:53:43 - 00:53:45] Martín es auto.
+[00:53:45 - 00:53:46] Me gusta.
+[00:53:46 - 00:53:56] Empezas con un diagrama de componentes, por lo menos decir bueno, tengo que resolver tales
+[00:53:56 - 00:54:04] problemas importantes, voy a armar determinados componentes para resolver esos problemas.
+[00:54:04 - 00:54:05] ¿A bien?
+[00:54:05 - 00:54:06] ¿Me parece bien?
+[00:54:06 - 00:54:07] ¿Algún otro?
+[00:54:07 - 00:54:10] ¿Por dónde comenzaría?
+[00:54:10 - 00:54:11] ¿Le despide?
+[00:54:11 - 00:54:12] ¿Eh?
+[00:54:12 - 00:54:13] ¿Le despide?
+[00:54:13 - 00:54:14] ¿Le despide?
+[00:54:14 - 00:54:15] ¿Le despide?
+[00:54:15 - 00:54:16] ¿Austín qué?
+[00:54:16 - 00:54:17] Jaime.
+[00:54:17 - 00:54:18] Jaime, no esto es vestido.
+[00:54:18 - 00:54:19] ¿Tú?
+[00:54:19 - 00:54:20] Esto es vestido.
+[00:54:20 - 00:54:21] Sí, sí.
+[00:54:21 - 00:54:22] Jaime.
+[00:54:22 - 00:54:33] Me gusta el despide, porque me da un cierto entendimiento, puedo hacer separación de incumbencias,
+[00:54:33 - 00:54:36] de qué es lo que me corresponde a mí, qué es lo que nos corresponde a mí.
+[00:54:36 - 00:54:38] En esto mucho no hay, ¿no?
+[00:54:38 - 00:54:46] Pero puede decir, si estoy trabajando, por ejemplo, austir en ingresa el primer día a un
+[00:54:46 - 00:54:50] banco y la realidad que te den un diagrama de explígue para entender cómo están distribuidos
+[00:54:50 - 00:54:55] en la artita altura, por lo menos empresas ya les está muy buena.
+[00:54:55 - 00:54:57] ¿Está bien?
+[00:54:57 - 00:54:58] ¿Otro?
+[00:54:58 - 00:54:59] ¿Por dónde comenzaría?
+[00:54:59 - 00:55:11] Sí, no tengo mucho tiempo ya directamente, voy leyendo el problema y voy sacando que
+[00:55:11 - 00:55:13] ¿Cuál es podrían ser las clases?
+[00:55:13 - 00:55:15] ¿Candidatas?
+[00:55:15 - 00:55:19] Muy bien, alberto.
+[00:55:19 - 00:55:22] Perfecto.
+[00:55:22 - 00:55:27] Si entendés, si estás empezando con los clases candidatas.
+[00:55:27 - 00:55:31] La realidad es que uno comienza de acuerdo a su nivel de entendimiento, ¿no?
+[00:55:31 - 00:55:34] Que es lo que la mayoría de los autores habla.
+[00:55:34 - 00:55:41] Uno va a comenzar de acuerdo a su nivel de entendimiento y a partir de ahí comenzar armar todo
+[00:55:41 - 00:55:43] lo que es la arquitectura.
+[00:55:43 - 00:55:51] Y obviamente nosotros hacemos ya ustedes pasaron a Nali, si pasaron requerimientos, es más, tuvieron
+[00:55:51 - 00:55:52] ya principios.
+[00:55:52 - 00:56:07] Por lo tanto, la realidad es que mentalmente tienen que hacer un diagrama de actividad seriabuerísima,
+[00:56:07 - 00:56:09] pero tienen que hacer ya en la cabeza.
+[00:56:09 - 00:56:12] Así, bueno, tengo que hacer esto, esto, esto.
+[00:56:12 - 00:56:18] El componente es para mí es muy importante que lo hagan porque le da un cierto orden,
+[00:56:18 - 00:56:22] los va a ayudar mucho.
+[00:56:22 - 00:56:31] Si no saben por dónde comenzar, agarran, le vuelta, la especificación y empiezan a detectar clases
+[00:56:31 - 00:56:35] candidatas, por lo menos para armar un diagrama de domínio.
+[00:56:35 - 00:56:42] Uno tiene que asumir también a cotarlo, en este ejercicio, lo voy a cotar un poco la funcionaría,
+[00:56:42 - 00:56:47] vamos a cotar funcionar y vamos a dar inicio de juego, selección de dos equipos, agregar, eliminar
+[00:56:47 - 00:56:50] jugadores y seleccionar canchas.
+[00:56:50 - 00:56:57] Entonces, la idea es, y tengo un poco tiempo, que es lo que va a suceder, empiezan a definir
+[00:56:57 - 00:57:04] cuáles son las clases candidatas, de acuerdo a esas clases de candidatas, saben un modelo simple
+[00:57:04 - 00:57:16] de domínio, piensen cómo van a hacer la separación en convenias y si ustedes le aporta mucho,
+[00:57:16 - 00:57:23] armen un diagrama de componentes, a veces se los damos, y ustedes lo pueden modificar,
+[00:57:23 - 00:57:29] obviamente, armen un diagrama de componentes, que el diagrama de componentes es lo que les va a ayudar
+[00:57:29 - 00:57:38] por lo menos a armar paquetes y decir bueno, voy a armar un controlador por cada componente,
+[00:57:38 - 00:57:42] al menos uno por cada componente.
+[00:57:42 - 00:58:01] De acuerdo al ejercicio, estuvimos viendo, de acuerdo al ejercicio, voy a dar algo acá, ¿cuáles serían?
+[00:58:01 - 00:58:15] ¿Cuáles serían las clases candidatas de acuerdo a lo poco que vieron del ejercicio que les presenté?
+[00:58:15 - 00:58:24] ¿Cuáles son las clases para armar un diagrama de domínio?
+[00:58:24 - 00:58:27] El jugador para empezar.
+[00:58:27 - 00:58:38] Fantástico jugador. ¿Qué van?
+[00:58:38 - 00:58:39] Ya, ¿qué han hecho?
+[00:58:39 - 00:58:42] ¿La cancha? ¿Cómo con lo cancha?
+[00:58:42 - 00:58:51] Por falta. ¿Qué van?
+[00:58:51 - 00:58:52] El equipo.
+[00:58:52 - 00:59:02] El equipo.
+[00:59:02 - 00:59:03] La teorías.
+[00:59:03 - 00:59:05] Me gusta, categoría.
+[00:59:05 - 00:59:30] Arbitro, puede ser.
+[00:59:30 - 00:59:47] Partidos, ¿qué haces?
+[00:59:47 - 00:59:49] Dale.
+[00:59:49 - 01:00:03] Partido.
+[01:00:03 - 01:00:04] ¿Qué haces?
+[01:00:04 - 01:00:07] Ya lo que también voy a poner el juego.
+[01:00:07 - 01:00:21] El juego, el partido es el partido de caído jugador, si el juego es todo lo que es el juego de la play.
+[01:00:21 - 01:00:25] ¿Qué hay?
+[01:00:25 - 01:00:27] Ya sé para así.
+[01:00:27 - 01:00:30] Partido me gusta. ¿Qué más?
+[01:00:30 - 01:00:31] A un pelota.
+[01:00:31 - 01:00:32] El pelota.
+[01:00:32 - 01:00:51] El partido está formado por un equipo, la pelota.
+[01:00:51 - 01:00:57] Tengo una relación menor, pero vamos a dejarla con cancha.
+[01:00:57 - 01:01:03] Obviamente también tengo el resquerido.
+[01:01:03 - 01:01:12] Obviamente, el partido está muy acoplado.
+[01:01:12 - 01:01:15] La play, te pide jugadoras que tienen comportamiento distintos.
+[01:01:15 - 01:01:28] Y vamos a poner a la play.
+[01:01:28 - 01:01:29] Podemos poner a las jugadores, como para…
+[01:01:29 - 01:01:32] Estamos haciendo modelo de mi nieve simple ¿no?
+[01:01:32 - 01:01:41] Así que volándome…
+[01:01:41 - 01:01:46] Ya sé.
+[01:01:46 - 01:01:49] Banca del inútil de este en$a.
+[01:01:49 - 01:01:51] Ya voy.
+[01:01:51 - 01:01:52] No, hacer esto.
+[01:01:52 - 01:01:53] Ya voy el combo de Lucas.
+[01:01:53 - 01:01:56] Vanca del inútil.
+[01:01:56 - 01:02:01] Pero, voy, voy a explicas, pocas luces.
+[01:02:01 - 01:02:07] Lo tengo para tener un nivel de entendimiento.
+[01:02:07 - 01:02:17] A mí me gusta más poner categoría y ponerlos acá y bueno el categoría tal, pero para un modelo de dominio lo voy a dejar así.
+[01:02:17 - 01:02:21] Y también podría ser estrategia.
+[01:02:21 - 01:02:30] Vamos a hacer una estrategia, porque decía que acuerdos y tengo más volantes menos estrategias.
+[01:02:30 - 01:02:40] La estrategia la voy a relacionar con el equipo y lo dejo de esta manera.
+[01:02:45 - 01:02:56] A mí me gusta más que el jugador tenga categorías y después armarlo, pero por un tema de diagrama del dominio lo voy a dejar así.
+[01:02:56 - 01:03:03] Acá tengo toda la lógica de lo que es el juego administrativo que lo voy a dejar por acá.
+[01:03:03 - 01:03:08] Podría seguir, obviamente, este es un diagrama del dominio.
+[01:03:09 - 01:03:14] No me alveganza absolutamente nada para programar absolutamente nada.
+[01:03:14 - 01:03:18] En piezo a definir los problemas que tengo.
+[01:03:18 - 01:03:27] Por lo menos se empecé a armar algo, se ha tenido una cierta idea y en piezo armarlo que nosotros estuimos siempre viendo que es esto.
+[01:03:28 - 01:03:37] Si bueno estoy en este nivel, tengo que ir elevando y armar llegar a un nivel bajar ese nivel de abstracción.
+[01:03:37 - 01:03:42] En el nivel de abstracción muy alto, tengo que lograr bajar.
+[01:03:42 - 01:03:56] Pero también hay algo que me dijeron acá en un minuto, en esta presentación y no debo abusar de los patrones.
+[01:03:57 - 01:04:00] Vamos a entender cómo hacerlo.
+[01:04:00 - 01:04:08] Entonces lo que me dice el problema es bueno vamos a encontrar un minuto acá.
+[01:04:08 - 01:04:16] Vamos a encontrar, vamos a listar, vamos a hacer un modelo de dominio simple y vamos a encontrar un problema.
+[01:04:16 - 01:04:18] Y yo les voy a presentar un problema.
+[01:04:18 - 01:04:24] Se digo cuando la posición de la pelota cambia, todos los jugadores deben ser notificados.
+[01:04:24 - 01:04:28] Acá les estoy dando un problema puntual.
+[01:04:30 - 01:04:48] Les digo bueno cuando la pelota está in cerca de un salen del arco y posiblemente los delanteros estén más atentos.
+[01:04:48 - 01:04:53] Y los defensores del otro equipo estén también más atentos.
+[01:04:54 - 01:04:59] El arquero contrario no va a estar jugando cambia un poco.
+[01:04:59 - 01:05:06] Entonces hay un tema de que saber la posición de la pelota, los jugadores tienen que saber dónde está,
+[01:05:06 - 01:05:13] porque ya acuerda dónde están y bueno el objeto va a cambiar, va a cambiar su comportamiento.
+[01:05:13 - 01:05:15] Estamos de acuerdo.
+[01:05:15 - 01:05:17] En lo que vamos a explicar ahí es bueno.
+[01:05:17 - 01:05:22] Vamos a utilizar un minuto, vamos a defender un patrón.
+[01:05:22 - 01:05:29] Entonces la idea de decir bueno, yo tengo un problema específico de diseño.
+[01:05:29 - 01:05:40] Lo puedo generalizar y la realidad es que yo puedo transformar este problema específico en un problema generalizado
+[01:05:40 - 01:05:45] porque los patrones tratan problemas generales.
+[01:05:45 - 01:05:55] Después tengo que hacer una customización, pero lo tengo que ver si lo puedo generalizar.
+[01:05:55 - 01:06:03] Cuando un objeto cambia, cuando la posición de la pelota cambia, cuando un objeto cambia,
+[01:06:03 - 01:06:08] todos los objetos deben ser notificados.
+[01:06:08 - 01:06:13] Entonces la realidad es que yo puedo generalizarlo.
+[01:06:13 - 01:06:21] Entonces si lo puedo generalizar puede evaluar qué tipo de patrones.
+[01:06:21 - 01:06:29] Estamos de acuerdo que es de patrón de una categoría de comportamiento.
+[01:06:29 - 01:06:32] Sí, propietamos.
+[01:06:32 - 01:06:33] Eso estamos de acuerdo.
+[01:06:33 - 01:06:43] Por lo tanto, voy a la otra presentación, a mí me gusta ir de una presentación a otra porque si no es como que quedan los temas en un apetente,
+[01:06:43 - 01:06:48] entonces me voy obviamente a la bolsa de los patrones de comportamiento.
+[01:06:48 - 01:06:59] Y analizo de este problema que yo ya tengo que lo pude generalizar cuando un objeto cambia todos los objetos dependientes de vencer notificados,
+[01:06:59 - 01:07:09] a ver si hay uno dentro de esta bolsa de patrones de comportamiento, si puedo utilizarlo para justamente resolver este problema.
+[01:07:09 - 01:07:17] Yo pienso a leerlo. Cada vez no haya responsabilidades. Permítese a la línea que debe llevar los mensajes para todos los objetos de la geren de cada.
+[01:07:17 - 01:07:18] No suele ser.
+[01:07:18 - 01:07:20] Encapsula no operación, no.
+[01:07:20 - 01:07:22] Da un lenguaje, no.
+[01:07:22 - 01:07:26] Iterador no maneja o manejo recorridos.
+[01:07:26 - 01:07:30] Mediador, define un objeto que coordine la comunicación.
+[01:07:30 - 01:07:35] No suele ser el problema que esté resolviendo. Podría ayudarme, podría.
+[01:07:35 - 01:07:43] Me viento, permite volver un estado anterior, nunca hable de volver siempre de saber donde está el estado permanent, el estado actual.
+[01:07:43 - 01:07:54] Observa, observar. Defino una dependencia de una, muchos de forma cuando un objeto cambia de estado se notifique y actualice automáticamente todos los objetos que dependen de sí.
+[01:07:54 - 01:07:57] Parece ser, ¿no?
+[01:07:57 - 01:08:05] Permite que un objeto, el esté, permite que un objeto modifique su comportamiento, permite disponer de varios métodos para resolver.
+[01:08:05 - 01:08:11] Defino una operación, el esqueleto del algoritmo, permite definir nuevas operaciones.
+[01:08:11 - 01:08:15] Le tota esta bolsa, ¿cuál es el que les parece?
+[01:08:15 - 01:08:17] Observa, observa.
+[01:08:17 - 01:08:28] Habernos definir la categoría y sí, paso de tener, en vez de analizar los 23, analizo solamente los de comportamiento.
+[01:08:28 - 01:08:35] Recuerden que los problemas de comportamiento resuelven problemas justamente en las comunicaciones
+[01:08:35 - 01:08:41] entre los objetos, poder desacoplar funciones muy complejas.
+[01:08:41 - 01:08:50] Bueno, ahí ya analizo, a mí ya lo había puesto acá, analizo qué tipo de patrones voy a utilizar.
+[01:08:50 - 01:08:54] ¿Te definieron que es el observar? ¿Estamos de acuerdo?
+[01:08:54 - 01:08:59] Parece estar. Vamos a ver la estructura.
+[01:09:00 - 01:09:09] Obviamente usted tiene una estructura, el marco teórico, me define la estructura y, de acuerdo a esa estructura,
+[01:09:09 - 01:09:16] me define que responsabilidad lleva cada uno de estos componentes.
+[01:09:16 - 01:09:23] Entonces tengo que el Snapchat conoce sus observadores y proporciona un interfaz para gestionar a los geniales.
+[01:09:24 - 01:09:30] Me voy al Concret Subset, al mazcena el estado de interés y envía notificaciones a sus observadores.
+[01:09:30 - 01:09:39] Está bueno, tengo que analizar cuál es el objeto que va a cambiar el estado.
+[01:09:39 - 01:09:43] Observar este otro interfaz.
+[01:09:43 - 01:09:51] Defir un interfaz para los objetos a los que deben ser notificados al notificar el cambio del estado concreto de este estado.
+[01:09:52 - 01:10:00] Convres de observar, mantiene una referencia, se atema todos los objetos y voy a notificar.
+[01:10:00 - 01:10:10] Entonces lo que yo tengo que preguntarme en el Observar primero, ¿cuál es el objeto observado? ¿Cuál es el objeto?
+[01:10:10 - 01:10:16] ¿El o los objetos que se observan? ¿Qué van a observar este objeto?
+[01:10:18 - 01:10:25] Entonces me pregunto, ¿cuál es el objeto observado y cuál es el objeto que observa?
+[01:10:25 - 01:10:32] Voy a poder primero, ¿cuál es el objeto observado? ¿El otro aquí es lo que tengo que observar?
+[01:10:33 - 01:10:35] La pelota?
+[01:10:35 - 01:10:43] La pelota, estamos de agoros que en la pelota estuviera suscrito a Messi, el objeto observado sería Messi.
+[01:10:43 - 01:11:00] Yo tengo 11 jugadores, dos serían 22, más 4 referí, que también deberían estar observando la pelota, malo jugadores, ni importa.
+[01:11:00 - 01:11:10] 22, 26 componentes, 26 objetos que estarían mirando la pelota.
+[01:11:13 - 01:11:25] Por lo tanto, tengo que el Concret Saphset, es almasina en el estado de interés y envío una notificación cuando su estado cambia, estamos de agoros que la pelota. ¿No?
+[01:11:25 - 01:11:29] Sí, sí.
+[01:11:29 - 01:11:47] Estamos de agoros que la pelota. Voy para abajo. Me voy con el otro. ¿Cuál es el objeto o los objetos que observan? ¿Quién es van a observar la pelota?
+[01:11:47 - 01:11:49] ¿Y quién es Serian?
+[01:11:49 - 01:11:54] Los jugadores.
+[01:11:54 - 01:11:56] ¿Y los objetos?
+[01:11:56 - 01:12:04] El que tengo acá, almasina en el estado de interés, el Concret Saphset, lo que hago acá está mal escrito, no importa.
+[01:12:04 - 01:12:08] Lo que voy a observar es quién es, aquí les voy a observar.
+[01:12:09 - 01:12:13] Esto está mal escrito, después se los modificó.
+[01:12:13 - 01:12:29] Por lo tanto digo bueno, tengo el Concret Saphset, los cológicos acá, son todos los que van a observar, en este caso los jugadores, la puse acá.
+[01:12:29 - 01:12:36] El Concret Saphset es la pelota, este es la pelota. Me van siguiendo.
+[01:12:36 - 01:12:42] Es lo que tengo que llevar esta estructura a mi diagrama.
+[01:12:42 - 01:12:49] Ya tengo los Concret Saphset y el Concret Observer, ¿qué me estarías faltando acá?
+[01:12:49 - 01:12:58] El Observer.
+[01:12:58 - 01:13:05] Me estaría faltando el Observer, el Observer que era, lo tengo para acá, el Observer que era.
+[01:13:05 - 01:13:11] ¿Un interfaz?
+[01:13:11 - 01:13:17] Acá no lo tengo. No lo tengo.
+[01:13:17 - 01:13:21] La tengo que armar, tengo que armar una interfaz.
+[01:13:21 - 01:13:37] Deja coplar la funcionalidad de pelota, está dejar pelota bien concreta, bien atómica y después colocar alguna interfaz para todos los Concret Saphset que puedas llegar a tener en el futuro.
+[01:13:37 - 01:13:44] Hay algunas funcionalidades de los Concret Saphset que podría tener en común.
+[01:13:44 - 01:13:50] Imagínense que entra a la policía, a la cancha.
+[01:13:50 - 01:13:54] No solo sucede de artura, no importa. Entra a la policía y detiene todo.
+[01:13:54 - 01:14:09] Sería otro elemento de hayvaluar. Sería otro como pelota, otro componente, casi cambia de estado de sucedad.
+[01:14:09 - 01:14:15] Entonces podría llegar a tener varios Concret Saphset.
+[01:14:15 - 01:14:31] ¿Y qué más falta? ¿Sabes finir que los Concret Saphset es de fensor del antero volante? ¿Qué me faltaría?
+[01:14:31 - 01:14:38] Otra interfaz. ¿Me van siguiendo?
+[01:14:43 - 01:14:44] Eso es el sacadán.
+[01:14:44 - 01:14:45] Saphset.
+[01:14:45 - 01:14:58] Atach de Tach, empieza a hacer toda la lógica de la pila de existción. ¿Quiénes se van a suscribir?
+[01:14:58 - 01:15:03] No quiero que esté dentro de pelota, los sacos.
+[01:15:03 - 01:15:08] Entonces ven en unas tratas posiblemente.
+[01:15:10 - 01:15:21] Pelota lo voy a dejar lo más atómico posible. Después tengo los Observers y el Concret Observers.
+[01:15:21 - 01:15:25] Siempre enticen por los concretos que los más fáciles de identificar.
+[01:15:25 - 01:15:29] Los concretos que son, eran terro, arterio, volante, de jensor.
+[01:15:29 - 01:15:38] Podría llegar hasta sumar hasta rejerir. Ahora necesito un Observers y presion justo también tenía una herencia
+[01:15:39 - 01:15:43] y puedo hacer que lo que yo tenía acá como jugador lo pueda transformar.
+[01:15:43 - 01:15:51] Le puse ahí a Observers jugador como para tener una idea de que estoy hablando justamente de esto.
+[01:15:51 - 01:16:03] Entonces, desagoplé la funcionalidad de les gestionar la pila y les gestionar las notificaciones de lo que es la pelota en sí
+[01:16:03 - 01:16:10] y después tengo el update que es el que le va a avanzar pelota con oca a meda de posición.
+[01:16:11 - 01:16:18] Ya han visto tener otra forma muy arama.
+[01:16:18 - 01:16:33] Estoy haciendo esas transformaciones en que sé hacer estas transformaciones.
+[01:16:33 - 01:16:40] Me voy a otro problema. Esto se los voy a subir y no se te tranquilos. Me voy a otro problema.
+[01:16:40 - 01:16:55] Cuando el equipo me gusta poner las presentaciones, puedo ir un lado para el otro.
+[01:16:55 - 01:17:03] Pero bueno, creo que lo den bien. Cuando el juego está en progreso, perdón.
+[01:17:04 - 01:17:08] El usuario puede cambiar la estrategia del equipo.
+[01:17:08 - 01:17:21] Entonces pregunto, pasfuelo un problema de creación, pasfuelo un problema de estructura o resfuelo un problema de comportamiento.
+[01:17:21 - 01:17:24] Les dejo completamente sin querer resuelver.
+[01:17:24 - 01:17:27] Comportamiento, comportamiento.
+[01:17:27 - 01:17:36] Comportamiento, comportamiento. Estamos todo de acuerdo. Cuando el juego está en progreso, el usuario puede cambiar la estrategia de su equipo.
+[01:17:36 - 01:17:49] Lo que estoy viendo, me voy a ver si sé que es el comportamiento, me voy a la bolsita de comportamiento.
+[01:17:49 - 01:18:01] Si los dejo para que ustedes medían, ¿cuál sería el patrón más acorde para implementarlo?
+[01:18:01 - 01:18:08] El antepeño último.
+[01:18:08 - 01:18:10] El antepeño último.
+[01:18:12 - 01:18:16] Ahí duque eso yo más. El antepeño último.
+[01:18:16 - 01:18:20] Es fantástico el estrategia.
+[01:18:20 - 01:18:29] Vamos de acuerdo. Ahora, usted me va a poner si yo justo apliqué el STAG.
+[01:18:29 - 01:18:37] La realidad es que en el examen no me voy a fijar si son similares, no me voy a fijar tanto ahora.
+[01:18:37 - 01:18:46] En vez de explicar un STAG o un estrategia, aplicaron una cadena de responsabilidades y no es lo más correcto.
+[01:18:46 - 01:19:00] Si se confunden de categoría y se enubir, ven acá a mi arma de una factor inmeto y la realidad es que no caízca la nota.
+[01:19:00 - 01:19:06] Me van siguiendo, también quiero explicarle cómo es la corrección.
+[01:19:10 - 01:19:12] ¿Entran a aplicar el antepeño?
+[01:19:12 - 01:19:15] Están en el antepeño del estrategia.
+[01:19:15 - 01:19:21] Si ustedes tienen que justificar porque van a aplicar o no un patrón.
+[01:19:21 - 01:19:24] Si transforma el seno, no, no, no, no.
+[01:19:24 - 01:19:33] Sólo quiero definir en el momento de crear el objeto de definir el estrategia y la verdad que no era la naturaleza el problema resolver.
+[01:19:34 - 01:19:41] Por más que la justificación, las hayan quedado, el camino para hacia otro lado.
+[01:19:43 - 01:19:51] Tienen que encontrar primero de qué categoría de patrones y acuerdo el problema que se le presenta y después ahí definir el patrón.
+[01:19:51 - 01:20:00] Por lo tanto nos vamos al estrategia, me voy a ver de estrategia.
+[01:20:02 - 01:20:14] No sé lo que les voy a pedir a ustedes que me definan y acuerdo a lo que debemos acá o parmaría esa estrategia.
+[01:20:14 - 01:20:30] Tengo esto, el examen van a tener esto y tengo que definir una estrategia.
+[01:20:34 - 01:20:39] Y tengo la estrategia, tienen que analizar y tengo que hacer estrategia.
+[01:20:39 - 01:20:43] ¿A lo dice? ¿Qué es?
+[01:20:43 - 01:20:44] ¿Interfaz?
+[01:20:44 - 01:20:45] ¿Interfaz?
+[01:20:46 - 01:20:48] ¿Interfaz una clase de estrategia?
+[01:20:48 - 01:20:49] Después veremos qué.
+[01:20:52 - 01:21:01] Si lo tengo una clase de estrategia, ¿qué va a hacer?
+[01:21:01 - 01:21:04] Un componente en común a todas las estrategias.
+[01:21:05 - 01:21:08] Las estrategias las tengo definidas, pero ¿cuáles podrían llegar a hacer?
+[01:21:08 - 01:21:23] ¿En un equipo de fútbol? ¿Qué tipo de estrategia estáis?
+[01:21:23 - 01:21:26] Ovencillo, ovencillo.
+[01:21:26 - 01:21:28] Ah, y está, me gusta.
+[01:21:28 - 01:21:32] Ovencillo, ovencillo.
+[01:21:36 - 01:21:37] ¿La estrategia?
+[01:21:38 - 01:21:40] ¿Qué es la clota?
+[01:21:40 - 01:21:43] ¿Qué vas a hacer?
+[01:21:43 - 01:21:45] ¿Qué vas a hacer?
+[01:21:45 - 01:21:48] ¿Está tratequio?
+[01:21:48 - 01:21:50] Está tratequio, ¿no?
+[01:21:52 - 01:22:02] Está tratequio.
+[01:22:02 - 01:22:10] Está tratequio es descencio ¿no?
+[01:22:10 - 01:22:15] Ahí empieza a definir las estrategias.
+[01:22:15 - 01:22:16] ¿Y cuál sería las estrategias?
+[01:22:16 - 01:22:17] Dentro de esto.
+[01:22:17 - 01:22:20] Te vemos acá.
+[01:22:20 - 01:22:22] ¿Está tratequio? ¿Qué es?
+[01:22:22 - 01:22:28] Estratecias concretas, ¿ok? Ahí nunca me había dicho otra, ¿cuál es el que me había
+[01:22:28 - 01:22:36] dicho? Contrataki. No sé si existe, yo después no me hago bullying,
+[01:22:36 - 01:22:48] contrataki, tra... Contrataki. Estrate, sí, pongo estrategio como para tra...
+[01:22:52 - 01:22:58] Esa no. Ahora son las concretas. Cada uno va a definir un alegorismo determinado,
+[01:22:58 - 01:23:09] ¿eh? Y yo que necesito tener. Una interfaz, que finalmente pas.
+[01:23:09 - 01:23:16] Una interfaz. Oh, pensaré esta, ¿eh? Si, está, te hago de pensaré esta. No tengo que agregar
+[01:23:18 - 01:23:27] clases si ya las tengo. Por eso tengo que analizar... Ahí está la interfaz. Tengo que analizar el
+[01:23:27 - 01:23:41] leagrama que tengo, hay adimetivo que perdón, si una dependencia en una
+[01:23:41 - 01:23:58] generalización está ahí. Yo tengo la estrategia, acá ustedes le van a poner
+[01:23:58 - 01:24:08] abstract, a los hacemos, que en el examen ustedes van a poner en el
+[01:24:08 - 01:24:31] tito, o si no, yo adivinamos puedo y también tengo el contexto, el contexto
+[01:24:31 - 01:24:36] es de configurar un objeto con creda extra sobre el que mantiene una
+[01:24:36 - 01:24:40] referencia para definir y bueno digo quién es el que me da decir play,
+[01:24:40 - 01:24:48] juga con determinada estrategia. El equipo? Puede ser el equipo,
+[01:24:48 - 01:24:53] podría ser así de hacer el partido, sí, ahora lo que no puede ser es el
+[01:24:53 - 01:25:02] árbitro, lo que no puede ser en la pelota, estamos en acuerdo, el contexto a veces
+[01:25:02 - 01:25:05] cambia de acuerdo porque son decisiones arquitectónicas que yo tengo
+[01:25:05 - 01:25:14] que ir tomando. Ahora tengo que encontrar el mejor dentro del
+[01:25:14 - 01:25:20] de midiara más quien es el que podría ser el rol del contexto.
+[01:25:20 - 01:25:28] El equipo mi me parece bien, partido también me gusta más equipo pero me importa,
+[01:25:28 - 01:25:34] ahora lo que no se puede, lo que estaría mal es que sea cancha, que sea pelota,
+[01:25:34 - 01:25:44] que sea árbitro, ok, tengo para acá, acá yo se los voy dejando,
+[01:25:44 - 01:25:55] miren cómo va evolucionando midiara más, estoy haciendo estas transformaciones,
+[01:25:55 - 01:26:10] ya no es un diágrama de dominio tradicional, me voy a otro,
+[01:26:10 - 01:26:24] problemas a resolver, los jugadores se comunican demasiado entre sí,
+[01:26:24 - 01:26:31] todos sentían mensajes sustados para ver cómo cada uno debe jugar, por ejemplo el
+[01:26:31 - 01:26:35] delantero habla con el volante, el volante habla con el arteiro, el defensor con el árbitro,
+[01:26:35 - 01:26:45] es un problema de comunicación, mucho coplamiento en la comunicación,
+[01:26:45 - 01:27:03] el tipo de patrón, de qué categoría es, es un problema de creación, no es un problema de
+[01:27:03 - 01:27:13] creación, lo saco esa, los patrónes de creación, es un problema de estructura,
+[01:27:13 - 01:27:30] pero sí, no, a ver, todavía vamos, vamos acá, está perfecto porque son decisiones que te
+[01:27:30 - 01:27:49] va a olvidar más, me voy a la estructura, me voy a la estructura, no,
+[01:27:49 - 01:27:56] quién fue el que dijo que sí, yo por cómo veáis plantear el mensaje, pero tampoco
+[01:27:56 - 01:27:59] como con la industria, ¿qué es yo? ¿Se bastían? ¿Se bastían que?
+[01:27:59 - 01:28:08] Manga la diti, me sigan mandas, así los voy conociendo, está perfecto, se bastían,
+[01:28:08 - 01:28:17] entonces, tienes un problema de comunicación con todos los, está bien, está muy acoplado,
+[01:28:17 - 01:28:24] es también un problema de estructural, pero justamente tengo mucha relación, podríamos
+[01:28:24 - 01:28:36] llegar a pensar que es un problema de estructura y cuál aplicarías, adacterno, adacto un
+[01:28:36 - 01:28:42] interés para que pueda ser utilizado por otra clase de otro modo que no podrías utilizarla,
+[01:28:42 - 01:28:49] porque como en ocasión hay, pero está muy acoplado, el bridge, no estoy sacando implementación,
+[01:28:49 - 01:28:55] podrías decirme bueno, pero la lógica de la comunicación sí, bueno, pero como estoy
+[01:28:55 - 01:29:02] dentro del mismo, dentro digamos la disminidad la tengo, así que no es un problema para sacar
+[01:29:02 - 01:29:07] implementación, no es un problema, composa y permite tratar objetos compuestos como si fuera
+[01:29:07 - 01:29:19] uno simple, no, decorador, añade funcionalidad, son a clase dinámicamente, no, ok, podrías
+[01:29:19 - 01:29:25] decirme igual, una una una interfaz para comunicarme con, con otros, pero acá estoy hablando
+[01:29:25 - 01:29:33] de su sistema y yo estoy trabajando con objetos propios de la solución, les estoy cambiando
+[01:29:33 - 01:29:47] la naturaleza el faquete, para lo cual fue creado, el flyway menos, el próximo antideunad,
+[01:29:47 - 01:29:53] representas de un objeto, no, y el bueno, de módulo que no es un gof, pero se lo deja
+[01:29:53 - 01:30:00] acá, no, te se arroce, bastían, claro, así entra a calcular que era un problema de que
+[01:30:00 - 01:30:07] estaba más estructurado todo, y está perfecto, está perfecto de suceder esto, el que hace
+[01:30:07 - 01:30:14] es el guió, que el tenon se nos vive, como tal, yo voy a los otros, ¿cuáles serán los
+[01:30:14 - 01:30:22] otros patrones? tengo estructurales, creadores y creación de que no, comportamiento,
+[01:30:25 - 01:30:33] bueno, se los dejo, para que vean, con ustedes me estoy tomando más tiempo, no saben cómo fue
+[01:30:33 - 01:30:47] la clase de los lunes, no nos dejaban ni pensar, me había mediador, estamos de acuerdo,
+[01:30:48 - 01:31:03] sí, pero apetamos de acuerdo, gracias Lucas, el mediador, se los tengo acá el mediador, o yo
+[01:31:03 - 01:31:10] se los simplemente no, no, no tengo acá, así que, me voy al mediador, yo tengo siempre
+[01:31:10 - 01:31:18] aumentado, pero a mí lo que piensan un poco, así que no, el mediador, este el mediador,
+[01:31:18 - 01:31:23] más de ese el mediador, el mediador, un un tito que no sé dónde lo deje, el mediador,
+[01:31:23 - 01:31:36] está más abajo, el ejemplo del de la torre, y de los ojos aviones, es sencillo,
+[01:31:36 - 01:31:46] tengo el mediador y todos los que participan, mira lo que se llama, el nivel de lo que quería
+[01:31:46 - 01:31:52] resolver, vuelvo, los jugadores se comunitan demasiado entre sí, todos sentían mensajes,
+[01:31:52 - 01:31:57] susdados para ver como cada uno debe jugar, por ejemplo, delante de habla con el volante,
+[01:31:57 - 01:32:02] el volante de la comunidad de la arquitectura, el alquire habla con el de Zenfór, perfecto,
+[01:32:02 - 01:32:12] me vemos acá de vuelta al mediador, quiera eso, vamos con lo más sencillo lo que yo empezaría,
+[01:32:12 - 01:32:16] siempre empezó por los concretos, y me pregunto, ¿quienes son los colegas, quiénes son los
+[01:32:16 - 01:32:25] que tienen los problemas de comunicación en los jugadores, los jugadores serían los colegas,
+[01:32:27 - 01:32:28] y es.
+[01:32:28 - 01:32:30] ¿Estamos de acuerdo?
+[01:32:30 - 01:32:37] Un necesito, otro colega, ¿qué hace este colega acá?
+[01:32:37 - 01:32:40] ¿Qué role cumple este colega?
+[01:32:40 - 01:32:50] Es una interfaz o una clase abstracta, perfecto, tengo acá algo similar, jugador,
+[01:32:50 - 01:32:58] estoy agregando con el cantidad de, estoy acoplando un montón con funciones de que a
+[01:32:58 - 01:33:02] más que las corres ponen, pero por lado pronto lo puedo utilizar.
+[01:33:02 - 01:33:09] Tengo mediador, está, que también el mediador, justamente la interfaz, este mediador, es
+[01:33:09 - 01:33:18] la interfaz que me define la comunicación entre los objetos colegas, y obviamente, este
+[01:33:18 - 01:33:23] es un interfaz necesito su concreto, que va a implementar el comportamiento que tengo
+[01:33:23 - 01:33:27] a través del mediador, porque puedo tener varios mediadores.
+[01:33:27 - 01:33:51] Tengo algo dentro de este diagrama que pueda llegar a hacer el mediador, te vas a
+[01:33:51 - 01:34:02] venir a, tengo algo, los mate.
+[01:34:02 - 01:34:04] ¿Abría que creas?
+[01:34:04 - 01:34:05] No estoy bien.
+[01:34:05 - 01:34:09] Perfecto, aquí fue el que mi hijo habría que crearlo.
+[01:34:09 - 01:34:10] Tomadín.
+[01:34:10 - 01:34:11] Tomad.
+[01:34:11 - 01:34:15] Alberto, ¿tú nombre?
+[01:34:15 - 01:34:16] Alberto Daniel.
+[01:34:16 - 01:34:19] ¿Te dicen Alberto Daniel?
+[01:34:19 - 01:34:20] Es indistinto.
+[01:34:20 - 01:34:27] El polo general, el hijo que elige en más fácil.
+[01:34:27 - 01:34:32] Bueno, Alberto, perfecto.
+[01:34:32 - 01:34:40] Tengo, acá no tengo nada, tengo que armar un mediador, posiblemente tenga que armar un mediador,
+[01:34:40 - 01:34:43] también tengo que armar obviamente el concreto mediador.
+[01:34:43 - 01:34:48] ¿Y allá clicaramos fabricación pura también?
+[01:34:48 - 01:34:59] Sí, sí, es una fabricación pura, estoy grabando, esto fue un fabricación pura, obviamente.
+[01:34:59 - 01:35:12] El mediador, bueno, lo hago en inglés, mediador y en español.
+[01:35:12 - 01:35:21] El mediador, esta sería la clase abstracta, voy a crear otra, que tengo el concreto mediador,
+[01:35:21 - 01:35:33] yo no pongo concreto mediador, tengo que no tengo absolutamente nada que pueda armar,
+[01:35:33 - 01:35:40] que pueda reutilizar para estas dos, para armar esta estructura del mediador, este patron.
+[01:35:40 - 01:35:44] Estos sí, los colegas los tengo, justamente son los que tenían los problemas.
+[01:35:44 - 01:35:51] Ahora, yo quiero desacoplar esos problemas, por lo tanto posiblemente el concreto mediador
+[01:35:51 - 01:35:59] lo tengo que implementar, tengo que crear esa clase, esa fabricación pura como decía Lucas,
+[01:35:59 - 01:36:09] que es un concreto mediador, pero eso siempre en los patrones, lo pienso en la extensibilidad
+[01:36:09 - 01:36:20] de mi solución, por lo tanto, aplico un interfaz por si el día de mañana tengo otro mediador.
+[01:36:22 - 01:36:33] Entonces, también, un bitito, con la edadización, tengo que implementar lo de esa manera.
+[01:36:33 - 01:36:44] Y así, lo voy armando, obviamente me vengo a la presentación que está más lindo y lo arme de esta manera.
+[01:36:44 - 01:36:59] Arme jugador, el anteloguelante, son los colegas concreto mediador, lo arme,
+[01:36:59 - 01:37:05] esto está parte en la actú de que armado tuvi de crear una fabricación pura y armar el mediador
+[01:37:05 - 01:37:09] hacia interfazos abstracta y el concreto mediador.
+[01:37:09 - 01:37:15] Y acá le puse en día de evento, coordinar parte de los jugadores,
+[01:37:15 - 01:37:20] no todos los concreto mediadores, no hay una relación estrecha,
+[01:37:20 - 01:37:25] el concreto casi siempre va con el concreto, entonces el concreto mediador,
+[01:37:25 - 01:37:30] hay una relación estrecha con los concreto colegas,
+[01:37:30 - 01:37:36] y no quiero hacer todo esto a los jugadores, acá y la relación se estaría hecha.
+[01:37:36 - 01:37:43] Pero como quizá respetar un poco la estructura del patron de los dibujes también,
+[01:37:43 - 01:37:47] aplique un mediador.
+[01:37:47 - 01:37:53] En este diorama no existía el mediador, pero su fuente que ya era el diorama que ya existe,
+[01:37:53 - 01:37:58] ¿por qué ha sido un supervisor algo así? ¿Se pensaba algo?
+[01:37:58 - 01:38:03] Me gusta lo de supervisor.
+[01:38:03 - 01:38:08] Bueno, directo al ejemplo del juego de Play, ¿no?
+[01:38:08 - 01:38:17] Pero imagínate que sí, que no me gusta el supervisor porque tengo el miedo que se confundan,
+[01:38:17 - 01:38:21] pero sí está bien, o no, y si te la torre,
+[01:38:21 - 01:38:27] la torre de tener la torre de control y los aviones está y te les he hecho,
+[01:38:27 - 01:38:30] sí, lo puede llegar a tener, ¿vale?
+[01:38:30 - 01:38:40] No lo tenés, lo tenés que implementar, tienen que hacer este análisis,
+[01:38:40 - 01:38:50] y ahí empezará a tomar resistiones, ¿vale? ¿Vas cerrando un poco con los ejercicios?
+[01:38:50 - 01:38:58] Sí, sí, lo que sí, sí tengo varios patrones, por ejemplo, en este mismo,
+[01:38:58 - 01:39:01] supongamos que tenemos el de mediador y observador.
+[01:39:01 - 01:39:10] Un jugador tendría dos, estaría como interfaz del observador, ese sí.
+[01:39:10 - 01:39:17] Es alto, tendría esto, y además acá, acá bajo pasta, no quería armarlo tan...
+[01:39:17 - 01:39:21] Si no lo grababa a ver el ejercicio, y acá lo que tenés,
+[01:39:21 - 01:39:27] es tener un mediador, los dos clases y la relación con estos.
+[01:39:27 - 01:39:30] O sea, estaría sobrecargado jugador como quien dice.
+[01:39:30 - 01:39:34] Sí, sí.
+[01:39:34 - 01:39:39] Y eso estaría bien normal, sobrecarramos mucho una...
+[01:39:39 - 01:39:48] Y obviamente lo que pasa es que jugador se le al cor del problema resolver.
+[01:39:48 - 01:39:52] Ahora, ¿vos estás resolviendo problemas de comunicación?
+[01:39:52 - 01:39:59] Entonces, este está comprando la lógica de la comunicación entre estos con un punto.
+[01:39:59 - 01:40:02] Me parece que lo estás resolviendo.
+[01:40:02 - 01:40:04] Sí, es mucho más beneficioso.
+[01:40:04 - 01:40:11] Tenés más beneficios porque no estoy escribiendo la lógica de la comunicación con todos estos,
+[01:40:11 - 01:40:14] sino lo hago otra vez de un concreto mediador.
+[01:40:14 - 01:40:23] Y a su vez, de esa cople, la lógica de que cada uno le esté preguntándole a la pelota,
+[01:40:23 - 01:40:29] y acá tengo una relación que la tengo otra vez de la observa.
+[01:40:29 - 01:40:31] Y acá tengo la observa.
+[01:40:31 - 01:40:34] Entonces, ¿si está ganando por todos lados?
+[01:40:34 - 01:40:37] Sí, pero un da otra pregunta, pero en el mediator,
+[01:40:37 - 01:40:43] cuando sea, en el contexto, podríamos poner en nombre específicos
+[01:40:43 - 01:40:47] en temas del enunciado, o poner mediator,
+[01:40:47 - 01:40:50] y con qué el mediator está interiabiendo.
+[01:40:50 - 01:40:55] Aquí, por ejemplo, no se podrías poner, por ejemplo, director técnico.
+[01:40:55 - 01:41:01] Sí, sí, pero estaría bien si podíamos mediator y con qué el mediator.
+[01:41:01 - 01:41:07] Y lo que estaría bien, lo que no estaría bien es que volante delante...
+[01:41:07 - 01:41:08] Ah, sí, sí, sí.
+[01:41:08 - 01:41:10] Me pongas con colegas.
+[01:41:10 - 01:41:12] Sí, lo hago.
+[01:41:12 - 01:41:19] Cuando es así, yo, porque en este, este es más, podría haber dicho...
+[01:41:19 - 01:41:28] El mediador, el mediador, concreto, supurete.
+[01:41:28 - 01:41:37] Entonces, lo que se suele hacer, porque yo ya tengo un mediador,
+[01:41:37 - 01:41:41] que sería este, porque imagínate que el van todos a...
+[01:41:41 - 01:41:51] Cuando se van cuando terminan y van a la descanso y se ponen a hablar
+[01:41:51 - 01:41:55] todo lo que hicieron mal y se vuelven locos, en el todo se pede lean.
+[01:41:56 - 01:42:01] Entonces, está el mediador, que es el director técnico.
+[01:42:01 - 01:42:06] Y acá yo sí pondría concreto mediador.
+[01:42:06 - 01:42:14] Ah, door.
+[01:42:14 - 01:42:19] Entonces, le pongo una nota de lo que hace esto.
+[01:42:19 - 01:42:31] Y no, y queréis que sea más intuitivo para también para la corrección,
+[01:42:31 - 01:42:36] pone concreto, concreto mediador.
+[01:42:39 - 01:42:46] Pero la realidad que sería de T, ¿eh?
+[01:42:46 - 01:42:48] Me va siguiendo.
+[01:42:48 - 01:42:49] Sí, sí, pero está.
+[01:42:49 - 01:42:51] Respondito, pregunta cómo pude leer.
+[01:42:51 - 01:42:52] Sí, sí, sí.
+[01:42:52 - 01:42:57] Hoy, chicos, no sabe, estoy media media, pero van queriendo.
+[01:42:57 - 01:43:03] Y la realidad es que uno sale ganando, porque yo lo que quiero hacer es que cada uno cumpla
+[01:43:03 - 01:43:08] con lo que tiene que hacer y si el día de mañana tengo otro mediador,
+[01:43:08 - 01:43:13] que es eso, director técnico viene a alguien que sea, no sé, el dueño
+[01:43:13 - 01:43:22] de responsables y de el club, y hablo con todo está, voy a ir sumando,
+[01:43:22 - 01:43:30] componentes a mediador, al interfaz mediador, de sacóplo y la funcionalidad.
+[01:43:30 - 01:43:33] Entonces, el volante no tiene que hablar con nadie,
+[01:43:34 - 01:43:39] sino que tengo alguien que habla por ellos, que va un lado para el otro.
+[01:43:39 - 01:43:45] Sí, este estaría acá, ¿eh?
+[01:43:45 - 01:43:51] Pero bueno, quería, quería mostrarles focalizado el problema resolver, ¿ok?
+[01:43:51 - 01:43:52] Mademois, ¿vale?
+[01:43:52 - 01:44:05] Ya les diré la respuesta del ínque sigue, pero no importa, vamos con ínque sigue.
+[01:44:05 - 01:44:07] El problema es resolver, ¿ok?
+[01:44:07 - 01:44:15] Cada jugador tiene muchas acciones, en el juego,
+[01:44:15 - 01:44:19] patear, saltar, correr, atajar, cada clase tiene mucho comportamiento,
+[01:44:19 - 01:44:22] se piden encapsular la sección del jugador.
+[01:44:22 - 01:44:29] ¿Ok? Entonces, tienen que ver cómo resolver, ¿qué tipo de categoría es?
+[01:44:29 - 01:44:34] ¿Ok? Es de comportamiento, porque si dice, cada jugador tiene muchas acciones,
+[01:44:36 - 01:44:41] cada clase tiene mucho comportamiento, se piden encapsular,
+[01:44:41 - 01:44:48] las acciones del jugador es un problema de comportamiento.
+[01:44:48 - 01:44:53] Dentro de los problemas del comportamiento, tengo que ir a esa bolsa de comportamiento,
+[01:44:53 - 01:44:56] o de este control del comportamiento.
+[01:44:56 - 01:44:58] El bolsa de comportamiento, digo, ¿eh?
+[01:44:58 - 01:45:01] ¿Cuál es el que puede resolver?
+[01:45:03 - 01:45:08] Quiero desacoplar justamente la solicitud, opción o opción.
+[01:45:08 - 01:45:11] Bueno, trato de ir.
+[01:45:11 - 01:45:14] Ahí puedo utilizar varios, pero me voy a ir al comand.
+[01:45:14 - 01:45:19] Voy a ir al comand.
+[01:45:19 - 01:45:24] Voy a deterarme cinco minutos, necesito ir a buscar un vaso de agua
+[01:45:24 - 01:45:26] y volvemos a este.
+[01:45:26 - 01:45:31] Lo que les voy a pedir es que vayan, analicen el patrón comand
+[01:45:32 - 01:45:36] y vean cómo lo puede implementar.
+[01:45:36 - 01:45:42] Este es más complicado de los voy a dejar acá en el comand.
+[01:45:42 - 01:45:46] Es el segundo.
+[01:45:46 - 01:45:55] Se las dejo acá, le dejo este, y le dejo el estado en el.
+[01:45:55 - 01:46:08] Con los que tienen, piensen esto lo de dejar acá, así lo van viendo.
+[01:46:09 - 01:46:25] En esta estructura voy a aplicar un comand para resolver este problema,
+[01:46:25 - 01:46:33] de desacoplar la lógica de espatiar, de atajar, de pasar,
+[01:46:33 - 01:46:40] desacoplarlo, y tengo esta estructura.
+[01:46:40 - 01:46:47] Vayan pensando en cinco vuelos.
+[01:46:47 - 01:49:48] Bueno, acá volvi.
+[01:49:51 - 01:49:57] Vamos a ver el comand.
+[01:49:57 - 01:49:59] Este es un poco más complicado.
+[01:49:59 - 01:50:07] Y se caja jugador, tiene muchas acciones.
+[01:50:07 - 01:50:11] Imagínense que cada jugador tengo patrón, saltar, correr, atajar.
+[01:50:11 - 01:50:16] Te deberías tener muchísimas clases.
+[01:50:16 - 01:50:23] Entonces lo que yo necesito, voy a resolverlo, voy a desacoplar
+[01:50:23 - 01:50:28] ese comportamiento, una lógica muy grande.
+[01:50:30 - 01:50:39] De tal manera que ya tengo bien atómico, el comando de patiar,
+[01:50:39 - 01:50:42] el comando de atajar.
+[01:50:42 - 01:50:45] O tengo bien atómizado.
+[01:50:45 - 01:50:54] Cambio algo después, lo tengo bien atómico.
+[01:50:54 - 01:50:59] Por lo tanto, yo siempre vuelvo a lo mismo, analizo los concretos.
+[01:50:59 - 01:51:02] Una vez que yo tengo definidos los concretos,
+[01:51:02 - 01:51:07] colocar las interfaces, algo bastante sencilla.
+[01:51:07 - 01:51:15] Entonces vamos con el concreto, disimplementa el método fantástico.
+[01:51:15 - 01:51:26] Acá que voy a tener el comando, me van siguiendo el concreto comando.
+[01:51:26 - 01:51:34] Entonces voy a crear otros.
+[01:51:34 - 01:51:36] Voy a crear otros.
+[01:51:36 - 01:51:39] Voy a crear, yo empiezo a los concretos.
+[01:51:39 - 01:51:48] Atear comas.
+[01:51:48 - 01:51:52] Como unos cuartos para bajar comas.
+[01:51:56 - 01:52:05] Para que sea un poco más difícil, no se pasar, pasar la pilota, no se coman.
+[01:52:05 - 01:52:20] Tengo los concretos.
+[01:52:20 - 01:52:30] Tengo que tengo este, tengo los concretos comando.
+[01:52:30 - 01:52:36] Es un interfaz.
+[01:52:36 - 01:52:48] Esa tampoco la tengo.
+[01:52:48 - 01:53:06] Como una frata, no sé si va a ser un interfaz, pero como lo pronto, ahora como una frata.
+[01:53:06 - 01:53:19] Yo tengo esto, no?
+[01:53:19 - 01:53:32] Yo tengo esta parte.
+[01:53:32 - 01:53:36] El comando, obviamente voy a poder...
+[01:53:36 - 01:53:42] ocultar, no sé, ocultar, acción, eso lo vemos.
+[01:53:42 - 01:53:44] Y tengo el invocar.
+[01:53:44 - 01:53:48] Y el comando que se ha acabo su petición.
+[01:53:48 - 01:53:58] ¿Y no? ¿Y no? ¿Y no? ¿Y no? ¿Y no lo sé lo dejo?
+[01:53:58 - 01:54:01] ¿Y yo con otro? ¿Me van siguiendo?
+[01:54:01 - 01:54:03] Yo trato de rozos, las cosas de esta manera.
+[01:54:03 - 01:54:06] Por favor, puede mostrar el anunciado vuelta bien.
+[01:54:06 - 01:54:09] Creo que me perdí para entenderlo.
+[01:54:09 - 01:54:15] Y estamos subiendo a la complejidad también del patrón, ¿no?
+[01:54:15 - 01:54:17] Muchas gracias.
+[01:54:17 - 01:54:23] Ya le tengo.
+[01:54:23 - 01:54:24] Taba jugado.
+[01:54:24 - 01:54:30] Tienes el método patiario, el método saltar todos, estarían dentro del jugador.
+[01:54:30 - 01:54:36] Yo digo bueno para saquémos patiar que tiene una lógica muy complicada.
+[01:54:36 - 01:54:48] Es un comando y que no esté dentro del volante, no esté dentro del antero, dentro del arquero, dentro del defensor, lo sacó, lo desacoplo.
+[01:54:48 - 01:54:54] Y voy a usar el comando después.
+[01:54:54 - 01:54:57] Entonces, tengo...
+[01:54:57 - 01:55:00] Yo siempre digo, por donde empiezo, empiezo por los concretos.
+[01:55:00 - 01:55:07] Para mí es mucho más sencillo pensarlo de esta manera.
+[01:55:07 - 01:55:16] Obviamente, no tengo el patiar, el patiar, atajar, porque esto estaría dentro de cada comportamiento.
+[01:55:16 - 01:55:20] Porque tenía patiar, del antero patiar, alquero patiar.
+[01:55:20 - 01:55:24] Pero yo quiero desacoplar eso.
+[01:55:24 - 01:55:25] No sé lo saco.
+[01:55:25 - 01:55:30] Saco todo la lógica de esos comandos para así decirlo.
+[01:55:33 - 01:55:37] Y les todo el comportamiento que tenía acá lo voy sacando.
+[01:55:37 - 01:55:40] Y me queda patiar, atajar, pasar de día más.
+[01:55:40 - 01:55:44] No sé, había otros que decían ahí, vamos a ver, en mi acuerdo.
+[01:55:44 - 01:55:46] Saltar...
+[01:55:46 - 01:55:51] Lo quiero desacoplar, que haría... Saltar que había acá, da mea.
+[01:55:51 - 01:55:53] Saltar comand, no importa.
+[01:55:53 - 01:55:57] Lo dejamos así. Lo dejamos con tres que estábamos.
+[01:55:57 - 01:55:59] Esta parte la tengo las cuantas.
+[01:55:59 - 01:56:02] Si van a cabernos, no tito. ¿Sien habla?
+[01:56:02 - 01:56:03] No, francisco.
+[01:56:04 - 01:56:05] Francisco, encima.
+[01:56:05 - 01:56:09] Bueno, hijo de hijo, le voy a explicar.
+[01:56:09 - 01:56:15] En este caso, a mí no me queda claro como entre cliente y moquer y recibe,
+[01:56:15 - 01:56:17] y identificar cuál sería cuál.
+[01:56:17 - 01:56:20] Porque parece que son todos el jugador.
+[01:56:20 - 01:56:22] Es convidado.
+[01:56:22 - 01:56:25] Bueno, ahora lo voy a hacer.
+[01:56:25 - 01:56:28] Ahora lo vemos.
+[01:56:28 - 01:56:33] Vamos con el recibe.
+[01:56:34 - 01:56:42] ¿Sabe cómo realiza las operaciones asociadas puestas en marcha a la petición?
+[01:56:42 - 01:56:47] ¿Sabe cómo lo hace? ¿Quién lo hace? ¿Quién hace esto?
+[01:56:47 - 01:56:53] ¿De dónde lo saqué?
+[01:56:53 - 01:56:54] Pero un jugador.
+[01:56:54 - 01:56:55] De jugador.
+[01:56:55 - 01:56:57] Exacto.
+[01:56:57 - 01:56:58] De jugador.
+[01:56:58 - 01:57:01] Por lo tanto, el recibe serían los jugadores.
+[01:57:01 - 01:57:09] Ahora lo vemos.
+[01:57:09 - 01:57:16] Son los concretos reciben, los que van a tener en la atajar.
+[01:57:17 - 01:57:21] Voy a tener acá el método Tajar.
+[01:57:21 - 01:57:24] Atajar no es el descensión de importe acá.
+[01:57:24 - 01:57:27] Atajar.
+[01:57:27 - 01:57:28] Atajar.
+[01:57:28 - 01:57:37] Pero en sí cuando voy a ejecutar esto, voy a ir acá a este comando.
+[01:57:37 - 01:57:44] Obviamente, yo acá tengo, esto lo saco por un tema de que para tener más o menos entendimiento.
+[01:57:44 - 01:57:51] Obviamente el recibe sería el jugador.
+[01:57:54 - 01:57:56] Cuando me inutito lo vamos a ir armando.
+[01:57:56 - 01:58:31] Tengo el tema de que el jugador es un interfaz o una estralta.
+[01:58:31 - 01:58:45] Bueno, porque se iba así.
+[01:58:45 - 01:58:47] Ya te voy a hacer concretas.
+[01:58:47 - 01:58:55] Yo puedo modificar los patrones.
+[01:58:55 - 01:58:57] No las puedo aplicar tal cual están.
+[01:58:57 - 01:58:59] Tengo que tomar decisiones.
+[01:58:59 - 01:59:02] Acá no tengo solamente un único jugador.
+[01:59:02 - 01:59:14] Tengo varios.
+[01:59:14 - 01:59:18] Tengo las notitas para saber.
+[01:59:18 - 01:59:20] Vamos va a agregando.
+[01:59:20 - 01:59:24] Entonces, tengo este y tengo este.
+[01:59:24 - 01:59:25] Voy bajando.
+[01:59:25 - 01:59:31] Para que me quede la misma altura.
+[01:59:31 - 01:59:33] Me falta el invocar.
+[01:59:33 - 01:59:34] Aquí hace el invocar.
+[01:59:34 - 01:59:40] Y acóman que se lleve al cabo su petición.
+[01:59:40 - 01:59:45] Y ahí tengo que empezar a decir quién, quién hago que le opide.
+[01:59:45 - 01:59:49] quién va a pedir acóman se lo haga.
+[01:59:49 - 01:59:51] Qué se le acaba su petición.
+[01:59:51 - 01:59:54] Y bueno ahí puedo decir, bueno, lo hago con juego.
+[01:59:54 - 01:59:57] Yo tenía que dar un juego y nunca.
+[01:59:57 - 01:59:59] Yo lo aplique con juego.
+[01:59:59 - 02:00:02] Juego partido.
+[02:00:02 - 02:00:07] Podría ser.
+[02:00:07 - 02:00:08] Voy a usar este.
+[02:00:08 - 02:00:16] Podría ser ser partido.
+[02:00:16 - 02:00:19] Podría ser ser ser el juego.
+[02:00:19 - 02:00:21] ¿Ok?
+[02:00:21 - 02:00:25] ¿Podría ser el equipo?
+[02:00:25 - 02:00:28] Estoy pensando en eso.
+[02:00:28 - 02:00:34] Si partido, como partido estar el serado con el equipo,
+[02:00:34 - 02:00:38] podría también no estaría mal.
+[02:00:38 - 02:00:42] Lo que sí estaría mal que sea el cancha árbitro.
+[02:00:42 - 02:00:43] Me va haciendo.
+[02:00:43 - 02:00:48] Hay algunos que sí que yo tengo que empezar a tomar decisiones.
+[02:00:48 - 02:00:51] Soy a poner juego por un tema que es que es más proligito.
+[02:00:51 - 02:00:56] Porque calculo que el que se tea el comando y el ejecuta la jugada va a ser el...
+[02:00:56 - 02:01:04] El jugador no es jugador este si el jugador tipo Play se te da un bonco.
+[02:01:04 - 02:01:07] Y después por ejemplo,
+[02:01:07 - 02:01:14] lo podríamos hacer que el cliente también puede ser juego o podría ser director técnico.
+[02:01:14 - 02:01:17] No sé, así como el comando eso había que darlo.
+[02:01:17 - 02:01:24] Ya que para que quede un poquito más prolijo,
+[02:01:24 - 02:01:26] me voy al resultado de acá.
+[02:01:27 - 02:01:32] Son decisiones que yo tengo que ir armando.
+[02:01:32 - 02:01:39] El cliente dice, cree un objeto concrete command y establece su receptor.
+[02:01:39 - 02:01:43] ¿Y quién lo crea? ¿Quién establece estos concretos?
+[02:01:43 - 02:01:47] Y bueno, debe ser el juego.
+[02:01:47 - 02:01:50] Yo pusir director técnico.
+[02:01:50 - 02:01:53] No sé si tiene mucho sentido, pero opuse.
+[02:01:53 - 02:01:55] Está director técnico acá.
+[02:01:55 - 02:02:02] Podría ser juego, obvio, porque es el que va a crear estos concretos y establece el receptor.
+[02:02:02 - 02:02:04] Este que lo hace, ¿no?
+[02:02:04 - 02:02:07] Este que en ese receptor, bueno, establece.
+[02:02:07 - 02:02:12] Yo decir que el director técnico crea esto y aparte dice,
+[02:02:12 - 02:02:17] bueno, el atajar es de la reproduzabilidad del artero.
+[02:02:17 - 02:02:19] Esa relación hace el director técnico.
+[02:02:19 - 02:02:22] Podría ser el juego tranquilamente.
+[02:02:22 - 02:02:24] Podría ser el juego.
+[02:02:24 - 02:02:31] El juego, la partida, el equipo no tanto, no le veo tanto sentido.
+[02:02:31 - 02:02:36] El invoker, voy acá.
+[02:02:36 - 02:02:39] Pídia, ¿cómo han que se sigue acabo su petición?
+[02:02:39 - 02:02:42] Y para mí sería juego, partida.
+[02:02:42 - 02:02:44] ¿Quién es el que le pide?
+[02:02:44 - 02:02:46] Que lo haga.
+[02:02:46 - 02:02:49] Bueno, tienen que definir esos objetos.
+[02:02:50 - 02:02:57] Y no encuentra ninguno que pueda llegar a cumplir el rol dentro del coma.
+[02:02:57 - 02:03:01] Ahí también se van a encontrar que tienen que hacer una fabricación pura.
+[02:03:01 - 02:03:03] Puedo, por ejemplo, no estaba al principio.
+[02:03:03 - 02:03:07] Es que yo que estaba a partida, podrían utilizar también como partida.
+[02:03:07 - 02:03:11] La partida arma toda la relación.
+[02:03:11 - 02:03:15] Yo puso un director técnico, pues, bueno, en el juego, partida.
+[02:03:15 - 02:03:17] Eso sí tiene relación.
+[02:03:17 - 02:03:20] No tiene relación que, a ver, vamos a ver, vuelta, va acá.
+[02:03:21 - 02:03:26] No tiene relación que sea posición, que sea el subject, que sea el réfei.
+[02:03:26 - 02:03:27] Me van siguiendo.
+[02:03:27 - 02:03:31] Hay algunos que son muy sutiles.
+[02:03:31 - 02:03:34] Lo que yo tengo de tener en claro, bancando un segundo.
+[02:03:34 - 02:03:39] Lo que sí tengo de tener en claro es que el cliente es el que crea estos comandos,
+[02:03:39 - 02:03:48] que en el momento en que estoy armando en Samland y va a decir,
+[02:03:49 - 02:03:57] que estoy compilando y además establece la relación entre este,
+[02:03:57 - 02:04:02] entre el arquero y el atajar en el delantero y el patear.
+[02:04:02 - 02:04:03] Me van siguiendo.
+[02:04:03 - 02:04:05] Y alguien, tenía una duda.
+[02:04:05 - 02:04:08] Sí, yo no tengo nada.
+[02:04:08 - 02:04:09] No tengo nada.
+[02:04:09 - 02:04:12] Así lo voy conociendo.
+[02:04:12 - 02:04:22] A ver, no, no estoy entendiendo bien cuál es el beneficio de utilizar este el patrón
+[02:04:23 - 02:04:29] para encasular digamos los métodos que tiene cada jugador particular
+[02:04:29 - 02:04:38] en según las clases que implementan la interfaz comando.
+[02:04:38 - 02:04:42] Ok.
+[02:04:42 - 02:04:45] Vamos por parte.
+[02:04:45 - 02:04:49] Yo tengo entendido que en el parcial
+[02:04:49 - 02:04:54] si creamos clases que no tienen un método,
+[02:04:54 - 02:05:00] o sea que están ahí flotando y no tienen método como que están demás muchas veces y como que
+[02:05:00 - 02:05:09] hayas justificado porque las colocamos. Bueno me lo he dicho en la materia basada y creo
+[02:05:09 - 02:05:19] que usted también lo dijo en una clase presencial como que había que justificar porque poníamos
+[02:05:19 - 02:05:29] una clase en específico y si ahora y si ahora digamos encacholamos lo que es atajar pasar,
+[02:05:29 - 02:05:40] patiar, cuáles se ven en físiles. Está bien primero, vamos por parte. Sí. Yo acá estoy creando
+[02:05:40 - 02:05:51] volante del anterro y no tienen método. Pasumo, es para lograr tener entendimiento y saber
+[02:05:51 - 02:06:01] si vos vas acabas de poner a atajar, patiar, eso lo asumo. Lo que te haya enseñado otra materia
+[02:06:01 - 02:06:07] está perfecto porque la realidad es que no voy a tener una clase sin ningún atributo y sin
+[02:06:07 - 02:06:15] ningún comportamiento. Es cierto. Ahora en esta materia y vos tenés esto y tenés volante y
+[02:06:16 - 02:06:22] tenés volante del anterro arquero. ¿Vos crees que yo? Porque vayas puesto volante sin ningún
+[02:06:22 - 02:06:29] atributo y sin ningún comportamiento te voy a poner un dos. No en serio te lo digo. No te
+[02:06:29 - 02:06:40] estoy, te lo digo con vos pensás que éticamente yo podría hacer una cosa así. Cuando tenés en este
+[02:06:40 - 02:06:47] casicio, que tenés volante del anterro arquero. El está diciendo. Claro, no tiene sentido. Ahora,
+[02:06:47 - 02:06:58] vancames. Yo hice muchos ejercicios en donde por ejemplo se dice bueno, acá tengo no se fecha,
+[02:06:58 - 02:07:09] suponete, no sé, partido tiene fechas. Es más, se dice lo que vos tenés y lo aclaré varias veces.
+[02:07:10 - 02:07:16] Voy a aclarar algunas cosas porque está bueno. Es, tenés la clase fecha y la dejé
+[02:07:16 - 02:07:25] tirada y te dice entonces fechas del tipo fecha. Es más te dice, volo que tenés a casa una
+[02:07:25 - 02:07:35] asociación pero como no es importante modelarla, en este caso obviamente te estoy diciendo que fechas
+[02:07:35 - 02:07:43] del tipo fecha. Por lo tanto, y esto los de anadisis en el Aodema me van a estar loca. Ahora,
+[02:07:45 - 02:07:53] yo tengo, tengo, estoy bajando un nivel tan, me esté tratando de acercar al código. Y si yo
+[02:07:53 - 02:08:01] voy a crear toda en este modelo, todas las asisaciones y la realidad es que no tiene sentido, yo voy a
+[02:08:02 - 02:08:10] escribir las asisaciones que tienen sentido, eso por un lado. Por lo tanto, esa no se me
+[02:08:10 - 02:08:16] ni donde estoy acá. Por lo tanto no tengas miedo de crear por ejemplo este patiar, coman,
+[02:08:16 - 02:08:22] atajar, coman, pasear, coman porque yo, sin y sin comportamiento como lo estoy escribiendo acá,
+[02:08:22 - 02:08:30] porque yo asumo que tenés un interfaz que cada uno va a tener su comportamiento y para mí que
+[02:08:30 - 02:08:39] vos haya tenido la capacidad de poder atomizar y de sacoplar la lógica del comando, para mí
+[02:08:39 - 02:08:48] ya es muchísimo más que el que cada uno tenga un comportamiento. Ahora, hay clases y clases,
+[02:08:48 - 02:08:56] si vos no escribís, si vos ponés por ejemplo en esta, ponés solamente patiar, coman, y ni siquiera
+[02:08:56 - 02:09:02] ponés atajar ni pasar y voy a pretenderte el único en la única clase, concreta de tengas
+[02:09:02 - 02:09:13] tener un comportamiento. Me va siguiendo, yo no tengo solamente de despatiar, no pusiste atajar ni
+[02:09:13 - 02:09:23] pasar, tenés esto. Y no pusiste método y bueno, es una única clase, yo acaso colocando en una
+[02:09:23 - 02:09:34] unidad clases método, la demás lo voy a asumir y lo escribís mejor, pero en esas
+[02:09:34 - 02:09:43] utiletas no me voy a fijar, si me voy a fijar que te deran, que sea el uno. Ahora, ¿qué
+[02:09:43 - 02:09:51] beneficios tiene y bueno, cuando vos tenés, obviamente es una ejercicio, yo estoy tratando de
+[02:09:51 - 02:09:59] reforzar algunas soluciones, ¿ok? Porque en un momento dijo si no encontramos al cliente,
+[02:09:59 - 02:10:05] como te lo asolez, como que teníamos que crearlo con una fabricación, que tenés que tener una
+[02:10:05 - 02:10:11] fabricación pura, va a tener que armar, espera un minutito. Ahora, yo en el ejercicio, estoy
+[02:10:11 - 02:10:18] forzando un problema justamente para que vos puedas implementar un coman y que no te quedes
+[02:10:18 - 02:10:26] nada más con la parte teórica, ¿ok? Por lo tanto, no sé si el que era hizo el Fija,
+[02:10:26 - 02:10:32] pienso, a calculo que sí que habrá hecho un digamos el ejecutar el comando de patiarte
+[02:10:32 - 02:10:41] y una lógica tan complicada que yo le hubiera desacoplado, obviamente. Igual es contrafártico,
+[02:10:41 - 02:10:46] realmente no puedo saber si realmente lo hizo, tendría que hablar con el que hizo el diseño
+[02:10:46 - 02:10:54] del Fija, no sé, del Fija del juego, ¿qué es? Para ver si realmente lo hizo así, ¿ok?
+[02:10:54 - 02:11:06] Por lo tanto, al desacoplar lo que es patiar, digamos, es para poder tener en cuenta distintos escenarios
+[02:11:06 - 02:11:15] para patiar o... No, todo el lógico, la complejidad del algoritmo de lo que es el patiar, el
+[02:11:15 - 02:11:24] comando es tan complejo que yo le desacoplo de esa manera el patiar, lo tengo acá en varios
+[02:11:24 - 02:11:35] objetos, lo tengo solamente en un único punto de entrada, si quiero modificar el patiar porque
+[02:11:35 - 02:11:41] el método le dice más rápido, lo cambia acá y no lo tengo que cambiar en todos los demás.
+[02:11:42 - 02:11:51] Entonces, ese es el gran beneficio que estoy teniendo. Eso por un lado. Obviamente tener el
+[02:11:51 - 02:11:57] beneficio de destacarlo y armar un patrón me genera una cierta complejidad porque
+[02:11:57 - 02:12:03] y porque necesito tener una relación, necesito tener quien los crea, quien le vacinar,
+[02:12:04 - 02:12:12] que el arquero tiene que cajar, que está me generando una cierta complejidad, pero lo que estoy
+[02:12:12 - 02:12:21] ganando es que tengo un punto al desacoplarlo, está porque todos patean de la misma manera, digamos,
+[02:12:21 - 02:12:30] y la lógica de patiar es muy complicada, el código debería ser super extenso, entonces bueno,
+[02:12:30 - 02:12:39] ahí lo desacoplo, lo agrego en esto y manejo ese comando. Lo que estoy tratando de hacer acá es
+[02:12:39 - 02:12:51] desacoplar la lógica, una lógica muy compleja a una clase sacarla, ganando ese beneficio.
+[02:12:51 - 02:12:59] Y obviamente me encuentro con otras problemas, como decir, bueno, tienes el que crea ese comando,
+[02:12:59 - 02:13:06] tienes el que crea la relación con el que el receptor con ese comando y sí me encuentro con esos
+[02:13:06 - 02:13:14] inconvenientes. Ahora, si no tuviera esos inconvenientes, se diría que tener en cada envolante del
+[02:13:14 - 02:13:21] antero arquero, una complejidad de un algoritmo muy complejo, en donde si modifico el patiá,
+[02:13:21 - 02:13:27] tengo que modificar todas las entradas, es decir, del antero arquero, arquero de sensor, tengo que
+[02:13:27 - 02:13:35] modificarlos todos, por lo cual, sigo teniendo a mayores beneficios,
+[02:13:37 - 02:13:46] te vuelvo a decir, este es un ejercicio teórico, entonces estamos tratando de implementarlo,
+[02:13:46 - 02:13:54] entonces, vos tenés el invocar, que es el que pide a Coman, que le pide a jugar, que se
+[02:13:54 - 02:13:58] llegue a cabo, quién no puede pedir, y bueno, yo asumí que es el juego, podría llegar al
+[02:13:58 - 02:14:05] hacer el jugador, ahí tenemos que ver las utilistas, para mí, jugadores, el que sabe como el que
+[02:14:05 - 02:14:13] tiene asociada el comando, por eso lo puse de esa manera, y puse un cliente que es el que crea
+[02:14:13 - 02:14:19] el objeto y establece la relación y dije, bueno, quién podría llegar a hacer, y podría llegar a hacer
+[02:14:19 - 02:14:26] juego, podría hacer que estos dos ten juntos, pero para respetar un poco la estructura, armea algo,
+[02:14:26 - 02:14:31] que sea el director técnico, para decir, bueno, crea el comando y asignar el comando,
+[02:14:31 - 02:14:41] ahí ustedes tienen que tomar decisiones arquitectónicas en cuanto a eso, ahora lo que estaría mal,
+[02:14:41 - 02:14:48] y ahí son sus utilezas, lo que sí estaría mal es que sea otro, por ejemplo, no sé que sería
+[02:14:48 - 02:15:06] el regerí o que sea pelota, a ver si me voy al estábano en el 20, me acuerdo en esto, o que sea
+[02:15:06 - 02:15:12] estrategia, capaz que estrategias hasta tienen un poco más sentido, pero canche y pelota y no,
+[02:15:12 - 02:15:22] entonces también lo que vamos a evaluar es eso, obviamente, son acá en estas ahí, sí estoy
+[02:15:25 - 02:15:38] decida, si decierran un poco la raíz, sí, me cerro un poco más, como para desacoplar una lógica
+[02:15:38 - 02:15:52] demasiado compleja, dentro de una clase, que en este caso sería los jugadores, es alto y las acciones,
+[02:15:53 - 02:16:07] los comandos, son las vuelvo a decir porque muchas veces, ni si yo no puedo tener ninguna, si tengo,
+[02:16:07 - 02:16:14] si se comunica, esta clase con esta, y necesitas hacer una asociación, ustedes estudian viernos,
+[02:16:14 - 02:16:23] que hay diferentes tipos de inicilidad, en análisis se hace la visibilidad, más permanente que la
+[02:16:23 - 02:16:36] asociación, el donde uno es un atributo del otro, pero cuando yo voy pasando, voy, voy,
+[02:16:36 - 02:16:47] voy, voy a hacer esas transformaciones, yo puedo tener también diferentes inicilidad que puede
+[02:16:47 - 02:16:56] ser por comportamiento, entonces ahí podría llegar a aplicar, como la que está acá, una dependencia,
+[02:16:57 - 02:17:09] de esa algo más puntual, no están permanente como la otra relación, no es que está mal,
+[02:17:09 - 02:17:13] lo que les he encontrado está perfecto lo que les enseñan en el análisis, porque ustedes están
+[02:17:13 - 02:17:20] entiendo un nivel de entendimiento, pero ya ustedes ya tienen que ir a cierta transformación y la realidad
+[02:17:20 - 02:17:27] es que no puedo tener todas asociaciones tan permanentes, a veces uno le pasa a través de un
+[02:17:27 - 02:17:34] comportamiento, el objeto en sí o le pasa un atributo, entonces ahí tenemos otro tipo de
+[02:17:34 - 02:17:45] visibilidad, todas las visibilidades no se van a, pero sí, pero eso no significa que si yo no haya
+[02:17:45 - 02:17:51] hecho una visibilidad del programador no la pueda tener, entonces lo que voy a modelar son las
+[02:17:51 - 02:18:01] visibilidades más importantes, eso tengan lo en cuenta, sigo.
+[02:18:01 - 02:18:09] Hay algo que sube mucho y a mí más ayuda muchísimo en la corrección, exponer las notas, es más,
+[02:18:09 - 02:18:15] se los puse en diferentes colores, entonces acá tengo, este es la interfaz del Coman, este son los
+[02:18:15 - 02:18:21] concretos del Coman, podría haber puesto esficitar comando en cada uno de estos sitos, talmente, y estaría
+[02:18:21 - 02:18:32] perfecto, ahora lo puse en uno, puse el visibil, está y acá puse concreto, porque transformé en esto en
+[02:18:32 - 02:18:40] una interfaz con los concretos, porque tenía varios, sí, decime, disculpate de ser derrumpido.
+[02:18:42 - 02:18:48] Puede ser el cliente y el boquer el mismo, la misma clase, sí, solo diga cómo puedo haber,
+[02:18:48 - 02:18:51] no, pero parece que podría estar mal, por eso lo separará.
+[02:18:51 - 02:19:02] Sí, lo que te propone el patrón es que volven a tenerlo separado, entonces el boquer se dedica,
+[02:19:02 - 02:19:10] pone foco exclusivamente a pedirle el comando, hace tal cosa, y el cliente va a crear el objeto,
+[02:19:10 - 02:19:17] crea el objeto y establece el lo afectador, lo desacopla, ahora solo mira puesto tal vez en este
+[02:19:17 - 02:19:25] ejercicio, tal vez lo hubiera puesto juego que también cree eso, pero para respetar un poco la
+[02:19:25 - 02:19:33] naturaleza del comando y la estructura lo separe y tuve que si o si crea un cliente, está que no
+[02:19:33 - 02:19:43] lo tenía para que haga justamente el rol de crear el concret coman y establecer el receptor, el que
+[02:19:43 - 02:19:52] lo arme puede haber sido juegos y el el tortéctrico partida, lo arme como para respetar la naturaleza del
+[02:19:52 - 02:20:02] patrón golf que es el comando acá, ¿ok? No pasa nada si hacemos eso en el examen, depende del patrón,
+[02:20:08 - 02:20:16] porque no es lo mismo, que vos me digas bueno, lo para tard, voy a hacer que el invocere el cliente y bueno,
+[02:20:16 - 02:20:23] no respetaste digamos el patrón, la naturaleza del patrón, pero bueno, pues si usted es el
+[02:20:23 - 02:20:34] crear y el que pide, a que vos ven las hiriga, acá, digo bueno, voy a crear el el concreto y el
+[02:20:34 - 02:20:46] subjecto, el observer y el subjecto junto y no, ¿ok? y voy a crear una única clase y no, no tiene sentido,
+[02:20:48 - 02:20:55] ¿ok? Entonces también es la capacidad que ustedes te cante de insarnidad y ahí es conveniente,
+[02:20:55 - 02:21:06] no hay acá, ya les te canto completamente la naturaleza al patrón, me van siguiendo,
+[02:21:08 - 02:21:17] y eso lo van a practicar, eso lo van a practicar, eso lo van a practicar, por lo tanto,
+[02:21:17 - 02:21:23] lo voy a decir, sí, sí, es lo que me digan bueno, también voy a, espacarme parece en parecidas,
+[02:21:23 - 02:21:29] el cliente invocre, así lo voy a juntar todo, no, porque estás creando el volante, el
+[02:21:29 - 02:21:35] guielasino al comando, el que se oculta y justamente lo que quería era, es sacoplarlo, entonces ahí
+[02:21:37 - 02:21:45] yo trato de respetar el patrón, después lo que hagan cuando trabajen obviamente, eso
+[02:21:45 - 02:21:50] capaz que si estoy programando digo bueno, el director y juego luego todo junto, o sea, empieza a tomar
+[02:21:50 - 02:22:00] decisiones, pero traten de respetar el patrón, sí, no, justo era el último que dijo que se podía
+[02:22:00 - 02:22:12] juntar justo para este patrón, lo que estoy en el sitio, claro, no tiene sentido, pero por ejemplo,
+[02:22:12 - 02:22:18] al caso, tomé la decisión de que el recibo no son, solo me las concretos, el abstracto con todos sus
+[02:22:18 - 02:22:25] concretos, entonces el recibo transformé, ahí, tomé esa decisión, porque también lo teníamos de
+[02:22:25 - 02:22:32] la manera, o sea el patrón lo tengo que configurar y customizar de acuerdo a lo que yo también tengo,
+[02:22:35 - 02:22:47] vaya rando gente, es importante y las preguntas me parecen sumamente valiosas para ustedes, vamos,
+[02:22:47 - 02:23:02] a que les puse una parte teórica de las ventajas de usar un poco el coman, lo que les voy a pedir es que
+[02:23:03 - 02:23:16] filonean, ventajas y es ventajas, vamos al próximo patrón, obviamente recuerdan que estamos haciendo
+[02:23:16 - 02:23:24] una ejercicio muy simple, miran que empezamos con el aventur, empezamos con un diagrama muy básico,
+[02:23:27 - 02:23:34] bien como empezamos, entonces en algunas cosas hay unos problemas para resolverlo, solo también los
+[02:23:34 - 02:23:43] estoy como forzando, porque la idea es no abusar de los patrones, pero yo quiero ver cómo lo podemos
+[02:23:43 - 02:23:50] implementar, por eso lo estamos haciendo para que ejercicio, vamos con el siguiente ejercicio,
+[02:23:50 - 02:23:58] queremos guardar estado del juego o partida, marcador, posición, tiempo para poder restaurarlo,
+[02:23:58 - 02:24:08] decir bueno lo de tengo y vuelvo después a seguir jugando, entonces pensemos que categoría de patrón
+[02:24:08 - 02:24:21] estaría, la finición de este, este, tenemos guardar el estado del juego, me mento, no sé,
+[02:24:21 - 02:24:27] acordar que es muy buenísimo lo que pasa, ¿qué le fue el que dijo de este,
+[02:24:27 - 02:24:36] tiene yo, granciico, granciico, ahí está, este es un poco de joyo, ¿no?
+[02:24:36 - 02:24:50] es el estéis, está barbaro, vamos al estéis, vamos al estéis, permite que un objeto modifique su
+[02:24:50 - 02:25:02] comportamiento cada vez que el cambio de su estado, y acá dice tenemos guardar el estado, entonces y el que guarda el
+[02:25:02 - 02:25:15] estado es el momento, hay una película de llamamiento, se va grabando en el cuerpo digamos a través
+[02:25:15 - 02:25:26] de tatuajes, porque si olvida de las cosas y se va, me mento, va guardando los estados, recuerden eso,
+[02:25:26 - 02:25:39] pues vamos a ver un minuto, se ven con el momento porque yo acá le deje la, ya, ya fe, 5, 5,
+[02:25:39 - 02:25:42] en cada minuto ¿no?
+[02:25:42 - 02:26:00] en quienes, si en estas problemáticas, dijera que además el jugador cambiara de comportamiento dependiendo del
+[02:26:00 - 02:26:06] estado del juego, ahí también, a mi herida usar el estéis? y si, ahí podríamos llegar a aplicar
+[02:26:06 - 02:26:15] un estéis, yo no lo haría en el jugador porque si no tendría que poner volante, suponerte, no sé,
+[02:26:15 - 02:26:21] es el de genciva, tendría que hacer una clase no volante, defensivo, volante,
+[02:26:21 - 02:26:25] y cambiaría completamente el comportamiento.
+[02:26:25 - 02:26:32] Y la realidad es que no cambia completamente el comportamiento de volante o delante.
+[02:26:32 - 02:26:38] No usaría el stake en este caso, si tal vez el estrategic, pero no el stake,
+[02:26:38 - 02:26:43] porque no cambia con juego.
+[02:26:43 - 02:26:47] Si no haría por ejemplo con juego, ok?
+[02:26:47 - 02:26:54] Entonces tengo por ejemplo juego de una partida tradicional,
+[02:26:54 - 02:26:58] juego si estoy haciendo un tío es penal,
+[02:26:58 - 02:27:09] hasta que cambia radicalmente el juego, o juego si estoy en entrenamiento, ok?
+[02:27:09 - 02:27:14] Pero no en el caso de jugador, el de genciva, volante, defensivo,
+[02:27:14 - 02:27:20] no lo haría en este caso el stake, porque no cambia completamente el componente,
+[02:27:20 - 02:27:26] cambia solamente el comportamiento, ok?
+[02:27:26 - 02:27:28] Bueno, me voy al...
+[02:27:28 - 02:27:31] Habíamos dicho que era un evento, ¿no?
+[02:27:31 - 02:27:36] Acá, me voy a un evento, me vemos acá,
+[02:27:36 - 02:27:43] si bien yo les voy a presentar la solución que de su tranquilo quede un adentro.
+[02:27:48 - 02:27:56] Y vuelvo al problema que tengo que resolver, queremos guardar el escado del juego o partido,
+[02:27:56 - 02:28:05] marcador posición, tiempo, estado de juego, el nuevo evento.
+[02:28:05 - 02:28:14] Y me dice, siempre empiezo vuelvo a decir, siempre empiezo por el concreto del corazón del patrón,
+[02:28:14 - 02:28:17] y nueve elementos, obviamente.
+[02:28:17 - 02:28:21] Y el originador, estas dos.
+[02:28:21 - 02:28:27] El originador crea un objeto de momento, que contínua una foto fija de su estado interno y el momento
+[02:28:27 - 02:28:33] al almacena, en forma inmutable, no lo puedo cambiar,
+[02:28:33 - 02:28:40] y protege el acceso a otros dos originatoros, no importa, guardo el estado.
+[02:28:40 - 02:28:49] ¿Quién sería entonces? ¿Quién podría ser el originador y quién sería el momento?
+[02:28:49 - 02:28:58] O el problema que tengo que resolver, queremos guardar el estado del juego o partida,
+[02:28:58 - 02:29:18] marcador, pues, se hicieron tiempo para restaurarlo.
+[02:29:18 - 02:29:20] ¿Están ahí? O me quedé sin conocimiento.
+[02:29:20 - 02:29:24] Sí, el originador debería ser partido.
+[02:29:24 - 02:29:28] El originador debería ser partido. ¿Quién lo dijo?
+[02:29:28 - 02:29:29] Tomadín.
+[02:29:29 - 02:29:34] Tomadín, estás azul, o hi, al guardo, perfecto.
+[02:29:34 - 02:29:40] Claro, ¿qué es lo que quiero guardar? Y el partido lo detengo, voy a continuar después.
+[02:29:40 - 02:29:48] Bueno, quiero guardar el estado, pero de qué objeto y de partido.
+[02:29:48 - 02:29:53] Me van cierto.
+[02:29:53 - 02:29:55] Sí, pero a fe la vamos siguiendo.
+[02:29:55 - 02:29:58] Fantástico.
+[02:29:58 - 02:30:00] Gracias, Lucas.
+[02:30:00 - 02:30:13] Lucas, ¿qué haces?
+[02:30:13 - 02:30:17] Sí, el originador es partido.
+[02:30:17 - 02:30:24] Esto lo saco a que haya más o menos entendimiento.
+[02:30:24 - 02:30:27] ¿Me miento lo tengo?
+[02:30:27 - 02:30:30] ¿Qué es momento?
+[02:30:30 - 02:30:32] ¿Dentro de mi modelo lo tengo?
+[02:30:32 - 02:30:37] No, no hay que crear.
+[02:30:37 - 02:30:48] Hay que creer.
+[02:30:48 - 02:30:53] ¿Y qué hace partida, me mendo?
+[02:30:53 - 02:30:55] Guarda el partido, está.
+[02:30:55 - 02:31:01] ¿Uáguo un partido, y vamos? El estado.
+[02:31:01 - 02:31:13] Además, en el estado del partido.
+[02:31:13 - 02:31:18] No, está no.
+[02:31:18 - 02:31:19] ¿Y después qué tengo?
+[02:31:19 - 02:31:30] El querer está intercero. ¿Qué haces?
+[02:31:30 - 02:31:43] A mí me gusta más que manter el historial.
+[02:31:43 - 02:31:46] El capaz que les sirve un poco y demás.
+[02:31:46 - 02:31:50] Si tengo varios momentos, el que te queda lo que hace es justamente
+[02:31:50 - 02:31:56] manejar esa pila y poner, manejar todo el historial.
+[02:31:56 - 02:32:00] Lo tengo, lo tengo.
+[02:32:00 - 02:32:01] ¿Sí?
+[02:32:01 - 02:32:02] No.
+[02:32:02 - 02:32:05] Es el conteridor de las partidas de momento.
+[02:32:05 - 02:32:25] ¿Tamos de acuerdo?
+[02:32:25 - 02:32:41] ¿Se partida? ¿Bueno importa.
+[02:32:41 - 02:32:44] Vamos con siempre escriban las notas, por decir no.
+[02:32:44 - 02:32:47] No voy a poder entendar.
+[02:32:47 - 02:32:48] Es la misión.
+[02:32:48 - 02:32:50] ¿Qué quisiera hacer?
+[02:32:50 - 02:32:51] No sé.
+[02:32:51 - 02:32:52] Sí.
+[02:32:52 - 02:33:30] Bancame un
+[02:33:30 - 02:33:31] momento.
+[02:33:31 - 02:33:32] Bueno, ahora lo voy a guardar.
+[02:33:32 - 02:33:37] Lendrido en comportamiento.
+[02:33:37 - 02:33:44] Bueno, en mi momento y le paso el momento.
+[02:33:44 - 02:33:57] Creo, o el creo memento.
+[02:33:57 - 02:33:58] Creo memento.
+[02:33:58 - 02:34:00] Se teo memento y le mando todo.
+[02:34:00 - 02:34:02] Y acá manejo el estado.
+[02:34:02 - 02:34:06] Y sí, necesito tener el tag.
+[02:34:06 - 02:34:08] Bancame, ya estoy con vos.
+[02:34:08 - 02:34:12] Tag.
+[02:34:12 - 02:34:22] Está decía que el tag bancame era privada.
+[02:34:22 - 02:34:26] Y solamente era inmutable que solamente podía, ¿verdad?
+[02:34:26 - 02:34:32] Acceder de esta manera, que acá pongo un date state.
+[02:34:32 - 02:34:33] Esto lo pongo.
+[02:34:33 - 02:34:35] Se teo el estado.
+[02:34:35 - 02:34:39] Acá sí, es importante poner los dates y los sets.
+[02:34:39 - 02:34:42] Pues me dice, ¿y usted me dijo que nunca pusiera los dates?
+[02:34:42 - 02:34:44] Y sí, por el engete, etc.
+[02:34:44 - 02:34:52] Por todo el lado, de verdad, sí tiene sentido.
+[02:34:52 - 02:34:55] ¿Inqué otra situación es a medida ponerlos?
+[02:34:55 - 02:34:57] Que es sentido como un chico.
+[02:34:57 - 02:35:00] Ahí les voy a pedir eso.
+[02:35:00 - 02:35:01] No me pongan todos, ¿verdad?
+[02:35:01 - 02:35:05] Y ese equipo, se teo el equipo.
+[02:35:05 - 02:35:09] Bueno, ahora sí estoy justamente modelando álbido y tiene relación.
+[02:35:09 - 02:35:11] Sí lo colocas.
+[02:35:11 - 02:35:17] Acá sí tiene sentido, porque justamente me ayuda a sentir el estado.
+[02:35:17 - 02:35:22] Y si acá quisiera poner, por ejemplo, guardar un restaur de todo.
+[02:35:22 - 02:35:24] Acá lo podría también aplicar.
+[02:35:24 - 02:35:26] Esto lo tienen también acá.
+[02:35:26 - 02:35:30] Yo tengo acá.
+[02:35:30 - 02:35:31] Entonces, tiene el origen.
+[02:35:31 - 02:35:44] Y de vez más, lo puse de la misma manera que está en la estructura del patrón para que
+[02:35:44 - 02:35:46] lo veas.
+[02:35:46 - 02:35:50] ¿Sí?
+[02:35:50 - 02:35:54] ¿Tubimos que crear algunas fabricaciones puras en este?
+[02:35:54 - 02:35:57] Sí.
+[02:35:57 - 02:36:00] ¿Cuál es el origen?
+[02:36:00 - 02:36:01] Dos.
+[02:36:01 - 02:36:02] ¿Dónde?
+[02:36:02 - 02:36:03] En este es el río.
+[02:36:03 - 02:36:04] Dos.
+[02:36:04 - 02:36:13] Por lo pronto dos, la partida la teníamos.
+[02:36:13 - 02:36:21] Lo que yo tengo acá con esto es poder gestionar mi historia que la realidad es que siempre
+[02:36:21 - 02:36:23] manejar el historial es un tema.
+[02:36:23 - 02:36:28] Entonces ya sabéis que el experimento es porque estás manejando un histórico.
+[02:36:28 - 02:36:33] Bueno, seguimos porque falta todavía.
+[02:36:33 - 02:36:35] Este me encanta.
+[02:36:35 - 02:36:40] Parece que es el que.
+[02:36:40 - 02:36:42] Vamos con este problema.
+[02:36:42 - 02:36:46] Queremos agregar habilidades, estados especiales o jugadores.
+[02:36:46 - 02:36:55] Ese ejemplo, he cansado, le sionado, inspirado, velocidad de extra, sin crear muchas clases con
+[02:36:55 - 02:36:58] muchas clases.
+[02:36:58 - 02:37:08] Entonces, si yo voy a crear ese el ejemplo, que creo que lo tengo por acá, en las bebidas,
+[02:37:08 - 02:37:17] yo lo sé que este le es carbac.
+[02:37:17 - 02:37:33] Bueno, las fisas no recuerdan.
+[02:37:33 - 02:37:35] Hola, lo recuerdan, lo recuerdan.
+[02:37:35 - 02:37:39] Hola, hola.
+[02:37:39 - 02:37:40] Sí, perfecto.
+[02:37:40 - 02:37:41] Cuando recuerdan.
+[02:37:41 - 02:37:42] Ah, fantástico.
+[02:37:42 - 02:37:44] ¿Qué es que usted tiene que echar?
+[02:37:44 - 02:37:45] El decorador.
+[02:37:45 - 02:37:53] Esa, entonces, si queremos agregar habilidades, estados especiales, licionados, cansados, velocidad
+[02:37:53 - 02:37:55] de extra, entonces, ha increado muchas clases.
+[02:37:55 - 02:38:00] Entonces, vamos a poner este tipo de problemar, quiero volante del antero, del antero licionado,
+[02:38:00 - 02:38:06] del antero cansado, el defensor con amarilla, el defensor inspirado, al defensor normal, no
+[02:38:06 - 02:38:12] es lo mismo que cuando está con el defensor con amarilla, se cuida un poquito más.
+[02:38:12 - 02:38:19] Entonces, la idea es tener un problema de que voy a tener una estructura que va a crecer
+[02:38:19 - 02:38:20] demasiado.
+[02:38:20 - 02:38:23] Y, lo voy a poder resolver con un patrón.
+[02:38:24 - 02:38:25] ¿En qué patrón?
+[02:38:25 - 02:38:28] A mí le estoy iniciando a cuál me vuelve el estrumco.
+[02:38:28 - 02:38:29] Encareita.
+[02:38:29 - 02:38:31] Esa.
+[02:38:31 - 02:38:34] ¿Tamos todos de acuerdo?
+[02:38:34 - 02:38:38] Hasta el pan 2.
+[02:38:38 - 02:38:40] Me voy con el decorator.
+[02:38:40 - 02:38:44] Añad de funcionalidades a una clase dinámicamente.
+[02:38:44 - 02:38:51] Ahora sí, no me voy a tomar el trabajo de armarlos con el estar VML, porque si no
+[02:38:51 - 02:38:55] no vamos a llegar, está, te las voy a mostrar.
+[02:38:55 - 02:38:58] ¿Cómo hago de la misma manera?
+[02:38:58 - 02:38:59] Tengo el decorador.
+[02:38:59 - 02:39:03] Acá tengo todo el decorador hermoso.
+[02:39:03 - 02:39:05] Tengo todo el decorador.
+[02:39:05 - 02:39:15] Y digo, bueno, voy a empezar con, siempre a mí me sirve muchísimo ir con los concretos.
+[02:39:15 - 02:39:27] Si yo tengo la base y tengo que adelgarle en forma adicional a habilidades.
+[02:39:27 - 02:39:34] ¿Cuál sería el Concred Command y cuál sería los concretos decoradores?
+[02:39:34 - 02:39:40] Acá tienen la idea de definición.
+[02:39:40 - 02:39:44] Y no, no chusmean.
+[02:39:44 - 02:39:48] ¿Cuál sería el Concred Command?
+[02:39:48 - 02:39:56] ¿Cuál es la base de lo que voy a modificar?
+[02:39:56 - 02:39:57] El jugador.
+[02:39:57 - 02:40:01] ¿Cuáles son los decoradores de esos jugadores?
+[02:40:01 - 02:40:03] San Sancio Velocidad Pace, ¿no?
+[02:40:03 - 02:40:09] Lo que estaba haciendo anteriormente.
+[02:40:09 - 02:40:13] Estamos de acuerdo.
+[02:40:13 - 02:40:14] Sí, sí.
+[02:40:14 - 02:40:25] O lo tanto, el gol a base concreto, Command, serían estos jugados, el día obviamente el componente.
+[02:40:25 - 02:40:36] El decorador le puso habilidades, le pongo una notita, ese decorador.
+[02:40:36 - 02:40:41] Y después todos los, las habilidades concretas.
+[02:40:41 - 02:40:45] Sancio Velocidad Pace, etcétera.
+[02:40:45 - 02:40:52] La recursividad, esa manera voy armando el decorador.
+[02:40:52 - 02:40:55] Tigo, problema resolver.
+[02:40:55 - 02:41:05] Este también lo voy a mostrar y después lo que les pido que lo analizan.
+[02:41:05 - 02:41:12] En un estadio de miles de hechas muchos comparten el equipo tipo de camiseta, color, canción,
+[02:41:12 - 02:41:14] sector, comportamiento, etcétera.
+[02:41:14 - 02:41:33] ¿Cuál es el interior del sol?
+[02:41:33 - 02:41:35] Se le corta, pero sí.
+[02:41:35 - 02:41:39] Hola, ahí bueno, leí el problema.
+[02:41:39 - 02:41:45] En el estadio hay un montón de hechas muchos comparten el equipo tipo de camiseta, color,
+[02:41:45 - 02:41:46] canción.
+[02:41:46 - 02:41:52] Y cada objeto de hechas guarda toda esa información repetida tenemos un problema.
+[02:41:52 - 02:41:57] Y cada cadáver de estructura, así no, no piensan tanto.
+[02:41:57 - 02:42:00] ¿Qué es el resuelvo?
+[02:42:00 - 02:42:04] ¿Qué tipo de categorías es?
+[02:42:04 - 02:42:05] La estructura.
+[02:42:05 - 02:42:06] ¿Qué es el estructura?
+[02:42:06 - 02:42:07] El estructura.
+[02:42:07 - 02:42:13] ¿Cuál me permite poder manejar esto?
+[02:42:13 - 02:42:16] Este problema.
+[02:42:16 - 02:42:20] El penúltimo que es Goff.
+[02:42:20 - 02:42:21] ¿Cuál sería?
+[02:42:21 - 02:42:23] El peso ligero.
+[02:42:23 - 02:42:24] El peso ligero.
+[02:42:24 - 02:42:26] Es fantástico.
+[02:42:26 - 02:42:29] Es bastante complicado.
+[02:42:29 - 02:42:33] Lo que le voy a pedir es que lo analizan.
+[02:42:33 - 02:42:42] Tengo del elemento, la de Serial Incha, cosas en común y cosas que no tienen en común,
+[02:42:42 - 02:42:45] que no son compartidas.
+[02:42:45 - 02:42:51] Lo que a mí me deciré muchísimo es decir, bueno, yo tengo esta estructura, tengo el contexto
+[02:42:51 - 02:42:59] o el cliente, el flyway, factory, los cosas que son compartidas y los que son compartidas
+[02:42:59 - 02:43:00] de los concretos.
+[02:43:01 - 02:43:03] Entonces, me vengo acá y empiezo.
+[02:43:03 - 02:43:06] Bueno, tengo que ver el tipo de Incha.
+[02:43:06 - 02:43:11] El Incha común y el Incha el IR de barras, que no sería el común.
+[02:43:11 - 02:43:21] Y acá tengo el Incha Factory, voy a crear posiblemente con una fabricación pura, el Incha
+[02:43:21 - 02:43:28] Factory, creo que creo y justamente voy a crear el concreto de Incha y cómo faz que
+[02:43:28 - 02:43:30] tengo en común.
+[02:43:30 - 02:43:32] No le pido que lo analizan.
+[02:43:32 - 02:43:39] Me voy el siguiente, es uno de los que me interesa.
+[02:43:39 - 02:43:47] Que ha sido olivar, dejé el tema del Incha del fútbol, porque me parece que tiene más
+[02:43:47 - 02:43:48] sentido.
+[02:43:48 - 02:43:57] Se acueró en el ejercicio de los bancos en que teníamos la carpeta de evaluación, bueno,
+[02:43:57 - 02:44:01] acá teníamos una mini solución también.
+[02:44:01 - 02:44:04] Quita, pero una solución es distinto.
+[02:44:04 - 02:44:09] Pero un momento teníamos que hacer una carpeta de evaluación para ver si lo torgaba,
+[02:44:09 - 02:44:13] me exonería el préstamo.
+[02:44:13 - 02:44:17] ¿Recuerdan?
+[02:44:17 - 02:44:23] Tenía esta estructura.
+[02:44:23 - 02:44:26] Entonces, me encuentro con un problema.
+[02:44:26 - 02:44:29] El problema es que tengo que interactuar con otros sistemas.
+[02:44:29 - 02:44:32] Entonces, ¿cómo lo había reasuelto en su momento?
+[02:44:32 - 02:44:38] Tenía cada uno de estas clases, servicios veras, servicios vistas, servicios master y
+[02:44:38 - 02:44:42] dos se conectaban con un sistema externo que no tenía.
+[02:44:42 - 02:44:45] Para mí era completamente una caja.
+[02:44:45 - 02:44:51] Si me comunicaba con una app y un endpoint, lo que sea, no sabía, son cajitas que yo he
+[02:44:51 - 02:44:56] armando para poder desacoplar la comunicación externa con un sistema que no me atrarte en
+[02:44:56 - 02:44:58] ese.
+[02:44:58 - 02:44:59] ¿Qué?
+[02:44:59 - 02:45:02] Ahora, lo que yo estoy teniendo es decir, bueno, tengo que crear una clase.
+[02:45:02 - 02:45:07] Tenía el proporción una capa de abstracción que permite a las clases interactuar con
+[02:45:07 - 02:45:11] el sistema a través de una interfaz más sencillo y controlada.
+[02:45:11 - 02:45:14] Estoy con un problema de estructura.
+[02:45:14 - 02:45:20] Tengo que resolver ese problema de estructura.
+[02:45:20 - 02:45:25] ¿Cuál me haría?
+[02:45:25 - 02:45:27] ¿Cuál aplicaría?
+[02:45:27 - 02:45:29] El fachada, ¿cuál es?
+[02:45:29 - 02:45:30] El fachada.
+[02:45:30 - 02:45:38] Es que usamos bastante en las soluciones y a veces lo pido y de un gof y también les pido
+[02:45:38 - 02:45:41] que utilizan el fachade.
+[02:45:41 - 02:45:45] Porque es muy utilizado.
+[02:45:45 - 02:45:46] ¿Cómo era el fachade?
+[02:45:46 - 02:45:50] ¿Cómo se llama?
+[02:45:50 - 02:45:51] El fachade era muy sencillo.
+[02:45:51 - 02:46:02] Era muy sencillo y uno cerquita.
+[02:46:02 - 02:46:08] Era una unida clase, una fabricación pura que voy a armar, que conoce todas las clases
+[02:46:08 - 02:46:14] de su sistema, que sean responsables de la petición, de la petición de esas objetos propios.
+[02:46:14 - 02:46:19] Y delega las peticiones de los objetos apropiados.
+[02:46:19 - 02:46:20] ¿Ok?
+[02:46:20 - 02:46:21] ¿No se digo?
+[02:46:21 - 02:46:27] Bueno, vamos a armarlo.
+[02:46:27 - 02:46:28] Tengo esto.
+[02:46:28 - 02:46:30] Tengo otros sus sistemas.
+[02:46:30 - 02:46:34] El su sistema está en color selecito.
+[02:46:34 - 02:46:36] ¿Ok?
+[02:46:36 - 02:46:40] No tengo acceso a esos sus sistemas.
+[02:46:40 - 02:46:43] Simplemente tengo un único punto de entrada.
+[02:46:43 - 02:46:45] Me dicen cómo me voy a conectar.
+[02:46:45 - 02:46:47] Voy a armar un fachade.
+[02:46:47 - 02:46:49] Tengo consultas fachades.
+[02:46:49 - 02:46:54] A muy faca, obviamente solo se parez.
+[02:46:54 - 02:47:01] Porque para conectarme con Visa voy a crear, lo voy a tonizar, voy a crear una clase para
+[02:47:01 - 02:47:07] poder manejar la comunicación con Visa, otra para poder manejar la comunicación con
+[02:47:07 - 02:47:14] Master y otro para poder comunicar, por ejemplo, la comunicación con el Veraz.
+[02:47:14 - 02:47:21] De esa manera logro de saco hablar la complejidad de comunicación con otros sistemas.
+[02:47:21 - 02:47:23] ¿Por qué es importante?
+[02:47:23 - 02:47:28] Más allá que es una fabricación pure, capaz que ustedes lo hacen también, en forma
+[02:47:28 - 02:47:34] intuitiva, pero decir, bueno, armate un fachade, hace un fachade, ya aún está entendiendo
+[02:47:34 - 02:47:35] que es con un sistema externo.
+[02:47:35 - 02:47:38] Por lo tanto, es bastante utilizado.
+[02:47:38 - 02:47:46] ¿Qué les queda para hacer que lo vamos a ver la clase que viene?
+[02:47:47 - 02:47:57] En clase, es que ustedes también traten de ver cómo pueden implementar estas patrones.
+[02:47:57 - 02:47:58] ¿Cuántos grupos hay acá?
+[02:47:58 - 02:48:06] Facil.
+[02:48:06 - 02:48:21] Perfecto.
+[02:48:21 - 02:48:26] ¿Qué igual faltaba el grupo a 7 que se llama en el 4?
+[02:48:26 - 02:48:27] Así que se llama 7.
+[02:48:27 - 02:48:34] Bueno, al 5 que tiene el cine de ton, le dejo este.
+[02:48:34 - 02:48:50] Ok, le dejo a 7.
+[02:48:50 - 02:48:54] Vamos a salir a dar este.
+[02:48:59 - 02:49:10] Nosotros tenemos muchísimos ejercicios, hicimos el destinacio, hicimos el de banco, hicimos
+[02:49:10 - 02:49:17] el de, como se llama, los molinetes que era el de estadio, gracias.
+[02:49:17 - 02:49:18] A día de fútbol.
+[02:49:18 - 02:49:21] Y el de fútbol ahora.
+[02:49:21 - 02:49:28] Ok, entonces lo que les voy a pedir es que cada grupo trate de hacer uno de estos.
+[02:49:29 - 02:49:34] Tenemos un momento para que ustedes se puedan ir a los grupos y organizarse.
+[02:49:34 - 02:49:45] La clase que viene, la idea es que vengan con dudas, poder desoldarlas, porque después tenemos el examen.
+[02:49:45 - 02:49:49] Así que la idea es esto.
+[02:49:49 - 02:49:54] Yo les voy a subir a la presentación para que también ustedes la tengan,
+[02:49:55 - 02:49:59] que puedan también hacer los ejercicios y elaborados.
+[02:49:59 - 02:50:03] Tenen todos los ejercicios que tienen, digamos, con los ejercicios que estuvimos haciendo,
+[02:50:03 - 02:50:10] tiene un diagrama de básico como para arrancar y encontrar problemas.
+[02:50:10 - 02:50:15] Lo que ustedes tienen que hacer es definir si les tocó, por ejemplo, el singleton.
+[02:50:15 - 02:50:22] Bueno, encontrar un problema, definir el problema, obviamente acá está de él.
+[02:50:23 - 02:50:26] ¿Por qué lo resuelven con esa categoría?
+[02:50:26 - 02:50:30] ¿Y cómo lo pueden modelar en la solución?
+[02:50:30 - 02:50:37] ¿Pueden elegir cualquiera de los ejercicios que estuvimos viendo?
+[02:50:37 - 02:50:41] Dudas.
+[02:50:41 - 02:50:44] Ya tengo los dudas.
+[02:50:44 - 02:50:45] Vale.
+[02:50:45 - 02:50:48] Pero lejos y compañeros, primero.
+[02:50:48 - 02:50:49] Vale.
+[02:50:51 - 02:50:59] Sí, había dicho una compañera en el grupo que la semana que viene es la marcha universita y el jueves.
+[02:50:59 - 02:51:03] Bueno, será virtual.
+[02:51:03 - 02:51:04] Ok.
+[02:51:04 - 02:51:05] Ok.
+[02:51:05 - 02:51:07] Por ahora es presencial.
+[02:51:07 - 02:51:18] Yo voy a preguntar en la universidad si hay alguna novedad.
+[02:51:19 - 02:51:20] Ok.
+[02:51:20 - 02:51:29] Y cualquier cosa, ustedes les mando una dotita por mi portín.
+[02:51:29 - 02:51:36] Lo que sí les voy a pedir es que se vayan escribiendo el examen si es que van a ir o no.
+[02:51:36 - 02:51:39] Y les pico por qué lo hago.
+[02:51:39 - 02:51:41] El aula es bastante chica.
+[02:51:41 - 02:51:49] El otro día, cuyamos, creo que había 20 personas menos y ya éramos bastante.
+[02:51:49 - 02:51:56] Entonces, necesito pedir el aula dos semanas antes del examen para ver si voy a ampliar la o no.
+[02:51:56 - 02:52:04] Entonces, lo que les voy a pedir es que se escriban en el excel que les mandé.
+[02:52:04 - 02:52:11] Y además también para sacar la cantidad de fotocopias correctas.
+[02:52:11 - 02:52:18] No que se da, no, porque ya me ha pasado que me llevo más de 100 fotocopias a mi casa.
+[02:52:19 - 02:52:22] Porque casi todas son treos o tres copias.
+[02:52:22 - 02:52:31] Entonces, me llevo muchas copias y es que también cuidaron un poco los recursos de la universidad.
+[02:52:31 - 02:52:43] El que no está inscripto, primero voy a repartir a los que se escribieron el examen y después a los que se arrepintieron y vinieron.
+[02:52:44 - 02:52:52] Si dijeron que venían 50 y vienen 70, mandan a que esperara que me cruce y hacer las copias.
+[02:52:52 - 02:52:54] Por lo tanto, avisen.
+[02:52:54 - 02:52:59] Y si no bien, y si se avisen porque sí no vienen, me lo jodó mucho,
+[02:52:59 - 02:53:04] porque también estamos gastando recursos de la empresa de la empresa de las facultades.
+[02:53:04 - 02:53:08] Traten de anotarse si van a venir realmente.
+[02:53:09 - 02:53:15] El pido eso para el tema de la aula y de las cantidades de copias.
+[02:53:15 - 02:53:27] Voy a cerrar posiblemente el viernes, el Excel, porque tengo que pedir el aula con dos semanas de anticipación.
+[02:53:27 - 02:53:32] Y no sé si lo había conseguido pero bueno, me voy a intentar.
+[02:53:32 - 02:53:35] Eso es importante.
+[02:53:39 - 02:53:40] Estudas?
+[02:53:40 - 02:53:46] Por favor, no detengan la grabación que es algo importante.
+[02:53:46 - 02:53:50] Respecto al examen, son muchos patrones.
+[02:53:50 - 02:53:57] ¿Cuál de eso tendríamos que estudiar si o si o cuál no podían pedir aplicarlo?
+[02:53:57 - 02:54:04] Voy a poner el resumen del patrón, no necesitas estudiarlo.
+[02:54:05 - 02:54:08] O sea, no tendríamos que memorizar.
+[02:54:08 - 02:54:14] Vas a encontrar un resumen, vas a tener el resumen, espero que yo se los coloquen,
+[02:54:14 - 02:54:18] que lo tienen que tener el impreso, cada uno tiene que tener su copia,
+[02:54:18 - 02:54:22] que lo pusieron, es el que vos pusiste en el chat.
+[02:54:22 - 02:54:25] Ahí tenés todos los patrones y la estructura,
+[02:54:25 - 02:54:29] colotando de estudiarte todos los patrones, la estructura no tiene sentido,
+[02:54:29 - 02:54:31] eso tampoco me acuerdo.
+[02:54:31 - 02:54:37] Lo que sí tengo un entendimiento de lo que hace cada patron,
+[02:54:37 - 02:54:41] para que sirve cada patron, como lo pueden implementar.
+[02:54:41 - 02:54:50] La realidad es que casi siempre son los mismos, no te puedo dar una lista, ¿vale?
+[02:54:50 - 02:54:59] Porque así tiene que...
+[02:54:59 - 02:55:03] No me encame.
+[02:55:04 - 02:55:15] Si haces abstracto y el factorismo es un derivado,
+[02:55:15 - 02:55:21] ya estáías con dos, y aparte, bueno, fabricaciones, fabricadas abstractas los tenés.
+[02:55:21 - 02:55:27] El builder es muy sencillo, el prototype ya estimos hablando, plona,
+[02:55:27 - 02:55:32] y el singleton es sencillo, que nacionales deberían entrar todos,
+[02:55:32 - 02:55:40] no voy a dar las estructurales, el adaptador, el faqueight,
+[02:55:40 - 02:55:45] y el breed son muy similares, ¿vale?
+[02:55:45 - 02:55:52] El decorator entra seguramente, el que no entra, bueno, es el flyway,
+[02:55:52 - 02:55:58] que es muy complicado ahora, si ustedes lo quieren implementar, bienvenido, sea.
+[02:55:58 - 02:56:11] El compo site, a veces lo tomamos, estos entrarían todos, menos el flyway.
+[02:56:12 - 02:56:20] Me voy a las otras, son sencillos, no son nada complicados estos, comportamientos,
+[02:56:20 - 02:56:31] la avena de responsabilidad inter... inter-preteno, visitor tampoco.
+[02:56:31 - 02:56:41] Ahora eso no significa que en el examen 2 te pregunte algo de eso, ¿eh?
+[02:56:41 - 02:56:47] Ok.
+[02:56:48 - 02:57:01] En pleneto, y temples métodos tampoco, en cama que los estoy lescendo.
+[02:57:01 - 02:57:07] Esa sería un cuadro, tres por ahí.
+[02:57:07 - 02:57:19] Los demás, obviamente, entran, el vehemento, el observer, el stage son el estrategi,
+[02:57:19 - 02:57:25] y terador le dije que no, ¿no?
+[02:57:25 - 02:57:32] Es una clase que lo voy a hacer si tiraron una pila o sea que va a entrar,
+[02:57:32 - 02:57:42] puede entrar, pero no, no, ahora me entra, voy a dar un cumano.
+[02:57:42 - 02:57:48] El inter-preteno le dice que no, inter-preteno, esto.
+[02:57:48 - 02:57:53] Después van a venir el examen, te grave que me dijiste que...
+[02:57:53 - 02:57:59] Se puede ver paz, me pasa, ¿no? ¿Qué más?
+[02:57:59 - 02:58:06] Y yo otra consulta, ¿eh? ¿Viste considerando que el tiempo pasa a la velocidad de la luz
+[02:58:06 - 02:58:09] y dentro de poco va a ser el examen?
+[02:58:09 - 02:58:13] No hay posibilidad de que podamos hacer un examen tipo parcial,
+[02:58:13 - 02:58:18] más que nada para saber con qué nos vamos a enfrentar más allá de lo que vimos en la gente.
+[02:58:18 - 02:58:19] ¿Tan un pudo para esta clase?
+[02:58:19 - 02:58:25] Es el documento que yo subí del laboratorio, esos fue lo que yo tomé.
+[02:58:25 - 02:58:32] Obviamente no tomé todos los... todas las vistas, ¿eh?
+[02:58:32 - 02:58:42] Eres de cosas puntuales, pero previste, está todo detallado.
+[02:58:42 - 02:58:51] Si queréis más ejercicio, en cama que los estoy buscando,
+[02:58:51 - 02:58:57] te vas, ¿qué es la idea? ¿Qué voza a los ejercicios? ¿Dienen las contudas?
+[02:58:57 - 02:59:03] Pero no voy a estar más, ¿por qué? Se dice, 6 o 4 y le queda que ustedes lo practiquen y vengan contudas.
+[02:59:03 - 02:59:08] Por lo tanto, no sirve ya la experiencia me lo he demostrado.
+[02:59:08 - 02:59:12] Tenés un minuto. Tenés.
+[02:59:12 - 02:59:18] En el general, en la carpeta general, tenés unos 18 ejercicios modelos
+[02:59:20 - 02:59:26] para que lo voy a copiar, copiar como link, mancán, ¿eh?
+[02:59:26 - 02:59:33] Así se los paso por el canal.
+[02:59:33 - 02:59:37] Acá tenés este ejercicio, este documento que tenés ejercicios de ti
+[02:59:37 - 02:59:42] en algún momento se han tomado.
+[02:59:42 - 02:59:43] ¿Ok?
+[02:59:43 - 02:59:50] La idea que ustedes lo hagan, si queréis digamos un ejercicio completo de lo que se tomó,
+[02:59:51 - 02:59:55] el laboratorio, este es un ejercicio retomémo, que tomó en su momento,
+[02:59:55 - 02:59:59] a la cosa de un año, no es muy viejito.
+[02:59:59 - 03:00:04] Se tomó, si le creo que el año pasado, si le había pasado por el verano,
+[03:00:04 - 03:00:13] me puse a escribir el detalle de cómo hacer el ejercicio paso a paso.
+[03:00:13 - 03:00:19] Y les puse todo desde el diagrama de caso de uso, no se lo suelo tomar,
+[03:00:19 - 03:00:24] pero estieren todos, todas las listas para arrancar.
+[03:00:24 - 03:00:29] Obviamente, donde ponemos focus nosotros, en el diagrama de mi clases,
+[03:00:29 - 03:00:35] en los interacciones, se pueden ser comunicación, pero eso no significa que no te puedo tomar.
+[03:00:35 - 03:00:40] Y componentes que no te puede, que te pueda pedir despliegue,
+[03:00:40 - 03:00:45] que te dé un diagrama de estado, porque ya pasó que les pongo un diagrama de estado
+[03:00:45 - 03:00:52] para que ver cómo lo relacionan con los diagramas de clases y demás.
+[03:00:52 - 03:01:00] O a veces, como veo que si el ejercicio tiene una lógica de negocio muy complicada,
+[03:01:00 - 03:01:11] armondiagrama de actividad general, a nivel muy macro, a nivel de una nube de acción alto,
+[03:01:11 - 03:01:16] y les para que ustedes también tengan un entendimiento.
+[03:01:16 - 03:01:22] Ahora, en el segundo examen, si puedo preguntar de todo hasta parte teórica,
+[03:01:22 - 03:01:30] obviamente, eso son los diagramas más importantes para el primer examen.
+[03:01:30 - 03:01:35] Vale, vamos más, Lucas.
+[03:01:35 - 03:01:37] ¿Está grabando el Lucas?
+[03:01:37 - 03:01:38] Sí, por tanto, no.
+[03:01:38 - 03:01:41] Está grabando el estado acapiando.
+[03:01:42 - 03:01:49] No, he más que nada para poder también repasar y ver si me quedó algo así pendiente.
+[03:01:49 - 03:02:00] Lo que pasa es que la materia es incremental, o sea, lo bueno sería que ustedes ya graban,
+[03:02:00 - 03:02:11] lo tendrán que tener recontra adquirido este lo mismo con uno de las estudias matemáticas.
+[03:02:12 - 03:02:16] Bien, a análisis, yo no les puedo explicar lo que es un seno en el casena eso,
+[03:02:16 - 03:02:18] eso lo tienen que tener adquirido.
+[03:02:18 - 03:02:23] Ahora, si no lo saben, no van a proelexar, en lo mismo sucede con patrones graves.
+[03:02:23 - 03:02:31] Lo es, eso es una, hay que, tienen que repasarlo, ya lo estuvimos repasando bastante,
+[03:02:31 - 03:02:39] todas las buenas prácticas del diseño entran y se le suma bueno, patrones golf,
+[03:02:40 - 03:02:48] pero patrones golf, o sea, no sé cómo va a estar todavía no lo pensé,
+[03:02:48 - 03:02:54] le ejercí, pero puede ser que sea un problema, o que les digo,
+[03:02:54 - 03:02:57] determinado un problema de total categoría, ¿ok?
+[03:02:57 - 03:03:02] Y que ustedes definan el problema, cómo lo van a aplicar, etcétera.
+[03:03:02 - 03:03:13] Pero entra todo, ni para el parcial dos, entra todo lo que es parte teórico,
+[03:03:13 - 03:03:18] que también puede ser una práctica, es decir, te puedo decir,
+[03:03:18 - 03:03:23] bueno, de la misma ejercicia que el mismo es el armato de la grama de escliga.
+[03:03:23 - 03:03:33] Entonces, o a más, eso lo suelo, podamos, acá vamos a poner muchos focos en la grama
+[03:03:33 - 03:03:43] de clases, los de interacción, seguro, se coben sin comunicación, indistintos,
+[03:03:43 - 03:03:52] porque a mí me pasó que les dije a uno a tema A,
+[03:03:52 - 03:03:55] el diagrama de secuencia, tema B, el diagrama de comunicación,
+[03:03:55 - 03:04:01] los del tema B se volvieron locos, y es mucho más fácil el diagrama de comunicación.
+[03:04:01 - 03:04:11] Entonces, puedo pedir cualquiera de los dos.
+[03:04:11 - 03:04:26] Dudas, ¿can a alguien o nada? Bueno, los recomiendo que vayan a los canales,
+[03:04:26 - 03:04:33] solo la clase, la voy a terminar, me quedo acá un tiempo más por si tienen consultas y dudas,
+[03:04:33 - 03:04:41] estudian, ahora voy a subir los ejercicios, voy a subir los ejercicios,
+[03:04:41 - 03:04:48] el ejercicio que estimos viendo, y bueno, tenemos un por suerte, tenemos una clase más,
+[03:04:48 - 03:04:53] la idea es que esté presencial, ahora con lo que me disteeré a ustedes voy a consultar,
+[03:04:55 - 03:05:01] y hay algún problema, inconveniente, para lo que sea, se hará virtual.
+[03:05:01 - 03:05:09] Les pido que se instriban en ese excel, la idea es que tengo que pedir el aula,
+[03:05:09 - 03:05:14] necesito saber cuántos van a ir, porque si son bien en la vida,
+[03:05:14 - 03:05:18] bueno, no pido absolutamente nada, se le voy a dar previo a las que se anotan,
+[03:05:18 - 03:05:24] y los que realmente se anotan, ya no está en la responsabilidad,
+[03:05:24 - 03:05:38] obviamente, dudas consultas, algo más.
+[03:05:38 - 03:05:44] En mi parte, por ahora no, para la planta solamente quedaría practicar.
+[03:05:44 - 03:05:48] Practicar, es sin por las que practiquen también en papel,
+[03:05:48 - 03:05:54] porque eso sé que cuando uno practica en la casa usaba mucho las herramientas,
+[03:05:56 - 03:06:01] y bueno, la herramienta tiene una gilidad que no la van a tener el examen.
+[03:06:01 - 03:06:08] Entonces, mi consejo es que utilicen el papel después,
+[03:06:08 - 03:06:17] porque el examen va a ser de esta manera, y después que lo vamos a hablar de forma presencial,
+[03:06:17 - 03:06:22] para tendrirse a las locas de forma paísada, que es mucho mejor,
+[03:06:22 - 03:06:28] describanse cuáles son las buenas prácticas en una hoja,
+[03:06:28 - 03:06:32] aparte, cuando están estudiando y digan, bueno,
+[03:06:32 - 03:06:37] se tengo el patrón, el creador, por sí, simple, bueno,
+[03:06:37 - 03:06:41] lo contemplé, y este es un contenedor de este,
+[03:06:41 - 03:06:45] en ningún momento hicimos un comportamiento para crearlo.
+[03:06:46 - 03:06:51] Ahí les va a ayudar mucho eso,
+[03:06:51 - 03:06:56] escribanse las buenas prácticas de diseño,
+[03:06:56 - 03:07:00] escribanse las patrones, grab al lado y pregútense si cumple,
+[03:07:00 - 03:07:06] no, no, con las buenas prácticas del diseño, eso ayuda mucho.
+[03:07:06 - 03:07:15] Más dudas, lo que nunca los liberen y ahora antes,
+[03:07:15 - 03:07:18] yo me voy a quedar, cualquier cosa,
+[03:07:21 - 03:07:24] yo estoy acá, nos vemos la clase que viene,
+[03:07:24 - 03:07:28] si, si, por que cura, si no, por que muchas gracias.
+[03:07:28 - 03:07:31] Nos vemos, nos vemos, nos vemos,
+[03:07:31 - 03:08:39] que eran dos país.

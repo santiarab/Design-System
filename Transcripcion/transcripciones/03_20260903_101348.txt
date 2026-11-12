@@ -1,0 +1,735 @@
+# Clase 03 - Parte 2 - 2026-09-03
+Archivo de origen: Clase 03-20260903_101348-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 01:29:17
+
+---
+
+[00:02:11 - 00:02:30] Bueno, estamos. Bueno, se pasa rápido en la hora del recreo, ¿eh? Hasta. Una arranquemos.
+[00:03:31 - 00:03:37] ¿Si vieron algo de programación autójetos? Tenemos una materia dedicada a eso.
+[00:03:37 - 00:03:53] Ah, fantástico. Por lo tanto, cuando ustedes tienen alguna clase abstracta, lo que les voy a pedir es que,
+[00:03:53 - 00:04:02] ya saben, hay herramientas que ponen si es abstracta o no, vieron que hay una pequeña diferencia, se ponen como un
+[00:04:02 - 00:04:21] idálico, la palabra, es inviable poder entrar en esto. Lo que propone UML2, por cierto, no me tengo los corchetes,
+[00:04:21 - 00:04:32] es poner entre parantes y sangulares la palabra abstracta. Había uno, un alumno que me había dicho como era,
+[00:04:32 - 00:04:42] que también los cursos de acá en el video, acá, poner abstracta, ¿eh?
+[00:04:42 - 00:04:52] No me acuerdo, no me acuerdo, voy a buscar.
+[00:04:52 - 00:05:04] Me lo había enseñado con esta herramienta de español de video, sino lo que tienen que hacer es poner entre parantes
+[00:05:04 - 00:05:13] y sangulares la palabra abstracta. ¿Eh? Si están hablando de una interfaz, poner acá también interfaz.
+[00:05:13 - 00:05:34] ¿Eh? Eso sí es importante. Un minuto, voy a dejar de compartir a decir en cuenta, ahi, acá, un minuto me volvo
+[00:05:34 - 00:05:53] a compartir y por el estereotipo de la palabra abstracta, ahí aparece.
+[00:05:53 - 00:06:11] Este parante de sangulares dobles, la palabra abstracta. ¿Eh? Están dentro de cuándo estén haciendo el examen,
+[00:06:11 - 00:06:18] es importante que ustedes remarquen si es un interfaz o una clase abstracta. ¿Cuál es la diferencia entre ambas?
+[00:06:18 - 00:06:31] ¿A ver si no es con el estilo? La interfaz se dia como una especie de contrato.
+[00:06:31 - 00:06:40] ¿Eso es el efecto? ¿Eso es donde tenemos solamente todas las clas, todos los métodos declarados y nada desarrollado?
+[00:06:40 - 00:06:47] Nada, ningún método que sea desarrollado en un acoendo, ¿ok?
+[00:06:47 - 00:07:00] ¿Ninun método con un crédito, si se llama? En cambio, lo que es la abstracta, también tengo todos los métodos,
+[00:07:00 - 00:07:29] vamos a dar acá, comer, se pensó en alguno de nada diferente, el perro de verdad tomó saltar, vamos a saltar, ¿ok?
+[00:07:29 - 00:07:37] Comer y dormir posiblemente, acá tengo el código, está, porque tanto oscarro como dato, comen de la misma,
+[00:07:37 - 00:07:47] y duermen de la misma manera, ahora el salto es diferente, entonces acá no tengo solamente la declaración en lo que es animal,
+[00:07:47 - 00:08:12] pero en el contrato es alta del gato y del perro hasta acá, el código va a estar acá, no me deja caergar comentarios, ¿ok?
+[00:08:12 - 00:08:22] Entonces, estas dos son clases y son verdón métodos que están con el código, son métodos concretos,
+[00:08:22 - 00:08:36] el saltar no está solamente la declaración, y acá la entidad date y la entidad perro cada uno va a tener el método de saltar concreto,
+[00:08:36 - 00:08:59] es decir la codificación aparte, si tengo solamente todas definiciones, digo que si comer, dormir y saltar son bien diferentes,
+[00:08:59 - 00:09:17] esto lo voy a dir, y solamente tengo declaraciones, porque cada uno tiene un comportamiento tan diferente, si los métodos los voy a desarrollar en cada uno de estos,
+[00:09:17 - 00:09:30] de estas sentidades, entonces acá puedo decir que es una interfaz, no tengo ninguna clase, ningún método concreto, no tengo ningún código,
+[00:09:31 - 00:09:43] a claro, eso sí lo vamos a pedir en los diagramas de UML, ¿ok? ¿Qué es? ¿Qué es interfaz y qué es afracta?
+[00:09:43 - 00:09:59] Bueno, para bien, vamos a comenzar un poquito con lo que nos recomienda, la realidad es que no hay un proceso de cómo hacer el diseño bien,
+[00:10:01 - 00:10:15] mucho es práctica, experiencia, leer y ver bien cómo podemos aplicar todos estos buenas principios de hoy,
+[00:10:15 - 00:10:28] cómo podemos colocar por ejemplo cómo salguen a modular ya, cómo saldición de problemas, cómo aplicar cuestión, cómo aplicar un buen nivel de abstracción, etcétera,
+[00:10:28 - 00:10:44] la realidad es que no hay un método bien en concreto, lo mismo sucede con la programación, o sea uno puede programar capaz de que con una línea y hay otro que programan 10 líneas y el objetivo era el mismo, ¿ok?
+[00:10:45 - 00:11:10] Hay buenas prácticas, hay recomendaciones, pero no hay un método como en matemática del paso a paso, lo que sí tenemos un autor que nos habla mucho de lo que son frases nominales y poder detectar las clases por lo menos la del dominio a través de lo que se aman frases nominales,
+[00:11:11 - 00:11:35] frases nominales vienen, vienen de un concepto de lengua y literatura donde habla que las frases nominal, donde los más importantes de una oración es en sustantivo, por lo tanto lo que nos recomienda justamente el arma es empezar a detectar frases nominales, ¿ok?
+[00:11:36 - 00:11:47] Si una detecta los sustantivos más importantes de esas frases nominales, bueno posiblemente esos sustantivos se vean reflejados como clases candidatas, ¿ok?
+[00:11:47 - 00:12:05] Ahí me van siguiendo, por lo tanto pueden trabajar con una especificación, acá les voy a dejar después una especificación, esa es lo similar como uno a los ejercicios, detectar las frases nominales,
+[00:12:05 - 00:12:27] son los sentidos más importantes y poder detectar las clases candidatas, si estoy trabajando y con historias de usuarios va a ser muy concreto, porque no tengo mucho nivel de detalle, voy a tener que aplicar un poco la experiencia para detectar esas clases candidatas.
+[00:12:27 - 00:12:48] Estoy trabajando con historias de usuario, ahí tengo mucho material, mucho artefacto de entrada para hacer el anánel diseño que proviene el análisis, entonces también puedo trabajar, entonces vamos a hacer un ejercicio simulano justamente a ver trabajado, comenzar a trabajar con casos de uso, ¿ok?
+[00:12:48 - 00:13:38] Porque en las historias de usuario me tengo que hacer mucho la experiencia, puedo detectar algunas pero no todas, entonces lo que se suiría hacer es utilizar frases nominales, lo que voy a hacer es con amarillitos, voy a detectar o civiles las escandidas, pues tenemos cerdo también importante que vamos a encontrar algunos otros sustantivos, pero que no nos parece que sean clases candidatas.
+[00:13:38 - 00:14:11] Estamos en la duda, entonces con verde voy a marcar los adelutos, posibles adributos, obviamente siempre candidatos, civiles adributos que sean candidatos, y a lo que es fundamental y están en los principios del buen diseño, que sea completo, no la pusiera cálode a por la casa,
+[00:14:11 - 00:14:44] que significa que sea completo y que a nivel funcional tenga toda la que sea realmente completo, y yo estoy haciendo la aplicación del gimnasio y me olvido el profesor y la realidad es que justo del profesor que es el que va a estimular a que los alumnos lo usen y lo va a dejar de usar.
+[00:14:45 - 00:14:52] Por lo tanto que sea completo es importante y forma es uno de las adributos principales de la calidad.
+[00:14:52 - 00:15:04] Cuando estoy tomando exámenos una de las cosas que me fijó es que las funcionalidades que estén detalladas estén dentro del modelo que ustedes hayan planteado como solucionos,
+[00:15:04 - 00:15:33] por lo tanto que sea completo es importante, como podemos detectarlo y mediante los verbos, vamos a poner azul, voy a detectar algunos verbos que posiblemente sean comportamientos que después se van a ir reflejados en métodos en programación, entonces puse azul, ¿cómo es que azul posee, no?
+[00:15:34 - 00:16:02] Me va a atachar todo, me importa, y este es amarizo, esta es la verdad, acá este lo voy a llamar a amarizo, ¿verdad?
+[00:16:08 - 00:16:28] Si están en un momento del exámen, donde yo se concejo, donde no saben por dónde están, o están mareados, organizanse, empiezan a hacer cosas básicas, vuelvan al inicio, empiezan a analizar, yo les voy a dar los casos de uso pero si lo veo una especificación bastante amplia,
+[00:16:29 - 00:16:48] se enveban a poder detectar clases de calidad, tasas de dibujos y comportamientos para cumplir con las buenas prácticas del diseño, entonces está ahí empiezan y digo, empiezan a leer y empiezan a detectar y voy a describiendo cuáles son las clases que se den atributos y que se veía comportamiento,
+[00:16:49 - 00:17:15] ahora se me van a ver sus mis trabajos y me van vestiendo, yo voy a irles en los que les me dicen si lo pinta de amarillo verde o azul, sociengrisa la sección de pagos, el sistema muestre el estado de cuentas socios y el monta a pagar más la diferente, forma de pago, selecciona la pasión, para pagar.
+[00:17:15 - 00:17:50] Pago también a amarillo, muy bien, tienes alo, el tranco y lucras, y lucras, después el estado de la cuenta parea ser atributo de socios y monta a pagar de pago, van a ver, me dijeron socios y que más pago, forma de pago donde está, diga, si me siempre paso, forma de pago, si me paso,
+[00:17:50 - 00:18:19] ingresa un verbo, obviamente yo acabo y amarcaso, solamente el verbo cuando ustedes estén en el examen, no es ingresa, ingresa pago, como para darle mayor nivel de entendimiento de lo que hace este comportamiento o ese método, pero acá no voy a pasar a pintar también pago de azul porque si no va a ser pulido, cuando ustedes lo trajan,
+[00:18:20 - 00:18:49] pasen al diagrama de clase, luego lo voy a remarcar, ponen ingresar pago, muy bien, el sistema muestre el estado, monta lo que es el atributo, vamos a poner al atributo, y el estado de la cuenta de en el paso, vamos a ponerlo, con tu conocimiento,
+[00:18:49 - 00:19:09] decir que así la idea es que cuando termines de verbo siga posiblemente es de una clase, si es que se pone con matrimonio, tienes que trae, como quedas claro, esto, la palabra muestra como verbo en el paso 2,
+[00:19:09 - 00:19:24] está bien, no vamos a lo vamos a colo, pero ahora lo marcamos, marquemos siempre porque yo lo voy a hacer,
+[00:19:24 - 00:19:37] la palabra de cláster, le vamos a dar un nombre un poco más acorde a lo que haga, de volver, después no sé, vemos una cosa, ¿qué más?
+[00:19:37 - 00:19:47] pero ahora lo marcamos, marcemos siempre porque yo lo que necesito es que una de las adributas fundamentales es que sea completo, ¿qué más?
+[00:19:47 - 00:20:01] el seleccionad el paso 3 podría ser un comportamiento también, ¿vale? vamos a ver con nombre, en el paso 4 muestra opciones como verbo,
+[00:20:01 - 00:20:16] la otra también ya, la estamos todos muestras, ¿vale? después es como que te da valde, ¿qué no? después un seleccionad de vuelta en el paso 5,
+[00:20:16 - 00:20:27] vamos a ver los vergos así no me confunden con los colores, ¿vale? el seleccionad, o sea, todos veres, es perfecto, en el paso 5 está calcura,
+[00:20:27 - 00:20:38] lo que pasa que son diferentes comportamientos, uno es para definir lo que es la categoría de qué es lo que quiero pagar,
+[00:20:38 - 00:21:03] calcular monta, calcular monta, calcular monta, el paso 8 realiza, paso 9 registra,
+[00:21:05 - 00:21:16] bueno, si bien están estas vergos y ustedes lo van a dar un nombre un poco más acorde para entender el modelo del negocio, ¿qué más?
+[00:21:16 - 00:21:19] no sé, ¿qué más? ¿qué más? ¿qué más? ¿qué más?
+[00:21:19 - 00:21:29] el sí que más le ha creado, crear comprobante de pago y tener toda la lógica de cómo va bueno para dar un comprobante de pago y tener que capturar
+[00:21:29 - 00:21:39] posiblemente datos de otros o que alguien me pase datos para ir armando el o no, ¿no? pero por lo menos lo voy marcando porque lo tengo que tener,
+[00:21:39 - 00:21:48] sí un poco con los vergos con el flujo alternativo y después pasamos con la más sinparta de que son las clases,
+[00:21:48 - 00:22:00] sí, cancelar, bueno, bueno, cancelar, no es algo que es tan importante en el en el escenio, ¿ok?
+[00:22:00 - 00:22:09] Asumo este tipo de comportamientos, pero no son triviales el programador solo lo va a poder estar, ¿ok?
+[00:22:09 - 00:22:19] yo voy a modelar porque si no voy a estar aquí están nos modelando, yo voy a modelar lo que para mí es muy complicado y que quiero transmitirse lo
+[00:22:19 - 00:22:33] porque quiero transmitirle la complejidad al programador, imagínense que estamos haciendo una casa, el arquitecto hace planos determinados,
+[00:22:33 - 00:22:44] ahora no va a estar escribiendo cómo hacer la mezcla de cemento, estoy lleno un poco exagerado pero no importa, ¿cómo va a ser la mezcla del cemento?
+[00:22:44 - 00:22:57] eso lo va a hacer directamente la albanía, lo voy a decir en el maestro Mayor de obra y acá pasa exactamente algo similar,
+[00:22:57 - 00:23:10] yo tengo que tener en el diseño las cosas más importantes para transmitir, si voy a transmitir por ejemplo una VM para dar de alta el profesor
+[00:23:10 - 00:23:20] y la realidad es que no es tan importante, hoy el día los ADMs hasta ahí herramientas si los hacen en forma automática, ¿ok?
+[00:23:20 - 00:23:30] entonces no voy a modelar todos los ADMs o a armar una solución con todas las clases para hacer todos los ADMs de dar de alta el profesor o dar de alta las clases,
+[00:23:30 - 00:23:45] de eso ya voy a tener si me parece importante dentro del diseño reflejar las cosas, las funcionalidades importantes o críticas que no me puedo olvidar como por ejemplo hacer una reserva de la clase,
+[00:23:45 - 00:23:55] me van siguiendo, hoy voy a marcar, es importante que logram tener esto si no no va a llevar el casato también en el tiempo y tener la capacidad de ustedes de poder decir que es importante y que no forma parte también del
+[00:23:55 - 00:24:10] de la armar no, del armar un buen arquitecto de software, por lo tanto ustedes tienen que ir haciendo el ejercicio, sigo
+[00:24:12 - 00:24:26] en el paso 5.2 ingresa datos, en el 5.1 o 5.12, el 5.2 donde dice el socio ingresa datos
+[00:24:27 - 00:24:47] y hay un estamento de tributos, ahora vamos con los atributos pero 5.3 valida, 5.2 o 5.2, acá ya está, y les espero que lo damos para dar
+[00:24:48 - 00:24:55] un poco de la serie como para dar algo de la serie, no voy a hacer nada pero en lo que sí yo puedo hacer una funcionalidad,
+[00:24:55 - 00:25:06] si no tengo respuesta en el en 0,5, segundo y bueno cancelo todo, entonces lo contemplo de ese lado,
+[00:25:06 - 00:25:16] no porque voy a decir voy a hacer un método y se espera respuesta, sino porque la lógica voy a colocar lo me parece importante,
+[00:25:19 - 00:25:33] vamos vuelta con la marifitón, la escandida de datos, me van diciendo, la promoción en el paso 4,
+[00:25:33 - 00:25:42] más que la promoción se vería en las opciones de pago, las marcamos nosotros y vemos después,
+[00:25:42 - 00:26:02] si, si, si, parece, la cuota, entre eso, ¿qué va?
+[00:26:02 - 00:26:24] el el paso 5 la transferencia, comprobante pago en el serie 8, o el pago, lo sumo,
+[00:26:25 - 00:26:38] o el pago, vemos, se puede comprobar en el pago, así ya,
+[00:26:38 - 00:26:42] pero el paso 1 ya habíamos marcado el pago,
+[00:26:42 - 00:26:46] si, si, lo marcaste en el importa,
+[00:26:46 - 00:26:59] y la confirmación, acá también lo marcamos, ¿cuál es la confirmación en el paso 10?
+[00:27:00 - 00:27:14] bueno vamos a macarlo, además, acá me te describe la evaluación separada de la importancia,
+[00:27:14 - 00:27:29] digamos, bueno, ¿sósi ya lo habíamos dicho? ¿Prescubrán el deseo?
+[00:27:29 - 00:27:42] la tarjeta, vamos a macarlo, vemos, ahora bien, vamos a ir con los atributos,
+[00:27:42 - 00:27:47] y voy a empezar lo que dijo, no sé quién dijo tarjeta, pero está bien, ¿no?
+[00:27:48 - 00:27:56] ahora, ¿por qué asumo que la tarjeta de crédito es una clase y no es un atributo?
+[00:27:56 - 00:28:01] ¿qué pensaste? ¿qué fue lo que pensaste en ese momento para definirme eso?
+[00:28:01 - 00:28:10] porque tienes diferentes componentes, como por ejemplo el número de tarjeta o el nombre,
+[00:28:10 - 00:28:18] entonces es una muy buena pregunta para hacerte, o sea, esta entidad componente de la tarjeta,
+[00:28:19 - 00:28:28] es un dato único o puede contener varias cosas, si se puede contener varias cosas y posiblemente tenga que sea una clase.
+[00:28:28 - 00:28:32] y además también, sí, decime.
+[00:28:32 - 00:28:37] además también está lo de que para ir lo vamos a usar de vuelta,
+[00:28:37 - 00:28:41] o sea, si alguien pago contra el jefe de crédito, para ir después vuelve a pagar contra el jefe de crédito,
+[00:28:41 - 00:28:44] entonces comienes guardarlo de alguna manera.
+[00:28:45 - 00:28:51] bueno sí, ahí, férrico de mano, ¿cómo te llamas?
+[00:28:51 - 00:28:53] férrico.
+[00:28:53 - 00:29:06] férrico, acércone, porque creo que les dije que el team algunos les pone el apellido antes y después el nombre que le pone el nombre después el apellido,
+[00:29:07 - 00:29:09] es decir, me confundir con un alumno.
+[00:29:09 - 00:29:16] es cierto y además lo que vos me estás diciendo con lo que voy a ver,
+[00:29:16 - 00:29:26] o sea, tiene algo que lo voy a usar, ya hablaste mucho del uso, lo que yo voy a remarcar en eso es justamente la capacidad que tiene,
+[00:29:26 - 00:29:34] ese objeto de tener comportamiento, entonces tiene una comportamiento,
+[00:29:34 - 00:29:40] si una forma de, digamos, tiene un código totalmente la transferencia,
+[00:29:40 - 00:29:44] un código totalmente diferente, lo que va a tener por ejemplo,
+[00:29:44 - 00:29:49] mercamopado, me voy a conectar a cosas diferentes, voy a esperar respuesta diferente,
+[00:29:49 - 00:29:56] voy a enviar datos diferentes, entonces como el comportamiento es tan diferente,
+[00:29:56 - 00:30:02] lo puedo pensar que son clases y que es clases y las voy a separar.
+[00:30:03 - 00:30:10] Recuerden, porque si bien ustedes vienen de base de datos y está buenísimo y uno piensa algo,
+[00:30:10 - 00:30:20] pero en una social las clases con una tabla, les pasa mucho eso,
+[00:30:20 - 00:30:29] acá hay mucho comportamiento, entonces puede ser que tenga una clase con casi nada de atributos,
+[00:30:30 - 00:30:35] o uno, dos, o cero, atributo, como puede ser un controlador o las interfaces,
+[00:30:35 - 00:30:39] que hay muchas interfaces que prácticamente no tienen atributos,
+[00:30:39 - 00:30:48] pero tienen tanto comportamiento a meritanzas clases, ¿vale?
+[00:30:48 - 00:30:54] Si vamos, estábamos con que con atributos o con clases,
+[00:30:54 - 00:31:05] las atributos, bueno, si vamos ustedes me van a ir diciendo,
+[00:31:05 - 00:31:11] bien como atributos, podríamos poner ahí viendo rápido, no estoy yo en el orden, ¿no?
+[00:31:11 - 00:31:14] En un auditivo, sí.
+[00:31:14 - 00:31:17] En un ocato.
+[00:31:17 - 00:31:19] En un cáncate minuto, Cérico.
+[00:31:19 - 00:31:20] Sí.
+[00:31:20 - 00:31:26] Cérico Manuel, ¿no?
+[00:31:26 - 00:31:27] Sí.
+[00:31:27 - 00:31:31] Sí, de cine.
+[00:31:33 - 00:31:36] Que iba a decir que no le estaba viendo en el otro lado,
+[00:31:36 - 00:31:41] por eso me iba a agarrar rápido ahí, pero bueno, lo que había hablado es la moscas de la tarjeta de crédito,
+[00:31:41 - 00:31:46] que en el 5 a 2 te dice los atributos, dice número de ney, nombre completo, fecha de cincuenta.
+[00:31:46 - 00:31:47] ¿No marcamos?
+[00:31:47 - 00:31:48] Claro.
+[00:31:48 - 00:31:51] Después de última vemos, ¿vale?
+[00:31:51 - 00:32:00] Porque recuerden, así, lo tengo que buscar, lo tengo que buscar.
+[00:32:00 - 00:32:18] O sea, ese diseño es, y te ha tenido que intentar,
+[00:32:18 - 00:32:23] protectar algo después, si hubo este remadriuto, no, mejor lo voy a manejar como clase, ¿OK?
+[00:32:23 - 00:32:26] Estoy bajando ese nivel de astracción.
+[00:32:26 - 00:32:35] He quitado mucho para que también basan corporando cautelario y hablo con todos los vídeos, ¿OK?
+[00:32:35 - 00:32:37] ¿Qué va?
+[00:32:37 - 00:32:40] Y ese, Cérico. ¿O alguien más que quiere aportar?
+[00:32:40 - 00:32:44] La cantidad de meses en el paso sísco de flujo principal.
+[00:32:44 - 00:32:46] ¿Un nombre?
+[00:32:46 - 00:32:48] Lucas.
+[00:32:48 - 00:32:50] Lucas que...
+[00:32:50 - 00:32:52] El Lucas, el nombre.
+[00:32:52 - 00:32:53] Lucas, el nombre.
+[00:32:53 - 00:32:54] El nombre.
+[00:32:54 - 00:32:55] Lucas, el nombre.
+[00:32:55 - 00:32:56] Lucas es mi nombre.
+[00:32:56 - 00:33:00] Sí.
+[00:33:00 - 00:33:03] Bueno, Lucas, ¿qué marcamos?
+[00:33:04 - 00:33:10] En el paso cinco del flujo principal, los meses como atributos.
+[00:33:10 - 00:33:21] Bueno, vamos a marcar, ¿no?
+[00:33:21 - 00:33:23] Se ve igual y en el 6.
+[00:33:23 - 00:33:24] En el 6.
+[00:33:24 - 00:33:27] Hay varias opciones de pago, opciones esta.
+[00:33:27 - 00:33:39] Manescaría, ¿qué opciones de pago, ver, consulte a la base de datos, pasámenlas con las opciones de pago, o sea, tiene comportamiento opción de pago, ¿no?
+[00:33:39 - 00:33:43] ¿Qué sería entonces?
+[00:33:43 - 00:33:47] ¿Cómo lo podría armar?
+[00:33:47 - 00:33:52] Imagín, imagínense que están en el 1940.
+[00:33:52 - 00:33:55] Están trabajados en un gimnasio.
+[00:33:55 - 00:33:57] No, obviamente no hay sistemas.
+[00:33:57 - 00:34:06] Tiene la secretaria y está con una carpeta y el jefe le dice, el dueño le dice,
+[00:34:07 - 00:34:16] Ah, y acá te paso todas las opciones de pago del 2026 y le pasa una moja, una hojita y le dice, ¿ven?
+[00:34:16 - 00:34:25] 2009, 40, es el primero de enero a todo el año vamos a tener cuatro opciones de pago.
+[00:34:25 - 00:34:33] Option 1, tal, opción 2, tal, opción 3, 4, opción 4, tal.
+[00:34:34 - 00:34:55] El dueño va a decir, sacado por una opción, sacado o modificala, en vez de un 10% podemos estar, y le comportamiento.
+[00:34:55 - 00:35:02] Por lo tanto, opciones de pago, yo también la pondría como una clase. Me van siguiendo.
+[00:35:04 - 00:35:11] Y hereda podría ser que eres de transferencia, de credito como que haría ciertos arributos de la clase.
+[00:35:11 - 00:35:20] Y opción de pago, hablo de promoción, es un mes al arcanual, lo que volve a decir es forma de pago.
+[00:35:20 - 00:35:23] Rodríguez, no? Rodríguez.
+[00:35:23 - 00:35:35] Perfecto. Está muy en el comentario porque parece en similar que son todas todas cosas totalmente diferentes.
+[00:35:35 - 00:35:42] Después, está ser mi inserición de 1940, porque ya más sé que no, Rodríguez.
+[00:35:42 - 00:35:46] Rodríguez, son dos aprecios, Rodríguez, fens que acceden.
+[00:35:46 - 00:35:48] Rodríguez, acceden.
+[00:35:48 - 00:35:55] Está muy en lo que nos aumenta, porque se vive pensando que está ser el 1949,
+[00:35:55 - 00:36:00] y obviamente las formas de pago pueden ser que se paguen con un pagaré,
+[00:36:00 - 00:36:04] entonces eso que soy el jefe, te digo, bueno, las formas de pago de ir,
+[00:36:04 - 00:36:18] obviamente, marcado, pago, nafistía, entonces te digo, pagaré, un trueque, efectivo.
+[00:36:18 - 00:36:24] No sé si efectivo.
+[00:36:25 - 00:36:34] Entonces, esos opciones de pago, después cada pago va a tener su método, ¿no?
+[00:36:34 - 00:36:41] Después, haremos el concreto, pero lo sé, estoy lo dando, tengo esa hojita con toda la una,
+[00:36:41 - 00:36:44] las formas de pago, las for, las opciones de pago.
+[00:36:44 - 00:36:53] Lo que yo quiero sería opciones de pago, no sé si opciones de pago, sería opciones de promoción.
+[00:36:54 - 00:36:57] Después vamos a buscar un nombre más acorde, ¿ok?
+[00:36:57 - 00:37:00] Pero accedenme en tánlistas, así que vamos, ya.
+[00:37:00 - 00:37:02] Sí, sí, sí, promoción de pago, algo así.
+[00:37:02 - 00:37:04] Yo podría ver así, sí, sí, sí, sí.
+[00:37:04 - 00:37:06] Bueno, ¿qué más?
+[00:37:06 - 00:37:11] En el paso de nuevo, no parece escrita, pero se va a entender como que el pago tiene un estado.
+[00:37:11 - 00:37:40] Entonces tengo estado de pago, y he estado de pago que lo que, como lo trataría?
+[00:37:40 - 00:37:44] Bueno, tú lo he charlado antes, en una clase.
+[00:37:46 - 00:37:52] En una clase por lo menos clase de audíudos, ¿cómo estar tienen que estar? ¿ok?
+[00:37:52 - 00:37:58] Me aguarda en un minuto.
+[00:37:58 - 00:38:24] Bueno, disculpe, ¿dónde estaba el estado acá?
+[00:38:24 - 00:38:26] ¿Dónde está el estado de pago?
+[00:38:26 - 00:38:38] Después, obviamente, el estado de pago tengo diferentes estados, y uno de los estados puede ser pendiente,
+[00:38:39 - 00:38:43] y la ha probado, cancelado, ¿ok?
+[00:38:43 - 00:38:50] Ahora lo vamos a ver en el de ahora un estado. ¿qué más?
+[00:38:50 - 00:38:55] Monto total profe que tiene mucho impuesto en el 6.
+[00:38:55 - 00:39:03] ¿Cómo lo trataría a esto?
+[00:39:03 - 00:39:05] Y yo lo trataría como...
+[00:39:05 - 00:39:10] Alcúlalo con una clase que tiene como atributos, monto, impuesto.
+[00:39:14 - 00:39:23] Entonces, ¿cómo si?
+[00:39:23 - 00:39:31] Si, yo no lo llamaría esa clase monta, aguardarme que estoy pensando.
+[00:39:31 - 00:39:35] O por lo menos era parte de pago, lo más haría más impuesto.
+[00:39:35 - 00:39:43] No podías estar dentro de factura que te muestra ahí todo el mundo, y yo al impuesto que, cuando la vamos a generar la factura,
+[00:39:43 - 00:39:45] que en un momento estaba tendrías.
+[00:39:46 - 00:39:55] Dentro de la factura o de pago, en el pago total, yo tendría para mí el atributo monto de lo que sale,
+[00:39:55 - 00:39:59] pero sí tendría una clase para calcular todo lo que es el impuesto. ¿Por qué?
+[00:39:59 - 00:40:04] Porque el impuesto, si que en acá se ha dado muy sencillo,
+[00:40:04 - 00:40:15] todos vamos a pagar el 21% de IBA, etcétera, algo bastante fácil de calcular,
+[00:40:15 - 00:40:21] pero en este caso, la realidad es que puede haber que impuesto se ataran complejo,
+[00:40:21 - 00:40:31] que lo vaya a separar de la clase de pago, para tratar de sacoplar la funcionalidad que no le corresponde.
+[00:40:31 - 00:40:36] Entonces, gestiono todo lo que es el control de impuestos,
+[00:40:36 - 00:40:40] en una clase aparte, en una clase que voy a tener que armar,
+[00:40:41 - 00:40:46] y cuando veamos clas e-grapes, le vamos a dar un nombre a eso,
+[00:40:46 - 00:40:49] la fabricación pura.
+[00:40:49 - 00:40:55] Esa es una fabricación pura, voy a armar una clase artificial para él,
+[00:40:55 - 00:41:03] está a complar esa complejidad técnica, es decir, tratar de hacer que pago sea lo más cohesivo
+[00:41:03 - 00:41:06] y impuestos a tratar de saco y sacoplarlo.
+[00:41:06 - 00:41:11] Por lo tanto, acá voy a tomar una decisión más evidente,
+[00:41:11 - 00:41:19] que voy a decir que impuesto, le voy a ser poniendo como una clase para poder
+[00:41:19 - 00:41:24] tener todo el comportamiento de calcular el impuesto totalmente separado,
+[00:41:24 - 00:41:31] siempre hablamos de conceptos de separación y compensación modeldaridad que se había atómico,
+[00:41:32 - 00:41:33] y que más?
+[00:41:33 - 00:41:38] Muestra datos se ve justo lo habíamos marcado como atributo, ¿no?
+[00:41:38 - 00:41:44] Sí, el FEM, y danco, ¿puedes ser un atributo de pago?
+[00:41:44 - 00:41:55] Bueno, ahí está buena la pregunta tuya, porque todo va a depender también,
+[00:41:55 - 00:42:01] y la realidad es que solo lo que haría es manejar una clase, ¿ok?
+[00:42:02 - 00:42:07] Pero está muy buena la pregunta tuya, porque se voy a decir depende,
+[00:42:07 - 00:42:15] y en vissenes pasar siempre un depender, porque si yo estoy trabajando suponete con
+[00:42:15 - 00:42:23] una bancaria o algo y bueno, capaz que van, que voy a tener como clase.
+[00:42:23 - 00:42:30] Ahora, si solamente quiero escribir un dato que no sea tan significativo,
+[00:42:30 - 00:42:36] por ejemplo, estoy en una página HTML, quiero subir que banco y no tengo opciones,
+[00:42:36 - 00:42:41] los escribo yo a mano y puede ser, puede ser que sea un atributo, ¿ok?
+[00:42:41 - 00:42:45] Ahora, cuando usted está singresando en un HTML y ponés por ejemplo,
+[00:42:45 - 00:42:50] bancos superlí, obviamente eso viaja como un atributo, no desde el HTML,
+[00:42:50 - 00:42:55] y después se, eso se tiene que transformar en una clase,
+[00:42:56 - 00:43:03] es un banco, ¿qué tiene el banco? Y bueno, banco puede acceder a un ejecutivo de cuentas,
+[00:43:03 - 00:43:09] y si me brinda mayor funcionalidad, lo sé para, ¿ok?
+[00:43:09 - 00:43:16] Si no me brinda funcionalidad lo dejo, si estoy trabajando con algo muy sencillo,
+[00:43:16 - 00:43:21] el banco, no es muy significativo en mi negocio, lo dejo como un atributo.
+[00:43:22 - 00:43:29] Ahora, es muy significativo y yo voy a acceder a cosas del banco y bueno,
+[00:43:29 - 00:43:35] lo puedo manejar a la parte, ¿ok? Entonces ahí usted tiene que discernir también
+[00:43:35 - 00:43:41] una cosa a la otra, yo soy bastante extremista donde me gusta que esté todo bastante atomizado,
+[00:43:41 - 00:43:46] por lo tanto si me vas a preguntar si lo haría como una clase, que contenga una tri,
+[00:43:46 - 00:43:50] que un objeto contenga una clase que va a ser el banco superbir,
+[00:43:51 - 00:43:55] pero va a ser otra clase, me va siguiendo,
+[00:43:55 - 00:44:00] pero lo puedes manejar en este ejercicio simple, puedes al tranquilamente un atributo.
+[00:44:00 - 00:44:07] Si yo lo pensaba como que lo guardé como un string, por ejemplo,
+[00:44:07 - 00:44:12] porque no la te interesa mucho, la infa del banco, maquilón, ¿qué?
+[00:44:12 - 00:44:18] Lo me interesa, pero imagínate que, decir bueno, ¿sabes que yo también puedo hacer
+[00:44:18 - 00:44:27] mi sistema de evoluciones, ¿ok? Y cada banco tiene algún comportamiento diferente,
+[00:44:27 - 00:44:30] o algunos los tengo que llamar, tengo que llamar el ejecutivo de cuenta,
+[00:44:30 - 00:44:35] tengo que hacer algún proceso humano y ya hay, y bueno, ¿sabes que?
+[00:44:35 - 00:44:40] Si bien te llegó como un atributo, vuelvo a decir como tu atributo de tu página HTML,
+[00:44:40 - 00:44:47] ahí va a tener que ser una opción y va a ser posiblemente una clase.
+[00:44:47 - 00:44:52] Tienen que tener esa capacidad de discernir. Ahora, si yo solamente
+[00:44:52 - 00:45:01] en un comercio chiquito, y lo único que hago es decirlo como para informarlo
+[00:45:01 - 00:45:07] y lo dejo como un atributo, ¿ok? Si ahora estoy manejando como el ejemplo que te digres
+[00:45:07 - 00:45:15] y tengo que también manejar de evoluciones, porque le di a la sociedad y una semana,
+[00:45:15 - 00:45:23] si no te vuelvo la diferencia, y bueno, ahí ya, si lo tengo como una atributa en algún
+[00:45:23 - 00:45:29] momento que está posiblemente lo perdí algo, manejo una clase y después manejo
+[00:45:29 - 00:45:34] también el comportamiento para poder hacerlo, tendría que manejarlo aparte.
+[00:45:34 - 00:45:40] El nivel de atomicidad va a depender también de tus reglas del negocio, está bueno esto.
+[00:45:40 - 00:45:45] Y ustedes ahí van a tener que el examen, va a tener que decir bueno hasta donde llego,
+[00:45:45 - 00:45:51] hasta donde voy, está muy bueno que se haya armado este debate.
+[00:45:51 - 00:46:07] Seguimos, seguimos, bueno, esto obviamente tengo que reflejar en mi diagrama de clase.
+[00:46:07 - 00:46:23] Este lo borro, ahorro porque porque estoy agregando dentro de mi modelo,
+[00:46:23 - 00:46:28] que eran todos elementos que no pertenecen a esto.
+[00:46:28 - 00:46:33] Ahora no se los voy agorrar por después y los voy a subir para que ustedes lo vean también.
+[00:46:35 - 00:46:45] Estén en el main, el main o diagrama de clase principal.
+[00:46:45 - 00:47:13] Vamos, un minitito, área de trabajo, el toolbox va a ir cambiando,
+[00:47:13 - 00:47:16] ahí tengo las clases y empiezo.
+[00:47:16 - 00:47:27] Hoy, obviamente estamos con un diagrama de dominio y básico y siempre se dice que los actores
+[00:47:27 - 00:47:34] se van a haber reflejados como una clase dentro del diagrama de clase.
+[00:47:34 - 00:47:43] Hoy en este ejercicio, en el ejercicio del gimnasio y la realidad que el socio es importante.
+[00:47:43 - 00:47:53] Por lo tanto, va a ser una entidad, no siempre se da que los actores están reflejados
+[00:47:53 - 00:47:55] en el diagrama de clase.
+[00:47:55 - 00:48:05] Quiero evaluar y realmente es importante emerece objeto dentro de la solución.
+[00:48:05 - 00:48:15] En este caso, socio, sí.
+[00:48:15 - 00:48:23] Acá es que el candadito y cuando dejo el candadito apenas con un enter,
+[00:48:23 - 00:48:30] pone varios elementos de lo que tenías creccionado.
+[00:48:30 - 00:48:34] Por ejemplo, pongo acá, tengo el candadito, uno, dos, tres, a ver, son todos.
+[00:48:34 - 00:48:36] Eso fue lo que sucedió recién.
+[00:48:36 - 00:48:38] Acá el candadito y no.
+[00:48:38 - 00:48:40] Bueno, tengo socios, ¿qué más?
+[00:48:40 - 00:48:45] Aduz. Vamos a escribir, vamos a ponerlo.
+[00:48:45 - 00:48:53] Después voy ordenando, pago, forma de pago.
+[00:48:53 - 00:49:05] ¿No? ¿Están ahí o se cortó?
+[00:49:05 - 00:49:07] Sí, sí, estamos aquí.
+[00:49:07 - 00:49:08] Pues ¿cuánto?
+[00:49:08 - 00:49:10] Yo. ¿Eh?
+[00:49:10 - 00:49:14] Entre el paso y se cuota.
+[00:49:14 - 00:49:17] Bueno, bueno, la cuota.
+[00:49:17 - 00:49:19] Las opciones en el paso cuatro.
+[00:49:19 - 00:49:28] Sí, pensando.
+[00:49:28 - 00:49:36] Máncamos, no tengo opciones.
+[00:49:36 - 00:49:43] ¿Tienes que buscar un lino de nombre, opciones de pago?
+[00:49:43 - 00:49:46] No me sale el nombre.
+[00:49:46 - 00:49:47] ¿Me he todo?
+[00:49:52 - 00:49:57] ¿Por qué opciones de pago podría ser considerado como una clase?
+[00:49:57 - 00:50:03] O sea, sé que tiene muchas opciones, pero siempre es como un solo tributo.
+[00:50:03 - 00:50:06] Una tributo que tiene de varias opciones, o sea, varias.
+[00:50:06 - 00:50:08] Ahora lo veremos.
+[00:50:08 - 00:50:09] Báncame, opciones.
+[00:50:09 - 00:50:14] Voy a poner opciones o promociones.
+[00:50:14 - 00:50:17] Promociones voy a manejar.
+[00:50:17 - 00:50:24] Para no confundirme con las formas de pago.
+[00:50:24 - 00:50:29] Volvo a lo que hice el ejemplo del 1940.
+[00:50:29 - 00:50:33] Imagínate que no tenés un sistema.
+[00:50:33 - 00:50:39] Y la realidad es que viene una secretaria después a los dos días, viene otra, viene otra.
+[00:50:39 - 00:50:48] Y yo tengo que lograrte tener en el escritorio toda la información de qué promociones hay activas,
+[00:50:48 - 00:50:55] las formas de pago, para que cualquiera que ve vaya tenga toda la información, porque no tengo sistemas.
+[00:50:55 - 00:51:05] Entonces, hacerme una ojita que dice forma de promociones y tenés promoción de una cuota.
+[00:51:05 - 00:51:11] Sí sería promoción, no promoción esperado lo modifico.
+[00:51:11 - 00:51:23] En tres cuotas, otro, en cuatro, había puesto pago anual, serían dos cuotas.
+[00:51:23 - 00:51:29] Entonces tengo digamos comportamiento.
+[00:51:29 - 00:51:39] Pues si fue, preso un atributo, también, pero yo voy a tener su oponente al dueño con Cámen.
+[00:51:39 - 00:51:43] Quiero armarte la idea.
+[00:51:43 - 00:51:48] Pero en el dueño, ese dueño va a decir, voy a entrar en mi sistema y voy a hacer un HTML.
+[00:51:48 - 00:51:53] Tengo el HTML, tengo la pantalla.
+[00:51:53 - 00:52:04] Y no te digo, voy a crear todas las promociones y voy a crear promoción una cuota.
+[00:52:04 - 00:52:10] Y le doy antes. Bueno, qué locatura, este.
+[00:52:10 - 00:52:19] Después, socio, me va a decir, bueno, qué pró… qué pagaste.
+[00:52:19 - 00:52:28] Y ahí sí, vas a tener otro HTML, otro HTML que yo voy a decir, qué es lo que quiero pagar.
+[00:52:28 - 00:52:32] Voy a seleccionar y voy a seleccionar que pago el anual.
+[00:52:35 - 00:52:42] Pago el anual. Esto viaja, sí, obviamente, como un atributo, por así decirlo.
+[00:52:42 - 00:52:47] Es como lo que yo les dije, vean un poco de HTML en Cámen.
+[00:52:47 - 00:52:54] Porque yo quiero empezar a relacionarte más, por eso voy a ir lado para el otro.
+[00:52:54 - 00:52:57] Disculpen que sea tan… pues acá la se cuesta en el.
+[00:53:07 - 00:53:20] Vancamos un minutito. Bueno, el HTML, pues tenías el form, no sé si te acordas,
+[00:53:20 - 00:53:27] y del form, tenías input, tal. Y ese input era como si fuera el atributo que viaja.
+[00:53:27 - 00:53:29] Te acordas, seleccionaste.
+[00:53:29 - 00:53:30] Sí, sí.
+[00:53:30 - 00:53:32] Está. Entonces, ¿pues te le saca?
+[00:53:32 - 00:53:37] Paso a tener el dueño, aunque vas a decir, bueno, le agrego todas estas promociones.
+[00:53:37 - 00:53:44] Y acá tengo un montón de comportamiento adicionar promoc, ¿ok?
+[00:53:44 - 00:53:46] O forma de venta.
+[00:53:46 - 00:53:51] Y acá, de el otro 8 del ML, donde él due el socióba de tipo, ¿sabes qué?
+[00:53:51 - 00:53:57] Te pago la forma anual.
+[00:53:57 - 00:54:02] Y acá sí, también, viaja, por así decirlo, no me gusta, es un atributo,
+[00:54:02 - 00:54:06] que le va a llegar todo ese comportamiento y él lo va a capturar.
+[00:54:06 - 00:54:09] Ahora, vas a pagar, ¿qué?
+[00:54:09 - 00:54:13] Posiblemente, cuando agas cuota, así es bueno, acá me llegó este atributo,
+[00:54:13 - 00:54:15] que es anual, ¿ok?
+[00:54:15 - 00:54:27] Forma, no sé cómo le voy a poner cantidad cuotance o promoción, no sé, ¿ok?
+[00:54:27 - 00:54:31] Y ahí sí, esto podría ser tranquilamente un atributo.
+[00:54:31 - 00:54:35] Pero yo lo que quiero es manejar todo.
+[00:54:35 - 00:54:38] Entonces, para algunas cosas, no voy a manejar acá.
+[00:54:38 - 00:54:43] Ahora, si voy directamente con un único dato y lo puedo manejar como un atributo.
+[00:54:43 - 00:54:49] Ahora, si yo digo selecciona cuota anual y para armar la forma de pago,
+[00:54:49 - 00:54:53] esta cantidad de cuota se tiene que contactar a ti, tiene que ver en promociones.
+[00:54:53 - 00:54:55] ¿Cuál es el valor?
+[00:54:55 - 00:54:58] Y ahí acá tengo una relación, y ahí no va a ir acá.
+[00:54:58 - 00:55:05] Es decir, me llegó, tal atributo, decíme qué tipo de promoción depende.
+[00:55:06 - 00:55:15] Pasame todo ese objeto para que después pueda calcular lo que tengo que cobrar la dueña.
+[00:55:15 - 00:55:21] Entonces, ¿por qué lo pongo aparte?
+[00:55:21 - 00:55:26] Pásicamente, así es un poco el movimiento y todos los mensajes que se pasan.
+[00:55:26 - 00:55:32] Pero si yo lo tuviera esta parte y manejalo como un atributo aparte, ¿ok?
+[00:55:32 - 00:55:36] Si yo no tuviera promoción, si yo no tuviera descuento, si yo no tuviera esto,
+[00:55:36 - 00:55:38] las formas de pago, puedes manejarlo.
+[00:55:38 - 00:55:41] Si siempre pagas con una cuota, manejalo directamente,
+[00:55:41 - 00:55:47] una vez de HTML, le estás mandando el atributo, y acá solamente el manejazo, un atributo.
+[00:55:47 - 00:55:53] Ahora, ¿por lo que tienes que lograr es que tu sistema se extensible?
+[00:55:53 - 00:55:54] Entonces, lo separo.
+[00:55:54 - 00:55:59] En algunos casos, bueno, decid, esto es muy importante,
+[00:56:00 - 00:56:06] está muy bueno que suceda con el HTML o con una pantalla,
+[00:56:06 - 00:56:10] pues estás mandando un atributo, un dato.
+[00:56:10 - 00:56:15] La objeto lo va a agarrar y va a decir, bueno, me llegó esto, tengo que darme vuelta,
+[00:56:15 - 00:56:20] le digo a alguien que se encarbe, promoción es de allá de ti,
+[00:56:20 - 00:56:23] ahora decid, me llegó esto, decid, me quedo con esto.
+[00:56:23 - 00:56:28] Entonces, se empieza a desacoplar.
+[00:56:29 - 00:56:30] ¿Ese arroz en este?
+[00:56:30 - 00:56:33] Sí, un poquito mejor.
+[00:56:33 - 00:56:36] Esto es de a poco, también.
+[00:56:36 - 00:56:44] Ahora, después, accede el HTML y lo vemos, pero va queriendo.
+[00:56:44 - 00:56:46] Lo mismo pasa con formas de pago.
+[00:56:46 - 00:56:51] Así es, bueno, en el mando directamente el QR, pero páncame,
+[00:56:51 - 00:56:57] más allá de que tengo formas de pago, yo tengo que conectarme con mercado pago.
+[00:56:58 - 00:57:08] Voy a poner acá, pago, le voy a conectar con Visa,
+[00:57:08 - 00:57:26] tengo que dar andar, formar pago, efectivo, efectivo,
+[00:57:26 - 00:57:38] más percar, más per Visa, transferencia, tarjeta de ébito.
+[00:57:38 - 00:57:46] A mí, mucha generalización no me gusta, pero me da una manera
+[00:57:48 - 00:57:51] para el diseño de entendimiento que está muy buena.
+[00:57:51 - 00:57:54] Entonces, tengo formas de pago.
+[00:57:54 - 00:57:59] Y digo, bueno, yo tengo que hablar con mercado pago,
+[00:57:59 - 00:58:04] que no forma parte de mi organización, un minuto.
+[00:58:04 - 00:58:09] No quería llegar a esto, pero no importa.
+[00:58:09 - 00:58:16] Y digo, bueno, mercado pago, tengo toda la lógica,
+[00:58:16 - 00:58:21] al QR, todo esto, y acá tengo un comportamiento para pedirle algo
+[00:58:23 - 00:58:29] al sistema de mercado pago.
+[00:58:29 - 00:58:32] Obrarlo, obrar esto, y espero una respuesta.
+[00:58:32 - 00:58:41] Y después tengo otro, tengo el de Visa, que es totalmente diferente.
+[00:58:41 - 00:58:45] Es posiblemente maneje un API, este posiblemente manéctu un API,
+[00:58:45 - 00:58:49] no sé, con otro tipo de parámetros, manejan cosas diferentes.
+[00:58:49 - 00:58:57] Este API es posiblemente el QR y visa me pie la trájeta de crédito,
+[00:58:57 - 00:59:00] la fecha de enceimiento, el hombre me pide más cosas.
+[00:59:01 - 00:59:07] Entonces, yo tengo que tener toda la lógica para poder comunicarme con Visa
+[00:59:07 - 00:59:11] de una manera determinada, en un lenguaje determinado,
+[00:59:11 - 00:59:13] y con mercado pago con otro.
+[00:59:13 - 00:59:17] Si lo sé, por eso lo separo.
+[00:59:17 - 00:59:22] Y promoción es acá, si bien, promoción es vuelvo a decir,
+[00:59:22 - 00:59:24] todo va a depender de cómo lo pueda manejar.
+[00:59:24 - 00:59:28] Yo considero que lo pondría parte, porque ya quiero empezar a separar
+[00:59:29 - 00:59:31] también funcionalidad.
+[00:59:31 - 00:59:36] Si vamos con esto y este igual lo vamos a ver varias veces.
+[00:59:36 - 00:59:42] La forma de pago, ¿no amérito a ser un interfaz?
+[00:59:42 - 00:59:46] Por lo pronto puse esto.
+[00:59:46 - 00:59:49] Para mí sí, a medida que sea un interfaz, y con veas,
+[00:59:49 - 00:59:54] patrón es gór, vas a querer hacer otra cosa.
+[00:59:54 - 01:00:02] Pero por lo pronto, me conformo con que hoy apliquen una herencia y una strata.
+[01:00:03 - 01:00:05] Hoy la clase que viene vemos.
+[01:00:05 - 01:00:11] Pero ya que me acordé cómo era.
+[01:00:11 - 01:00:24] En este tipo, era profe.
+[01:00:24 - 01:00:32] Era abajo, en espíritu y hipogracias.
+[01:00:32 - 01:00:41] Quien le puse, atrás de un interfaz, interfase.
+[01:00:41 - 01:00:42] Siempre, margando.
+[01:00:42 - 01:00:49] Eso también va a ser ir de la tío incrementada.
+[01:00:49 - 01:00:52] Si yo digo, tengo un comportamiento entre irse al mismo,
+[01:00:52 - 01:00:57] alguna strata, el hipoteco, un interfaz, y sí tenemos solamente declaraciones.
+[01:00:58 - 01:01:01] Ningún método concreto lo transforma en el interfaz.
+[01:01:01 - 01:01:05] Y también va a depender del lenguaje que ustedes van a querer aplicar.
+[01:01:05 - 01:01:08] A veces se puede aplicar evidencia de herencia.
+[01:01:08 - 01:01:13] Entonces, puedo hacer interfaz, abstracta, concreto.
+[01:01:13 - 01:01:19] Y hay otros lenguajes que no lo soportan o tenés abstracta y concreta,
+[01:01:19 - 01:01:21] o interfaz y concreta.
+[01:01:21 - 01:01:26] Entonces, también, ya acuerda a medida que yo me vas acercando.
+[01:01:27 - 01:01:31] El código, el modelo más direccionado, más específico,
+[01:01:31 - 01:01:35] a la plataforma del lenguaje que, con el que voy a querer implementarlo,
+[01:01:35 - 01:01:39] ahí voy a poder decidir si puedo hacer varios niveles de herencia,
+[01:01:39 - 01:01:45] con interfaz, abstracta o concreta, o solamente manejo este tipo de nivel.
+[01:01:45 - 01:01:50] Por eso no me gusta tampoco abusar de tanto de la herencia,
+[01:01:50 - 01:01:53] porque todavía no me voy a acercar al código.
+[01:01:58 - 01:02:00] ¿Verdad?
+[01:02:00 - 01:02:01] Sí, sí, profe.
+[01:02:07 - 01:02:12] Bueno, sigo, por más el pago impuestos.
+[01:02:12 - 01:02:17] Yo voy tirando todo así y después veo cómo lo organizo, ¿ok?
+[01:02:17 - 01:02:22] Impuestos.
+[01:02:22 - 01:02:25] Ustedes saben que hoy, por ejemplo, en Argentina,
+[01:02:25 - 01:02:31] que el impuesto eliva a cuánto es ficoz.
+[01:02:31 - 01:02:35] ¿Dejiste un porgiento?
+[01:02:35 - 01:02:36] Eliva.
+[01:02:36 - 01:02:38] ¿Depean de la otra?
+[01:02:38 - 01:02:40] Me gustó el depén de quién fue.
+[01:02:40 - 01:02:42] Francisco.
+[01:02:42 - 01:02:45] ¡Valíbas de pende!
+[01:02:45 - 01:02:49] Para los cibles mortales tenemos que pagar el 21%,
+[01:02:49 - 01:02:54] pero ahí determinados productos como la leche, la carne que en vez de tener el 21,
+[01:02:54 - 01:02:57] tiene el 10.000 de algo, no me acuerdo.
+[01:02:57 - 01:03:06] Hay algunos otros como medicamentos que tienen, prácticamente, el 0% de iba.
+[01:03:07 - 01:03:09] Y hay otros que tienen el 27.
+[01:03:09 - 01:03:11] ¿Ok?
+[01:03:11 - 01:03:17] Entonces, como la verdad que va a depender también,
+[01:03:17 - 01:03:21] y hay otros que, por ejemplo, también se va a estar en Buenos Aires,
+[01:03:21 - 01:03:24] bueno, te cobre el términado de impuestos,
+[01:03:24 - 01:03:29] estás en Cava, te cobre otro, determinado de impuestos.
+[01:03:29 - 01:03:35] Entonces, pasa que, bueno, acá lo vamos todo, cobramos todo,
+[01:03:35 - 01:03:36] después pagamos, ¿no?
+[01:03:36 - 01:03:42] Pero la realidad es que si queremos separar bien el tema de impuestos
+[01:03:42 - 01:03:46] y la realidad es que comienas a ser una clase aparte
+[01:03:46 - 01:03:52] y poder tener toda la lógica compleja para calcular el impuesto aparte.
+[01:03:52 - 01:03:58] Entonces, de esa manera de sacóplo y no generó tanta dependencia.
+[01:03:58 - 01:04:03] Desde el día de mañana, viene a alguien y me dicen que
+[01:04:03 - 01:04:09] ahora hay un IVA, no es de 21, de 27, de 0, de 10.
+[01:04:09 - 01:04:15] Hay del 15, si piro, que estás en el, no sé,
+[01:04:15 - 01:04:20] a los 100 kilómetros de la Provi, de capital federal.
+[01:04:20 - 01:04:21] ¿Ok?
+[01:04:21 - 01:04:24] Bueno, entonces tengo que hacer otro cálculo.
+[01:04:24 - 01:04:27] Entonces, voy a modificar solamente esta clase
+[01:04:27 - 01:04:30] y no modifico ninguna de las restantes.
+[01:04:31 - 01:04:36] Entonces, el día de mañana tengo un impacto mucho más ágil
+[01:04:36 - 01:04:39] porque solamente modificé una única clase,
+[01:04:39 - 01:04:45] pruebo una única, un testil en una única clase y no en todo el resto.
+[01:04:45 - 01:04:50] Entonces, de esa manera, agilizo los cambios.
+[01:04:50 - 01:04:53] ¿Está de forma de pago? ¿Qué más?
+[01:04:53 - 01:04:59] El comprobante.
+[01:05:00 - 01:05:09] Comprobante. Comprobante.
+[01:05:09 - 01:05:14] Obviamente el comprobante va a tener un montón de comportamientos
+[01:05:14 - 01:05:19] para poder formarlo, esto es lo otro, pero va a estar muy relacionado con pago.
+[01:05:19 - 01:05:23] El pago va a tener un comprobante una vez que pase de un estado al otro.
+[01:05:23 - 01:05:29] ¿Puedo hacer esto?
+[01:05:29 - 01:05:38] O si no es muy significativo,
+[01:05:38 - 01:05:43] un minuto o del tibano, tengo un atributo de tipo comprobante.
+[01:05:49 - 01:06:11] No me confunda, es que tipo comprobante.
+[01:06:11 - 01:06:16] Lo mismo pasaría con fechas.
+[01:06:16 - 01:06:21] Imagina, la pasa que la fecha ya está dentro de los lenguajes
+[01:06:21 - 01:06:25] están incorporados como clases que no las vemos,
+[01:06:25 - 01:06:28] pero la fecha es una clase.
+[01:06:28 - 01:06:31] Una la utiliza, pero no voy a poner la cafecha.
+[01:06:31 - 01:06:35] Una la utiliza porque ya piensa que mágicamente está,
+[01:06:36 - 01:06:41] y eso la clase, todo el comportamiento, ver el día, esto lo otro,
+[01:06:41 - 01:06:45] tenemos todos esos comportamientos, lo veremos si lo utilizamos
+[01:06:45 - 01:06:47] como si fuera un incluy, ¿ok?
+[01:06:47 - 01:06:59] Pero alguien lo hizo.
+[01:06:59 - 01:07:01] Vale, lo que nos dais.
+[01:07:01 - 01:07:12] ¿Y qué tipo, fecha que es el tipo de él?
+[01:07:12 - 01:07:16] Entonces, te lo todo y quiero no nos estoy en Estados Unidos.
+[01:07:17 - 01:07:22] Y en dos veces, ser día, mes y año, es mes, día y año.
+[01:07:22 - 01:07:28] Bueno, tengo todo ese comportamiento encapsulado en esta clase.
+[01:07:28 - 01:07:32] Ahora, yo no voy a hacer una asociación porque utilizo esto.
+[01:07:32 - 01:07:35] Lo utilizo, sí, lo utilizo, pero no es tan importante mostrarlo
+[01:07:35 - 01:07:40] en el diagrama de la arquitectura.
+[01:07:40 - 01:07:44] Yo tengo una relación, tengo una asociación,
+[01:07:45 - 01:07:51] pero no lo voy a dibujar si lo voy a plasmar de esta manera,
+[01:07:51 - 01:07:55] si lo aplasme de esta manera.
+[01:07:55 - 01:07:58] Fui un ejemplo muy exagerado como para que ustedes vean
+[01:07:58 - 01:08:03] que también van a tener que hacer las asociaciones más importantes.
+[01:08:03 - 01:08:07] Yo voy a tener una vez a venir, voy a tener visibilidad.
+[01:08:07 - 01:08:10] Pero de acuerdo a qué es lo que quiero transmitir.
+[01:08:10 - 01:08:15] Lo que vamos a hacer es una ejercicio,
+[01:08:17 - 01:08:25] les voy a dejar acá, les voy a dar este ejercicio para que lo haga.
+[01:08:25 - 01:08:29] La idea es, con todo lo que ustedes pudieron viendo,
+[01:08:29 - 01:08:33] de gimnasio poder identificar más clases del dominio,
+[01:08:33 - 01:08:37] con esto, con esto y ahora con otra cosa más que les voy a explicar.
+[01:08:37 - 01:08:42] Es una tributos relevantes para que la clase refirir las asociaciones,
+[01:08:42 - 01:08:45] multiplicidades, etc.
+[01:08:47 - 01:08:54] Acá les puse un poco algunas preguntas para que también piensen
+[01:08:54 - 01:08:58] si tienen que agregar o no algunas clases,
+[01:08:58 - 01:09:03] acá les explique un poco algo de teoría,
+[01:09:03 - 01:09:07] que va a acorde a lo que tienen que arrastrarme acá
+[01:09:07 - 01:09:10] y el diagrama de estado que vamos a ver si llegamos,
+[01:09:10 - 01:09:12] si no lo hagas.
+[01:09:13 - 01:09:20] La clase que viene lo que vamos a hacer es obviamente
+[01:09:20 - 01:09:26] poner un cierto orden, pero eso lo tengo que ver con patrones graphs
+[01:09:26 - 01:09:31] por notando acá hasta bastante de prolijo por así decirlo,
+[01:09:31 - 01:09:35] pero esto va a tener baili tomando forma, obviamente.
+[01:09:35 - 01:09:39] Así que quédense tranquilos.
+[01:09:43 - 01:09:46] ¿Qué más? Algo más que quería mostrarles un minutito
+[01:09:50 - 01:09:52] en la especificación.
+[01:09:52 - 01:09:56] Una de ustedes me dijo, ¿y esto puede ser un diagrama de un prón
+[01:09:56 - 01:10:00] a lo de estado, ¿no? También de estado de nuevo.
+[01:10:00 - 01:10:08] La realidad es que también tenemos otra vista justamente para ver el estado.
+[01:10:08 - 01:10:14] ¿Qué se valúa y el estado de los objetos? ¿Qué acorde cual era?
+[01:10:14 - 01:10:17] Yo ya pudo estar por ahí, no me acuerdo dónde.
+[01:10:17 - 01:10:30] Acá muestra el estado de las cuentas de insución.
+[01:10:30 - 01:10:32] Bueno, tengo estado. El socio tiene estado.
+[01:10:32 - 01:10:36] Está activo en activo.
+[01:10:40 - 01:10:44] O a veces algunos dicen, bueno, me voy de vacaciones.
+[01:10:44 - 01:10:46] Está en estado de vacaciones.
+[01:10:46 - 01:10:53] Entonces frisa, cambia la fecha del pago.
+[01:10:53 - 01:11:05] No tengo muchos estados, pero vamos a hacer esto.
+[01:11:05 - 01:11:24] Un minutito. Selecciono el objeto y voy a armar un diagrama de estado.
+[01:11:24 - 01:11:29] Y acuerda el objeto. Yo puedo armar un diagrama de todo.
+[01:11:29 - 01:11:34] El diagrama de todo lo que me permite es modelar el comportamiento del objeto,
+[01:11:34 - 01:11:39] pero de uno, uno objeto, de un único objeto.
+[01:11:40 - 01:11:47] Y puedo especificar las secuencias y cómo van esos eventos,
+[01:11:47 - 01:11:51] cómo transitan de un objeto, como transito en un estado a otro.
+[01:11:51 - 01:12:00] Entonces la realidad que está bueno marcarlo es más, si ustedes ven,
+[01:12:00 - 01:12:07] que eran los elementos son muy similares a uno que estuvimos viendo,
+[01:12:07 - 01:12:13] a otro diagrama que vimos, cuál les parece parecido.
+[01:12:14 - 01:12:16] El diagrama de actividad.
+[01:12:16 - 01:12:22] Exacto. Se dice que el diagrama de estado es una disfurcación
+[01:12:22 - 01:12:27] del diagrama de actividad, ok? Utiliza los mismos elementos,
+[01:12:27 - 01:12:32] es como una instancia más sacotada por así decirlo.
+[01:12:32 - 01:12:36] Y se puede hacer diagrama de estado por objeto,
+[01:12:36 - 01:12:39] principalmente en todo lo que sería el todo objeto,
+[01:12:40 - 01:12:45] entre el paráquima de venta de objetos, o si quiero por el estado
+[01:12:45 - 01:12:49] de un sistema en concreto, por un componente, por un módulo.
+[01:12:49 - 01:12:52] Pero tengo que, tiene que ser una entidad,
+[01:12:52 - 01:12:59] entidad clase, entidad componente o entidad sistema, ok?
+[01:12:59 - 01:13:09] Tengo el inicial y transvestado.
+[01:13:09 - 01:13:18] Eso se puede estar en inscripción y cripto de la oda alta,
+[01:13:19 - 01:13:28] cruz y suma activo, un tío, o está inactivo,
+[01:13:28 - 01:13:38] es el que leuché, que es un asesentizado,
+[01:13:38 - 01:13:44] no quiero decir lechado de un suspendido.
+[01:13:44 - 01:13:47] Moroso también podría hacer un poco de que...
+[01:13:47 - 01:13:50] Moroso, me gusta. Ahora vamos a agregar algunos y vemos,
+[01:13:50 - 01:13:53] que hay otra perfecta.
+[01:13:53 - 01:13:57] Lo que pasa es que algunos en ese sistema había que ver,
+[01:13:59 - 01:14:03] había que analizar el flujo del proceso, del negocio,
+[01:14:03 - 01:14:06] de cómo paso de una transición a la otra,
+[01:14:06 - 01:14:10] pero por ejemplo recién lo ha un activo, está en Moroso,
+[01:14:10 - 01:14:12] pero bueno, le voy a ver un chanuita de una semana, ¿no?
+[01:14:12 - 01:14:13] que sigan entrando.
+[01:14:13 - 01:14:16] Si pasa, si están estado moroso y pasó la semana,
+[01:14:16 - 01:14:21] ahí sí lo paso inactivo, tendría que entender como es el negocio
+[01:14:21 - 01:14:23] para ver cómo va ese flujo.
+[01:14:24 - 01:14:30] Esos flujos van a ir transitando a través de otro elemento
+[01:14:30 - 01:14:40] que es la transición, inscripción, inscripción, inscripción.
+[01:14:40 - 01:14:43] Asumo que la inscripción tiene pago, ¿no?
+[01:14:43 - 01:14:48] Entonces, del método, del comportamiento de inscripción,
+[01:14:48 - 01:14:52] acá estoy con el objeto, voy aclarando, ¿no?
+[01:14:52 - 01:14:58] El objeto hicimos, ¿qué es el socio, ¿no?
+[01:14:59 - 01:15:04] Aclar en siempre de qué objetos están modelando.
+[01:15:04 - 01:15:10] Cuando tengo alguna método que se inscripción al objeto socio,
+[01:15:10 - 01:15:16] le voy a cambiar un estado que va a tener a y le voy a pasar activos.
+[01:15:16 - 01:15:32] Si es del mes, si es del mes, lo paso amoroso.
+[01:15:32 - 01:15:35] Si el primer día que es el mes, lo paso amoroso.
+[01:15:35 - 01:15:38] Si no me pago, obviamente tengo que ver otras condiciones.
+[01:15:39 - 01:15:43] Entonces, en el código, si está el cierre del mes y no me pago,
+[01:15:43 - 01:15:46] está en estado, voy a dejarme en otro estado.
+[01:15:46 - 01:15:50] Y empago lo paso en estado amoroso, ¿a qué?
+[01:15:50 - 01:15:55] A los objetos socios que va a tener un estado lo pongo amoroso.
+[01:15:55 - 01:16:11] Voy a dar una nación.
+[01:16:11 - 01:16:17] Si te no mejos por el más, ¿no? ¿Qué es renés?
+[01:16:17 - 01:16:19] Si la paren entre comillas.
+[01:16:20 - 01:16:31] Y ahora me ha habido así más siete días, no voy a ir a ver algo, pero no importa.
+[01:16:31 - 01:16:35] Cierre de mes, más siete días, paren activos.
+[01:16:35 - 01:16:45] Entonces, acá me dan una lógica, un comportamiento que puede ser que sea una alerta,
+[01:16:45 - 01:16:54] lo que sea, va ir a la clase socios, va a tener el estado y va a cambiar este estado.
+[01:16:54 - 01:17:03] Obviamente, el responzable de manejar el experto de manejar el cambio de estado de socios,
+[01:17:03 - 01:17:07] porque para lo puse acá, es el experto de su propio dato.
+[01:17:07 - 01:17:14] Por lo tanto, si bien voy a tener algunos comportamientos, en otras clases,
+[01:17:16 - 01:17:20] el único responzable de cambiar el estado su propio objeto,
+[01:17:20 - 01:17:25] que es el responsable de su atributo, de su dato.
+[01:17:25 - 01:17:32] Por lo tanto, acá, el nativo, pasinativo, bueno, ya está suspendido.
+[01:17:32 - 01:17:38] Entonces, yo voy a tener un montón de comportamiento y ese comportamiento,
+[01:17:38 - 01:17:45] lo tengo que ver reflejado en el diagrama de clase y a su vez, acá voy a tener un cambio de estado también,
+[01:17:49 - 01:17:53] porque el único responzable de cambiar el estado es el mío de la misma clase,
+[01:17:53 - 01:17:55] porque tengo el estado acá.
+[01:17:55 - 01:17:58] Tiene que ser experto de sus propios datos.
+[01:17:58 - 01:18:03] Expertos de ella estuvieron bien, algo de grabes en la año pasado,
+[01:18:03 - 01:18:06] fue el cuadrime de ese pasado.
+[01:18:06 - 01:18:07] ¿Y qué gráfico?
+[01:18:07 - 01:18:11] Entonces, ¿y cómo van relacionando cada diagrama?
+[01:18:11 - 01:18:14] Está estamos haciendo un repaso súper ágil, ¿eh?
+[01:18:14 - 01:18:19] Entonces, van a poder llegar a ver con lo que vimos recién,
+[01:18:19 - 01:18:27] van a poder volver a ver el diagrama de estado.
+[01:18:27 - 01:18:34] Y el diagrama de estado, y de acuerdo a algunos, que realmente cambie los estados,
+[01:18:34 - 01:18:46] y me vengo para acá y uno, profesor, no sé, profesor,
+[01:18:46 - 01:18:53] y bueno, acá está que el profesor, no sé, tengo de perder, ¿no?
+[01:18:53 - 01:19:00] Tengo el estado activo y activo, y tal vez no es conveniente hacer un diagrama de estado
+[01:19:00 - 01:19:05] para algo que solamente tiene dos cambios de estado, ¿ok?
+[01:19:05 - 01:19:15] Voy a tener que analizar, ¿cuál de todos estos estados,
+[01:19:15 - 01:19:19] estas clases y ameritas de un diagrama de estado?
+[01:19:19 - 01:19:23] Eso también es forma parte de hacer un buen diseño.
+[01:19:23 - 01:19:31] Me lo van a poder hacer, bueno, fantástico.
+[01:19:31 - 01:19:34] Yo voy a llegar hasta acá porque quiero hacer algunas cosas administrativas
+[01:19:34 - 01:19:42] con algunos alumnos que quedaron sueltos y no tienen grupos, ¿ok?
+[01:19:42 - 01:19:50] Ah, esto sí lo van a volver a compartir. ¿Qué vimos hoy?
+[01:19:50 - 01:19:57] Conceptos de calidad, eso ya lo habían visto conmigo, le dan lo.
+[01:19:57 - 01:20:05] Tienen que leer capítulo 9, 7, 10, 1 minuto, creo que los últimos no.
+[01:20:05 - 01:20:12] El 15 y el 12 no. De el arma.
+[01:20:12 - 01:20:30] El maro de diagrama de acá estamos de estado, el día de diagrama de estado,
+[01:20:30 - 01:20:50] el era muy con esto, esto lo vamos a un clase, hacer ejercicio.
+[01:20:50 - 01:20:54] Y bueno, en la clase que viene yo voy a empezar con otras ejercicias.
+[01:20:54 - 01:21:00] Ahí lo voy a ver, este es el aun muestran, sino empezaré con algún otro que tenga mayor,
+[01:21:00 - 01:21:07] que sea más, este es más enfocado como se toma la práctica, ¿ok?
+[01:21:07 - 01:21:13] En el examen. Están vivos por ahí.
+[01:21:13 - 01:21:19] Sí, sí, sí, sí.
+[01:21:19 - 01:21:26] Bueno, voy a pedir que se quede los que tenían algunos problemas con los grupos
+[01:21:26 - 01:21:38] y hay compañeros que no tienen grupos, así que voy agregándolos de alguna manera,
+[01:21:38 - 01:21:45] algún grupo, así que capaz de algún grupo le toca algún compañera extra.
+[01:21:45 - 01:21:53] La idea de los grupos es que en algunos trabajos, voy colocando, voy pidiendo,
+[01:21:53 - 01:22:03] y la idea que puedan trabajar y juntarse con dudas, no voy a tomar un trabajo
+[01:22:03 - 01:22:10] práctico con notas, pero sí voy viendo quienes participan y tienen esto.
+[01:22:10 - 01:22:14] ¿Dudas?
+[01:22:14 - 01:22:25] Yo tengo dos, la primera, los hombres palos, ¿vamos que haces los hombres palos en el examen?
+[01:22:25 - 01:22:36] ¿Acerrado que no tomo diagramas de clas en el caso de uso?
+[01:22:36 - 01:22:40] Pero imagino que tu pregunta está abrientada más a nenderme de secuencia.
+[01:22:40 - 01:22:45] No, le caso de uso.
+[01:22:45 - 01:22:47] Le caso de uso.
+[01:22:47 - 01:22:55] Sí, sí, se interpide un diagrama de caso de uso, es un elemento importantísimo.
+[01:22:59 - 01:23:01] El hombre palo, por así decirlo.
+[01:23:02 - 01:23:08] Y vuelvo a decir, ya es algo que yo lo doy como para que ustedes tengan un hilo conductor
+[01:23:08 - 01:23:17] de lo que estuvieron viendo en análisis y vean cómo vamos interando y vamos a agregando
+[01:23:17 - 01:23:21] los mayores niveles de detalle, pero en la realidad es que eso ya lo tienen que tener recotra
+[01:23:21 - 01:23:22] incorporado.
+[01:23:22 - 01:23:25] Todo lo que vimos hoy prácticamente es un repaso.
+[01:23:32 - 01:23:38] La clase que viene viene todo lo que es la idea es ver todos los diagramas que me quedaban
+[01:23:38 - 01:23:46] pendientes, creo que son cuatro o capaz de algo de harme interacción, vemos y hacer un ejercicio.
+[01:23:46 - 01:23:47] O empezar con graphs.
+[01:23:47 - 01:23:55] Yo hago un repaso de graphs también, porque para mí es fundamental de graphs.
+[01:23:55 - 01:23:57] Y lo tomo, tengo si entras.
+[01:24:01 - 01:24:07] Entonces para la clase que viene que va a ser presencial podríamos agarrar, estas clases
+[01:24:07 - 01:24:10] quedan todas sueldas y armar algo usando los patrónes.
+[01:24:10 - 01:24:13] Está, sí, ya hacemos una de las que hemos hecho como.
+[01:24:13 - 01:24:18] Y empezar a ver un poco de patrones graphs y puedan repasando, soy igual voy a dar una breve
+[01:24:18 - 01:24:22] introducción en clases en los patrones graphs.
+[01:24:23 - 01:24:32] Le idea es ver cómo acomodamos todo lo que estuvimos trabajando con aplicado patrones.
+[01:24:32 - 01:24:35] ¿Qué más?
+[01:24:35 - 01:24:39] Y ver otros diagramas que nos quedan.
+[01:24:39 - 01:24:44] Podíamos arraig cualquier otro ejercicio y aplicar los que vimos hoy.
+[01:24:44 - 01:24:52] Los otros ejercicios los vamos a ir trabajando, pero vas a adelantar lo que quieras, obviamente.
+[01:24:53 - 01:25:00] Obviamente que sí, os adelantas y tus compañeras no te verán el cibo, lo vemos aparte.
+[01:25:00 - 01:25:12] Porque después, por ejemplo, hacemos otros ejercicios y, bueno, le empiezo desde el inicio.
+[01:25:12 - 01:25:16] No voy a empezar, pero sí, sí, es un desafío.
+[01:25:16 - 01:25:19] Es un simple problema.
+[01:25:20 - 01:25:31] En clases, en tins, yo subo todos los que trabajamos en clases, el subo, un archivito.
+[01:25:31 - 01:25:37] Creo que algunos que son similares a los que estuve tomando los últimos cuatro metros.
+[01:25:37 - 01:25:42] El falta a subir el último, que tomé el último cuadro de ventre.
+[01:25:42 - 01:25:48] Pero, bueno, tienen para trabajar.
+[01:25:48 - 01:25:57] Consultas, repasen objetos también, claro lo voy a escribir acá.
+[01:25:59 - 01:26:05] Se pasen todo lo que objetos, y si pueden, repasen graphs.
+[01:26:05 - 01:26:11] Si no, lo vemos, pero muy rápidamente, los jueves.
+[01:26:11 - 01:26:19] Recuerden que estamos en el aula 130.
+[01:26:19 - 01:26:26] El paso de programación de los objetos.
+[01:26:26 - 01:26:31] Bueno, están ahí.
+[01:26:31 - 01:26:33] Sí, sí.
+[01:26:34 - 01:26:41] ¿Qué es el que tenían problemas de grupo y si hay algún grupo que tienen un integrante?
+[01:26:41 - 01:26:43] Porque bueno, se los coloque.
+[01:26:43 - 01:26:45] ¿Vemos?
+[01:26:45 - 01:26:47] Nos vemos.
+[01:26:47 - 01:26:49] Nos vemos.
+[01:26:49 - 01:26:52] ¿Qué es el que tienen problemas con los grupos?
+[01:26:52 - 01:27:09] Nos vemos.
+[01:27:09 - 01:27:11] Bueno, empecemos.
+[01:27:11 - 01:27:12] Hola, profe.
+[01:27:12 - 01:27:13] Hola, profe.
+[01:27:13 - 01:27:14] Hola, profe.
+[01:27:15 - 01:27:22] Bueno, los ingreses algunos cada grupo, van quedarme un minuto y no juntas ahí.
+[01:27:22 - 01:27:27] ¿Quién algún grupo ya tardado?
+[01:27:27 - 01:27:31] Yo ponerme en bar addicted.
+[01:27:31 - 01:27:35] No te he hecho con los algunos chicos.
+[01:27:35 - 01:27:39] Creo que son de un grupo 05, que no sé cuántas gente son.
+[01:27:39 - 01:27:42] Y no, va a entrar.
+[01:27:42 - 01:27:48] La realidad es que van a cabrar.
+[01:27:48 - 01:27:49] El grupo 05.
+[01:27:49 - 01:27:52] Pero primero voy a darle los que quieren un grupo determinado
+[01:27:52 - 01:28:02] y después, yo he de bancarme, ¿eh?
+[01:28:02 - 01:28:10] Austina, centeno, matías, medina y nace, hogares, se quiere y ya no da me han
+[01:28:10 - 01:28:14] Federico Emmanuel, austina se quiere el equipo.
+[01:28:14 - 01:28:16] Sí, ahí.
+[01:28:16 - 01:28:23] bancarme Francisco, ¿eh?
+[01:28:23 - 01:28:24] Ismondi.
+[01:28:24 - 01:28:39] bancama que también te lo colobo de la excesa.
+[01:28:39 - 01:28:40] Pero el cosino, ¿eh?
+[01:28:40 - 01:28:51] Es como, ¿eh? ¿No? ¿Y esmondi, Francisco?
+[01:28:51 - 01:29:06] Sí, contástico, verifica que estás en el ex cambio.
+[01:29:06 - 01:29:07] Pero es mi hijo.
+[01:29:07 - 01:29:11] Está en el grupo, estoy y a ver el excel.
+[01:29:11 - 01:29:13] Bueno, no, no.

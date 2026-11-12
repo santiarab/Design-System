@@ -1,0 +1,1360 @@
+# Clase 11 - Completa - 2026-10-29
+Archivo de origen: Clase 11-20261029_082145-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 02:11:08
+
+---
+
+[00:00:03 - 00:00:15] Muchas gracias, más que nada porque también tengo que subir esta clase a los alumnos. Bueno, en partos,
+[00:00:15 - 00:01:09] guardando un poquito, hay me imagino que ya están viendo mi... ¿Y es sopa?
+[00:01:09 - 00:01:13] Sí, pero es que se ve.
+[00:01:13 - 00:01:15] Antes estamos viendo.
+[00:01:15 - 00:01:26] Vamos a tener que se recuerda, ¿no?
+[00:01:26 - 00:01:35] Lo que diseño está muy relacionado con todas las etapas del desarrollo del software.
+[00:01:35 - 00:01:40] Por lo tanto, también dentro de lo que es el diseño donde entregamos la calidad y todo lo que
+[00:01:40 - 00:01:46] ya estimos viendo, tenemos que ir pensando cómo vamos a hacer estas pruebas.
+[00:01:46 - 00:01:52] Porque ya acuerda al tipo de pruebas que voy a hacer, voy a validar los atributos de calidad
+[00:01:52 - 00:01:56] que yo quería tener dentro de mi solución.
+[00:01:56 - 00:02:06] Entonces acá ustedes recuerdan el famoso... la famosa virándole, el focus siempre es la calidad.
+[00:02:06 - 00:02:15] Y yo tengo en todo ese proceso que ellos definiendo cuál esperan estos atributos de calidad.
+[00:02:15 - 00:02:24] Ahora, yo tengo que ir pensando también cómo voy a hacer, cómo voy a probar esos atributos
+[00:02:24 - 00:02:25] de calidad.
+[00:02:25 - 00:02:31] Porque si por ejemplo quería que fuera seguro, bueno tengo que ver y pensar cómo voy a probar
+[00:02:31 - 00:02:36] que ese sistema sea seguro o que esa solución te aseguras.
+[00:02:36 - 00:02:45] Entonces, desde día una, supongo que ir pensando cómo armar también mi diseño, mi solución,
+[00:02:45 - 00:02:51] cómo voy a hacer estos tipos de pruebas para comprobar que realmente este atributo,
+[00:02:51 - 00:02:56] yo quería tener dentro de mi solución lo tengo.
+[00:02:56 - 00:03:00] Entonces ahí obviamente que entran los testón las pruebas.
+[00:03:00 - 00:03:10] Ustedes ya habrán tenido alguna materia de test o de calidad.
+[00:03:10 - 00:03:11] ¿La tuvieron o no?
+[00:03:11 - 00:03:18] Para saber a dónde volvino.
+[00:03:18 - 00:03:24] En su momento en programación, cuando era programación avanzada, había algo de test.
+[00:03:24 - 00:03:31] Ok, alguien más dio.
+[00:03:31 - 00:03:37] Recuerda que había en principio de calidad test y de cajala, cajane, era algo explicaba.
+[00:03:37 - 00:03:39] Fantástico.
+[00:03:39 - 00:03:49] Ok, alguien más, así me van orientando hasta donde puedo para no quedarme con cajable en
+[00:03:49 - 00:03:51] el cojaneer.
+[00:03:51 - 00:03:52] Nada más.
+[00:03:52 - 00:04:01] Bueno, la realidad es que obviamente yo tengo que comprobar, probar y tengo esos atributos
+[00:04:01 - 00:04:02] que había definido.
+[00:04:02 - 00:04:10] Recuerden que los atributos, por ejemplo, si yo quiero comprobar la parte funcional, decía
+[00:04:10 - 00:04:14] que el atributo es que sea completo a nivel funcional.
+[00:04:14 - 00:04:21] Recuerdan, yo siempre hablo que sea completo y no cumple que sea completo y la verdad
+[00:04:21 - 00:04:26] que no cumple con la funcionalidad y no va a tener calidad.
+[00:04:26 - 00:04:29] Y después yo tengo varios atributos de calidad.
+[00:04:29 - 00:04:32] Ahora tengo que comprobarlos y verificarlos.
+[00:04:32 - 00:04:38] Hay una cierta diferencia entre lo que es verificar y valiar.
+[00:04:38 - 00:04:40] ¿Puede lo vieron?
+[00:04:40 - 00:04:53] Bueno, cuando estamos haciendo un programa, quiero que funcione bien.
+[00:04:53 - 00:05:01] Y si yo quiero una funcionalidad, comprobar si realmente cumple con a nivel funcional,
+[00:05:01 - 00:05:05] lo que tiene que hacer, estoy validando esos requerimientos.
+[00:05:05 - 00:05:10] Hay una pequeña sutile, entonces la idea es que yo voy a tener un montón de artillería
+[00:05:10 - 00:05:16] de una para verificar técnicamente y otras para validarlos funcionalmente.
+[00:05:16 - 00:05:19] A grandes rasgos significa esa la diferencia.
+[00:05:19 - 00:05:24] Para bien, nosotros tenemos varios procesos.
+[00:05:24 - 00:05:32] Nosotros, por ejemplo, escribimos trabajando con ROOP y en ROOP, no sé si ustedes recuerdan
+[00:05:32 - 00:05:36] esto también sirve para el paso del parcial que viene.
+[00:05:36 - 00:05:41] ¿Estás recuerdan que era este diagrama?
+[00:05:41 - 00:05:48] Está imagen?
+[00:05:48 - 00:05:50] Es partón.
+[00:05:50 - 00:05:53] Bueno, vamos a hacer un repaso.
+[00:05:53 - 00:05:58] Ustedes recuerdan que ROOP se dividían cuatro fases que eran inicia, elaboración,
+[00:05:58 - 00:06:00] construcción y transición.
+[00:06:00 - 00:06:12] Y obviamente como era un proceso incremental y evolutivo, y donde iba pasando, iba alterando
+[00:06:12 - 00:06:15] por cada disciplina en cada etapa.
+[00:06:15 - 00:06:22] Bueno, yo tengo en todas las etapas voy transitando todas las disciplinas, eso es lo que
+[00:06:22 - 00:06:24] es para llegar a trabajar el riesgo.
+[00:06:24 - 00:06:31] Entonces, si yo analizo esto, digo, bueno, estoy en la parte de TST que es la verdad,
+[00:06:31 - 00:06:39] la verdad claro, también tengo algo de TST, pero al final del proyecto, para empezar a hablar
+[00:06:39 - 00:06:40] del TST.
+[00:06:40 - 00:06:48] Desde el día 1 ya voy empezando a pensar, obviamente con diferentes esfuerzos, cada uno de estas
+[00:06:48 - 00:06:56] olas y significa el esfuerzo, que yo voy a destinar cada disciplina de acuerdo a cada
+[00:06:56 - 00:06:58] fases de este modelo de ROOP.
+[00:06:58 - 00:07:04] Y acá tengo muy leve al inicio y después obviamente va incrementando el esfuerzo a medida
+[00:07:04 - 00:07:08] que voy transitando las diferentes fases.
+[00:07:08 - 00:07:12] Pero ya desde el día 1 tengo que ir pensando.
+[00:07:12 - 00:07:20] Lo mismo sucede, yo me voy a un escran y la realidad es que también voy colocando dentro
+[00:07:20 - 00:07:24] de las historias ensuarias, como quiero ir probando.
+[00:07:24 - 00:07:33] Ustedes recuerdan o siguieron algo con las tarjetas ensuarias que hacían para poder verificar
+[00:07:33 - 00:07:35] o valiar el TST.
+[00:07:35 - 00:07:46] Hay un sector en dentro de lo que son las tarjetas ensuarias que tienen validad o criterios
+[00:07:46 - 00:07:47] de validación también.
+[00:07:47 - 00:08:00] Y además, y necesito tener algún atributo extra, ahí bueno, y ahí era una especificación
+[00:08:00 - 00:08:04] que es otra vista, donde voy a definir qué tipo de atributos y tiene ese símbolo.
+[00:08:04 - 00:08:12] Por ejemplo bueno que tengo una performance que soporta tanta cantidad de usuarios, que
+[00:08:12 - 00:08:19] cumpla con las normas o webs o lo que sea, ahí tienen que describirlo para poder
+[00:08:19 - 00:08:20] cumplirlo.
+[00:08:20 - 00:08:27] Por no tanto desde el día 1 está teniendo que ir pensando en el TST, no en la especificación
+[00:08:27 - 00:08:35] sino en que bueno tengo una atributa de calidad que cumplir, que tengo que agredarlo dentro
+[00:08:35 - 00:08:43] del diseño y que además eso, en algún momento lo tengo que ir probando para hacer el check
+[00:08:43 - 00:08:46] de que este atributo lo cumple.
+[00:08:46 - 00:08:56] Por lo tanto lo que se empieza a armar, si también esto trapa otra taría que hace el
+[00:08:56 - 00:09:03] arquitecto de software o bueno, yo ahora lo llamo una lista funcional o antes.
+[00:09:03 - 00:09:07] Y es lo que se llama es armar una estrategia de prueba.
+[00:09:07 - 00:09:16] La fruteta de pruebas es un poco de momento, ahí está ayudado mucho por la ira, pero lo
+[00:09:16 - 00:09:24] que me permite es poder planificar este tipo de pruebas, crear, bueno, definir que
+[00:09:24 - 00:09:29] atributos de calidad y cómo lo voy a probar, voy a hacer lo que se llama el diseño de los
+[00:09:29 - 00:09:36] casos de prueba, ahora vamos a charlar un poco, cómo lo voy a desitutar, cómo lo voy a recolucir
+[00:09:36 - 00:09:41] esos datos, que conectar esos datos y obviamente después viene un trabajo de evaluación para
+[00:09:41 - 00:09:47] ver si tengo que hacer cambios o si cumple o no con los atributos de calidad que yo
+[00:09:47 - 00:09:48] haya definido.
+[00:09:48 - 00:09:56] Vamos a empezar el testing, obviamente para definir todas estas estrategias de prueba, primero
+[00:09:56 - 00:10:00] tengo que conocer el negocio que estoy haciendo, tengo que conocer la solución que estoy
+[00:10:00 - 00:10:08] implementando, me voy a conocer las tecnologías y tengo que ver también las necesidades del
+[00:10:08 - 00:10:16] cliente, si estoy trabajando en bancas y posiblemente la parte de teoría es importante,
+[00:10:16 - 00:10:27] si es una solución para el gimnasio y posiblemente las teorías no sea de importe, pero no tanto,
+[00:10:27 - 00:10:34] entonces tengo que analizar esos atributos de calidad para poder también planificarlo.
+[00:10:34 - 00:10:42] Y después cada adributo tengo que pensar cómo los voy a ejecutar, si tengo algunas herramientas
+[00:10:42 - 00:10:45] o si lo tengo que hacer en forma manual.
+[00:10:45 - 00:10:53] Por eso lo que vamos a hablar es de cómo se hacen los diferentes testes para que después
+[00:10:53 - 00:11:03] el rol del arquitecto pueda definir cómo ir armando estas estrategias de prueba.
+[00:11:03 - 00:11:10] La realidad es que lo que se suele hacer es que las buenas prácticas recomiendan,
+[00:11:10 - 00:11:14] eso obviamente siempre vire en nuestra estrategia en imperial, de los más chicos hacia lo
+[00:11:14 - 00:11:17] más grande.
+[00:11:17 - 00:11:27] Cuando nosotros comenzamos a trabajar en una solución, estamos en la fase de construcción por así
+[00:11:27 - 00:11:35] decirlo, empezamos con las pruebas unitarias de código, con ustedes están programando,
+[00:11:35 - 00:11:39] están probando si lo que estuvieron programando funciona o no.
+[00:11:39 - 00:11:48] Ahí la están verificando y me da horror o no.
+[00:11:48 - 00:11:55] Hoy la realidad es que las pruebas unitarias son bastantes de sentillas, más hasta las mismas
+[00:11:55 - 00:12:06] herramientas hoy están en forma muy automatizada, hasta que tienen algunos agentes de hí, en
+[00:12:06 - 00:12:10] los de las herramientas bastante amigables.
+[00:12:10 - 00:12:15] Pero lo que sí les quería comentar es que, porque después vamos a hablar de este tema,
+[00:12:15 - 00:12:22] es que si nosotros hacemos un componente, componente de un móvil de la manera que sea,
+[00:12:22 - 00:12:27] o porque los programaron ustedes, o porque ustedes equilieron un prompt y les salieron
+[00:12:27 - 00:12:32] directamente el código, lo que sea, desde el día 1 no van a tener toda la solución.
+[00:12:32 - 00:12:38] Por lo tanto empiezan a hacer esas pruebas sanitarias, como las empiezan a hacer un bueno,
+[00:12:38 - 00:12:46] tienen algunas herramientas y posiblemente ustedes están, bueno, voy a dejar que voy a hacer
+[00:12:46 - 00:12:52] un moque, por así decirlo, los dos objetos simulados, pues así, objetos simulados, que
+[00:12:52 - 00:13:03] sí, bueno, necesito hacer un dos más dos, pero bueno, o hacer a más de, bueno, voy a simular,
+[00:13:03 - 00:13:12] voy a reemplazar, le voy a dejar que odiar datos, entonces eso es el denominado representándose,
+[00:13:12 - 00:13:19] está, o algunos, los denominamos mox, está, son más comun, es como si los suela denominar,
+[00:13:19 - 00:13:28] más comúnmente. De ahí la idea es, y yo voy a tener unas dependencias, siempre hay una
+[00:13:28 - 00:13:35] dependencia hacia otros componentes, y bueno, pero no tengo todavía armados hacia otro componente,
+[00:13:35 - 00:13:46] entonces los simulos a través de tab, representantes, mox o objetos simulados. Ahora bien, y también,
+[00:13:48 - 00:14:02] vuelvo a decir, si yo estoy trabajando en algún, me voy a llamar, en alguna herramienta de programación,
+[00:14:02 - 00:14:07] bueno, eso lo tengo totalmente resuelto, pero el concept, yo quiero que se vayan con la idea
+[00:14:07 - 00:14:14] del concepto. Lo mismo sucede con decir, bueno, ya un módulo o un componente que estoy armando,
+[00:14:14 - 00:14:24] pero necesito de alguna manera tener también otro componente, otro código creado, lo puedo crear
+[00:14:24 - 00:14:30] de manera temporal para simular la activación de este nivel, de este módulo o este componente que
+[00:14:30 - 00:14:41] siga viaj programado, eso se lo denomina controlador. Entonces, la realidad es que esto sirve
+[00:14:41 - 00:14:50] muchísimo para ver cómo hago las pruebas de integración. Una vez que yo ya terminé con las pruebas
+[00:14:50 - 00:14:57] unitarias, dieron que las pruebas unitarias realmente no le doy mucho valor, o sea, en cuanto al
+[00:14:57 - 00:15:03] diseño, porque eso es una tarea que realmente lo debería hacer el programador o el analista, si es que
+[00:15:03 - 00:15:12] está generando código a través de una idea, estas pruebas unitarias, las herramientas salos hacen,
+[00:15:15 - 00:15:23] son bastantes simples, las hide de desarrollo, ya lo trae incorporado. Ahora bien,
+[00:15:23 - 00:15:29] me voy siguiendo esas pruebas de integración de los más chicos hacia los más grandes, ya pasé
+[00:15:29 - 00:15:35] los que son las pruebas unitarias, me voy a lo que son las pruebas de diseño de integración. Yo
+[00:15:35 - 00:15:41] justamente en esta etapa donde tengo que ir pensando cómo voy a hacer las pruebas.
+[00:15:48 - 00:15:57] La realidad es que cuando uno quiere acelerar el proceso, la programación, la construcción,
+[00:15:57 - 00:16:02] tiene varios kilos de trabajo y después lo que tenemos que hacer es ir armando estos
+[00:16:02 - 00:16:14] sitios de trabajo y empezar a integrar los niveles. A nivel teórico, hay muchas, hay algunas formas
+[00:16:14 - 00:16:21] para poder integrarlo, las más comunes, el binbal, es decir, agarro todos los componentes que
+[00:16:21 - 00:16:30] hayan programado, que hayan construido, los juntos y empiezos a las pruebas. Lo que genera este tipo
+[00:16:30 - 00:16:38] de pruebas del Big Bang es que realmente como no puedo tener una trasa de firma, junto a B y
+[00:16:38 - 00:16:46] a prueba, no que imagínense que tengo 100 componentes y los juntos de una bolsa y la realidad es que
+[00:16:46 - 00:16:53] me va a costar mucho identificar dónde es el origen del error. Por lo tanto, uno es muy utilizado,
+[00:16:53 - 00:16:59] pero forma parte del marco teórico de lo que son las ciudades de integración. Luego vienen las
+[00:16:59 - 00:17:06] pruebas de integración, a nivel intervental, descendente y ascendente. Ya acuerdo al tipo de
+[00:17:06 - 00:17:15] tecnologías, a cómo hayan definido el arquitecto, la forma de construir la aplicación,
+[00:17:15 - 00:17:26] y la técnica de la ciudad. Voy a definir si voy a ser un descendente o ascendente. Y eso también
+[00:17:26 - 00:17:35] está bueno saberlo porque yo voy a definir cómo va a ser esa integración. Entonces vamos a hablar un
+[00:17:35 - 00:17:41] poco de la integración en forma intervental. Imagínense que yo tengo diferentes componentes,
+[00:17:41 - 00:17:50] sentidades y obviamente yo quiero que sean bien atónicas, para que sean esas como pacitas y
+[00:17:50 - 00:17:57] integraciones, no se lo de hacen. Espero que bueno, cada uno me va a dar un determinado servicio
+[00:17:57 - 00:18:05] y en conjunto me va a determinar lo que se llama y servicaciones de mis aplicaciones compuestas.
+[00:18:06 - 00:18:14] Entonces digo, bueno, voy a tener esta vacer yo te pensaba, estoy enseñando cómo va a ser la
+[00:18:14 - 00:18:22] solución. Bueno, si yo tengo ya en mi cabeza cómo va a ser la solución, puedo empezar a definir cómo
+[00:18:22 - 00:18:30] va a ser la integración. Entonces imagínense que estoy con páginas HTML, entonces digo bueno,
+[00:18:30 - 00:18:38] páginas HTML, yo sé que voy a tener un home, ese home va a tener determinadas funcionalidades y después tengo
+[00:18:38 - 00:18:46] un árbol donde coloco todas las dependencias de las páginas y bueno, ahí realmente está bueno
+[00:18:46 - 00:18:53] pensar en un incremental descendente en profundidad de una anchura, ahora lo vamos a ver, estaría bueno.
+[00:18:53 - 00:19:03] Ahora estoy armando unas páginas o páginas HTML y las realidad es que no suele ser de ir
+[00:19:03 - 00:19:09] que sea un incremental descendente, es decir tener la párgata del formulario o ir para arriba
+[00:19:09 - 00:19:17] a ver cómo voy a hacer el camino inverso. Entonces, de acuerdo a esa tecnología puedo definir si voy a
+[00:19:17 - 00:19:25] hacer un incremental descendente o bastante. Estoy trabajando por ejemplo con servicios, ahí podría estar
+[00:19:25 - 00:19:32] tranquilamente también una sentente o con procesos bien atónicos, ahí lo podría estar.
+[00:19:32 - 00:19:39] El incremental descendente en profundidad, una vez que yo tengo ya pensado en el diseño cómo va a ser
+[00:19:43 - 00:19:53] el acoplamiento, cómo va a ser la relación entre todas estos componentes, ahí puedo definir cómo va a ser la
+[00:19:53 - 00:19:59] entrega, en donde lo voy a definir en esta estrategia de pruebas que habíamos definido en la 13, en esa
+[00:19:59 - 00:20:07] estrategia de pruebas que habíamos dicho que era nuestra obligación azar, ozca, tengo que definir cómo
+[00:20:07 - 00:20:20] va a ser la integración. Y tengo un descendente en profundidad, obviamente tengo en la parte superior,
+[00:20:20 - 00:20:29] el nivel superior, ahí voy agregando los móbulos o los componentes que voy integrando que son
+[00:20:29 - 00:20:37] lo del nivel inferior. Estoy yo defino que voy a hacer descendente en profundidad y primero tendría que
+[00:20:37 - 00:20:48] tener M1, después sería M2, M5 y M8. Después debería volver a M8, ahí ya tengo que empezar a
+[00:20:48 - 00:20:56] definir cómo lo voy a hacer, si quiero volver a M6 o si quiero hacer M3 a M7 y quiero hacer turista,
+[00:20:56 - 00:21:05] puedo hacer M1, M2, M5, M8, M8, M8. Y termino con este lado del camino.
+[00:21:05 - 00:21:15] Descendente por anchura, voy descendiendo también, es decir que T1, que sería el módulo superior,
+[00:21:15 - 00:21:24] y después vuelco a los módulos inferiores, pero a través de anchura es el circo, M1, M2, M3, M4.
+[00:21:24 - 00:21:35] Después el hijo, ahí tengo que definir yo porque rama voy a continuar, si quiero hacer M2,
+[00:21:35 - 00:21:45] M5, M6 o si quiero hacer M3, M7. Pero ya voy por anchura, no hago todo un camino, eso va a
+[00:21:45 - 00:21:51] defender también de la centrada de las que yo quería, con el cliente de la base que me dice,
+[00:21:51 - 00:21:57] yo quiero que yo estoy haciendo el esquina, quiero que yo probar todo lo que es la gestión de pados,
+[00:21:57 - 00:22:03] sin capas que la gestión de pados es un único camino. Ahora si me dice, no, la verdad quiero
+[00:22:03 - 00:22:14] viviendo cómo sería, voy a hacer un profundidad en anchura, eso también está muy relacionado de
+[00:22:14 - 00:22:23] acuerdo, si estoy haciendo con tarjetas de usuarios y estoy haciendo pruebas con user experience,
+[00:22:23 - 00:22:29] y bueno la realidad que me va a convenir más un hacer una vez, les enter en anchura,
+[00:22:30 - 00:22:39] y después ir profundizando, liberando profundidad, eso lo van a tener que decidir el arquitecto en el
+[00:22:39 - 00:22:46] momento que también está definiendo cómo van a estar las pruebas, incrementar la ascendente que sería
+[00:22:46 - 00:22:59] por lo que estivemos hablando, en ahí me van a donar. ¿Araño desde abajo del árbol?
+[00:22:59 - 00:23:09] Exacto, en el caso de abajo del árbol, desde el estilo del árbol inferior, en el caso de M8 tengo
+[00:23:09 - 00:23:13] bien atómico, ahí es cuando estoy hablando de servicios, son micros servicios de cereal o ideal,
+[00:23:13 - 00:23:19] de fino bien los servicios, y después veo cómo empezó a hacer esas relaciones y ya con el
+[00:23:19 - 00:23:27] empiece, es decir, relaciones del servicio, con el ve, con el fe, y empiece a encadenarlos, y ahí
+[00:23:27 - 00:23:32] voy a tener lo que llama aplicaciones compuestas, y ahí podría llegar a hacer también lo que se llama
+[00:23:32 - 00:23:38] incrementar la ascendente, es decir, en M8, M5, M2, M2, M2, etc.
+[00:23:38 - 00:23:48] Y tienen de, de intentar usar un descendente o un ascendente y en algunos casos voy a tener que tener
+[00:23:48 - 00:24:01] de en magaga, en algunos casos, y yo empiezo desde, desde la ascendente y la realidad es que como estoy
+[00:24:01 - 00:24:10] en bien lo más atómico, en la ascendente sería la hoja inferior, acá, la hoja inferior,
+[00:24:10 - 00:24:16] empezaría por el M8 y bueno, la realidad es que si empiezo como el M8 no tendría que tener ningún
+[00:24:16 - 00:24:24] representante o ningún mox, ni un simulador, ni un estado, solamente necesitaría un único controlador,
+[00:24:25 - 00:24:35] estamos de acuerdo, por lo tanto también ahí estoy ganando, digamos, estoy economizando lo que
+[00:24:35 - 00:24:45] sería las pruebas, porque no tengo que simular tantos representantes o crear tantos componentes temporales
+[00:24:45 - 00:24:53] para acumular una funcionalidad, sino que estoy como, como estoy en lo más atómico, entonces no
+[00:24:53 - 00:25:00] necesito nada más que tener que simular un componente de nivel superior, los estábys ya los
+[00:25:00 - 00:25:12] tendría en cambio, tengo para acá, estoy en un descendente tanto en profundidad como en anchura y que
+[00:25:12 - 00:25:24] empiezo por ejemplo acá en el M2, M3, M4 y acá voy a tener que tener posiblemente si estoy en el nivel
+[00:25:24 - 00:25:28] superior el controlador, es lo que está ya probando así que no había problema, pero si
+[00:25:28 - 00:25:36] vengan a tener muchísimas más representantes, voy a tener muchísimos más códigos creados de manera
+[00:25:36 - 00:25:42] temporal para poder simular todo ese proceso que necesito probar del componente que estoy haciendo,
+[00:25:42 - 00:25:51] me van siendo, por lo tanto también en la definición y en la decisión de cómo quiero hacer
+[00:25:51 - 00:25:59] una prueba de integración, voy a tener en uno más trabajo que en el otro y acuerdo a cómo yo
+[00:25:59 - 00:26:18] voy a vivir esta estructura, me van siendo, sí, entonces eso recuerda en la olla, yo tengo un con
+[00:26:18 - 00:26:23] las cuando hago pruebas de integración, voy a tener en algunos y mayor trabajo que en otros,
+[00:26:23 - 00:26:27] por lo menos que tengo en el que voy a tener que crear mayor mox, que yo de estas,
+[00:26:27 - 00:26:39] mayor representantes, que si me dijo una prueba o la otra, me acuerdo a cómo es la definición
+[00:26:39 - 00:26:50] de mi solución, vale, no es la que es otro concepto del modelo que tengo, de lo que tiene
+[00:26:50 - 00:27:01] es el testing que son las pruebas de relación, no es lo que tengo, estamos incorrigiendo los
+[00:27:01 - 00:27:13] errores, nosotros necesitamos una experiencia en el primer montón de temas funcionales,
+[00:27:13 - 00:27:21] que finimos todas las pruebas funcionales que vamos a hacer, cómo obtrimíamos la parte
+[00:27:21 - 00:27:27] funcional que debe tener la pitação, cómo les criamos o con qué evita lo veíamos,
+[00:27:27 - 00:28:07] cualquier proceso que soja, rup, cram, no sé de escuchar la pregunta,
+[00:28:07 - 00:28:18] y más que ni si tengo que tener unas pruebas funcionales, cómo yo defino con el usuario antes de
+[00:28:18 - 00:28:24] arrancar, prueba, bastante de arrancar la solución, cómo defino esta vista funcional,
+[00:28:24 - 00:28:33] el arquitecto, cómo lo define, esos deseos funcionales que tienen cuenta,
+[00:28:33 - 00:28:38] esas necesidades funcionales, qué tipo de vista hacen?
+[00:28:38 - 00:28:49] Y para las vista funcionales podría optarse, cuando uno, a ver, hace un poco un microfanoccio,
+[00:28:49 - 00:28:55] cuando uno está con el cliente, tratar de extravarlo con los estudios de usuario,
+[00:28:55 - 00:28:59] y después por ahí llevarlo como casos de uso o algo que permitaba las funciones.
+[00:28:59 - 00:29:06] ¿Cuántas? Es decir, si la vista de tienen el arquitecto para analizar la parte funcional,
+[00:29:06 - 00:29:11] pues, o una especificación de negocios, como cuando yo les tengo el Extamin,
+[00:29:11 - 00:29:15] cuando tienen todas las necesidades del cliente,
+[00:29:15 - 00:29:20] los puedo elaborar más, puedo tener el usuario, lo puedo elaborar más,
+[00:29:20 - 00:29:25] porque son muy convitados, capásticos de uso,
+[00:29:25 - 00:29:33] también puedo evaluarlo a través de user experience y armar protoclipados.
+[00:29:33 - 00:29:40] Entonces, son todas digamos, partes funcionales de vista funcionales para hacer estas cosas.
+[00:29:40 - 00:29:44] Obviamente, cuando yo estoy haciendo la solución,
+[00:29:44 - 00:29:51] no voy a tener de día uno toda la solución completa, sino que es increímental.
+[00:29:51 - 00:29:57] El principio voy a ingínense que voy a pasar por cuatro versiones,
+[00:29:57 - 00:30:04] y bueno, voy a agarrar de todos esos paquetes de historias de usuario o de casos de uso,
+[00:30:04 - 00:30:10] voy agarrado algunos, y voy a, en la versión uno, voy a definir qué es lo que quiero hacer.
+[00:30:10 - 00:30:15] En la versión dos voy a agregarle otras funcionalidades.
+[00:30:15 - 00:30:20] En la versión tres, ya le voy a agregar más funcionalidades,
+[00:30:20 - 00:30:27] ahí en la versión cuatro ya debería tener una solución completa a nivel funcional.
+[00:30:27 - 00:30:31] Entonces, como yo tengo un desarrollo increímental,
+[00:30:31 - 00:30:36] desde día uno no voy a poder hacer pruebas, porque si yo hago el día uno todas las pruebas,
+[00:30:36 - 00:30:39] y estoy haciendo un big band.
+[00:30:39 - 00:30:42] Entonces, hay un concepto que llama pruebas de integración.
+[00:30:42 - 00:30:43] Es una buena idea.
+[00:30:43 - 00:30:51] Y bueno, voy a probar una versión uno en conjunto de pruebas,
+[00:30:51 - 00:30:56] es la verdad, llamar F1, que son características.
+[00:30:56 - 00:31:01] Después tengo las pruebas de regresiones, y le agrego nuevas funcionalidades,
+[00:31:01 - 00:31:08] que serían un F2, pero tengo que olvidar que también tenía funcionalidades
+[00:31:08 - 00:31:11] y ya realizadas en la versión uno.
+[00:31:11 - 00:31:17] Por lo tanto tengo que hacer una prueba de regresión de F1.
+[00:31:17 - 00:31:22] Cuando soy en la versión tres, tengo que probar lo que le agregue más estados.
+[00:31:22 - 00:31:25] La realidad es que las pruebas de regresión,
+[00:31:25 - 00:31:34] si yo voy a hacer un proceso más versionados,
+[00:31:34 - 00:31:38] y la realidad que las vea de regresión son bastante complicadas,
+[00:31:38 - 00:31:44] porque tengo que volver a probar cosas que yo ya había probado.
+[00:31:44 - 00:31:49] Pero la realidad es que tampoco puedo no probarlas,
+[00:31:49 - 00:31:56] porque yo sé que hay un acoplamiento entre los componentes
+[00:31:56 - 00:32:00] que tengo que valiar, que sigan funcionando,
+[00:32:00 - 00:32:05] que no sea a ser rotos, que yo había que estaba.
+[00:32:05 - 00:32:12] Este problema es que este prueba de regresión se tengo mucho retrabajo,
+[00:32:12 - 00:32:16] a medida que voy entregando tengo mayor esfuerzo en lo que es el T-Sync,
+[00:32:16 - 00:32:21] y se me dilatan los tiempos, que es tiendo los tiempos.
+[00:32:21 - 00:32:25] Por lo tanto, lo que es la gilidad al cambio,
+[00:32:25 - 00:32:27] no estoy llegando en forma rápida.
+[00:32:27 - 00:32:34] Entonces ahí empiezan todo lo que se llaman automatización de pruebas.
+[00:32:34 - 00:32:38] Ahí después vamos a volver a hablar del sistema.
+[00:32:38 - 00:32:41] Lo que se suele hacer para resolver este problema
+[00:32:41 - 00:32:45] es lo del llama Smoutes o pruebas de humo.
+[00:32:45 - 00:32:48] Alguien tiene este concepto, alguien lo utiliza.
+[00:32:48 - 00:32:53] Smoutes o pruebas de humo en una materia de hallambito,
+[00:32:53 - 00:33:04] en una área de trabajo, no tiene este concepto.
+[00:33:04 - 00:33:06] ¿Unos otro?
+[00:33:06 - 00:33:08] No, no.
+[00:33:08 - 00:33:12] Bueno, el Smoutes...
+[00:33:12 - 00:33:18] Siempre reguaron que yo les digo que en generales no se evitan,
+[00:33:18 - 00:33:25] entonces vamos al Kirino de otras ni generales ni generales ni generales ni generales.
+[00:33:25 - 00:33:31] El Smoutes viene de un concepto de la construcción,
+[00:33:31 - 00:33:36] donde acá tiene una cañería y si se rompe una imagen,
+[00:33:36 - 00:33:44] así que tengo acá paúa, si hay algo roto en una cañería y sin un tatodo.
+[00:33:44 - 00:33:48] Entonces lo que hizo la ingeniería era única es decir,
+[00:33:48 - 00:33:53] bueno, si tengo un gran caño de agua y hay alguna rotura,
+[00:33:53 - 00:34:00] voy a detener este paso y lo voy a hacer es pasar humo.
+[00:34:00 - 00:34:08] Entonces donde yo vea que sale humo es porque hay una rotura y resuelvo eso.
+[00:34:08 - 00:34:13] Entonces es muy utilizado en los que se enseñaría civil y aerábulica,
+[00:34:13 - 00:34:18] el concepto de Smoutes, ¿cuánto están haciendo este tipo de pruebas?
+[00:34:18 - 00:34:22] Y nosotros tomamos esa palabra básicamente para decir, bueno,
+[00:34:22 - 00:34:25] voy a hacer pruebas de regresión,
+[00:34:25 - 00:34:32] pero voy a definir un conjunto de pruebas y no voy a probar todo.
+[00:34:32 - 00:34:37] Me vas a hacer una entrega, pero voy a probar de los 10 casos de uso
+[00:34:37 - 00:34:42] o de las 10 historias de usuario que me vas a entregar en esta versión
+[00:34:42 - 00:34:47] y voy a probar por lo menos 3.
+[00:34:47 - 00:34:51] Voy a definir, como arquitecto, tengo la responsabilidad de definir,
+[00:34:51 - 00:35:00] cuáles son esas funcionalidades claves y esas pruebas sale mal.
+[00:35:00 - 00:35:05] Las aceptaciones en invalida, la prueba es invalida, no continuo.
+[00:35:05 - 00:35:07] No lo acepto.
+[00:35:07 - 00:35:10] La rechaza completamente la prueba.
+[00:35:10 - 00:35:15] Y esas pruebas salieron bien, continuo con una prueba un poco más relajada.
+[00:35:15 - 00:35:18] Es este tipo de Smoutes o pruebas de hubo,
+[00:35:18 - 00:35:21] se utiliza mucho, por ejemplo, cuando estoy trabajando
+[00:35:21 - 00:35:24] con diferentes grupos de desarrollo,
+[00:35:24 - 00:35:27] entonces digo, bueno, estoy, por ejemplo, estoy en un banco.
+[00:35:27 - 00:35:32] El en el banco trabajo en la parte de homoelidación que esté y viene
+[00:35:32 - 00:35:36] en el área de desarrollo y en el chat te voy a entregar una nueva versión.
+[00:35:36 - 00:35:41] Bueno, para, voy a hacer una prueba de hubo que tal vez tardado un día,
+[00:35:41 - 00:35:45] está con pruebas que si no pasan,
+[00:35:45 - 00:35:48] las pruebas son invalidas, si lo rechazo.
+[00:35:48 - 00:35:55] Entonces, este es una prueba más áscil y más rápida de hacer.
+[00:35:55 - 00:35:59] Lavorablemente se utiliza muchísimo, se habla mucho del pruebas de hubo,
+[00:35:59 - 00:36:08] es un concepto que está como insinucionado dentro de la informática.
+[00:36:08 - 00:36:15] Exceces es muy utilizado, pero básicamente es eso.
+[00:36:15 - 00:36:22] Ahora me voy enfocando a lo que es orientado objeto.
+[00:36:22 - 00:36:27] Imagínense que yo tengo en orientado objeto, tengo determinadas clases,
+[00:36:27 - 00:36:31] o puede ser también delicio.
+[00:36:31 - 00:36:39] Tengo, imagínense que cada uno de estas piezas es una clase.
+[00:36:39 - 00:36:44] No tengo, y aquí no digo, bueno, tengo varios programadores,
+[00:36:44 - 00:36:48] cada uno, me armé una arquitectura, por suerte armé una arquitectura y dije,
+[00:36:48 - 00:36:54] bueno, tienen estas clases con estos métodos, vos haces esto,
+[00:36:54 - 00:36:58] vos haces lo otro, cada uno hace sus pruebas unitarias,
+[00:36:58 - 00:37:03] y bueno, después que me voy a empezar a relacionarlos, empezar a integrarlos.
+[00:37:03 - 00:37:08] Hay dos tipos de integración básicamente en lo que es orientado objeto,
+[00:37:08 - 00:37:12] uno de los llamas de negras y hidrobasadas en uso.
+[00:37:12 - 00:37:17] Me voy primero a las basadas en uso, son un poco más de espillas,
+[00:37:17 - 00:37:20] y se prueba primero la clase independiente,
+[00:37:20 - 00:37:24] las que no están muy relacionadas, se tiene bajo complemento,
+[00:37:24 - 00:37:28] y luego vas avanzando con las dependientes.
+[00:37:28 - 00:37:39] Mi obviamente, él tengo también pruebas de regresión en busca.
+[00:37:39 - 00:37:47] Cada conjunto, cada clase te va a probar las que están más cohesivas,
+[00:37:47 - 00:37:53] el programa que estamos agopladas, las pruebas, las que están más relacionadas,
+[00:37:53 - 00:37:54] las pruebas que no me da un día.
+[00:37:54 - 00:38:01] Si yo sé qué hace, relaciona mucho con ver, voy a relacionar eso.
+[00:38:01 - 00:38:07] Entonces, ahí no empiezo con las que son independientes.
+[00:38:07 - 00:38:11] Voy primero con las que tienen una unidad específica,
+[00:38:11 - 00:38:18] es si probaría, por ejemplo, pago tipo de pago,
+[00:38:18 - 00:38:23] está las que están todas relacionadas.
+[00:38:23 - 00:38:25] Así que, hay dos formas también de integrarlos,
+[00:38:25 - 00:38:30] pero los conceptos de regresión y de edas,
+[00:38:30 - 00:38:36] de regresión y desmuntes funcionan para ambas.
+[00:38:37 - 00:38:39] Ahora, me voy a lo que son las casos de prueba.
+[00:38:39 - 00:38:44] Yo tengo que tener una relación entre las que son los casos de uso o historias de usuario
+[00:38:44 - 00:38:46] con los casos de prueba.
+[00:38:46 - 00:38:50] Imagínense que estoy ingresando un Home Banking.
+[00:38:50 - 00:38:53] Estos lo copietas al cual en su momento no se si,
+[00:38:53 - 00:38:58] cambio, tengo una página web, me voy a responder de Galicia,
+[00:38:58 - 00:39:01] en el Home Banking de Galicia tengo para iniciar sección
+[00:39:01 - 00:39:08] ingresos usuario y la clave y bold al botón iniciar sección.
+[00:39:08 - 00:39:11] La realidad justo tiene una relación muy estrecha,
+[00:39:11 - 00:39:16] con el caso de uso del PSOA ya definido o con la estrella de usuario no importa.
+[00:39:16 - 00:39:19] Entonces, tengo el cliente ingresa a dotar.
+[00:39:19 - 00:39:23] Imagínate ingreso, el cliente ingresa usuario de Galicia,
+[00:39:23 - 00:39:27] el cliente ingresa clave, el usuario se clic,
+[00:39:27 - 00:39:32] y el sistema de dirección a de Home.
+[00:39:32 - 00:39:36] Hay una relación dentro de cómo yo escribí esa especificación,
+[00:39:36 - 00:39:38] caso de uso de historias de usuario,
+[00:39:38 - 00:39:40] lo que sea con la prueba de usuario.
+[00:39:40 - 00:39:44] Yo tengo que empezar a decir, ¿qué voy a probar?
+[00:39:44 - 00:39:50] Por lo tanto, de un caso de uso o de un historio de usuario,
+[00:39:50 - 00:39:57] voy a tener varios casos de prueba.
+[00:39:58 - 00:40:08] Pero vende a hacer un caso de prueba por cada escenario alternativo
+[00:40:08 - 00:40:10] que tiene el caso de uso.
+[00:40:10 - 00:40:14] Perfecto.
+[00:40:14 - 00:40:16] Es decir, tengo un caso de prueba de usuario de usuario,
+[00:40:16 - 00:40:19] le importa y digo, bueno, voy a empezar con el primero.
+[00:40:19 - 00:40:25] El cliente ingresa correctamente el usuario y ingresa correctamente
+[00:40:25 - 00:40:30] la clave me da tal resultado.
+[00:40:30 - 00:40:34] Acá lo escribí muy simple el caso de prueba.
+[00:40:34 - 00:40:40] Pero también tengo el camino, digamos, el feliz y todos los infelices,
+[00:40:40 - 00:40:40] por así decirlo.
+[00:40:40 - 00:40:44] Ustedes no me gustan hablar de camino feliz.
+[00:40:44 - 00:40:48] Yo tengo el camino correcto y todos los otros caminos,
+[00:40:48 - 00:40:51] los alternativos, lo se canviezo.
+[00:40:51 - 00:40:55] El cliente ingresa usuario campo vacío,
+[00:40:55 - 00:40:57] ingresa clave correcta.
+[00:40:57 - 00:41:02] Es el resultado y dirección a página de error.
+[00:41:02 - 00:41:05] Ya no me direcciónas la com, me direcciónas página de error.
+[00:41:05 - 00:41:09] Tengo que escuelas el resultado de esperado en la casa de prueba.
+[00:41:09 - 00:41:12] Y si yo ingreso esto me direcciónas una página de error.
+[00:41:12 - 00:41:15] Voy con otro caso, el cliente ingresado.
+[00:41:15 - 00:41:19] Suario correcto, clave vacía, que me direcciona página de error.
+[00:41:19 - 00:41:25] Y así con todos los N casos que yo vaya detectando.
+[00:41:25 - 00:41:32] Hoy, por suerte, tenemos agentes de día que también me voy viendo
+[00:41:32 - 00:41:34] que genera un montón de casos de prueba
+[00:41:34 - 00:41:40] a través de este artefato de entrada que seía el caso de uso,
+[00:41:40 - 00:41:45] el historiario usuario, me va como armando algunas historias,
+[00:41:45 - 00:41:49] perdón, algunas casos de prueba en forma automática.
+[00:41:49 - 00:41:52] No tanto acelero la creación de las casos de prueba.
+[00:41:55 - 00:41:57] Eso está bueno porque la realidad es que yo después tengo
+[00:41:57 - 00:42:01] que tener una relación en los casos de prueba con las automatizaciones
+[00:42:01 - 00:42:05] que eso después le vamos a ver.
+[00:42:05 - 00:42:09] Pero yo tengo lo que tienen que hacer es que tengo un artefato
+[00:42:09 - 00:42:12] de entrada, sea cual sea.
+[00:42:12 - 00:42:15] Y después voy a tener un montón de artefatos de salida
+[00:42:15 - 00:42:20] que son las pruebas de usuario, las casos de prueba, perdón.
+[00:42:20 - 00:42:23] Pero en los casos de prueba.
+[00:42:23 - 00:42:27] Y que después tengo que tener una relación.
+[00:42:27 - 00:42:32] Puede venir una persona que hace desinfucional
+[00:42:32 - 00:42:34] y te va a dar el primer caso de prueba.
+[00:42:34 - 00:42:36] Voy haciendo un check.
+[00:42:36 - 00:42:39] El primer paso dice bien, el segundo paso dice bien,
+[00:42:39 - 00:42:42] el tercer paso dice bien, el tercer paso dice que vire
+[00:42:42 - 00:42:50] en clave y no me deja de escribir.
+[00:42:50 - 00:42:55] Y siquiera llegué a poder ver cuál era el resultado esperado,
+[00:42:55 - 00:42:57] tira que mi dirección a página de error.
+[00:42:57 - 00:43:03] Todo eso tiene que estar escrito para que después poder evaluar
+[00:43:03 - 00:43:10] y recolectar todos los datos y poder evaluar y mejorarlo.
+[00:43:10 - 00:43:15] Algo que está bueno es que yo tengo muchas pruebas de regresión.
+[00:43:15 - 00:43:18] Y estos casos de prueba les voy a hacer varias veces.
+[00:43:18 - 00:43:23] Imagínense que estoy en un home banking y tengo llavo
+[00:43:23 - 00:43:29] por la regresión, perdón por la versión de entrega número
+[00:43:29 - 00:43:30] de los 10015.
+[00:43:30 - 00:43:36] Voy a volver a probar todos los casos de ingreso.
+[00:43:36 - 00:43:37] Y qué se lló?
+[00:43:37 - 00:43:47] Pero bueno, he dado alguna error o una falla y algunas pruebas voy a estar.
+[00:43:47 - 00:43:50] Entonces lo que se suele hacer es decir,
+[00:43:50 - 00:43:59] bueno, voy a asociar a esta prueba con una automatización.
+[00:43:59 - 00:44:06] Y lo que voy a tener es un montón de herramientas.
+[00:44:06 - 00:44:10] Lo que me va a permitir es abrir la home,
+[00:44:10 - 00:44:18] dentro de la jornada de la lista,
+[00:44:18 - 00:44:26] dentro de la jornada de la lista,
+[00:44:26 - 00:44:27] dentro de la jornada de la lista,
+[00:44:27 - 00:44:32] esto es nivel funcional.
+[00:44:32 - 00:44:40] Y tengo acá activado una herramienta que digo,
+[00:44:40 - 00:44:49] bueno, ingreso nombre, analía, ingreso apellido, marido.
+[00:44:49 - 00:44:50] Y tengo la herramienta,
+[00:44:50 - 00:44:53] si lo que va a hacer es todos esos pasos que voy haciendo,
+[00:44:53 - 00:44:55] los va grabando.
+[00:44:55 - 00:44:58] Entonces tengo una de las grabaciones.
+[00:44:58 - 00:45:02] Lo que hace es capturar eso,
+[00:45:02 - 00:45:06] otra vez que la clase tiene la herramienta y va diciendo,
+[00:45:06 - 00:45:12] bueno, te ves un código, un scriptil,
+[00:45:12 - 00:45:14] y en el scriptil van a ver que he visto ingreso,
+[00:45:14 - 00:45:20] total, analía, clave, apellido, marido.
+[00:45:20 - 00:45:24] Entonces tengo ese scriptil y después lo que tengo que hacer,
+[00:45:24 - 00:45:28] cuando tengo ese script, es decir, bueno, acá tengo analía,
+[00:45:28 - 00:45:31] bueno, se vaya un excel con todas las claves,
+[00:45:31 - 00:45:37] que haga un query a la base para que haga todo la simule,
+[00:45:37 - 00:45:39] todo lo su usuario y clave.
+[00:45:39 - 00:45:46] Entonces, tengo en forma maciga varias pruebas.
+[00:45:46 - 00:45:52] Por ejemplo, acá estoy con una de las herramientas.
+[00:45:52 - 00:45:53] Una herramienta.
+[00:45:53 - 00:45:55] Entonces, esta herramienta, lo que me permite,
+[00:45:55 - 00:46:00] vamos a grabar un poquito, lo que realmente es decir, bueno,
+[00:46:00 - 00:46:06] empiezo a grabar todo lo que voy a inmular en el browser
+[00:46:06 - 00:46:12] o en una aplicación funcional tiene que estar,
+[00:46:12 - 00:46:13] ¿ok?
+[00:46:13 - 00:46:14] Lo va ir grabando.
+[00:46:14 - 00:46:17] Mira, en el que acá, por ejemplo, puse,
+[00:46:17 - 00:46:24] a ver, o es verdad, no se de bien, pero vamos acá.
+[00:46:24 - 00:46:26] Acá puse, por ejemplo, el intro y usarme en,
+[00:46:26 - 00:46:28] entro, no se tal.
+[00:46:28 - 00:46:31] Pavo, entro o acá está intentado.
+[00:46:31 - 00:46:37] Entonces, después yo puedo decir, bueno, no lo jarco de es,
+[00:46:37 - 00:46:40] como, obviamente al principio lo va a jarco de algo,
+[00:46:40 - 00:46:45] porque lo que hace es ir grabando todo lo que yo hago.
+[00:46:45 - 00:46:47] Pero después yo puedo ir modificando,
+[00:46:47 - 00:46:51] decir de acá, andate a un excel, andate a un query,
+[00:46:51 - 00:46:56] andate a otro lado, un textel, lo que sea,
+[00:46:56 - 00:46:59] y captura todos los nombres, los user names,
+[00:46:59 - 00:47:02] de ahí para hacerlo, en forma más cura.
+[00:47:02 - 00:47:04] Entonces, es muy utilizado.
+[00:47:04 - 00:47:13] Hoy también, ya, al día, que ayuda mucho a lo que es el armado
+[00:47:13 - 00:47:16] del sentedato.
+[00:47:16 - 00:47:19] Bueno, acá es otro tipo de herramientas,
+[00:47:19 - 00:47:23] este es para lo que es parte web.
+[00:47:23 - 00:47:28] Ya acá tienen, por ejemplo, agregar y acá te dicen qué tipo
+[00:47:28 - 00:47:32] de configuración, cómo la realidad que tienen,
+[00:47:32 - 00:47:35] que haber un tiene, que haber un trabajo de mejora,
+[00:47:35 - 00:47:38] que modificar esa macro.
+[00:47:38 - 00:47:41] Si ustedes están después en algún proyerto web
+[00:47:41 - 00:47:44] dentro de la facultad, este lo puede utilizar porque es el
+[00:47:44 - 00:47:47] atrito.
+[00:47:47 - 00:47:51] En cual me manacer es una herramienta que me permite tener
+[00:47:51 - 00:47:58] todo el set, es decir, tener el caso de prueba,
+[00:47:58 - 00:48:00] el pardon, el caso de uso, el historio de usuario,
+[00:48:00 - 00:48:02] y después de este caso de historias usuarios,
+[00:48:02 - 00:48:05] derivarlos en el caso de prueba.
+[00:48:05 - 00:48:06] Entonces, ¿qué me sirve tener?
+[00:48:06 - 00:48:09] Y después de esos casos de prueba, relacionar, es decir,
+[00:48:09 - 00:48:13] tengo el script, ya he hecho, tengo el script, ya he hecho.
+[00:48:13 - 00:48:16] Ah, pero bueno, ese script lo relaciona con este caso
+[00:48:16 - 00:48:17] de prueba.
+[00:48:17 - 00:48:21] Entonces, el quejo la noche tal vez probando la automatización
+[00:48:21 - 00:48:26] que hice y al otro día tengo acá el caso de prueba OK,
+[00:48:26 - 00:48:29] este caso de prueba fallo, este caso de prueba estuvo bien,
+[00:48:29 - 00:48:34] este tengo, ya en forma automática, un resultado.
+[00:48:34 - 00:48:44] Pero necesito tener un enlace de todo el caso de uso,
+[00:48:44 - 00:48:47] con la historia de un usuario, con la automatización.
+[00:48:47 - 00:48:49] Eso me los dan otros tipos de herramientas.
+[00:48:49 - 00:48:54] Hay muchas herramientas, eso me fui a una como cuantimanas.
+[00:48:54 - 00:49:01] Entonces, acá tengo, por ejemplo,
+[00:49:01 - 00:49:03] es decir, bueno, voy a ejecutarlo,
+[00:49:03 - 00:49:06] dejo ejecutando, tengo todo lo que son requerimientos,
+[00:49:06 - 00:49:12] tengo ejecución que pueden ser en forma automática.
+[00:49:12 - 00:49:16] Asi que esa prueba la voy a ejecutar una sola vez y hago
+[00:49:16 - 00:49:20] solamente una prueba manual.
+[00:49:20 - 00:49:23] Le digo una persona que lo pruebe si lo voy a estar en EVS,
+[00:49:23 - 00:49:25] porque tengo muchas pruebas de regresión y ahí ya me
+[00:49:25 - 00:49:27] combiné automatizarla.
+[00:49:30 - 00:49:34] Que le decía, decid, acá vamos a ver esto.
+[00:49:34 - 00:49:36] Entonces, yo, por ejemplo, si lo dejo ejecutando,
+[00:49:36 - 00:49:38] digo, bueno, a ver cuál es el resultado.
+[00:49:38 - 00:49:43] Y de algún, que dio 155 pruebas bien, 75 con errores.
+[00:49:43 - 00:49:45] Bueno, cliqueo y ahí me muestre,
+[00:49:45 - 00:49:49] ¿cuáles son los casos de prueba que fallaron?
+[00:49:49 - 00:49:50] Si no entiendo el caso de prueba,
+[00:49:50 - 00:49:53] hago un link y me voy al caso de uso.
+[00:49:53 - 00:49:55] Está todo muy relacionado.
+[00:49:55 - 00:49:59] Tendré una herramienta así que también
+[00:49:59 - 00:50:03] es inicia muchísimo el destino.
+[00:50:03 - 00:50:05] O están todas integradas.
+[00:50:05 - 00:50:10] Hay mucho día dando vuelta, antes de también lo que es,
+[00:50:10 - 00:50:21] vengo acá lo que es análisis, lo que se la analisis mejora muchísimo.
+[00:50:21 - 00:50:26] Ya, estas herramientas hoy vienen con niñas.
+[00:50:26 - 00:50:27] Acá también tengo, por ejemplo,
+[00:50:27 - 00:50:28] ¿cuáles fueron los que fallaron?
+[00:50:28 - 00:50:29] ¿Cuáles no?
+[00:50:29 - 00:50:33] Me da diferentes formas.
+[00:50:33 - 00:50:36] Esto está buenísimo, porque yo tengo una software factor.
+[00:50:36 - 00:50:40] Y que lo único que hago es testin, tengo un cliente que tengo
+[00:50:40 - 00:50:44] que enviarles unos reportes, tengo una herramienta que en forma
+[00:50:44 - 00:50:51] de skill me ayuda a gestionar unos reportes muy buenos.
+[00:50:51 - 00:50:55] Entonces, es muy utilizado.
+[00:50:55 - 00:50:58] ¿Dudas hasta acá sobre este tema?
+[00:50:58 - 00:51:05] Voy a seguir por esto.
+[00:51:05 - 00:51:07] No, ninguna duda.
+[00:51:07 - 00:51:08] Anda.
+[00:51:08 - 00:51:13] Bueno, acá lo que dice son todas lo que es las pruebas orientadas,
+[00:51:13 - 00:51:16] así es un buen diseño, ¿no?
+[00:51:18 - 00:51:21] Y dice un buen diseño, ¿no?
+[00:51:21 - 00:51:26] Que justamente el foco nuestro de esta herramienta, de esta materia.
+[00:51:26 - 00:51:40] Pero tampoco me pude olvidar porque yo como arquitecto tengo que
+[00:51:40 - 00:51:45] los requisitos, la parte es funcional.
+[00:51:45 - 00:51:48] Y acá tengo lo que se termina en pruebas de evaluación funcional,
+[00:51:48 - 00:51:52] pruebas alfa, pruebas beta.
+[00:51:52 - 00:52:02] Acá hay varios autores que tienen diferencia entre lo que es una prueba alfa y una
+[00:52:02 - 00:52:03] prueba beta.
+[00:52:03 - 00:52:08] Nosotros vamos a enfocar en lo que dicen Presman.
+[00:52:08 - 00:52:13] A prueba alfa son pruebas con un ambiente un poco más controlado.
+[00:52:13 - 00:52:17] Las pruebas beta ya se los entregan a los usuarios.
+[00:52:17 - 00:52:19] ¿Qué quiero decir con este?
+[00:52:19 - 00:52:27] Imagínense que tengo que probar un videojuego el FIFA 2027.
+[00:52:27 - 00:52:31] Está que voy a lanzar y tengo a hacer el que hace el fin de la febrico.
+[00:52:31 - 00:52:36] Febrico es un fanático del FIFA, es un excelente usuario.
+[00:52:36 - 00:52:41] Tuve que tener el que tener el fin de 20 años?
+[00:52:41 - 00:52:47] Te les 15 años mínimo de jugar a la play seguramente.
+[00:52:47 - 00:52:48] Es experto.
+[00:52:48 - 00:52:54] Entonces le digo yo soy el dueño de EAA, no creo que ya me haya.
+[00:52:54 - 00:52:54] No me acuerdo.
+[00:52:54 - 00:52:56] Bienes son los que inventaron.
+[00:52:56 - 00:52:56] Sí.
+[00:52:56 - 00:52:57] En fin.
+[00:52:57 - 00:52:58] Gracias.
+[00:52:58 - 00:52:59] Gracias.
+[00:52:59 - 00:53:00] Gracias.
+[00:53:00 - 00:53:02] Gracias.
+[00:53:02 - 00:53:07] Entonces le digo bueno, Cérico, te voy a dar para que pruebes en tu vengan.
+[00:53:07 - 00:53:10] Ven, perdón, te invito a Estados Unidos.
+[00:53:10 - 00:53:18] Si lo venit de Estados Unidos, te voy a hacer probar el FIFA 2028.
+[00:53:18 - 00:53:22] Está y te dejo en un ambiente totalmente controlado.
+[00:53:22 - 00:53:24] En fin, que lo te has instalado.
+[00:53:24 - 00:53:30] O sea, vos vas a ser invitados de unirse a mi ambiente y me va a iniciar las mejoras.
+[00:53:30 - 00:53:32] Y los vengan las que son las pruebas alpha.
+[00:53:32 - 00:53:37] Ya pruebas beta es decir, ya tengo a febrico, tengo a Francisco, tengo a Javier.
+[00:53:37 - 00:53:43] Yo sé que son super usuarios y les digo, saben que todavía no salió la versión
+[00:53:43 - 00:53:47] de FIFA 2028, pero te lo voy a dar para que juegas.
+[00:53:47 - 00:53:54] Está ya, no es un ambiente controlado, te lo voy a vos vas a probarlos.
+[00:53:54 - 00:54:05] Lo que está bueno es que esos tipos de usuarios son considerados muy valiosos y hasta que
+[00:54:05 - 00:54:07] se escuchen, es decir, bueno, ¿sabes qué?
+[00:54:07 - 00:54:15] El rico me dijo que no sé que cuando hay un cambio de hora, el cambio no me permite,
+[00:54:15 - 00:54:18] tal vez te digamos que agregar esto funcionalmente no anda bien.
+[00:54:18 - 00:54:25] O sea, se escucha cuando hay una prueba beta de ese tipo de usuarios y después lo pueden
+[00:54:25 - 00:54:26] implementar.
+[00:54:26 - 00:54:30] Obviamente, hay pruebas beta 1, 2, 3, o sea, de acuerdo en nivel, después capaz que son
+[00:54:30 - 00:54:34] en forma más vacíos y ahí no se lo se escucha tanto de sus usuarios.
+[00:54:34 - 00:54:40] Pero es ya en un ambiente que no tengo control, ¿ok?
+[00:54:40 - 00:54:45] Y después obviamente una vez que hice las pruebas funcionales, ya tuve pruebas alpha,
+[00:54:45 - 00:54:52] tuve pruebas beta y tuve el tengo que decir, bueno, basta, ya tengo una prueba de aceptación
+[00:54:52 - 00:55:10] completa, el lanzo, el producto, me voy con otro, es yo que me llevas esto.
+[00:55:10 - 00:55:19] Tengo, el Homemante tengo y acá empiezo a hacer lo que son las pruebas de, ah, ahí se
+[00:55:19 - 00:55:27] me fue, automatización, ingreso, y acá empiezo a escribir el código, la herramienta
+[00:55:27 - 00:55:34] empieza a escribir mucho código, empieza a hacer scripting, lo que yo quiero es decir, bueno,
+[00:55:34 - 00:55:40] si yo hago una relación y o esta prueba, está relacionado con este script automático,
+[00:55:40 - 00:55:45] automatizado, y el día de mañana digo, bueno, voy a cambiar, en vez de de ney,
+[00:55:45 - 00:55:55] antes tenía, tenía usuario y clave, ahora voy a agregar también de ney, funcionalmente
+[00:55:55 - 00:56:06] a dar el caso de uso, agrego de ney, que no lo tenía, tengo un montón de casos relacionados
+[00:56:06 - 00:56:10] que van a estar impactados por este cambio.
+[00:56:10 - 00:56:15] Entonces lo que suele hacer cuando estoy ya, ya lo tenía automatizado, no sé lo que
+[00:56:15 - 00:56:24] suele hacer es grabo la parte cita que me corresponde, lo agrego y se vea replicado,
+[00:56:24 - 00:56:35] o con la idea lo agrego en un solo caso y automáticamente se replica en todos los casos
+[00:56:35 - 00:56:41] que tengo automatizado posiblemente ese caso.
+[00:56:41 - 00:56:46] Y después el lanzó la prueba.
+[00:56:46 - 00:56:51] Esto está buenísimo porque yo lo que necesito es tener la gilidad al cambio y si yo tengo
+[00:56:51 - 00:57:00] que viene un cambio a nivel funcional como que tuve acá que ya tenía usuario y clave,
+[00:57:00 - 00:57:06] ahora también tengo de ney, bueno en forma bastante más simple, voy a hacer un análisis
+[00:57:06 - 00:57:14] de cuáles son los casos de pruebas que están impactados de este cambio funcional y además
+[00:57:14 - 00:57:23] también veo cuál es de estos estas pruebas, tengo una automatización como para agregar
+[00:57:23 - 00:57:32] el código correspondiente, esto es cómo se hace chicos en un día a día, ¿no?
+[00:57:32 - 00:57:40] Me voy a lo último prueba de sistemas que son todos los adributos, digamos no funcionales
+[00:57:40 - 00:57:49] por así decirlo, bueno, se han tenido una caída como se recupera sin falla a nivel de
+[00:57:49 - 00:57:54] escribir como lo hago, cómo son las pruebas de performance, cómo son pruebas de seguridad,
+[00:57:54 - 00:57:59] son todas las que son las últimas pruebas porque ya necesito tener la solución andando,
+[00:57:59 - 00:58:08] puedo hacer antes una humbread acercamiento pero ya debería tener la solución prácticamente
+[00:58:08 - 00:58:15] por lo menos en una prueba beta o alpha, ¿ok? Entonces ahí me voy en lo que son pruebas de
+[00:58:15 - 00:58:19] performance, la realidad es que la prueba de performance lo voy a leer tal cual está
+[00:58:19 - 00:58:24] es el proceso de emular usuarios en una aplicación real con herramienta de generación
+[00:58:24 - 00:58:29] de carga para encontrar dónde están los errores, imagino en el que estoy, sigo todavía
+[00:58:29 - 00:58:35] con el ejemplo del Galicia y digo bueno estoy haciendo el login y quiero que entren
+[00:58:35 - 00:58:45] con tus sueles tenés y tengo alrededor de 400 mil usuarios pero el primer el primero de
+[00:58:45 - 00:58:54] mes no tengo 400 mil accesos, el primero de mes tengo entran diez veces la misma persona, tengo
+[00:58:54 - 00:59:00] que analizar cómo es esa prueba de performance, bueno yo tengo que automatizar obviamente,
+[00:59:00 - 00:59:08] tengo que automatizar esa prueba y después ir probando y probando completamente, no la parte
+[00:59:08 - 00:59:16] funcional sino cómo funciona la base de datos, cómo funciona las redes, cómo funciona los servicios,
+[00:59:16 - 00:59:24] me va haciendo, tengo que evaluar absolutamente todo, entonces yo siempre lo divido en dos
+[00:59:24 - 00:59:31] estéticos de pruebas de performance, primero porque yo tengo que ir tomando datos, acá tengo
+[00:59:31 - 00:59:38] una persona, esta persona que está ahí pedaleando sería para mí, siquiera funcionando en la
+[00:59:38 - 00:59:48] energía, el código, el scripting que yo arme, tengo un scripting y después tengo que ir capturando
+[00:59:48 - 00:59:58] esos datos, no me sirve nada, simular que entra 400 personas y no tengo herramientas de
+[00:59:58 - 01:00:04] monitoreo, no tengo una herramienta de monitoreo de la base de datos, no tengo una herramienta de
+[01:00:04 - 01:00:14] monitoreo para la parte de redes, entonces tengo que tener una estructura muy bien pensado
+[01:00:14 - 01:00:19] y voy muy bien armada para decir bueno está bien, que eres una prueba de performance, pero qué
+[01:00:19 - 01:00:25] tipo de performance y de la base de datos, bueno y del servidor, bueno necesito tener herramientas de
+[01:00:25 - 01:00:30] monitoreo que nos te monitoreando los procesos, cuando de la base de datos como el sistema operativo,
+[01:00:30 - 01:00:38] me va haciendo, entonces necesito armar una infraestructura, un diagrama de explí, contemple esas
+[01:00:38 - 01:00:46] herramientas, no me sirve de nada hacer una automatización, si del otro lado no hay una herramienta
+[01:00:46 - 01:00:58] de monitoreo que esté capturando todos esos eventos, lo digo por parece algo trivial, pero entonces en
+[01:00:58 - 01:01:05] las pruebas de performance tengo algo bastante similar en lo que ustedes ya estuvieron viendo, tengo
+[01:01:05 - 01:01:12] la parte de generación y automatizar esas pruebas funcionales, siempre dando
+[01:01:12 - 01:01:22] pruebas funcionales, tengo que mejorar esas pruebas, tengo que escutarlos y analizarlos,
+[01:01:22 - 01:01:27] donde viene la complejidad de las pruebas funcionales, ya me voy a decir otro tema, donde viene la
+[01:01:27 - 01:01:34] complejidad de las pruebas funcionales, casi siempre en lo que son los datos, porque digo bueno voy
+[01:01:34 - 01:01:42] a simular el ingreso a 400 mil usuarios de la ANCO Valencia y a todas le pongo analía y clave
+[01:01:42 - 01:01:47] a analía y la realidad es que en algún momento la base de datos se le pese a indexar y que
+[01:01:47 - 01:01:56] era acentar abajo, por lo tanto tener un set de datos es bastante complicado, hoy con todo lo que es
+[01:01:56 - 01:02:07] laía, atrás aceleró muchísimo el armado de tener un set de datos valido para lo que es una
+[01:02:07 - 01:02:21] prueba de performance, un minutito, es una de las grandes problemas que tenía, tiene varios problemas,
+[01:02:21 - 01:02:29] muchas les dice, herramientas de monitoreo, muchas veces quieren hacer pruebas de performance y no
+[01:02:29 - 01:02:34] tienen las herramientas para capturarlos y después el set de datos, tienen regal, no sé de datos
+[01:02:34 - 01:02:42] muy trivial o tienen regal, sino usuarios y te tienen una prueba de 500 mil y la realidad es que
+[01:02:42 - 01:02:57] una es viable, me voy a otro, ya me estoy quedando sin voz, me voy a otro, que es un tema de seguridad,
+[01:02:57 - 01:03:11] hoy en día la seguridad está más que en la parte de hardware está en problemas en lo que
+[01:03:11 - 01:03:16] sea programado, en lo que sea construido, el 75 por ciento tengo que volver la validada, pero
+[01:03:16 - 01:03:27] este del año pasado el 75 por ciento eran dentro de lo que era la capa de código, o
+[01:03:27 - 01:03:35] aplicaciones web, pero la mayoría de la capa de código entraban a mis datos a través de manipulación
+[01:03:35 - 01:03:46] de web. OK, o modificaban algo de pero entraban a través de lo que era el código, por lo tanto programar
+[01:03:47 - 01:03:55] con seguridad es ya diferente, entonces hay herramientas que es como si fueran los mismos como los
+[01:03:55 - 01:04:04] de que escanea la computadora para ver si tenemos un virus, un antivirus, el antivirus lo que hace es
+[01:04:04 - 01:04:12] tengo una escanea toda la computadora va hacia la nube para ver cuáles son los nuevos virus que dan,
+[01:04:13 - 01:04:21] cómo los pueden detectar y cómo lo pueden resolver y escanea la computadora de cada uno. Bueno,
+[01:04:21 - 01:04:29] hay herramientas que hacen exactamente el mismo trabajo van a la nube casi siempre acá,
+[01:04:30 - 01:05:11] por la seguridad, así siempre hay organizaciones que detectan, hay lugares donde uno va, o sea,
+[01:05:11 - 01:05:18] la herramienta lo que hace es ir a una nueva de la nube donde encuentran cuáles son los problemas
+[01:05:18 - 01:05:27] de seguridad, este es uno de los uno de los más conocidos, o que encuentran errores o vulnerabilidades
+[01:05:27 - 01:05:38] mejor dicho, vulnerabilidades las publican, encuentran como resolverlas, en sí, no te dicen acá
+[01:05:38 - 01:05:48] tienes el error, no te dicen, posiblemente tengas tal error analizales y hace un análisis de
+[01:05:48 - 01:05:56] todo el código, entonces tienen el código y van encontrando cuáles son las mejoras, no solamente el
+[01:05:56 - 01:06:01] código también de la aplicación server, es decir, tenés una aplicación server muy vieja,
+[01:06:01 - 01:06:09] estoy saldo, cuando podría dar esta recomendación, ahora hay herramientas a mansalba ya hacen este
+[01:06:09 - 01:06:23] tipo de trabajo y casi todo hay muchísimas herramientas y bueno, me permiten agilizar todo ese tipo
+[01:06:27 - 01:06:34] y obviamente el rol que ustedes van a tener como arquitectos y como analistas funcionales,
+[01:06:34 - 01:06:41] señor, ustedes tienen que ver un poco cómo va a hacer el test, porque también te lo
+[01:06:41 - 01:06:46] incrementar cómo va a ser la solución que van a presentar, no es lo mismo una solución que les
+[01:06:46 - 01:06:50] piden seguridad o una solución que le piden para forman con lo que es la opción de datos o
+[01:06:51 - 01:07:00] o bajas de datos con una aplicación de genusuales, entonces y acuerdo, los eses atributos de calidad
+[01:07:00 - 01:07:06] que no sean no funcionales, ustedes van a orientar también la solución, es por eso que testi está
+[01:07:06 - 01:07:16] incluido dentro del diseño, si tienen, yo siempre digo no, si yo tengo que ir a una solución donde es
+[01:07:16 - 01:07:25] por ejemplo como un retail, no un supermarcado, donde tengo mucho forma constante el uso de
+[01:07:25 - 01:07:34] base de datos y tengo que tener una buena base de datos que maneje, va el acceso muy bien,
+[01:07:34 - 01:07:44] tengo que hacer un análisis, es yo, es un momento trabajaba con de 2 horas de informe,
+[01:07:44 - 01:07:50] yo sabía que si era bien algo muy utilizado y un iba para informe, ahora si quería hacer,
+[01:07:50 - 01:07:57] tenía otro tipo de soluciones donde necesitaba sección de datos, me iba a 1 hora que le con de 2,
+[01:07:57 - 01:08:05] entonces entender un poco cómo va a ser la infraestructura y cuáles son las necesidades de usuario y me ayuda
+[01:08:05 - 01:08:11] también perdón a definir la infraestructura, que es uno de los roles fundamentales de la arquitecta,
+[01:08:11 - 01:08:27] cómo vienen, bien pero con suñita, está como ahí, está muy bien, bueno, me queda un solo tema más
+[01:08:27 - 01:08:37] que es bastante cortito y hoy los voy a liberar temprano, pero ya me estoy viendo, este es uno de los
+[01:08:37 - 01:08:50] temas que entran también, espero que no se me dúan mal, sino lo verán después, porque ya no hay más clase
+[01:08:50 - 01:09:00] de consultas, estamos, hace terminos chicos, ya estamos en la recta final, cómo vienen con muchos
+[01:09:00 - 01:09:09] exámenes y esta semana, yo ya estuve 1, así que me vienen las otras, estamos así, una semana tras otra estudiar,
+[01:09:09 - 01:09:20] los demás, yo empecé con la maratón, empecé la semana pasa con sus materias después, otra elunes y la
+[01:09:20 - 01:09:24] semana que vive tengo de vueltas con materia y encima tengo una presentación en otra,
+[01:09:28 - 01:09:46] están haciendo muchas materias 3, 4, 6, y la jugada, sí, yo creo que se bomba,
+[01:09:46 - 01:09:57] lo terminamos, o sea, se ha se completado, bueno, vamos a lo último tema, espero no perdemos
+[01:09:57 - 01:10:19] la camina, no lejos, no, bueno, estamos en el tiempo real, vuelvo a preguntar, supuestamente el sistema
+[01:10:19 - 01:10:32] de tiempo real entra dentro de lo que es principios, quiero saber si ustedes lo vieron, sí, sí, me suena,
+[01:10:32 - 01:10:42] me suena, sí, nada más, sí, sí, pero recuerda que hasta hacíamos los diagramas, cuando
+[01:10:42 - 01:10:49] existe más tiempo real, es verdad, bueno, yo la realidad es que diagramas el sistema de tiempo real
+[01:10:51 - 01:11:04] no voy a hablar, incluso en el ver, flujos de datos, eso, ok, está bien, ahora hablamos un poquito de
+[01:11:04 - 01:11:12] la de ese tema, bueno, el sistema de tiempo real es un sistema obviamente como todos los demás,
+[01:11:12 - 01:11:18] es un sistema informático, pero lo que sí está relacionado con el entorno físico, entonces,
+[01:11:18 - 01:11:24] en vez de tener un computador en un teclado donde yo estoy ingresando los datos, voy a tener artefactos
+[01:11:24 - 01:11:33] que están capturando esos datos, que te cambia capturar el dato en un teclado, si la temperatura 39 en el
+[01:11:33 - 01:11:39] teclado y que alguien esté capturando absolutamente nada, tengo que vender salógica, lo que sí me sirve,
+[01:11:39 - 01:11:48] que tengo que manipular obviamente, como yo lo llamo, para filtros, ahora sensores, por así decir,
+[01:11:50 - 01:11:58] y además también posiblemente voy a tener algo que ejecutar, ahora lo hablamos, pero básicamente tengo
+[01:11:58 - 01:12:07] una entrada de datos y una salida, están relacionados con hardware, además puedo llegar a tener dentro
+[01:12:07 - 01:12:15] el sistema de tiempo real, sistema o algún proceso tradicional como las que estúbimos viendo, los que se ven
+[01:12:17 - 01:12:33] en este orientado, digamos, con los sensores o los autores, bueno, un sistema de tiempo real, voy a tener
+[01:12:33 - 01:12:41] dispositivos de entrada de salida, tengo una reacción muy estrecha con el ambiente, estoy capturando
+[01:12:41 - 01:12:53] el ambiente, y obviamente tengo, como estoy capturando el ambiente, esos que esa captura de datos tengo
+[01:12:53 - 01:13:01] que tenercios y respesiones de tiempo, imagínense que estoy entre la, estoy para en coto y en coto tiene
+[01:13:01 - 01:13:08] la apertura de puerta, y estoy así, un minuto y media, de verdad no que me abre la puerta, y la
+[01:13:08 - 01:13:15] realidad es que ese extensor y la sirve, esa reflexión de tiempo que tiene extensor no sirve, no
+[01:13:15 - 01:13:21] respondió a la apertura de puerta, de forma rápida, me da cansando y me da tracasando,
+[01:13:21 - 01:13:28] leyendo a un sistema de tiempo real de apertura de puerta que tiene, tiene una línea de código, hay persona,
+[01:13:28 - 01:13:36] habilitita, te reimporta y es algo sencillo que tengo que tener una reflexión del tiempo,
+[01:13:36 - 01:13:43] por lo tanto las características de los sistemas de tiempo reales que, obviamente es un proceso real,
+[01:13:43 - 01:13:52] porque estoy dentro de un ambiente determinado, un ambiente real, es un ambiente físico, sino de
+[01:13:52 - 01:13:57] complicos las reflexiones temporales, tengo que decir cada extensor, tiene un tiempo a una
+[01:13:57 - 01:14:04] reflexión para capturar este, este, este, este dato y aparte tengo que tener una reflexión para
+[01:14:04 - 01:14:12] dar una respuesta, eh, he metido obviamente respuestas correctas, siempre queremos en las
+[01:14:12 - 01:14:19] respuestas correctas, pero te acuerdo a la utilicidad, tengo que evaluar el tipo de pruebas que voy
+[01:14:19 - 01:14:28] a realizar, eh, la persona que va a tirar eh, no sé, no es lo mismo, una apertura de puerta en coto,
+[01:14:28 - 01:14:34] que es históico, un sensor de temperatura o el uso en corda de altura de un avión,
+[01:14:34 - 01:14:44] o no tanto tengo que tener los forontes, eh, criterios para armar la solución, eh, el sistema no
+[01:14:44 - 01:14:50] vuelve atrás, y yo llegué a coto, de acoto no me abrió la puerta, bueno tendría que volver a
+[01:14:50 - 01:14:57] lo volver a leer, pero no puedo volver atrás, eh, a diferencia tal vez, es un proceso tradicional
+[01:14:57 - 01:15:03] que si me equivoco en en genero una estructura puedo tener una vuelta atrás acá no puedo,
+[01:15:03 - 01:15:10] eh, y los estímulos por en genera son imparalelos, es decir, trabajo con varios estímulos, entonces,
+[01:15:10 - 01:15:19] esto ya lo tuvieron que haber visto, eh, tiempo real, estricto, eh, necesito es que la respuesta
+[01:15:19 - 01:15:28] se produzca dentro de los límites del terminado, o sea, captura el evento, y tengo que dar
+[01:15:28 - 01:15:35] una respuesta rápida, tiempo de real, no es cierto, bueno puedo permitirme cierta
+[01:15:35 - 01:15:44] eh, pérdidas y después eh, tengo también real firme, no se utiliza mucho, es cuando se permite
+[01:15:44 - 01:15:51] la pérdida ocasional, pero no implica ni beneficios ya que la respuesta retrasa es descartada,
+[01:15:51 - 01:16:03] retrasada es descartada, ok, y veo que no hay una respuesta que no se da continuo, me vuelen
+[01:16:03 - 01:16:14] lo más lindo, tengo el sistema tradicional, tengo un entrado y una salida, eh, ahora esa
+[01:16:14 - 01:16:25] tendrá la captura a través de sensores, eh, los sensores, lo que hacen es capturar la temperatura,
+[01:16:25 - 01:16:35] la humedad, la velocidad, hay muchísimos sensores, sensores de velocidad, del auto, velocidad,
+[01:16:35 - 01:16:43] y se desinjaron, eh, las go más del auto todo, tá, todos son, tenemos sensores y nos van capturando,
+[01:16:43 - 01:16:51] para yo necesito tener un sistema, un sistema corticaptur, esos eventes, esos perdones
+[01:16:51 - 01:16:57] a centradas de datos, de determinados sensores y que pueda tener una cierta lógica para ver
+[01:16:57 - 01:17:08] qué acción artiene, ok, eh, algunos sistemas de control, como lo que me dicen es bueno, eh,
+[01:17:08 - 01:17:15] es una bomba que está en media baja, lanza dentro de un sistema, una alerta, están, no tengo ninguna
+[01:17:15 - 01:17:23] actuadora, me lanza, que tenés una bomba que raso, una bomba baja, que hay que resolver, o tengo,
+[01:17:23 - 01:17:34] por ejemplo, que un sensor para ver y tiene, eh, alguien se me va a causar por delante del,
+[01:17:35 - 01:17:44] del auto y el sistema, eh, valúa eso y tiene posiblemente una, una respuesta para un actuador que
+[01:17:44 - 01:17:55] puede ser, por ejemplo, el freno, ok, entonces tengo algunos actuadores, eh, hay una acción en el mundo
+[01:17:55 - 01:18:01] real, pero siempre el sistema de control lo tengo que, que tener, o sea, te puedo tener respuestas,
+[01:18:02 - 01:18:07] dentro de mi sistema propio, o puedo dar una respuesta a un actuador para que haga algo,
+[01:18:07 - 01:18:15] en el ejemplo de coto, si yo tengo, tengo una pre, tengo un sensor que está viendo si estoy en la
+[01:18:15 - 01:18:23] puerta o no, el sistema captura, si hay un imagen, esta, es apertura o no de puertas,
+[01:18:23 - 01:18:29] eh, capaz que puedo decir, bueno, no tengo mucha gente, no voy a abrir la puerta, imagínese que estoy en un
+[01:18:29 - 01:18:38] banco, digo, solamente puedo tener a 15 personas dentro del banco, y los demás hacen las filas
+[01:18:38 - 01:18:46] fuera, entonces hay una cierta lógica que le voy a dar dentro del sistema de control, eso ya sería
+[01:18:46 - 01:18:55] una lógica de negocio, ok, y habilitos o no de actuador, no es una mezcla dentro del sistema de control,
+[01:18:56 - 01:19:03] bueno, el sensor son los dispositivos que capturan obviamente como estoy dentro del mundo real,
+[01:19:03 - 01:19:10] capturan datos dentro de mi mundo, dentro de mi ambiente, ok, algunos pueden ser separados por
+[01:19:10 - 01:19:19] periódicos y guapérodicos, está, y de acuerdo a cómo voy capturando esos cedentos, algunos los
+[01:19:19 - 01:19:26] clasifican como analógicos binarios o digitales, algunos son pasivos y activos ambientales,
+[01:19:26 - 01:19:37] químicos o mecánicos, a mí me gusta muchísimo ahora separarlos, los estructuras, según si son activos o no de
+[01:19:37 - 01:19:45] alimentación o no, los sensores obviamente me tengo que comunicar, los sensores me tengo que
+[01:19:45 - 01:19:55] comunicar con la solución, acá dice con mi sistema, tengo que comunicarme, entonces si
+[01:19:55 - 01:20:05] requieren o calimentaciones muy buenos, porque después tenemos sensores que dejan de funcionar
+[01:20:05 - 01:20:19] porque consumía mucho, eso ahora lo vamos a charlar, hay sensores que se comunican, acá
+[01:20:19 - 01:20:27] los puse traves wifi, hay sensores que se comunican en forma cableada, imagínense un sensor de temperatura,
+[01:20:27 - 01:20:35] bueno, cableo de sensores de temperatura, hay algunos otros que no, y también tienen un
+[01:20:35 - 01:20:40] se comunican a través de algún protocolo de comunicación, acá les puse wifi pero hay varios,
+[01:20:40 - 01:20:45] hay, se pueden comunicar como si fueran los web de bluetooth, por ejemplo,
+[01:20:45 - 01:20:53] quieran que bluetooth ustedes tienen los auriculares y tienen el celular, hay una relación estrecha entre el
+[01:20:53 - 01:20:59] auricular el celular, esos son mediante un protocolo que se llama bluetooth, que es de 1 a 1,
+[01:21:00 - 01:21:08] este tipo de sensores comunican con otro tipo de protocolos, que hace una energía con bluetooth,
+[01:21:11 - 01:21:16] wifi podría pensarlo de esa manera pero es un protocolo que gasta mucho menos,
+[01:21:16 - 01:21:30] si, creo que ya no me acuerdo, sí, acá, es exactamente lo mismo que un bluetooth pero
+[01:21:30 - 01:21:36] gasta muchísimo menos, la consume mucho menos, la comunicación no es de 1 a 1,
+[01:21:37 - 01:21:43] entonces yo puedo distribuir varios sensores, imagínense en una caza, tengo varias sensores de
+[01:21:43 - 01:21:49] temperatura pero el último que está muy alejado no se puede comunicar con el sistema de control,
+[01:21:49 - 01:21:56] entonces este tipo de tecnologías, sí, lo que hace el sirvano, este sensor se lo comunica a este,
+[01:21:56 - 01:22:03] el sistema cercano para poder comunicarse con el sistema de control, son más económicos en cuanto
+[01:22:03 - 01:22:23] al consumo, que más tiene, y no me tiro olvidar de nada, ya lo que sí, obviamente tiene es,
+[01:22:23 - 01:22:32] no es como, por ejemplo, como bluetooth, que bueno el celular me puede transitir a mi auricular,
+[01:22:32 - 01:22:43] una canción archivos más pesados, el ciclino, me da información más concrétal y concista,
+[01:22:43 - 01:22:51] temperatura tal, activar, encendete, apagate, estamos por lo tanto también eso hace que economice en
+[01:22:51 - 01:22:56] cuanto a la comunicación, y si yo quiere economizar en cuanto a la comunicación,
+[01:22:56 - 01:23:01] coloco una pila que me puede llegar a durar dos o tres años, pero más siguiendo por qué
+[01:23:01 - 01:23:08] hago de economizar, porque si no tengo el cableado, no tengo el cableado para la comunicación y el cableado
+[01:23:08 - 01:23:17] eléctrico, que a veces es bastante complicado, estoy en un, imagínense que estoy en medio de una
+[01:23:17 - 01:23:26] montana, quiero tener un sensor X y no puedo cablear darle el electricidad a una montaña, entonces
+[01:23:26 - 01:23:34] tengo que economizar de alguna manera, además acá tienen en el UEJ digitales que estoy
+[01:23:34 - 01:23:46] trabajando la última vez, entender los sensores, las necesidades, cómo se comunica, ventajas y
+[01:23:46 - 01:23:54] desventajas, forma parte también del rol de ustedes para poder describir un poco la solución.
+[01:23:57 - 01:24:05] Ahora hay un montón de sensores chinos que son divinos, que tienen muy poco consumo,
+[01:24:05 - 01:24:14] que la comunicación con los sistemas de control son muy buenos, tienen muy buen alcance,
+[01:24:14 - 01:24:21] algunos sensores vienen ya con una lógica del control chiquitita, entonces imagínense que
+[01:24:21 - 01:24:29] tengo que entender un sensor de temperatura muy bueno que hace una captura analógica, pero yo
+[01:24:29 - 01:24:37] la necesito digital, entonces este sensor capturó un 39,8 números, pero yo necesito se
+[01:24:37 - 01:24:44] ampliarlo a 32,1 números, nada más, entonces ya tengo dentro de ese sensor la
+[01:24:44 - 01:24:52] posibilidad de tener también algo del control para que me envíe de información, hay otros que
+[01:24:52 - 01:25:00] directamente puedo colocar una mínima lógica, entonces ya llegan al sistema de control un poco más,
+[01:25:01 - 01:25:08] un poco más elaborada la data de entrada, y hay otros como acá que no directamente del
+[01:25:08 - 01:25:15] sistema de control no tiene, es perdón el sensor, no tiene ninguna lógica de captura y bueno a
+[01:25:15 - 01:25:21] arralo, es más no tiene si queda un sistema de control para ver si el sistema de control lo capturó
+[01:25:21 - 01:25:31] o no ese dato que les he condiado, entonces hay un montón de sensores que hay que analizar y
+[01:25:31 - 01:25:37] acuerdo a la solución que se desqueden de infinito definiendo, en este por ejemplo de
+[01:25:37 - 01:25:42] detector de hueyas hay algunos detectores de hueyas que ya vienen acá lo mismo que hacen es que
+[01:25:42 - 01:25:48] algunos capturan y otros tienen ya un sistema pequeño del control que hace una desintentificación
+[01:25:48 - 01:25:59] y directamente la clave, entonces hay que entender un poco la parte hardware de los sensores como para
+[01:25:59 - 01:26:07] también ver cómo ir armando toda esa infraestructura y cuál sería nuestro aporte, por eso también se los
+[01:26:07 - 01:26:19] doy más orientado a hardware a diagamas de la relación, de ahora lo vamos a charlar, de acuerdo a
+[01:26:19 - 01:26:28] cómo van a hacer los sistemas de las señales tengo que tener una lógica diferente a
+[01:26:28 - 01:26:36] cuadra a cada señal, eso también lo tienen que evaluar, por ejemplo si están más señales continuos
+[01:26:36 - 01:26:42] que puede ser la velocidad de un automóvil, está en forma permanente, ahora cada del culo que
+[01:26:42 - 01:26:50] por ejemplo, si yo tengo que hablar con una persona que tiene diabetes, tengo un sensor directamente
+[01:26:50 - 01:26:57] en el cuerpo, tal que a veces quieren como si fuera una especie de curita, es un poco más complicado
+[01:26:57 - 01:27:07] pero no importa, entonces cada tanto puede ir evaluando o un mar capazos, cada segundo puedo ir evaluando
+[01:27:07 - 01:27:15] cómo viene el corazón o cómo viene la diabetes, después tengo las señales digitales, que por ejemplo
+[01:27:15 - 01:27:21] digo bueno, necesito una señal completamente digital, tengo ya el sensor en forma digital,
+[01:27:21 - 01:27:33] intermómetro digital y ya lo envía esa información de esa manera, así que lo importante cuando
+[01:27:33 - 01:27:38] ustedes están haciendo una solución, por ejemplo de idomótica, he trabajado en una solución
+[01:27:38 - 01:27:46] de idomótica y analizar los sensores es fundamental, pero principalmente una de las grandes complicaciones
+[01:27:46 - 01:27:57] es justamente el tema de la comunicación, no perderlo, hay algunos por ejemplo, hay cosas
+[01:27:57 - 01:28:05] divinas, donde por ejemplo un, encender la luz hay algunos ahora que vienen directamente sin
+[01:28:05 - 01:28:14] dar la posibilidad de estar caudliado directamente con el doble, cambiar, genera un impulso que hace la
+[01:28:14 - 01:28:22] comunicación a través del síguil y el sistema de control, entonces habilita la luz, no necesito
+[01:28:22 - 01:28:33] ni siquiera el sensor eléctrico ni caballar la parte eléctrica ni caballar la parte de comunicación,
+[01:28:33 - 01:28:43] hay cosas que se avanzó muchísimo, entonces cuando ustedes tienen que definir una solución de idomótica o
+[01:28:43 - 01:28:51] una solución para de salud tienen que analizar bien cómo va a hacer esos dos problemas principalmente,
+[01:28:51 - 01:29:03] la comunicación con un sistema de central o sistema de control y me tardé el sistema de control y
+[01:29:04 - 01:29:11] la comunicación y que obviamente tengan energía, que tengan energía porque si el sensor no puede estar
+[01:29:11 - 01:29:20] haciendo su trabajo, no puede, no puede en siquiera en día era una señal, eso es algo muy importante
+[01:29:20 - 01:29:27] a resolver, imagínense en un marcapazo, uno a veces hay gente hace muchos años, decían bueno,
+[01:29:27 - 01:29:34] me marca paso, si como viera la pila del marcapazo, era el chiste no, la pila que le vi en hoy ya hay pilas
+[01:29:34 - 01:29:41] que duran más de 100 años para los marcapazos, entonces bueno es un tema un problema menos y aparte
+[01:29:41 - 01:29:49] los marcapazos también traen sensores por si están dando mal, entonces le llegan al celular o a
+[01:29:49 - 01:29:56] veces hasta los mismos médicos que están dando mal el marcapazo y que te tenían que ir a verlo,
+[01:29:57 - 01:30:07] los avances son buenísimos, me voy a los actuadores, los actuadores solamente yo tengo los sensores y me van
+[01:30:07 - 01:30:13] tardando todos los datos de entrada, esos datos de entrada tengo que ir manipulando, o sea,
+[01:30:13 - 01:30:20] puedo decir bueno, tengo, imagínense tengo el sensor de luz y digo, tengo un sensor de luz que si yo veo
+[01:30:20 - 01:30:28] que hay luz levanto la perciana, me va siguiendo, entonces tengo un sensor que me está diciendo levantar
+[01:30:28 - 01:30:39] la perciana, hay luz levanto la perciana, fantástico, el actuador va a hacer un on y va a levantar, tengo un motor,
+[01:30:39 - 01:30:45] que va a levantar la perciana, ahora yo puso la lógica y dije bueno levantar la perciana, pero
+[01:30:45 - 01:30:51] del primero de enero al 15 enero me voy a invacaciones, por lo tanto no quiero que levantes completamente la
+[01:30:51 - 01:30:59] perciana, entonces tengo que tener también dentro de mi solución, más allá de capturar el
+[01:30:59 - 01:31:04] levant de tener algo simple, tengo que tener también la lógica para decir bueno puedo haber una
+[01:31:04 - 01:31:10] excepción si que cuando una persona define que se va de vacaciones, levante la perciana que un 30
+[01:31:10 - 01:31:17] en 40% un 60% o que directamente no la levante, me van siguiendo, entonces en piezo a relacionar
+[01:31:17 - 01:31:25] no solamente tengo un aseo no hacer en el detenimiento, no entiendete puedo llegar a también tener una cierta
+[01:31:25 - 01:31:34] lógica de negocio, eso hoy se los llaman escenarios dentro de lo que es el mundo de domotica por ejemplo,
+[01:31:35 - 01:31:45] me voy a los otros actuadores, tengo, tengo los actuadores que aficiéndose por ejemplo de la
+[01:31:45 - 01:31:49] perciana, levantar una perciana necesito realmente que el motor no lo puedo manejar a pila,
+[01:31:49 - 01:31:57] hay ya necesito un caudeadom más fuerte directamente con energía para poder levantar un motor,
+[01:31:57 - 01:32:03] hay algunos que son más sencillos como por ejemplo en cender o apagar una aire acondicionado,
+[01:32:03 - 01:32:08] ahí no necesitaría tener tanto cableado energético porque el cubo que enviándole una
+[01:32:08 - 01:32:17] siquiera se puede en cender o no, pero casi todos requieren ya hay un cableado eléctrico concierado,
+[01:32:19 - 01:32:26] y aparte el cableado eléctrico, el cableado de la comunicación, el cableado de la comunicación con
+[01:32:26 - 01:32:36] este tipo de actuadores puede ser también mediante wifi, sig, v, mutu, lo que sea,
+[01:32:38 - 01:32:46] pero ya como en el lugar de motores hay si necesito un cableado para la parte eléctrica,
+[01:32:46 - 01:32:56] con todos temas que uno cuando se lo plantea el usuario no lo tiene en cuenta pero hay que considerarlo,
+[01:32:57 - 01:33:05] porque también de acuerdo si yo tengo no el ejercidad ahí hasta puedo cambiar el protocolo de
+[01:33:05 - 01:33:13] comunicación no me voy a lo tan tan básico como el sick-beam me voy a dar a otro tipo de protocolos,
+[01:33:16 - 01:33:22] bueno vamos a hacer un resumen, el sistema yo tengo el sistema de control que es el corazón,
+[01:33:23 - 01:33:32] el corazón es lo que es el emisistema tengo recibe los eventes y recibe las centradas a través de
+[01:33:35 - 01:33:44] a través de controles de señales etc etc y después tengo los actuadores, ahora el que manja todo
+[01:33:44 - 01:33:54] es el sistema de control, las que siempre son completamente autónomos, pero hoy en día estoy con
+[01:33:54 - 01:34:01] que relaciona el sistema de control posiblemente con un celular porque digo que hace mucho calor y
+[01:34:01 - 01:34:11] estoy a 30 minutos de mi casa o en el sender en la aire acondicionado, entonces ese informe a través
+[01:34:11 - 01:34:17] del celular le tiene que llegar al algún lado posiblemente a la nube y la nube le tiene que decir a mi
+[01:34:17 - 01:34:25] casa sistema de control activada tal aire acondicionado, por lo tanto hoy el sistema de control también
+[01:34:25 - 01:34:34] tiene una conexión estrecha con la nube, me van siguiendo, lo tanto no es una alarma, no es algo
+[01:34:34 - 01:34:42] completamente cerrado y no es de allá hoy en día los sistemas de control están talentes y tienen
+[01:34:42 - 01:34:48] que salir al exterior para dar respuesta, ahí como se puede dar mediante API, es lo más
+[01:34:48 - 01:34:58] común pero mediante una API y donde yo tengo que tener un sistema X que diga bueno tengo la nube
+[01:34:58 - 01:35:06] o algo que lo uso como base, que es lo que se utiliza mucho para este tipo de sistema de tiempo real
+[01:35:06 - 01:35:12] armar lo que se llama un esquema de plantas y los tienes que tener un esquema de plantas como
+[01:35:12 - 01:35:20] bastante definición de mis sensores y de mis actuadores, si yo no colo con mis sensores y mis
+[01:35:20 - 01:35:27] actuadores y puede ser que me haya perdiado algunos, si veo que tengo un actuador y no tengo una
+[01:35:27 - 01:35:35] correlación estrecha con mi sensor y ahí tengo que mirar bien que es lo que está pasando puede ser
+[01:35:35 - 01:35:42] que ese actuador no tengo un sensor que lo merejca a través de una aplicación que tengo en el
+[01:35:42 - 01:35:51] celular o no o tengo un sensor y lo puedo manejar de ambas con ambos lados con el sensor y con
+[01:35:51 - 01:35:59] la aplicación que yo pido customizar en el celular, entonces armado un esquema de plantas me permite
+[01:35:59 - 01:36:05] ver más allá de cómo voy a distribuir, no olvidarme en uno de los sensores y no olvidarme en uno de los
+[01:36:05 - 01:36:11] actuadores, tener un sensor me ayuda también a definir cuál es el estímulo que voy a tener que manejar
+[01:36:12 - 01:36:21] en lo que se puede hacer, tener una lista de sensores y al lado colocar la lista de los estímulos,
+[01:36:21 - 01:36:30] de los estímulos que quiero manipular y esos estímulos tienen que estar relacionados a
+[01:36:30 - 01:36:37] que lo haya colocado con un intervalo de tiempo, cuánto tiempo necesito dar respuesta del terminado
+[01:36:37 - 01:36:45] de estímulo para el actuador y hacía algo una relación estrecha, entonces más allá de todos los
+[01:36:45 - 01:36:51] diagramas que ustedes haya visto lo que se le suma dentro de lo cual nos estamos hablando dentro
+[01:36:51 - 01:36:58] de sistema de tiempo real es armar un esquema de planta, armar un instado de todos los que son
+[01:36:58 - 01:37:08] sensores actuadores con su intervalo de tiempo, algunos les dicen utilizar un der porque la mayoría se
+[01:37:08 - 01:37:18] solía utilizar con el salido automatizar a los actuadores y a los sensores con programación que
+[01:37:18 - 01:37:24] no era orientado a objetos, entonces si que ni estaba de herramienta de relación hoy eso no es
+[01:37:24 - 01:37:32] problema en absoluto, hoy la complejidad en los sistemas de tiempo real se dan en la comunicación
+[01:37:32 - 01:37:39] después el control, el sistema de control que algunos lo tienen dentro de los sensores pero
+[01:37:39 - 01:37:48] tenés que tener un sistema de control que sea el cor que sea el jabo, que puedan manipular la
+[01:37:48 - 01:37:57] entrada que le envía el sensor y además manipular si hay alguna regla de negocia que le haya colocado
+[01:37:57 - 01:38:06] el usuario, como en el ejemplo que le vi de las personas, si no le levanten la temperatura de la
+[01:38:06 - 01:38:14] conexión, la forma que hagas río les pido vacaciones, se arra la casa, entonces le voy agregando a ese
+[01:38:14 - 01:38:21] jab a ese sistema central, toda esa lógica también de negocio, para que después envíe una respuesta al
+[01:38:21 - 01:38:31] actuador, se sigue utilizando, estoy en una herramienta en lo que imaginas que una casa de
+[01:38:31 - 01:38:41] omótica, si quiere hacer también configurar tu casa de omótica cada vez en un celular, sigo utilizando
+[01:38:41 - 01:38:50] y usar expedient, sigo utilizando casos de uso, puedo manejarme muchísimo con app porque necesito tener
+[01:38:50 - 01:39:00] una U en la Nube y posiblemente necesito aplicar conceptos de servicios binatómicos o sea que cada uno
+[01:39:00 - 01:39:08] haga lo que tenga que hacer, envía, le dice bueno, tengo que subir la temperatura pero estoy yendo en el auto y lo coloco
+[01:39:08 - 01:39:17] temperatura cuando yo a mi casa, 20 grados, le llega la Nube, le adiza el sistema central de la casa y el
+[01:39:17 - 01:39:27] sistema central le ha informa al actuador, más allá de algunos sistemas de imporreal y habitando
+[01:39:27 - 01:39:33] el de la herramienta de la relación hoy la realidad es que se manejamos otra vez de servicios binatómicos
+[01:39:33 - 01:39:43] y la de polo tanto el foco ha puesto este tema de tiempo real, vuelvo a decirlo, a ver el esquema de planta,
+[01:39:43 - 01:39:50] optimizaciones, actuadores, analizar bien cada sensoria, todo lo que me va a hacer es alimentar y cómo se va a
+[01:39:50 - 01:40:00] comunicar con el cabo o el sistema central y después todo lo demás y cómo se va a comunicar con los actuadores,
+[01:40:00 - 01:40:13] por no lo voy a alimentar y cómo voy a comunicar este actuador con el sistema central y después le agregamos
+[01:40:13 - 01:40:25] el valor agregado, te le da muchos otros con toda la lógica de negocio, dudas hasta acá algunos
+[01:40:25 - 01:40:36] ha trabajado con algo de sistema de tiempo real, la materia de paso observativos avanzados hacemos
+[01:40:36 - 01:40:45] un algo del costo para el actuador y eso es algo de un poco, bueno barbaro, genial, por lo tanto esta charla era
+[01:40:45 - 01:40:59] bastante simple para la parácte, ¿no? Bien, bueno, que entra al extremante, todo lo que es más visto,
+[01:40:59 - 01:41:15] ahora voy a subir dentro ofitó, estas presentaciones les voy a decir que tienen que leer de Prisma y sí bueno,
+[01:41:15 - 01:41:26] ya estarían terminando, no me lo dirían que ver más, la entrega de la entrega de la vamos a hacer,
+[01:41:26 - 01:41:42] va a ser presencial, no sé, depende de si tengo no aula, lo que sí, yo lo que sube hacer, todavía no termine,
+[01:41:42 - 01:41:54] estoy en un 70% de la corrección de los alumnos de los lunes, no sé ni arranque, no sé, la idea es que sean todos en el mismo de las
+[01:41:54 - 01:42:12] más fechas, por una sacatoria de llevo, por eso no me comprometo, vieron que la entrega de nota era el dos, y llevo antes del cinco, la subo a través de
+[01:42:12 - 01:42:23] miel por lo menos para que ustedes tengan una idea, sino ya después el dos ahí están las dos notas, y ahí bueno evaluarán,
+[01:42:23 - 01:42:37] ¿a qué recuperatorio que viene? ¿Sabes, seguramente se puede recuperar un exámen, y esa era la definición de que nos dio el departamento,
+[01:42:37 - 01:42:51] para definición de los bien departamentos, y la realidad es que ustedes vendíamos bien, pero sí, eso es la verdad,
+[01:42:51 - 01:43:09] así que bueno, pongan de foco a esta, el segundo es mucho más del cinco, ahí, igual me parece que nos fue tan mal en los exámen,
+[01:43:10 - 01:43:31] hay que ver el juez, ustedes van en caminaísnos, pero bueno, depende, depende, porque la obra está compartida, y cuando yo tengo entrega de nota la otra
+[01:43:31 - 01:43:41] comisión, tiene pacián, y me pidi una aula, perzan todos con parcelados, con esta época, también se vuelve muy complicado,
+[01:43:44 - 01:43:52] sino aprofé una pregunta, capaz es una tontería, pero podría hablarse como, o sea, el parcial en general, no dura tres horas o cuatro horas,
+[01:43:52 - 01:44:02] para que cuando ellos liberen el aula, hacen la entrega nota, porque no se los voy en este momento, es que esa menuda como decir, una hora o mínimo,
+[01:44:03 - 01:44:15] pero hoy nos juntamos con José, y empezamos la corrección de esta menuda, para poder entregarse loco.
+[01:44:15 - 01:44:33] Igual, para que no me explica bien, tipo, ¿me refería a Vista que decís que la otra comisión para que compartimos a bolas con parcelados?
+[01:44:33 - 01:44:34] Sí.
+[01:44:34 - 01:44:41] Bueno, me refería que cuando ellos terminan el parcial, o sea, un parcial en general dura tres horas o menos,
+[01:44:42 - 01:44:46] entonces, si liberan el aula, por ejemplo, 10 y mediano se podríamos usar más y menos antes,
+[01:44:46 - 01:44:56] Déjame el aula en los santes y sí, en vez de juntarnos al 8, lo juntabíamos, tipo, 10 y mediano, y así no les molestamos, ellos pueden hacer parcial.
+[01:44:56 - 01:45:07] Voy a el aula con los santes, porque si empiezan a la 10, a la 10, la la la la la ha sido claro, claro, sí no las voy, estaba hasta, bueno, ¿sí tomó tu idea a CÉRICO?
+[01:45:07 - 01:45:13] Pero eso sí sería para él, el 12.
+[01:45:13 - 01:45:29] y la realidad es que como si no estoy mucho, yo creo que toda la ciudad siempre como son de la noche, no a la mañana.
+[01:45:29 - 01:45:34] Este año, a la mañana.
+[01:45:34 - 01:45:41] No conozco por el nucho, entonces le pedías favores a todo el mundo y conseguí aulas, ahora no cuesta algo más.
+[01:45:41 - 01:45:44] No conozco el agente de la momentía.
+[01:45:44 - 01:45:46] Sí, si se te cambia.
+[01:45:46 - 01:45:51] Para Stan Charles nos vamos a conocer.
+[01:45:51 - 01:45:57] Bueno, hoy soy cortita de la clase.
+[01:45:57 - 01:46:05] Venga, recuerda que si yo llevo media hora más tarde porque estoy...
+[01:46:05 - 01:46:12] A veces me atierne rápido para la propia, a veces estar un poquito más.
+[01:46:12 - 01:46:16] No se preocupen, llego.
+[01:46:16 - 01:46:20] Así que no se pongan nerviosos.
+[01:46:20 - 01:46:21] ¿Qué más reciba decir?
+[01:46:21 - 01:46:22] Ah no te encena de Excel.
+[01:46:22 - 01:46:24] Y yo digo 40 personas.
+[01:46:24 - 01:46:30] No me van a llevar otro copia, se informa innecessaria.
+[01:46:30 - 01:46:34] Ah no te estés y van a ir.
+[01:46:34 - 01:46:36] ¿Qué más?
+[01:46:36 - 01:46:37] Diabronto a mí mismo.
+[01:46:37 - 01:46:39] Tiene el mismo Excel.
+[01:46:39 - 01:46:44] Es el mismo Excel, creo que sí, es el mismo Excel.
+[01:46:44 - 01:46:45] Ok, ok.
+[01:46:45 - 01:46:48] Y es lo mismo, la misma hora también por las dudas?
+[01:46:48 - 01:46:49] Sí.
+[01:46:49 - 01:46:51] Ok, sí, una ula más grande.
+[01:46:51 - 01:46:52] La misma ula.
+[01:46:52 - 01:46:55] Yo te digo cuáles de la ula o tengo un día.
+[01:46:55 - 01:46:57] Ustedes estoy la siento de rendizal.
+[01:46:57 - 01:47:02] Profes, bon dia.
+[01:47:02 - 01:47:06] Yo no tengo decidas.
+[01:47:06 - 01:47:12] Entonces, de lo que vimos hoy,
+[01:47:12 - 01:47:15] solo teoría, digamos.
+[01:47:15 - 01:47:17] No vamos a ver un esquema de plan.
+[01:47:17 - 01:47:21] La verdad que no lo pensé, pero un esquema de planta es un dibujo.
+[01:47:21 - 01:47:25] Imagínate que te digo, quiero hacer un no se te digo.
+[01:47:25 - 01:47:30] No creo que lo haga, pero te puede ser para el final, ok?
+[01:47:30 - 01:47:35] Tenés un imagínate, el diste leabra a ver para que pensaba.
+[01:47:35 - 01:47:42] Viste el ejercicio de que tenía los sensores
+[01:47:42 - 01:47:50] y el escútbol de las centradas.
+[01:47:50 - 01:47:52] Claro.
+[01:47:52 - 01:47:54] Sí, sí, sí, que tenía el cuadro de la edad.
+[01:47:54 - 01:47:57] Imagínate que te digo, ¿qué sensores pasa con lo carg?
+[01:47:57 - 01:48:07] ¿Qué hace una esquema de planta de la área de la cancha?
+[01:48:07 - 01:48:13] Y es un dibujo, la de cual la cancha, la puerta volinete.
+[01:48:13 - 01:48:16] Eso sí, eso sería un esquema de planta.
+[01:48:16 - 01:48:19] Lo que sí te diría mucho va a ser sentido,
+[01:48:19 - 01:48:24] es decir, bueno, sea de un listo de sensores actuadores,
+[01:48:24 - 01:48:28] el estímulo, pero eso tendría que ser algo con un ejercicio.
+[01:48:28 - 01:48:31] Eso sí se te puede pedir a un final, por ejemplo.
+[01:48:31 - 01:48:34] Prof. I, le puedo mostrar una esquema de planta.
+[01:48:34 - 01:48:36] Vale.
+[01:48:36 - 01:48:45] Pero es un dibujo de sencillo.
+[01:48:45 - 01:48:51] ¿Qué compartiendo?
+[01:48:51 - 01:48:53] ¿CB?
+[01:48:56 - 01:48:58] Y agranda lo bien.
+[01:48:58 - 01:49:01] Sí.
+[01:49:01 - 01:49:03] Y bancada en el notito, ¿no?
+[01:49:03 - 01:49:07] Ya lo verdad.
+[01:49:07 - 01:49:08] Un poquito más.
+[01:49:08 - 01:49:31] Bancada en el notito.
+[01:49:31 - 01:49:35] Bueno, acá lo que usted es claricamente es el de FD nivel 0.
+[01:49:35 - 01:49:38] Claro.
+[01:49:38 - 01:49:40] No es una esquema de planta.
+[01:49:40 - 01:49:41] ¿A ver?
+[01:49:41 - 01:49:49] Estos de FD, no les voy a tomar de FD.
+[01:49:49 - 01:49:50] ¿A qué?
+[01:49:50 - 01:49:53] ¿A qué?
+[01:49:53 - 01:49:54] ¿A qué?
+[01:49:54 - 01:49:55] ¿A qué?
+[01:49:55 - 01:49:56] ¿A qué?
+[01:49:56 - 01:49:57] Claro.
+[01:49:57 - 01:49:58] ¿A qué?
+[01:49:58 - 01:49:59] ¿A qué?
+[01:49:59 - 01:50:01] Estar todo eso es un de FD.
+[01:50:01 - 01:50:08] La idea es que al comienzo al inicio de la sistema de tiempo real,
+[01:50:08 - 01:50:13] el sistema de tiempo real no se utilizaba lo que es programación de ventaugjetos
+[01:50:13 - 01:50:17] por un tema de que en mi es entonces lo que era programación de ventaugjetos
+[01:50:17 - 01:50:19] era mucho más lento.
+[01:50:19 - 01:50:21] La performance era mala.
+[01:50:21 - 01:50:27] Entonces, utilizaba el lenguaje más estructurado.
+[01:50:28 - 01:50:34] Dentro de lo que es el diseño estructurado, no tenés diagrama de clases.
+[01:50:34 - 01:50:39] Si no estoy dentro del ámbito de ventaugjetos,
+[01:50:39 - 01:50:42] el modelado que utilizaba era de FD.
+[01:50:42 - 01:50:50] Era procesos, a través del círculo, procesos principales,
+[01:50:50 - 01:50:53] y después tener las centradas y las salidas.
+[01:50:54 - 01:50:56] Casi siempre, un sistema de tiempo real,
+[01:50:56 - 01:51:00] tenés dasentadas que van a ser tus sensores y los actuadores como salidas.
+[01:51:00 - 01:51:04] Hacia los actuadores, no las salidas, hacia los actuadores.
+[01:51:04 - 01:51:10] Eso está excelente, pero hoy en día evolucionó porque ya hay, por ejemplo,
+[01:51:10 - 01:51:14] programación de ventaugjetos, orientados y temas de tiempo real,
+[01:51:14 - 01:51:17] que la gilidad y la performance camion muchísimo.
+[01:51:17 - 01:51:22] Entonces, la mayor y aparte, empezamos a mezclar,
+[01:51:22 - 01:51:25] no es una barrofa de terreno entre ahí y ahí,
+[01:51:25 - 01:51:28] y empezamos a colocar partes de negocio.
+[01:51:28 - 01:51:31] Entonces, hoy ya no está estructurado.
+[01:51:31 - 01:51:34] Está buenísimo para entender que se hacía,
+[01:51:34 - 01:51:42] hoy casi siempre lo que se hace es manejar los como si fueran sistemas tradicionales
+[01:51:42 - 01:51:49] y las sensores se comunican, le envían información a través de servenicios
+[01:51:49 - 01:51:52] al sistema de control.
+[01:51:53 - 01:51:56] Entonces, realmente pensar en una estructura hoy en día,
+[01:51:56 - 01:52:01] no creo que les aporte mucho, por eso no se ve deje en diseño,
+[01:52:01 - 01:52:03] si en principio.
+[01:52:03 - 01:52:08] Y profe, entonces digamos, sin el final,
+[01:52:08 - 01:52:12] espero no llegamos ahí, pero si nos pidiera a un esquema de plantar,
+[01:52:12 - 01:52:14] ¿cómo sería el esquema de planta?
+[01:52:14 - 01:52:17] Sí, oye, perfecto, en cambio.
+[01:52:17 - 01:52:20] Ahí le estoy mostrando en unos que, por ejemplo, no lo suelo pedir,
+[01:52:21 - 01:52:28] pero todo puede pasar.
+[01:52:28 - 01:52:30] Profesión, compañero Lucas, igual a junto a uno,
+[01:52:30 - 01:52:32] no sé si es algo para sí.
+[01:52:32 - 01:52:36] Ahora lo vemos, manqué, ¿teno que te guste buscando en unos?
+[01:52:36 - 01:52:39] Era de las bateras, ¿tienes?
+[01:52:39 - 01:53:10] Y van a querme en un minuto, van a querme, van a querme.
+[01:53:10 - 01:53:17] ¿Van a ver qué pasó Lucas? ¿No es la pasaste, Lucas?
+[01:53:17 - 01:53:19] ¿Lo pasé, le echaste?
+[01:53:19 - 01:53:22] Es comprador de pulsera, bueno acá tendría que entender el negocio,
+[01:53:23 - 01:53:26] ¿no? ¿Más ni nada pulsador de cómo?
+[01:53:26 - 01:53:29] Es el mismo enunciado que pasé el compañero a su rato.
+[01:53:29 - 01:53:36] No, no tengo yo, pero bueno importa, contar un poco de que se trata.
+[01:53:36 - 01:53:46] Era básicamente un sistema sobre una cerveza iría,
+[01:53:46 - 01:53:54] donde tenía que cráccular la temperatura de las botellas,
+[01:53:54 - 01:53:57] o sea de las cervezas que hay en el lugar.
+[01:53:57 - 01:54:03] Bueno, sólo pearía lo que se denomida un esquema de planta,
+[01:54:03 - 01:54:08] lo vemos para acá, voy a compartir yo ahora, un minuto.
+[01:54:08 - 01:54:15] Lo que se denomina a un esquema de planta es como yo,
+[01:54:15 - 01:54:19] un sistema de tiempo real, estoy dentro de un ámpito real,
+[01:54:19 - 01:54:25] estoy dentro de un ámpito, en un ambiente,
+[01:54:25 - 01:54:28] lo que se suele hacer es definir ese ámpiente
+[01:54:28 - 01:54:33] y definir dónde irían los sensores y los actuadores.
+[01:54:33 - 01:54:37] Eso lo que me permite es no olvidarme de ningún sensor
+[01:54:37 - 01:54:41] y no olvidarme de ningún actuador.
+[01:54:41 - 01:54:48] Por ejemplo, en acá tengo una casa y empiezo,
+[01:54:48 - 01:54:53] sensores de temperatura, sensores de movimiento, sensores de agua,
+[01:54:54 - 01:55:00] al culo que va a ver a lo de elefacción,
+[01:55:00 - 01:55:05] sensor de luz, acá tengo un sensor de temperatura.
+[01:55:05 - 01:55:08] Entonces, la idea es que no puedan estar.
+[01:55:08 - 01:55:15] Es un dibujo como los líneas de jardín infantes,
+[01:55:15 - 01:55:22] es decir, bueno, tenemos, supongo que estoy en el ejemplo del policía
+[01:55:23 - 01:55:26] que tenía pocos sensores y actuadores,
+[01:55:26 - 01:55:29] tenía el molidete, tenía que decir el molidete,
+[01:55:29 - 01:55:32] el policía con los celulares podría llegar a hacerlo
+[01:55:32 - 01:55:36] si es que tenían que escanear algo y nada más.
+[01:55:36 - 01:55:40] Estoy con un ejemplo de domótica, el ejemplo de domótica,
+[01:55:40 - 01:55:45] saben lo que es de domótica, son los que son casas inteligentes,
+[01:55:45 - 01:55:48] donde yo voy a tener una alarma,
+[01:55:48 - 01:55:51] si me tengo una alarma, bueno, que tengo,
+[01:55:52 - 01:55:57] un ejemplo, sensor de apertura en las ventanas y en las puertas,
+[01:55:57 - 01:56:01] tengo algún sensor de movimiento de infrarrojo
+[01:56:01 - 01:56:03] y lo tengo que colocar en donde.
+[01:56:03 - 01:56:08] Entonces, yo lo que hago definiendo todos esos sensores,
+[01:56:08 - 01:56:11] es decir, bueno, tengo el sensor, imagínate,
+[01:56:11 - 01:56:18] tengo, aún listado de todos los sensores,
+[01:56:20 - 01:56:31] tengo sensor de apertura de puerta,
+[01:56:31 - 01:56:38] es decir, sensor ventana 1,
+[01:56:38 - 01:56:48] tengo ventana 1, sensor ventana 2,
+[01:56:48 - 01:56:53] eso se digo bueno, ¿cuál es el tiempo de respuesta?
+[01:56:53 - 01:56:56] tengo que poner todo en su tipo de respuesta,
+[01:56:56 - 01:57:04] va a pensarlo, a mí el sistema me encanta,
+[01:57:04 - 01:57:07] pero bueno, entonces yo cuáles,
+[01:57:08 - 01:57:11] y estoy en el tiempo ventana 1 y ventana 2,
+[01:57:11 - 01:57:13] apenas si yo puse la alarma,
+[01:57:13 - 01:57:15] y apenas se abre la alarma,
+[01:57:15 - 01:57:19] y le doy un 0,1 segundo para que se activo,
+[01:57:19 - 01:57:24] 2 segundos para que se active la alarma y da respuesta.
+[01:57:24 - 01:57:27] Aquí va a dar respuesta,
+[01:57:27 - 01:57:29] acá tendría el del otro,
+[01:57:29 - 01:57:37] a la alarma sonora, ¿vale?
+[01:57:37 - 01:57:44] Ahora, se abre la puerta y si abre la puerta,
+[01:57:45 - 01:57:48] estoy ingresando en mi casa y suena los 2 segundos,
+[01:57:48 - 01:57:52] no me da el 15 tiempo de poner el código de la alarma,
+[01:57:52 - 01:57:54] entonces acá ya tengo que cambiar,
+[01:57:54 - 01:57:57] y cuándo necesito tener una respuesta de la alarma sonora,
+[01:57:57 - 01:57:59] y acá le doy 15 segundos,
+[01:57:59 - 01:58:07] y no tengo la clave apertura,
+[01:58:07 - 01:58:09] y no tengo clave,
+[01:58:09 - 01:58:11] que suena el 2 más o no, sonora.
+[01:58:11 - 01:58:13] Ventana 2, y la ventana 2,
+[01:58:13 - 01:58:17] estoy en una ventana que, bueno,
+[01:58:17 - 01:58:20] a veces pasa el gato, esto, bueno,
+[01:58:20 - 01:58:22] tengo 4 segundos más,
+[01:58:22 - 01:58:24] pues eso es yo,
+[01:58:24 - 01:58:26] para que después la vuelva a cerrar,
+[01:58:26 - 01:58:28] no sé, veo, o como una alarma.
+[01:58:28 - 01:58:30] Bueno, esos son todas las fiefas,
+[01:58:30 - 01:58:31] hay que hacer.
+[01:58:31 - 01:58:33] Lo que ustedes tienen que hacer,
+[01:58:33 - 01:58:45] eso es rinde lo que voy a hacer,
+[01:58:45 - 01:58:46] pero no importa,
+[01:58:46 - 01:58:48] si analizar todo eso,
+[01:58:48 - 01:58:50] tienen que armarse un listado
+[01:58:50 - 01:58:52] o todos los sensores,
+[01:58:52 - 01:58:57] imagínense que tengo sensor de humo,
+[01:58:59 - 01:59:02] sensor de humo,
+[01:59:02 - 01:59:05] tengo sensores de temperatura,
+[01:59:05 - 01:59:12] y además tengo,
+[01:59:12 - 01:59:19] tengo sensor lumínico,
+[01:59:19 - 01:59:21] entonces digo, bueno, tengo una casa,
+[01:59:21 - 01:59:36] y ya se hace años, chico,
+[01:59:36 - 01:59:43] no uso esto, tengo una casa,
+[01:59:43 - 01:59:45] hace nací, tengo la puerta,
+[01:59:45 - 01:59:47] acá pongo un sensor de,
+[01:59:47 - 01:59:49] lo hago sí, no más,
+[01:59:49 - 01:59:53] acá tengo el dejado,
+[01:59:53 - 01:59:56] el sistema central, por ejemplo,
+[01:59:56 - 02:00:01] acá tengo el sensor de la apertura de puerta,
+[02:00:01 - 02:00:03] tengo acá una ventana,
+[02:00:03 - 02:00:06] acá tengo un sensor de la apertura de ventana,
+[02:00:06 - 02:00:09] esto sería el límín,
+[02:00:09 - 02:00:13] esto sería la cocina,
+[02:00:13 - 02:00:15] o sea, estoy diciendo, ¿no?
+[02:00:15 - 02:00:17] entonces acá tengo el sensor de humo,
+[02:00:17 - 02:00:23] acá tengo afuera en el patio,
+[02:00:23 - 02:00:25] tengo el sensor lumínico,
+[02:00:26 - 02:00:30] tengo el actuador,
+[02:00:30 - 02:00:33] es el motor para levantar esto,
+[02:00:33 - 02:00:37] tengo dentro de la habitación,
+[02:00:37 - 02:00:39] solamente la habitación lo loco,
+[02:00:39 - 02:00:42] porque es donde tienes que estar con una temperatura agradable,
+[02:00:42 - 02:00:44] tengo el sensor de temperatura,
+[02:00:44 - 02:00:48] el sensor de temperatura,
+[02:00:48 - 02:00:50] y acá tengo el aire acondicionado,
+[02:00:50 - 02:00:57] ahí le aire, ahí le aire,
+[02:00:57 - 02:01:00] entonces tengo el actuador,
+[02:01:00 - 02:01:02] entonces voy definiendo actuadores,
+[02:01:02 - 02:01:05] un color, el sensor es en otro,
+[02:01:05 - 02:01:07] lo voy definiendo bien, ¿no?
+[02:01:07 - 02:01:10] y así van armando su sistema de plantas,
+[02:01:10 - 02:01:12] obviamente el sistema central,
+[02:01:12 - 02:01:14] lo que se suele hacer,
+[02:01:14 - 02:01:17] después ver cómo me comunico,
+[02:01:17 - 02:01:20] estos sensores con el sistema central,
+[02:01:20 - 02:01:22] está, estoy hablando,
+[02:01:22 - 02:01:24] este bit, el bluetooth,
+[02:01:24 - 02:01:26] está ablado, ¿ok?
+[02:01:26 - 02:01:28] algunos se comunican como wifi,
+[02:01:28 - 02:01:32] porque tengo un teléfono celular,
+[02:01:32 - 02:01:36] y ahí me he de conectar a la nube,
+[02:01:36 - 02:01:39] esto estaría mucho más lindo,
+[02:01:39 - 02:01:41] me conecto a la nube,
+[02:01:41 - 02:01:43] y después este se conecta acá,
+[02:01:43 - 02:01:45] esto es una esquema de plantas,
+[02:01:45 - 02:01:48] no tiene ninguna lógica de WML,
+[02:01:48 - 02:01:51] no tiene ningún, digamos,
+[02:01:51 - 02:01:55] recomendación,
+[02:01:55 - 02:01:58] de tu infraestructura física,
+[02:01:58 - 02:02:01] por cierto, también es un sistema tiempo real,
+[02:02:01 - 02:02:03] está solo un ambiente real,
+[02:02:03 - 02:02:06] empezar a definir todos tus sensores y actuadores,
+[02:02:06 - 02:02:09] a como para no olvidarte,
+[02:02:09 - 02:02:13] cuáles son los estímulos que vas a ir capturando,
+[02:02:13 - 02:02:19] no, eso es lo que vamos a,
+[02:02:19 - 02:02:22] lo que ustedes tienen que llevarse de esta clase,
+[02:02:22 - 02:02:26] digamos, no, no vemos,
+[02:02:26 - 02:02:30] ya tienen bastante complicada como apartar,
+[02:02:30 - 02:02:33] también sumarle de GD, la materia,
+[02:02:33 - 02:02:35] y aparte,
+[02:02:35 - 02:02:40] ya lo vieron,
+[02:02:40 - 02:02:42] y les voy a decir,
+[02:02:42 - 02:02:49] hoy en día no se lo utiliza,
+[02:02:49 - 02:02:51] tanto el de GD, está bueno que lo sepan,
+[02:02:51 - 02:02:55] porque me ayuda a entender un poco,
+[02:02:55 - 02:02:58] pero hoy en día,
+[02:02:58 - 02:03:01] los sensores se comunican a través,
+[02:03:01 - 02:03:03] tienen como una especie,
+[02:03:03 - 02:03:05] de centro del sensor,
+[02:03:05 - 02:03:07] donde le envían la información
+[02:03:07 - 02:03:09] al sistema central,
+[02:03:09 - 02:03:11] y el sistema central,
+[02:03:11 - 02:03:13] tiene una lógica
+[02:03:13 - 02:03:15] que no es procedural,
+[02:03:15 - 02:03:17] no es un lenguaje procedural,
+[02:03:17 - 02:03:18] ya sé,
+[02:03:18 - 02:03:20] todos los servicios,
+[02:03:20 - 02:03:22] los servicios que se comunican a través de la piedad fuera,
+[02:03:22 - 02:03:25] porque si solamente hago un sistema
+[02:03:25 - 02:03:28] de estructurado,
+[02:03:28 - 02:03:33] entonces no pierde la extensibilidad del sistema,
+[02:03:33 - 02:03:35] hoy en día,
+[02:03:35 - 02:03:40] y tengo un sensor muy complicado,
+[02:03:40 - 02:03:43] que realmente necesito
+[02:03:43 - 02:03:45] que tenga bajo consumo,
+[02:03:45 - 02:03:47] y si, ahí, bueno, me pongo
+[02:03:47 - 02:03:49] programar en Asemple,
+[02:03:49 - 02:03:51] o usaría un GD,
+[02:03:51 - 02:03:53] cuáles fantasía está entrada,
+[02:03:53 - 02:03:56] un proceso de atentrada de la tu salida,
+[02:03:56 - 02:03:59] pero ya si tenés,
+[02:03:59 - 02:04:00] un GD,
+[02:04:00 - 02:04:02] o tenés un proceso de negocio,
+[02:04:02 - 02:04:03] este proceso no se lo va a hacer,
+[02:04:03 - 02:04:06] unamente estructurado.
+[02:04:06 - 02:04:07] Por lo menos,
+[02:04:07 - 02:04:10] vamos a estar con una piedad y un servicio.
+[02:04:10 - 02:04:11] Entonces,
+[02:04:11 - 02:04:14] ya no se utiliza tanto el GD,
+[02:04:14 - 02:04:17] por eso que lo vieron en principios,
+[02:04:17 - 02:04:19] acá ven otra cosa,
+[02:04:19 - 02:04:23] se encuentran con otros problemas,
+[02:04:23 - 02:04:26] ya el problema de la comunicación entre los tensores,
+[02:04:26 - 02:04:28] como tendría que,
+[02:04:28 - 02:04:30] que es lo que le van a pedir a ustedes con otra bajen
+[02:04:30 - 02:04:32] de arquitectos,
+[02:04:32 - 02:04:33] del sistema.
+[02:04:33 - 02:04:35] A bien, este aparatito,
+[02:04:35 - 02:04:36] viene de China,
+[02:04:36 - 02:04:37] ah, ¿qué bueno?
+[02:04:37 - 02:04:38] Ahí con los aportillos divinos,
+[02:04:38 - 02:04:40] hay unas aportillos que se decían en mi aparatito,
+[02:04:40 - 02:04:41] la luz,
+[02:04:41 - 02:04:44] bueno, ¿cómo me comunico?
+[02:04:44 - 02:04:45] Y es mediante Civil,
+[02:04:45 - 02:04:46] tengo que hablar, tengo que hablar,
+[02:04:46 - 02:04:47] cómo captura el evento,
+[02:04:47 - 02:04:48] así,
+[02:04:48 - 02:04:49] bueno, tengo que armar
+[02:04:49 - 02:04:50] una red en malla,
+[02:04:50 - 02:04:53] porque lo tenemos muy lejos de donde está el sistema.
+[02:04:53 - 02:04:55] Bueno,
+[02:04:55 - 02:04:57] esas son los problemas con los que se van a encontrar
+[02:04:57 - 02:04:59] el sistema de tiempo real.
+[02:04:59 - 02:05:02] Hoy no se van a encontrar con que
+[02:05:02 - 02:05:06] no se programar un sensor
+[02:05:06 - 02:05:07] o un actuador,
+[02:05:07 - 02:05:09] porque está bajo assemblar.
+[02:05:09 - 02:05:12] Eso ya viene todo armado.
+[02:05:12 - 02:05:13] Bien, todo armado,
+[02:05:13 - 02:05:17] tiene el actuador con esa pequeña lógica,
+[02:05:17 - 02:05:19] y ya lo único que hace es subir,
+[02:05:19 - 02:05:21] ensonde, apagar, controlar.
+[02:05:21 - 02:05:22] Y ustedes, lo que tienen que tener,
+[02:05:22 - 02:05:24] toda la lógica,
+[02:05:24 - 02:05:25] de manejar los servicios,
+[02:05:25 - 02:05:27] pagar, subirme la temperatura,
+[02:05:27 - 02:05:29] si estoy llegando a mi casa,
+[02:05:29 - 02:05:32] ponerme la barro para la estrella mañana,
+[02:05:32 - 02:05:35] porque me sale más barata la energía,
+[02:05:35 - 02:05:37] me van siguiendo,
+[02:05:37 - 02:05:40] me llamaron del control de mi casa,
+[02:05:40 - 02:05:41] lo caron el timbre,
+[02:05:41 - 02:05:42] pero no estoy,
+[02:05:42 - 02:05:46] pero directamente me lo atiende desde mi celular.
+[02:05:46 - 02:05:47] Bueno,
+[02:05:47 - 02:05:49] esa lógica,
+[02:05:49 - 02:05:51] la tienen que manejar a través del servicio.
+[02:05:51 - 02:05:57] UML es un paso para ordenarse en cuanto servicios.
+[02:05:57 - 02:05:59] Así que bueno,
+[02:05:59 - 02:06:01] no voy a ir con un paso atrás,
+[02:06:01 - 02:06:03] que es el de FEDL.
+[02:06:03 - 02:06:05] Está excelente que lo hayan visto,
+[02:06:05 - 02:06:06] no digo que no,
+[02:06:06 - 02:06:10] y yo ya te van a mostrarles
+[02:06:10 - 02:06:19] otros problemas que van a tener en sistema de tiempo real.
+[02:06:19 - 02:06:21] Así que no tenés miedo con lo de FEDL.
+[02:06:21 - 02:06:25] Una vez que no tomo algo,
+[02:06:25 - 02:06:29] le quiere que lo tomen.
+[02:06:29 - 02:06:30] No, no, no, no, no,
+[02:06:30 - 02:06:41] pero si puedo llegar a tomar eso,
+[02:06:41 - 02:06:43] o preguntarle que hizo un esquema de planta,
+[02:06:43 - 02:06:45] y no me muestre de un FEDL.
+[02:06:45 - 02:06:47] Salos muy sencillo,
+[02:06:47 - 02:06:50] es el tema de tiempo real de tu ambiente real,
+[02:06:50 - 02:06:54] cómo distribuir todos tus sensores y actuadores
+[02:06:54 - 02:06:57] y donde pondría el sistema central.
+[02:06:57 - 02:06:59] Hoy en día te voy a decir,
+[02:06:59 - 02:07:02] si tenés una alarma con lo que ha salgo,
+[02:07:02 - 02:07:04] pero si no, a veces muchas veces,
+[02:07:04 - 02:07:06] esto trabaje en que se las celulares.
+[02:07:06 - 02:07:08] O sea, necesito tener una infraestructura
+[02:07:08 - 02:07:10] y te pediría otra lista,
+[02:07:10 - 02:07:12] te pediría un diagrama de espliedad.
+[02:07:13 - 02:07:15] Pero sí, para hacerse los sectores de todo,
+[02:07:15 - 02:07:17] te pediría un diagrama de espliedad en una esquema de plantas.
+[02:07:17 - 02:07:26] Y hay un montón de sensores,
+[02:07:26 - 02:07:31] por ejemplo, no se están con calderas.
+[02:07:31 - 02:07:34] Bueno, tengo que subir la temperatura de la caldera,
+[02:07:34 - 02:07:36] entonces tengo que calder.
+[02:07:36 - 02:07:39] Y son más cosas que ustedes también tienen que ir pensando.
+[02:07:39 - 02:07:44] Porque como hago para que llegue a la caldera,
+[02:07:44 - 02:07:47] y bueno, los sigbite permite,
+[02:07:48 - 02:07:51] no van a saber todo eso,
+[02:07:51 - 02:07:54] pero sí la idea de esta clase es que ustedes
+[02:07:54 - 02:07:59] ya el día de mañana tienen que hacer algo de domótica
+[02:07:59 - 02:08:02] o lo quieren hacer en sus casas para automatizar.
+[02:08:02 - 02:08:08] Hoy piden cositas de China y tienen sensores
+[02:08:08 - 02:08:11] algo que es fundamental, por ejemplo,
+[02:08:11 - 02:08:16] es el sensor para ver si hay escape de gas o no en la cocina.
+[02:08:17 - 02:08:19] Creo que en las de China sale 60 mil pesos,
+[02:08:19 - 02:08:22] salvo de barato y salvo de alarma.
+[02:08:22 - 02:08:26] Usted lo puede automatizar, le pueden llegar a una alarma,
+[02:08:26 - 02:08:28] al celular.
+[02:08:28 - 02:08:31] Hoy se puede hacer, hoy no son cosas caras.
+[02:08:31 - 02:08:35] Entonces, el objetivo de esto es que ustedes
+[02:08:35 - 02:08:40] sepan que existen, sepan que ya lo sepan,
+[02:08:40 - 02:08:45] sepan que pueden comunicarse con cobras con algún celular
+[02:08:45 - 02:08:48] porque la comunicación se puede hacer a todas las tardes de YouTube.
+[02:08:48 - 02:08:50] Pero bueno, ¿qué pasa? ¿Qué pasa?
+[02:08:50 - 02:08:51] ¿Qué es otra de YouTube?
+[02:08:51 - 02:08:54] Tengo que vincular. Tengo que tener una mínima lógica
+[02:08:54 - 02:08:57] para hacerlo. Bueno, la idea de la clase de sistema de tiempo real
+[02:08:57 - 02:09:00] y de presentarlo en un montón de sensores y tartadores
+[02:09:00 - 02:09:05] es para que puedan el día de mañana si tienen que hacer algo
+[02:09:05 - 02:09:20] recordar que tienen que analizar estas cosas.
+[02:09:20 - 02:09:23] ¿Estás?
+[02:09:23 - 02:09:25] Ah, y otro que voy a subir,
+[02:09:25 - 02:09:32] son las que me voy a hacer mucho.
+[02:09:32 - 02:09:35] En el video, yo escribi, le voy a pasar también,
+[02:09:35 - 02:09:38] ya se lo he pasado así, me he habido.
+[02:09:38 - 02:09:46] Algo de soba está muy bien detallado.
+[02:09:46 - 02:09:52] Las primeras cinco, seis hojas de un apunte,
+[02:09:52 - 02:09:56] que arme en su momento de soba para lo que es servicios.
+[02:09:56 - 02:09:58] Eso también entra.
+[02:09:58 - 02:10:02] Era estiórico.
+[02:10:02 - 02:10:04] ¿Ok? Hola, les subo todo.
+[02:10:04 - 02:10:12] Todo lo que vimos más eso, que quiero que desoba hacia autoestudia.
+[02:10:12 - 02:10:15] Estamos proceder, gracias.
+[02:10:15 - 02:10:19] Fantástico. No se olviden de sino ir, yo,
+[02:10:19 - 02:10:25] mi arco les a la tarde, estoy sacando la cantidad de alumnos
+[02:10:25 - 02:10:28] que voy a van a ir a rendir el examen,
+[02:10:28 - 02:10:30] sino van,
+[02:10:30 - 02:10:38] va a entrar en el Excel y saldeme la existencia.
+[02:10:39 - 02:10:44] Así no me llevo tantos suavemente a mi casa.
+[02:10:44 - 02:10:50] Nos vemos chicos, le deseo lo mejor, nos vemos el jueves,
+[02:10:50 - 02:10:53] éxitos, estudian y nos vemos.
+[02:10:53 - 02:10:59] Yo he hecho el profe.
+[02:10:59 - 02:11:00] Nos vemos el profe.
+[02:11:00 - 02:11:01] ¿Qué ha hecho?
+[02:11:01 - 02:11:07] Nos vemos para la grabación, sí.

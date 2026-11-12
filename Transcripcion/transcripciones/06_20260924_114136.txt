@@ -1,0 +1,258 @@
+# Clase 06 - Parte 2 - 2026-09-24
+Archivo de origen: Clase 06-20260924_114136-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 00:20:10
+
+---
+
+[00:00:02 - 00:00:32] Algo, una página que hable también con un grupo de los multi-ongetos que siempre hablan, ¿qué grupos fue? ¿El cuadro también? El cinco. ¿Era con nosotros? El cinco. Y ahora estoy para el grupo cinco. Es este. El grupo que está presentando. Sí, sí. Muy bien. ¿Algo que quieran explicarlo ustedes? Bueno, nosotros lo que había pensado cuando vimos de la clase que se había,
+[00:00:32 - 00:00:39] que se había partiendo del diagrama que mandó la profe, cuando decía registro, el acceso
+[00:00:39 - 00:00:47] esteníamos la duda de poder entender si era multi-objeto y si había un patrón de creador donde creaba en sí la instancia del registro.
+[00:00:47 - 00:00:57] Partiendo de esa duda decidimos tomar que como que en Capsule, el registro de la obra acceso sea el que se encarga de
+[00:00:57 - 00:01:05] creado en registro y así ya trabaja de esa manera. Eso tiene una justificación de diseño. Sí.
+[00:01:05 - 00:01:10] Coriamos así así. ¿Entendía, orfete?
+[00:01:10 - 00:01:16] Y algo que también me gustó, creo que lo hicieron, no sé si pusieron multi-objetos.
+[00:01:16 - 00:01:21] El lado de la obra de la obra. Bueno, en un momento estamos a discutir,
+[00:01:22 - 00:01:30] bueno, vamos con un caso, yo el expreso de fondo en el caso donde en la fisionado se equivoco de fecha.
+[00:01:30 - 00:01:39] Entonces le da un error. Ahora si tengo que ir por el otro caso, yo tengo que instanciarlo, decir bueno,
+[00:01:39 - 00:01:48] busco el QR y después busco el aficionado.
+[00:01:49 - 00:01:57] Buscamos en la fisionado, tenía aficionados, tenía un multi-objeto que sería el patrón.
+[00:01:57 - 00:02:05] Pero, andamos un doble arriba, pero con la entrada no tenía este famoso multi-objetos.
+[00:02:05 - 00:02:11] Podría tener un, a mí me gusta más poner, decir bueno, listados, entrada, habilitadas,
+[00:02:12 - 00:02:20] pero si quieres poner un multi-objeto de entrada para buscar el QR, está bien, ahí lo tendrían que modificar.
+[00:02:20 - 00:02:25] Entonces dentro del acceso policial, yo voy a tener diferentes lógicas, uno va a hacer
+[00:02:25 - 00:02:32] buscar el QR que van a hacer experto de eso, necesitas de otro experto que va a hacer este objeto
+[00:02:32 - 00:02:40] que contenga todas las entradas, un multi-objeto o un estado de entrada.
+[00:02:41 - 00:02:48] Esto como ustedes lo tiran modelar. Eso me gusta mucho, que a la fortidad coplando.
+[00:02:48 - 00:02:55] Y lo otro que también hayamos charlado era lo de hacerla en paralelo, las dos verificaciones.
+[00:02:55 - 00:03:00] Esa era la segunda que hay mucho en lo que al final nosotros decidimos hacerlo.
+[00:03:00 - 00:03:07] Esa es lo que todos los fuerenciar, muy bien. Me escuchas, mío, eso es lo que les dije,
+[00:03:07 - 00:03:13] también me gusta, o sea, cuando uno esté al dejo policial, solo te haría, o sea, el buquil bueno.
+[00:03:13 - 00:03:19] Primero, busco los datos básicos de la entrada, si es el día correcto, si es la puerta correcta y además,
+[00:03:19 - 00:03:26] en el mismo momento, lanzo otro mensaje al padrón para decirme parón.
+[00:03:26 - 00:03:32] Este aficionado está habilitado, no, solamente quiero saber esto, que está habilitado, no.
+[00:03:32 - 00:03:38] Todavía no hice validación como ella digital, ni se absolutamente nada.
+[00:03:38 - 00:03:43] Entonces, tengo dos mensajes lanzados en forma simultánea.
+[00:03:43 - 00:03:51] Como el diagrama de este cuente, es un diagrama secuencial donde justamente la temporalidad es lo más importante,
+[00:03:51 - 00:03:55] no me permite armar mucho a esta simultánea de edad.
+[00:03:55 - 00:03:59] Si me lo permite de otro tipo de vista, como puede ser el diagrama de comunicación.
+[00:03:59 - 00:04:05] Ah, y al ligo, en un ML, el donde desde un punto,
+[00:04:05 - 00:04:14] estáco como dos mensajes, pero no se ve bien en algunas tarranientas.
+[00:04:14 - 00:04:17] En el diagrama, en un conciro que le hace con papel, está más creyendo.
+[00:04:17 - 00:04:23] Desde un punto, lanzo un mensaje y lanzo otro.
+[00:04:23 - 00:04:25] Entonces, ahí ve un poco la simultánea de edad.
+[00:04:25 - 00:04:29] Entonces, yo lo que haría es el acceso policial, si no tengo un gestor,
+[00:04:29 - 00:04:33] el acceso policial que va a actuar un poco de coordinador, es decir, bueno,
+[00:04:33 - 00:04:40] puc, el QR para avaliar los datos del trada y después lanzo en el mismo momento
+[00:04:40 - 00:04:46] para ver si al padrón, para ver si ese aficionado es el correcto.
+[00:04:46 - 00:04:50] Desde el entrada, tengo el aficionado.
+[00:04:50 - 00:04:57] Sería más o menos por acá, mientras vas a buscar eso, te vas a buscar allá la aficionada.
+[00:04:57 - 00:05:03] Y hay que tener una relación entre las vistas, todo lo que yo coloco en el diagrama de secuencia,
+[00:05:03 - 00:05:09] suele comunicarse y un eje que está arracizado en el diagrama de clase.
+[00:05:09 - 00:05:21] Y yo veo que la relación es efímera, o sea que no es continuas, manejo una dependencia,
+[00:05:21 - 00:05:30] ahí lo conveniente que el método tenga el objeto o el atributo que le voy a pasar,
+[00:05:30 - 00:05:35] por ejemplo, no sé, aficionado, si no le pasa, si es efímera,
+[00:05:35 - 00:05:40] pueda notificarte o en el por ejemplo, pues le quiero dar una notificación,
+[00:05:40 - 00:05:46] pues va a ser efímero, entonces le envío en el método, ese atributo,
+[00:05:46 - 00:05:50] para que le paso como parámetro, para darle a aficionado.
+[00:05:50 - 00:05:53] Entonces estoy viendo este tipo de relación.
+[00:05:53 - 00:06:00] Y es muy estrecha, entonces que lo contiene, por ejemplo, padrón y aficionado,
+[00:06:00 - 00:06:06] ahí sí voy a tener una relación más fuerte, ¿vale?
+[00:06:06 - 00:06:11] Grupo 4 también había hecho algo que me había gustado,
+[00:06:11 - 00:06:13] quiero mostrarlo muy bien en grupos 5.
+[00:06:13 - 00:06:19] Acá estuve colocando los que participaron, les pusimos con Chile,
+[00:06:19 - 00:06:27] y era mucho, cuando estaba en el size, ahí comparto.
+[00:06:27 - 00:06:35] Dejó ser que jáme lo que planteó, ¿ok? ¿Quién es? ¿Quién habla?
+[00:06:35 - 00:06:36] Lucas.
+[00:06:36 - 00:06:39] Lucas.
+[00:06:39 - 00:06:44] Ah, no, o sea, nosotros lo que habíamos pensado era,
+[00:06:44 - 00:06:48] o sea, nos dimos cuenta después de que de haber hecho eso,
+[00:06:48 - 00:06:51] que nosotros lo que hicimos fue desde aficionado,
+[00:06:51 - 00:06:57] primero va a ser el acceso válido, entonces lo registramos en regal acceso.
+[00:06:57 - 00:07:02] Y después en el mismo diagrama que después nos dimos cuenta,
+[00:07:02 - 00:07:08] que era conveniente separarlo en dos, habíamos hecho que desde los
+[00:07:08 - 00:07:12] de la aficionados se valía en los datos biometricos, entonces nada,
+[00:07:12 - 00:07:17] se valía los datos de la aficionado en el padrón, se valía la entrada,
+[00:07:17 - 00:07:21] también que se valía y después se habilita del acceso,
+[00:07:21 - 00:07:26] pero nada, nos dimos cuenta que era más conveniente separar los diagramas,
+[00:07:26 - 00:07:32] es decir, hacer un diagrama para el primer acceso y otro par de manos.
+[00:07:32 - 00:07:39] En un momento, creo que con usted se digan, estáte en laagrama de actividad,
+[00:07:39 - 00:07:44] en el diagrama de actividad habíamos decidido cómo era un poco el proceso,
+[00:07:44 - 00:07:49] hicimos el precontrol, o sea, que no se ven a querer ver, o sea,
+[00:07:49 - 00:07:57] el precontrol era contra el precontrol, o sea, lo les voy a hacer a lo mejor.
+[00:07:57 - 00:07:58] El óleo ya se quiere.
+[00:07:58 - 00:08:03] Es contra el periómetro del estadio, la policía le de la entrada puede ser con un celular
+[00:08:03 - 00:08:08] pdA, valida si la entrada es correcta, si el día es correcto, si está el camino de
+[00:08:08 - 00:08:12] la puerta de acceso correspondiente, y si es una ficiada habilitado.
+[00:08:12 - 00:08:20] El habilitar si la puerta es correcta, es un proceso manual, donde el policía dice,
+[00:08:20 - 00:08:27] que está cortado y no está en la puerta X, no te conviene, es un proceso manual, pero ayuda
+[00:08:27 - 00:08:33] a ver el sitio de la pdM y de esta entrada que puerta le corresponde.
+[00:08:33 - 00:08:36] Hay procesos manuales, obviamente.
+[00:08:36 - 00:08:41] Eso sería lo instanciamos, sería un escenario.
+[00:08:41 - 00:08:50] Ahora, no hagan todo lo que se le da control, porque si no, van a tener muchísima informa
+[00:08:50 - 00:08:53] de la población y a alguien donde hacen agua.
+[00:08:53 - 00:09:01] Si quieren hacer valida la huella digital, que creo que lo tengo por acá, hagan otro escenario.
+[00:09:01 - 00:09:08] Estoy en la segunda instancia, estoy en el molinete, el molinete está y hagan lo otro,
+[00:09:08 - 00:09:13] valida la huella digital correspondiente en la ficiada, ya estaría habilitado, valida
+[00:09:13 - 00:09:19] si la entrada corresponde al molinete y acorde a la puerta de ingreso.
+[00:09:19 - 00:09:20] Es otro escenario.
+[00:09:20 - 00:09:26] Entre los estados, les de hacerlo de manera que puedan definir bien el escenario.
+[00:09:26 - 00:09:34] Mi consejo es reír, no traten de terminar el diagrama de clases y después hacerle el
+[00:09:34 - 00:09:43] secuel de comunicación a lo, tratan de hacerlo en forma simulcada.
+[00:09:43 - 00:09:51] Pero si no les hacen, no se dan cuenta de pasajerficias.
+[00:09:51 - 00:09:55] Está muy bueno lo que le pasó al grupo 4 también.
+[00:09:55 - 00:10:00] Tadarse cuenta y definir el escenario es muy importante.
+[00:10:00 - 00:10:02] Profes de escucha.
+[00:10:02 - 00:10:04] Sí.
+[00:10:04 - 00:10:09] Ah, si habíamos charlado también en mi grupo 1.
+[00:10:09 - 00:10:11] ¿Cómo?
+[00:10:11 - 00:10:20] Sí, habíamos charlado que el molinete es como un actuador que también tiene el sensor de
+[00:10:20 - 00:10:27] huella, teníamos que plantearlo con otro diagrama de secuencia para lo que es el segundo
+[00:10:27 - 00:10:33] tramo, ya que cuando usted lo planteó y su primer tramo, porque pensábamos que
+[00:10:33 - 00:10:37] tipo se hacemos los dos como que queda muy gigante el diagrama de secuencia.
+[00:10:37 - 00:10:45] Lo que pasa es que yo lo que quiero, a decirlo, cuando uno hace, por ejemplo, y si hace una
+[00:10:45 - 00:10:46] pregunta, ¿eh?
+[00:10:46 - 00:10:51] Y el arquitecto te va a decir, bueno, hace dos semanas te hago unos planos.
+[00:10:51 - 00:11:01] Ahora, si vuelvas a estar todos los planos y el detalle de cómo pongo la madera, ahí
+[00:11:01 - 00:11:03] pide a otra cosa.
+[00:11:03 - 00:11:13] Entonces, me conviene directamente, voy a pasar una línea haciendo la arquitectura, ¿eh?
+[00:11:13 - 00:11:14] Los planos.
+[00:11:14 - 00:11:20] Entonces, tengo que ir a hacer este diagrama o esta vista de lo más importante.
+[00:11:20 - 00:11:22] Pues, pues, no siempre les digo, ¿no?
+[00:11:22 - 00:11:27] Es tan importante mostrar los ADMS, a dar de alta el club.
+[00:11:27 - 00:11:31] Por ejemplo, estoy lleno un poco al indónico, ¿no?
+[00:11:31 - 00:11:36] Voy a dar de alta el club para que puedan padrónar.
+[00:11:36 - 00:11:43] Entonces, dentro al club, no sea de hasta Lorenzo, sin el sal Lorenzo, cede y lo de ante.
+[00:11:43 - 00:11:48] No sé si el proceso muy administrativo, que sé que alguien lo va a estar, pero no
+[00:11:48 - 00:11:49] lo voy a modeldar.
+[00:11:49 - 00:11:51] ¿Hale lo que está?
+[00:11:51 - 00:11:55] Lo que yo me voy a fijar es que no es el encord.
+[00:11:55 - 00:11:59] Entonces, ¿y ustedes quieren ir a lo básico?
+[00:11:59 - 00:12:04] Es decir, bueno, voy a dar de, voy a hacer un diagrama de secuencia para dar de alta el
+[00:12:04 - 00:12:07] club y la realidad que no tiene mucho sentido.
+[00:12:08 - 00:12:15] Y tiene sentido, por ejemplo, el acceso por el escor.
+[00:12:15 - 00:12:22] Y igual, creo que acá les voy a armar uno que es ingreso aficionado porque tengo la
+[00:12:22 - 00:12:26] parte de citar huesas hospitales, por eso lo eniste.
+[00:12:26 - 00:12:30] No sé, no sé, no sé lo que.
+[00:12:30 - 00:12:38] Van que en México las estoy citando, no sé lo tengo, que los pasen.
+[00:12:38 - 00:12:39] No sé.
+[00:12:39 - 00:12:40] ¿Sí?
+[00:12:40 - 00:12:41] ¿Qué o una duda?
+[00:12:41 - 00:12:43] Toda.
+[00:12:43 - 00:12:55] Sí, el compañero anterior que había mostrado un diagrama, creo que he hecho el Draúio,
+[00:12:55 - 00:13:02] había hecho como en los casos donde no sé, el aficionado viene en una fecha equivocada o
+[00:13:02 - 00:13:03] fue denegado.
+[00:13:03 - 00:13:10] Todos esos casos hay que tomarlos en cuenta o solamente el caso exitoso.
+[00:13:10 - 00:13:16] No, yo te voy a pedir, no, yo te voy a pedir mi caso, si tú es todo el caso, porque
+[00:13:16 - 00:13:22] a veces el caso que fracasa, o sea, el de acceso denegado también es importante.
+[00:13:22 - 00:13:24] Pero quiere todos.
+[00:13:24 - 00:13:31] No, yo te voy a pedir, a veces te dirección un poco, te digo, mira, esta le interfaz y
+[00:13:31 - 00:13:38] vos modelar la corras interfaz, vas a tener el método que captura este evento y después
+[00:13:38 - 00:13:39] todo lo que viene atrás.
+[00:13:39 - 00:13:45] A veces suelo hacer eso y también te permite ordenarte en qué voz destinas vienen
+[00:13:45 - 00:13:47] escenarios, ¿ok?
+[00:13:47 - 00:13:53] Pero si vos querés definir, pero a veces también te digo, definí los voz en escenarios.
+[00:13:53 - 00:13:55] Sí.
+[00:13:55 - 00:14:01] Y ahí hacen agua, porque, porque te cuesta pensar un poco cuál va a ser el escenario.
+[00:14:01 - 00:14:05] Pero el que te doy es la libertad de decir, decidimos cuál es el escenario.
+[00:14:05 - 00:14:10] Te pide un escenario que sea representativo, ¿ok?
+[00:14:10 - 00:14:17] Y por eso también están la variedad y el abanico en las notas, ¿ok?
+[00:14:17 - 00:14:20] ¿Y vas a ser un escenario donde vas de alta al club?
+[00:14:20 - 00:14:23] Y la realidad es que no es mucho aporte.
+[00:14:23 - 00:14:28] Ahora, si vas a ser justo el de el control de acceso, está buenísimo.
+[00:14:28 - 00:14:33] Ahora, ¿por qué es el cor de lo que te vas a resolver?
+[00:14:35 - 00:14:38] Sí, sí, pero entendi.
+[00:14:38 - 00:14:44] Pero entonces, como para representar más el caso chitoso sería lo más ideal, porque si no,
+[00:14:44 - 00:14:46] si ya le fecha...
+[00:14:46 - 00:14:48] Ah, ¿qué es el que te pide tu pregunta, claro?
+[00:14:48 - 00:14:55] Pues sí, bueno, pero si ya di que se crió con fecha, de vuelve la respuesta claro.
+[00:14:55 - 00:14:57] Sí, tenás razón, obviamente.
+[00:14:57 - 00:15:01] Por eso te digo que doy la lección, la posibilidad de que vos puedas elegir el escenario
+[00:15:01 - 00:15:05] para que tengas mayor comunicación entre los objetos.
+[00:15:05 - 00:15:06] Claro.
+[00:15:06 - 00:15:13] Bueno, la duera no hace falta modelar todos los casos alternativos dentro del universo.
+[00:15:13 - 00:15:14] No, no, no, no.
+[00:15:14 - 00:15:17] No.
+[00:15:17 - 00:15:24] Todos los casos alternativos y todas las disfurcaciones las vas a obtener en tu código.
+[00:15:24 - 00:15:26] Claro, ¿y historias?
+[00:15:26 - 00:15:32] Porque si yo voy a hacer diagramas de secuencias de todas las disfurcaciones,
+[00:15:32 - 00:15:35] y voy a estar tres meses haciendo diagramas de secuencias.
+[00:15:35 - 00:15:36] No me da tiempo al parocio.
+[00:15:36 - 00:15:39] Claro, no te voy a dar por eso.
+[00:15:39 - 00:15:46] Ahora, la elección de tu escenario es muy importante.
+[00:15:46 - 00:15:47] Sí, sí, sí.
+[00:15:47 - 00:15:50] Muchas gracias.
+[00:15:50 - 00:15:58] Bueno, quería terminar un ratito antes, pero si yo me terminó las dos en punto, nos vemos
+[00:15:58 - 00:16:00] en la clase que viene.
+[00:16:00 - 00:16:05] Les maldo una notificación que va a ser presidencial o virtual.
+[00:16:05 - 00:16:09] Eso con ustedes es muy bastante bien.
+[00:16:09 - 00:16:15] La clase que viene de mi comandría que sea virtual porque empezamos con patrones o minutitos,
+[00:16:15 - 00:16:23] ya para mí, este tema se tiene que recontra, manejar.
+[00:16:23 - 00:16:28] Voy a encantar que el 15, vamos a hacer una clase presidencial que es antes del examen.
+[00:16:29 - 00:16:34] Ok, es la que más me importa.
+[00:16:34 - 00:16:43] Bueno, les mando una notificación, ok, si vas a ser virtual o presencial, dependo de
+[00:16:43 - 00:16:45] otros preferidos.
+[00:16:45 - 00:16:47] Perdiante.
+[00:16:47 - 00:16:51] Para ver si tengo el aula, no.
+[00:16:51 - 00:16:52] Muchísimas gracias.
+[00:16:52 - 00:16:55] ¡Samos muy bien!
+[00:16:55 - 00:16:56] Y profadame y cuéjame.
+[00:16:56 - 00:16:59] Mira, que me acordé del día de mi.
+[00:16:59 - 00:17:00] Me voy a mandarles mis presidencias.
+[00:17:00 - 00:17:01] ¿Cómo el 10 y 10?
+[00:17:02 - 00:17:05] ¿Qué había un error en el DOX y vica ahí dos grupos?
+[00:17:05 - 00:17:06] Al fin de grupo 4.
+[00:17:06 - 00:17:11] Si quiere, ahora yo le mando la lista de los nombres y lo ponemos de grupo 7 y listo.
+[00:17:11 - 00:17:17] Ah, había un grupo, entonces, pero no tienen el canal habilitado.
+[00:17:17 - 00:17:22] Pero no podemos entrar en el, porque no tenemos nada de grupo.
+[00:17:22 - 00:17:25] Hay vica bien como dos, en el grupo 4, entonces vencer dos grupos.
+[00:17:25 - 00:17:33] Bueno, copia a mí y copia también a José para que las habillitas.
+[00:17:33 - 00:17:34] ¿No me?
+[00:17:34 - 00:17:36] A José Luis Cabrera.
+[00:17:36 - 00:17:37] Fantástico.
+[00:17:37 - 00:17:41] Hace un grupo si querés en el chat, así, me hago un medio último.
+[00:17:41 - 00:17:45] Y si ya está, igual ya sí, estamos prácticamente...
+[00:17:45 - 00:17:51] Feremos que el dolar se atras con el pendunse y la cera.
+[00:17:51 - 00:17:52] Bueno, nos vemos.
+[00:17:52 - 00:17:54] Bueno, mira, por ti no sale.
+[00:17:54 - 00:17:58] ¡Pero, profe, está nuevo!
+[00:17:58 - 00:17:59] Por favor, nos vemos por favor.
+[00:17:59 - 00:18:00] Bueno, se me va a ver, vamos por favor.
+[00:18:00 - 00:18:02] Perfecto.
+[00:18:02 - 00:18:06] ¿A una recomendación para repasar algo de Gov?
+[00:18:06 - 00:18:11] Bueno, para empezar a ver, para llegar a la clase que viene,
+[00:18:11 - 00:18:12] la con algo sabido, vamos a ver.
+[00:18:12 - 00:18:21] Bueno, a mí me gusta mucho.
+[00:18:21 - 00:18:25] Hay, porque estuve en otra materia que es paradigmas,
+[00:18:25 - 00:18:30] nos pasaron a páginas la que hay ciertos patrones explicados.
+[00:18:30 - 00:18:30] ¿Pero?
+[00:18:30 - 00:18:33] Los colegas que pasaron, capaz y la misma que pasamos nosotros,
+[00:18:33 - 00:18:35] para que no nos vuelven.
+[00:18:35 - 00:18:37] Ahí la pasé del chat, refácturino.
+[00:18:37 - 00:18:42] ¿Pasé que es la misma?
+[00:18:42 - 00:18:43] Para el mapa, ¿eh, profe?
+[00:18:43 - 00:18:44] Sí.
+[00:18:44 - 00:18:48] Sí, para seguir la misma.
+[00:18:48 - 00:18:49] Sí, sí.
+[00:18:49 - 00:18:50] Ahí ve el mapa, ¿eh?
+[00:18:50 - 00:18:51] Sí, es la misma.
+[00:18:51 - 00:18:51] Sí.
+[00:18:51 - 00:18:52] OK.
+[00:18:52 - 00:18:53] Ahí entonces.
+[00:18:53 - 00:18:55] Sí, sí, es la misma.
+[00:18:55 - 00:18:57] ¿Pueden empezar a leer esto?
+[00:18:57 - 00:19:02] Igual, yo la primera parte, lamentablemente hablo, un montón
+[00:19:02 - 00:19:04] sobre esto.
+[00:19:04 - 00:19:10] Y después hacemos una ejercicio práctico, básico como para arrancar.
+[00:19:10 - 00:19:12] OK.
+[00:19:12 - 00:19:16] Empiecen, si tienen gánase, arrancan.
+[00:19:16 - 00:19:18] Dale, dale un poco.
+[00:19:18 - 00:19:19] Fantastico.
+[00:19:19 - 00:19:21] Bueno, nos vemos la clase que viene.
+[00:19:21 - 00:19:22] Dar por fin nos vemos.
+[00:19:22 - 00:19:23] Te lo voy.
+[00:19:23 - 00:19:25] Soy yo.
+[00:19:25 - 00:19:26] Ya profe.
+[00:19:26 - 00:19:36] Tau.
+[00:19:36 - 00:19:38] Bueno, pues se lo dice.
+[00:19:38 - 00:19:39] Nos vemos.

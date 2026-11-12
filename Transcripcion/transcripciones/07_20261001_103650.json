@@ -1,0 +1,2331 @@
+{
+  "metadata": {
+    "id": "07_20261001_103650",
+    "class_label": "Clase 07 - Parte 2",
+    "date": "2026-10-01",
+    "file": "Clase Diseño-20261001_103650-Grabación de la reunión.mp4"
+  },
+  "duration": 4518.592,
+  "segments": [
+    {
+      "start": 2.86,
+      "end": 30.54,
+      "text": "Y el que lo van a estudiando y hacer ejercicios de clase que viene, ¿ok? Bueno, vamos con tan un sacado. Bueno, ya dejamos todos los problemas de creación y nos vamos a los problemas estructurales. Lo que tratamos de resolver en los problemas estructurales,"
+    },
+    {
+      "start": 40.54,
+      "end": 54.38,
+      "text": "la comunicación entre los objetos, está que no haya mucho acoplamiento, ¿ok? Si tengo mucha complejidad porque uso de más de la erencia, bueno,"
+    },
+    {
+      "start": 54.38,
+      "end": 67.98,
+      "text": "ver cómo puedo organizar un poco los problemas que me encuentro con la estructura. A mí es uno de las que más me gusta los estructurales."
+    },
+    {
+      "start": 67.98,
+      "end": 83.34,
+      "text": "En sí los que más usos son los comunicación, pero bueno, las estructuras son también muy conocidas. Alguien hablo ahí, son bastante utilizados."
+    },
+    {
+      "start": 84.38,
+      "end": 99.92,
+      "text": "Los que no utilizan mucho en los ejercicios o algo son los de creación, igual que en que estudiar, principalmente más que nada para la parte teórica,"
+    },
+    {
+      "start": 100.92,
+      "end": 126.69,
+      "text": "y después casi siempre uno trata de usar los más conocidos, los más amigables, ¿ok? En lo que es la parte práctica. Bueno, vamos con los estructurales. Recuerda, tengo problemas de cómo se van estructurando, de cómo organizo las clases y los objetos, quiero armarlo algo un poco más flexible,"
+    },
+    {
+      "start": 126.69,
+      "end": 144.72,
+      "text": "con evitar tanto usar erencia, pero evitar la complejidad que me brinne la erencia. Entonces encuentro este tipo de patrones. Uno, dos, tres, cuatro, cinco, seis, siete, ocho, ocho patrones. El último no es pero no importa. Vamos con el adaptar."
+    },
+    {
+      "start": 144.88,
+      "end": 164.77,
+      "text": "Vamos a hacer de la misma manera de darle después vamos a charlarlo. Se utiliza para transformar un interfaz de otra, de tal modo que una clase que no puede utilizar la primera haga uso de ella a través de la segunda, actúa como un traductor."
+    },
+    {
+      "start": 164.77,
+      "end": 171.77,
+      "text": "Me voy a pensar en un especie de traductor, podríamos utilizarlo como si fuera un especie de enchufe, ¿ok?"
+    },
+    {
+      "start": 171.77,
+      "end": 190.06,
+      "text": "Imagínense que llegamos viajando y vamos a Estados Unidos, y quiero recargar el celular o recargar la computadora y quiero recargarle y me encuentro con que la toma corriente es totalmente diferente."
+    },
+    {
+      "start": 190.06,
+      "end": 205.06,
+      "text": "Entonces la idea es bueno, yo me quiero romper la vare mi romper mi cargador, entonces lo que voy a hacer es tener un adaptador, ¿ok? Es el típico ejemplo para explicar el adaptador."
+    },
+    {
+      "start": 205.06,
+      "end": 222.95,
+      "text": "Simplemente eso actúa como un intermediario entre dos piezas que no pueden hablar porque no encajan, de tal manera que mi rompo la pared, mi rompo mi cargador,"
+    },
+    {
+      "start": 222.95,
+      "end": 237.98,
+      "text": "que está a dos clases, trabajen de una manera amigable, entonces la idea es poder decirba que uno use como un especie de tradupción, que haga que traduca y que podamos hablar."
+    },
+    {
+      "start": 237.98,
+      "end": 258.97,
+      "text": "Está compuesto por tres componentes, el cliente es, digamos sería como mi código actual y necesito comunicarme con otro, esa sería el cliente, ¿ok?"
+    },
+    {
+      "start": 258.97,
+      "end": 271.96,
+      "text": "Necesito utilizar otro, sería el teléfono que busca las patas planas y no lo encuentro. Después tengo, obviamente tengo el target,"
+    },
+    {
+      "start": 271.96,
+      "end": 280.38,
+      "text": "yo digo tres componentes porque la interfaz y el concreto lo, a veces lo considero como uno, ¿no?"
+    },
+    {
+      "start": 280.38,
+      "end": 297.11,
+      "text": "Tenemos la interfaz, esa llama target y se define la interfaz del dominio que se utiliza el cliente y después tengo el adaptor, tengo el concreto de esa interfaz,"
+    },
+    {
+      "start": 297.11,
+      "end": 309.14,
+      "text": "la clase que voy a crear justamente para que reciba las órdenes del cliente y las pueda traducir y después tengo el adaptador,"
+    },
+    {
+      "start": 309.14,
+      "end": 323.55,
+      "text": "esta sería la clase externa que quiere usar, que habla totalmente diferente al adaptador por el adaptor, con el cliente hablan otro idioma y yo acá estoy tratando de traducir."
+    },
+    {
+      "start": 323.55,
+      "end": 346.94,
+      "text": "Es muy sencillo este, el ejercicio, ustedes lo pueden hacer por ejemplo con el ejercicio de procesar pago, en el tengo por ejemplo, ni sistema,"
+    },
+    {
+      "start": 346.94,
+      "end": 365.0,
+      "text": "quiero procesar un pago pero necesito una clase externa para enviarle dinero a otro, entonces armó un adaptador, esta que tal vez era adaptador, hasta está hecha en otro lenguaje o me pide que me conecte mediante una API,"
+    },
+    {
+      "start": 365.0,
+      "end": 371.13,
+      "text": "entonces la adapto es intentar modificar mi código."
+    },
+    {
+      "start": 371.13,
+      "end": 385.82,
+      "text": "Pero fue una pregunta, entonces ahí podríamos tener una clase que utiliza, es que las clases tienen opatrones, opatrones pueden tener los dos a la vez,"
+    },
+    {
+      "start": 385.82,
+      "end": 407.05,
+      "text": "¿claro? ¿Está perfecto lo que decir? Hoy en día es más común, voy a armar un adaptor, voy a hacer una variación protegida,"
+    },
+    {
+      "start": 407.05,
+      "end": 423.05,
+      "text": "hoy es más fácil que otra persona te entiende, decir bueno voy a hacer un faque, una adaptor, un bridge, que decir voy a hacer una variación toda la realidad, que si bien alguien me dice voy a hacer una variación protegida y lo mide o medio raro."
+    },
+    {
+      "start": 423.05,
+      "end": 439.21,
+      "text": "Acá lo que estoy tratando es decir que la variación protegida obviamente es crear una clase, una fabricación pura, te me conecto con otros sistemas externos, tiene el mismo concepto,"
+    },
+    {
+      "start": 439.21,
+      "end": 460.04,
+      "text": "lo que también me brinda el adaptor es decir bueno más allá de tener una fabricación pura, bueno vamos a hacer un orden, primero armate una interfaz, después tenés un adaptador y después voy a tener varios adaptadores,"
+    },
+    {
+      "start": 460.04,
+      "end": 476.81,
+      "text": "después quiero comunicarme con otros, entonces acá voy a colgar varios adaptadores, voy a tener varios concretos, entonces me permite un cierto orden, pero básicamente lo que vos decís,"
+    },
+    {
+      "start": 476.81,
+      "end": 494.97,
+      "text": "a todos muy relacionados es como decir bueno pero estoy quedando en una fabricación pura y obvio, en target es una fabricación pura, en la adaptor es una fabricación pura excede al dominio, pero perfecto tu comentario ¿qué fue que le dijo?"
+    },
+    {
+      "start": 494.97,
+      "end": 525.2,
+      "text": "Acá cedrico, porra porra como es cedrico, si es cedrico porra, ya los voy ubicando, bueno perfecto, vamos con el otro, el bridge, es una técnica usada en programación para desacoplar una obstracción de simplemente, de manera que ambas pueden estar modificadas independientemente sin necesidad de ir a la otra,"
+    },
+    {
+      "start": 525.2,
+      "end": 550.42,
+      "text": "tengo una clase que tiene muchísima, muchísima código, imagínense y quiero sacarle una implementación, ahí quiero hacer el bridge, ahora vamos con un ejemplo, imagínense, bueno vamos con este ejemplo, imagínense que tengo figura,"
+    },
+    {
+      "start": 550.42,
+      "end": 625.44,
+      "text": "voy con este mismo ejemplo, pura, un falla este ejemplo, tengo círculo, rojo y voy a armar otro que se acírculo azul y después empiezo con que también tengo un cuadrado y empiezo con todas las combinaciones, hablo tengo rojo y voy a tener un problema en la estructura,"
+    },
+    {
+      "start": 625.44,
+      "end": 675.94,
+      "text": "vamos con otro, imagínense que tengo un juego, vamos a algo más lindo, si no repito el encode, tengo el marado y tengo el guerrero, y también tengo armas, lo que voy a hacer tengo las armas que puedes ser una espada, entonces digo tengo malgo con espada, con bastón,"
+    },
+    {
+      "start": 675.94,
+      "end": 707.63,
+      "text": "esto no barita, sería barita, y asumé también tengo guerrero con espada, que bueno tiene otra lógica, el guerrero con espada calculo que el guerrero con espada tiene una funcionalidad un poco mejor, no sé, la maneja de terminada de manera, tiene otras funcionalidad, algo similar, tiene que dar funcionalidad, entonces en el paro, ahora el guerrero con barita, mucho no sé si va poder hacer,"
+    },
+    {
+      "start": 707.63,
+      "end": 740.7,
+      "text": "ahora el guerrero barita, barita se dice no lo que tienen barita mágica, no sé está de antes, la idea es obviamente puedo seguir utilizado una herencia, puedo tener malgo, está puedo utilizar eso pero me estoy contrado con un problema de estructura, si a su vez vengo y digo bueno también le voy a agregar un arma y un revolver,"
+    },
+    {
+      "start": 740.7,
+      "end": 761.79,
+      "text": "entonces tendría mago con revolver, guerrero con revolver, entonces si ahí iría más fe clases, si después le quiero agregar el arco y flecha, si ahí voy a tener un número que también va a explotar y ni hablemos, si le pongo mago, guerrero y le sumo una da madrina,"
+    },
+    {
+      "start": 761.79,
+      "end": 781.95,
+      "text": "ya después los números se me vuelven inmanajables, estoy con un problema de estructura, entonces cuando tengo alguna funcionalidad que le quiero adicionar, lo puedo resolver mediante sacar la implementación de espada, acá, acá, el saco de la implementación de espada, le saco la implementación de la barita,"
+    },
+    {
+      "start": 781.95,
+      "end": 802.43,
+      "text": "del arma, del ataco, sepa la implementación que es bastante compleja y lo arma, como si fuera un puente, donde tengo una referencia, un enlace para conectar la barita con el mago, la barita con el guerrero."
+    },
+    {
+      "start": 802.43,
+      "end": 898.73,
+      "text": "No sé qué le va a estar silenciada, ahí perdón, hasta dónde me escucharon, hasta la barita con el derrero, o sea, exacto, bueno, díame si no me entiendes, ya estaba hablando a mansalba, bueno, la idea es poderse pararlo en dos, eso si me escucharon, como si fuera, estámente dos lados de un puente, el patrón no dividió en dos, completamente diferente,"
+    },
+    {
+      "start": 898.73,
+      "end": 916.73,
+      "text": "en uno que se va a llamar la extracción, que es lo que ustedes den acá, es el que, es la parte de alto nivel, la parte de visible que en este caso, por ejemplo sería el mago, el personaje, el mago, el guerrero,"
+    },
+    {
+      "start": 916.73,
+      "end": 934.73,
+      "text": "obviamente manejo un nivel de extracción porque el mago del guerrero tienen algunas cosas en común, por lo tanto tengo, acá dice, una interfaz por para poder manejar esa extracción, y acá voy a tener el concreto de esa extracción que sería el mago, el guerrero, el adamadrine, etcétera,"
+    },
+    {
+      "start": 935.73,
+      "end": 957.02,
+      "text": "ahora bien, ahí tengo el que, la parte de visible de alto nivel, la clase de personajes, sepago el como, la implementación, lo que tengo complicado lo separo, lo colocó en esta clase, el implement... este que se viene implementor, también, o de interfaz,"
+    },
+    {
+      "start": 958.02,
+      "end": 981.52,
+      "text": "de sacóplo, me da un cierto orden, entonces ahí que tendría el detalle de la implementación, el como lo hago, y acá voy a tener el concreto barita, concreto y arma, entonces voy a tener como el implemento de esa arma, como el implemento,"
+    },
+    {
+      "start": 982.52,
+      "end": 1008.81,
+      "text": "tengo la extracción, la implementación y deje en esta clase la extracción más grande la más importante, la del personaje, los mismos sucede en este ejemplo, yo tengo figura y tengo un... puedo ponerle sículos, atributo, color, o sea, obviamente hay algunas cosas que se pueden llegar a hacer más sensicias,"
+    },
+    {
+      "start": 1008.81,
+      "end": 1041.26,
+      "text": "pero si tengo que para darle un atributo de orden, una funcionalidad, algo, una implementación muy complicada y bueno puedo extraerme de eso, entonces separo la nivel de extracción con la implementación, lo que tengo que hacer, lo divido en dos, después, acá tengo una relación, obviamente, eso sería el bridge, sencillo, me voy al comboside, un minutito,"
+    },
+    {
+      "start": 1041.26,
+      "end": 1067.1,
+      "text": "el combos, la única manera de poder entenderla es mediante con un ejemplo ahora abans, sirio para construir objetos complejos, a partir de otros más simples y similares centrecín, gracias a la composición recurciva y una estructura de forma de árbol, ustedes árboles viéramos en el máquina, ¿están?"
+    },
+    {
+      "start": 1067.1,
+      "end": 1096.45,
+      "text": "Sí, genial, me alegro, bueno, la realidad es que es una forma de ordenar objetos, ¿no? Lo mismo sucede cuando uno se llama, vamos a hacer así, voy a ir navegando y voy a mi computadora hasta ahí tengo documentos, tengo carpetas, dentro de carpetas puedo tener,"
+    },
+    {
+      "start": 1097.45,
+      "end": 1128.56,
+      "text": "poder tener carpetas y poder volver a tener archivos, entonces voy a armando un árbol, ahora la realidad, y ahí acá lo tengo, tengo el árbol, tengo el componente y tengo las hojas, las hojas, por ejemplo podrían ser los archivos, imagínense que tengo un archivo para manejarlo,"
+    },
+    {
+      "start": 1128.56,
+      "end": 1148.85,
+      "text": "el archivo para manejar las fotos y las 15 por año, entonces tengo año 2001 y después entre 2001 tengo todos los meses y después de todos los meses tengo también cumpleaños de analía, un pleaño de el hijo de analía,"
+    },
+    {
+      "start": 1148.85,
+      "end": 1176.51,
+      "text": "y voy entrando y así voy entrando a un árbol, entonces tengo el componente, que puede tener otros componentes y a lo último tengo la hoja que sería en las fotos, me van siendo una carpeta, puede contener archivos sueltos o también puedo tener carpetas y a su vez también tengo archivos, estamos de acuerdo o no, ¿vale?"
+    },
+    {
+      "start": 1176.51,
+      "end": 1193.34,
+      "text": "Ahora lo que me permite es manejarlo como si fuera un compuesto, entonces de manera tan de que yo le digo, estoy en el año 2001, bueno ¿cuántos pesas la carpeta?"
+    },
+    {
+      "start": 1193.34,
+      "end": 1205.37,
+      "text": "Entonces me voy a la carpeta del 2001 y veo lo que pesa, ahí un shigah, y entra la carpeta 2001 del medio diciembre, ¿cuánto pesa?"
+    },
+    {
+      "start": 1205.37,
+      "end": 1223.04,
+      "text": "Y voy haciendo, voy viendo, voy acceder a una determinada posición del árbol, el componente justamente sirve para eso, me permite tratar objetos de manera individual,"
+    },
+    {
+      "start": 1223.04,
+      "end": 1248.97,
+      "text": "está un archivo o una foto o en manera compuesta y manera compuesta en cualquier parte del árbol, ¿ok? Entonces ¿cómo está formado? Obviamente está formado por el cliente, estáis el que manipula los datos, obviamente eso, no dejamos ahí, el componente, el componente que es un interfaz,"
+    },
+    {
+      "start": 1248.97,
+      "end": 1269.29,
+      "text": "de clara el interfaz de los objetos involucradas con posición, declara un interfaz para acceder y manejar a sus hijos, tengo la ogita, representa los objetos, soja en la composición, sería el último nivel y después tengo el composite, definir el comportamiento de los componentes que contiene a los hijos."
+    },
+    {
+      "start": 1269.29,
+      "end": 1287.5,
+      "text": "Ahora bien, esto es un manejar un árbol, ¿ok? No, no tiene mucho, digamos no descubrieron grandes cosas, imagínense en el ejercicio del banco, ¿verdad? Recuerda del ejercicio del banco."
+    },
+    {
+      "start": 1287.5,
+      "end": 1292.82,
+      "text": "El banco y la des."
+    },
+    {
+      "start": 1292.82,
+      "end": 1298.49,
+      "text": "El banco que habíamos hecho como emprendamos. ¿Qué?"
+    },
+    {
+      "start": 1298.49,
+      "end": 1300.49,
+      "text": "La coro donde le ejercicio del banco. ¿O anima el ejercicio del banco?"
+    },
+    {
+      "start": 1300.49,
+      "end": 1318.57,
+      "text": "O imagínense que estoy en el banco y digo bueno, ¿cuáles son los sueldos? Ahí está, los sueldos de todo el banco y me voy al nivel del árbol más grande."
+    },
+    {
+      "start": 1318.57,
+      "end": 1335.18,
+      "text": "Y o bueno, andate al a la sucursal, ¿la sucursal de ramo mexía? ¿Cuánto sal? ¿Cuánto tenemos de de sueldo? ¿Cuánto sal?"
+    },
+    {
+      "start": 1335.18,
+      "end": 1347.3,
+      "text": "¿Cuánto sal? ¿El sueldo del cajero del banco? ¿El que trabaja del banco? Me voy a un hijo. Ahora les interesante, a ver si creo que lo tengo acá de ese mismo ejemplo."
+    },
+    {
+      "start": 1347.3,
+      "end": 1362.98,
+      "text": "Ahí acá, ahí está. ¿Qué tendría? Yo tengo en el banco, tengo el banco como superior después tengo sucursal, sector y empleados."
+    },
+    {
+      "start": 1362.98,
+      "end": 1373.68,
+      "text": "Yo puedo acceder a ver cuántos cobran un sector, una sucursal o un empleado o tú del banco."
+    },
+    {
+      "start": 1374.68,
+      "end": 1397.5,
+      "text": "Entonces, me permite manejar, digamos, funcionalidades con el todo, con el compuesto está y con los hijos. Es decir, que me permite manejar comportamiento del componente que tiene hijos y con el hijo individualmente de la misma manera."
+    },
+    {
+      "start": 1399.14,
+      "end": 1405.79,
+      "text": "Me van siguiendo. ¿Sí, por favor?"
+    },
+    {
+      "start": 1406.79,
+      "end": 1414.86,
+      "text": "Por lo tanto, está bueno, está acá puse, por ejemplo, unidad de banco, esto es pues en los pasos, obviamente, acá."
+    },
+    {
+      "start": 1414.86,
+      "end": 1424.4,
+      "text": "El cliente puede pedir, por ejemplo, calcular el costo de un sector, calcular el costo de una persona, calcular el costo de todo el banco."
+    },
+    {
+      "start": 1424.4,
+      "end": 1433.4,
+      "text": "De esa manera, acá tengo, por ejemplo, operación, sería calcular el costo y lo puedo calcular desde un componente, desde otro componente."
+    },
+    {
+      "start": 1434.4,
+      "end": 1445.4,
+      "text": "Acá tengo una recursividad, ¿no? Porque puedo hacer que tenga sucursal, sector, tengo esa recursividad que me da el árbol y después tengo también calcular el costo de la ojita."
+    },
+    {
+      "start": 1445.4,
+      "end": 1464.52,
+      "text": "Por lo tanto, me da resuelvo un problema de la estructura, no necesito tener que crear, me vengo acá, no necesito tener que crear banco,"
+    },
+    {
+      "start": 1464.52,
+      "end": 1487.82,
+      "text": "recursar, sector, empleado. No necesito crear todo esto, lo armo de tal manera que tengo, el empleado y los componentes."
+    },
+    {
+      "start": 1491.47,
+      "end": 1505.86,
+      "text": "Y, además, siguiendo, simplemente acá, en el componente, el composite, donde declara el interfaz, voy a declarar cómo es el enlace, obviamente."
+    },
+    {
+      "start": 1505.86,
+      "end": 1509.98,
+      "text": "No tengo que verlo, lo que tengo que danar."
+    },
+    {
+      "start": 1509.98,
+      "end": 1521.27,
+      "text": "Los códigos de vendía, no existen ni de librerías para estándares para acceder al comparar un composite o acceder un composite."
+    },
+    {
+      "start": 1521.27,
+      "end": 1537.27,
+      "text": "Esto lo tenemos que estar un poco más a mano. Todas maneras, hoy en día, piden el código y lo hacen, pero no es tan trivial como usar el prototype, que ya tengo declarada la librería y puedo utilizar ese método."
+    },
+    {
+      "start": 1538.78,
+      "end": 1547.71,
+      "text": "Pero bueno, está bueno saber que si tengo algo complejo como esto, van a costruintar securosos, lo puedo resolver de otra manera."
+    },
+    {
+      "start": 1547.71,
+      "end": 1559.8,
+      "text": "Tengo la manera de que, en día de mañana, tengo un sector, no sé, coloco algo que sea, no sé, secur, área."
+    },
+    {
+      "start": 1562.62,
+      "end": 1577.82,
+      "text": "No tengo que andar, colocándolo, si directamente lo convino, le voy a decir al componente, agregarme una área y ya estaría."
+    },
+    {
+      "start": 1577.82,
+      "end": 1582.22,
+      "text": "Ok, están haciendo."
+    },
+    {
+      "start": 1585.24,
+      "end": 1599.66,
+      "text": "Quiero que ya me empiezo a dejar del modelo de dominio, lo manejo de otra manera, me voy al decorador, este es otro que me encanta también."
+    },
+    {
+      "start": 1599.66,
+      "end": 1623.25,
+      "text": "Lo veo el decorador, lo veo y después lo explicamos, está la definición del decorador."
+    },
+    {
+      "start": 1624.25,
+      "end": 1640.11,
+      "text": "Si no está, vamos a explicarlo directamente. Obviamente es un patrón de estructuras, está lo que me permite, es asignar comportamientos y ir atirando comportamientos a una clase."
+    },
+    {
+      "start": 1640.11,
+      "end": 1647.16,
+      "text": "Entonces tengo el componente, el concrete del decorador."
+    },
+    {
+      "start": 1647.16,
+      "end": 1655.77,
+      "text": "Y sí me encer, siempre veo el mismo ejemplo, pero está imagínense que nos vamos a Starback, ahí digo, bueno, no, no me da una bebida."
+    },
+    {
+      "start": 1655.77,
+      "end": 1663.3,
+      "text": "Está bien, y empiezan, bueno, pero como la querés y tiene un costo determinado."
+    },
+    {
+      "start": 1663.3,
+      "end": 1677.4,
+      "text": "Y bueno, pero sí, lo querés con crema y querés café con crema y en el otro costo."
+    },
+    {
+      "start": 1677.4,
+      "end": 1686.93,
+      "text": "No, lo quiero café con crema y dulce de leche, tengo café, crema y dulce de leche."
+    },
+    {
+      "start": 1690.39,
+      "end": 1699.62,
+      "text": "Bueno, también tengo con canela, entonces tengo café, dulce de leche y canela."
+    },
+    {
+      "start": 1699.62,
+      "end": 1710.85,
+      "text": "Y así voy a tener un gran problema de estructura. Y aparte cada uno tiene el costo determinado."
+    },
+    {
+      "start": 1710.85,
+      "end": 1727.06,
+      "text": "Entonces la realidad es que si vamos a hacer eso también vamos a tener una cantidad absurda de clases para cubrir toda la combinación de ingredientes que tendría café con crema, café con leche."
+    },
+    {
+      "start": 1727.06,
+      "end": 1732.13,
+      "text": "Ahora vienen, no sé, que le ponen, está con chip de chocolate, está arriba."
+    },
+    {
+      "start": 1732.13,
+      "end": 1744.13,
+      "text": "Y cada uno tiene un costo diferente. Si yo le agrego más condimentos, le voy a agregar un costo diferente."
+    },
+    {
+      "start": 1745.67,
+      "end": 1753.74,
+      "text": "Entonces, es decir que le estoy agregando comportamiento a cada uno de estas clases."
+    },
+    {
+      "start": 1753.74,
+      "end": 1768.8,
+      "text": "La realidad es que puede tener, al principio capaz que te lo puedo tener, pero en algún momento voy a tener un problema de estructura porque voy a tener cualquier cantidad de clases por cada combinación de algún condimento que le quiera agregar la gente de Starbucks."
+    },
+    {
+      "start": 1769.8,
+      "end": 1786.38,
+      "text": "Y la realidad es que cada ingrediente que le agrega, le suma algo al precio, porque si yo le agrego con un leche le voy a agregar un precio a la base, lo agrega en forma dinámica y en tiempo de ejecución."
+    },
+    {
+      "start": 1787.38,
+      "end": 1792.38,
+      "text": "Entonces, ¿cómo puedo resolver ese problema a través de este patrón que es el decorador?"
+    },
+    {
+      "start": 1794.21,
+      "end": 1805.56,
+      "text": "Básicamente está formado por tres partes, por así decirlo acá tengo, obviamente, cuatro clases porque tengo las concretos, pero son básicamente tres clases importantes."
+    },
+    {
+      "start": 1806.56,
+      "end": 1829.48,
+      "text": "Tengo, vamos a empezar con el componente base, el componente base es un interfaz o interfaz o placia abstracta, que me va a definir el objeto. ¿Cuál es el objeto que viene de Starbucks? ¿Qué es lo que viene de Starbucks?"
+    },
+    {
+      "start": 1829.48,
+      "end": 1830.48,
+      "text": "Aferse."
+    },
+    {
+      "start": 1831.48,
+      "end": 1839.48,
+      "text": "Afer, si quiero ser más purista, puede decir, bueno, bebida porque hay algunos que son solamente chocolate, por ejemplo un su marino, ¿vale?"
+    },
+    {
+      "start": 1839.48,
+      "end": 1845.48,
+      "text": "Vamos a poner bebida, vamos a café, o puedo poner bebida, no hay problema, ¿ok?"
+    },
+    {
+      "start": 1845.48,
+      "end": 1854.25,
+      "text": "Café, tengo que al componente concreto, es el objeto básico al que le voy a poner todos los accesorios."
+    },
+    {
+      "start": 1855.41,
+      "end": 1866.5,
+      "text": "En este caso usted me dan disipo a café, yo pondría bebida café, ¿ok? ¿Os o producto? ¿Troduuto? Porque es el producto que me da Starbucks y el concreto de pondría café."
+    },
+    {
+      "start": 1866.5,
+      "end": 1885.71,
+      "text": "Es el con vuelo repetido, es el objeto básico al que le pongo todos los condimentos. Tengo otra clase, ¿estás? Obviamente tengo un acá tengo, dice, decorador que es un interfaz o una clase abstracta que va a tener todos los decoradores."
+    },
+    {
+      "start": 1885.71,
+      "end": 1898.94,
+      "text": "¿Qué son todos los decoradores? Sí, en el ejemplo del Starbucks serían los condimentos. He hecho cola, telátria, maraleche, la canela, está el dulce de leche."
+    },
+    {
+      "start": 1898.94,
+      "end": 1913.08,
+      "text": "Entonces, te diría todos los concretos colgados, esos ríblos, decir colgados, pero colgados del decorador que si le quiero poner un nombre más ni los sería condimentos."
+    },
+    {
+      "start": 1914.08,
+      "end": 1936.87,
+      "text": "De esa manera, tengo una recurcibida, esta es la manera que esa recurcibida lo que me dice un bueno, tengo el producto base, la bebida, el café y yo, ¿qué le agregó? Una operación de agregarle crema."
+    },
+    {
+      "start": 1937.87,
+      "end": 1943.87,
+      "text": "Bueno, le agrego crema, doble crema, dos veces le voy a agregar y voy a modificar la base."
+    },
+    {
+      "start": 1943.87,
+      "end": 1954.87,
+      "text": "A agregar el cel eche, le agrego comportamiento, agrega comportamiento, le agrego a este. A cuál a este o veis punto operación de agrego."
+    },
+    {
+      "start": 1955.87,
+      "end": 1975.31,
+      "text": "De tal manera que voy a disminuir la cantidad de clases porque lo manejo de esta manera, estoy agregando funcionalidad dinámicamente en tiempo de desecusión adelante, sin alterar la estructura."
+    },
+    {
+      "start": 1977.66,
+      "end": 2007.58,
+      "text": "Bueno, este tengo el vuelvo a existir, tengo el componente base, los decoradores. Imagínense que estamos con una pisería, ¿cómo harían el modelo de una pisería? ¿Tienes sería el componente, quién sería los decoradores, quién sería el concreto?"
+    },
+    {
+      "start": 2007.58,
+      "end": 2010.9,
+      "text": "El componente sería la pisería general."
+    },
+    {
+      "start": 2010.9,
+      "end": 2016.48,
+      "text": "Claro, el producto es general, bastante bien. El componente sería..."
+    },
+    {
+      "start": 2016.48,
+      "end": 2029.38,
+      "text": "Y lo que sería la masa y el queso, digamos, es el diablo."
+    },
+    {
+      "start": 2029.38,
+      "end": 2032.38,
+      "text": "Exacto, la masa. Vamos, vamos a ponerlo, la masa."
+    },
+    {
+      "start": 2032.38,
+      "end": 2037.95,
+      "text": "Los decoradores, ¿cuál sería el diablo de todo lo que comenzas arriba? ¿Dónde los topings?"
+    },
+    {
+      "start": 2037.95,
+      "end": 2044.95,
+      "text": "Todos los topings, me encanta esta generación, es alto, todos los topings. Yo soy más vieja y hago con dimensas, perfecto."
+    },
+    {
+      "start": 2045.95,
+      "end": 2049.95,
+      "text": "Yo soy un conmigo y yo soy un conmigo, todos los topings."
+    },
+    {
+      "start": 2049.95,
+      "end": 2060.24,
+      "text": "Musaré el amor, lejamos, nada, nada. Y ahí, puede guardarlo en tiempo."
+    },
+    {
+      "start": 2060.24,
+      "end": 2067.62,
+      "text": "Y aquí quiero la mitad, lejamos ni la mitad de esta. Y ahí voy armando, le voy agregando esa funcionalidad de informa dinámica."
+    },
+    {
+      "start": 2068.62,
+      "end": 2076.9,
+      "text": "No fue una consulta rápida, no me quedan claro la diferencia entre decorador y bridge, como que muy parecido."
+    },
+    {
+      "start": 2076.9,
+      "end": 2086.18,
+      "text": "Y lo que pasa es que el bridge tengo... Sí, hay algunos que son muy parecidos y es más que va a pasar lo mismo con el state y el estrátese."
+    },
+    {
+      "start": 2086.18,
+      "end": 2093.18,
+      "text": "Algunos cambian el concepto, digamos, la naturaleza del porqué está creado."
+    },
+    {
+      "start": 2094.18,
+      "end": 2101.18,
+      "text": "En el bridge lo que tenés acá, básicamente decir, bueno, tengo un producto muy complejo y lo separo."
+    },
+    {
+      "start": 2101.18,
+      "end": 2104.7,
+      "text": "Si para la implementación, nada más."
+    },
+    {
+      "start": 2104.7,
+      "end": 2113.73,
+      "text": "Ok, acá es como que si estuviera siendo la pista, y bueno, tengo pisa, no tengo varios productos, no importa."
+    },
+    {
+      "start": 2114.73,
+      "end": 2124.92,
+      "text": "Le voy a separar el siluabo al horno, o lo hago al horno de barro, siluabo al horno común."
+    },
+    {
+      "start": 2124.92,
+      "end": 2131.98,
+      "text": "Separo la implementación de mañana, quiero agregar la implementación, lo agrego."
+    },
+    {
+      "start": 2132.98,
+      "end": 2144.66,
+      "text": "Y eso es un tiempo de acercación, acá en tiempo de acercación, si bueno, tengo algo base y le puedo ir agregando decoradores."
+    },
+    {
+      "start": 2144.66,
+      "end": 2147.52,
+      "text": "Son muy similares, este es más."
+    },
+    {
+      "start": 2147.52,
+      "end": 2151.52,
+      "text": "Si igual lo que tienes de coreytales que puede ser recursivos mientras que le hubiera dicho."
+    },
+    {
+      "start": 2151.52,
+      "end": 2153.87,
+      "text": "A ver o no, o algo."
+    },
+    {
+      "start": 2153.87,
+      "end": 2164.69,
+      "text": "Muy buen punto, acá no tengo la recursividad, por lo tanto no lo puedo hacer, doble azul."
+    },
+    {
+      "start": 2165.69,
+      "end": 2180.31,
+      "text": "Y de todas las maneras, acá en el decorador, todo forma parte del producto."
+    },
+    {
+      "start": 2180.31,
+      "end": 2191.9,
+      "text": "Y acá no, ok, si yo quiero ver el producto entero, le puedo pedir a las tractas, pasamos todo el producto entero y punto."
+    },
+    {
+      "start": 2191.9,
+      "end": 2196.42,
+      "text": "Pero acá no tengo separado bien la implementación."
+    },
+    {
+      "start": 2196.42,
+      "end": 2202.28,
+      "text": "De todas las maneras, te va a pasar lo mismo cuando veamos el este y el..."
+    },
+    {
+      "start": 2202.28,
+      "end": 2206.66,
+      "text": "Ay, como yo me lo otro le esté y el encamo."
+    },
+    {
+      "start": 2206.66,
+      "end": 2208.66,
+      "text": "El estrategia."
+    },
+    {
+      "start": 2208.66,
+      "end": 2220.24,
+      "text": "El estrategia, el estrategia son hasta son iguales, los diagramas, pero están pensados lo que capis las filosofías."
+    },
+    {
+      "start": 2221.24,
+      "end": 2225.43,
+      "text": "Muchos sobre los diagramas, vos te trata también sobre eso."
+    },
+    {
+      "start": 2231.41,
+      "end": 2235.41,
+      "text": "Por ejemplo, yo si tuviera una implementación, que sacar una única implementación,"
+    },
+    {
+      "start": 2235.41,
+      "end": 2239.73,
+      "text": "esa cariá esto, haría un bridge."
+    },
+    {
+      "start": 2239.73,
+      "end": 2244.91,
+      "text": "Ahora si tengo que ir a insionar donde estoy acá."
+    },
+    {
+      "start": 2244.91,
+      "end": 2256.06,
+      "text": "Y tengo que por ejemplo armar un jugador, un juego y le quiero cambiarle la ropa."
+    },
+    {
+      "start": 2257.76,
+      "end": 2259.89,
+      "text": "Y usaré un decorador."
+    },
+    {
+      "start": 2259.89,
+      "end": 2264.71,
+      "text": "Ahí usaré un decorador."
+    },
+    {
+      "start": 2264.71,
+      "end": 2267.71,
+      "text": "No usaría un bridge. No lo separaría."
+    },
+    {
+      "start": 2267.71,
+      "end": 2274.26,
+      "text": "Porque lo puedo modificar, le puedo decir, bueno, agregarle, no sé..."
+    },
+    {
+      "start": 2274.26,
+      "end": 2281.9,
+      "text": "Más cosas, dále más inteligencia, dále más de velocidad."
+    },
+    {
+      "start": 2282.9,
+      "end": 2287.9,
+      "text": "También supongo que, por ejemplo, un juego, si quiero agregar varias personas que pueden utilizar la ropa,"
+    },
+    {
+      "start": 2287.9,
+      "end": 2290.9,
+      "text": "también se puede hacer una comida hacia entre todos."
+    },
+    {
+      "start": 2290.9,
+      "end": 2291.9,
+      "text": "Claro."
+    },
+    {
+      "start": 2291.9,
+      "end": 2292.9,
+      "text": "Y cuando he parado de reír, ¿qué?"
+    },
+    {
+      "start": 2292.9,
+      "end": 2298.5,
+      "text": "Si, tratamos de pensar los juegos, pero no me sale, pero sí podríamos hacerle a la pensamiento en mi caso."
+    },
+    {
+      "start": 2298.5,
+      "end": 2302.5,
+      "text": "Ahora, en el examen, ¿qué fue el que me preguntó?"
+    },
+    {
+      "start": 2302.5,
+      "end": 2306.78,
+      "text": "AXC."
+    },
+    {
+      "start": 2306.78,
+      "end": 2310.74,
+      "text": "Yo creo que te pregunté, respecto del examen."
+    },
+    {
+      "start": 2310.74,
+      "end": 2311.74,
+      "text": "Vamos a el examen."
+    },
+    {
+      "start": 2312.74,
+      "end": 2313.74,
+      "text": "Pensamos en el examen."
+    },
+    {
+      "start": 2313.74,
+      "end": 2320.74,
+      "text": "Yo he dado un problema y he de que quiero desacoplar una funcionalidad de esto."
+    },
+    {
+      "start": 2320.74,
+      "end": 2326.74,
+      "text": "Ahora, yo decís, bueno, yo te lo oriente para que sea un decorador, pero si te sumbrí,"
+    },
+    {
+      "start": 2326.74,
+      "end": 2331.74,
+      "text": "me puedo quejar mucho, estás más o menos enfrentado."
+    },
+    {
+      "start": 2331.74,
+      "end": 2336.74,
+      "text": "Lo que sí no vas a poder hacer es decir, mirad, dar una clase de un singleton."
+    },
+    {
+      "start": 2336.74,
+      "end": 2337.74,
+      "text": "¿Qué?"
+    },
+    {
+      "start": 2339.22,
+      "end": 2344.22,
+      "text": "Entonces, quedan seclaros, quedan se tranquilos, porque en algunos son sutiles."
+    },
+    {
+      "start": 2344.22,
+      "end": 2348.22,
+      "text": "Lo que sí me voy a fijar es dentro del problema que se usted doy."
+    },
+    {
+      "start": 2348.22,
+      "end": 2351.22,
+      "text": "Está dentro de la categoría correcta."
+    },
+    {
+      "start": 2353.92,
+      "end": 2356.92,
+      "text": "Y te doy un problema de estructura, creo."
+    },
+    {
+      "start": 2356.92,
+      "end": 2361.92,
+      "text": "Me encuentro con un problema que estoy creciendo mucho a las clases y estás."
+    },
+    {
+      "start": 2361.92,
+      "end": 2366.92,
+      "text": "Y que vas a ser un creador y bueno, no es el problema que queríamos resolver."
+    },
+    {
+      "start": 2368.14,
+      "end": 2374.37,
+      "text": "Ahora, si a más un decorador o un compo site, me voy a..."
+    },
+    {
+      "start": 2374.37,
+      "end": 2376.37,
+      "text": "Ahora los vemos."
+    },
+    {
+      "start": 2376.37,
+      "end": 2382.37,
+      "text": "A un proxy, en vez de un funky, bueno, estás sabriantado, no estás muy lejos."
+    },
+    {
+      "start": 2382.37,
+      "end": 2385.37,
+      "text": "La brújula que está llevando, ¿ok?"
+    },
+    {
+      "start": 2385.37,
+      "end": 2390.17,
+      "text": "Entonces, también son decisiones arquitectónicas que uno toma."
+    },
+    {
+      "start": 2390.17,
+      "end": 2392.17,
+      "text": "Así que quedan tranquilos."
+    },
+    {
+      "start": 2392.17,
+      "end": 2397.17,
+      "text": "Y después, bueno, hay que también hay que ver, es del código, que es lo que te brinda cada uno."
+    },
+    {
+      "start": 2398.17,
+      "end": 2402.17,
+      "text": "Igual el código lo van a tener en usted, también modificar."
+    },
+    {
+      "start": 2402.17,
+      "end": 2405.17,
+      "text": "Ahora lo vamos a ver con el observer, por ejemplo, ¿no?"
+    },
+    {
+      "start": 2405.17,
+      "end": 2410.17,
+      "text": "Pero como veis usted como el que vimos, respidan. ¿Cuál es el que digo que se te dice?"
+    },
+    {
+      "start": 2410.17,
+      "end": 2418.24,
+      "text": "Bueno, acá, van a tener minutos. ¿En qué pasen estoy?"
+    },
+    {
+      "start": 2418.24,
+      "end": 2421.3,
+      "text": "No, no, el vídeo. Un minuto, estoy en la 37."
+    },
+    {
+      "start": 2421.3,
+      "end": 2428.98,
+      "text": "Soy, les expliqué el prototype, no, el Builder."
+    },
+    {
+      "start": 2428.98,
+      "end": 2432.39,
+      "text": "Está que había dos formas de programarlo."
+    },
+    {
+      "start": 2432.39,
+      "end": 2437.7,
+      "text": "Bueno, eso se va a encargar el programador."
+    },
+    {
+      "start": 2437.7,
+      "end": 2442.7,
+      "text": "Llega a algunos puntos que, en el código, también vas a decir, bueno, ¿a dónde?"
+    },
+    {
+      "start": 2442.7,
+      "end": 2448.7,
+      "text": "Corador, y hago la recorciida. Y según un bridge, y me di cuenta que es recorciido."
+    },
+    {
+      "start": 2448.7,
+      "end": 2450.7,
+      "text": "Bueno, lo cambiás."
+    },
+    {
+      "start": 2450.7,
+      "end": 2455.99,
+      "text": "Y vamos."
+    },
+    {
+      "start": 2455.99,
+      "end": 2459.06,
+      "text": "Paquet, bueno, este es uno de las más utilizables."
+    },
+    {
+      "start": 2460.06,
+      "end": 2464.06,
+      "text": "Viene motivado por la necesidad de estructurar un entorno de programación,"
+    },
+    {
+      "start": 2464.06,
+      "end": 2467.06,
+      "text": "reducir la complejidad con la edición de subsistemas."
+    },
+    {
+      "start": 2467.06,
+      "end": 2469.06,
+      "text": "Esta es una de las paradas claves."
+    },
+    {
+      "start": 2469.06,
+      "end": 2473.06,
+      "text": "Minimizando la comunicación y ya tendré encerriendo esto."
+    },
+    {
+      "start": 2473.06,
+      "end": 2478.06,
+      "text": "Tengo subsistemas que tengo que comunicarme con el exterior."
+    },
+    {
+      "start": 2478.06,
+      "end": 2484.92,
+      "text": "Tengo un problema de reducir la complejidad."
+    },
+    {
+      "start": 2484.92,
+      "end": 2488.24,
+      "text": "Lo que me propone es subfake ahí."
+    },
+    {
+      "start": 2488.24,
+      "end": 2492.49,
+      "text": "Me voy al facade y tengo una única clase."
+    },
+    {
+      "start": 2492.49,
+      "end": 2501.87,
+      "text": "Conozco toda la responsabilidad de las peticiones y puedo desacoplar la comunicación"
+    },
+    {
+      "start": 2501.87,
+      "end": 2504.87,
+      "text": "mediante esta clase."
+    },
+    {
+      "start": 2504.87,
+      "end": 2509.87,
+      "text": "Es decir, que poco digamos, algo lindo, una para simple, limpia, amigable,"
+    },
+    {
+      "start": 2509.87,
+      "end": 2512.87,
+      "text": "delante de todos estos que son gigantes,"
+    },
+    {
+      "start": 2512.87,
+      "end": 2515.87,
+      "text": "y que no los puedo entender."
+    },
+    {
+      "start": 2515.87,
+      "end": 2518.87,
+      "text": "O tal vez no tengo ni necesidad de entenderlo."
+    },
+    {
+      "start": 2518.87,
+      "end": 2524.87,
+      "text": "Porque tal vez tienen librerías o hace algo muy complejo o manejo"
+    },
+    {
+      "start": 2524.87,
+      "end": 2527.87,
+      "text": "unas zapis que yo desconozco, no sé qué hace internamente."
+    },
+    {
+      "start": 2527.87,
+      "end": 2531.87,
+      "text": "Entonces, el leco loco está fachado, que es una clase simplificada,"
+    },
+    {
+      "start": 2531.87,
+      "end": 2536.87,
+      "text": "que voy a crear yo, no forma parte del dominio, es una clase artificial."
+    },
+    {
+      "start": 2536.87,
+      "end": 2540.87,
+      "text": "O me no ofrece dos o tres metros de docencia para que el suero"
+    },
+    {
+      "start": 2540.87,
+      "end": 2545.99,
+      "text": "tenga que leer con la complejidad de todas estas cajitas."
+    },
+    {
+      "start": 2545.99,
+      "end": 2550.69,
+      "text": "Pero solido un problema de estructuras."
+    },
+    {
+      "start": 2550.69,
+      "end": 2554.69,
+      "text": "De tal manera que no tengo una clase para comunicarme con él a otra clase"
+    },
+    {
+      "start": 2554.69,
+      "end": 2557.69,
+      "text": "para comunicarme con él, otra clase para comunicarme con él."
+    },
+    {
+      "start": 2557.69,
+      "end": 2565.69,
+      "text": "Tengo un facade, defino unos metros, no es abstracta,"
+    },
+    {
+      "start": 2565.69,
+      "end": 2572.69,
+      "text": "obviamente, es concreta donde tengo los métodos para poder comunicarme."
+    },
+    {
+      "start": 2572.69,
+      "end": 2576.03,
+      "text": "Me voy a otro."
+    },
+    {
+      "start": 2577.03,
+      "end": 2579.03,
+      "text": "Una pregunta, ¿puedes ser un plato de métodos?"
+    },
+    {
+      "start": 2579.03,
+      "end": 2582.03,
+      "text": "Pero los gestores podrían calificar como facade."
+    },
+    {
+      "start": 2582.03,
+      "end": 2585.03,
+      "text": "O sea, es como que se comunica a van todas las clases"
+    },
+    {
+      "start": 2585.03,
+      "end": 2592.59,
+      "text": "y a nosotros nos da un interfaz que simplemente usamos metodos más fáciles."
+    },
+    {
+      "start": 2592.59,
+      "end": 2603.04,
+      "text": "Vamos bien, el concepto del sector es que te catoral la lógica del flujo de negocio."
+    },
+    {
+      "start": 2603.04,
+      "end": 2605.04,
+      "text": "Ah, claro, ahí entendió saber, ¿fake?"
+    },
+    {
+      "start": 2606.04,
+      "end": 2610.04,
+      "text": "No más para comunicarlos, no debería tener más paciencia en la lógica."
+    },
+    {
+      "start": 2610.04,
+      "end": 2611.04,
+      "text": "Exacto."
+    },
+    {
+      "start": 2611.04,
+      "end": 2616.04,
+      "text": "Ahora, si vos me decís, voy a ver si quedamos una clase en una fabricación pura,"
+    },
+    {
+      "start": 2616.04,
+      "end": 2619.51,
+      "text": "si en ambos, ¿ok?"
+    },
+    {
+      "start": 2619.51,
+      "end": 2623.51,
+      "text": "En faquese en una fabricación pura y en otro también,"
+    },
+    {
+      "start": 2623.51,
+      "end": 2627.51,
+      "text": "en una forma parte de tu dominio, pero tienen diferentes naturales"
+    },
+    {
+      "start": 2627.51,
+      "end": 2629.51,
+      "text": "a los creo para otra cosa."
+    },
+    {
+      "start": 2629.51,
+      "end": 2633.73,
+      "text": "Claro."
+    },
+    {
+      "start": 2633.73,
+      "end": 2636.21,
+      "text": "Vamos, vamos."
+    },
+    {
+      "start": 2636.21,
+      "end": 2640.21,
+      "text": "Y después, se interruta en vez porque la realidad es que uno, cuando hace preguntas,"
+    },
+    {
+      "start": 2640.21,
+      "end": 2642.21,
+      "text": "es que realmente está entendiendo el tema."
+    },
+    {
+      "start": 2642.21,
+      "end": 2646.21,
+      "text": "Si no, me están escuchando a mí y hasta yo misma me canso."
+    },
+    {
+      "start": 2646.21,
+      "end": 2649.21,
+      "text": "Miren, empezamos en 60 y somos 40."
+    },
+    {
+      "start": 2649.21,
+      "end": 2654.21,
+      "text": "O sea, y después voy a tomar quiénes están y quiénes no."
+    },
+    {
+      "start": 2654.21,
+      "end": 2658.21,
+      "text": "Entonces, la realidad es que también si tienen preguntas sagas, ¿ok?"
+    },
+    {
+      "start": 2658.21,
+      "end": 2661.27,
+      "text": "Cloudway y terminamos, ¿no?"
+    },
+    {
+      "start": 2662.27,
+      "end": 2667.27,
+      "text": "Bueno, imagínate que a casi le para eliminar reducir la redundancia"
+    },
+    {
+      "start": 2667.27,
+      "end": 2671.27,
+      "text": "cuando tenemos gran cantidad de objetos que contiene información identica."
+    },
+    {
+      "start": 2671.27,
+      "end": 2676.27,
+      "text": "Es un poco complicado, vamos a tardar de darlo con un ejemplo."
+    },
+    {
+      "start": 2677.14,
+      "end": 2682.14,
+      "text": "Imagínate que estamos en un juego, siempre cuando hablo de duplicar, clonar,"
+    },
+    {
+      "start": 2682.14,
+      "end": 2688.14,
+      "text": "casi siempre hago los mismos ejemplas, porque no lo encuentro un ejemplo claro"
+    },
+    {
+      "start": 2688.14,
+      "end": 2691.14,
+      "text": "que no sean en los juegos."
+    },
+    {
+      "start": 2691.14,
+      "end": 2697.14,
+      "text": "Imagínate que tenemos un juego donde tenemos que tirar tiros y tengo muchas balas."
+    },
+    {
+      "start": 2697.14,
+      "end": 2705.14,
+      "text": "En las balas, si yo quiero hacer un new bala y uso mil balas y la realidad que estoy consumiendo"
+    },
+    {
+      "start": 2705.14,
+      "end": 2711.14,
+      "text": "también es muchísima memoria RAM, está colapsaría, no sería importante,"
+    },
+    {
+      "start": 2711.14,
+      "end": 2717.14,
+      "text": "porque estoy creando un montón de balas y encima las balas hay muchas cosas que comparten"
+    },
+    {
+      "start": 2717.14,
+      "end": 2720.14,
+      "text": "que tienen en común."
+    },
+    {
+      "start": 2720.14,
+      "end": 2724.14,
+      "text": "El peso, el color, ¿ok?"
+    },
+    {
+      "start": 2724.14,
+      "end": 2727.14,
+      "text": "Y hay otras que no, bueno, coordenadas, ¿no?"
+    },
+    {
+      "start": 2727.14,
+      "end": 2731.14,
+      "text": "Tiene una velocidad determinada, tiene una coordenada diferente,"
+    },
+    {
+      "start": 2731.14,
+      "end": 2735.14,
+      "text": "hay cosas que son compartidas y otras que no."
+    },
+    {
+      "start": 2735.14,
+      "end": 2742.14,
+      "text": "Entonces la idea es poder armar un patrón, es donde tengo el objeto, obviamente,"
+    },
+    {
+      "start": 2742.14,
+      "end": 2750.46,
+      "text": "la bala, acá voy a tener, por ejemplo, en el flywheel, voy a tener el objeto compartido,"
+    },
+    {
+      "start": 2750.46,
+      "end": 2757.46,
+      "text": "si vamos en el tema de las balas, sería en todas las balas y saber que tengo cosas en común"
+    },
+    {
+      "start": 2757.87,
+      "end": 2763.42,
+      "text": "y cosas que no tengo en común, que no están compartidas."
+    },
+    {
+      "start": 2763.42,
+      "end": 2770.92,
+      "text": "Entonces ahí se paro lo que está compartido y lo que no está compartido."
+    },
+    {
+      "start": 2770.92,
+      "end": 2781.35,
+      "text": "¿Qué más? Después tengo la fábrica, te pensaba, ¿no?"
+    },
+    {
+      "start": 2781.35,
+      "end": 2789.12,
+      "text": "La fábrica digamos si es como si fuera el que me permite crear los objetos compartidos,"
+    },
+    {
+      "start": 2789.12,
+      "end": 2794.12,
+      "text": "obviamente, y me devuelve el objeto."
+    },
+    {
+      "start": 2794.12,
+      "end": 2799.15,
+      "text": "Esto lo vamos a ver con un ejemplo, la clase que viene, ¿no?"
+    },
+    {
+      "start": 2799.15,
+      "end": 2805.18,
+      "text": "Vamos un ejemplo de un ejercicio, vamos a un flywheel, ¿no?"
+    },
+    {
+      "start": 2805.18,
+      "end": 2811.18,
+      "text": "Pero lo que tienen que entender es que de un objeto tengo que ver qué es lo que tengo como un partido y que no,"
+    },
+    {
+      "start": 2811.18,
+      "end": 2814.18,
+      "text": "¿qué es lo que tienen todo en común?"
+    },
+    {
+      "start": 2814.18,
+      "end": 2820.87,
+      "text": "Yo sé para lo que no tengo en común, lo que es interésico."
+    },
+    {
+      "start": 2820.87,
+      "end": 2825.26,
+      "text": "Voy a apurar, no me voy a poner cuenta de la hora, proxy."
+    },
+    {
+      "start": 2825.26,
+      "end": 2832.26,
+      "text": "Tiene como propósito proporciona un subrogado, intermedio de un objeto para controlar el acceso."
+    },
+    {
+      "start": 2832.26,
+      "end": 2838.26,
+      "text": "En otro día lo expliqué en un alumno a mí, de un ejemplo que me encantó y me dijo,"
+    },
+    {
+      "start": 2838.26,
+      "end": 2845.26,
+      "text": "quiero ir al boliche y me encuentro con que el proxy es el patódica, me dijo, es alto."
+    },
+    {
+      "start": 2845.26,
+      "end": 2856.51,
+      "text": "Imagínate que querés acceder a un lugar pero antes que es el real, es el real Snapchat, es lo que vos quieres acceder."
+    },
+    {
+      "start": 2856.51,
+      "end": 2866.42,
+      "text": "En este caso el boliche, hace que me pasó un minutito, que quiero acceder al boliche,"
+    },
+    {
+      "start": 2866.42,
+      "end": 2872.78,
+      "text": "pero no puedo acceder sin antes pasar por el chico me dijo,"
+    },
+    {
+      "start": 2872.78,
+      "end": 2879.78,
+      "text": "si no puedo acceder, no puedo acceder al boliche sino antes pasar por el patódica."
+    },
+    {
+      "start": 2879.78,
+      "end": 2886.78,
+      "text": "Entonces, que hago, pongo un objeto intermediario entre el cliente y el objeto que yo quiero acceder,"
+    },
+    {
+      "start": 2886.78,
+      "end": 2893.78,
+      "text": "y lo que hace el proxy que sería el patódica, decir, bueno, para antes de acceder al objeto real,"
+    },
+    {
+      "start": 2893.78,
+      "end": 2906.87,
+      "text": "decime que en sos está valida, lo filtra digamos, se fija un tema de seguridad, si tengo permiso o no,"
+    },
+    {
+      "start": 2906.87,
+      "end": 2913.87,
+      "text": "puedo evaluar contracenias, está y una vez que estoy autorizado, accedo al objeto real,"
+    },
+    {
+      "start": 2913.87,
+      "end": 2921.9,
+      "text": "y no paso por el patódica y me rechaza ni siquiera puedo acceder al objeto real."
+    },
+    {
+      "start": 2921.9,
+      "end": 2933.03,
+      "text": "Entonces, es bastante utilizado, separo el acceso del producto real."
+    },
+    {
+      "start": 2933.03,
+      "end": 2937.45,
+      "text": "Me gustó lo del ejemplo que me dio por eso."
+    },
+    {
+      "start": 2938.45,
+      "end": 2946.67,
+      "text": "Una pregunta respecto al proxy, o sea, entonces no más vamos a interactuar."
+    },
+    {
+      "start": 2946.67,
+      "end": 2951.67,
+      "text": "Lo externo va a interactuar solamente con el proxy o sea, va a interactuar con el proxy,"
+    },
+    {
+      "start": 2951.67,
+      "end": 2954.67,
+      "text": "y una vez que el proxy lo prevé ya después, directamente, y cae con realidad el proxy."
+    },
+    {
+      "start": 2954.67,
+      "end": 2961.74,
+      "text": "El cliente le va a pedir el sub, el rico es primero va a pasar por el proxy, el sub se va ahí por el proxy,"
+    },
+    {
+      "start": 2961.74,
+      "end": 2966.74,
+      "text": "y una vez que tengo el acceso lo puede rechazar o no, si lo rechaza quedáis,"
+    },
+    {
+      "start": 2966.74,
+      "end": 2970.74,
+      "text": "sino hay tengo recién enlace al objeto real."
+    },
+    {
+      "start": 2970.74,
+      "end": 2979.74,
+      "text": "Claro, pero me refiero para la comunicación que siga después de eso, va a seguir pasando por el proxy o ir directo al real subject."
+    },
+    {
+      "start": 2979.74,
+      "end": 2982.74,
+      "text": "Una vez que tengo autorizado ya tengo el enlace, por ejemplo."
+    },
+    {
+      "start": 2983.74,
+      "end": 2988.74,
+      "text": "Eso es al acercó, digo, como lo sé, una vez que lo tengo habilitado, lo habilitado."
+    },
+    {
+      "start": 2988.74,
+      "end": 2992.09,
+      "text": "Y puedo tener una comunicación directa."
+    },
+    {
+      "start": 2992.09,
+      "end": 2999.95,
+      "text": "Es como decir, quiero entrar social cliente y quiero entrar al oriche, ya una vez que estoy ahí adentro, estoy ahí adentro."
+    },
+    {
+      "start": 2999.95,
+      "end": 3004.36,
+      "text": "Claro, entendié, gracias."
+    },
+    {
+      "start": 3004.36,
+      "end": 3009.22,
+      "text": "Me voy a otro al comportamiento."
+    },
+    {
+      "start": 3009.22,
+      "end": 3016.22,
+      "text": "Los patrones de comportamientos son justamente las soluciones que me van a permitir o reganizar la comunicación,"
+    },
+    {
+      "start": 3016.22,
+      "end": 3023.35,
+      "text": "me ayudan en el flujo de control, la estilnación de responsabilidades y todo lo que ya tenemos."
+    },
+    {
+      "start": 3023.35,
+      "end": 3029.61,
+      "text": "Son bastantes, así que vamos a poner tímitas."
+    },
+    {
+      "start": 3029.61,
+      "end": 3038.61,
+      "text": "Cadena de responsabilidades, evita a comprar el emisor de una petición y su receptor dando más a un objeto la posibilidad de responder una petición."
+    },
+    {
+      "start": 3038.61,
+      "end": 3058.02,
+      "text": "Recuerden estos dibujitos, hay un enlace, están encadenados y cada uno, yo le pido alguien algo, pero si algo tiene una cadena de objetos que me podrían llegar a responder."
+    },
+    {
+      "start": 3058.02,
+      "end": 3060.02,
+      "text": "Ahora lo vemos."
+    },
+    {
+      "start": 3060.02,
+      "end": 3064.02,
+      "text": "Ahora lo voy a hacer, voy a dar el ejemplo, si no lo vamos a entender."
+    },
+    {
+      "start": 3064.02,
+      "end": 3077.02,
+      "text": "Imagínense que yo estoy, tengo un problema con internet y ya vamos a para quejarme y mi rímero lo que hace es que me contesta la máquina automática."
+    },
+    {
+      "start": 3077.02,
+      "end": 3086.12,
+      "text": "Entonces, o mando un zap, no importa. Tengo el primero, le digo no me da en internet y voy al primer nivel."
+    },
+    {
+      "start": 3086.12,
+      "end": 3087.12,
+      "text": "Eso cuando..."
+    },
+    {
+      "start": 3087.12,
+      "end": 3092.12,
+      "text": "Me lo puede resolver, quedó ahí, está, está resuelto."
+    },
+    {
+      "start": 3092.12,
+      "end": 3098.22,
+      "text": "Si el primer nivel no me lo puede resolver, pasó el segundo nivel, me voy a decir eso, es soporte técnico."
+    },
+    {
+      "start": 3098.22,
+      "end": 3106.22,
+      "text": "No me lo puede resolver, es soporte técnico, vía máquina, bueno, quedo, me paso el operador humano, paso a otro."
+    },
+    {
+      "start": 3106.22,
+      "end": 3111.25,
+      "text": "No me lo puede resolver el operador humano, me pasa, bueno, ¿sabas qué?"
+    },
+    {
+      "start": 3111.25,
+      "end": 3116.25,
+      "text": "Te mando el ingeniero de campo para poder resolverlo, se sería el último."
+    },
+    {
+      "start": 3116.25,
+      "end": 3124.25,
+      "text": "Entonces lo que maneja este patrón justamente es esa cadena de responsabilidades, como se llama, cadena de responsabilidades."
+    },
+    {
+      "start": 3124.25,
+      "end": 3135.11,
+      "text": "Pasa una petición, un pedido, pasa una petición, a lo largo trae esta cadena o una cadena de objetos, obviamente."
+    },
+    {
+      "start": 3135.11,
+      "end": 3143.97,
+      "text": "Y cada nivel intenta resolverlo. Ahora, ¿cómo implemento esto?"
+    },
+    {
+      "start": 3143.97,
+      "end": 3154.77,
+      "text": "Bueno, lo implemento con un handler, que es como interfaz a defino, dice acá, interfaz de fino, las implementaciones."
+    },
+    {
+      "start": 3154.77,
+      "end": 3164.09,
+      "text": "Después tengo los concretos, en los concretos yo tendría cada nivel, tendría, yo les había dicho, tendría,"
+    },
+    {
+      "start": 3165.09,
+      "end": 3173.09,
+      "text": "de la máquina contestadora, que me contesta, el soporte, el concreto 2 sería el soporte técnico,"
+    },
+    {
+      "start": 3173.09,
+      "end": 3181.09,
+      "text": "el concreto 3 sería el operador humano, el concreto 4 sería el equipo de ingeniero de campo."
+    },
+    {
+      "start": 3181.09,
+      "end": 3190.09,
+      "text": "Cada uno yo tengo acá los diferentes niveles, los 4 Handler tendría en el ejemplo que les dice."
+    },
+    {
+      "start": 3191.73,
+      "end": 3197.73,
+      "text": "Obviamente, sí tengo que tener una clase concreta por cada nivel y soporte, te pongo."
+    },
+    {
+      "start": 3197.73,
+      "end": 3208.05,
+      "text": "Y el cliente es el responsable de instanciar estos Handler y cómo lo se lasso."
+    },
+    {
+      "start": 3208.05,
+      "end": 3217.05,
+      "text": "Es el que va a decir, bueno, necesito 4 niveles y van de esa manera, para el lazado de esa manera."
+    },
+    {
+      "start": 3218.05,
+      "end": 3227.91,
+      "text": "Como puedo acceder y fácilmente accedo, si no lo puedo resolver, o si le meten el código, voy a tener un di siguiente,"
+    },
+    {
+      "start": 3227.91,
+      "end": 3241.7,
+      "text": "no acá creo que el di siguiente no está un minutito, un sucesor que le tiene, esta, di sucesor que pasen."
+    },
+    {
+      "start": 3241.7,
+      "end": 3247.7,
+      "text": "Como cuando reclamas una materia a entrar a consulta, pero no de lo puede reír su 20 consulta de legan al centro de estudiante."
+    },
+    {
+      "start": 3248.7,
+      "end": 3251.7,
+      "text": "¿Me han tratado de poder reír su centros de estudiante del legan?"
+    },
+    {
+      "start": 3251.7,
+      "end": 3252.7,
+      "text": "Estos datos."
+    },
+    {
+      "start": 3252.7,
+      "end": 3256.7,
+      "text": "Te dan del legan y después nada de la razon, pero no importa."
+    },
+    {
+      "start": 3259.7,
+      "end": 3261.7,
+      "text": "O sea, una forma de estar bien en te pages que tenés suerte de la resolve climática,"
+    },
+    {
+      "start": 3261.7,
+      "end": 3269.7,
+      "text": "para que se haya si no se pueda resolver."
+    },
+    {
+      "start": 3272.66,
+      "end": 3273.66,
+      "text": "Y pasa mucho."
+    },
+    {
+      "start": 3273.66,
+      "end": 3283.8,
+      "text": "el virus, lo ideal y lo que pretende el patron es que haya un concreto por cada nivel,"
+    },
+    {
+      "start": 3283.8,
+      "end": 3290.47,
+      "text": "¿ok? Estamos de acuerdo. Ahora, podría llegar a tener un único nivel. La realidad es"
+    },
+    {
+      "start": 3290.47,
+      "end": 3296.11,
+      "text": "que no es la naturaleza del que está creado el cadeno de responsabilidades, ¿ok? Ahora,"
+    },
+    {
+      "start": 3296.11,
+      "end": 3303.75,
+      "text": "si teco aprobaciones que dependen de algo muy simple y la lógica es la misma y podría"
+    },
+    {
+      "start": 3303.75,
+      "end": 3311.23,
+      "text": "hacer un único handler. Imagínense que tengo aprobaciones de dinero en el ejemplo del banco,"
+    },
+    {
+      "start": 3311.23,
+      "end": 3318.47,
+      "text": "bueno, si tengo para probar un primer nivel, es 100 pesos, el segundo nivel de préstamos"
+    },
+    {
+      "start": 3318.47,
+      "end": 3324.75,
+      "text": "era 1.000, el tercer nivel de préstamos era 10 millones. Ahora, lo único que viene cambia es"
+    },
+    {
+      "start": 3324.75,
+      "end": 3331.99,
+      "text": "quién es el aprobador y aún unico handler. Ahora, si tengo un lógica muy complicada y conviene"
+    },
+    {
+      "start": 3331.99,
+      "end": 3342.64,
+      "text": "hacer, como dice el patron, detener un concreto handler por cada nivel, ¿ok? Ahí ya empiezo a hacer"
+    },
+    {
+      "start": 3342.64,
+      "end": 3350.41,
+      "text": "esa configuración y de acuerdo a mis necesidades. En algún momento tengo que analizar. Esas"
+    },
+    {
+      "start": 3350.41,
+      "end": 3357.25,
+      "text": "son decisiones que calculo las vaire tomando también el programado, cuando estén un nivel muy bajo"
+    },
+    {
+      "start": 3357.25,
+      "end": 3363.91,
+      "text": "y la extracción me voy a dar cuenta que es lo que me conviene. ¿Qué hace quién sabe el primer"
+    },
+    {
+      "start": 3363.91,
+      "end": 3368.43,
+      "text": "eslabón o el siguiente eslabón, digamos, de la caer? El cliente, el cliente se hace el que hace el"
+    },
+    {
+      "start": 3368.43,
+      "end": 3374.81,
+      "text": "nú en algún punto, está, el cliente, yo lo llamo cliente pero va a ser una clase que va a ser"
+    },
+    {
+      "start": 3374.81,
+      "end": 3383.07,
+      "text": "responsable de crearlo, ¿no? El que hace la petición y que hace el crea, todos estos eslabones,"
+    },
+    {
+      "start": 3383.07,
+      "end": 3391.96,
+      "text": "todos estos niveles y hace el encadenamiento, conoces al lógica de negocio. ¿Pero se"
+    },
+    {
+      "start": 3391.96,
+      "end": 3403.68,
+      "text": "toda la cadena cliente? Exacto. Un minuto que me estén emocionados, ¿ok? Me voy al Coman,"
+    },
+    {
+      "start": 3403.68,
+      "end": 3409.48,
+      "text": "hasta donde llegue, llevo a intentar llegar y si no, no, quedará para los próximos. No voy"
+    },
+    {
+      "start": 3409.48,
+      "end": 3418.18,
+      "text": "al Coman, la idea del Coman es justamente desacoblar el objeto que invoca con el objeto que hace la"
+    },
+    {
+      "start": 3418.18,
+      "end": 3425.83,
+      "text": "tarea, el objeto que invoca con el objeto que lo hace, dice, permite solicitar una operación,"
+    },
+    {
+      "start": 3425.83,
+      "end": 3432.93,
+      "text": "un objeto 5, no sé realmente el contenido de la misma ni el receptor, aquí lo pide, en la"
+    },
+    {
+      "start": 3432.93,
+      "end": 3446.18,
+      "text": "invoca real de la misma. Aguardo me que esté pensando en un ejemplo. Imagínense que te vamos"
+    },
+    {
+      "start": 3446.18,
+      "end": 3451.12,
+      "text": "a… creo que a ver si le puse acá un escento para no olvidarme, para ver si me le dio"
+    },
+    {
+      "start": 3451.12,
+      "end": 3456.31,
+      "text": "si más, mi alivio. Imagínense que vamos a un restaurant y vamos a pedir algo, ¿no? Hoy estoy"
+    },
+    {
+      "start": 3456.31,
+      "end": 3461.21,
+      "text": "con esa hamburguesa, voy a pedir una hamburguesa determinada, está en la realidad de que quienes"
+    },
+    {
+      "start": 3461.21,
+      "end": 3468.01,
+      "text": "se le han cargado de hacerlo del cocinero, pero yo que entro al restaurant, no le grito el cocinero"
+    },
+    {
+      "start": 3468.01,
+      "end": 3477.37,
+      "text": "de hacer una hamburguesa, tengo un intermediario que sería el morso, que lo anota, lo anota en un"
+    },
+    {
+      "start": 3477.37,
+      "end": 3482.01,
+      "text": "ticket, ese es el secreto, no? Lo anota en un ticket y después se lo pasa a la cocina,"
+    },
+    {
+      "start": 3482.01,
+      "end": 3491.18,
+      "text": "hace esto, lo que hace un poco el Coman es justamente eso, transforma esa acción o esa solicitud"
+    },
+    {
+      "start": 3491.18,
+      "end": 3496.86,
+      "text": "que alguien me hizo, la convierte en una orden para esto pasársela a alguien que lo va a realmente"
+    },
+    {
+      "start": 3497.58,
+      "end": 3505.26,
+      "text": "hacer. Ahora hay cocinero, la puede agarrar esa orden y tiene la lógica de decir, bueno, lo hago ahora,"
+    },
+    {
+      "start": 3505.26,
+      "end": 3512.46,
+      "text": "los guardan historial, lo pongo, la cola de espera, le digo que no, porque no tengo los materiales,"
+    },
+    {
+      "start": 3512.46,
+      "end": 3521.9,
+      "text": "estáis se lo devuelvo, entonces maneja un poco, no? Toda esa lógica y lo trato de saco hablar con el"
+    },
+    {
+      "start": 3521.9,
+      "end": 3531.21,
+      "text": "objeto real, como lo hago y tengo estos componentes, tengo obviamente, me voy siempre con el,"
+    },
+    {
+      "start": 3531.21,
+      "end": 3537.45,
+      "text": "voy a empezar con el cliente, empezó con el cliente, es el que crea el comando y el receptor,"
+    },
+    {
+      "start": 3537.45,
+      "end": 3548.46,
+      "text": "obviamente, que crea el comando concreto, después tengo el Coman, no veo el Coman, esto es un interfaz"
+    },
+    {
+      "start": 3548.46,
+      "end": 3554.94,
+      "text": "simple, como el que venimos viendo y tiene el llamado por ejemplo de ejecutar, o a veces también"
+    },
+    {
+      "start": 3554.94,
+      "end": 3562.83,
+      "text": "pueden ejecutar deshacer obviamente, no es que tienen un único método, tengo el concreto,"
+    },
+    {
+      "start": 3562.83,
+      "end": 3571.27,
+      "text": "este sería el tique real, lo que tengo que hacer, que tienes que hacer, una hamburguesa doble con"
+    },
+    {
+      "start": 3571.27,
+      "end": 3582.54,
+      "text": "que sota, o no sé el objeto y obviamente voy a llamar al que lo va, el ejecutalo, tiene el"
+    },
+    {
+      "start": 3582.54,
+      "end": 3591.68,
+      "text": "concreto para ejecutarlo, tenemos el recibe, el objeto que me va a guardar el comando, me dice cuando"
+    },
+    {
+      "start": 3591.68,
+      "end": 3603.02,
+      "text": "lo tiene que ejecutar, sería en este caso quien recibe, sería no sé, es el nacer, el nozo, y no,"
+    },
+    {
+      "start": 3603.02,
+      "end": 3611.78,
+      "text": "perdón, me cobro que el que lo hace sería el cocineiro, y el invocat, justamente invocat, el"
+    },
+    {
+      "start": 3611.78,
+      "end": 3619.18,
+      "text": "invocat es el objeto que dice cuando ejecutarse el mozo, perdón me confundí yo mismo, ¿ok?"
+    },
+    {
+      "start": 3619.18,
+      "end": 3630.58,
+      "text": "Me van siguiendo, entonces, quiero, si tengo que hacer un comando o hacer algo bastante complicado,"
+    },
+    {
+      "start": 3630.58,
+      "end": 3639.58,
+      "text": "una tarea bastante pesada, que tiene una naturaleza en sí, que la puedo estopiar, la puedo"
+    },
+    {
+      "start": 3639.58,
+      "end": 3650.28,
+      "text": "pausar, la puedo devolver, bueno que tiene, bueno puedo pensar en un comando, si me voy por ejemplo"
+    },
+    {
+      "start": 3650.28,
+      "end": 3660.75,
+      "text": "al ejemplo del banco, podría llegar a ser un comando, por ejemplo operaciones bancarias, entonces tengo"
+    },
+    {
+      "start": 3661.31,
+      "end": 3666.59,
+      "text": "encomam serían todas las operaciones bancarias, sería un interfaz común, acá tendría los concretos,"
+    },
+    {
+      "start": 3666.59,
+      "end": 3677.57,
+      "text": "extraer plata, sacar plata, ¿ok? El recibe sería quien es el que tiene la lógica, por ejemplo si saco"
+    },
+    {
+      "start": 3677.57,
+      "end": 3685.27,
+      "text": "plata y la cuenta bancaria, tiene la lógica para descontarme del saldo, descontarme y agregarme,"
+    },
+    {
+      "start": 3685.27,
+      "end": 3690.83,
+      "text": "está depende lo que va a hacer, el invoc, bueno podría ser el cajero automático, es quien"
+    },
+    {
+      "start": 3690.83,
+      "end": 3700.0,
+      "text": "es dispara el comando, ¿ok? De pido que lo analicen, lo vamos ir viendo también con algunos"
+    },
+    {
+      "start": 3700.0,
+      "end": 3708.49,
+      "text": "exemplos, y algo que también es importante en el anterior es que yo por cada comando puedo guardar"
+    },
+    {
+      "start": 3708.49,
+      "end": 3715.73,
+      "text": "el está, entonces puedo guardar historial, guardar línea, volver para atrás, estopiarlo, pausarlo,"
+    },
+    {
+      "start": 3720.97,
+      "end": 3729.93,
+      "text": "me voy con el interperte, el interperte no lo vamos a ver, es bastante complicado, calculo que"
+    },
+    {
+      "start": 3729.93,
+      "end": 3736.33,
+      "text": "ustedes no sé si vieron lenguaje si compiladores, les voy a decir para lo que sirve pero no lo vamos a"
+    },
+    {
+      "start": 3736.33,
+      "end": 3745.46,
+      "text": "analizar en profundidad, lo que me permite el interperte justamente es tener las poder definir una"
+    },
+    {
+      "start": 3745.46,
+      "end": 3754.78,
+      "text": "gramática de lenguaje y convierte cada regla de lenguaje en una clase, entonces eso tengo"
+    },
+    {
+      "start": 3754.78,
+      "end": 3760.1,
+      "text": "expresiones terminales y no terminales, esto lo van a ver en lenguaje y compiladores, no te preocupen,"
+    },
+    {
+      "start": 3760.1,
+      "end": 3770.75,
+      "text": "pero por ejemplo imagínense que tengo que hacer a más o algo más concreto, 5 más 3,"
+    },
+    {
+      "start": 3770.75,
+      "end": 3782.21,
+      "text": "los terminales, me voy a ver, los no terminales, que sería el más, son los símbolos que"
+    },
+    {
+      "start": 3782.21,
+      "end": 3789.09,
+      "text": "combinan otras expresiones y los terminales justamente son los que no puedo dividir lo más, sería el 5 y el 3,"
+    },
+    {
+      "start": 3789.09,
+      "end": 3799.26,
+      "text": "además este patrón lo que prendermites es entender la gramática y poder tener una lógica para poder armar"
+    },
+    {
+      "start": 3799.98,
+      "end": 3806.94,
+      "text": "los compiladores, las expresiones, esto lo van a entender cuando vean lenguaje sin compiladores porque"
+    },
+    {
+      "start": 3806.94,
+      "end": 3818.12,
+      "text": "cuando uno hace un lenguaje compilador, maneja, puede manejar árboles, polaca, polata inversa, entonces y"
+    },
+    {
+      "start": 3818.12,
+      "end": 3829.43,
+      "text": "acuerdo cómo es tu lenguaje, tenés un interpreter terminado, no vean, simplemente quedan"
+    },
+    {
+      "start": 3829.43,
+      "end": 3835.91,
+      "text": "hace con la idea de que interpreta un lenguaje junto con su gramática, porque lo van a ver en algún"
+    },
+    {
+      "start": 3835.91,
+      "end": 3846.63,
+      "text": "momento con lenguaje sin compiladores, pero no quería no obviarlo, porque después van a decir final"
+    },
+    {
+      "start": 3846.63,
+      "end": 3856.62,
+      "text": "la profe me enseñó 22 patrónes y 93, tampoco me parece, estoy haciendo lo que hacen otros profesores"
+    },
+    {
+      "start": 3856.62,
+      "end": 3868.26,
+      "text": "conmigo, ya lo van a ver, ya lo van a ver, ok, me estoy venando, bueno vamos con literador, este"
+    },
+    {
+      "start": 3868.26,
+      "end": 3878.01,
+      "text": "recuerden no entra capaz que para una definición, pero no para los ejercicios, me voy con el literador,"
+    },
+    {
+      "start": 3878.01,
+      "end": 3882.97,
+      "text": "lo que tiene el literador básicamente lo que me permite es justamente recorrer el emeto de una"
+    },
+    {
+      "start": 3882.97,
+      "end": 3892.81,
+      "text": "colección lista, o el matriz, ok, sin necesidades de ver su estructura internalo de sacóplos, la idea"
+    },
+    {
+      "start": 3892.81,
+      "end": 3903.48,
+      "text": "es una manera estándar de recorrer en forma secuncial, elementos, ok, cómo lo manejo y vean"
+    },
+    {
+      "start": 3903.48,
+      "end": 3911.98,
+      "text": "te dos, componente fuertemente, uno que sea todo lo que es la parte de literación, literador y"
+    },
+    {
+      "start": 3911.98,
+      "end": 3918.37,
+      "text": "otro que sea la colección en sí, el literador lo que voy a hacer obviamente siempre va a tener la"
+    },
+    {
+      "start": 3918.37,
+      "end": 3926.68,
+      "text": "clase abstracta, porque yo puedo tener varios concretos citeradores, ok, donde va a tener la implementación"
+    },
+    {
+      "start": 3926.68,
+      "end": 3934.38,
+      "text": "de citerador, y acá tengo la definición de lo que debería estar, primero, segundo, agregame, sacame,"
+    },
+    {
+      "start": 3934.9,
+      "end": 3943.98,
+      "text": "cuál es el elemento actual, etcétera, y después tengo del otro lado, tengo una interfaz que me"
+    },
+    {
+      "start": 3943.98,
+      "end": 3952.45,
+      "text": "permite crear el objeto y tiderador, y acá tengo el objeto concreto, de esa manera lo tengo un poco más"
+    },
+    {
+      "start": 3952.45,
+      "end": 3959.68,
+      "text": "ordenada y 42, digamos, mediador, bueno el mediador también me encanta, sí, pero las patrones que a mí me"
+    },
+    {
+      "start": 3959.68,
+      "end": 3966.16,
+      "text": "gusta lo que me ayuda es justamente reducir la redundancia de las dependencias, que sería"
+    },
+    {
+      "start": 3966.16,
+      "end": 3973.23,
+      "text": "complemento cuestión lo que bajo, sin ayuda a bajar la dependencia entre objetos, bajásele la"
+    },
+    {
+      "start": 3973.23,
+      "end": 3989.51,
+      "text": "complementa, me voy a acuerdo todos, perfecto, bueno la idea es tener una clase donde me permite"
+    },
+    {
+      "start": 3989.83,
+      "end": 3997.62,
+      "text": "justamente ser intermediario para manejar la comunicación entre varios objetos, tengo que"
+    },
+    {
+      "start": 3997.62,
+      "end": 4003.3,
+      "text": "acá, acá tengo el ejemplo, una torre de control, es el ejemplo típico para explicar mediador,"
+    },
+    {
+      "start": 4004.54,
+      "end": 4011.22,
+      "text": "imagínense que está en el medio puerto y tengo 30 guiones en el aire, está que están"
+    },
+    {
+      "start": 4011.22,
+      "end": 4015.7,
+      "text": "circulando, que necesitan unos necesidades de arresar y el otro que me está pidiendo pista,"
+    },
+    {
+      "start": 4016.02,
+      "end": 4021.38,
+      "text": "la realidad es que no pueden esos 30 guiones hablar entre sí porque sería un caos total,"
+    },
+    {
+      "start": 4021.38,
+      "end": 4026.94,
+      "text": "entonces lo que voy a tener es un mediador, el mediador acá el que es el torre del control,"
+    },
+    {
+      "start": 4026.94,
+      "end": 4034.42,
+      "text": "es la persona que además de manejar la comunicación decide las prioridades,"
+    },
+    {
+      "start": 4034.42,
+      "end": 4042.9,
+      "text": "es decir, ¿sabes qué? La viola, la viola está porque de ahí sin gasolina, lo tengo que hacer,"
+    },
+    {
+      "start": 4043.9,
+      "end": 4050.81,
+      "text": "si o si lo tengo que bajar del aire, o que tiene que aterrizar si o si, toma prioridades,"
+    },
+    {
+      "start": 4050.81,
+      "end": 4055.05,
+      "text": "le dice cuando uno tiene que avanzar, cuando uno tiene que esperar, como si fuera acá el control"
+    },
+    {
+      "start": 4055.05,
+      "end": 4064.61,
+      "text": "del tránsito, bueno, es el que toma, la idea es justamente el mediador es reducir esa"
+    },
+    {
+      "start": 4064.61,
+      "end": 4073.18,
+      "text": "complejidad, reducir el desorden de comunicación entre objetos, no me interesa que la clase se"
+    },
+    {
+      "start": 4073.18,
+      "end": 4084.07,
+      "text": "conozcan entre sí, entonces bajo ese acoplamiento, entonces tengo el mediador, como lo separo"
+    },
+    {
+      "start": 4084.07,
+      "end": 4091.86,
+      "text": "la estructura en dos partes principales, en lo que es el mediador y lo que son los colegas,"
+    },
+    {
+      "start": 4093.47,
+      "end": 4101.07,
+      "text": "el mediador es el que tiene la lógica de manejar los mensajes, coordinan los elementos, en el caso"
+    },
+    {
+      "start": 4101.07,
+      "end": 4114.1,
+      "text": "de que les di cuál sería la torre de control, sería el mediador, y obviamente el concreto mediador sería"
+    },
+    {
+      "start": 4114.1,
+      "end": 4121.53,
+      "text": "la torre de control concreta, es que tengo varias cosas que me están mediando y los colegas son las"
+    },
+    {
+      "start": 4121.53,
+      "end": 4132.01,
+      "text": "cosas que los objetos que yo tengo que coordinar en el ejemplo cuál sería, los aviones,"
+    },
+    {
+      "start": 4132.73,
+      "end": 4144.06,
+      "text": "los aviones, perfecto, ya están regemados, me parece, a ver con tu falta, falta un poquito,"
+    },
+    {
+      "start": 4144.06,
+      "end": 4163.72,
+      "text": "lo voy a dejar hasta acá, por tu acá, dije de compartir, ¿no?"
+    },
+    {
+      "start": 4168.39,
+      "end": 4177.94,
+      "text": "A ver, dice la cámara, bueno, corto porque los veo que maísimos y la realidad es que para que me"
+    },
+    {
+      "start": 4177.94,
+      "end": 4184.86,
+      "text": "escuchen así, vamos a cortar y vamos a decir la clasique viene, lo que les voy a pedir es que hasta"
+    },
+    {
+      "start": 4184.86,
+      "end": 4209.11,
+      "text": "mediador los repasen, yo después acá lo voy a subir, ya se estudiargo, el día do, creo, les voy a pasar"
+    },
+    {
+      "start": 4209.11,
+      "end": 4216.51,
+      "text": "todo esto, la clasique viene, vamos a hacer ejercicios, así que les pido que estudian,"
+    },
+    {
+      "start": 4217.99,
+      "end": 4228.27,
+      "text": "el examen no van a necesitar tener, estudiar las estructuras obviamente van a tener un documento,"
+    },
+    {
+      "start": 4228.27,
+      "end": 4234.31,
+      "text": "que después les voy a decir dónde, van a tener un documento con todas las estructuras de los"
+    },
+    {
+      "start": 4234.31,
+      "end": 4240.99,
+      "text": "patrones hoff, ¿ok? No me interesa una absoluta que estudian, yo tampoco lo sé, yo cuando los necesito los,"
+    },
+    {
+      "start": 4241.99,
+      "end": 4249.67,
+      "text": "un glee hoy me fijo que es lo que hace cada participante, ¿ok? No es el objetivo, cortamos ahora,"
+    },
+    {
+      "start": 4249.67,
+      "end": 4259.45,
+      "text": "disculpa, me quedaste hace hace hace, no, no, no queda otra, están ahí, es que lo voy a tomar lista,"
+    },
+    {
+      "start": 4259.45,
+      "end": 4270.06,
+      "text": "un minuto, la maca, ya está, ya está, ya está, sí sí, pero voy a tomar porque voy a apreniar a los que"
+    },
+    {
+      "start": 4270.06,
+      "end": 4286.62,
+      "text": "están, sí sí, un regalito de por el presente, no, creeme que, está bueno porque encima que me"
+    },
+    {
+      "start": 4286.62,
+      "end": 4295.14,
+      "text": "tuvieran que escuchar tanto, hoy que día es primero de octubre, chicos, en el que momento empezamos"
+    },
+    {
+      "start": 4295.14,
+      "end": 4309.86,
+      "text": "con qué comemos en la vida, almada, alta miranda, todavía no, amarilla, arada, aranda, este bien,"
+    },
+    {
+      "start": 4309.86,
+      "end": 4319.59,
+      "text": "¿para? presente, sí, sí, sí, sí, aranda robles, ¿no? Sí, sí,"
+    },
+    {
+      "start": 4319.59,
+      "end": 4325.53,
+      "text": "bien, aranda robles, profe amarilla acá también, no se me evita, mi gremora,"
+    },
+    {
+      "start": 4326.76,
+      "end": 4336.02,
+      "text": "risha, bien, alta miranda también, profe, no me haga, miren que le voy a contar, son 20 cuantos"
+    },
+    {
+      "start": 4336.02,
+      "end": 4347.7,
+      "text": "en la cama, a la fijo, a Rimi Bar, a Rimi Bar, machado, Arcon, Argaín,"
+    },
+    {
+      "start": 4347.7,
+      "end": 4362.34,
+      "text": "barrio nuevo, argaín, todavía, barrio nuevo, bogado, trocán y clara,"
+    },
+    {
+      "start": 4362.34,
+      "end": 4383.43,
+      "text": "presenta el profe, comerci con chíglie, lautaro, póndez, hostilla, pusa, parielo, franco,"
+    },
+    {
+      "start": 4383.43,
+      "end": 4403.3,
+      "text": "Francisco, rallardo, gálves, chanini, gálves, presente, y mondin, gómez Kevin,"
+    },
+    {
+      "start": 4403.3,
+      "end": 4418.62,
+      "text": "Lucas Centena está, no? No, bien Lucas, graneros, océin, Santiago,"
+    },
+    {
+      "start": 4418.62,
+      "end": 4427.26,
+      "text": "presente, hay me garcía, acá profe, presente, cuáles, acá, cobaq,"
+    },
+    {
+      "start": 4427.82,
+      "end": 4437.25,
+      "text": "familia, presente, leí a si, leí a si, jamón, sarmiento, presente, profe,"
+    },
+    {
+      "start": 4437.25,
+      "end": 4453.3,
+      "text": "llanos, presente, profe, losada, presente, mandala, dí, presente,"
+    },
+    {
+      "start": 4453.3,
+      "end": 4465.5,
+      "text": "mandí sec, presente, martín es auto, presente, más casi inmunios, presente,"
+    },
+    {
+      "start": 4465.5,
+      "end": 4479.02,
+      "text": "más seberiana, presente, medina Juan, presente, mendesca macho, mendos a Diego,"
+    },
+    {
+      "start": 4479.02,
+      "end": 4491.39,
+      "text": "mirando a Guillermo, si está, muñeos palazos, presente, no gaita Ignacio,"
+    },
+    {
+      "start": 4491.39,
+      "end": 4512.53,
+      "text": "paes, parodi, para la profesora, parodi, peres puente, presente, porras estaba,"
+    }
+  ]
+}

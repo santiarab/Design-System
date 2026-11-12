@@ -1,0 +1,879 @@
+# Clase 05 - Parte 2 - 2026-09-17
+Archivo de origen: Clase 05-20260917_101702-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 01:33:54
+
+---
+
+[00:00:01 - 00:00:20] El libro es la grabación a los chicos, los alumnos de los lunes que tengo cuatro feriados, no sé cómo. Ahí ya le inicié, profe. Muchísimas gracias, yo para... estoy compartiendo si no.
+[00:00:20 - 00:00:30] Ah, Lucas me escribiste, pero la verdad que cuando V2Mail dice no, tengo que sentar en el edad después de terraspa en el edad.
+[00:00:31 - 00:00:37] Bueno, empezamos.
+[00:00:37 - 00:00:44] La cosa correcta.
+[00:00:44 - 00:00:53] Ok, se me legramé componentes, obviamente ya lo he intentado de un poco el negocio, mi diagrama de estuidad.
+[00:00:53 - 00:01:03] Mi hermoso diagrama ya que lo dice para mi estadivino, lo dice acá, mi diagrama de que me quedé jamás este?
+[00:01:03 - 00:01:08] despiedes, mira, ahora más despiedes, después despido un diagrama de que si hacen cualquier cosa,
+[00:01:08 - 00:01:18] entonces, estudian los diagramas, repástenlo, me voy al cor, a empezar a tomar una solición,
+[00:01:18 - 00:01:35] minuto, maíz, bueno, el maíz, lo voy a dejar acá, voy a agregar otro mejor,
+[00:01:35 - 00:01:52] diagrama de clase, ok, bueno vamos a arrancar, yo tengo una idea, una idea mental de cómo voy a armar,
+[00:01:52 - 00:02:01] cómo voy a armar, no voy a ver los chat si necesitamente arrumen, ok, no hay problema,
+[00:02:01 - 00:02:08] yo es una idea mental de cómo va a ser, cómo lo voy a estructurar, después capaz que cambio y bueno
+[00:02:08 - 00:02:12] veo si después lo modifico, pero por lo menos esto me da una idea de cómo lo voy a empezar a
+[00:02:12 - 00:02:19] estructurar, voy a leer el diagrama de clase de arriba hacia abajo y izquierda derecha por un nivel
+[00:02:19 - 00:02:28] de mayor entendimiento, ok, yo está parte de arriba, lo dejo un poquito con espacio porque después
+[00:02:28 - 00:02:37] juego otras cositas, lo que yo siempre digo es lo que nos recomienda el arma, es que obviamente podemos hacer
+[00:02:37 - 00:02:45] casos, podemos hacer controladores, tiran el objetivo de los controladores,
+[00:02:45 - 00:02:55] los resultados de ventos, es exacto, siempre me responde Lucas, Lucas, nos vamos a hacer íntimos,
+[00:02:55 - 00:03:04] perfecto, íntimos amigos, captura el evento, la idea es siempre desacoblar, ok,
+[00:03:05 - 00:03:13] hasta tratar de llevar a un nivel de atomicidad que esté equilibrada, pero la idea es poder atomizar,
+[00:03:13 - 00:03:20] otros de ellos digo bueno la complejidad de la captura de esa petición o de ese evento lo
+[00:03:20 - 00:03:28] hace el controlador, ok, en sí lo que nosotros tenemos, esto capaz que sigue también para entender
+[00:03:28 - 00:03:38] los que nosotros tenemos es que un cliente hace una petición, la petición la hace través
+[00:03:38 - 00:03:44] por ejemplo si me voy a lo que es la tecnología web con la URL estoy haciendo una petición,
+[00:03:44 - 00:03:53] ahora esa URL lo que yo defino es obviamente el dominio, es decir hacia dónde tiene que ir y le hago
+[00:03:53 - 00:04:00] todo un pedido, el que lo captura, en qué lo captura es, lo captura un servidor web,
+[00:04:00 - 00:04:08] el servidor web primero lo que hace es entregar contenido estático, el contenido que me
+[00:04:08 - 00:04:15] devuelve, tengo un servidor web que devuelve, posiblemente un contenido estático como HTML,
+[00:04:15 - 00:04:23] si tengo que mandar algunas imágenes de otros, también y después el browser y la capacidad
+[00:04:23 - 00:04:31] de ordenar, si HTML y muestrará el hilo, pero es pasque nada para contenidos estáticos, ahora
+[00:04:31 - 00:04:39] si yo tengo una lógica de negocio como por ejemplo crear una carpeta de evaluación,
+[00:04:39 - 00:04:45] consultar algo, hacer algún proceso de negocio y ya ahí tengo que ejecutar el código de una
+[00:04:45 - 00:04:52] aplicación y procesar la lógica del negocio en forma dinámica, no es decir me tengo que
+[00:04:52 - 00:04:57] conectar a la base de datos, tengo que capturar esto y eso ya lo hace un servidor de aplicaciones,
+[00:04:57 - 00:05:09] la aplicación server, casi siempre trabajan conjunto, entonces yo siempre les pongo esto,
+[00:05:09 - 00:05:15] este para mí es el símbolo de la aplicación server porque como trabajan juntos con el servidor web
+[00:05:15 - 00:05:24] miramos que asumo me entrega el contenido estático y además ejecuta el código de la aplicación y
+[00:05:24 - 00:05:32] después trato a veces de separar acá no lo hice, un server dedicado para lo que es datos,
+[00:05:32 - 00:05:39] no me interesa si es base de datos o lo que sea, papás que no tengo un modelo de base de datos
+[00:05:39 - 00:05:49] relacional, papás que trabajan con mongo de DNA, pero también tengo que tener un middlework que
+[00:05:49 - 00:06:07] me pueda resolver esas cosas, acabo en el otro lado, vamos adquiriendo otras cositas,
+[00:06:07 - 00:06:15] que hay idea de ese poder adquirir otros conocimientos, entonces yo voy a tener acá una capa,
+[00:06:15 - 00:06:24] una capa donde voy a tener todos los controladores, recuerda en qué larmas dice un controlador o un
+[00:06:24 - 00:06:33] gestor, controlador barra gestor no importa, por caso de uso si estoy con esa metodología,
+[00:06:33 - 00:06:40] si estoy con otro tipo de metodología, la decisión la toma el arquitecto, pero que basado
+[00:06:40 - 00:06:48] ser algunos buenos principios del diseño, nosotros lo que vamos a hacer es poder hacer los
+[00:06:48 - 00:06:52] controladores y los gestores de acuerdo en el componente o modelo que yo haya definido,
+[00:06:53 - 00:06:59] ya acá lo tengo bastante modernizados, no tengo un único control en qué captura todos los
+[00:06:59 - 00:07:09] sedentos, sino que voy por lo menos a separar los sedentos, es una clase, puede ser mentida, lo que sea
+[00:07:09 - 00:07:17] o una clase si estoy dentro del paladismo ambientado objetos, lo que estamos recontra seguros que el
+[00:07:17 - 00:07:28] componente del controlador de préstamos lo tengo, recuerda, es decir yo voy a tener una página HTML,
+[00:07:28 - 00:07:34] está, creo que la había puesto acá, no sé si acaso, acerte acá, voy a tener una página,
+[00:07:34 - 00:07:44] me voy a uno previo, le pido le mando el nombre, el apellido, el quit del negocio de la persona,
+[00:07:44 - 00:07:53] con el teléfono, me hay que confirmar de acá bueno envío datos, o sea posiblemente también tenga
+[00:07:53 - 00:08:05] que alguien que me capture y más que el préstamo debería hacer posiblemente un controlador de servicios,
+[00:08:05 - 00:08:16] bancarios, no, productos bancarios, estamos de acuerdo porque yo no sé si le voy a colocar en
+[00:08:16 - 00:08:26] el, me voy a ponerlo acá, más que ir a préstamo debería ir a servicios o a productos,
+[00:08:26 - 00:08:38] no ponerle productos para no confundirnos con servicios, les cuento que ahora estoy buena y estoy haciendo
+[00:08:38 - 00:08:48] todo yo pero la idea es que después ustedes puedan hacer otras cosas, pero bueno, entonces si tengo
+[00:08:48 - 00:08:55] que pedir un producto, si ha, un producto de abrir una caja de ahorro, una cuenta corriente,
+[00:08:55 - 00:09:04] dame un préstamo, todo va a estar capturado, está, por el controlador de productos, ok, por lo tanto,
+[00:09:04 - 00:09:13] puedo tener un gestor, sí lo puedo tener, por ahora lo voy a dejar así porque quiero ver el nivel que
+[00:09:13 - 00:09:19] llego, lo voy a dejar como controlador, barra gestor, pero la idea es que yo podría empezar a
+[00:09:19 - 00:09:36] separarlo, si bueno acá englobo toda la parte lógica de negocio, perdón, con la idea del candadito,
+[00:09:38 - 00:09:48] lo podría separar, ahora lo que estoy enoviedad en claros que acá tengo productos, productos, perdón,
+[00:09:48 - 00:10:00] no productos, productos, eso lo demoviere en claro, después le ponen las mas hubo, cuidas todo
+[00:10:00 - 00:10:10] ustedes como lo quieran, ok, y qué pasa Luciano? No, no, no, que el profe estaba diciendo los que
+[00:10:10 - 00:10:17] no tiene el presente que le manda un mensaje. Fantástico, dentro de los productos tengo lo que son cuentas,
+[00:10:17 - 00:10:32] caja de ahorro, perdón, el cuenta, caja de ahorro, también el préstamo, la especificación del préstamo
+[00:10:32 - 00:10:43] es un producto, qué más tengo? Ah, y puedo ponerle otro tipo de productos que vende el banco, que son
+[00:10:43 - 00:10:53] los seguros, vamos a guardar, en piso con el nivel de entendimiento que tengo, si todavía me estoy
+[00:10:53 - 00:11:03] ubicando en piso con cosas conocidas, digo bueno para, acá voy a estar en cuenta tengo
+[00:11:05 - 00:11:13] caja de ahorro y cuenta corriente, vamos a la caja de ahorro, a veces hablo más rápido de
+[00:11:14 - 00:11:26] que pienso en tu hogar, y me voy a una generalización, me empiezo a armar un cierto orden, el seguro
+[00:11:26 - 00:11:35] y el seguro en un estado y el seguro, estado por un bien, yo debería tener la especificación, pero no
+[00:11:35 - 00:11:45] voy a llegar ese nivel, ok, seguro tiene un bien y qué puedo asegurar y puedo asegurar el inmueble,
+[00:11:45 - 00:12:12] y una prenda, un auto, voy a utilizar, yo no soy muy amante de la herencia por el tipo de
+[00:12:12 - 00:12:18] lenguaje, a veces uno, pero la realidad es que para estas fases me viene muy bien y me da un mayor
+[00:12:18 - 00:12:34] nivel de entendimiento, así que suma, ok, un producto puede ser también este, un producto, pues una cuenta,
+[00:12:35 - 00:12:42] acá puedo hacer herencia, herencia, también no hay drama, como para un nivel de entendimiento, lo
+[00:12:42 - 00:12:49] puedo hacer, y el préstamo tengo justamente lo que tengo que empezar a hacer, así que voy a hacer
+[00:12:49 - 00:13:09] hipotecario personal y prendario, puedo poner vuelvo, yo voy a hacer una generalización también,
+[00:13:21 - 00:13:33] después lo ordeno y lo te da lindo, ok, por ahora lo dejo así, obviamente acá yo tengo el
+[00:13:33 - 00:13:41] módulo de préstamos y tengo, imagínense que ya alguien lo solicito, acá tenemos una relación estrecha
+[00:13:41 - 00:14:01] obviamente, o también, imagínense que estoy, si tengo un minutito, estoy con el ejecutivo de
+[00:14:01 - 00:14:08] cuenta, si el ejecutivo de cuenta tiene la página, estoy evaluando un luca, por ejemplo, estoy
+[00:14:08 - 00:14:16] evaluando el préstamo hipotecario para lucas, entonces tengo todos los datos de luca, sigo bueno, voy a
+[00:14:16 - 00:14:26] crear la carpeta para comenzar a pedir todas las cosas de luca, ok, entonces con un HTML,
+[00:14:26 - 00:14:38] donde digo crear carpeta, carpeta préstamo, este es una HTML, vamos a algo concreto HTML,
+[00:14:38 - 00:14:50] yo había puesto otro diagrama, el componente, me voy a fijar, y yo bueno, también tengo el
+[00:14:50 - 00:15:00] modo de evaluación, entonces voy a ver llegar a la clase, voy a crear otro carpeta, acá, otra clase,
+[00:15:00 - 00:15:17] que es el controlador de evaluación, acá crea carpeta de evaluación, acá tengo otra,
+[00:15:17 - 00:15:59] que digo, yo evalué, evalué y voy a crear seguro, también voy a crear, tengo un HTML,
+[00:15:59 - 00:16:08] le debido al cliente, verificame estos datos y subime en tal aplicación, tus últimos
+[00:16:08 - 00:16:20] recibes de sueldo, los subo y el send, ese send, recibo, info de cliente de carpeta, no muchas
+[00:16:20 - 00:16:28] cosas, o no, o directamente fue al banco, está con el cajero y el cajero dice vengo a dejar todos los
+[00:16:28 - 00:16:36] recibes de cliente, esperame, está, lo escaneo y lo subo, lo asocio algo, después vemos,
+[00:16:36 - 00:16:46] tengo un montón de funcionalidad, entonces la idea es no englobarlo de acuerdo a el usuario,
+[00:16:46 - 00:16:53] decir bueno tengo el usuario, cajero y va a agregarme algo a la carpeta de evaluación,
+[00:16:53 - 00:16:59] si no pensamos por componentes de acuerdo a la funcionalidad, no a través del actor y el que
+[00:16:59 - 00:17:07] ejecuta, ok, ese es un medio, yo lo puedo recibir la carpeta, porque el cliente me lo mando,
+[00:17:07 - 00:17:13] me lo mando a través de una HTML desde el sistema, via online, o si acercó, es una persona muy grande,
+[00:17:13 - 00:17:22] si acercó no, no tiene buen manejo para mandarme los PDF, si acercó a la sucursal y yo lo escaneo
+[00:17:22 - 00:17:33] y lo subillo, que soy el cajero, le pedí, tengo trabajo ajusto en banconación, entonces
+[00:17:33 - 00:17:38] le pedito de esa información al banconación, porque sé que había una piquel vacía, ok,
+[00:17:38 - 00:17:42] entonces tengo tres puntos de entrada, entonces escribir un punto de entrada para lo que
+[00:17:42 - 00:17:49] es el mismo servicio o método, no tiene sentido, entonces yo tengo que englobarlo de acuerdo
+[00:17:49 - 00:17:59] a la funcionalidad, ok, entonces si estoy dentro de lo que es crear carpeta, cuál es el control
+[00:17:59 - 00:18:18] que debería capturarlo, esforo en todos, si estoy dentro de, soy el ejecutivo de cuentas,
+[00:18:18 - 00:18:26] imagínate, y voy a decir bueno que voy a crear la carpeta de Lucas para poder hacer una evaluación,
+[00:18:27 - 00:18:35] quién es el que debería capturar ese evento, producto,
+[00:18:39 - 00:18:45] claro, porque estás asociándolo y acuerdo a la naturaleza en común, la más cercana
+[00:18:45 - 00:18:58] de ese evaluación, si yo te digo bueno, bien excelente, se van a hacer un seguro de mi casa,
+[00:19:01 - 00:19:09] y entra la web y se va a contratar seguro y mueble, englobarlo, con todos los datos que
+[00:19:09 - 00:19:19] tarreye y el botón, seguir seguro y mueve, ¿qué lo debería capturar?
+[00:19:19 - 00:19:28] producto, producto, y si, seleccionse fue a la sucursal, se sentó con el ejecutivo de cuentas,
+[00:19:28 - 00:19:36] el ejecutivo de cuentas dice bueno, te voy a crear, te voy a dar el seguro de mi mueble,
+[00:19:36 - 00:19:48] entra en su HTML, digo HTML para hacer algo en concreto, no importa, y tengo el botón y los datos
+[00:19:48 - 00:19:56] de todo el celeste, encontré todo su datos, creo el seguro de mi mueble, ¿qué lo debería capturar?
+[00:19:57 - 00:20:04] hay pantalla del fresco, del seguro, ¿de producto?
+[00:20:04 - 00:20:12] entonces si bien es el cliente celeste y el ejecutivo de cuentas, lo mismo,
+[00:20:12 - 00:20:21] tienen el mismo método, tienen diferentes funciones, no me interesa poner acá, es lo que yo siempre
+[00:20:21 - 00:20:28] veo que hacen, la clase ejecutivo de cuentas, contralador de ejecutivo de cuentas, casi
+[00:20:28 - 00:20:36] siempre hacen, ejecutivo de cuentas, captura el evento y se lo pasa producto, porque a mí lo
+[00:20:36 - 00:20:43] es único que me interesa es el método y el servicio que va a consumir, ¿ok? no me interesa aquí
+[00:20:43 - 00:20:53] es el que lo hace, eso es un tema de análisis, ya entendí, el día de mañana, imagínense que
+[00:20:53 - 00:21:00] saco un préstamo hipotecario y hay una condición en el negocio de la regla del negocio que dice, si
+[00:21:00 - 00:21:09] sacas un crédito hipotecario sí o sí te ejecuta el sistema, la creación de un seguro de mueble, no tengo
+[00:21:09 - 00:21:17] que ir, pero para allá tenía el controlador de cliente que captura ese método, no tiene sentido,
+[00:21:18 - 00:21:24] ¿me van siguiendo a donde apunto? sí, ¿quién es?
+[00:21:24 - 00:21:33] Francisco, una consola por cómo están las sociales las clases, que también están manos,
+[00:21:33 - 00:21:41] sí, porque está presta muy productos, Francisco, tuve sido, para mí, ¿sale?
+[00:21:41 - 00:21:49] no, así que me gustaba duda, porque como va a hacer contra la de productos, está de productos,
+[00:21:49 - 00:21:56] producto está préstamo, pero después está el controlador de préstamo, ¿tá bien? ¿Qué significa que cuando
+[00:21:56 - 00:22:02] vos tengas así crearse, crear préstamo, yo tengo crear carpeta de préstamo que no es lo que es
+[00:22:02 - 00:22:11] por respondiente, es más cercano la evaluación que el préstamo en sí, entonces viene el ejecutivo de
+[00:22:11 - 00:22:19] cuenta, llegó, bueno, ya te evalué la carpeta, voy a generar el préstamo, el préstamo tengo las
+[00:22:19 - 00:22:29] cuotas, el interés, tengo un montón de información que tengo que tener, entonces tengo ese imaginante,
+[00:22:29 - 00:22:37] no sé si va a ser así, pero tengo ya, tengo las firmas, me contratecó, llamé al cliente, le dije,
+[00:22:37 - 00:22:46] venía a firmar y eso lo tengo que escanear, y ya tenés el préstamo aprobado, ese evento que lo
+[00:22:46 - 00:22:55] debería capturar, con ella con el préstamo, o sea, por lo que tenemos ahora, debería encontrar
+[00:22:55 - 00:23:01] el préstamo, ¿no? pero como también es un producto, ¿tienes una conexión a este, por más que
+[00:23:01 - 00:23:07] te también lo tengas? Yo tengo diferentes tipos de invisibilidad, lo vimos en otro día, ¿recuerdan?
+[00:23:09 - 00:23:15] No, no sé si, por lo menos, yo me digo, es lo mismo hacerlo así cuando contratecés que
+[00:23:15 - 00:23:20] capaz de descontrarlo del producto, que sea que hay aparece todo, pensar varios gestores,
+[00:23:20 - 00:23:29] sí, sí, sí, obvio, puedes poner de los contraladores, es un tema evaluativo también, ¿no?
+[00:23:29 - 00:23:37] Vos vas a evaluar si a meritos, no a meritos, digamos, poder atomizarlo de tal manera, o
+[00:23:37 - 00:23:46] separarlo de acuerdo a las decisiones que vos haya tomado, eso se evaluativo, yo ahora definía esto,
+[00:23:46 - 00:23:54] después capaz que cuando voy avanzando de o no, lo modifico, lo cambio a los contraladores, por eso
+[00:23:54 - 00:23:59] es que pregúe que empiezan también con un diagrama, el componente, como para ordenarse un poco,
+[00:24:00 - 00:24:08] no tengo bien en claro cómo seguir, lo que existe, y se dura que el contralador de evaluación
+[00:24:08 - 00:24:30] va a tener una carpeta de evaluación, correspondiente, que va a tener el cliente, eso lo veremos, un minuto,
+[00:24:30 - 00:24:57] después esto se lo subo, los voy a armar un puro más, y eso que tiene la carpeta de evaluación,
+[00:24:57 - 00:25:12] por lo que yo evalué, tiene el historio de créditicio, y si o algo que me piden cuando voy
+[00:25:12 - 00:25:20] a hacer un préstamo, esto se los pongo a garantías, garantías, o tener enegar a garantías, quien garantiza
+[00:25:20 - 00:25:32] que yo vaya a pagarlo, contraladores de préstamo, posiblemente de tal voy a crear una fabricación pura,
+[00:25:32 - 00:25:57] es más, yo evaluaría que tipo de préstamos, pero bueno voy a con la carpeta de evaluación cliente,
+[00:25:57 - 00:26:07] también puede ejercer que el cliente, yo no lo sé, sería banquerme, esto lo voy a sacar,
+[00:26:07 - 00:26:19] ahora lo modifico, y fue cliente solicitante, porque puede ser que no lo esté dado de alta,
+[00:26:19 - 00:26:47] tiene solicitante, quedaría más lindo en otro lado, pero no importa, para más, ni siquiera
+[00:26:47 - 00:27:10] había creado la clase, como listado de productos adquiridos, estoy viendo después veo cómo le
+[00:27:10 - 00:27:24] evaluó, tenemos los clientes que tienen productos adquiridos de que tipo, y todos los productos del
+[00:27:24 - 00:27:31] tipo producto, después veo si tengo capas que tengo solamente cuenta, capas que tengan cuenta y
+[00:27:32 - 00:27:38] o no tengo préstamo y si seguro, no tengo la cuenta, la caja de orla tengo con otro cliente y
+[00:27:38 - 00:27:46] le pago, le hago una transferencia todos los meses, tengo que evaluar, ahora tengo un HTML que lo
+[00:27:46 - 00:28:01] que hago es cambiar, tenemos un HTML que lo que hago es cambiar el número de teléfono de
+[00:28:01 - 00:28:18] clientes, que el cliente accedió, que lo cambió, que fue al banco y lo cambió, que un sistema
+[00:28:18 - 00:28:26] del gobierno cambió algo, ok, imagínense, tengo tres centradas, quién lo debería capturar ese
+[00:28:26 - 00:28:38] evento, de tres actores diferentes, del cliente, del ejecutivo de cuentas, el cliente se acercó y
+[00:28:38 - 00:28:45] el ejecutivo de cuentas se lo cambió, de una API que estaba ayudando a vueltas, le cambia el
+[00:28:45 - 00:28:53] número de teléfono, ¿qué es la captura? Es cambiar teléfono. ¿Y necesitaria vosotros controlador
+[00:28:53 - 00:29:02] acabas? Podría ser ¿no? En capsule toda lo que es la entidad del cliente, cambiar el teléfono,
+[00:29:02 - 00:29:11] cambiar el domicido particular, saber si es un cliente activo, si no es activo, ok?
+[00:29:12 - 00:29:22] Controlador de clientes, vamos a poner un controlador de clientes, ahora cuando el cliente
+[00:29:22 - 00:29:30] crea carpeta no tengo que pasar por el controlador de clientes, me van siguiendo, se tiene sentido,
+[00:29:30 - 00:29:39] porque les digo por qué se le error más común, ok, esto vamos a seguir evolucionando,
+[00:29:39 - 00:29:47] quedanse de tranqulas, tener esto, tenerlo esto acá y sacar esto, ese es saltamente lo mismo que yo
+[00:29:47 - 00:29:55] lo pusiera acá, como es algo trivial en mi modelo, lo dejo acá, el cliente solicitante,
+[00:29:55 - 00:30:00] cliente activo, si lo quiero separar, o puedo tener clientes y poder dar diferentes tipos de
+[00:30:00 - 00:30:08] estado, ahora lo dejo, ok? Lo ideal sería que sea un cliente activo o inactivo o un
+[00:30:08 - 00:30:12] tuyo cliente, si lo quiero separarlo puedo separar, yo lo manejaría con estados, ahora lo dejo así
+[00:30:12 - 00:30:22] por un mejor nivel de entendimiento, ok? Me voy a decir bueno, ¿cómo sigo? No tengo bien
+[00:30:22 - 00:30:27] en claro, todavía no me pude, estoy en el examen y todavía no me pude, bueno voy con otro nivel de
+[00:30:27 - 00:30:51] entendimiento, con lo que sé, nutito? Lo fe tengo una consulta, sí, sí lo mientras lo ordeno,
+[00:30:51 - 00:30:57] dale, porque ya sé que ya habló de los gestores y que dijo más o menos que cuando a Europa varias
+[00:30:57 - 00:31:05] clases haría falta un clientor, es un mamorámetro, pero en este caso, soy un dijezo, dije, bueno,
+[00:31:05 - 00:31:13] que voy a hacer bendición, es la magia de distorteza, yo no te puedo decir, porque si no me contraigo
+[00:31:13 - 00:31:18] con decirte que se evaluativo, que tenés que tomar decisiones, entonces no te puedo decir eso,
+[00:31:18 - 00:31:25] yo te digo que es bastante intuitivo, si yo tengo muchas clases y es porque tengo un gran lio
+[00:31:25 - 00:31:29] que resolver y capaz que puedo desacoplarlo y crear de un controlador.
+[00:31:29 - 00:31:30] ¿Qué distinto?
+[00:31:30 - 00:31:34] Porque después ustedes dicen, no, usted me dijo que si yo tengo cinco clases,
+[00:31:34 - 00:31:36] tenemos que crear un gestor.
+[00:31:36 - 00:31:38] Porque capaz que las cinco clases son casi similares.
+[00:31:38 - 00:31:39] ¿Qué?
+[00:31:39 - 00:31:40] Por eso lo digo.
+[00:31:40 - 00:31:45] Sí, sí, yo decía que era un capaz para dar más una idea y de ahí evaluamos.
+[00:31:45 - 00:31:46] Claro.
+[00:31:46 - 00:31:49] Que esto era el candidato, por así decirlo, ahí evaluamos.
+[00:31:49 - 00:31:52] No hay lo que lo voy a hacer, si o si hay mucha clase.
+[00:31:52 - 00:31:59] Yo, para entender mejor en este ejemplo, el carpete de evaluación, como para verlo,
+[00:31:59 - 00:32:02] ¿a qué no necesitaría un gestor?
+[00:32:02 - 00:32:05] Sí, podría llegar a ponerlo.
+[00:32:05 - 00:32:06] Podría llegar a ser que haga evaluación.
+[00:32:06 - 00:32:07] Sí, sí, totalmente.
+[00:32:07 - 00:32:08] OK.
+[00:32:08 - 00:32:13] Posiblemente en la subgestor, casi siempre.
+[00:32:13 - 00:32:19] Ah, y cuando usted es un controlador, tenés un gestor para desacoplar la funcionalidad
+[00:32:19 - 00:32:20] del controlador.
+[00:32:20 - 00:32:23] O sea, la idea es que el controlador sea lo más atónico.
+[00:32:23 - 00:32:25] Posible que captura el evento.
+[00:32:25 - 00:32:30] Si yo quiero ser sumamente purista, ahora sí tengo un controlador que lo único que hace
+[00:32:30 - 00:32:34] es el cambiar el teléfono al cliente y acá para que haya ponido un gestor.
+[00:32:34 - 00:32:37] Si lo uno sigue muy chiquitito lo que hace.
+[00:32:37 - 00:32:43] OK, entonces capaz que uso control barrajector, digamos, acá le doy una al controlador
+[00:32:43 - 00:32:44] en cierta lógica.
+[00:32:44 - 00:32:52] Ahora, lo ideal es que sí que puedas hacerlo y separarlo.
+[00:32:52 - 00:32:56] OK, eso te da mucha flexibilidad.
+[00:32:56 - 00:32:59] También es más difícil de mantenerlo, obviamente.
+[00:32:59 - 00:33:08] Tienes que ir pensando porque los capturas acá y este es lo que sería un pasamanos.
+[00:33:08 - 00:33:11] Pero yo, ¿qué pasa al día de mañana?
+[00:33:11 - 00:33:14] Lo que hace es capturar el evento.
+[00:33:14 - 00:33:19] Está.
+[00:33:19 - 00:33:22] ¿Por qué me interesa separar eso?
+[00:33:22 - 00:33:29] Porque yo lo que recibo de la página HTML le hace una petición al servidor y yo necesito
+[00:33:29 - 00:33:31] tener un cierto ordenamiento.
+[00:33:31 - 00:33:37] Entonces digo, bueno, para recibir el servidor, el aplicación servidor y servidor recibita
+[00:33:37 - 00:33:38] algo.
+[00:33:38 - 00:33:41] Aquí lo capturó, lo capturó un controlador.
+[00:33:41 - 00:33:48] En sí, vos tenés acá arriba uno que está capturando del domínque, pero no importa.
+[00:33:48 - 00:33:52] Lo que yo quiero es atomizarlo más posible porque eso es cuando estoy con respecto
+[00:33:52 - 00:33:58] con aplicaciones web, pero sí, el día de mañana yo, después, más allá de trabajar
+[00:33:58 - 00:34:01] con un servidor web, hay alguien que me está pidiendo un API.
+[00:34:01 - 00:34:09] Entonces no paso directamente por eso, paso directamente, posiblemente, al modelo al gestor.
+[00:34:09 - 00:34:11] OK.
+[00:34:11 - 00:34:14] Ahí ya tendríamos que ir.
+[00:34:14 - 00:34:20] Pero yo lo que quiero es lograr esa tomicidad para que de acuerdo a lo que no necesite el consumidor
+[00:34:20 - 00:34:25] de una app y sea un servicio web, sea lo que sea lo puedo utilizar.
+[00:34:25 - 00:34:27] Ya lo tengo bien atomizado.
+[00:34:27 - 00:34:33] O capaz que internamente, como te dije, no funcionó el sistema por tres días y escribito
+[00:34:33 - 00:34:35] en un Excel.
+[00:34:35 - 00:34:41] Y vinieron 1.500 personas a pedirme, a pedirme un préstamo, pero tengo todo en el Excel.
+[00:34:41 - 00:34:50] Bueno, cada entrada del Excel es una petición y va cargando con una app y por ejemplo.
+[00:34:50 - 00:34:56] Y no tengo que andar pasando por alguien que lo capturé, ya de ahí, accede directamente
+[00:34:56 - 00:34:57] hacia el gestor.
+[00:34:57 - 00:35:01] Entonces, está bueno separarlo.
+[00:35:01 - 00:35:03] Igual excede a esta materia, ¿OK?
+[00:35:03 - 00:35:08] Pero yo lo que quieras, tú te ya empicen a pensar que esto se puede extender.
+[00:35:08 - 00:35:14] Me vengo para acá, un minutito.
+[00:35:14 - 00:35:16] Intestaba.
+[00:35:16 - 00:35:18] Ah, ya lo me dije.
+[00:35:18 - 00:35:20] Servicios extermos.
+[00:35:20 - 00:35:29] Yo digo, también acá estoy para crear carpeta.
+[00:35:29 - 00:35:33] Le tengo que pedir información a verás, avisa, al banco central, etcétera.
+[00:35:33 - 00:35:44] Entonces, ahí tengo algo externo.
+[00:35:44 - 00:35:48] La forma parte de mi sistema, pero no es el cor del negocio.
+[00:35:48 - 00:35:52] Estoy creando una fabricación pura.
+[00:35:52 - 00:36:03] Y digo, bueno, voy a hacer un servicio avisa, la comunicación avisa y otro le pido
+[00:36:03 - 00:36:22] a verás.
+[00:36:22 - 00:36:23] Acá tengo los concretos.
+[00:36:23 - 00:36:41] Es más, podría ser una, vamos a poner acá, generalización.
+[00:36:41 - 00:36:58] Me voy con las cosas más conocidas y después me digo solicitar, infactarnos.
+[00:36:58 - 00:37:06] Y acá tengo info avisa.
+[00:37:06 - 00:37:18] Yo creo que también digo, bueno, voy a solicitar info, a verás.
+[00:37:18 - 00:37:22] Me voy a crear el enbo diferente, a lo que la débisa.
+[00:37:22 - 00:37:27] Le tengo que armar, posiblemente, un shazon y acá le tengo que mandar un XML.
+[00:37:27 - 00:37:30] Entonces, tengo lógicas diferentes.
+[00:37:30 - 00:37:32] No es lo mismo armar uno, que armar uno está con etiquetas.
+[00:37:32 - 00:37:34] Tengo que armarlo de terminada manera.
+[00:37:34 - 00:37:37] Me va a responder de una manera y yo tengo que…
+[00:37:37 - 00:37:41] Posiblemente, no entiendo ese shazon.
+[00:37:41 - 00:37:47] Tengo que darle vuelta, tener una lógica de negocio para después habilitarselo, no?
+[00:37:47 - 00:37:57] A lo que sería el Estrilla del Quereticio.
+[00:37:57 - 00:38:00] Imagínense que es.
+[00:38:00 - 00:38:15] Tengo uno que es transformación shazon tequiste o está.
+[00:38:15 - 00:38:26] Después tengo transformación de tequiste, la agrega o la vacidad, no importa.
+[00:38:26 - 00:38:31] Le paso info al Estrilla del Quereticio.
+[00:38:31 - 00:38:35] Acá puedo ir sumando, la idea es que lo tengo tan desacoplado que si el día de mañana
+[00:38:35 - 00:38:46] subo más tercal se comunica, es otro dominio, tengo que hacer otro vez y contigo, está.
+[00:38:46 - 00:38:52] Es bastante más antiguo, ni siquiera se me él, ni siquiera es un shazon, es lo que
+[00:38:52 - 00:38:56] tequiste bruto, lo manejo de una terminada manera.
+[00:38:56 - 00:39:04] Me va a pasar toda la información y lo manejaré de esa manera.
+[00:39:04 - 00:39:09] Entonces va tomando una cierta forma.
+[00:39:09 - 00:39:24] Entonces cuando ustedes ven que no pueden avanzar, dejen y sigan con otra cosa.
+[00:39:24 - 00:39:31] La carpeta de la elección está formada por historias creaticias y seguramente con las garantías.
+[00:39:31 - 00:39:41] Y bueno, vamos a seguir evaluando, hasta acá me detengo un minutito.
+[00:39:41 - 00:39:42] ¿Casez?
+[00:39:42 - 00:39:43] Sí.
+[00:39:43 - 00:39:46] Algo como esta te diríamos que ha sueldo el exáver.
+[00:39:46 - 00:39:48] O yo.
+[00:39:48 - 00:39:50] Con atributos, cimetros y todo.
+[00:39:50 - 00:39:57] Sí, sí, sí.
+[00:39:57 - 00:40:02] Y me imagino que no podremos tener a mar de ningún dispositivo.
+[00:40:02 - 00:40:13] No, lamentablemente, me encantaría tener un laboratorio, pero no, no me lo pide, no me lo dan.
+[00:40:13 - 00:40:14] ¿Qué?
+[00:40:14 - 00:40:16] Bueno, eso por lo lado.
+[00:40:16 - 00:40:23] Por lo tanto, tratan de hacer ejercicios en un mejor autocolor y la con importas.
+[00:40:23 - 00:40:31] Traten de hacer ejercicios en papel, porque es fundamental que tengan esa gilidad, que puse
+[00:40:31 - 00:40:39] los controladores para que una forma más de mayor comprensión, los gestores acá, el
+[00:40:39 - 00:40:41] modelo de negocio haya abajo.
+[00:40:42 - 00:40:47] Profes, la idea de dejar las notas ahí y DHTML a forma ella.
+[00:40:47 - 00:40:53] No, esto es para ahora, para que ustedes vean de que no me interesa el hombre palo acá
+[00:40:53 - 00:41:00] y poner un controlador de ejecutivos de cuenta y englobarle toda la funcionalidad.
+[00:41:00 - 00:41:05] Eso lo voy a resolver con otro componente que es un componente administrativo, es donde
+[00:41:05 - 00:41:12] lo que yo digo es al logearme, decime que tipo se logió, que tipo es tipo ejecutivo
+[00:41:12 - 00:41:19] de cuenta, que permiso tiene, es otra lógica de negocio, que permiso tiene, le ha habilitó
+[00:41:19 - 00:41:25] en la interfaz, en la vista, todos esos permiso, ¿ok?
+[00:41:25 - 00:41:26] Nada más.
+[00:41:26 - 00:41:29] Miramente para la comprensión.
+[00:41:29 - 00:41:34] Es meramente para la comprensión, esto no es necesario, ¿ok?
+[00:41:34 - 00:41:42] La idea es que vos puedas entendar, que puedes recibirlo a través de un HTML, una API, entonces
+[00:41:42 - 00:41:47] o no sé, el ejecutivo de cuenta o la secretaria no te interesa.
+[00:41:47 - 00:41:53] Ahora si cada vez que voy a ingresar un rol, que tiene también esa, que cumplir esa funcionalidad,
+[00:41:53 - 00:42:01] le voy a agregar un controlador porque quiero manejarlo con, como si fuera la funcionalidad
+[00:42:01 - 00:42:09] del usuario, entonces me vuelvo loca, porque el día de, porque no es extensible el sistema,
+[00:42:09 - 00:42:13] entonces yo tengo que empezar a pensarlo como si fueran empaquetes.
+[00:42:13 - 00:42:17] No, pero está buena forma de guía, además sea...
+[00:42:17 - 00:42:18] Claro.
+[00:42:18 - 00:42:21] Como decimos, si nos quedamos perdidos y pensarlo así...
+[00:42:21 - 00:42:24] Pensamos si te ayuda, ¿ok?
+[00:42:24 - 00:42:25] Gracias.
+[00:42:25 - 00:42:32] Bueno, esto en el examen, no, esto es simplemente por un nivel de entendimiento, está muy bueno
+[00:42:32 - 00:42:38] porque si no después, capaz que no quedó suficientemente claro, ¿ok?
+[00:42:38 - 00:42:40] No, es nivel de entendimiento.
+[00:42:40 - 00:42:46] Bueno, vieron que yo acá expuse el servicio externo, te voy a saco, plando la lógica, no quiero
+[00:42:46 - 00:42:54] que carpeta de evaluación le pida a los sistemas externos la información y en encima de acá
+[00:42:54 - 00:43:00] yo tengo que escribir, infogelberadas, transformación del JSON, un tequisté o transformación del JSON
+[00:43:00 - 00:43:07] para cargar la historia crediticia, la realidad es que yo lo voy a decir que la carpeta de evaluación
+[00:43:07 - 00:43:12] se tenga la funcionalidad de la carpeta de evaluación, que sea que de atributo tiene
+[00:43:12 - 00:43:25] que ser que cumpla lo que le corresponde o esivo, que sea lo más que hubesivo posible y
+[00:43:25 - 00:43:26] experto encima.
+[00:43:26 - 00:43:35] Entonces, si yo voy a ver que carpeta de evaluación porque así lo asumí, va a tener un mega código
+[00:43:35 - 00:43:44] tipo sábana que va a tener que hacer cosas que no le corresponde, entonces voy a tener
+[00:43:44 - 00:43:50] una entidad muy acoplada, muy con cosas que no le corresponde, ¿ok?
+[00:43:50 - 00:43:57] Entonces, yo lo que quiero es que poder desacoplar esa lógica de negocio que no le corresponde,
+[00:43:57 - 00:44:02] es por eso que invente estas fabricaciones puras, ¿ok?
+[00:44:02 - 00:44:14] El día de mañana tengo otra fabricación pura que yo digo tengo algo que es, tengo
+[00:44:14 - 00:44:25] un componente que digo bueno voy a transformar todo lo que JSON a cargar a tequiste genial,
+[00:44:25 - 00:44:32] de esa compleza, esta lógica acá, lo estoy atomisando, cada vez lo estoy atomisando más,
+[00:44:32 - 00:44:37] esta, bueno podría decir que es una dependencia, ¿no?
+[00:44:37 - 00:44:46] El verás utiliza esto, le paso por parámetro de un método, le paso lo que recibí del verás
+[00:44:46 - 00:44:48] y le digo, ¿sabes qué?
+[00:44:48 - 00:44:54] Encargate la lógica de la transformación al JSON lo hace otro, encargate y vos pasa
+[00:44:54 - 00:45:03] a me lo, ¿ok? Y es más estaría excelente porque entonces si el día de mañana verás me
+[00:45:03 - 00:45:07] dice, ¿sabes qué? Lo hago otra vez de un web service, ¿sí suelo por el estilo?
+[00:45:07 - 00:45:12] ¿O volví el Xml? Porque vimos que, ¿y bien era, no sé?
+[00:45:12 - 00:45:20] Y más liviano el JSON, ahora hay un Xml nuevo, no tengo que probar esta conexión, esta conexión,
+[00:45:20 - 00:45:26] solamente voy a trabajar en esta, está el anulo y trabajo en una nueva, y lo tengo,
+[00:45:26 - 00:45:33] y puedo probar solamente la transformación de lo, de lo, no sé, el Xml nuevo que se
+[00:45:33 - 00:45:41] ha generado en ese momento, ¿ok? Entonces voy haciendo lo lo más atónico posible, tengo
+[00:45:41 - 00:45:47] que ir acercándome a pensar, acercarme cada vez más al código, porque yo con el dominio,
+[00:45:47 - 00:45:52] lo mismo es el dominio sermoso, pero la realidad es que el dominio no me sirve para poder
+[00:45:52 - 00:46:00] implementar toda la solución, tengo que empezar a tener cajitas, bien atómicas, bien chiquitas
+[00:46:00 - 00:46:07] como para que cada uno se encargue de lo que le corresponde, ¿ok? Después yo les voy a subir
+[00:46:07 - 00:46:14] uno que está un poquito más armado, está acá el espúso y algo más lindo, pero quiero ir
+[00:46:14 - 00:46:23] a otra cosa, ahora voy a mí, yo les voy a subir todos, quedense tranquilos, hay una
+[00:46:23 - 00:46:34] relación muy estrecha entre el diagrama de cláster con el diagrama de interacción, ¿cuáles
+[00:46:34 - 00:46:48] son? Muy bien, ¿qué más? Comunicación, comunicación, comunicación, fantástico, la realidad
+[00:46:48 - 00:46:57] es que yo lo que valúo en este tipo de diagramas justamente es la comunicación entre
+[00:46:57 - 00:47:05] las entidades, entre las clases posiblemente, yo ves el sábado de entidades, clases, componentes,
+[00:47:05 - 00:47:11] porque puede ser que esté trabajando, si estoy en un banco, hay muchísimos veces que ya
+[00:47:11 - 00:47:21] sí que ese sistema anda fantástico y no es orientado objetos, es procedural, entonces
+[00:47:21 - 00:47:27] hablamos del componente tal, ¿ok? Entonces a veces cambio una cosa o la otra de acuerdo
+[00:47:27 - 00:47:41] a las necesidades, ¿pero? ¿cómo para que sepan? ¿por qué lo hago? Me voy al diagrama de secuencia,
+[00:47:41 - 00:47:46] lo que quiero hacer del diagrama de secuencia es justamente ver la comunicación, lo que
+[00:47:46 - 00:47:57] necesito es definir un escenario, era un escenario, estamos haciendo un repaso también,
+[00:47:57 - 00:48:07] si no tengo un escenario, para eso no sé qué es lo que voy a hacer en este diagrama de secuencia,
+[00:48:07 - 00:48:12] tengo que definir un escenario que es como una especie de instancia, de un caso de uso o
+[00:48:12 - 00:48:18] de historia de usuario, donde defino qué es lo que quiero probar y después voy a ver cómo
+[00:48:18 - 00:48:27] se comunican todas esas clases. Imagínense que quiero crear la carpeta, entonces para procesar
+[00:48:27 - 00:48:33] la solicitud del préstamo, ¿ok? La solicitud del préstamo, ¿no? Para solicitarle, para darle
+[00:48:33 - 00:48:38] la alta el préstamo. Tanto se digo, bueno, voy a generar carpeta, voy a crear el producto,
+[00:48:38 - 00:48:47] tipo préstamo, voy a crear las garantías y voy a lanzar, bueno, y el proceso de generar
+[00:48:47 - 00:48:55] carpeta o crear producto, lo veo, va también a pedirle a un servicio externo, la información al veraz.
+[00:48:55 - 00:49:06] Tengo que definir el escenario, sí, lo defino, algo que a mí me ayuda mucho, minuto, es pensar
+[00:49:06 - 00:49:15] en un, ¿cómo sería ese HTML para crear la carpeta? Imagínense en que soy, por qué más allá de
+[00:49:15 - 00:49:22] qué tal, que obviamente tengo diferentes orígenes de peticiones, puede ser en la oficial de cuenta,
+[00:49:22 - 00:49:30] puede ser una ápida, no sé lo que sea, está bueno porque me da un cierto orden de los
+[00:49:30 - 00:49:38] parámetros que yo voy a, lo que va, los parámetros que va a tener ese método. Imagínense que estoy
+[00:49:38 - 00:49:46] de un HTML donde es crear carpeta, estoy con el oficial de cuenta y tengo el botón abajo que
+[00:49:46 - 00:49:55] hice crear carpeta, ¿qué datos debería tener? Y la realidad es que el nombre del usuario del
+[00:49:55 - 00:50:04] cliente que le pedió el préstamo y seguro, estamos de acuerdo, entonces en ese, vamos a HTML con todo el
+[00:50:04 - 00:50:14] formulario y dentro de ese formulario tenías recordando simple de HTML, sí, pero las cajas,
+[00:50:15 - 00:50:31] esa, las cajitas, me encantó, las cajitas, el form, import type, necesito, yo sé que soy
+[00:50:31 - 00:50:40] molesta, pero también está bueno ver, está, nosotros acá, estoy viendo acá, hagamos un ejemplo,
+[00:50:40 - 00:50:47] está, nosotros estamos mandando, acá por ejemplo estoy diciendo un atributo que es el nombre,
+[00:50:47 - 00:50:52] el otro que es el apellido, y así voy mandando con qué ahí digo, bueno con ahí, el NEM,
+[00:50:52 - 00:50:59] el NEM está idea esa manera, el captura del evento, tengo el botón, el botón me envía todos esos
+[00:50:59 - 00:51:04] datos, entonces si tengo que crear carpeta cálculo que voy a pasar, el apellido del nombre del NEM,
+[00:51:04 - 00:51:11] el tipo de préstamo que me pidió el mundo de las garantías, o pues el que esté vacío el
+[00:51:11 - 00:51:20] mundo de las garantías, pero lo voy a crear, qué más, bueno y cálculo que con eso estaría más
+[00:51:20 - 00:51:29] que suficiente, entonces si voy a crear carpeta, quien debería capturarlo el evento.
+[00:51:29 - 00:51:47] El controlador de evaluación. No tira el controlador de producto, el value empeensen, está en donde
+[00:51:47 - 00:52:01] iría, mi minutito tiene que encontrar el controlador de evaluación acá, es este, no?
+[00:52:01 - 00:52:10] Me acuerdo el nombre que él le puso, es este, porque me fijo mucho en esto, porque es el mismo
+[00:52:10 - 00:52:17] elemento, si yo pongo acá a crear y pongo otro carpeta de evaluación, el controlador de evaluación
+[00:52:17 - 00:52:22] esté creando otro elemento totalmente diferente, entonces los seleccionos y lo arrastro,
+[00:52:29 - 00:52:35] de fina del escenario, ahora vemos en el escenario, no es, no lo que quiero,
+[00:52:35 - 00:52:48] para el tiempo acá, bueno, un minutito, mi mensaje, quiero ver un mensaje anónima,
+[00:52:48 - 00:53:02] cuida un mensaje encontrado, no pongo el hombre palo, porque yo ya sumo que puedo tener el controlador,
+[00:53:02 - 00:53:11] lo puedo capturar de varios actores, por así decirlo, no tengo operación, por lo tanto,
+[00:53:11 - 00:53:27] le voy a dar al más, crear una evaluación, voy a poner crear carpeta, si es mi activo,
+[00:53:27 - 00:53:35] esto, así que recuerdan colocarlo, me voy a el diagrama de clases, colocó el método,
+[00:53:37 - 00:53:45] si yo hubiera creado otro elemento, no sé la cuenta, que corresponde a este método, entonces,
+[00:53:48 - 00:53:54] la realidad es que este vuelvo a repetir, es muy importante en que lo entiendan, tengo elementos
+[00:53:54 - 00:54:02] dentro del mi modelo, los tengo que utilizar en diferentes vistas, para que haya una relación estrecha
+[00:54:02 - 00:54:14] entre todas las vistas, yo acá le paso, acá le voy a pasar, de ney, apellido, nombre, equipo de
+[00:54:14 - 00:54:24] préstamo, montos de garantías, etcétera, y bueno, como sigo, y puedo poner un gestor, sí, puedo
+[00:54:24 - 00:54:30] poner un gestor, no sé si lo orne acá el gestor, no, por ahora voy a trabajar controlador, gestor,
+[00:54:30 - 00:54:40] todo el mismo, ok, y para también achicarlos un poquito más, me voy a la carpeta de evaluación,
+[00:54:40 - 00:55:07] voy a decir, bueno voy a generar carpeta, quién debería generar carpeta, tengo que crear carpeta, si
+[00:55:07 - 00:55:15] tengo un gestor, podría poner la vaca, el gestor, no, vamos a ponerla, por un tema de orden,
+[00:55:15 - 00:55:48] lo voy a poner acá, sí, no ver si apareció, avísenme si los venen, bueno, me le puse,
+[00:55:50 - 00:56:28] lo fe, una consulta rapísima, como hablamos en la clase anterior que casi siempre no usamos
+[00:56:28 - 00:56:37] gestores, lo de generar carpeta, lo podríamos, o sea, si no existiera, esta flecha podría ir para
+[00:56:37 - 00:56:42] la carpeta de evaluación, sin problemas, lo que pasa que quería hacer el término medio,
+[00:56:42 - 00:56:49] porque pensé que me iban a preguntar porque no estaba el gestor, pero sí, porque la realidad que
+[00:56:49 - 00:56:57] también es un tema de tiempo en el examen, ok, entonces repetir todo no me es instinto, es más,
+[00:56:57 - 00:57:04] vos podés tranquilamente darle una lógica al controlador, lógica mínima, ahora cuando ya empezamos
+[00:57:04 - 00:57:16] a donarmos, y poner el gestor, es lo que las buenas prácticas recomiendan esto, en el examen si lo
+[00:57:16 - 00:57:27] colocas bien, y si no pasa nada, astumo que es un control de abarra gestor, ok, bueno, le
+[00:57:27 - 00:57:35] llega a generar, no sé si lo creí bien, no, no lo creí bien, me den cuenta, con troceta,
+[00:57:35 - 00:57:47] nuto acá con troceta, porque no lo creí bien, porque yo tengo que poner esto y ahí esta herramienta me
+[00:57:47 - 00:57:55] hice bueno, generalmente, está muy multiplicario, me voy a ver el granad de clase si ahí está contástico,
+[00:57:55 - 00:58:04] y este sí es tu director de orquestra entre lo que es con el negocio y bueno, empiezo a generar
+[00:58:04 - 00:58:13] carpeta, algunos creo que está el cría, no, acá, no, bueno acá, porque así que algunos les gusta
+[00:58:13 - 00:58:22] que increíble la carpeta y posicionado en esta parte, a mí la realidad es que no me importa, pero bueno
+[00:58:22 - 00:58:33] capaz que nuestra un mayor nivel de entendimiento, sí, perdón, disculpa, ¿sí que la soliga de una
+[00:58:33 - 00:58:42] apuesta en la base en cuando hacíamos el cría y... somos tan malos que obligamos a todos, pero está
+[00:58:42 - 00:58:53] bueno, porque bueno, el objetivo también es calcúulo que lo que quiere hacer dicen principios es darle un
+[00:58:53 - 00:59:00] cierto ordenamiento, ¿ok? Ahora si yo que lo pongo arriba, te pongo un cría y bueno,
+[00:59:00 - 00:59:11] es obvio porque aparte tu ciclo de vídeo hasta acá, está bien, bueno acá tengo, voy a crear la instancia,
+[00:59:11 - 00:59:18] obviamente el cría y lo recibe en carpeta de evaluación, es posiblemente si a su constructor,
+[00:59:18 - 00:59:24] está, el principio si es un constructor le voy a pasar todos los datos, sino le tendría que pasar
+[00:59:24 - 00:59:33] todos los datos después y ahí digo bueno que voy a crear, voy a generar la carpeta o ingresar
+[00:59:33 - 00:59:48] datos a la carpeta, quiero generar con cual carpeta de evaluación, yo ponía generar carpeta,
+[00:59:48 - 01:00:01] y bueno, ¿qué le agrego? y ahora sí tengo aquí pensando, ¿qué voy a crear un producto?
+[01:00:01 - 01:00:40] El producto ya está creado, no importa, lo voy a dejar acá y ahí le pasó, yo le pasaría a mí,
+[01:00:40 - 01:00:46] muchos los cría y no me gustan, porque yo quiero que el constructor pasarle todos los parámetros y para
+[01:00:46 - 01:00:54] que me sea más fácil entender, pero no importa, lo hago acá y digo, le voy a crear producto,
+[01:00:56 - 01:01:05] crear producto y le paso, qué tipo de bonto, qué tipo de garantía, qué tipo de producto de préstamo
+[01:01:05 - 01:01:17] es y si potencario, y ahí voy armando todo eso, es un préstamo, configuró préstamo, acá yo
+[01:01:17 - 01:01:24] pondría un configurar préstamo, si tengo que modificarlo, está, si tengo que agregar garantías,
+[01:01:24 - 01:01:32] entonces dentro de lo que es el gestor, digo bueno, voy a agregar garantías, tengo garantías acá,
+[01:01:32 - 01:01:53] no sé si la puse, si la puse, ahí se me enluyó su fe, está justo presionando una tecla,
+[01:01:53 - 01:02:10] no sé qué pasó, perdón, no importa, crear garantías, digo bueno una vez que tengo la respuesta,
+[01:02:10 - 01:02:15] que tengo el préstamo, de acuerdo, el tipo de préstamo, digo bueno, voy, tengo una respuesta,
+[01:02:15 - 01:02:23] digo de acuerdo, el tipo de respuesta, para acá, después veo, pongo la respuesta que
+[01:02:23 - 01:02:32] hicieron, no hay problema por ahora, después lo voy a dar, tengo el gestor era minutito, el gestor
+[01:02:32 - 01:02:37] digo bueno, el gestor lo que voy a hacer es crear las garantías, acá estoy agregada, mi pensando
+[01:02:37 - 01:02:45] cómo va a estar, después yo se los voy a subir por mi tomas ordenada, una vez que recibo esta respuesta,
+[01:02:45 - 01:03:00] me voy a la garantía, no lo ha capturado, me lo lejos, muy minutito, o sea porque no me funciona,
+[01:03:00 - 01:03:22] no me funciona al menos, ni importa, hay que la capturosa, voy a un mensaje ingresar garantías,
+[01:03:22 - 01:03:43] y así lo voy a poblando, no voy armando, entonces la carpeta de evaluación,
+[01:03:43 - 01:03:49] me va a estar con el historial que di diicio y las garantías, quiero armar otro, yo este lo
+[01:03:49 - 01:03:53] dejaría así, pero está bastante complejo, quiero armar otro, me voy a dar otra diagrama,
+[01:03:53 - 01:03:59] que diagrama de secuencias, y bueno ahora lo que voy a hacer es pedirle dentro de la carpeta,
+[01:03:59 - 01:04:12] dentro de mi carpeta, lo que voy a hacer es pedirle los servicios a vise y a veras, un minuto,
+[01:04:12 - 01:04:19] temo carpeta de evaluación, la carpeta de evaluación, yo la conciere como carpeta de relación
+[01:04:19 - 01:04:26] armó el historial que di di diicio, el historial que di di diicio, lo que va a hacer es pedirle información
+[01:04:26 - 01:04:33] tanto a mis sistemas eternos como a mis sistemas externos, entonces voy pensando en cómo hacer eso,
+[01:04:33 - 01:04:57] capaz que es negocio nada más, y dentro de este del que di di diicio lo que hago es lo que yo
+[01:04:57 - 01:05:08] pensé en su momento es pedirle a veras y pedirle a vise, casi siempre se van a encontrar que si
+[01:05:08 - 01:05:16] esta es una clase abstracta o una interfaz, y la realidad es que en el diagrama de secuencias no se
+[01:05:16 - 01:05:24] los colocan, porque yo lo le tiro acá es ver los objetos, pero a veces se van a encontrar con que
+[01:05:24 - 01:05:29] hay autores que lo utiliza mucho, acá era la abstracta, no?
+[01:05:29 - 01:05:42] Eso lo tienen que poner, es una abstracta o si es un interfaz, eso sí, entonces lo tengo acá,
+[01:05:42 - 01:05:57] de diagrama de secuencias lo voy bajando, de apagar dos porque si no, un minuto, este es la relación
+[01:05:57 - 01:06:11] de la licencia, secuencias, vaciador, así lo único más rápido, de diagrama de secuencias
+[01:06:11 - 01:06:19] dos, y digo bueno, la realidad es que acá yo diría que tengo todo objetos, si tengo una clase
+[01:06:19 - 01:06:26] abstracta no lo voy a poder instanciar, estamos de acuerdo, la mayoría de los autores habla de esa
+[01:06:26 - 01:06:32] manera que acá tengo que manejar objetos, pero la realidad es que otros autores dicen que no,
+[01:06:32 - 01:07:15] o lo que colocas tu clase abstracta, aunque me voy a ver, y es más, entonces si quedo ahí,
+[01:07:15 - 01:07:23] esta leyera más clasica, esto yo también, esto transformación a 6,
+[01:07:23 - 01:07:45] un minuto, entonces tengo la carpeta, ingresar carpeta, por el créditicio,
+[01:07:45 - 01:07:55] la carpeta de evaluación le pide exterior créditicio, esto es el créditcio para tener un comportamiento
+[01:07:55 - 01:07:59] para pedirle información a servicios de externos, ya los servicios de externos acabo de tener
+[01:07:59 - 01:08:04] los concretos para poder comunicarme realmente con el sistema verdad, hay algunos diagramas de
+[01:08:04 - 01:08:12] secuencias que son muy utilizados de donde yo coloco un componente que es sistema de veras y
+[01:08:12 - 01:08:20] lo que me responde el veras, eso también está bueno, se utiliza bastante, excede a lo que nosotros
+[01:08:20 - 01:08:26] les pedimos, pero también van a navegar y lo van a encontrar y me brinda mucha información,
+[01:08:26 - 01:08:31] pero como yo tengo una relación estrecha entre mi diagrama de secuencias y mi diagrama de clases,
+[01:08:31 - 01:08:39] y lo veamos, ahora hay una, hay otra relación porque yo también estoy haciendo mi diagrama de
+[01:08:39 - 01:08:47] de de despliegue en donde definí que tengo un sistema externo, así que podría llegar a utilizar
+[01:08:47 - 01:08:55] ese componente, por acá lo vamos a dejar hasta acá, esto se digo bueno carpeta de evaluación le pide
+[01:08:55 - 01:09:02] la estirial crediticio, bueno, imagínense que la historia del crediticio le mando un mensaje
+[01:09:02 - 01:09:18] historial, generar historial crediticio, no me acuerdo si puse el más de importas que lo vemos,
+[01:09:18 - 01:09:31] esta me voy a pedir solicitud a cabo de una lógica de negocio y le pido, creo que le había puesto
+[01:09:31 - 01:09:42] un nombre minutito, otra sepa, le había puesto uno, tiras solicitarinfoexterno,
+[01:09:42 - 01:09:57] jamás te vean, entonces lo que puedo hacer es venir acá, selecciono a la operación solicitarinfoexterno,
+[01:09:57 - 01:10:16] porque no quiere solicitarinfoexterno, esta es la clasadralta, no sé si le voy a ver, por
+[01:10:16 - 01:10:27] los dos me voy a fijar, acá tenemos solicitarinfoberas, infoveras, me voy a este, este le va a pedir a
+[01:10:27 - 01:10:41] otro experto, este no lo tiene, trans, le voy a agregar, no, dame genera Jason,
+[01:10:41 - 01:10:50] entonces, si le voy a hacer el ese veras que así, no te escuché, perdón, se cortó,
+[01:10:50 - 01:11:02] en veras que se cortó, volvé de nuevo, luca, ahí se me escuché, ahí te escuché,
+[01:11:02 - 01:11:12] en veras que así, en el que? en sistema veras, en el like, like, cuatro, que así, en el sistema veras que
+[01:11:12 - 01:11:19] así han, el veras que arrancamos así, el esmostero de lo que hacía en veras, donde estaba, el veras es un
+[01:11:19 - 01:11:26] sistema que corresponde prácticamente al banco central de la República Argentina, no importa, es un sistema
+[01:11:26 - 01:11:37] abierto, en donde lo tenemos, capaz que los se res, es un sistema abierto que con el consumo de una
+[01:11:37 - 01:11:42] a la pinta, vos podés pedir información.
+[01:11:42 - 01:11:45] ¿Cómo pedís información con lo que se llama un endpoint?
+[01:11:45 - 01:11:49] ¿Está que es un URL donde definicen dominio?
+[01:11:49 - 01:11:52] ¿Y qué es lo que le vas a pedir?
+[01:11:52 - 01:11:56] Entonces, ¿vuelo que le vas a pedir? ¿Y bueno, ¿vés ser regado o verás?
+[01:11:56 - 01:12:02] Me aguardo. Mandáme todas las deudas de esta persona, de este cliente.
+[01:12:02 - 01:12:10] El mandaste, el quiz. Entonces, te responden, no sé si lo borre,
+[01:12:10 - 01:12:13] te responden, sí, ya lo elimine.
+[01:12:13 - 01:12:18] Cuando vos escribí, lo puedes probar con tu quiz, tranquilamente.
+[01:12:18 - 01:12:25] Por lo que ha sido esto, por lo que ha sido RAA, go.bar,
+[01:12:25 - 01:12:29] y central de adores y acá por el quiz te va a dar una respuesta.
+[01:12:29 - 01:12:34] La respuesta que te da es toda la lógica de cómo genera esa información
+[01:12:34 - 01:12:38] y donde lo busca es propio del verás.
+[01:12:38 - 01:12:43] A vos lo digo que te interesa en tus sistemas que te devuelve un JSON.
+[01:12:43 - 01:12:53] El JSON es un lenguaje de formativo donde tenés clave valor.
+[01:12:53 - 01:12:59] Así lo tengo acá. Si no lo vuelvo a pedir, ejemplo JSON,
+[01:12:59 - 01:13:08] se devuelve clave valor y vuelve a tener que devuelve eso.
+[01:13:08 - 01:13:13] Su sistema tiene que ser capaz de recibir eso y decir,
+[01:13:13 - 01:13:17] bueno, con esto que ador, y bueno, me fijo si tiene deudas, si no tiene deudas,
+[01:13:17 - 01:13:20] si no tiene deudas, si no tiene deudas, si no tiene deudas, si no tiene deudas,
+[01:13:20 - 01:13:27] si tiene deudas que tipo de deudas capaz que salgo que fue con un consumo mínimo,
+[01:13:27 - 01:13:31] entonces ahí tenés que ver cómo.
+[01:13:31 - 01:13:35] Entonces JSON que vos recibir, que es lo que te siente y que es lo que no,
+[01:13:35 - 01:13:38] y que es lo que vas a cargar en tu material creingido.
+[01:13:38 - 01:13:44] Entonces vos saca y digo, bueno, generame JSON y pasáme lo a algo que lo puede entender.
+[01:13:44 - 01:13:47] Si hay deudas, no acabas de tener un trabajo que lo harás,
+[01:13:47 - 01:13:51] es elemento concreto, es elemento concreto.
+[01:13:51 - 01:13:58] Esta clase le pasará lo más importante en la historia del créditicio.
+[01:13:58 - 01:14:05] Entonces, acabo de tener un idioma o de tener algunos comportamientos que ustedes le vean si usted lo colocan.
+[01:14:05 - 01:14:10] Y después de este verás le responde a historial créditicio.
+[01:14:10 - 01:14:21] ¿Por qué? ¿Y le harán a la darece solicitaris por más el externa?
+[01:14:23 - 01:14:34] Van cada un minuto y un pleno historial pariado.
+[01:14:34 - 01:14:40] ¿Y me preguntaste?
+[01:14:40 - 01:14:51] ¿Por qué me les saca el 3 aparece solicitaris por más y en la que ya aparecen en los?
+[01:14:51 - 01:15:01] Porque este es el método abstracto.
+[01:15:01 - 01:15:03] Este es el método abstracto.
+[01:15:03 - 01:15:05] Está de ahora, no hay clase.
+[01:15:06 - 01:15:08] Este es el método abstracto.
+[01:15:08 - 01:15:14] Después de esto, tenés que tener acá cómo le vas a solicitar información al verás.
+[01:15:14 - 01:15:18] Y ahí tenés el método concreto.
+[01:15:18 - 01:15:22] ¿Y qué?
+[01:15:22 - 01:15:29] Cada uno solicitarinfo externo, digamos, es un método generalizado,
+[01:15:29 - 01:15:34] pero después el concreto de cómo me comunico y cómo le solicito información avisa.
+[01:15:35 - 01:15:39] Y cómo le solicito informar verás es totalmente diferente.
+[01:15:39 - 01:15:41] Quería muy raro que esté al mismo.
+[01:15:41 - 01:15:44] Entonces, acabé de tener lo mismo.
+[01:15:44 - 01:15:45] Es una verdad.
+[01:15:45 - 01:15:50] Tendría que tener este método concreto con todo el lenguaje, con toda la programación,
+[01:15:50 - 01:15:55] para realmente comunicar, pedirle información.
+[01:15:55 - 01:16:02] Entonces, esto se opuce.
+[01:16:02 - 01:16:05] Entonces, acá te llegó, ese es un método abstracto.
+[01:16:06 - 01:16:09] Está porque la clase también está extracta y acá le paso realmente al concreto,
+[01:16:09 - 01:16:11] el pilobaje, que gutar es esto.
+[01:16:11 - 01:16:16] Algunos autores que es lo que yo te decía, como tenés un pasamanos,
+[01:16:16 - 01:16:23] porque la realidad es que una clase abstracta tiene su definición, su contrato de los métodos,
+[01:16:23 - 01:16:28] y lo que aseses, es pasarlo de lado para el otro, algunos autores lo obvían.
+[01:16:28 - 01:16:33] Está que van directamente de historia del crediticio al verás.
+[01:16:34 - 01:16:40] La clase concreta, sin pasar por la abstracta o por el método abstracto.
+[01:16:40 - 01:16:45] Vos vas a tener autores que lo utilizan y otros que no.
+[01:16:45 - 01:16:49] Es una herramienta de acuerdo a tus mayores, me voy a ver la entendimiento o salas.
+[01:16:49 - 01:16:53] Yo soy de las que trato de evitar poner una clase abstracta,
+[01:16:53 - 01:16:56] pero cuando empecemos con patrones y la realidad que está bueno,
+[01:16:56 - 01:17:00] porque te da un cierto orden, por eso le use ahora.
+[01:17:01 - 01:17:07] Pero lo que sí que tenés que tener claro es que el método concreto está en la clase concreta.
+[01:17:09 - 01:17:14] El método de solicitar info la basta codificar posiblemente en el verás.
+[01:17:15 - 01:17:17] Profes, ¿por qué?
+[01:17:17 - 01:17:22] En el medio para ver si entiendo lo de las clases abstractas también,
+[01:17:22 - 01:17:25] sería la parte donde está y en el diagrama de clase lo del producto,
+[01:17:25 - 01:17:29] tipo lo de crear producto, se ya lo extracta todo y la clase para que me voy al diagrama de clases.
+[01:17:31 - 01:17:33] ¿Le verá una clase?
+[01:17:33 - 01:17:36] No voy a aprestar.
+[01:17:36 - 01:17:37] Me voy a aprestar.
+[01:17:37 - 01:17:39] Fantástico.
+[01:17:39 - 01:17:42] En lo de aprestar, también sería la luna.
+[01:17:42 - 01:17:46] Quiero crear producto porque aparte tengo una única clase, ¿no?
+[01:17:46 - 01:17:54] Vamos a definir acá, pancáme, abstracta.
+[01:17:54 - 01:18:02] Puedo tener algunos métodos concreto, si tengo un interfaz, no.
+[01:18:03 - 01:18:05] La escriba, no importa.
+[01:18:05 - 01:18:09] Está en la clases.
+[01:18:09 - 01:18:15] Estas son las clases abstractas.
+[01:18:15 - 01:18:20] Si tengo un interfaz, solamente es un contrato.
+[01:18:20 - 01:18:27] Tengo todos los métodos que yo definan acá, donde es la definición.
+[01:18:27 - 01:18:31] No tengo ningún concreto, son todas las abstractas.
+[01:18:31 - 01:18:36] Calculo que como estoy definiendo una abstracta capaz de tener algún método concreto
+[01:18:37 - 01:18:42] que sí, iguales para todos, para todos estos clases.
+[01:18:42 - 01:18:46] Entonces, ¿volveu a repetir tu pregunta que me perdí?
+[01:18:46 - 01:18:50] No, sí, tomando al mismo ejemplo del servicio externo que es una clase abstracta,
+[01:18:50 - 01:18:54] también el préstamo es igual o que prela.
+[01:18:54 - 01:18:57] Porque soy o capaz de crear producto, ¿no?
+[01:18:57 - 01:19:03] Pero no sé, cargar, no sé, sí, crear producto también,
+[01:19:03 - 01:19:07] porque no lo mismo crear el producto impotecario
+[01:19:07 - 01:19:13] y que voy a necesitar tener más datos con todas las cosas.
+[01:19:13 - 01:19:17] No sé, voy a tener que tener otras cosas que tal vez es un préstamo por seno.
+[01:19:17 - 01:19:22] Y ni siquiera tener firma en préstamo personal.
+[01:19:22 - 01:19:29] Entonces, tienen otra naturaleza capaz que hay algunos métodos,
+[01:19:29 - 01:19:31] así que van en las penas de paráblos.
+[01:19:31 - 01:19:35] Si hay vos ves que es la misma funcionalidad dentro de este clase abstracta,
+[01:19:35 - 01:19:37] escribís el concreto.
+[01:19:37 - 01:19:41] Son todas concretas nuestras trantas.
+[01:19:41 - 01:19:48] Al menos una, algún método tiene que hacer abstractos.
+[01:19:48 - 01:19:54] Y pregunta, ¿cómo podría diferenciar lo que sea el edad de interfaz o como un ejemplo para decir
+[01:19:54 - 01:19:56] estas características de interfaz?
+[01:19:56 - 01:19:58] Es un cierto orden, ¿no?
+[01:19:58 - 01:20:03] El interfaz me da un cierto orden y digo, tengo todas las definiciones,
+[01:20:03 - 01:20:07] tengo una estructura, tengo un problema de estructura tan grande,
+[01:20:07 - 01:20:12] tengo muchos clases concretas,
+[01:20:12 - 01:20:18] entonces para vindar un cierto orden lo que hago es generar una interfaz.
+[01:20:18 - 01:20:25] Entonces tengo todo un contrato y después cada clase define cómo hacerlo.
+[01:20:25 - 01:20:29] Pero no tengo ninguna clase concreta dentro de ese interfaz.
+[01:20:29 - 01:20:31] Son todos, es un contrato,
+[01:20:31 - 01:20:36] tengo todo especificado los métodos, la declaración de los métodos.
+[01:20:36 - 01:20:42] No tengo ni una línea de código en cada método.
+[01:20:42 - 01:20:47] ¿Estás celestés?
+[01:20:47 - 01:20:51] ¿Qué está apuntando justo?
+[01:20:51 - 01:20:58] Entonces también les va a pasar, pues también lo aclaro,
+[01:20:58 - 01:21:04] que algunos autores hablan de abstracta interfaz en forma independiente,
+[01:21:04 - 01:21:08] que es eso, en el de Gama, por ejemplo, hablan de todo,
+[01:21:08 - 01:21:11] abstracta es como un sinónimo de interfaz,
+[01:21:11 - 01:21:17] pero cuando vos ves el código de lo que te presentan en el libro de vos
+[01:21:17 - 01:21:21] y vos ves que algún método está desarrollado,
+[01:21:21 - 01:21:23] donde dejó ese interfaz.
+[01:21:23 - 01:21:26] Bueno, ahí hay esas diferencias entre autores,
+[01:21:26 - 01:21:34] pero la famudad de las facultad dice interfaz, son definiciones.
+[01:21:35 - 01:21:39] Gracias a los abstractas, tenés al menos un método abstracto.
+[01:21:39 - 01:21:41] Es la definición.
+[01:21:41 - 01:21:45] Lo que yo voy a hacer es pararme ahora,
+[01:21:45 - 01:21:49] yo voy a subir todo lo que lo tengo,
+[01:21:49 - 01:21:52] y voy a pasar este que está un poquito más lindo,
+[01:21:52 - 01:21:55] está más prolijo.
+[01:21:55 - 01:22:00] Y la idea de la clase de hoy,
+[01:22:00 - 01:22:03] que justamente pueda ver todo lo que es,
+[01:22:04 - 01:22:07] cómo se relacionan todas las vistas,
+[01:22:07 - 01:22:10] y empezar a pensar en el diseño.
+[01:22:10 - 01:22:15] Yo lo que les voy a pedir es que lo hagan,
+[01:22:15 - 01:22:17] que tratan de hacerlo,
+[01:22:17 - 01:22:20] que piensen a algún diagrama de secuencia,
+[01:22:20 - 01:22:23] yo fui muy vaga con el diagrama de secuencia,
+[01:22:23 - 01:22:28] piensen a algún escenario, piensen en cómo tendrían ese HTML,
+[01:22:28 - 01:22:31] por así decirlo, ese interfaz, ese botón,
+[01:22:32 - 01:22:34] y yo le estoy mandando,
+[01:22:34 - 01:22:36] y quién de todos esos controladores, barras,
+[01:22:36 - 01:22:38] gestores, barra, módulos,
+[01:22:38 - 01:22:42] los debería capturar,
+[01:22:42 - 01:22:46] y cómo sería los mensajes entre los objetos.
+[01:22:46 - 01:22:50] La idea es que después la clase que viene empecemos por eso.
+[01:22:50 - 01:22:52] Eso por un lado, segundo,
+[01:22:52 - 01:22:56] es muy importante que hay otro ejercicio
+[01:22:56 - 01:23:10] que ya está hecho un minutito,
+[01:23:10 - 01:23:12] las voy a subir,
+[01:23:12 - 01:23:15] y que es un ejercicio tipo parcial,
+[01:23:15 - 01:23:17] le había dicho que lo ha sido a subir la clase pasada,
+[01:23:17 - 01:23:22] pero quería tener esta clase con ustedes,
+[01:23:22 - 01:23:27] especialmente.
+[01:23:27 - 01:23:30] Hay errores de ortografía,
+[01:23:30 - 01:23:33] todavía no me pude poner bien con esto,
+[01:23:33 - 01:23:37] es que es un ejercicio tipo Xamen,
+[01:23:37 - 01:23:39] lo tomé, y lo hice,
+[01:23:39 - 01:23:43] hay algunas cosas de patrones golf,
+[01:23:43 - 01:23:46] todavía no le den importancia a eso,
+[01:23:46 - 01:23:51] se trata de un ejercicio de gestión de laboratoria
+[01:23:51 - 01:23:54] y de nariz clínicos,
+[01:23:54 - 01:23:58] cuando se dan a sacar sangre.
+[01:23:58 - 01:24:02] En pieza desde lo más básico,
+[01:24:02 - 01:24:04] yo trato de lo que es azul,
+[01:24:04 - 01:24:07] son todos los comentarios,
+[01:24:07 - 01:24:10] y cómo empiezo a trabajar,
+[01:24:10 - 01:24:13] y bueno, empecemos con lo que nos recomienda a la arma,
+[01:24:13 - 01:24:16] a través de frases nominales,
+[01:24:16 - 01:24:19] está acabo recapturándole algunas cosas,
+[01:24:19 - 01:24:25] armo, un diagrama de casos de uso,
+[01:24:25 - 01:24:30] armo un diagrama de actividad,
+[01:24:30 - 01:24:33] me voy con las flases nominales,
+[01:24:33 - 01:24:35] empezo de detectar verbos,
+[01:24:35 - 01:24:38] posibles apributos, posibles clases,
+[01:24:38 - 01:24:41] armo un diagrama de componente inicial,
+[01:24:41 - 01:24:45] les gusta aca lo que suelen hacer,
+[01:24:45 - 01:24:49] cómo lo pueden resolver,
+[01:24:49 - 01:24:51] acá les explico,
+[01:24:51 - 01:24:53] porque los principios de buen diseño,
+[01:24:53 - 01:25:07] y porque llegamos a algo por el estilo,
+[01:25:07 - 01:25:11] bueno, en diagrama de secuencias,
+[01:25:11 - 01:25:13] miren en este diagrama de secuencias,
+[01:25:13 - 01:25:16] cada vez en clase,
+[01:25:16 - 01:25:18] no lo puedo hacer,
+[01:25:18 - 01:25:23] entonces acá tengo una vista,
+[01:25:23 - 01:25:27] el botón, todos los datos que estoy ingresando,
+[01:25:27 - 01:25:31] entonces cómo ustedes podrían armarlo,
+[01:25:31 - 01:25:33] en mi un evento,
+[01:25:33 - 01:25:35] la captura el controller,
+[01:25:35 - 01:25:38] acá tienen el diagrama de secuencias,
+[01:25:38 - 01:25:43] asociado obviamente con esta vista,
+[01:25:43 - 01:25:52] cómo agregando estos métodos,
+[01:25:52 - 01:25:57] empiezo a poblar el diagrama de clases,
+[01:25:57 - 01:26:00] porque está ahí una relación estrecha,
+[01:26:00 - 01:26:02] el diagrama de estado que nos llegamos,
+[01:26:02 - 01:26:04] pero eso lo vimos,
+[01:26:04 - 01:26:06] si yo tengo un diagrama de estado,
+[01:26:06 - 01:26:09] tengo que verificar cuál es el objeto
+[01:26:09 - 01:26:12] que a merece hacer un diagrama de estado,
+[01:26:12 - 01:26:14] se esté en un análisis clíbico,
+[01:26:14 - 01:26:16] y el análisis pasa diferentes,
+[01:26:16 - 01:26:19] estados, entonces si van a ir a la pena,
+[01:26:19 - 01:26:22] entonces acá arme uno,
+[01:26:22 - 01:26:24] y todas estas transiciones,
+[01:26:24 - 01:26:27] pasar por ejemplo de criado trendy,
+[01:26:27 - 01:26:28] de criado cancelado,
+[01:26:28 - 01:26:30] de pendiente proceso,
+[01:26:30 - 01:26:35] cada una de estas lecitas es porque hay un método relacionado,
+[01:26:35 - 01:26:39] en donde lo colocó,
+[01:26:39 - 01:26:41] diagrama de comunicación,
+[01:26:41 - 01:26:47] diagrama de explígue,
+[01:26:47 - 01:26:49] que lo vimos hoy,
+[01:26:49 - 01:26:53] está esto basándome en UML2,
+[01:26:53 - 01:26:58] y cómo queda un poco más lindo,
+[01:26:58 - 01:27:01] y acá termino con el diagrama.
+[01:27:01 - 01:27:04] Vienen que los controladores están en el área superior
+[01:27:04 - 01:27:06] y el modelo de negocio abajo.
+[01:27:06 - 01:27:10] Después, algo que sí está importante que ustedes sepan,
+[01:27:10 - 01:27:12] es que acá nos tenemos otra capa,
+[01:27:12 - 01:27:16] tenemos otra capa,
+[01:27:16 - 01:27:19] es la de datos,
+[01:27:19 - 01:27:21] si eran como yo acá,
+[01:27:21 - 01:27:26] arme suje los HTML que no nos corresponde de la vista,
+[01:27:26 - 01:27:29] acá nos podemos también tenemos el de datos,
+[01:27:29 - 01:27:32] y posiblemente esta clase,
+[01:27:32 - 01:27:33] esta clase,
+[01:27:33 - 01:27:35] la clase que va a la misma tabla,
+[01:27:35 - 01:27:37] no importa,
+[01:27:37 - 01:27:39] hay una relación estrecha,
+[01:27:39 - 01:27:42] entonces acá también hablo un poquito sobre eso.
+[01:27:42 - 01:27:45] Y acá, a partir de qué página es,
+[01:27:45 - 01:27:47] de la 17,
+[01:27:47 - 01:27:50] coloco todas las preguntas que me hicieron,
+[01:27:50 - 01:27:53] en los cuadrimers que casi siempre se repiten,
+[01:27:53 - 01:27:54] y darmente,
+[01:27:54 - 01:27:55] da mucho valor agredado,
+[01:27:55 - 01:27:58] es más creo que la última fue la que me dije,
+[01:27:58 - 01:28:01] acá un tema de insinibilidad,
+[01:28:01 - 01:28:03] le dan lo,
+[01:28:03 - 01:28:06] yo trato de colocar a veces vuelvo a repetir lo que dice el arma,
+[01:28:06 - 01:28:10] lo estrío,
+[01:28:10 - 01:28:12] acá por ejemplo,
+[01:28:12 - 01:28:15] un alumno que hizo este modelo,
+[01:28:15 - 01:28:18] expuse lo que hizo este modelo,
+[01:28:18 - 01:28:21] el compañero,
+[01:28:21 - 01:28:24] los compañeros y después explico cómo mejorarlo,
+[01:28:24 - 01:28:28] a lo que pasa mucho,
+[01:28:28 - 01:28:31] como que se confunden con actoria en la negocio,
+[01:28:31 - 01:28:33] y acá lo hablo también lo estrío,
+[01:28:33 - 01:28:36] está de muchas veces en esto,
+[01:28:36 - 01:28:38] una persona biotímico,
+[01:28:38 - 01:28:40] produedor paciente,
+[01:28:40 - 01:28:42] en el ejemplo que estamos viendo hace en persona,
+[01:28:42 - 01:28:44] ejecutivo de cuenta, cliente,
+[01:28:44 - 01:28:46] no sé, cajero,
+[01:28:46 - 01:28:48] secretario,
+[01:28:48 - 01:28:50] ahí van sumando,
+[01:28:50 - 01:28:52] cajitas, clases,
+[01:28:52 - 01:28:54] y después tenemos un problema de estructura,
+[01:28:54 - 01:28:59] ahí como lo podríamos llegar a resolver,
+[01:28:59 - 01:29:03] acá es lo que suenan a hacer,
+[01:29:03 - 01:29:05] es que sigo sumando,
+[01:29:05 - 01:29:07] los factores,
+[01:29:07 - 01:29:09] la estructura se me va complejizando,
+[01:29:09 - 01:29:11] entonces cómo lo manejamos,
+[01:29:11 - 01:29:12] o cómo se te le manejar,
+[01:29:12 - 01:29:14] usuario perfil para mí,
+[01:29:14 - 01:29:18] y yo no sé,
+[01:29:18 - 01:29:20] ya no me acuerdo esto,
+[01:29:20 - 01:29:21] las referencias,
+[01:29:21 - 01:29:24] y civilidades, esto,
+[01:29:24 - 01:29:27] acá les puse algo también de HTML,
+[01:29:27 - 01:29:33] tratan de velerlo,
+[01:29:33 - 01:29:38] estaba haciendo bien,
+[01:29:38 - 01:29:40] duda, estaba haciendo el diagrama de secuencia
+[01:29:40 - 01:29:42] y nos surgió una duda con respecto a los métodos,
+[01:29:42 - 01:29:44] y me ponen lo que hacen,
+[01:29:44 - 01:29:46] está perfecto,
+[01:29:46 - 01:29:49] bueno lo que hacen y acá está mi respuesta,
+[01:29:49 - 01:29:52] es que creo que no le responde tanto,
+[01:29:52 - 01:29:53] una mi importa,
+[01:29:53 - 01:29:56] la insibilidad siempre me pongan sobre lo mismo,
+[01:29:56 - 01:29:59] y la última,
+[01:29:59 - 01:30:01] que adributos de tener un controller,
+[01:30:01 - 01:30:06] y acá puse duda del ejercicio de gimna,
+[01:30:06 - 01:30:09] que fue la última duda que me escribieron
+[01:30:09 - 01:30:12] y acá está la respuesta,
+[01:30:12 - 01:30:20] realmente importante que le estudian,
+[01:30:20 - 01:30:22] donde se lo voy a estudiar,
+[01:30:22 - 01:30:23] ya se lo ha sube,
+[01:30:23 - 01:30:28] un minutito,
+[01:30:28 - 01:30:30] lean lo,
+[01:30:30 - 01:30:32] estudie, solo tienen que estudiar,
+[01:30:32 - 01:30:36] para mí, este documento es el paso a paso,
+[01:30:36 - 01:30:40] y resuelve muchísimo,
+[01:30:40 - 01:30:43] dan mucho nivel de entretenimiento y cómo arrancar,
+[01:30:43 - 01:30:45] así que se lo voy pasando,
+[01:30:45 - 01:30:46] te dan pacientes,
+[01:30:46 - 01:30:48] hay algún error,
+[01:30:49 - 01:30:51] de autografía,
+[01:30:51 - 01:30:54] o quieren agregar y dar un valor agregado,
+[01:30:54 - 01:30:56] si es todo positivo,
+[01:30:56 - 01:30:58] no tengo ningún problema.
+[01:30:58 - 01:31:01] Después les voy a subir este ejercicio,
+[01:31:01 - 01:31:03] creo que lo tengo por acá,
+[01:31:03 - 01:31:10] a ver,
+[01:31:10 - 01:31:11] yo lo tengo armadito,
+[01:31:11 - 01:31:13] paso a que capaz que no caen,
+[01:31:13 - 01:31:15] no es el mismo que tienen ustedes,
+[01:31:15 - 01:31:17] pero se los voy pasando,
+[01:31:17 - 01:31:18] ahí,
+[01:31:18 - 01:31:21] lo subo,
+[01:31:21 - 01:31:27] y todas maneras lo que les voy a pedir,
+[01:31:27 - 01:31:29] es que le agreguen,
+[01:31:29 - 01:31:31] algún diagrama de secuencia,
+[01:31:31 - 01:31:33] recuerden definir el escenario,
+[01:31:33 - 01:31:36] y que más,
+[01:31:36 - 01:31:38] el idea es comenzar con eso,
+[01:31:38 - 01:31:39] ¿ok?
+[01:31:39 - 01:31:40] Un minutito,
+[01:31:40 - 01:31:42] voy a dejar de compartir,
+[01:31:42 - 01:31:44] voy a colocar lo que vimos,
+[01:31:44 - 01:31:46] la clase de día de hoy,
+[01:31:46 - 01:31:49] está este texto que subo siempre,
+[01:31:49 - 01:31:52] ¿eh?
+[01:31:52 - 01:31:53] Bueno,
+[01:31:53 - 01:31:57] eh, ¿cómo vienen?
+[01:31:57 - 01:31:59] ¿les que ven hoy la cabeza?
+[01:31:59 - 01:32:02] Vamos bien,
+[01:32:02 - 01:32:04] vamos bien, procedemos bien.
+[01:32:04 - 01:32:06] Vamos vivo a proceder.
+[01:32:06 - 01:32:09] Disculpe el que ha hablado,
+[01:32:09 - 01:32:11] pues, 50 ya arranqué,
+[01:32:11 - 01:32:13] pero siempre me piden un ejercicio completo,
+[01:32:13 - 01:32:14] bueno acá lo tienen,
+[01:32:14 - 01:32:17] y es más, les subí el laboratorio,
+[01:32:17 - 01:32:19] que también está todo completo,
+[01:32:19 - 01:32:22] vieron que el diagrama de la clase es de bastante grande.
+[01:32:22 - 01:32:24] Este día,
+[01:32:24 - 01:32:26] y ese documento recuerden que tiene patrones voz,
+[01:32:26 - 01:32:28] que todavía nosotros nos llegamos,
+[01:32:28 - 01:32:30] está, pero bueno,
+[01:32:30 - 01:32:32] la idea es que ustedes lean,
+[01:32:32 - 01:32:34] hasta bueno, patrones voz,
+[01:32:34 - 01:32:36] y si lo entiendan perfecto sigan.
+[01:32:36 - 01:32:38] Nos vemos la clase que viene,
+[01:32:38 - 01:32:40] posiblemente sea virtual,
+[01:32:40 - 01:32:42] porque todavía estoy esperando
+[01:32:42 - 01:32:44] si me daban el aula, no.
+[01:32:44 - 01:32:46] Pero me parece que virtual es como que,
+[01:32:46 - 01:32:49] al tener las arramías de desmas fàgil,
+[01:32:49 - 01:32:53] capaz que la última clase previene,
+[01:32:53 - 01:32:55] el examen si sea presencial.
+[01:32:55 - 01:32:58] Nos vemos.
+[01:32:58 - 01:33:01] Dale, pero fue mucha gracias.
+[01:33:01 - 01:33:03] Dale, pero fue.
+[01:33:03 - 01:33:18] Gracias, gracias.
+[01:33:18 - 01:33:19] Avíro,
+[01:33:19 - 01:33:26] los puedo sacar.
+[01:33:26 - 01:33:28] El go que se quedaron ahí.
+[01:33:28 - 01:33:29] Sí.
+[01:33:29 - 01:33:31] Sí, de sacar,
+[01:33:31 - 01:33:32] no es...
+[01:33:32 - 01:33:34] Yo los hago ahora.
+[01:33:34 - 01:33:35] Sí.
+[01:33:35 - 01:33:37] No sé por qué no me dejó lo menos.
+[01:33:37 - 01:33:38] Sí,
+[01:33:38 - 01:33:42] quedan grabando y...
+[01:33:42 - 01:33:45] Sabian, mientras, pues, estudien, no te comprolen.
+[01:33:45 - 01:33:46] Sí, sí.
+[01:33:46 - 01:33:49] Para que voy a detener la grabación.
+[01:33:49 - 01:33:51] Ah, sí, fundamentalmente.
+[01:33:51 - 01:33:55] Sí, porque...

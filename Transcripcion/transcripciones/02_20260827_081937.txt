@@ -1,0 +1,1888 @@
+# Clase 02 - Completa - 2026-08-27
+Archivo de origen: Teams meeting-20260827_081937-Grabación de la reunión.mp4
+Idioma detectado: es (probabilidad: 1.00)
+Duración estimada del audio: 03:07:48
+
+---
+
+[00:00:02 - 00:00:49] Recuerdan la clase pasada, nosotros, andiéndole de metintadora. Sí, se ve profundo. Recuerdan la clase pasada,
+[00:00:49 - 00:01:07] lo vamos a ver antes de arrancar. Lo que les voy a pedir es dejar acá en una noticia,
+[00:01:07 - 00:01:26] una noticia, que accedan a este Excel, que completen en qué grupo van a partencer,
+[00:01:26 - 00:01:57] no abre este archivo, Excel, acá les cometidos que colocan el número de grupos, el número de grupos,
+[00:01:57 - 00:02:08] se los estudia estignando hasta grupo 1, grupo 2, grupo 3, grupo 4, los que no tengan grupos, después me van avisando.
+[00:02:08 - 00:02:14] Esta la idea es que esta semana la poda cerrar ya que vamos conformados con los grupos.
+[00:02:14 - 00:02:32] Aclaro? Sí, sí. Fantástico, dudas, ¿se que alguien quería hablar?
+[00:02:32 - 00:02:37] No, no, no. Fantástico. Bueno, arranquemos un poco la clase de hoy.
+[00:02:37 - 00:02:44] La clase pasada, nosotros estuvimos viendo en los principios de la ingeniería y estuvimos viendo dos procesos.
+[00:02:45 - 00:02:59] Nosotros vamos a trabajar con dos procesos. Si uno quiere ser muy metólogo y quiere ser cumplir con todas las normas,
+[00:02:59 - 00:03:04] deberíamos hacer solamente un único proceso y no varios.
+[00:03:05 - 00:03:11] La realidad es que esos son los que ustedes ya lo tendrían que ir incorporando de otras materias
+[00:03:11 - 00:03:20] y a mí me gusta trabajar con varios procesos porque vamos tomando las mejores cosas de los procesos.
+[00:03:20 - 00:03:28] Por lo tanto, uno de los procesos que nosotros vimos justamente era ROOP.
+[00:03:29 - 00:03:39] Con ROOP vamos a usarlo más adelante en donde vamos a armar nuestra arquitectura y acuerdos a diferentes listas.
+[00:03:39 - 00:03:45] Más enfocado al más cerca al código.
+[00:03:45 - 00:03:58] Voy a una presentación. Yo tengo que ir evolucionando desde el entendimiento del negocio y evolucionando a sacercarme al código.
+[00:03:59 - 00:04:05] Cada vez que voy tirando voy a ir agregando mayor nivel de cómo va a ser la solución.
+[00:04:05 - 00:04:17] Es decir, voy armando mi arquitectura. Cuando estoy trabajando con ROOP, me brinda muchísimas métodos y buenas prácticas.
+[00:04:18 - 00:04:23] Cuando estoy armando, está cuando me estoy acercando al código.
+[00:04:23 - 00:04:29] Es decir, cuando estoy en lo que ellos denominan el pin, platform independiente en modelo.
+[00:04:29 - 00:04:33] Estoy acercándome al diseño, está bien, es decir, perdón, no me estoy acercando al diseño.
+[00:04:33 - 00:04:37] Estoy en el diseño, estoy modelando ya la solución.
+[00:04:37 - 00:04:42] Muy cercano al código.
+[00:04:43 - 00:04:57] Después, cuando hablamos de otro tipo de metodología como metodología ságil, sólo utilizo,
+[00:04:57 - 00:05:13] utilizo muy fuertemente para el entendimiento del negocio con WX o tener un proyecto muy chico donde no requiero tanto modelado,
+[00:05:14 - 00:05:20] WML porque el proyecto es fácil de entender y hay mucha expertise en el cliente.
+[00:05:20 - 00:05:27] Entonces, me voy a una metodología ságil. Hasta acá está todo claro, ¿no?
+[00:05:27 - 00:05:30] Sí, sí.
+[00:05:30 - 00:05:38] Uno tanto, nosotros, cuando empezamos a empezar con una metodología ságil tipo Scram,
+[00:05:39 - 00:05:44] y obviamente tengo elementos que me propone este tipo de metodología.
+[00:05:44 - 00:06:02] Y nosotros hicimos una especie de ejercicio de la farmación, pero de vez que vamos a empezar a trabajar con el ejercicio de la farmación.
+[00:06:02 - 00:06:06] Y vamos a armarlo de Sama, el Product Pathlock.
+[00:06:08 - 00:06:18] Y cuando te desban a Teams, me voy a estar acá.
+[00:06:18 - 00:06:35] Cuando te desban a Teams, pueden venir acá, sacar expulsar o tocar porque estuve trabajando yo.
+[00:06:35 - 00:06:42] Seguro empezar a armar todas las historias de usuarios.
+[00:06:42 - 00:06:45] Hola, si ustedes son usuarios que detectaron.
+[00:06:45 - 00:06:54] O sea que podríamos llegar a detectar muchísimas más, pero vamos a jugar y a simular con esta.
+[00:06:55 - 00:06:59] Esto es un breve repaso de lo que hicimos la clase pasada.
+[00:06:59 - 00:07:03] Vamos a recordar, estamos ya.
+[00:07:03 - 00:07:08] Sí, sí, estamos bien.
+[00:07:08 - 00:07:17] Si yo quisiera tomar todas las historias de usuarios, a armar un Product Pathlock, a la estilo,
+[00:07:17 - 00:07:28] que finía acá, acá.
+[00:07:33 - 00:07:39] Los coloquieron excel, que se los compartí.
+[00:07:39 - 00:07:50] Acá esto le obró a la puse yo como para tener a ustedes a mano, tiene la responsabilidad de cada historias de usuarios.
+[00:07:50 - 00:07:55] La costa de un montón de historias de usuarios y le dejas poder trabajar con este buglock.
+[00:07:55 - 00:07:59] A empezar a decir, bueno, voy a definir por dónde voy a comentar.
+[00:07:59 - 00:08:10] Ahora, eso es lo que uno utiliza y lo que hace es poder darle una valoración a esas historias de usuarios.
+[00:08:10 - 00:08:28] Por lo tanto, lo que se suele hacer es el grupo de interantes de Scram, supuestamente tienen un barfino en un esquí muy elevado,
+[00:08:28 - 00:08:35] saben técnicamente, estas son informes independientes, trabajan en forma independente,
+[00:08:35 - 00:08:45] están aquí y no nos entienden en el negocio y vamos a tratar de priorizarlo, junto con el cliente.
+[00:08:45 - 00:08:51] Si, no te lo quedamos a hacer, vamos a eliminar un poquito.
+[00:08:51 - 00:08:56] Lo quedamos a hacer es después priorizarlo.
+[00:08:56 - 00:09:06] Y, ¿y acuerdo? Esa priorización que vamos a decir, el nivel para trabajar entre, para hacer que del buglock.
+[00:09:06 - 00:09:12] Ya tengo una prioridad de por dónde empezar.
+[00:09:12 - 00:09:19] Es el sprint.
+[00:09:19 - 00:09:26] El sprint, voy a poder definir perfecto. Una vez que yo ya tengo armado el producto buglock y con el equipo,
+[00:09:26 - 00:09:32] más el cliente que después lo vamos a simular, lo ni importa.
+[00:09:32 - 00:09:41] O sea, defino la criticidad de cada uno, voy a empezar a armar a definir mi sprint buglock y mi trabajo.
+[00:09:41 - 00:09:49] Más allá de que lo vamos a simular, vamos a comenzar con lo que ustedes definieron, esta es de hacer mi sprint buglock.
+[00:09:49 - 00:09:53] Y vamos a comenzar a trabajar.
+[00:09:55 - 00:10:10] Ahora bien, lo que yo voy a comenzar a trabajar con esta metodología, justamente es trabajar con user experience.
+[00:10:10 - 00:10:24] Me había dicho que algo de user, que bien habían visto, no es así. Esto es para saber...
+[00:10:24 - 00:10:26] Sí, se ven material.
+[00:10:26 - 00:10:27] El profundo.
+[00:10:27 - 00:10:31] El nivel de profundidad con el tema nada más. Lo vieron.
+[00:10:31 - 00:10:40] Sí, se ven, definiciones y demás en materiales.
+[00:10:40 - 00:10:48] Por lo tanto, lo que sabemos de User Experience es que es el proceso para poder diseñar unos productos.
+[00:10:48 - 00:10:53] Siempre lo vamos de productos, lo que queremos generar.
+[00:10:53 - 00:10:58] Que sea fácil de usar, que sea agradable, que pueda satisfacer.
+[00:10:59 - 00:11:08] Las necesidades del usuario, lo que solicito hoy, los deseos del usuario, que cumpla con los objetivos del negocio,
+[00:11:08 - 00:11:19] entender que no es una interfaz, no es como se ve la pantalla, sino que es una experiencia de cómo va a funcionar la solución con el cliente.
+[00:11:20 - 00:11:23] Que va a sentir el usuario a usarla.
+[00:11:23 - 00:11:35] Y obviamente, bueno, habla de que está basado en la relación, en la inipatía que va a tener el usuario con la aplicación.
+[00:11:36 - 00:11:47] Es una vista. Es solamente la vista que yo tengo para acercarme al código, sino que es la vista funcional,
+[00:11:47 - 00:11:58] es la vista de utilización para el contenido y el recorrido que utiliza el usuario sea intuitivo, sea agradable.
+[00:11:58 - 00:12:02] Por lo tanto, es una vista que también tenemos que resolver.
+[00:12:03 - 00:12:08] Nosotros, me voy a ir a la... creo que la tengo acá.
+[00:12:08 - 00:12:23] Yo tengo que lograr tener diferentes vistas de la solución y uno que, por ejemplo, el leer es una vista, porque estoy manejando datos.
+[00:12:23 - 00:12:32] El diagrama de clases es una vista. Esto también, yo tengo que ir armando una vista de cómo voy a querer que sea mi solución.
+[00:12:32 - 00:12:37] Por lo tanto, vamos a comenzar a trabajar con UX.
+[00:12:37 - 00:12:44] Lo fundamental de UEX, hay muchas cosas que decíamos hacer una simulación para que todo esto no quede simplemente en algo teórico,
+[00:12:44 - 00:12:49] pero es la investigación, comprender las necesidades del usuario.
+[00:12:49 - 00:12:52] Yo es la investigación, ya un poco la hice a la inmunción.
+[00:12:54 - 00:13:05] Recuerdan que yo les dije, yo soy una... una analista funcional, estuve trabajando con el cliente, entendí sus necesidades.
+[00:13:05 - 00:13:14] Y después fui con el equipo de trabajo y se las planteé, entonces el equipo de trabajo pudo crear las historias de usuario.
+[00:13:14 - 00:13:22] Estamos de acuerdo?
+[00:13:22 - 00:13:23] Sí.
+[00:13:24 - 00:13:26] Me dan una acknowledge cada dando, por lo que si no.
+[00:13:26 - 00:13:29] Puede crear esas historias de español, pudimos crearlas.
+[00:13:29 - 00:13:40] Obviamente vamos a tener que seguir investigando para ver cómo va a ese feedback, cómo es, esa interacción, si realmente es útil o no,
+[00:13:40 - 00:13:44] lo que estamos planteando y cómo podemos mejorarlo.
+[00:13:44 - 00:13:52] Por lo tanto, vamos a tener que hacer una investigación sobre la experiencia que tiene el usuario y así poder hacer,
+[00:13:52 - 00:13:58] unos cambios en esa vista que vamos a ir trabajando.
+[00:13:58 - 00:14:10] UEX se basa en la emocionalidad, yo quiero ver cómo funciona, qué sensaciones tiene el cliente, el usuario,
+[00:14:10 - 00:14:15] el usuario con respecto al uso de la solución.
+[00:14:16 - 00:14:21] ¿Donde vamos a poner mucho foco en esta sección?
+[00:14:21 - 00:14:29] Porque por lo que vamos a ver cómo trabajan las personas, ahora vamos a hablar un poco de luce al person,
+[00:14:29 - 00:14:35] vamos a hablar un poco de prototipados, de cómo interactúan con el diseño.
+[00:14:37 - 00:14:50] Obviamente no nos vamos a meter en marketing y diseño del usual, eso vamos a ir un poco por la tangente, pero no va a ser nuestro foco estaría.
+[00:14:50 - 00:15:04] Por lo tanto, lo que nosotros vamos a querer evaluar es armar un producto que por lo menos sea amigable con el usuario y ver cómo es este proceso de Wiki para llevarlo a cabo.
+[00:15:05 - 00:15:10] Estos teóricos después yo se las voy a ir estudiando.
+[00:15:10 - 00:15:13] ¿Qué es lo que me brinda el diseño centrado de UEX?
+[00:15:13 - 00:15:27] Bueno, una mejor experiencia del usuario está enfocado en el usuario y no tanto en el equipo de desarrollo que tableten un conocimiento técnico mucho más elevado de las personas que le van a utilizar.
+[00:15:27 - 00:15:35] Por lo tanto, saber cuál es la experiencia y el van a tener ellos con la aplicación es muy útil.
+[00:15:35 - 00:15:52] Está enfocado en la facilidad de luz y la eficiencia, me permite si el cliente, si el usuario tiene una relación buena y estrecha con la aplicación,
+[00:15:52 - 00:16:06] yo voy a lograr que realmente lo utilice y que el éxito es la transición de esa aplicación hacia el usuario sea mucho más fácil.
+[00:16:06 - 00:16:13] ¿Para cómo se lleva a cabo el proceso Wiki en estos cuatro pasos?
+[00:16:13 - 00:16:24] Primero investigar y investigación del cliente discutir comprende las necesidades expectativas. Esto es un relevamiento que ya lo viste, yo como una analista.
+[00:16:24 - 00:16:35] Estuve trabajando con el cliente, comprendí sus necesidades, el fuito mando apúnter y después voy a hacer ese diseño con el equipo de trabajo.
+[00:16:35 - 00:16:49] La idea es que estos pasos los vamos a hacer todo juntos. Luego viene el diseño de experiencia de usuarios, que es lo que vamos a trabajar, el desarrollo, que lo vamos a...
+[00:16:49 - 00:16:57] No lo vamos a llegar a simular, pero bueno, viene y después vamos a implementar hacer la transición al cliente.
+[00:16:57 - 00:17:13] Ahora vamos a estar enfocados en esta parte. ¿Cuáles son los elementos fundamentales de Wiki? Primero crear Mi User Person.
+[00:17:13 - 00:17:28] Ahora les vamos a charlar. Crear Mi User Persona es un elemento que me brinda Wiki, que arma un personaje ficticio, obviamente basado en datos de algunos usuarios, pero no son reales,
+[00:17:28 - 00:17:49] que me permiten comprender cómo es persona, quienes son los que van a interactuar con la aplicación. Luego tengo lo que se llama Prueba de Usabilidad, que es observar el usuario, interactuar, ir tomando notas, ver cómo lo puedo mejorar el diseprototipado.
+[00:17:49 - 00:18:05] The Hitmap es otra herramienta que me brinda Wiki, pero es una herramienta para obtener información visual sobre el uso que tiene el usuario con un producto.
+[00:18:05 - 00:18:17] Es una herramienta, es un elemento muy usado, pero cuando ya la aplicación ya está operativa y quiero mejorarla a través de Wiki.
+[00:18:17 - 00:18:32] Eso nosotros no lo vamos a hacer, pero si lo vamos a saber un poquito. User Person, bueno, estas dos, junto con el prototipo, obviamente con el prototipado, con el mockup, ustedes hicieron, etcétera,
+[00:18:32 - 00:18:42] son los elementos fundamentales de Wiki. Lo primero que tenemos que pensar es crear User Person,
+[00:18:42 - 00:19:11] User Person es un elemento, crea un personaje efecticio, está basado en el relevamiento que yo hice previamente, de la solución de si, del negocio, para lograr entender cómo es el usuario, cuáles son su necesidades, cuáles comportamientos, cuáles son sus expectativas, cuáles el nivel de conocimiento tecnológico que tienen,
+[00:19:11 - 00:19:21] el tipo de edad que tienen, cómo es su día a día, en qué lo puede ayudar esta solución.
+[00:19:21 - 00:19:38] Aquí tenemos un User Person, tenemos a Caila, no sé qué es lo que hace Caila, está tomado, este sí está tomado de Internet, me dice, me da una idea de cómo es Caila,
+[00:19:38 - 00:19:53] hasta que tiene alrededor de talitalidad, que cobra determinada cantidad de dinero, que trabaja con la tecnología o no, está cómo es su día a día, cuáles son sus objetivos, sus motivaciones, sus dolencias, ¿está?
+[00:19:53 - 00:20:03] Y me da una idea de cómo va a ser el perfil o uno de los perfiles que va a usar la solución.
+[00:20:07 - 00:20:17] Lo hago para un cliente, una vez que trabajé, entonces digo, ¿cómo va a ser el cliente?
+[00:20:17 - 00:20:36] Lo llame Alberto porque así lo dice, llamar el tipo de la idea que tenía el promedio de edad, cómo era su día a día, cómo trabajaba, ¿qué le hacían sus necesidades, qué lo motivaba a su rol?
+[00:20:36 - 00:20:49] ¿Cómo era su día a día, cuál era sus problemas de su día a día para lograr ver cómo poder ayudarlo con una solución? ¿Evan siguiendo?
+[00:20:49 - 00:20:52] Sí, sí, sí, sí, profe.
+[00:20:54 - 00:21:22] Una vez que yo tengamos a usar perso en que después lo vamos a ir haciendo a los con la aplicación del gimnasio que estamos trabajando, es una herramienta muy utilizada, también como para presentar al responsable, al ordne, al que lleva todo esto a cabo, al dueño, el que nos ha pedido,
+[00:21:23 - 00:21:33] y te hagamos una aplicación que logren entender también, cuáles son las necesidades del usuario, que no son a veces las mismas necesidades que las de él, ¿ok?
+[00:21:33 - 00:21:51] Y si realmente el usuario no lo usa, va a invertir algo que el usuario o sus clientes no lo van a usar, por lo tanto, lograr entender, transmitir esto al que va a pagar, es fundamental,
+[00:21:51 - 00:21:55] y si le ve muchísimo, aunque les parezca de no, sirve muchísimo.
+[00:21:55 - 00:22:03] Prevado a la usabilidad, obviamente yo voy a necesitar el prototipado y es lo que ustedes estuvieron trabajando, pero lo que tengo que hacer con ese prototipado,
+[00:22:03 - 00:22:15] es lo que se llama las pruebas de usabilidad, observar a los usuarios y interactuar con el producto o con el prototipo, y empezar a determinar cuáles son las problemas.
+[00:22:17 - 00:22:39] Y acá me voy a estos famosos siete pasos, es lo que vamos a simular. Tenemos primero planear el 3, buscar a los participantes, algo muy utilizado, es saber que si yo tengo un user-person voy a tratar de buscar un participante similar a esos user-person,
+[00:22:39 - 00:22:52] preparar el material, dir el ambiente, conducir la prueba, ir tomando datos, analizar los datos y reportar los resultados. Esto es lo que vamos haciendo,
+[00:22:52 - 00:23:08] estos son los gitmaps, no los vamos a ver, no llegamos a verlo, está pero es uno de los elementos fundamentales también dentro del list de Wex,
+[00:23:09 - 00:23:15] porque imagínense que yo ya tengo una aplicación funcionando, el usuario me dice, ¿sabes? el dueño, ¿no?
+[00:23:15 - 00:23:27] Y es verdad que no veo que no es muy utilizado, quiero darle un cambio, quiero empezar a usar Wex dentro de mi aplicación,
+[00:23:27 - 00:23:38] bueno lo que yo puedo lograr hacer es utilizar los gitmaps, donde el rojo representa las zonas donde más click hacen,
+[00:23:38 - 00:23:52] entonces ahí es donde yo debería poner más foco para mejorar esa interacción con el usuario, los verdes son zonas menos populares,
+[00:23:52 - 00:24:04] pero que anda bien y después con esto yo tengo un panorama donde debería en poner foco en un rediseño de Wex,
+[00:24:04 - 00:24:13] es uno de los elementos también muy utilizados, bueno vamos a comenzar vamos a hacer pruebas de insabilidad,
+[00:24:13 - 00:24:24] pero para eso tengo que estar dentro de un proceso tengo que entender bien, los borros los bajos chicos,
+[00:24:24 - 00:24:34] pues vamos a empezar, antes de empezar con las pruebas yo tengo que ordenarme, ¿ok?
+[00:24:36 - 00:24:51] entonces siempre va a haber una responsable en Wex siempre va a haber alguien que va a ir ayudando a comodando,
+[00:24:51 - 00:25:02] está liderando un poco, no quiero borrar de la vista, que va a ir a comodar en diva tomar decisiones,
+[00:25:03 - 00:25:09] la realidad es que no todos van a poder tomar decisiones en el momento de que estoy haciendo una análisis de Wex,
+[00:25:09 - 00:25:18] nosotros como comenzamos, igual no ustedes la clase pasada vino el analista, que en este caso fui shop,
+[00:25:18 - 00:25:32] ya había tenido unas reuniones con el cliente, empecé a tomar notas y con esas notas y todo lo que yo les comenté,
+[00:25:32 - 00:25:40] logramos hacer las historias del usuario, obviamente esas historias del usuario necesitan ser ordenadas,
+[00:25:40 - 00:25:48] una vez que identificamos todas esas historias del usuario, logramos identificar las necesidades del usuario,
+[00:25:48 - 00:25:54] armamos una lista, bueno ahora tenemos que empezar a trabajar con ella,
+[00:25:54 - 00:26:01] y hay algo que tenemos que hacer para trabajar con esas historias del usuario, esto es proceso, no es Wex,
+[00:26:01 - 00:26:08] esto es Scram, una vez que logramos tener esas historias del usuario,
+[00:26:08 - 00:26:18] yo tengo que lograr es categorizar las mismas, categorizar las historias del usuario significa agrupar las historias
+[00:26:18 - 00:26:25] y acuerdo algunas características objetivos comunes o algunas funcionalidades que están relacionadas,
+[00:26:25 - 00:26:35] la idea es poder facilitar el analisis y el dissenio para llevarlo a una aplicación,
+[00:26:35 - 00:26:40] yo tengo todo esto y la realidad es que no sé por dónde comenzar,
+[00:26:40 - 00:26:47] por lo tanto uno de los trabajos del analista es poder categorizar esos casos,
+[00:26:47 - 00:26:51] perdón, esos casos de eso yo sé, esas historias del usuario, ¿sabes?
+[00:26:51 - 00:26:59] ¿Cómo lo voy a categorizar? Y esos salos tú ustedes van a tener que tomar una decisión como artes como futuros,
+[00:26:59 - 00:27:04] arquitectos, soluciones y bueno por dónde voy a hacer, cómo las puedo categorizar?
+[00:27:05 - 00:27:13] Y bueno las puedo categorizar por tipo de usuario que me van a inbelovar la funcionalidad,
+[00:27:13 - 00:27:22] entonces de manera tal de que si yo sé quién es el tipo de usuario voy a saber qué es que funcionalidad necesita,
+[00:27:22 - 00:27:31] yo acá lo sé para el por socio, dueño, recepción, está muy encargado y profesor,
+[00:27:31 - 00:27:39] estamos de acuerdo, me pareció que ir una manera sencilla para empezar a ordenar esas historias del usuario,
+[00:27:39 - 00:27:48] tome algunas de ustedes, algunas las las cambien, les agreguen, les sacote,
+[00:27:48 - 00:27:55] cambie un poco la forma en que los escribieron, algunas a veces como estaban,
+[00:27:58 - 00:28:04] pero lo interesante es que dije bueno tengo tantas historias de usuario voy a empezar a categorizarlas,
+[00:28:04 - 00:28:13] esta es yo como sociobatomo socios, yo como profesor, voy como profesor y de tal manera que las empecé a grupar,
+[00:28:13 - 00:28:16] están ahí, lo ven, quedó bonito.
+[00:28:16 - 00:28:18] ¿Qué ordenado?
+[00:28:18 - 00:28:19] ¿Qué ordenado?
+[00:28:20 - 00:28:27] Categorizar es fundamental, lo pueden ordenar como les vuelve a decir, son decisiones que van a tener que ir tomando,
+[00:28:27 - 00:28:33] de cómo van a ir a hacer esa categorización de historias de usuario,
+[00:28:33 - 00:28:42] la pueden hacer a través de tipos, tipo de usuarios, actores, si ustedes están acostumbrados a hablar como,
+[00:28:43 - 00:28:50] si como RUP basándome en casos de uso, también pueden hablar de áreas funcionales o módulos,
+[00:28:50 - 00:28:58] yo cuando me alejo un poco de UX y acercó a la vista de diseño, tengo que ya antes para hablar de
+[00:28:58 - 00:29:05] áreas funcional o módulos, otra forma de categorizarla es muy útil,
+[00:29:06 - 00:29:17] es a través de objetivos o procesos de negocio, por ejemplo que también lo vemos muy cercano a lo que es servicios,
+[00:29:17 - 00:29:23] ya me van a escuchar hablar un poquito de servicios, pero si digo bueno tengo que hacer una reserva de una clase,
+[00:29:23 - 00:29:30] bueno, a grupar esas historias de usuarios de acuerdo al proceso de reserva de clase,
+[00:29:30 - 00:29:34] porque salgo bastante importante, me van siguiendo.
+[00:29:36 - 00:29:49] Es importante que ustedes tengan un orden y poder categorizar esas historias de usuario antes de empezar con el diseño de lo que va a ser la naveación,
+[00:29:49 - 00:30:00] ahora bien, como yo hice una operación o una categorización por usuario,
+[00:30:01 - 00:30:06] me voy acá, creo que con ustedes no lo vi, ¿de por qué hice esto?
+[00:30:06 - 00:30:16] Porque hice muy simple, de una manera muy sencilla, muy simple y se usa el person,
+[00:30:16 - 00:30:26] entonces dije bueno yo detecté que tengo un sociativo, esa sociativa se llama analía,
+[00:30:27 - 00:30:32] porque va, opuse, tengo con el 15 años, ya estoy pasado de los 45 pero no importa,
+[00:30:32 - 00:30:42] la edad de desarrollador entre los 45 y los 50, analía va tres veces por semana al gimnasio y a ella lo que le interesa
+[00:30:42 - 00:30:51] es ir a sus clases, ver que la inscripción le pareció difícil, quiere ver su rutina porque no tiene ganas de todos,
+[00:30:52 - 00:30:57] todas las casas que va a ir a preguntar de la profesión, se le gustaría ver su rutina,
+[00:30:57 - 00:31:04] le interesa saber cuánto pagó y ella usa la tecnología y se siente muy cómoda usar al celular,
+[00:31:04 - 00:31:17] ¿Vieron cómo? Con un user person yo logro transmitir cuál es el perfil del usuario, cuáles son sus necesidades,
+[00:31:17 - 00:31:25] este es muy básico en comparación a los que vimos, acá, voy acá, acá, ¿no?
+[00:31:25 - 00:31:33] ustedes van a tener que armar algo por el estilo uno solo, aunque sea, me voy a otro perfil,
+[00:31:33 - 00:31:42] Juan, el profesor, Juan, hay varios profesores pero Juan tiene alrededor de 40 años,
+[00:31:42 - 00:31:48] los profesores tienen entre 3, en este gimnasio tienen entre 3 y 5 y 50, no menos,
+[00:31:48 - 00:31:59] el objetivo es saber que alumnos tienen cómo organizar sus clases y cómo él está muy enfocado en el área de musculación,
+[00:31:59 - 00:32:07] tiene que armar las rutinas a los clientes, sea sus alumnos, acá me falta una n, importa,
+[00:32:07 - 00:32:14] bueno, cuáles son las necesidades que tienes Juan y necesitas ver las clases, conocer a los inscriptos
+[00:32:14 - 00:32:22] y ver las rutinas de sus alumnos y poder hacer las rutinas, tiene muchos alumnos por clase y es bastante
+[00:32:22 - 00:32:31] te dios suelarado de sus rutinas cuando tiene varios alumnos, me brinda muchísima información del negocio,
+[00:32:32 - 00:32:48] y yo conociendo el perfil, me ayudó muchísimo a armar a categorizar esas historias usuarias,
+[00:32:48 - 00:33:06] entonces vemos, yo voy viendo siempre con las presentaciones porque si no, la presentación queda como un marco teórico
+[00:33:06 - 00:33:16] y nunca van a hacer el macho con la realidad, entonces parece que soy desordenada, pero es como que voy y vengo
+[00:33:16 - 00:33:26] de la teoría la práctica, me van siguiendo una manera de poder asianzar también el conocimiento,
+[00:33:26 - 00:33:38] entonces yo estaba acá, ¿qué onda está extraña? acá me voy abajo acá, ya tengo esta cisteria de usuario,
+[00:33:39 - 00:33:50] en algunas los borrer porque se repetían el agológico, traté de que algunas fueran más pequeñas, simples,
+[00:33:50 - 00:33:57] que no se repitan, bueno, que estén centradas en el usuario obviamente, eso lo cumplieron bastante bien,
+[00:33:57 - 00:34:04] pero el que estén repetidas con un tema lógico había bastantes que hacían la misma funcionalidad,
+[00:34:05 - 00:34:12] una vez que hice eso, categoricé es fundamental categorizar antes de diseñar la navegación como quiero que lo hagas,
+[00:34:12 - 00:34:27] una de las cosas que tenemos que hacer es darle valor estimable, negocio, es por dónde comenzar,
+[00:34:27 - 00:34:35] entonces lo que vamos a hacer es una especie de simulación que también se hace mucho en un proceso de UX por ejemplo con Scram,
+[00:34:35 - 00:34:43] es decir bueno, chattingo un orden, miran que la realidad es que este es mucho mejor, que si yo les digo bueno trabajemos acá,
+[00:34:45 - 00:34:50] bueno no sabe por dónde comenzar, este es un trabajo que los tiene que hacer el analista,
+[00:34:50 - 00:34:56] categorizar la cisteria de usuario,
+[00:34:56 - 00:35:02] entonces yo lo que les voy a decir es que vamos a simular que ustedes,
+[00:35:02 - 00:35:08] son el cliente, yo les conté todos los problemas,
+[00:35:08 - 00:35:12] les conté los problemas que tenían estas personas con el user person,
+[00:35:12 - 00:35:22] les conté un poco que ya hemos trabajado con esto que es el usuario y que vemos que estas son las funcionalidades más importantes,
+[00:35:24 - 00:35:32] vimos que el usuario, lo que el social, voy a hablar de social o alumno,
+[00:35:32 - 00:35:38] el social quiere ver cuando vence la cuota, cuando va a pagar la cuota,
+[00:35:38 - 00:35:43] quiere ver la disponibilidad de las clases,
+[00:35:43 - 00:35:51] ver en cuál está notada y acá quiere estar no les puse,
+[00:35:51 - 00:35:59] quiere ver el tema de las rutinas, me voy a lo al dueño, el dueño tiene otros problemas que resolver,
+[00:35:59 - 00:36:07] como que realmente los alumnos o los socios paguen el plazo acordado y en algunas,
+[00:36:07 - 00:36:12] que tengan todas las cuotas al día,
+[00:36:12 - 00:36:17] quiere asignar dos profesores por turno,
+[00:36:17 - 00:36:25] y uno de las problemas que tienen, que a veces están solapados y nada más,
+[00:36:25 - 00:36:34] ahora el encarado o la recepcionista y quiere saber cuál es son a cada verga,
+[00:36:34 - 00:36:43] que alumnos tienen que pagar, realizarle el pago y que más,
+[00:36:43 - 00:36:48] quieren llevar un registro de los socios y estadísticas,
+[00:36:48 - 00:36:55] anotarlos, inscribirlos que acá no estábamos a hacer otra que está inscripción,
+[00:36:55 - 00:37:04] como profesor quiero ver que los ejercicios poder armarles las rutinas,
+[00:37:04 - 00:37:11] poder personalizarle una rutina, saber cuántas clases voy a dar,
+[00:37:11 - 00:37:15] a dar spinning, cuántos alumnos están anotados en esa clase,
+[00:37:15 - 00:37:20] todos tienen diferentes historias de usuario,
+[00:37:20 - 00:37:26] ahora bien, yo lo que voy a juntar es en una reunión a los,
+[00:37:26 - 00:37:31] a un posiblemente al dueño,
+[00:37:31 - 00:37:36] junto a un posiblemente con algún profesor o la recepcionista,
+[00:37:36 - 00:37:44] vamos a empezar a estimar, estimar no significa cuando tiempo me va a llevar,
+[00:37:44 - 00:37:49] sino que criticidad tiene cada una de estas historias de usuario,
+[00:37:49 - 00:37:54] por eso solo que el calescole que es, vamos a utilizar algo,
+[00:37:54 - 00:38:05] acá es, no, acá es el corazóncito, vamos a utilizar el tilde y el fuerto,
+[00:38:05 - 00:38:12] cada uno, ahí no es el corazón, bueno, importante, fuerto,
+[00:38:12 - 00:38:19] entonces lo que vamos a hacer es un representante por grupo,
+[00:38:19 - 00:38:25] va ir diciendo, va a utilizar tres fueltos y tres tilde,
+[00:38:25 - 00:38:29] y de todo lo que ustedes ven acá va a evaluar la criticidad,
+[00:38:29 - 00:38:35] bueno, este para mí es muy importante, le pongo un fuerto y este para mí es importante,
+[00:38:35 - 00:38:39] pero no es tanto como el cuahito, ok, criticidad uno, ser fuerto,
+[00:38:39 - 00:38:45] criticidad dos es el tilde verde, a los subos van a poder hacer dos,
+[00:38:45 - 00:38:50] dos fuertos y dos tilde, porque son muchos integrantes, ok,
+[00:38:50 - 00:39:00] les voy a dar unos cinco minutos para que puedan leer la historia de usuario
+[00:39:00 - 00:39:08] y poder seleccionar por donde comenzar y así poder ver cuál es la dolencia que tiene el usuario,
+[00:39:08 - 00:39:14] esto, ya sé así, ok, vamos haciendo una simulación,
+[00:39:14 - 00:39:25] les voy dejando, buscunte y cuando vuelvo ya tenemos esto, ¿desparece?
+[00:39:25 - 00:39:40] Bueno, no pongan por poner, eh, hagan con criterio, nos vemos en cinco minutos,
+[00:39:40 - 00:43:28] bueno, ¿cómo vienen? Aún pensando, la idea es,
+[00:43:28 - 00:43:35] la paz que yo sé que a veces no es la clase tradicional, ordenada,
+[00:43:35 - 00:43:43] el gol y vengo, pero la idea es que podamos hacer algo de práctica de todos los conceptos teóricos,
+[00:43:43 - 00:43:51] a veces les damos los profesores y nunca nos podemos plasmar, ¿no?
+[00:43:51 - 00:43:59] Entonces yo acá estoy dándole una criticidad acá,
+[00:43:59 - 00:44:07] uno para saber dónde comenzar, cuando uno, cuando teóricamente hablamos y decirle,
+[00:44:07 - 00:44:12] bueno, tengo que hacer los que sean medibles y coordinar con el cliente para que ha
+[00:44:12 - 00:44:16] de hacer un acuerdo de comenzar con sus mayorías dolentes, bueno, ¿qué significa eso?
+[00:44:16 - 00:44:20] Y bueno, significa, decirlo, bueno, estoy trabajando con INSRA expirio,
+[00:44:20 - 00:44:24] estoy trabajando con UX, estoy haciendo, estoy el usuario,
+[00:44:24 - 00:44:30] empecemos a trabajar y poder ver las dolencias que tiene el cliente.
+[00:44:30 - 00:44:41] Obviamente, después yo como a, como arquitecto o como analista,
+[00:44:41 - 00:44:46] voy a tener que darle una prioridad. Vamos a cortar acá,
+[00:44:46 - 00:44:52] está, pero la idea es que obviamente, si yo veo que ha ido afuera y como sociedad,
+[00:44:52 - 00:44:57] quiero ver cuando vence mi cuota para conocer la fecha de vencimiento y pagar la tiempo,
+[00:44:57 - 00:45:01] porque posiblemente tengo algún, acá falta el para,
+[00:45:01 - 00:45:07] para poder utilizar el descuento de si la pago a término,
+[00:45:07 - 00:45:12] siempre el para es importante, si no tiene algún objetivo, no lo hace.
+[00:45:12 - 00:45:20] ¿Cómo sosia quiero pagar para mantener mi cuenta de liginación, etcétera?
+[00:45:20 - 00:45:25] ¿Cómo sos? Si quiero poder ver cuando vence mi, son muy similares.
+[00:45:25 - 00:45:37] La idea es poder estimarlas donde tengo dos fuertes y posiblemente tengo que comenzar por ahí.
+[00:45:38 - 00:45:45] Si yo comiendo por donde hay más sor dolencia, tengo la posibilidad de poder,
+[00:45:45 - 00:45:50] la garra desde el inicio y tengo la posibilidad de poder iterar más veces esta funcionalidad.
+[00:45:50 - 00:46:04] Acá hay una que, a ver si hay una temestidad por ejemplo,
+[00:46:04 - 00:46:08] en esta, ¿cómo encargado el estimar? Si quiero saber cuántas clases habrá
+[00:46:08 - 00:46:11] lo lado de la semana para poder anunciar las con anterioridad.
+[00:46:11 - 00:46:15] Y la realidad es que no tiene mucha prioridad, no hay una dolencia.
+[00:46:16 - 00:46:18] Eso lo podemos sirviendo más adelante.
+[00:46:18 - 00:46:23] Atacar lo más importante, lo que más me duele al principio,
+[00:46:23 - 00:46:28] me da más tiempo para poder iterar y poder resolver problemas
+[00:46:28 - 00:46:31] y poder mitigar esos riesgos.
+[00:46:31 - 00:46:32] ¿OK?
+[00:46:32 - 00:46:39] Por lo tanto, esta es una forma que se suele hacer para colocar en la criticidad
+[00:46:39 - 00:46:42] a la funcionalidad.
+[00:46:43 - 00:46:48] Bueno, vamos a una vez que yo tenlo esto, no es necesario salir,
+[00:46:48 - 00:46:51] una vez que yo tenlo esto, también con mi máquina.
+[00:46:51 - 00:46:54] ¿Y está moviendo?
+[00:46:54 - 00:47:00] Una vez que yo tenlo esto digo bueno, voy a llevarlo acá a la de la prioridad
+[00:47:00 - 00:47:09] alta media baja y puedo definir de acuerdo a esa prioridad en la vuelta.
+[00:47:10 - 00:47:16] Yo voy a ir en un pulver, voy a poder definir y esto ya va.
+[00:47:16 - 00:47:24] Voy a poder definir todo mi producto, el streambaglo inicial
+[00:47:24 - 00:47:27] o uno de las primeras para poder comenzar.
+[00:47:27 - 00:47:28] ¿OK?
+[00:47:28 - 00:47:32] Siempre la idea es comenzar por donde tengo más riesgo y donde tengo
+[00:47:32 - 00:47:35] más riesgo son las que tengo más prioridades.
+[00:47:35 - 00:47:36] ¿OK?
+[00:47:36 - 00:47:42] Yo todo esto lo lleve a este excel.
+[00:47:43 - 00:47:47] Vamos acá hasta el de Miranda, ¿OK?
+[00:47:47 - 00:47:57] Y lo lleve algo relacionado a esto, esto que escribimos viendo también.
+[00:47:57 - 00:47:59] ¿OK?
+[00:47:59 - 00:48:04] Estoy en suario, faltan los criterios de aceptación, el stream.
+[00:48:04 - 00:48:15] Bueno, yo voy a trabajar una vez que categorice,
+[00:48:15 - 00:48:19] imperialice, categorizar no es solamente poner los ordenados
+[00:48:19 - 00:48:21] y en una lista, ¿eh?
+[00:48:21 - 00:48:26] Lo categorizarnos, permite, si yo tengo 30 historias de usuario como tenía acá,
+[00:48:26 - 00:48:33] tenía muchas más, a lo una las borrepo que si no era ni posible hacer todo,
+[00:48:33 - 00:48:34] ¿ok?
+[00:48:34 - 00:48:37] A lo menos estaban repetidas y importas.
+[00:48:37 - 00:48:42] Si tengo 30 historias de usuario, después esto lo tengo que ver reflejado en el sistema.
+[00:48:42 - 00:48:48] Y a veces lo que sucede es que pensamos que una historia de usuario es una pantalla.
+[00:48:49 - 00:48:52] Entonces, si tengo 30 historias de usuario, de una 30 pantalla,
+[00:48:52 - 00:48:55] y la realidad es que no es así.
+[00:48:55 - 00:48:59] Yo tengo que empezar a categorizarlos para poder ordenarlo
+[00:48:59 - 00:49:05] y empezar a pensar cómo va a ser mi interfaz.
+[00:49:05 - 00:49:07] ¿OK?
+[00:49:07 - 00:49:09] Porque no es que hay uno a uno, ¿no?
+[00:49:09 - 00:49:13] Es que tengo un historiario o una interfaz o una pantalla, ¿no?
+[00:49:13 - 00:49:18] Tengo que ir armándolo para ver cómo va a ser mi idea de la más de navegación.
+[00:49:18 - 00:49:22] Entonces, me voy un poquito más para abajo.
+[00:49:22 - 00:49:27] Y me voy, están viendo acá en el diagrama muy chica muy intacta.
+[00:49:27 - 00:49:31] También, el diagrama de navegación que les armé.
+[00:49:31 - 00:49:33] Sí, es un diagrama de navegación.
+[00:49:33 - 00:49:38] Bueno, es una representación con una estructura de navegación de la aplicación,
+[00:49:38 - 00:49:39] ¿sabes?
+[00:49:39 - 00:49:44] ¿Dónde va a mostrar las principales pantallas, vistas o funcionalidades que le quiero agregar?
+[00:49:44 - 00:49:47] ¿Y cómo se relacionan entre ellas?
+[00:49:47 - 00:49:52] El usuario de esta manera, como es de navegación,
+[00:49:52 - 00:49:58] va a saber por dónde está, dónde puede ir, cómo va a interactuar.
+[00:49:58 - 00:50:02] Yo tengo que tener un cierto orden de todo esto.
+[00:50:02 - 00:50:05] Bueno, ¿cómo puedo reflejar todo esto?
+[00:50:05 - 00:50:13] En un diagrama, cómo va a interactuar el usuario con las pantallas.
+[00:50:13 - 00:50:16] Entonces, ¿está armo un diagrama de navegación?
+[00:50:16 - 00:50:19] ¿OK?
+[00:50:19 - 00:50:21] Acá le puso una definición.
+[00:50:21 - 00:50:26] Es un mapa visual que muestra cómo se conectan las distintas pantallas
+[00:50:26 - 00:50:29] y por dónde podemos ver el usuario.
+[00:50:29 - 00:50:39] ¿OK? Esto lo van a hacer también, de acuerdo a decisiones arquitectónicas que ustedes tomen.
+[00:50:39 - 00:50:43] Yo digo, bueno, voy a hacer el diagrama de navegación, acá está apuntado.
+[00:50:43 - 00:50:45] Pasan de no sé, pues, están todos arriba, pero dicen,
+[00:50:45 - 00:50:48] ¿cómo va a interactuar el diagrama de navegación del usuario?
+[00:50:48 - 00:50:51] Creo que no me acuerdo que dice.
+[00:50:51 - 00:50:55] A ver ahí, ¿ap de, a ver clara, Lucas, a ver el cine?
+[00:50:55 - 00:50:58] ¿Qué puse? No me acuerdo de puse.
+[00:50:58 - 00:51:00] ¿Ves socios? ¿OK?
+[00:51:00 - 00:51:05] Entonces, me va a ser en la del socios y digo, ¿cómo voy a armar?
+[00:51:05 - 00:51:07] ¿Estoy diagrama de navegación?
+[00:51:07 - 00:51:09] ¿Ey?
+[00:51:09 - 00:51:12] Una historia del usuario no equivale una pantalla,
+[00:51:12 - 00:51:15] por lo tanto tengo que ir armando todo esto.
+[00:51:15 - 00:51:19] No tengo todas estas necesidades. ¿Cómo lo puedo ir armando?
+[00:51:19 - 00:51:21] Y tengo que ir pensando.
+[00:51:21 - 00:51:25] Y tengo que ir armando ese diagrama de navegación.
+[00:51:25 - 00:51:29] ¿Cómo se construye un diagrama de navegación? ¿Cómo lo que hicimos?
+[00:51:29 - 00:51:32] El primer paso, identificamos del detalle del usuario.
+[00:51:32 - 00:51:35] Segundo paso, categorizamos las historias del usuario,
+[00:51:35 - 00:51:37] y tenemos que estar aquí.
+[00:51:37 - 00:51:41] Y de esa manera, categorizando, puedo ir viendo las salas fusionales.
+[00:51:41 - 00:51:44] Una vez que yo separe, acá, empiezo a separar también.
+[00:51:44 - 00:51:48] Empezó a otra categorización del socios.
+[00:51:48 - 00:51:52] Y bueno, ¿y dónde veo?
+[00:51:52 - 00:51:57] Volvo a categorizar, y ahí empiezo a identificar las posibles pantasas
+[00:51:57 - 00:51:58] que voy a tener.
+[00:51:58 - 00:52:03] Volvo a decir, categorice, usuarios, y después volvo a categorizar.
+[00:52:03 - 00:52:07] Yo he ido a categorizar por funcionalidad, ¿OK?
+[00:52:07 - 00:52:10] Que es lo que necesito que el sociodea.
+[00:52:10 - 00:52:16] Y una vez que el logre categorizarla de la misma manera,
+[00:52:16 - 00:52:19] empiezo a identificar las pantallas.
+[00:52:19 - 00:52:22] Y cómo voy a relacionar esas pantallas.
+[00:52:22 - 00:52:30] Y de acuerdo a eso, armó el diagrama de navegación.
+[00:52:30 - 00:52:32] Me van siguiendo.
+[00:52:32 - 00:52:36] Y perfecto.
+[00:52:36 - 00:52:37] Sí, sí.
+[00:52:37 - 00:52:43] Esto no es mágico, no es que lo pienso, ya parece mágicamente,
+[00:52:43 - 00:52:45] sino que hay un trabajo de análisis.
+[00:52:45 - 00:52:48] Esto lo tuvieron que agarrar el análisis.
+[00:52:48 - 00:52:51] Y ahora lo he visto en un trabajo de análisis acá.
+[00:52:51 - 00:52:57] Entonces, una vez que tengo el diagrama de navegación,
+[00:52:57 - 00:53:02] tenemos que volver a la historia del usuario y comprobar que toda la funcionalidad
+[00:53:02 - 00:53:07] es que yo haya tenido definido acá, la soporta esta navegación.
+[00:53:07 - 00:53:08] ¿OK?
+[00:53:08 - 00:53:12] Yo acaso la mente dice una, ¿cuál dice la del socios?
+[00:53:12 - 00:53:21] No, siendo, pero para no olvidarme de definir alguna pantalla,
+[00:53:21 - 00:53:26] ¿está donde se tiene que mover el usuario, tengo que volver a repasar la historia del usuario
+[00:53:26 - 00:53:33] y ver si hubo con este diagrama todas las necesidades del usuario.
+[00:53:33 - 00:53:40] Acá en este diagrama no representan lasributos, ni metos, ni redactiones ni biencias,
+[00:53:40 - 00:53:42] ni tabla, ni metos, ni el derno.
+[00:53:42 - 00:53:48] No tengo absolutamente nada, eso lo voy a ver en otra vista.
+[00:53:48 - 00:53:50] O otra vista.
+[00:53:50 - 00:53:59] Yo tengo varias listas para representar al hombre.
+[00:53:59 - 00:54:06] Acá estoy haciendo una vista de lo que voy a querer hacer.
+[00:54:06 - 00:54:22] Bueno, un minutito de tengo un poco.
+[00:54:22 - 00:54:23] ¿Duda?
+[00:54:23 - 00:54:28] Bueno, mi parte no.
+[00:54:28 - 00:54:33] Sí, profe, el diagrama de una navegación se hace por cada usuario, ¿no?
+[00:54:33 - 00:54:35] O al final, tengo que combinarlas a todas.
+[00:54:35 - 00:54:37] ¿Cómo lo categorizas?
+[00:54:37 - 00:54:38] ¿Sí?
+[00:54:38 - 00:54:43] ¿De acuerdo a tus necesidades y a lo que quieras?
+[00:54:43 - 00:54:54] Yo lo que no tiene es que siempre hay una decisión de análisis y de diseño que vas a empezar a tener que tomar.
+[00:54:54 - 00:55:00] Obviamente ahí un minutito.
+[00:55:00 - 00:55:06] Ahí lo que vas a tener que decir es por dónde comienzo.
+[00:55:06 - 00:55:15] Y la realidad es que no hay un proceso que te recomiende por dónde comenzar.
+[00:55:15 - 00:55:21] Yo lo que no te acá es decir, bueno, tengo diferentes necesidades muy opuestas.
+[00:55:21 - 00:55:22] No es lo mismo.
+[00:55:22 - 00:55:28] Las necesidades que tienen el dueño que están tocado en cobrar con las necesidades que tienen el profesor.
+[00:55:28 - 00:55:32] Por eso, mis quieras importantes y pagaste, no pagaste.
+[00:55:32 - 00:55:39] Yo sé que bueno, voy a hacer una primera categorización de necesidades y de acuerdo a eso.
+[00:55:39 - 00:55:41] Ahora veo que escribieron porque no.
+[00:55:41 - 00:55:52] Y de acuerdo a eso, lo que voy a hacer es después, una vez que ya lo te lo habido,
+[00:55:52 - 00:55:56] separarlo pero a nivel funcional, categorizarlo con nivel funcional.
+[00:55:56 - 00:56:01] Una vez que categoricían nivel funcional, digo bueno, tengo el pago, acá lo puse.
+[00:56:01 - 00:56:09] Tengo el pago, tengo las rutinas, tengo las clases, y lo también que tengan notificaciones.
+[00:56:09 - 00:56:11] Acá me faltó la N, ¿eh? ¿Cuándo importa?
+[00:56:11 - 00:56:21] Notificaciones y tengo posiblemente en todos, tengo perfil para ver la interfoto, también la pago básico.
+[00:56:21 - 00:56:31] Y siquiera está más en la cisterio de usuario, pero necesito darle, darle un área a poder manejar sus datos personales.
+[00:56:31 - 00:56:40] Eso es la experiencia también, ¿no? Es decir, bueno, me falta esto y hacerme una de ahora a manera de asion.
+[00:56:40 - 00:56:45] Y haciéndole la gama de navegación, detecto que no tengo un historio de usuario lo coloco,
+[00:56:45 - 00:56:53] porque el grupo de trabajo de desarrollo va a trabajar con el historio de usuario.
+[00:56:53 - 00:57:03] Recuerden que siempre el diseño o el análisis esté, si te da es iterativo e incrementarlo a de un lado para el otro.
+[00:57:03 - 00:57:08] Uye, se da a dar la gama de navegación, me olvide el perfil, bueno, vengo acá y agrego una perfecto.
+[00:57:08 - 00:57:10] ¿Ok?
+[00:57:10 - 00:57:13] Perfecto.
+[00:57:13 - 00:57:18] Yo tengo que liclar, o es, voy, se van retroalimentando por así decirlo.
+[00:57:18 - 00:57:26] Categorizar historios no es hacerle agromanaveaciones, el mecanismo, de análisis y diseño,
+[00:57:26 - 00:57:34] que me permite organizarme para poder tener todo este modelo de estructura, ¿sabes? ¿Cómo vas a la interacción del interfaz?
+[00:57:37 - 00:57:46] Es una consecuencia, yo lo necesito para como una herramienta para poder llegar a este diagrama.
+[00:57:46 - 00:57:53] Y después es un idioma, vuelvo a decir una vez que yo lo tengo, tengo que agarrar todas esas historias de usuario
+[00:57:53 - 00:58:00] y ver si cumple todas las funcionalidades que yo haya definido acá en este diagrama de navegación.
+[00:58:01 - 00:58:11] Si alguna, el algún proceso requiere alguna pantalla extra o la puedo cumplir con alguna pantalla que yo haya definido acá.
+[00:58:11 - 00:58:19] Si yo veo que detecté, por ejemplo, el perfil, el perfil no está, me vengo acá y lo coloco.
+[00:58:19 - 00:58:23] Si me lo voy a colocar acá, el perfil, creo que lo cuise por acá.
+[00:58:24 - 00:58:34] Acá yo buce esta, por ejemplo, que pueden desalporecer, poder iniciar sesión, aviones, la puse, básicas.
+[00:58:34 - 00:58:45] Entonces, el diseño recuerda que es iterativo, intervental y va de un lado para el otro.
+[00:58:45 - 00:58:49] ¿Dudas? Muy buenas, la pregunta, dudas.
+[00:58:49 - 00:58:54] Profetodo esto sería parte del product backlog para siempre parar el sprint, ¿no?
+[00:58:55 - 00:59:03] ¿Qué tristeza? Pero sí. Yo había ni concesaste con el sprint. Pues estamos un paso previo, yo estoy mezclando varios conceptos.
+[00:59:03 - 00:59:10] Ahora acá, me voy a poner, estoy mezclando varios conceptos.
+[00:59:10 - 00:59:22] El primer concepto que estoy porque la realidad es que yo no puedo trabajar en un hilo aislado, de chiral y no, yo soy WX y el equipo de desarrollo de crám,
+[00:59:23 - 00:59:41] que va a desarrollarlo, me está esperando. La realidad es que no funciona así. Está todo muy, el equipo de crám está esperando que yo como WX, por lo menos unas pantallas para empezar a programarlo.
+[00:59:42 - 00:59:54] Lo que yo estoy tratando de hacer es, amando una vista, pero es termino de armar un brazo, ya tengo al otro que es a otro grupo que me decimos,
+[00:59:54 - 01:00:14] vamos a colocar músculos, ¿ok? Entonces, ¿qué es lo que hago? A una especie de cambán, también estoy incluyendo otra, yo creo que le explique el cambán.
+[01:00:15 - 01:00:31] Están más de otro proceso, no es de, yo a veces de, estos son las tarjetas de usuario por así decirlo, o proceso, o tarea, o acciones, que importa, tarea, no acciones, tarea, que tienen diferentes estados.
+[01:00:32 - 01:00:47] Yo voy transicionando de un estado de otro de acuerdo al estadio en el cual me encuentre. Entonces, tengo por ejemplo, en el perfil, lo tenemos en el barrio, lo pase a tu, bueno, una vez que terminaba, estoy haciendo lo tomo, lo paso en este estado.
+[01:00:48 - 01:01:02] ¿Por qué le necesito eso? Porque lo que sucede en la vida real es que todos estamos trabajando y queremos acelerar el proceso de la construcción del sistema.
+[01:01:02 - 01:01:18] Entonces digo, bueno, tengo acá, en el Spring 1, recién inicio, voy a tomar algunos historias de usuario y voy a comenzar a trabajar, pero aquí me va a trabajar y las responsables de Wiki, en este caso soy yo.
+[01:01:20 - 01:01:40] Una vez que termín, y lo tengo cerrado, recién ahí, empieza a trabajar, posiblemente en el Spring 2, el área del desarrollo, o la gente del extremo, este ya lo terminaría, me voy con otro, en el Spring 2, Wiki, la gente de Wiki, pasé de otros.
+[01:01:42 - 01:01:59] Entonces, así, perdón con la pregunta tonta, ver que es ahora, ahora te lo leo, entonces así voy a ir haciendo que el equipo de desarrollo puede tener continuidad y que no haya una espera eterna. Me van siguiendo.
+[01:01:59 - 01:02:06] Sí, sí, profe, la característica mentales, es que hagi, hagi, la verdad.
+[01:02:06 - 01:02:26] Pero metí, estoy haciendo una mezcla de todo, porque ahí como se trabaja realmente, no puedo esperar, hasta que no termine Wiki, yo no tengo nada, no, a medida que va a terminar, no, me va pasando y yo, el integrante de programación, aula así para que me vayan entendiendo, lo tomo y empiezo.
+[01:02:27 - 01:02:55] Aguadame, quiero leer lo que me pusieron, preguntan por que a veces no llevo a leerlo, habéis tenido la pesta, un minuto. ¿Cuál es la? ¿Cuál es la diferencia entre tener algo en el paqulo y en el tu lu, o sea, entiendo a que se refiere y que se preparo para hacerse, pero no terminan de entenderlo, fantástico, cedrico.
+[01:02:56 - 01:03:17] La realidad es que yo acá estoy metiendo dos procesos, uno que se les cram, que el cram maneja el backlog, el lenguaje que maneja el cram, es que todos los requerimientos se denominan backlog, ¿ok? ¿Estás por ahí, Federico?
+[01:03:17 - 01:03:26] Ahí se escucha. Ahí está. Estás en el par de micrófono porque no me estaban dando, pero sí.
+[01:03:27 - 01:03:51] Esta mayoría que escribes por esto, bueno, pero quería saber si estaba, entonces el lenguaje que utiliza es cram, es producir paqulo. Ahora bien, yo acá estoy haciendo una mezcla también, estoy usando otro proceso y el proceso que estoy utilizando, ¿por qué? ¿Por qué? Porque vayan a la realidad es que no quiero hacer como ustedes una simulación exclusivamente de Wiki, creo que vean cómo realmente funciona todo.
+[01:03:52 - 01:04:20] Entonces también me meto con otro proceso de ágil que es Kanban, Tanban también es un proceso ágil, pero está más enfocado a la industria, y este industria tiene un paso a paso bien, bien determinado y lo que hace es manejar requerimientos que puede ser simul similar al historio de usuario por así decirlo.
+[01:04:20 - 01:04:27] Pero lo que va pasando va transicionando de estado estado, en estado de definitivo yo de acuerdo a mis necesidades.
+[01:04:27 - 01:04:48] En acá por ejemplo este es un ejemplo, tengo buglock que sería todo dentro de buglock, el tudo sería por ejemplo en sprint que yo voy a decidir o estoy haciendo lo, sería el espiritual, me va siguiendo y lo he hecho ya está terminado.
+[01:04:48 - 01:04:50] Claro.
+[01:04:50 - 01:05:04] Pero tengo que empezar a relacionar esto, ¿cómo lo puedo relacionar? Yo acá les mostré algo que podría llegar a relacionar lo tengo, todo mi buglock.
+[01:05:04 - 01:05:32] Es más, a veces imagínate que estás en un trabajo donde manejas tickets, gente que no se está trabajando en una empresa X y te lo andan tickets, no me andan la impresora, no me andan esto, no me andan tal más, se me ha rompido la computadora, pasas que escriban ¿no?
+[01:05:32 - 01:05:40] Y tu es tu buglock, también es un buglock porque es una lista de todas las cosas que tienes que hacer.
+[01:05:40 - 01:05:59] Entonces vas tomando ahí realmente justificos a un canban, no un escram, entonces me voy a decir bueno tengo mi buglock, a ver cuál es el que el más crítico y primero la credicidad lo voy a definir yo y empezar primero te va a decir por el dueño del dueño del empresa.
+[01:05:59 - 01:06:04] Pues solverle eso, aunque me va siguiendo, ¿cómo vas a definir el criterio?
+[01:06:04 - 01:06:15] O sea para ver si entendí bien, o sea es como uno dice bueno tengo una metodología escram que tiene buglock haciendo y hecho como que no tiene más riesgo y después trámbal le pueda agregar más cosas.
+[01:06:16 - 01:06:49] La realidad es que es muy difícil trabajar con una metodología única y pura, es muy difícil trabajar hoy en día con una metodología pura, por eso soy si en la primera clase es muy bueno porque esto remarca algunos conceptos que yo siempre quieren gluir es me voy a lo primero que les dicen recordar esto.
+[01:06:50 - 01:07:01] La primera clase pasada dice el proceso que se va construyendo y es sólo tengo que ir modificando, no me acuerdo en esta vaca.
+[01:07:01 - 01:07:04] Yo tengo que ir a guardar.
+[01:07:04 - 01:07:10] Es un gran puro ni tampoco canban puro sino bueno, buscas como generar algo que les sirva.
+[01:07:10 - 01:07:20] Claro porque vos acá tenés tus buenas prácticas y obviamente la realidad uno de los grandes fracasos de Rook fue que la gente lo que usar completamente puro.
+[01:07:20 - 01:07:26] Entonces es un proceso con una ceremonia tan fuerte que la realidad no servía.
+[01:07:27 - 01:07:32] Entonces hay un cambio de rumbo y nos pasamos a los ágiles. ¿Cuál está buenísimo?
+[01:07:32 - 01:07:41] Pero si vos estás usando por ejemplo myqp, no programación extrema, no sé si lo vieran programación extrema, lo vieran?
+[01:07:41 - 01:07:45] Recuerdo.
+[01:07:46 - 01:08:01] Bueno programación extrema es otra metodología que una de las buenas prácticas que ellos recomendaban es como una vida, ni un arquitecto, ni un hirtecnic, ni pensé bueno saben qué programen de a dos.
+[01:08:01 - 01:08:05] Entonces uno programa ve y otro reviraba, reisaba.
+[01:08:05 - 01:08:08] Claro.
+[01:08:09 - 01:08:13] El mejor que me pueden hacer es que me miren la computadora.
+[01:08:13 - 01:08:17] Es algo que lo detesto. Imaginaste si yo tengo que hacer.
+[01:08:17 - 01:08:29] Ahora para myqp, todo lo que es eso pero en vez de que realmente hacerlo así tan puro como me lo define el proceso y vamos a ver cosas.
+[01:08:29 - 01:08:32] Yo programo y que después me lo revise.
+[01:08:32 - 01:08:37] Claro, sí. O sea, buscadre la parte positiva sin la negativa.
+[01:08:37 - 01:08:51] Tener que customizar con un figurar de acuerdo a tus necesidades. Ahora, si yo estoy trabajando con un equipo súper, con un señor y muy elevado,
+[01:08:51 - 01:08:58] creo que se que programa en forma elegante, divino y la realidad pero tengo necesidad y quiero hacer esto.
+[01:08:58 - 01:09:01] Claro.
+[01:09:01 - 01:09:12] Ahora, estoy entrando ahí en nuevo, realmente todavía no conoce la tecnología y luego, a ver qué es eso, entonces conmigo y mirando un tiempo.
+[01:09:12 - 01:09:22] Estoy haciendo el equipo de programación extrema pero con un tiempo determinado, estoy configurando, estoy cambiando, estoy de acuerdo.
+[01:09:22 - 01:09:39] Siempre dicen, ¿vos tienes que configurar tu proceso de acuerdo a tu momento, tu conocimiento de tecnología, conocimiento también de complejidad técnica, complejidad de gestión y la organización?
+[01:09:40 - 01:09:45] ¿Qué es lo que está sucediendo y está ingresando una persona nueva o a laения de hacerle con el Xper?
+[01:09:45 - 01:09:59] Ahora, lo que te habilita la posibilidad de conocer XPE, SRAM, CANBA, es que ya con una zona palabra cero, o se está sentiendo a dónde quiera apuntar.
+[01:09:59 - 01:10:04] donde yo quiero apuntar, yo estoy de hoja, es que hagamos algo tipo carbon, hagamos unos
+[01:10:04 - 01:10:14] estados que vaya pasando el backlog, hoy vengan de eso. Bueno, entonces te da un montón
+[01:10:14 - 01:10:21] de conocimiento para poder manejarte y entender de qué se trata esto. Ok?
+[01:10:21 - 01:10:26] No, no, sí, gracias. Fíjamos, no me acuerdo por dónde quedes.
+[01:10:26 - 01:10:37] Bueno, no importa, lo parezco. Bueno, esperemos que me...
+[01:10:37 - 01:10:50] Bueno, una vez que yo tengo este diagrama de navegación, digo bueno, voy a empezar, voy a empezar armar, yo soy
+[01:10:50 - 01:10:56] de U, X, de U, y U se estirian. Yo bueno, voy a empezar armar, voy a tomar siempre
+[01:10:56 - 01:11:03] me vas en escram en las historias de usuario, si estuvieran rum, me basaría para guiar ese
+[01:11:03 - 01:11:08] proceso con casos de uso. Acá me vas con la historia de uso, yo digo bueno voy a agarrar una,
+[01:11:08 - 01:11:20] en amarillito, ya porque estoy de uso de audio, voy a agarrar una, una rara una sencilla,
+[01:11:20 - 01:11:30] acá lo veo, acá como usuario, la puedo escribir, cómo socio del gimnasio, quiero poder
+[01:11:30 - 01:11:36] iniciar sesiones, lab y contar con opciones de la vida de mi usuario, de mi contraseña para
+[01:11:36 - 01:11:41] recuperar el acceso a mi cuenta de forma rápida y sencilla en caso de no recordar mi datos.
+[01:11:41 - 01:11:49] De tal manera que evito, que no la use, yo quiero que use la herramienta, evito que molestar
+[01:11:49 - 01:11:56] a las secretarias, sabes que no puede empezar, la blanquía me la clave, pero se van a decir
+[01:11:56 - 01:12:05] la blanquía me la clave, pero bueno, entonces te pienso, yo soy de U, y digo bueno tengo
+[01:12:05 - 01:12:19] que armar un prototipado, un banque en medio minutito, un minutito, voy a copiar a ella,
+[01:12:19 - 01:12:45] sí, si lo tenemos a mano, voy a usar el esto, para armar el prototipado, yo necesito
+[01:12:45 - 01:13:02] armar el prototipado, esto, perdón, confundío hoy, cuatro pasos, tengo que empezar a hacer esto,
+[01:13:02 - 01:13:07] tengo que empezar a armar el prototipo, el prototipo también es un elemento de UX,
+[01:13:08 - 01:13:13] ahora cuándo voy a armar el prototipo y no voy a bajar en un historio usuario,
+[01:13:13 - 01:13:19] y digo bueno vamos a hacerle también el inicio, el bienvenido de la universidad,
+[01:13:19 - 01:13:32] un tito acá, ustedes están desarrollando, a mí me sirve muchísimo,
+[01:13:32 - 01:13:36] ¿qué pasa? porque también es un Sarshobmail, ¿conozco el Sarshobmail?
+[01:13:36 - 01:13:41] No perfect, no conozco el Sarshobmail.
+[01:13:41 - 01:13:50] No, chicos, esto es más poder nació que ustedes, bueno, Sarshobmail, es un sitio donde
+[01:13:50 - 01:13:59] me permite generar rápidamente memes y necesidad de registrarme, necesidad de escribirlo y es un
+[01:13:59 - 01:14:07] correo temporal, ¿ok? entonces cuando están trabajando en una aplicación, ¿no?
+[01:14:07 - 01:14:14] así, cuando están trabajando en una aplicación, no me tienen que probar y no metan sus y tienen que
+[01:14:14 - 01:14:21] usar muchos memes, ustedes están en una remeta que a mí me sirve mucho, ¿sí?
+[01:14:21 - 01:14:25] ¿sí? ¿cuándo tengo que hacer algo?
+[01:14:25 - 01:14:36] Entonces van creando memes, entonces, expliqueis, uso mucho también, expliqueis en el caso,
+[01:14:36 - 01:14:50] digo bueno, voy a crear uno, socio uno del Shim, ¿ok?
+[01:14:50 - 01:15:00] escribiendo solamente el nombre, ya puedo empezar a usarlo, fantástico, tienen que hacer muchos
+[01:15:00 - 01:15:12] memes y probar, es muy bueno, ¿ok? bueno, le tiene un un un dato, yo, Army 2, uno que es el
+[01:15:12 - 01:15:19] usuario de origenacio y otro que soy yo, acá tenía que haber puesto el dueño pero bueno,
+[01:15:19 - 01:15:31] se que era más sencillo, y digo bueno, voy a querer invitar, es muy básico obviamente, ¿no?
+[01:15:31 - 01:15:43] entonces la jefe ha sido enviado, ¿ok? voy a invitar el socio, a invitar a Analía,
+[01:15:44 - 01:15:50] no estaba Analía, Analía, Analía, Analía, Analía, ¿qué pasa? ¿qué se hace borro?
+[01:15:50 - 01:15:57] no, esto lo hice hacer a la noche, ¿ok? entonces le digo bueno, lo que yo voy a querer
+[01:15:57 - 01:16:07] de probar es que este usuario ingrese, ahora bien, yo lo que tengo que armar entre lo que su
+[01:16:07 - 01:16:20] X es el prototipado, tengo que planear el test, yo bueno, yo quiero ver cómo invito al socio para
+[01:16:20 - 01:16:27] que se base la aplicación, ¿ok? para que se base la aplicación del gimnasio, ¿ok?
+[01:16:27 - 01:16:34] para que le llegara esto, eso es lo que la prueba que voy a planear, entonces me voy acá y digo bueno,
+[01:16:34 - 01:16:44] me voy a armar, voy a dar un, perdón, me voy a armar, voy a dar el historiensuario, no voy,
+[01:16:45 - 01:16:58] el historiensuario, a número uno, define qué tareas, quiero probar y acá voy a ver lo que le voy a
+[01:16:58 - 01:17:11] preguntar al, lo que le voy a preguntar al usuario, decir al alumno, ¿ok? entonces tengo que ir
+[01:17:11 - 01:17:21] armando la planificación del test, como lo hago el hijo lector del usuario, vio qué es lo que
+[01:17:21 - 01:17:30] quiero probar, obviamente eso tengo determinadas tareas que hacer, ¿ok? y lo que tengo que hacer también
+[01:17:30 - 01:17:46] es buscar el participante, ¿qué va a probar esto? Busco analía, pues que voy a ir al gimnasio,
+[01:17:46 - 01:17:56] le voy a decir bueno analía, Juan, Pedro, necesito que hagamos una prueba de usabilidad, ¿ok?
+[01:17:56 - 01:18:11] y voy a colocar los participantes, participante uno, participante dos, Juan, Juan, el rol de Juan,
+[01:18:11 - 01:18:23] y Juan es más grande, es como fiel la mañana es de jubilado, no es muy amante la tecnología,
+[01:18:24 - 01:18:42] va todos los días y siempre se pregunta qué hacer, ahí va, haciendo el que hace, pero
+[01:18:42 - 01:18:55] empapa que hace al profesor, al brunes usted tiene abuelos entre grande, 70 años más o menos,
+[01:18:56 - 01:19:15] chicos no le voy así que venga la vuelo, ¿eh? y sí, yo tengo el uso, ¿quién es el que dice yo tengo?
+[01:19:15 - 01:19:36] Lucas, Lucas, Lucas que? Lucas en teno, en teno así, con Z, Lucas, en el Santo a vuelo cuando
+[01:19:37 - 01:19:42] vamos a esta simulación, ¿ok? Y perfecto, ¿conocen la tecnología?
+[01:19:42 - 01:20:01] más o menos, más o menos, perfecto, otro, a ver, los padres ustedes son jóvenes y conozcer
+[01:20:01 - 01:20:11] bastante tecnología, vamos así, vamos a ver quién más quiere participar, yo con Lucas me encargo,
+[01:20:13 - 01:20:26] necesito a los analistas, quién quiere ser dos analistas que vayan tomando, no está todo lo que
+[01:20:26 - 01:20:57] vamos a encontrar, y van a tener, bueno se dijo yo chicos, hoy vamos a terminar las 11 y media,
+[01:20:57 - 01:21:18] así que, qué bien estás, Martínez, austina estás, y yo creo que soy fantástico, las mujeres son muy
+[01:21:18 - 01:21:37] buenas analistas funcionales, así que te va a ir barbaro, ahora les voy a explicar qué es lo que va a
+[01:21:37 - 01:21:54] tener que hacer, vamos a otro, alguien más, no tengo que elegir la fuerza, uno de los últimos,
+[01:22:03 - 01:22:18] a pesar estás acá, no, Manuel, se apareció todos, paes,
+[01:22:18 - 01:22:24] bueno, le profesional la voy a decir, ¿quién es fichermo?
+[01:22:24 - 01:22:37] sí, fichermo, así seguimos, así seguimos adelante, sí, estás fastidioso y llermo, fichermo,
+[01:22:37 - 01:22:49] fichermo que ha sido? mirando a proces, yo no tengo todo porque los que participan y a veces
+[01:22:50 - 01:22:59] sacan 6 en los partiales soy bastante bondados, bueno, ahora participan a pacifartos, bueno,
+[01:22:59 - 01:23:07] entonces lo que hago es planear el test, es lo que quiero como lo planeo, como lo estimos haciendo ahora,
+[01:23:07 - 01:23:13] digo bueno, agarro de esta historia de usuarios, tengo que armar obviamente el prototipado,
+[01:23:13 - 01:23:20] digo cuáles son las tareas que las que voy en grandes rasgos quiero probar,
+[01:23:22 - 01:23:28] qué es lo que quiero que provee, está, que si entendió al bien, se encontró el link,
+[01:23:28 - 01:23:33] si puedo descargar la app, está, solo lo que quiero ver si puede lograr instalar
+[01:23:33 - 01:23:40] la aplicación, miren los algo tan sencillos, eso voy a ir guiando la prueba de
+[01:23:40 - 01:23:46] usability y después voy a necesitar dos e analistas, casi siempre son dos o uno pero
+[01:23:47 - 01:23:54] siempre necesitan tener al bien que vaya tomando nota en todas las observaciones de todo lo que va
+[01:23:54 - 01:24:02] a interactuar el usuario, el usuario que yo estoy guiando, por lo tanto la tarea de
+[01:24:02 - 01:24:11] austina y germos es que vaya tomando nota, si quieren lo toman nota en papel, no es necesario,
+[01:24:12 - 01:24:19] lo que si se suele hacer es tener una herramienta como esta y descodocándolas las observaciones,
+[01:24:19 - 01:24:24] ver si entendió el mail, ver cuánto tiempo tardó, ver si pudo encontrar rápido el link,
+[01:24:24 - 01:24:30] vas a describiendo mientras yo voy guiando la prueba, por lo tanto ustedes van a tener que
+[01:24:30 - 01:24:37] hacer de analistas funcionales, después con lucas a simular el usuario, entonces plané
+[01:24:38 - 01:24:46] altes, necesito el prototipado, necesito armar lo que voy a probar, no puedo aparecer una
+[01:24:46 - 01:24:55] prueba de la estabilidad, es una técnica de evaluación, es donde el usuario va a realizar
+[01:24:55 - 01:25:03] determinadas tareas si yo voy así, al tuy-tum, sin haberla planificado, por lo tanto tengo
+[01:25:03 - 01:25:17] que planear la reunión, perdón el test, la prueba de esa habilidad, busco el participante,
+[01:25:17 - 01:25:22] tengo que lograr que alguien quiera participar, es bastante difícil, imagínense si a mí me
+[01:25:22 - 01:25:27] costó lograr que encontrar un participante entre todos ustedes, que están interesados, imagínense
+[01:25:28 - 01:25:37] que tengo que encontrar también el perfil determinado, si tengo a la mañana, el 80%
+[01:25:37 - 01:25:45] de las personas que van, tienen entre 50 y 80 años, busco ese perfil, no voy a ir a buscarla
+[01:25:45 - 01:25:53] de 15 años, es uno entre 50 personas, me van siguiendo, tengo que buscar el participante, acorde
+[01:25:55 - 01:26:00] a la masa que tengo, a la masa de estudiantes que tengo, el alumno de socios que tengo, prepara
+[01:26:00 - 01:26:09] el material, tengo que armar el guión, esto se llama guión de test, ahora después le vamos a
+[01:26:09 - 01:26:16] contar, tengo que armar el guión del test, tengo que preparar el prototipado, o en este caso
+[01:26:16 - 01:26:24] prepara el mail, tengo que aceptar el ambiente, posiblemente le tengo que dar alucas un celular
+[01:26:25 - 01:26:34] o bueno venir, conectate a esta computadora, yo te voy compartiendo, o a veces no llegué a esa instancia
+[01:26:34 - 01:26:48] y el material que tengo, para si tiene el ambiente, esta manera, los sitos y todo
+[01:26:48 - 01:26:58] ahí no hice un prototipado con una herramienta y lo tengo en papel, vamos a jugar con eso,
+[01:26:59 - 01:27:09] entonces el teo del ambiente, ahora vamos a la parte de conducir la prueba, a los analistas
+[01:27:09 - 01:27:23] les cuento que van a ir describiendo mientras lo le digo, es que el que guía la prueba,
+[01:27:23 - 01:27:30] no le puedo preguntar, además que tengo que estar observando, no les tengo que decir absolutamente
+[01:27:30 - 01:27:35] nada, tengo que darle un ambiente, está pero no le tengo que decir, acá tienes el botón
+[01:27:35 - 01:27:42] tal, tienes que cliquiar, tengo que decirle bueno, quieres hacer tal cosa, ¿cómo lo harías?
+[01:27:42 - 01:27:53] Tienes que hacer determinada tarea, por ejemplo escribirte en una clase, no le tengo que decir andá,
+[01:27:54 - 01:28:04] tal pantalla, tal opción y ahí escribirte, tengo que lograr que lo haga solamente mirando
+[01:28:04 - 01:28:14] la pantalla, el moderador, lo que llama moderador, que se llama este caso, no tengo que guiarlo
+[01:28:15 - 01:28:26] un escenario para que lo pueda estar, vamos, estás ahí, era Lucas me parece,
+[01:28:26 - 01:28:41] Lucas, lo sé, los analistas espero que vayan tomando, Lucas, estás en tu avuelo, ¿qué es?
+[01:28:43 - 01:28:44] Y ese es mi avuelo.
+[01:28:44 - 01:28:55] Pensando avuelo, bueno Lucas vamos a comenzar a hacer una prueba, la idea es que apliquis un proceso
+[01:28:55 - 01:29:03] que es todo lo que vos estás pensando, lo vayan diciendo, ¿ok?
+[01:29:04 - 01:29:10] Ponía algún filtro por si estás pensando a cosas, por algo, está todo lo que vos va pensando
+[01:29:10 - 01:29:17] de la aplicación que te voy a mostrar, lo vayan diciendo, ¿ok?
+[01:29:17 - 01:29:28] Tienes que, eso es una técnica de UX, pues tienes que ir pensando a lo que estás pensando,
+[01:29:29 - 01:29:36] vas diciendo cómo te sentís al navegar la aplicación y si lo que vamos a hacer ahora,
+[01:29:36 - 01:29:40] este eres tu celular y te llega un mail, ¿ok?
+[01:29:40 - 01:29:46] Acá lo estás viendo, ¿no? Te llevo un mail, bueno leelo y fíjate si podrás la idea
+[01:29:46 - 01:29:50] que vos puedas, estábamos en la agarra, ¿no?
+[01:29:51 - 01:30:00] No puedes instalar la aplicación, este llega a hacer medio de amenidad, bueno Lucas, estábamos.
+[01:30:00 - 01:30:06] Bien, bueno acá tengo un mail que dice bienvenidos a Shim, ¿conocé tu Shim?
+[01:30:06 - 01:30:12] Nos alejamos mucho que fue parte de nuestra comunidad, queremos invitar a comenzar
+[01:30:12 - 01:30:18] a usar nuestra Shim, pensada para que pueda gestionar la actividad física de manera simple, rápida y desde cualquier lugar.
+[01:30:19 - 01:30:26] Ya de primera, primero que la interfaz, por lo que veo es bastante simple para una persona,
+[01:30:26 - 01:30:34] para empezar ya muy a adulta y ya me danciana, pero a lo que a mí no me gusta es que aparece una pequeña
+[01:30:34 - 01:30:37] más y que está medio cortada y eso confunde.
+[01:30:37 - 01:30:43] Perfecto, me imagino que los analistas estarán tomando nota, ¿fontas, cinco?
+[01:30:44 - 01:30:52] Lucas, pensando en todo bueno, ¿encontras un link algo para poder descargarlo?
+[01:30:52 - 01:31:01] Normalmente cuando uno quiere descargar una aplicación así de celular, directamente aparece
+[01:31:01 - 01:31:07] los logos de las chiendas de las repetidas, sí temas operativos para así decirlo.
+[01:31:08 - 01:31:15] Acá lo que veo es que he dicho un mensaje genético que dice que si la te está dando el iPhone me dice que he aprendido.
+[01:31:15 - 01:31:26] No, esto está viendo otro, me parece, yo te estoy mostrando este. ¿Cuál? ¿Me estoy compartiendo?
+[01:31:26 - 01:31:33] Sí, sí, ahí lo vi, ahí lo vi. No, no veo ninguno.
+[01:31:33 - 01:31:38] No, no es ninguno. No hay link todavía.
+[01:31:38 - 01:31:51] Y tu abuelo, ¿crees que esté capaz de ir? No sé, acuaro su sistema operativo, buscar la sim y instalarla.
+[01:31:51 - 01:31:55] Y si no conase mucho las chiendas, probablemente no.
+[01:31:55 - 01:32:05] Por lo tanto, ahí lo completó, ahí van a tener otras observaciones.
+[01:32:05 - 01:32:14] Yo tengo que, me detengo un poco Lucas, pero van a caminar, se vuelvo acá.
+[01:32:15 - 01:32:28] Yo tengo que, tengo, la llegue el test, busqué el participante de Lucas, preparé el material, se te la enviante y hice la prueba básica.
+[01:32:28 - 01:32:36] Anotaron un Guillermo y a gustina eran todos los datos, este es muy simple.
+[01:32:36 - 01:32:47] No, por ahora no tengo que analizarlo, yo como moderadora y como especialista en UX, reportar esos todos los que ustedes me vayan pasando,
+[01:32:47 - 01:32:58] y tengo que mejorar en la próxima iteración, la interfaz.
+[01:32:58 - 01:33:04] La interfaz que te voy a dar ahora es la siguiente.
+[01:33:04 - 01:33:18] Cuando vuelvo a repetir, acá sería otra vez otra instancia de prueba.
+[01:33:18 - 01:33:30] Posiblemente tenga que llamar a otra persona para no repetir a Lucas, porque Lucas ya sabe a lo que estoy queriendo apuntar.
+[01:33:30 - 01:33:48] Entonces, imaginarte que sos otro, sos otro, y te digo bueno, empezaste, escribiste, soy en el gimnasio y la secretaria te dijo que te voy a mandar un mail para que te instale la aplicación.
+[01:33:48 - 01:34:01] Te llega a esto. Bueno, decime si vos podés con este mail entender qué es lo que hace la aplicación y si te lo puedes bajar.
+[01:34:01 - 01:34:07] ¿Acorda que todo lo que vos pensas no tiene que decir?
+[01:34:07 - 01:34:19] Sí, lo puedo entender más que nada por la parte de notícico, la abaza, poder ver las clases disponibles, susoriales, reservar el lugar, consultar la rutina, el estado de las cuotas.
+[01:34:19 - 01:34:38] Las notificaciones importantes y demás. Si quieres pasarte la aplicación, ¿Vos sabes que el lugar tenés? ¿Sabes a dónde tendrías que ir y apriquear?
+[01:34:38 - 01:34:46] No, no sabría qué tipo de celular, si no esté muy familiarizado con la tecnología.
+[01:34:46 - 01:34:54] Es fantástico. Bueno, así es cómo se hace el user experience.
+[01:34:54 - 01:35:04] Uno tiene el evaluador, la verdad que no te debería tener que intervenir mucho porque si no lo estoy guiando y no es la idea.
+[01:35:04 - 01:35:10] Bueno, estoy tratando de que también entiendan un poco cómo es este trabajo.
+[01:35:10 - 01:35:28] La idea es que él tenga el que vas a la prueba, el participante, tenga la posibilidad de que todo lo que está pensando lo vaya diciendo y hay analistas que lo puedan ir tomando nota.
+[01:35:28 - 01:35:34] Bueno, Lucas, seguimos. Imagínate que ellas tenés instalada la aplicación.
+[01:35:34 - 01:35:46] Ahora estás viendo esto. Tenés instalada y llega a tener esta primera pantasita. ¿Qué es lo que harías, Lucas?
+[01:35:46 - 01:35:55] Ingresar. ¿Ingresar el usuario y contraseña que me dieron el mensaje?
+[01:35:55 - 01:36:01] ¿No lo encontraste el mensaje? ¿Lo sabré dónde está? ¿Pareció visible?
+[01:36:01 - 01:36:07] No, está muy pequeño. Me costó mucho encontrarla.
+[01:36:07 - 01:36:12] Ahora, ¿ vos crees que tu abuelo la encontraría?
+[01:36:12 - 01:36:17] No, no la encontraría. O te tardaría bastante tiempo en hacerlo.
+[01:36:18 - 01:36:38] Imagínate, Lucas, que se ingresaste y vos tenés ganas esta primera que aparece sexto.
+[01:36:39 - 01:36:44] ¿Y qué es tu perfil? ¿A dónde cliquiarias de esta página?
+[01:36:44 - 01:36:48] Y en esta página...
+[01:36:48 - 01:36:56] Tendría que ir a la parte inferior, a la parte inferior derecha de la página donde dice perfil que tiene lo que está de una persona.
+[01:36:56 - 01:37:02] ¿Y qué es lo que más te llamó la atención para comenzar a trabajar?
+[01:37:03 - 01:37:15] Y lo primero que harías es poder ir rutino, poder crear una, si no tengo una creada.
+[01:37:15 - 01:37:21] Creada. Ahí se cortó Lucas. ¿Tas Lucas?
+[01:37:21 - 01:37:39] Sí, esté acá. ¿Acceder esa perfil? ¿Tienes un mensaje? ¿Estás a dónde ir? ¿Lo que es visible?
+[01:37:41 - 01:37:48] Y te diría que era el logito de la campanita que me daría a entender que estoy recibiendo notificaciones.
+[01:37:48 - 01:38:03] ¿Qué es? ¿A bueno, te interesa lo que es funcional? ¿Sabes cómo hacerlo? ¿Estás en esta? ¿En esta? ¿No es la anterior?
+[01:38:03 - 01:38:13] Sí. ¿Tienes tu perfil? ¿Sabes? Tienes tu... ¿Vos querés seleccionar? ¿Qué te gusta hacer musculación? ¿Sabrías? ¿A dónde ir? ¿Desde esta?
+[01:38:15 - 01:38:29] ¿Pas giras? No, no sabría. ¿No sabrías? ¿Y si quieres hacerlo? ¿Por dónde irías?
+[01:38:29 - 01:38:36] Y tendría que haber algún botoncito que me diga que me diga que deja rutina, por ejemplo.
+[01:38:36 - 01:38:50] Crea rutina, ¿vale? Bueno, vamos cortando. Bueno, a ver, ¿qué es lo que me pudieron aportar las analistas?
+[01:38:53 - 01:38:58] Empezamos desde primera interfaz. ¿Dale? ¿Quién es a rutina?
+[01:38:58 - 01:39:01] Ah, bueno. ¿A cómo te diga? ¿Tras a rutina?
+[01:39:01 - 01:39:06] Sí, no creo más. ¿Tras a rutina? No sé si a rutina. ¿Cuándo es la primera interfaz?
+[01:39:06 - 01:39:14] Bueno, puse que el email, piensa que la interfaz es simple, pero no lo ve, no venen hacia la aplicación y no tener mucho conocimiento en.
+[01:39:15 - 01:39:20] Finta aplicaciones, no sabe cómo estar a la plaza.
+[01:39:20 - 01:39:31] Yo puse que claro que la interfaz es simple, parece a poco intuitiva, menciona que es incomoda visualmente respecto a una imagen y no puede encontrar el enlace.
+[01:39:31 - 01:39:41] Así que no lo recomienda para un anciano. ¿Qué más? ¿Desexaron? ¿De esa pantalla? Nada más.
+[01:39:42 - 01:39:57] Después, a notetas de algo que una vez que apareció, bueno, el tema del usuario de Loïn no estaba bien visible y era lo importante, no en la pago y el usuario y bueno, nada más.
+[01:39:57 - 01:40:03] En las 2. fantasas que notaron.
+[01:40:04 - 01:40:19] Sí, después el otro mail donde aparecía más detalles el vocativo que es más claro lo que si tiene que hacer, pero no sabe el modelo de celular que tiene.
+[01:40:20 - 01:40:21] ¿Cuánta de ellos puse?
+[01:40:21 - 01:40:31] Sí, yo puse eso, que no estaria comprendiendo cómo seguir cuando se resolicita la información sobre el tipo de celular.
+[01:40:32 - 01:40:41] Supie puse que supo distinguir bien las distintas fases del texto y nuevo comentario respecto a simplicidad, algo que es.
+[01:40:41 - 01:40:42] ¿Cuánta?
+[01:40:42 - 01:40:45] Su falta de intuición no puse como positivo.
+[01:40:45 - 01:40:51] Muy bien. ¿Cómo continúa todo esto? ¿Permino la prueba?
+[01:40:52 - 01:41:04] Bueno, si tienen que analizar los datos y se están pasando toda esa información y yo tengo que volver a modificar, acá, cuando empieza a obtener los resultados,
+[01:41:05 - 01:41:16] he empezado a modificar ese prototipado para volver a hacer toda esta prueba de usabilidad.
+[01:41:20 - 01:41:33] Y de esa manera, es como empiezo a armar el proceso de WX. Una vez que yo la haya terminado y que este de acuerdo, ahí recién, para acá,
+[01:41:34 - 01:41:48] terminé y esprín uno y posiblemente en el Spring 2, la gente de desarrollo ya haya tenga el mock-up o el prototipado correcto para que lo puedan llevar a cabo.
+[01:41:55 - 01:41:56] ¿Veis?
+[01:41:56 - 01:41:57] Y plafé.
+[01:41:57 - 01:41:58] ¿Te entendió?
+[01:41:59 - 01:42:00] Yo lo pressío.
+[01:42:00 - 01:42:01] Ahora lo van a hacer ustedes con lo que hicieron.
+[01:42:01 - 01:42:09] Pero para que vayas a me entendiendo, tiene que de todo en la parte teórica, ¿si?
+[01:42:09 - 01:42:14] No, esto es como que es lo que ha dado y no lo entiendas.
+[01:42:14 - 01:42:20] ¿Que va un brcito para arriba?
+[01:42:20 - 01:42:38] Bueno, un minuto para el seguro de la baluva.
+[01:42:38 - 01:42:53] Bueno, bueno, bueno, si lo que es bastante complejo mirando al mapa y ahora andad, ¿tieren todos los prototipados?
+[01:42:53 - 01:43:03] para compartirlo, o compartir pantallas.
+[01:43:03 - 01:43:20] Y para que alguna de ustedes sea el moderador, ya hay idea de poder simular con ustedes
+[01:43:20 - 01:43:33] y que jugemos a esto. Este parece que es bastante complicado, así que va a estar bueno.
+[01:43:33 - 01:43:40] Vamos, mirando, mirando, estuvo participando, ¿no?
+[01:43:40 - 01:43:46] Sí, profe de escenario, así que vamos. Vamos para el madad. ¿Estás al madad?
+[01:43:46 - 01:43:48] Sí, profe.
+[01:43:48 - 01:44:03] Os pongo así para poder descompartir, ¿no? ¿No tenés a mano?
+[01:44:03 - 01:44:07] Ahí estoy por esta manera, con un pude del trabajo y me paso a la otra onda de temorias.
+[01:44:07 - 01:44:12] Si, ¿qué es? ¿Dónde vas a poder?
+[01:44:12 - 01:44:16] Acá lo que vamos a tener que hacer es armar el IVON. ¿OK?
+[01:44:16 - 01:44:20] ¿Cómo socio quiere notarme una actividad para asegurarme en lugar?
+[01:44:20 - 01:44:28] Bueno, evaluar, sí. Encontro el voto, todas estas cosas tienen que ir preguntando
+[01:44:28 - 01:44:31] celar, ¿OK? Está, ¿no? Bueno, ¿no?
+[01:44:31 - 01:44:39] ¿Estás en cuenta en dónde si puede navegar, si puede volver?
+[01:44:39 - 01:45:15] Así se arrepintió que sucede. Recuerda que volos al madad, tu nombre y la otra
+[01:45:15 - 01:45:20] actividad de escenario, ¿qué es la actividad de escenario?
+[01:45:20 - 01:45:31] La actividad de escenario, ¿qué es la actividad de escenario?
+[01:45:31 - 01:45:52] Bueno, yo tengo todo esto, pero bueno, ¿estás al madad?
+[01:45:52 - 01:45:56] Sí, pero no está costando. Pero hay comparto.
+[01:45:56 - 01:46:37] Bueno, ahorita, ¿qué es la actividad de escenario?
+[01:46:37 - 01:46:41] A alguien que quiera participar y anotar todo lo que va a llamando a nota
+[01:46:41 - 01:46:50] no sea del grupo de ella. Yo profe. ¿Qüén es?
+[01:46:50 - 01:46:55] Pérez Puente Manuel. Su apellido, pardoname.
+[01:46:55 - 01:47:07] Pérez Puente. Otro. Yo no he ayudado, profe.
+[01:47:07 - 01:47:08] ¿Qüén es?
+[01:47:08 - 01:47:10] Procani.
+[01:47:10 - 01:47:14] Pero con Belarga. Belarga, RIO.
+[01:47:14 - 01:47:15] Procani.
+[01:47:15 - 01:47:15] Sí.
+[01:47:15 - 01:47:19] Bueno, ¿Aguelen?
+[01:47:19 - 01:47:29] Voy a detenarme cinco minutos.
+[01:47:29 - 01:47:38] Así le doy también. Almada, ¿cómo es tu nombre?
+[01:47:38 - 01:47:39] Queila.
+[01:47:39 - 01:47:41] Queila.
+[01:47:41 - 01:47:45] Sí. Y así.
+[01:47:45 - 01:47:46] Con con ilatina.
+[01:47:46 - 01:47:51] Con ilatina.
+[01:47:51 - 01:47:53] Mucho de la mur es su nombre. Me encanta.
+[01:47:53 - 01:47:54] Queila.
+[01:47:54 - 01:47:54] Sí.
+[01:47:54 - 01:47:59] Bueno, así también le damos la posibilidad a que ella
+[01:47:59 - 01:48:04] que abre su prototipado y de acuerdo a tu prototipado
+[01:48:04 - 01:48:12] escriba para donde vas a direccionar el escenario.
+[01:48:12 - 01:48:14] Te doy cinco minutos y ya retomamos.
+[01:48:14 - 01:48:16] Desparecer.
+[01:48:16 - 01:51:30] Dale, pero yo eres.
+[01:51:30 - 01:51:32] Ahí la estás.
+[01:51:34 - 01:51:36] Sí, ahí compartí.
+[01:51:36 - 01:51:40] Fantástico.
+[01:51:40 - 01:51:44] La técnica que le decía de pensar en vosalta, se llama
+[01:51:44 - 01:51:56] Pinkalout y por acá en el chat, para compartir ella.
+[01:51:56 - 01:52:04] Así que también es una técnica muy utilizada en WX.
+[01:52:04 - 01:52:08] Yo les voy también tratando de darle contenido teórico a todo esto.
+[01:52:08 - 01:52:12] No, por si no.
+[01:52:12 - 01:52:20] Ahí estoy.
+[01:52:20 - 01:52:22] No, ¿eh?
+[01:52:22 - 01:52:24] Se ve, sí.
+[01:52:24 - 01:52:26] Sí.
+[01:52:26 - 01:52:28] Bien.
+[01:52:28 - 01:52:31] Ahí, bueno, parecía sesión, así.
+[01:52:31 - 01:52:32] Comentó.
+[01:52:32 - 01:52:34] Vale, bien, ¿no?
+[01:52:34 - 01:52:38] ¿Quién es el que va a participar?
+[01:52:38 - 01:52:39] Yo.
+[01:52:39 - 01:52:40] El que va a simular.
+[01:52:40 - 01:52:44] Yo voy anotando lo que Manuel diga, ¿no?
+[01:52:44 - 01:52:45] Profes.
+[01:52:45 - 01:52:50] No, aunque el minuto, yo lo tenía.
+[01:52:50 - 01:52:53] Tenía.
+[01:52:53 - 01:52:55] ¿Feres analista, no?
+[01:52:55 - 01:52:59] Sí, yo he dicho de analista.
+[01:52:59 - 01:53:00] Procani analista.
+[01:53:00 - 01:53:02] ¿Ok?
+[01:53:02 - 01:53:04] No.
+[01:53:04 - 01:53:05] ¿O?
+[01:53:05 - 01:53:07] Sí.
+[01:53:07 - 01:53:08] Almada.
+[01:53:08 - 01:53:10] Sí, comparto.
+[01:53:10 - 01:53:11] Moderadora.
+[01:53:11 - 01:53:28] Pues yo, alguien más que quería participar, hacélo en la simulación.
+[01:53:28 - 01:53:32] Si no lo tengo problema en cambiar y ser yo el usuario.
+[01:53:32 - 01:53:33] Bien, eso.
+[01:53:33 - 01:53:34] Profes.
+[01:53:34 - 01:53:35] No, pero es bueno.
+[01:53:35 - 01:53:40] Pero es sale participante.
+[01:53:40 - 01:53:49] Bueno, yo también voy a ser analista.
+[01:53:49 - 01:53:58] Lo que les decía es acá, la estrella técnica, de pensar en voz alta que le tenés que pedir
+[01:53:58 - 01:53:59] al participante.
+[01:53:59 - 01:54:02] Se llama Tink a la outro, obviamente.
+[01:54:02 - 01:54:19] Y yo también como analista.
+[01:54:19 - 01:54:25] Encamen, todavía no tengo para aquel.
+[01:54:25 - 01:54:29] Un minuto.
+[01:54:29 - 01:54:31] ¿Pon seguir los participantes?
+[01:54:31 - 01:54:34] No es una tarea sencilla.
+[01:54:34 - 01:54:39] De una iteración a la otra, se pide que no sea los mismos.
+[01:54:39 - 01:54:40] ¿Ok?
+[01:54:40 - 01:54:53] Y bueno, es que la gente seienza que es parte del proceso creativo, que si es parte del
+[01:54:53 - 01:54:54] proceso creativo.
+[01:54:54 - 01:55:03] Y después, cuando la aplicación está funcionando, la usan.
+[01:55:03 - 01:55:05] Porque consideran que fueron parte de…
+[01:55:05 - 01:55:11] Entonces, la realidad es que tienen muy buena aceptación.
+[01:55:11 - 01:55:14] Acá tendríamos que buscar un perfil totalmente diferente.
+[01:55:14 - 01:55:20] No tendríamos que pedirle de vuelta a la huelo de Lucas, porque si no ya va a tener un
+[01:55:20 - 01:55:26] montón de conocimiento adquirido de la aplicación y lo que nosotros queremos, es justamente
+[01:55:26 - 01:55:33] ver dónde están las fallas de esa navegabilidad.
+[01:55:33 - 01:55:34] ¿Ok?
+[01:55:34 - 01:55:38] ¿Cuánto tendríamos que buscar nuevos participantes?
+[01:55:38 - 01:55:39] ¿Y digo por si?
+[01:55:39 - 01:55:44] En algún momento trabajan en esto.
+[01:55:44 - 01:55:47] ¿Qué es la todo tuyo?
+[01:55:47 - 01:55:51] Sí, lo estaba compartiendo, pero no sé si se puso medio de la afín.
+[01:55:51 - 01:55:52] Se me estaba quedando.
+[01:55:52 - 01:55:53] Ah, está cosícmame, encanta.
+[01:55:53 - 01:55:59] Sí, pero lo que vi para la facultad, para poder tenerlos, pero no tenía la cantidad de usuarios
+[01:55:59 - 01:56:02] y bueno.
+[01:56:02 - 01:56:03] ¿Y bueno?
+[01:56:03 - 01:56:08] Sabía, había tocado un poco, no sé si había visto, pero está cargando.
+[01:56:08 - 01:56:12] ¿Y qué le pregunté si alguno lo puede abrir de los chicos?
+[01:56:12 - 01:56:19] Si no.
+[01:56:19 - 01:56:21] Si no me fijó el celular por ahí.
+[01:56:21 - 01:56:22] ¿Cómo vos quieras?
+[01:56:22 - 01:56:23] Porque antes me andaba...
+[01:56:23 - 01:56:31] Quiero que armar el escenario y armar todo lo que es acá, lo que ocurre, ¿no?
+[01:56:31 - 01:56:38] Preparar el material y el interior del ambiente, no es un tema sencillo.
+[01:56:38 - 01:56:44] Lo bueno es estipular con el participante alrededor de media hora, más no porque está
+[01:56:44 - 01:56:51] compartiendo el ambiente y armar todo el ambiente se va tiempo.
+[01:56:51 - 01:57:01] Está luego a tener en cuenta, también.
+[01:57:01 - 01:57:05] Ahí vuelvo a compártelo.
+[01:57:05 - 01:57:06] Profes, discute.
+[01:57:06 - 01:57:10] Algo que hay que marcar también, perdón, ya hago el con vos.
+[01:57:10 - 01:57:16] Algo que hay que marcar también es siempre de remarcarle al participante que no lo está
+[01:57:16 - 01:57:22] museo aluando a él, que está museo aluando la aplicación, porque es fundamentalmente
+[01:57:22 - 01:57:27] que el que participa no se sienta evaluado, porque a veces se sienta con una presión
+[01:57:27 - 01:57:33] de decir, tengo que encontrar tal botón y justamente lo que queremos es que encontrar esa
+[01:57:33 - 01:57:34] falla.
+[01:57:34 - 01:57:45] Por lo tanto, hay la mensaje que cuando vos arranques y tengas que hacer esto en algún momento
+[01:57:45 - 01:57:52] de tu vida laboral, es decir, que bueno, te va a hacer una prueba de usabilidad y que
+[01:57:52 - 01:57:57] no lo está se evaluando, que no lo está se evaluando a él y que va a utilizar una
+[01:57:57 - 01:58:03] técnica que es el pink allow, es la idea es que todo lo que piensa lo diga en vos
+[01:58:03 - 01:58:12] alta, de tal manera de poder entender esa interacción que tiene el usuario con la aplicación.
+[01:58:12 - 01:58:15] Y disculpa, me alegre, me pregunto algo.
+[01:58:15 - 01:58:18] Sí, yo le quería hacer una consulta hasta que ahí la preparé.
+[01:58:18 - 01:58:24] Sí, yo va a persistir la acción, o sea que realiza ella, o sea que piensa o dice
+[01:58:24 - 01:58:26] y que el problema se detectó.
+[01:58:26 - 01:58:27] Gracias.
+[01:58:27 - 01:58:31] Vamos a contar primero, ¿no?
+[01:58:31 - 01:58:41] También que ahí la se tía un poco el perfil de la persona que va a participar para
+[01:58:41 - 01:58:48] que tiene el utilizo participar, para que perespuente se pueda interpretar ese personaje,
+[01:58:48 - 01:58:49] ¿ok?
+[01:58:49 - 01:59:00] La salida, sí, entonces ustedes saben muchísimo del sistema, y tienen un, entonces sabe
+[01:59:00 - 01:59:06] la idea es que simulemos gente que no sepa mucho del sistema, ¿ok?
+[01:59:06 - 01:59:13] Por eso yo le dije a Lucas que piensa en su abuelo cuando estaba haciendo esta simulación,
+[01:59:13 - 01:59:15] ¿ok?
+[01:59:15 - 01:59:20] Sí.
+[01:59:20 - 01:59:24] ¿Pero es, ¿cómo te cueltes tu nombre?
+[01:59:24 - 01:59:25] Manuel.
+[01:59:25 - 01:59:29] ¿Puedes sorriblar lo que yo rellé?
+[01:59:29 - 01:59:31] Bueno, todo lo yo.
+[01:59:31 - 01:59:36] Ahí ya está.
+[01:59:36 - 01:59:37] Sí.
+[01:59:37 - 01:59:39] ¿Ok?
+[01:59:39 - 01:59:40] Lo primero que veo.
+[01:59:40 - 01:59:47] Ahí la encontró, lo tenés que tener voz y el seteo de lo que vas a probar, sí, general
+[01:59:47 - 01:59:50] el escenario lo tenés que armar voz.
+[01:59:50 - 01:59:52] ¿Qué es lo que vas a probar?
+[01:59:52 - 01:59:53] Vancar el minutito.
+[01:59:53 - 01:59:55] ¿Qué es lo que vas a probar?
+[01:59:55 - 01:59:58] La actividad de acatarse.
+[01:59:58 - 01:59:59] Ah, inscribirse.
+[01:59:59 - 02:00:02] Sí, sí, ahí inscribirse la actividad.
+[02:00:02 - 02:00:08] Bueno, entonces, la tercera es que si bueno, Manuel, no te estamos, no te estamos evaluando,
+[02:00:08 - 02:00:15] simplemente queremos que ingrese esta aplicación y le de las ideas que vos hay llegaste al gimnasio
+[02:00:15 - 02:00:21] y te querés, perdón, no, que estás a la noche mañana o a la ciudad y te querés anotar
+[02:00:21 - 02:00:23] en una actividad, ¿ok?
+[02:00:23 - 02:00:24] ¿Cómo la haría?
+[02:00:24 - 02:00:25] ¿Ok?
+[02:00:25 - 02:00:50] Bueno, te querés anotar una actividad en el gimnasio, como sería la forma en que
+[02:00:50 - 02:00:56] te quedé a que ser o pasas menos, perdón, pero fue muy bien río.
+[02:00:56 - 02:01:02] Yo tengo que ir diciendo porque cuando vos lo hagas en algún momento, si es que haces
+[02:01:02 - 02:01:10] participar con proyecto de VX, el moderador cumple el terror, ¿ok?
+[02:01:10 - 02:01:14] ¿Ok?
+[02:01:14 - 02:01:19] Ahora sí, empiezo.
+[02:01:19 - 02:01:28] ¿Pues es que ahora era para arriba?
+[02:01:28 - 02:01:29] No hay más.
+[02:01:29 - 02:01:38] Sí, yo me quiero registrar, pero si lo primero que veo es una pantalla con el nombre
+[02:01:38 - 02:01:45] del gimnasio, viene a foto o sea una imagen que no carga, os sumo que no carga, capaz que
+[02:01:45 - 02:01:46] no me da mucha confianza.
+[02:01:46 - 02:01:53] Ahora más de que ahí, en lo que sea en la pantalla principal, se ven nada más el iniciar
+[02:01:53 - 02:02:00] deación, tengo que escrolear para abajo, pero capaz no me di cuenta y apretó directamente
+[02:02:00 - 02:02:01] iniciar deación.
+[02:02:01 - 02:02:08] Ok, perdón, perdón, que ya le hizo, vos pues iré a configuraciones y ajustar el
+[02:02:08 - 02:02:13] tamaño, por eso capaz de escroirlas un poco, abrazadí y dice ajustar ancho y aldo.
+[02:02:13 - 02:02:15] Sí, que lo tenía si...
+[02:02:15 - 02:02:16] De que...
+[02:02:16 - 02:02:18] Ah, ahí está, por lo he dicho, ¿suntad?
+[02:02:18 - 02:02:25] Entonces, voy a registrarme...
+[02:02:25 - 02:02:26] Y acá...
+[02:02:26 - 02:02:31] Bueno, son lo que te voy.
+[02:02:31 - 02:02:32] No sé si...
+[02:02:35 - 02:02:43] No, vio nada raro, pongo mis datos, pongo mis datos, pero no...
+[02:02:43 - 02:02:44] No vio nada raro.
+[02:02:44 - 02:02:46] No, perfecto, seguimos.
+[02:02:46 - 02:02:52] Ya no diría, fue una vez que ingresaste tus datos, ¿a qué botón?
+[02:02:52 - 02:02:53] Y pondría a registrarme.
+[02:02:53 - 02:02:57] Lo ves bien, un minuto, pero voy a grandear un poquito más pollo.
+[02:02:57 - 02:02:58] Lo ves bien.
+[02:02:58 - 02:03:05] El silbotón se ve perfecto, tiene un color diferente, que es lo que más se ve de la
+[02:03:05 - 02:03:06] pantalla.
+[02:03:06 - 02:03:07] ¡Mantá!
+[02:03:07 - 02:03:11] ¡Eso es un poquito de ahí!
+[02:03:11 - 02:03:12] Sí.
+[02:03:12 - 02:03:15] ¿Pasamos a la próxima pantalla?
+[02:03:15 - 02:03:17] Claro, volvezala...
+[02:03:17 - 02:03:21] Sí, volvezala el inicio, te registrate.
+[02:03:21 - 02:03:22] Y...
+[02:03:22 - 02:03:26] Volvezala inicio.
+[02:03:26 - 02:03:27] Sí, y ahora.
+[02:03:27 - 02:03:34] Y ahora que pasa, no estoy seguro si me registro bien o no, porque no apareció ninguna
+[02:03:34 - 02:03:36] información ni nada.
+[02:03:36 - 02:03:38] Tapas que todo que registrarme de vuelta.
+[02:03:38 - 02:03:40] Claro, sí, sí.
+[02:03:40 - 02:03:46] Chegó algo, algún mey, algo de aceptación de registro, ¿qué?
+[02:03:46 - 02:03:47] Y algo, nada.
+[02:03:47 - 02:03:48] No.
+[02:03:48 - 02:03:49] Otráfico.
+[02:03:49 - 02:03:54] Bueno, ya está que ahí está todo.
+[02:03:54 - 02:03:55] Este era el...
+[02:03:55 - 02:04:02] El inicio deación, perdón, el registrar de inicio deación, pero sigue con inicio de
+[02:04:02 - 02:04:05] inicio deación y acá es cuando...
+[02:04:05 - 02:04:14] Bueno, cargas, lo que se supone que había registrado y acá hay distintos botones,
+[02:04:14 - 02:04:15] ¿entiendes?
+[02:04:15 - 02:04:16] Fantástico.
+[02:04:16 - 02:04:17] Sí, bien.
+[02:04:17 - 02:04:18] Ahora es el inicio.
+[02:04:18 - 02:04:20] ¿Tendés el día que tu contrajen?
+[02:04:20 - 02:04:22] ¿En las pasos que entiendes?
+[02:04:22 - 02:04:24] No, no, porque no, no, soy.
+[02:04:24 - 02:04:27] Ya irá.
+[02:04:27 - 02:04:28] Fantástico.
+[02:04:28 - 02:04:31] Bueno, ¿vos acá tenés otro flujo, ¿no?
+[02:04:31 - 02:04:32] Sí.
+[02:04:32 - 02:04:34] ¿Puedo haberlo?
+[02:04:34 - 02:04:35] Sí.
+[02:04:35 - 02:04:45] Bueno, acá te ofrece como lo que suele decir, ¿no?
+[02:04:45 - 02:04:48] Y si no, tenés el calendario que está acá.
+[02:04:48 - 02:04:49] Un recrito.
+[02:04:49 - 02:04:50] Sí.
+[02:04:50 - 02:04:51] ¿Hay como manual?
+[02:04:51 - 02:04:52] Sí.
+[02:04:52 - 02:04:58] Una vez que ingresaste, tenés esta pantalla.
+[02:04:58 - 02:05:06] Imagínate que tenés ganas no de confirmar a que te tenés nada, simplemente de ver tu
+[02:05:06 - 02:05:07] perfil.
+[02:05:07 - 02:05:09] ¿A dónde irías?
+[02:05:09 - 02:05:10] Y…
+[02:05:10 - 02:05:13] ¿Es que hago una persona grande?
+[02:05:13 - 02:05:21] No veo ningún botón que diga perfil, así que no tengo mucha idea.
+[02:05:21 - 02:05:22] ¿Ok?
+[02:05:22 - 02:05:30] Capas, voy probando y tocó arriba la derecha porque tiene como un logo una persona, pero no
+[02:05:30 - 02:05:33] es muy intuitivo directamente.
+[02:05:33 - 02:05:36] Volve el anterior.
+[02:05:36 - 02:05:46] Imagínate que tenés… ahí te está diciendo que tenés una actividad mañana, ¿ok?
+[02:05:46 - 02:05:49] Creo que también anotarte en otra.
+[02:05:49 - 02:05:50] ¿A dónde irías?
+[02:05:50 - 02:05:52] Y…
+[02:05:52 - 02:05:53] Están las homen.
+[02:05:53 - 02:05:57] Están lo que me dijo, ¿qué era la homen?
+[02:05:57 - 02:05:58] ¿Dónde irías?
+[02:05:58 - 02:05:59] Sí.
+[02:05:59 - 02:06:02] ¿Para notarme a otra actividad?
+[02:06:02 - 02:06:04] Sí, lo ves.
+[02:06:04 - 02:06:05] ¿De qué?
+[02:06:05 - 02:06:06] ¿De qué?
+[02:06:06 - 02:06:07] ¿De verdad que no?
+[02:06:07 - 02:06:08] ¿De verdad?
+[02:06:08 - 02:06:09] ¿De verdad?
+[02:06:09 - 02:06:10] ¿De verdad?
+[02:06:10 - 02:06:11] ¿De verdad?
+[02:06:11 - 02:06:12] ¿De verdad?
+[02:06:12 - 02:06:13] ¿De verdad?
+[02:06:13 - 02:06:14] ¿De verdad?
+[02:06:14 - 02:06:15] ¿De verdad?
+[02:06:15 - 02:06:16] ¿De verdad?
+[02:06:16 - 02:06:17] ¿De verdad?
+[02:06:17 - 02:06:18] ¿De verdad?
+[02:06:18 - 02:06:19] ¿De verdad?
+[02:06:19 - 02:06:20] ¿De verdad?
+[02:06:20 - 02:06:21] ¿De verdad?
+[02:06:21 - 02:06:22] ¿De verdad?
+[02:06:22 - 02:06:23] ¿De verdad?
+[02:06:23 - 02:06:24] ¿De verdad?
+[02:06:24 - 02:06:25] ¿De verdad?
+[02:06:25 - 02:06:28] ¿De verdad?
+[02:06:28 - 02:06:29] ¿De verdad?
+[02:06:29 - 02:06:32] ¿De verdad?
+[02:06:32 - 02:06:33] ¿De verdad?
+[02:06:33 - 02:06:34] ¿De verdad?
+[02:06:34 - 02:06:35] ¿De verdad?
+[02:06:35 - 02:06:36] ¿De verdad?
+[02:06:36 - 02:06:37] ¿De verdad?
+[02:06:37 - 02:06:38] ¿De verdad?
+[02:06:38 - 02:06:39] ¿De verdad?
+[02:06:39 - 02:06:44] ¿De verdad?
+[02:06:44 - 02:06:45] ¿De verdad?
+[02:06:45 - 02:06:46] ¿De verdad?
+[02:06:46 - 02:06:47] ¿De verdad?
+[02:06:47 - 02:06:48] ¿De verdad?
+[02:06:48 - 02:06:49] ¿De verdad?
+[02:06:49 - 02:06:50] ¿De verdad?
+[02:06:50 - 02:06:51] ¿De verdad?
+[02:06:51 - 02:06:52] ¿De verdad?
+[02:06:52 - 02:06:53] ¿De verdad?
+[02:06:53 - 02:06:54] ¿De verdad?
+[02:06:54 - 02:06:56] ¿De verdad?
+[02:06:56 - 02:06:59] y apretar el botón que dice confirmar la cistencia.
+[02:06:59 - 02:07:04] Y que esperaría su una vez que confirmas la cistencia?
+[02:07:04 - 02:07:09] Esperaría que en la pantalla me parezca algo como que me confirme
+[02:07:09 - 02:07:13] que se registró la acción o que me diga,
+[02:07:13 - 02:07:15] fue confirmada tu cistencia o algo.
+[02:07:15 - 02:07:16] OK.
+[02:07:16 - 02:07:19] Pero que capaz que me siga apareciendo en el menú para no por si me
+[02:07:19 - 02:07:21] os llevo olvidar la hora o algo.
+[02:07:21 - 02:07:22] OK.
+[02:07:22 - 02:07:25] Lo confirmaste.
+[02:07:25 - 02:07:26] ¿Te apareció ese mensaje?
+[02:07:26 - 02:07:27] ¿Qué?
+[02:07:27 - 02:07:27] Un minuto.
+[02:07:27 - 02:07:28] ¿Qué haría?
+[02:07:28 - 02:07:33] Voy un para volver a la pantalla principal para seguir viendo
+[02:07:33 - 02:07:36] qué actividad este nés.
+[02:07:36 - 02:07:41] ¿Sabías a dónde ir?
+[02:07:41 - 02:07:42] No.
+[02:07:42 - 02:07:45] Capaz la flecha arriba a la izquierda.
+[02:07:45 - 02:07:46] ¿Cómo se ha frechado atrás?
+[02:07:46 - 02:07:48] ¿Te ha frechado atrás?
+[02:07:48 - 02:07:50] Sí.
+[02:07:50 - 02:07:53] ¿Te parecen tu y tibos?
+[02:07:53 - 02:07:55] No, mucho.
+[02:07:55 - 02:07:58] Capaz salgo para rodear las flechas.
+[02:07:58 - 02:08:00] OK.
+[02:08:00 - 02:08:03] Me gustó lo de ocupos restantes, ¿verdad?
+[02:08:03 - 02:08:07] Volvemos a la flecha.
+[02:08:07 - 02:08:10] Una.
+[02:08:10 - 02:08:12] Claro, no vuelve aljón.
+[02:08:12 - 02:08:14] No vuelve aljón, ¿me importa?
+[02:08:14 - 02:08:16] Porque hay que poner abajo algo que sea jom.
+[02:08:16 - 02:08:18] ¿Me importa?
+[02:08:18 - 02:08:20] ¿Y dónde estás ahora?
+[02:08:20 - 02:08:21] Volvemos al anterior.
+[02:08:21 - 02:08:22] Me gustó.
+[02:08:22 - 02:08:27] Ejalo, aja lo yo.
+[02:08:27 - 02:08:29] Volve al anterior.
+[02:08:29 - 02:08:29] Al anterior.
+[02:08:29 - 02:08:34] Ya estás muy elevado a la jom.
+[02:08:34 - 02:08:36] Voy a confirmaste.
+[02:08:36 - 02:08:40] ¿Te parecería bueno volverlo
+[02:08:40 - 02:08:41] a confirmar?
+[02:08:41 - 02:08:43] Porque capaz que no se confirmó,
+[02:08:43 - 02:08:44] pues, vuelve a aparecer de botón.
+[02:08:44 - 02:08:45] ¿Qué pensaste?
+[02:08:45 - 02:08:48] Sí, que no se registró y lo tengo que tratar de vuelta.
+[02:08:48 - 02:08:50] De verdad de vuelta.
+[02:08:50 - 02:08:55] Sí, la actividad que hice mañana las nueve lloga profesor,
+[02:08:55 - 02:08:58] tuviera algún botoncito verde o algún algo que te marca
+[02:08:58 - 02:08:59] y que te estáuquea.
+[02:08:59 - 02:09:02] ¿Qué te parecería mejor?
+[02:09:02 - 02:09:05] Me parece más intuitivo, pero prefería que no aparezca
+[02:09:05 - 02:09:06] más el botón de confirmar.
+[02:09:06 - 02:09:10] Te no parezca más el botón.
+[02:09:11 - 02:09:18] ¿O te parezca algo que día no se actividades confirmadas o algo?
+[02:09:18 - 02:09:20] Tienes tu entrenamiento del día a que es musculación
+[02:09:20 - 02:09:23] y prensupereor?
+[02:09:23 - 02:09:30] ¿Quieres ver esa rutina y quieres acceder a esa rutina?
+[02:09:30 - 02:09:35] ¿Cómo harías?
+[02:09:35 - 02:09:38] No tengo mucha idea, capaces.
+[02:09:38 - 02:09:41] El botón de abajo de tierra de aquel...
+[02:09:41 - 02:09:42] ¿Cerclí?
+[02:09:42 - 02:09:44] ¿Tenía entrenamiento del día musculación?
+[02:09:44 - 02:09:46] ¿Tren superior?
+[02:09:46 - 02:09:59] Sí, trate de hacer clic y no aparecerá...
+[02:09:59 - 02:10:02] Fantástico.
+[02:10:02 - 02:10:04] ¿Algo más que ahí?
+[02:10:04 - 02:10:08] Claro, es en el botón de alisquiarra.
+[02:10:08 - 02:10:09] No, nada, parece.
+[02:10:09 - 02:10:17] Claro, estaría bueno que este agafuedeceras y más intuitivo.
+[02:10:17 - 02:10:18] Y no, nada más.
+[02:10:18 - 02:10:18] Nada más.
+[02:10:18 - 02:10:20] No los voy a torturar más.
+[02:10:20 - 02:10:22] Está bien.
+[02:10:22 - 02:10:23] Pero es bueno.
+[02:10:23 - 02:10:28] No sé, me parece que suma el hecho de ver esto,
+[02:10:28 - 02:10:30] porque la realidad es que,
+[02:10:30 - 02:10:36] quiero que con 10 minutos empezamos a mejorar un montón de cosas.
+[02:10:36 - 02:10:41] Por lo pronto, las con que es donde vos llegaste una vez que te registrar
+[02:10:41 - 02:10:42] y quieres iniciar sesión,
+[02:10:42 - 02:10:47] tendrías que tener un panchazo general de los que vos armaste.
+[02:10:47 - 02:10:51] Y ahí ayuda mucho el diagrama de navegabilidad que habíamos armado.
+[02:10:51 - 02:10:52] Voy a compartir yo un minuto.
+[02:10:52 - 02:10:54] Lo gusto mucho.
+[02:10:54 - 02:10:57] Lo visiste en grupo de Shade, la que es el número cual?
+[02:10:57 - 02:10:59] En los somos.
+[02:10:59 - 02:11:02] No.
+[02:11:02 - 02:11:07] Recuerdan que su acá les dije que tienen que acomodarse, no acomodar,
+[02:11:07 - 02:11:11] categorizar los, voy a ver, voy a ver.
+[02:11:11 - 02:11:13] Categorizarlo.
+[02:11:13 - 02:11:17] Y acá en la Junta tengo que tener por los prontos las funcionalidades
+[02:11:17 - 02:11:20] más importantes que quiero marcar.
+[02:11:20 - 02:11:22] Este es un prototipado, no importa.
+[02:11:22 - 02:11:25] Pero la idea es que está bueno que veamos.
+[02:11:25 - 02:11:30] Y el usuario puede ir un lado para el otro.
+[02:11:30 - 02:11:35] Faca puse, por ejemplo, el inicio siempre volver porque la realidad es que el capa
+[02:11:35 - 02:11:39] se deshuelen con un botoncito, con una flechita.
+[02:11:39 - 02:11:42] No, acá en el parcín les sería buena volver con una flechita.
+[02:11:42 - 02:11:47] Tener las clases, o sea, tener las funcionalidades que yo haya definido, tal vez acá,
+[02:11:47 - 02:11:56] en el diagrama de navegación, me brinda una idea de cómo tendría que ser esa home.
+[02:11:56 - 02:11:58] ¿Ok?
+[02:11:58 - 02:12:00] Entonces, ahí vamos a empezar a relacionar.
+[02:12:00 - 02:12:07] La idea que todos las vistas están relacionadas, vieron que yo insisto mucho, aunque armo una
+[02:12:07 - 02:12:14] casa y tengo la infraestructura de las paredes y después armo el plano eléctrico y tienen
+[02:12:14 - 02:12:20] que haber un acuerdo entre esas, entre esos planos, entre esas vistas.
+[02:12:20 - 02:12:21] ¿Ok?
+[02:12:21 - 02:12:26] Entonces, la idea es que si yo tengo un diagrama de navegación, tengo que también tener en
+[02:12:26 - 02:12:32] mi home, posiblemente, todas las funcionalidades para poder acceder a eso.
+[02:12:32 - 02:12:38] El analista que estaba...
+[02:12:38 - 02:12:39] Acá estoy de profes.
+[02:12:39 - 02:12:41] ¿Qué tomaste de botonotas?
+[02:12:41 - 02:12:48] Bien, ahí anoté la acción era ir a registrarse y lo que dice es, se quiere registrar,
+[02:12:48 - 02:12:53] pero lo primero que ves es una imagen que no carga, no le da confianza y realizar un scroll
+[02:12:53 - 02:12:55] cual lo lleva a...
+[02:12:55 - 02:13:00] Pero bueno, les creo que se descarta por la corrección que hicieron y como problema,
+[02:13:00 - 02:13:02] bueno, el imagen no carga.
+[02:13:02 - 02:13:09] En la acción de registrar, pone sus datos, se indica que no hay cosas raras y presiona
+[02:13:09 - 02:13:10] registrarme.
+[02:13:10 - 02:13:12] Mi no hay problemas.
+[02:13:12 - 02:13:17] Está, pero hay un mensaje de aceptación, yo no te he visto también.
+[02:13:17 - 02:13:19] No que está registrado, ¿qué hay?
+[02:13:19 - 02:13:20] Continuadas, ¿no?
+[02:13:20 - 02:13:21] No da eso.
+[02:13:21 - 02:13:27] Claro, ahí profe yo también no te hago que el formulario no le indica al usuario
+[02:13:27 - 02:13:28] la obligatoriedad de los campos.
+[02:13:28 - 02:13:29] ¿Cambian?
+[02:13:29 - 02:13:35] Nada, eso es algo que no te he visto, pero no dije nada porque era el analista.
+[02:13:35 - 02:13:41] Bien, después vuelve al inicio y dice...
+[02:13:41 - 02:13:42] No, ya estaría bueno.
+[02:13:42 - 02:13:50] Sí, si uno hace este tipo de pruebas de la abusabilidad que pueda ilusuario, la idea es que
+[02:13:50 - 02:13:53] uno me el control el usuario y que pueda escribir, ¿no?
+[02:13:53 - 02:13:54] Porque a veces...
+[02:13:54 - 02:14:00] No sé, y si hubo, no me acordó el mail, el bueno, no puedo continuar, no puedo continuar.
+[02:14:00 - 02:14:02] Entonces, ahí aparecen.
+[02:14:02 - 02:14:10] Está bueno porque ahí nos muestras y van a ir a pena o no hacerle, ese año, digamos datos
+[02:14:10 - 02:14:11] obligatorios o no.
+[02:14:11 - 02:14:18] Eso está bueno, porque la realidad es que sin de llegar un mail, el mail ya lo que es, ¿dria?
+[02:14:18 - 02:14:24] No sé, había como quedarle una vuelta de rosca para que no escriba tanto el usuario,
+[02:14:24 - 02:14:26] pero en un buen dato lo que estás diciendo, ¿dale?
+[02:14:26 - 02:14:34] Bien, bueno, después vuelve al inicio, dice que no se ve la confirmación del registro,
+[02:14:34 - 02:14:39] lo que hiciste, o sea que el problema es que no sea feedback al usuario.
+[02:14:39 - 02:14:45] Bien, después en acción te fue a la home, donde dice hola Sara, y acá los comentar
+[02:14:45 - 02:14:47] de esto.
+[02:14:47 - 02:14:53] El usuario indica que no se puede visualizar con claridad el perfil, el usuario no sabe
+[02:14:53 - 02:14:59] cómo notarse una actividad, el usuario indica que no puede haber escrutina, al confirmar
+[02:14:59 - 02:15:06] asistencia, el usuario no tiene feedback del sistema y al confirmar asistencia, el usuario
+[02:15:06 - 02:15:09] sigue apareciendo todos los botones.
+[02:15:09 - 02:15:10] Perfecto.
+[02:15:10 - 02:15:15] Y con problemas a noter, no es clara la visualización del perfil, no es clara la descripción
+[02:15:15 - 02:15:21] de las actividades, no se ve la rutina, no es intuitivo volver de la pantalla de
+[02:15:21 - 02:15:25] clases y aparecen los botones luego de confirmar.
+[02:15:25 - 02:15:26] Perfecto.
+[02:15:26 - 02:15:36] ¿Qué te diríamos que hacer con todo eso un minuto de comparto?
+[02:15:36 - 02:15:40] ¿Diríamos que obviamente con todo lo que nos acaba de decir austín, ¿no?
+[02:15:40 - 02:15:42] Sí, perfecto.
+[02:15:42 - 02:15:43] Austín.
+[02:15:43 - 02:15:55] Con todo lo que nos acaba de decir austín, que si, bastantes cosas, tendríamos que obviamente
+[02:15:55 - 02:16:01] analizar los datos y volver a modificar el prototipado, modificar el prototipado con
+[02:16:01 - 02:16:11] todas esas buenas cosas que nos dio el usuario, con todas esas buenas estaciones que nos dio
+[02:16:11 - 02:16:12] el usuario.
+[02:16:12 - 02:16:21] A veces también hay que notar las cosas positivas, a veces uno dice encontrén, no sé, suponete.
+[02:16:21 - 02:16:34] El botón, en el lenguacá para mostrar, encontré el botón, si no, no me van a ver.
+[02:16:34 - 02:16:39] Acá me gusta, ahí se encabas, ahí se dice, esto me gusta, que esté en verde cuando la
+[02:16:39 - 02:16:42] cota está activa y en rojo cuando está activa.
+[02:16:42 - 02:16:47] Y esas cosas también están buenas a notarlas para no modificarlas y cambiarlas.
+[02:16:47 - 02:16:53] Cuando el usuario encuentra algo buen y positivo también está bueno a notarlo, para mantenerlo.
+[02:16:53 - 02:17:03] Buenísimo, creo que, sé que algunos les parece espacio, yo se hacer un juego de roleplay,
+[02:17:03 - 02:17:18] pero la realidad es que creo que está bueno poder jugar y interpretar el proceso y que
+[02:17:18 - 02:17:24] no que simplemente, en que yo les diga que es la definición de planear, buscar, con
+[02:17:24 - 02:17:31] lucir la prueba, sino que la haber hecho un juego, estas cosas realmente no debería quedar
+[02:17:31 - 02:17:33] de otra manera, ¿no?
+[02:17:33 - 02:17:34] Es más tangible.
+[02:17:34 - 02:17:39] Voy a seguir un poquito más y yo les voy a seguir.
+[02:17:39 - 02:17:40] Lo fe disculpe.
+[02:17:40 - 02:17:45] Se me ocurre en comentarios más, pero bueno, se le de usted me dice si va o se aplica,
+[02:17:45 - 02:17:46] ¿no?
+[02:17:46 - 02:17:51] El tema de la paleta de colores que debe ser adecuada para la actividad que se realiza, ¿no?
+[02:17:51 - 02:17:52] O sea, en la aplicación.
+[02:17:52 - 02:17:59] Y que sean colores, que sean como inclusivos, pero las personas que tengan, hacer alguna
+[02:17:59 - 02:18:01] discapacidad visual, algo de eso.
+[02:18:01 - 02:18:05] Mora, ahí está buenísimo, para mí, son de mí.
+[02:18:05 - 02:18:32] Hay algunas normas para software, yo no soy especialista en esto, en software para apacidad
+[02:18:32 - 02:18:35] un acuerdo, pero hay algunas normas.
+[02:18:35 - 02:18:36] ¿Qué es?
+[02:18:36 - 02:18:37] ¿A qué sé civilidad?
+[02:18:37 - 02:18:38] ¿Qué sé civil?
+[02:18:38 - 02:18:39] Sí, sí.
+[02:18:39 - 02:18:40] ¿Qué sé?
+[02:18:40 - 02:18:42] ¿No?
+[02:18:42 - 02:18:43] Había que buscar.
+[02:18:43 - 02:18:54] No me acuerdo, pero hay una norma, hay unas seis importantes.
+[02:18:54 - 02:19:08] Pero ahora lo vamos a charlar porque la realidad es que lo que dijo Augustitre, es bastante útil,
+[02:19:08 - 02:19:15] pero no podemos decir, bueno, quiero algo para que la gente con, no sé, con problemas
+[02:19:15 - 02:19:27] auditivos o ciegas, hay muchas que decía que la aplicación de lee, lo que va el menú,
+[02:19:27 - 02:19:32] no me acuerdo la normativa, las normas que son, que no de un nombre, y con ustedes están
+[02:19:32 - 02:19:37] haciendo un contrato con un cliente, tienen que colocar ese tipo de normas.
+[02:19:37 - 02:19:41] Bueno, voy a cumplir con las normas de capacidad número total, ¿no?
+[02:19:41 - 02:19:42] ¿Ok?
+[02:19:42 - 02:19:47] Lo que pasa viendo eso, sé que cuando voy transicionando la aplicación, la aplicación
+[02:19:47 - 02:19:51] va leyendo el menú por ejemplo.
+[02:19:51 - 02:19:52] ¿Ok?
+[02:19:52 - 02:19:59] Entonces, podemos probarlo el día de mañana, pero si no, cuando vas a estar a la parte de
+[02:19:59 - 02:20:01] testing, ¿cómo lo probás?
+[02:20:01 - 02:20:09] Si no tienes una norma o algo que te vaya a ir ando en lo que tenés que probar, ¿Ok?
+[02:20:09 - 02:20:13] Entonces, el momento que estás haciendo el contrato de lo que vas a hacer, la aplicación
+[02:20:13 - 02:20:16] que vas a estar, ahí ya está bueno incluirla.
+[02:20:16 - 02:20:18] ¿Qué es fenómeno?
+[02:20:18 - 02:20:26] Bien, voy a hablar un poquito de la interfaz, ¿Ok?
+[02:20:26 - 02:20:30] ¿Está hablando de dónde podemos llegar hoy?
+[02:20:30 - 02:20:37] Les agradezco a los que participaron, pero que les sean útiles, útiles todo lo que vimos
+[02:20:37 - 02:20:38] hoy.
+[02:20:38 - 02:20:43] Vamos a hablar un poco de dicción del interfaz, esto es teórico, está todo lo que es
+[02:20:43 - 02:20:44] el emprisma.
+[02:20:44 - 02:20:58] Obviamente, el sistema interfaz, más allá de que acá estamos viendo UEX, que manejarla
+[02:20:58 - 02:21:00] el protocipado, ¿no?
+[02:21:00 - 02:21:02] Porque el perdón que manejarla pantalla.
+[02:21:02 - 02:21:06] Obviamente, la pantalla tiene que ser linda, tiene que ser amigable, tiene que tener un
+[02:21:06 - 02:21:18] mismo estilo, un mismo lucanfil, o sea, tiene que tener buenas prácticas de interfaz
+[02:21:18 - 02:21:28] incorporada en la pantalla, informa parte un poco del buen armado de la aplicación,
+[02:21:28 - 02:21:37] eso otra vista, no es solamente UEX, UEX es mucho más, es la amigabilidad que tenga el
+[02:21:37 - 02:21:42] usuario con la solución.
+[02:21:42 - 02:21:51] Además, obviamente, esa amigable, corta muchísimo el tema de la interfaz.
+[02:21:51 - 02:21:55] Como empieza de la misma manera que comienza UEX, que la misma manera que comienza todos
+[02:21:55 - 02:22:00] los demás, a través de los requerimientos, estas pueden ser casos de uso, historias de
+[02:22:00 - 02:22:12] usuario, o sea, se tienen que analizar el escenario, o sea, yo por ejemplo acá en todo esto,
+[02:22:12 - 02:22:21] en el escenario, categorice, estoy al usuario, está, arme el diagrama de navegabilidad, todo
+[02:22:21 - 02:22:27] ese trabajo, identificar, analizar, definir, me ayuda muchísimo para empezar a definir las
+[02:22:27 - 02:22:28] acciones.
+[02:22:28 - 02:22:41] El dedito, el tener, esto, tener ya la nueva vez, lengua, la veridad, esto y mi otra vez,
+[02:22:41 - 02:22:48] puedo también empezar a englobar las funcionalidades que quiero que tengan, por ejemplo acá, se
+[02:22:48 - 02:22:55] va en perfil y digo bueno, editar datos, fotos, cambiarme, cambiar paz, empiezo, a ver dónde
+[02:22:55 - 02:23:00] la funcionalidad la voy a colocar, ¿ok?
+[02:23:00 - 02:23:03] Eso también ayuda muchísimo.
+[02:23:03 - 02:23:09] El prototipado es un proceso iterativo de la realidad, es que todos los procesos de análisis
+[02:23:09 - 02:23:14] de desarrollo y hasta de construcción es iterativo, entremental, porque la realidad es que
+[02:23:14 - 02:23:20] siempre los riesgos aparecen y uno tiene que empezar a mitigar, los riesgos de cambios,
+[02:23:20 - 02:23:28] de que no es amigable, de que el usuario estuvo 30 segundos para encontrar el botón de registrarse
+[02:23:28 - 02:23:35] o no encontrar el botón para volver a la home, o si es un proceso muy largo, muy extenso,
+[02:23:35 - 02:23:41] por ejemplo el de pagar un carrito, no sé, ¿dónde estoy?
+[02:23:41 - 02:23:48] Estoy en un proceso de cuatro pasos, estaría buena o marcar que estamos en el paso de cuatro
+[02:23:48 - 02:23:57] pasos, entonces siempre el proceso va a ser mejorando y el proceso siempre va a ser iterativo.
+[02:23:57 - 02:24:05] Prisma nos recomienda tres reglas duradas para lo que son pantallas, ¿ok?
+[02:24:05 - 02:24:12] Y a Interpath uno que se deja el control del usuario, reducir la carga de memoria y hacer
+[02:24:12 - 02:24:17] que la interfacia consistente, que es un poco lo que dijo Austin, ¿no?
+[02:24:17 - 02:24:25] Que tuviera todo el mismo Lucas Phil, que los botones sean del mismo tamaño, todo eso
+[02:24:25 - 02:24:33] pero además algo que está bueno es decir, permitir que el usuario se interrumpil y
+[02:24:33 - 02:24:39] también redarcible en un momento yo le dije cómo hacer para volver a la pantalla anterior,
+[02:24:39 - 02:24:45] ¿no? Entonces, es decir, bueno, estoy en una pantalla pero bueno tener el botón de
+[02:24:45 - 02:24:53] mayor y menor para volver a la pantalla anterior, eso es algo que está buenísimo ocultar
+[02:24:53 - 02:25:03] el mismo, es que lo supongo, pero no decir, bueno, generar pago, si no lo sumo pagar,
+[02:25:03 - 02:25:12] no dicen pagar, ni insertar en la base de datos, sino que directamente está algo amigable,
+[02:25:12 - 02:25:19] entonces tenemos que ocultar los temisimos, reducir la demanda de memoria corto a plazo,
+[02:25:19 - 02:25:31] algo que también acá, si los quise mostrar un poquito, yo acá le puse una parte de acceso
+[02:25:31 - 02:25:36] rápido, se está si tengo que ir a ver mis clases, bueno, donde ir las ideas que no el
+[02:25:36 - 02:25:49] usuario trate de hacer los menos click necesarios para llegar a algo que lo usa mucho, y después
+[02:25:49 - 02:25:54] bueno revelar de manera de información de manera progresiva, eso es algo muy útil y a veces
+[02:25:54 - 02:26:00] es un proceso muy extenso y está formado por determinados pasos, decir en qué paso está,
+[02:26:00 - 02:26:07] siempre darle la posibilidad de cancelar, siempre darle la posibilidad de volver, eso es lo que hace
+[02:26:07 - 02:26:15] que también interfaz era ser amigable y por lo tanto acota mucho el trabajo de useless
+[02:26:15 - 02:26:27] y a no por si logro tener todo esto, voy a hacer que el usuario pueda manejar muchísimo
+[02:26:27 - 02:26:38] más la solución, más allá de Pregman y sus reglas doradas también, hay otro autor que
+[02:26:38 - 02:26:51] se llama Tognizi, Tognizi, creo que trabajó en Mac y cuando estaba ahí pudo definir unas
+[02:26:51 - 02:26:58] cuantas características y principios generales para las buenas interfaces, les quieres mejores
+[02:26:58 - 02:27:07] que ellas, la verdad que para definir en los principios de diseño de interacción para lo que
+[02:27:07 - 02:27:17] es interfaz, obviamente el focalizó la parte web pero los principios son utilizados para todo
+[02:27:17 - 02:27:22] tipo de interfaz, previsiones, decir en el estado donde estoy, donde vuelvo, que haya una consistencia
+[02:27:22 - 02:27:30] que teca autonomía totalmente del usuario, saber dónde está, puede cancelar o no, la idea
+[02:27:30 - 02:27:40] que me da un poco, que sea fácil de manejar, que la aprendizaje sea fácil de manejar o
+[02:27:40 - 02:27:47] cultar Tognizismo, que maneje metáforas, dar seguimiento al estado, que lo que estoy diciendo,
+[02:27:47 - 02:27:52] no sé si tengo un proceso muy extensible, yo tengo tres o cuatro pasos, saber dónde estoy,
+[02:27:53 - 02:28:08] siendo que van a tener que hacer, obviamente leer todos los capítulos de prems, capítulos,
+[02:28:08 - 02:28:15] se y trece de interfaz, que yo le digo un resumen porque estoy mostrando un poquito de todo esto,
+[02:28:17 - 02:28:28] y nada más, hasta acá alguna duda con respecto a insercir, interfaz, etcétera,
+[02:28:28 - 02:28:56] les voy a dar un minutito, voy a subir la información, un minuto, así ya les va quedando,
+[02:28:56 - 02:29:09] lo que les voy a pedir es que todos los grupos, ahora sí se las voy a pedir a todos los grupos,
+[02:29:09 - 02:29:20] hagan el user person, está, dos user person, con diferentes perfilas que estuvimos viendo,
+[02:29:20 - 02:29:29] al que yo les deseé por ahí, y lo colocan cada uno en el canal del grupo.
+[02:29:29 - 02:29:40] Profé, sí, esto lo tienen que hacer conía, en dos minutos lo deberían hacer, sí.
+[02:29:40 - 02:29:48] Si yo había entregado y hemos también uno de los trabajos, pero no sé si me la tengo
+[02:29:48 - 02:29:58] como participante, no en parte de mi. Yo después salió todo, si no te preocupes,
+[02:29:58 - 02:30:02] una vez que he terminado los grupos, ahí empiezo a colocar también los que participan,
+[02:30:02 - 02:30:11] porque donde me ayuda a mí cuando tienen seis y bueno, digo vamos, estuvieron participando,
+[02:30:11 - 02:30:21] estuvieron en todas las clases, la bombardeamos de consultas. Y prefiero eso, antes de...
+[02:30:24 - 02:30:27] ¿Quién es el que participó?
+[02:30:27 - 02:30:34] O sea, yo no ya participé, pero entre mí me trabajo, hay otro anónio que participó como analista,
+[02:30:34 - 02:30:40] pero entre él lo he encontrado, pero no me mostró, yo no, yo no he encontrado, ¿sé?
+[02:30:40 - 02:30:41] Ok.
+[02:30:41 - 02:30:45] Ya te digo, ¿paranda?
+[02:30:45 - 02:30:46] Sí.
+[02:30:46 - 02:30:59] Igual de funer, ¿qué lees lo que entré? Porque está lindo.
+[02:30:59 - 02:31:01] ¿Quieres mostrarlo?
+[02:31:02 - 02:31:03] Sí.
+[02:31:03 - 02:31:10] Vale.
+[02:31:10 - 02:31:14] Mientras voy suyo de la información, yo no sé si yo.
+[02:31:14 - 02:31:23] Hay creo que ya se ve.
+[02:31:23 - 02:31:27] Bueno, nada más, muy simulado, pero yo sé el participante, ¿ok?
+[02:31:27 - 02:31:33] A justo, no me voy a ingresar.
+[02:31:33 - 02:31:38] De acuerdo, yo no sé lo que vos hiciste que proceso de negoci, ¿siste?
+[02:31:38 - 02:31:41] Pero ubicame y veo si lo puedo acceder o no.
+[02:31:42 - 02:31:51] Ok, digamos que el escenario es que hoy quiere decir al gimnasio y lo que creo.
+[02:31:51 - 02:31:58] Cuando tú que estás con una persona como yo, supuestamente no se nada de sistema, no digas este escenario.
+[02:31:58 - 02:32:00] Hola, Naliya, ¿cómo estás?
+[02:32:00 - 02:32:02] Tienes que...
+[02:32:02 - 02:32:04] Hola, Naliya, ¿cómo estás?
+[02:32:04 - 02:32:08] Sí, sí, mule, porque si no después de les hacemos.
+[02:32:09 - 02:32:21] Ok, digamos que quiere decir al gimnasio y tomar tus clases con normalidad, pero parece digamos esta pantalla.
+[02:32:21 - 02:32:23] ¿Qué es lo que pensás?
+[02:32:23 - 02:32:27] ¿Cuál proceso de suísita?
+[02:32:27 - 02:32:29] Así me ubicó.
+[02:32:29 - 02:32:31] El flujo de pago.
+[02:32:31 - 02:32:40] Ok, ¿este del gimnasio a desde el día por semana?
+[02:32:40 - 02:32:42] Bueno, vencimiento.
+[02:32:42 - 02:32:51] Al tener el botón rojo, creo que tengo una deuda entonces. ¿Es así?
+[02:32:51 - 02:32:52] Sí.
+[02:32:52 - 02:32:53] Ok.
+[02:32:53 - 02:32:54] Está bien.
+[02:32:54 - 02:32:57] Ah, vencimiento, claro, ya está vencido.
+[02:32:57 - 02:33:05] O sea, no leí tanto el vencimiento, sino que me llamó la atención del botón de pagar en cuota que está rojo.
+[02:33:06 - 02:33:09] Y bueno, si lo veo en rojo, cliqueo.
+[02:33:09 - 02:33:12] No me queda otra que cliquear, voy a traje a pagar.
+[02:33:12 - 02:33:14] Ah, me encanta.
+[02:33:14 - 02:33:17] El día por semana, puedo...
+[02:33:17 - 02:33:20] Yo pago casi todo los días.
+[02:33:20 - 02:33:24] Si yo voy a pagar passe libre, vos se le quites desde el de tres días por semana.
+[02:33:24 - 02:33:28] Ah, no, le doy por las cualquiera.
+[02:33:28 - 02:33:30] ¿Por qué le lo estres?
+[02:33:30 - 02:33:33] Le doy continuar y ahí qué es lo que sucede.
+[02:33:33 - 02:33:35] Ah, muy bien.
+[02:33:35 - 02:33:37] ¿Qué pasa el alternativo?
+[02:33:37 - 02:33:38] Ok.
+[02:33:38 - 02:33:42] ¿Te pago con margado a pago?
+[02:33:42 - 02:33:43] Por ejemplo...
+[02:33:43 - 02:33:44] Sí.
+[02:33:44 - 02:33:45] Y no está.
+[02:33:45 - 02:33:48] No tiene nada.
+[02:33:48 - 02:33:50] Le doy continuar.
+[02:33:50 - 02:33:54] Ok, el hijo, perfecto.
+[02:33:54 - 02:33:57] Lo que me gusta que tengo el botón para volver, pues si me arrepentí.
+[02:33:57 - 02:33:58] Claro.
+[02:33:58 - 02:34:03] Volvo a elegir ahora la tráqueta de crédito, salio, estamos.
+[02:34:03 - 02:34:04] ¿Ves? ¿Ves todo?
+[02:34:04 - 02:34:05] Sí.
+[02:34:05 - 02:34:06] Le doy continuar.
+[02:34:10 - 02:34:11] Fantástico.
+[02:34:11 - 02:34:13] Nunca pago.
+[02:34:13 - 02:34:15] Volvo al anterior.
+[02:34:15 - 02:34:16] ¿Sí?
+[02:34:16 - 02:34:18] Sí, no voy a ingresar.
+[02:34:18 - 02:34:21] Te pago con milleteria virtual.
+[02:34:21 - 02:34:23] El que ya ha hecho vos, ¿eh?
+[02:34:23 - 02:34:26] Te doy y le doy clicquetear.
+[02:34:26 - 02:34:28] Lo voy continuar.
+[02:34:31 - 02:34:37] Voy a por favor.
+[02:34:37 - 02:34:46] Me gusta que en la parte de abajo amiste diciendo dónde estoy, en rojo,
+[02:34:46 - 02:34:50] ¿Cálculo que es el plan de pagos o no?
+[02:34:51 - 02:34:57] Claro, digamos, es la sección donde están los distintos planes y se encarga de...
+[02:34:57 - 02:35:00] Ahí yo pondría pagos en vez de plan.
+[02:35:01 - 02:35:01] ¿Ok?
+[02:35:02 - 02:35:05] Porque bueno, no importa, ¿estás?
+[02:35:07 - 02:35:09] Vamos a dar pagar, ¿se puede?
+[02:35:10 - 02:35:10] Sí.
+[02:35:10 - 02:35:12] La verdadera tenía razón estarmoso, ¿eh?
+[02:35:14 - 02:35:15] Paucito, ¿me gusta?
+[02:35:16 - 02:35:18] Acelibre, 70.
+[02:35:18 - 02:35:23] Lástico.
+[02:35:23 - 02:35:24] Volvemos a la inicia.
+[02:35:24 - 02:35:25] Una vez que pa'é que suceder.
+[02:35:27 - 02:35:28] Eh...
+[02:35:29 - 02:35:33] Bueno, ¿sí me gusta el botón verde, el verde?
+[02:35:36 - 02:35:38] Yo usaría, yo usaría.
+[02:35:38 - 02:35:41] Lo que es botón rojo, cuando es algo muy crítico.
+[02:35:43 - 02:35:46] ¿Pues si no hay botas a la gente, el rojo?
+[02:35:46 - 02:35:47] Está bien.
+[02:35:47 - 02:35:52] Por ejemplo, si ya está vencido, la cuota, ahí sí utilizaría el rojo.
+[02:35:53 - 02:36:00] Pero el rojo tengan cuidado porque agota mucho y genera mucho agotamiento visual.
+[02:36:00 - 02:36:05] Porque si, porque uno siente que todo es urgente, que todo es crítico con el rojo.
+[02:36:06 - 02:36:09] Ya, por eso acá dice el reservo de clase como urgente, como malo.
+[02:36:11 - 02:36:13] Está... ¿Qué más hiciste?
+[02:36:13 - 02:36:14] Todo lo demás, esta.
+[02:36:14 - 02:36:17] Ahí sí, ya, eso, solo esto.
+[02:36:18 - 02:36:19] Y vamos, si volvemos...
+[02:36:21 - 02:36:22] Tener la bota.
+[02:36:23 - 02:36:27] Díamos que el hijo de esta, si lo quiera hacer por efectivo,
+[02:36:28 - 02:36:30] o cuére, te adiza...
+[02:36:32 - 02:36:33] Perfecto.
+[02:36:34 - 02:36:38] Para completar el pago, digamos, se tiene que hacer de forma presencial.
+[02:36:38 - 02:36:39] Lo social.
+[02:36:40 - 02:36:44] Si dicen tendido es porque lo quiera hacer de forma presencial así que esto se mantiene así.
+[02:36:46 - 02:36:49] Hasta que vaya la secretaria y la secretaria igual ese sistema.
+[02:36:50 - 02:36:51] La... Y si...
+[02:36:51 - 02:36:53] Y si...
+[02:36:54 - 02:36:55] Si...
+[02:36:56 - 02:36:57] Se arrepiente, digamos,
+[02:36:59 - 02:37:03] para atrás y bueno, elige otro.
+[02:37:03 - 02:37:05] Eligirá en la setargeta de crédito.
+[02:37:07 - 02:37:08] ¿Quieres pagar así? No, no, se puede...
+[02:37:13 - 02:37:14] Está hermoso.
+[02:37:14 - 02:37:17] Lo que me gusta, te cuento que es lo que me gusta.
+[02:37:17 - 02:37:18] Me gusta que tenga...
+[02:37:19 - 02:37:20] La parte siempre del inicio,
+[02:37:21 - 02:37:23] excepto cuando estás en el inicio, el botón de inicio,
+[02:37:24 - 02:37:26] para poder volver,
+[02:37:27 - 02:37:32] me gusta que tenga botinas y clases bien a mano,
+[02:37:32 - 02:37:34] porque es como un shortcut que tengo que tenerlo.
+[02:37:37 - 02:37:40] Obviamente acá estamos viendo el del usuario socio, ¿no?
+[02:37:41 - 02:37:42] Sí, sí.
+[02:37:43 - 02:37:44] Obviamente.
+[02:37:44 - 02:37:46] Ahí igual la tilde de pago, si tu suelo.
+[02:37:46 - 02:37:47] ¿No hay un trabajo?
+[02:37:49 - 02:37:50] ¿Cómo?
+[02:37:50 - 02:37:51] Sí.
+[02:37:51 - 02:37:53] Y ahí la tilde de pago exitosa es roja.
+[02:37:53 - 02:37:55] No, no, no.
+[02:37:56 - 02:37:58] Eh, mi grupo igual, pero...
+[02:37:58 - 02:37:59] No.
+[02:38:00 - 02:38:01] Sí, me gusta.
+[02:38:01 - 02:38:02] Me gusta, ¿eh?
+[02:38:04 - 02:38:05] ¿Viste?
+[02:38:06 - 02:38:06] Muy lindo.
+[02:38:07 - 02:38:09] O sea, ¿no?
+[02:38:09 - 02:38:14] Bueno, lo que les voy a pedir a todos es que hagan un user person,
+[02:38:14 - 02:38:16] son muy utilizados para arrancar,
+[02:38:17 - 02:38:20] hablar con el responsable, ¿no?
+[02:38:20 - 02:38:22] Para el responsable de pago,
+[02:38:24 - 02:38:30] con el responsable, sí, con el dueño del cliente.
+[02:38:30 - 02:38:31] Hasta que tengo miedo de decir cliente,
+[02:38:31 - 02:38:33] porque tengo miedo de ser confunden con el alumno,
+[02:38:33 - 02:38:34] con el cliente.
+[02:38:35 - 02:38:37] Los usados de pago son fundamentales.
+[02:38:39 - 02:38:45] Les cerro poco el proceso de WX y Profes.
+[02:38:45 - 02:38:46] A mí me he hecho...
+[02:38:46 - 02:38:47] Quien se ha desperdicho.
+[02:38:48 - 02:38:52] La verdad que fue muy interesante verlo en acción el proceso.
+[02:38:53 - 02:38:56] Les más sencillo, ¿no?
+[02:38:56 - 02:38:59] Porque si no es como que queda toda la teoría,
+[02:38:59 - 02:39:02] sé que a veces suelo ser mediante el tránsito, lo asumo,
+[02:39:02 - 02:39:07] pero queda toda la teoría y no lo podemos visualizar.
+[02:39:09 - 02:39:12] ¿Qué es lo que tienen que estudiar de user experience?
+[02:39:12 - 02:39:13] Obviamente,
+[02:39:15 - 02:39:19] no hay muchos autores,
+[02:39:19 - 02:39:21] porque salgo bastante nuevo entre todos.
+[02:39:21 - 02:39:23] No hay autores como decir,
+[02:39:23 - 02:39:25] bueno, me voy a alarmar, me voy a pre-erman
+[02:39:27 - 02:39:30] para poder tener un poco marco teórico.
+[02:39:31 - 02:39:34] Con lo que les dije yo navegando y investigando al cansa.
+[02:39:34 - 02:39:37] Si les puedo preguntar que es un diagrama de navegabilidad,
+[02:39:37 - 02:39:41] si les puedo preguntar cómo relacionar,
+[02:39:41 - 02:39:43] el cram con WX,
+[02:39:45 - 02:39:50] si les puedo preguntar cómo manejan y se excepcionan el backlog,
+[02:39:52 - 02:39:54] cómo comenzarían en un proyecto,
+[02:39:54 - 02:39:56] o sea, todo lo que estuvimos charlando
+[02:39:57 - 02:40:00] entra para el segundo examen,
+[02:40:00 - 02:40:02] que es bastante teórico.
+[02:40:02 - 02:40:06] Teórico práctico, porque también les puedo decir,
+[02:40:06 - 02:40:11] hagan una tarjeta de usuario y...
+[02:40:13 - 02:40:15] Les puedo pedir, me van haciendo,
+[02:40:15 - 02:40:17] pero está más orientado de la parte teórica.
+[02:40:19 - 02:40:21] Yo les voy a subir la presentación
+[02:40:25 - 02:40:27] y después, bueno, depende de ustedes,
+[02:40:27 - 02:40:30] en nivel de profundidad que le va a llamar a los temas.
+[02:40:31 - 02:40:35] Todo lo que he hecho hoy, todo lo que he hecho, todo lo que he hecho.
+[02:40:35 - 02:40:39] Estoy compartiendo, ¿no?
+[02:40:39 - 02:40:42] No.
+[02:40:42 - 02:40:46] Bueno, acá.
+[02:40:46 - 02:40:49] Esto ya lo hicieron, ¿no?
+[02:40:49 - 02:40:51] Escribirse en...
+[02:40:51 - 02:40:56] No quiero ordenar, escribirse en los grupos.
+[02:40:56 - 02:41:01] Sí, por favor.
+[02:41:01 - 02:41:02] Sí, sí.
+[02:41:02 - 02:41:05] Simulacro, Rolpey, de arabanagación.
+[02:41:05 - 02:41:07] Esto me quedó pendiente.
+[02:41:07 - 02:41:08] Ahora lo vemos.
+[02:41:08 - 02:41:10] Repaso todo pendiente.
+[02:41:10 - 02:41:12] Vamos con esto.
+[02:41:12 - 02:41:15] Doy media hora más y los dejo.
+[02:41:15 - 02:41:23] Yo preparo todo lo que quiero dar y después,
+[02:41:23 - 02:41:25] he volante a probar mi cor.
+[02:41:25 - 02:41:27] Vamos a un calidad.
+[02:41:27 - 02:41:34] Este es muy simple, pero voy metiendo algo de teoría,
+[02:41:34 - 02:41:36] porque si no, nos llegamos.
+[02:41:36 - 02:41:45] Vamos con esta famosa pirámide que estamos charlando mucho.
+[02:41:45 - 02:41:49] El objetivo es que yo tengo un producto.
+[02:41:49 - 02:41:52] Quiero tener este compromiso con la calidad.
+[02:41:52 - 02:41:56] Entonces, tengo que definir qué es lo que es para mi calidad.
+[02:41:56 - 02:42:02] O sea, hay muchas definiciones de calidad.
+[02:42:02 - 02:42:05] Hay varios autores.
+[02:42:05 - 02:42:11] Garbing es uno de los más utilizados.
+[02:42:11 - 02:42:15] Voy a decir tal cual es la definición seguna,
+[02:42:15 - 02:42:19] que es la calidad de su concepto complejo y de múltiples facetas.
+[02:42:20 - 02:42:24] Que puede escribirse en cinco diferentes puntos de vista.
+[02:42:24 - 02:42:27] Al usuario, fabricante, productivo, al hor.
+[02:42:27 - 02:42:31] Tras evidental que no se puede definir.
+[02:42:31 - 02:42:35] Es una percepción borrada del usuario.
+[02:42:35 - 02:42:41] Usuario recibe de acuerdo a las especificaciones que dicen
+[02:42:41 - 02:42:43] si lo satisfacionó.
+[02:42:43 - 02:42:49] Yo quería decir una silla para la facultad.
+[02:42:50 - 02:42:53] Es de una manera que diferente si yo quiero una silla
+[02:42:53 - 02:42:56] para dar la telemicar.
+[02:42:56 - 02:42:59] Ya puedo hacer especificación.
+[02:42:59 - 02:43:02] Ya puedo hacer que quiera y los deseos del usuario
+[02:43:02 - 02:43:05] ahí van a mostrar a lo mismo punto de vista de calidad
+[02:43:05 - 02:43:07] según el usuario.
+[02:43:07 - 02:43:10] Después, según el fabricante,
+[02:43:10 - 02:43:15] hay todas las especificaciones que haya definido el fabricante.
+[02:43:15 - 02:43:18] Yo quiero, cuando he terminado materiales,
+[02:43:19 - 02:43:23] con un costo determinado y acuerdo el costo que manejo
+[02:43:23 - 02:43:26] la calidad va a ser la siguiente.
+[02:43:26 - 02:43:30] Eso también hay que contemplarlo.
+[02:43:30 - 02:43:33] El producto, las características ciberentes,
+[02:43:33 - 02:43:35] cumple con todas las partes funcional,
+[02:43:35 - 02:43:40] cumple con todos los solicitados funcionalmente el producto.
+[02:43:44 - 02:43:48] Y de acuerdo al valor de lo que el cliente está dispuesto a pagar.
+[02:43:49 - 02:43:51] Este es uno de los que os coso.
+[02:43:51 - 02:43:55] Oco valor le damos a nuestra ingeniería.
+[02:43:55 - 02:43:58] El tema de lo valor y es importante porque a veces
+[02:43:58 - 02:44:04] uno consiera que lo caro es con lo que mayor calidad tiene.
+[02:44:04 - 02:44:08] Pero a veces uno tiene un presupuesto determinado
+[02:44:08 - 02:44:10] y con ese presupuesto determinado
+[02:44:10 - 02:44:12] hay que determinada esta calidad.
+[02:44:13 - 02:44:19] Entonces, ahí nos metemos en un mundo que es el Roy,
+[02:44:19 - 02:44:23] obtener el retorno de la inversión.
+[02:44:23 - 02:44:26] Si vale la pena hacer un producto de tanta calidad,
+[02:44:26 - 02:44:29] eso es algo que también se los debe evaluar.
+[02:44:29 - 02:44:32] Porque si la aplicación la voy a utilizar
+[02:44:32 - 02:44:35] seis meses y capaz que no requiere
+[02:44:35 - 02:44:40] que tenga tanto satributo de calidad que interre tantas veces
+[02:44:41 - 02:44:44] con el usuario, que haga tantas integraciones,
+[02:44:44 - 02:44:47] que valide tanto por la usar un tiempo acotado.
+[02:44:50 - 02:44:52] Yo siempre digo que por ejemplo,
+[02:44:52 - 02:44:53] el mercado libre, no?
+[02:44:53 - 02:44:55] El mercado libre para mí, los que hacen Wix,
+[02:44:55 - 02:44:58] que son un grupo bastante grande en el Ejército,
+[02:44:58 - 02:44:59] son fantásticos.
+[02:44:59 - 02:45:03] Porque la realidad es que todo lo que yo necesito
+[02:45:03 - 02:45:08] en mercado de Pablo tengo accesible, fácil,
+[02:45:08 - 02:45:13] es amigable, si donde todo eso como puedo cancelar,
+[02:45:13 - 02:45:16] la realidad es que tienen un grupo de Wix,
+[02:45:16 - 02:45:20] es muy bueno, e invierte muchísimo
+[02:45:20 - 02:45:26] porque su aplicación y una durabilidad
+[02:45:26 - 02:45:29] hasta que no es muy extendida,
+[02:45:29 - 02:45:31] no sé si cuando estaba mergado,
+[02:45:31 - 02:45:35] pero ya no es algo que realmente vale la pena invertir.
+[02:45:38 - 02:45:39] ¿Por qué diríver este?
+[02:45:39 - 02:45:46] Otro de los autores que también son conocidos que hablan de calidad
+[02:45:46 - 02:45:47] es Garvin.
+[02:45:47 - 02:45:53] Garvin lo que hace es tomar la calidad de diferentes puntos de vista
+[02:45:53 - 02:45:58] a los sumo ocho para acá.
+[02:45:58 - 02:46:01] Uno que es el desempeño,
+[02:46:01 - 02:46:03] cosas que ya los veremos hablando,
+[02:46:03 - 02:46:07] la calidad recibida, el estética para mí es reimportante la estética.
+[02:46:07 - 02:46:11] Parezta lo trivial, pero si no es amigas,
+[02:46:11 - 02:46:14] si no es linda la gente lo dejo usar,
+[02:46:14 - 02:46:20] servicio que es como que sea confiable,
+[02:46:20 - 02:46:24] todos estos son atributos de calidad según Garvin.
+[02:46:24 - 02:46:28] También está dentro de Trema.
+[02:46:28 - 02:46:31] Otro de los autores es Mapol
+[02:46:31 - 02:46:35] que tiene tres vistas.
+[02:46:35 - 02:46:39] Ahora me gusta un poco más tres vistas.
+[02:46:39 - 02:46:42] Ahora vamos a este que es un poco más,
+[02:46:42 - 02:46:45] que es producto, revisión de producto, transición de producto
+[02:46:45 - 02:46:46] y operación.
+[02:46:46 - 02:46:50] Es lo que te organizan esas tres vistas
+[02:46:50 - 02:46:57] y para nosotros que ya sabemos el sistema,
+[02:46:57 - 02:46:59] muestro esto,
+[02:46:59 - 02:47:01] poco viejo en la esta.
+[02:47:01 - 02:47:04] En estas vistas,
+[02:47:04 - 02:47:07] significa cada una de estas vistas
+[02:47:07 - 02:47:09] y cómo las voy a poder desarrollar.
+[02:47:09 - 02:47:11] Entonces por ejemplo,
+[02:47:11 - 02:47:13] en la operación del producto
+[02:47:13 - 02:47:15] y tengo muchas cosas que tengo que cumplir,
+[02:47:15 - 02:47:17] que sea fácil usar,
+[02:47:17 - 02:47:20] que sea seguro, que sea eficiente,
+[02:47:20 - 02:47:23] que sea diable, voy a los más comunes.
+[02:47:23 - 02:47:26] ¿Cómo puedo hacer que sea fácil de un?
+[02:47:26 - 02:47:29] Bueno, voy al grupo desarrollador,
+[02:47:29 - 02:47:34] que tengo la oportunidad, que tenga familiarización,
+[02:47:34 - 02:47:36] que tenga buena comunicación,
+[02:47:36 - 02:47:39] que pueda manejar datos comunes.
+[02:47:39 - 02:47:43] Me voy a hacer fácil de mantenimiento,
+[02:47:43 - 02:47:46] es una de las cosas que yo siempre pongo foco.
+[02:47:46 - 02:47:51] En la calidad yo quiero,
+[02:47:51 - 02:47:54] en la calidad, el producto aplico calidad
+[02:47:54 - 02:47:56] en la fase de diseño.
+[02:47:56 - 02:47:59] Entonces, uno de los atributos muy importantes
+[02:47:59 - 02:48:02] es que sea fácil de mantener.
+[02:48:02 - 02:48:05] ¿Cómo lo logró y que sea consistente?
+[02:48:05 - 02:48:06] O acá me voy perdiendo.
+[02:48:06 - 02:48:08] Lo que sea simple,
+[02:48:08 - 02:48:10] los diseños que ustedes van a hacer
+[02:48:10 - 02:48:13] es que hay que ser simples.
+[02:48:13 - 02:48:16] Es una de las claves no pobres,
+[02:48:16 - 02:48:18] no que me falta respeto,
+[02:48:18 - 02:48:20] pero que sí sea simple.
+[02:48:20 - 02:48:22] Me voy a dar fácil de mantener,
+[02:48:22 - 02:48:24] me voy a dar que sea modular.
+[02:48:24 - 02:48:26] Escarco como la cabeza,
+[02:48:26 - 02:48:28] con que sea modular, que esté atómico,
+[02:48:28 - 02:48:30] que esté bien concreto.
+[02:48:30 - 02:48:36] Entonces, tengo que definir la calidad
+[02:48:36 - 02:48:39] y después veo cómo lo puede implementar.
+[02:48:39 - 02:48:44] Este estudiante lean lo de en la prioridad,
+[02:48:44 - 02:48:47] porque acá está como el desarrollador
+[02:48:47 - 02:48:50] puede implementar todos estos atributos.
+[02:48:50 - 02:48:53] Ahora bien,
+[02:48:53 - 02:48:57] me voy a algunos que sean los más conocidos,
+[02:48:57 - 02:49:00] y que los se evaluó en los exámenes.
+[02:49:00 - 02:49:02] Cuando ustedes están haciendo un diseño,
+[02:49:02 - 02:49:05] yo evaluó algunos atributos de calidad
+[02:49:05 - 02:49:08] o algunos principios del diseño.
+[02:49:08 - 02:49:10] Primero que sea completo,
+[02:49:10 - 02:49:12] yo les pido una determinada funcionalidad
+[02:49:12 - 02:49:14] y no aparece, le digo, bueno,
+[02:49:14 - 02:49:17] el usuario puede tener la parte de ventas
+[02:49:17 - 02:49:19] y no tengo ninguna clase de ventas,
+[02:49:19 - 02:49:22] es porque la funcionalidad está incompleta.
+[02:49:22 - 02:49:25] Por lo tanto, uno de los atributos que se esticlen de validad
+[02:49:25 - 02:49:28] es que realmente la aplicación sea completa.
+[02:49:28 - 02:49:31] Performa a lo que no podemos evaluar,
+[02:49:31 - 02:49:34] obviamente, que sea disponible,
+[02:49:34 - 02:49:35] que sea seguro.
+[02:49:35 - 02:49:38] Aquí también hay que definir que normas
+[02:49:38 - 02:49:42] voy a usar para que sea seguro,
+[02:49:42 - 02:49:46] que sea testiable, que sea modificable.
+[02:49:46 - 02:49:51] Este sí, los voy a poder cumplir.
+[02:49:51 - 02:49:55] Si yo lo hago bien atómico y en concreto
+[02:49:55 - 02:49:58] con algunos principios que vamos a utilizar,
+[02:49:58 - 02:50:01] y después su habilidad,
+[02:50:01 - 02:50:05] acá la usabilidad la podemos aplicar
+[02:50:05 - 02:50:08] con todo lo que hemos oído,
+[02:50:08 - 02:50:13] con UX, es una de las listas que vamos a armar.
+[02:50:13 - 02:50:18] Ahora, donde yo si agrego calidad dentro del producto,
+[02:50:18 - 02:50:21] es en el diseño.
+[02:50:21 - 02:50:26] Es en el diseño, es, digamos, la disciplina
+[02:50:26 - 02:50:29] que me permite crear el producto
+[02:50:29 - 02:50:32] con los atributos de calidad
+[02:50:32 - 02:50:35] que yo haya definido, obviamente, ¿no?
+[02:50:35 - 02:50:39] Acá es una de buenas definición que están en Pregman,
+[02:50:39 - 02:50:42] que se licen casi todo lo que un ingeniero quiere hacer,
+[02:50:42 - 02:50:46] porque ogan o se habla de que uno quiere ser ingeniero
+[02:50:46 - 02:50:49] porque quiere el ingenio para resolver cosas, ¿no?
+[02:50:49 - 02:50:56] Tienes creatividad y aparte tenemos todos unos principios
+[02:50:56 - 02:51:02] para no irnos, para no ser solamente creativos,
+[02:51:02 - 02:51:05] sino también tener unos lineamientos para decir,
+[02:51:05 - 02:51:08] voy a tener estas consideraciones técnicas,
+[02:51:08 - 02:51:12] estas buenas prácticas para no irme con la creatividad
+[02:51:12 - 02:51:14] e inventar un lenguaje que no corresponde,
+[02:51:14 - 02:51:17] hablar de algo que no sé, que sí,
+[02:51:17 - 02:51:20] te reinventar esa rueda y estar.
+[02:51:20 - 02:51:26] Esta es una de las definiciones que a mí me gusta,
+[02:51:26 - 02:51:29] y por qué si por dónde es justamente por eso?
+[02:51:29 - 02:51:34] Porque permite hacer el sistema que voy a implementar.
+[02:51:35 - 02:51:42] Me permite venir la calidad, me permite establecer hasta qué punto de calidad quiero llegar.
+[02:51:42 - 02:51:46] ¿Cómo es el proceso de diseño que es lo que estamos haciendo?
+[02:51:46 - 02:51:54] Es iterativo y a medida que voy iterando,
+[02:51:54 - 02:51:58] voy haciendo lo incremental.
+[02:51:58 - 02:52:02] Como no sucedió con lo de decir, sí, también quiero que voy a incrementar.
+[02:52:03 - 02:52:07] La primera reunión con un usuario está con montón de conclusiones,
+[02:52:07 - 02:52:12] vuelvo a resolver, vuelvo a mejorar esa vista y vuelvo a agregar
+[02:52:12 - 02:52:19] la mayor nivel de detalle y mayor nivel de detalle de bajo el nivel de abstracción.
+[02:52:19 - 02:52:22] Y pide trabajar ese nivel de abstracción.
+[02:52:22 - 02:52:27] Me voy acercando, voy a pasar a otra,
+[02:52:28 - 02:52:36] me voy acercando cada vez más a la implementación de la denominada PSM,
+[02:52:36 - 02:52:38] modelo específico de la plataforma,
+[02:52:38 - 02:52:41] cuando me voy acercando cada vez más al código.
+[02:52:42 - 02:52:44] Igual eso lo vamos a ver,
+[02:52:44 - 02:52:50] pero yo voy metiendo conceptos para que sea más fácil relacionar temas.
+[02:52:50 - 02:52:53] Para verle,
+[02:52:53 - 02:52:55] recuerden que acá,
+[02:52:55 - 02:53:00] dijieron que es todo lo que quiere hacer es el lugar en las reglas de la creatividad.
+[02:53:00 - 02:53:05] Para si yo me voy y me paso de creativo,
+[02:53:05 - 02:53:09] realmente lo voy a entro en dar yo y no lo voy a entro en el mismo trabajo en equipo.
+[02:53:09 - 02:53:12] Y quiero que esto sea fácil de mantener.
+[02:53:12 - 02:53:15] Y me voy con la de super creativo, pues quién lo mantiene.
+[02:53:15 - 02:53:20] Tengo que aplicar creatividad, obviamente, pero dentro de unos limiamientos.
+[02:53:20 - 02:53:24] Los limiamientos y los atributos, digamos,
+[02:53:24 - 02:53:28] en los principios de las buenas prácticas del diseño son muchísimos.
+[02:53:28 - 02:53:30] Yo acá definía algunos.
+[02:53:30 - 02:53:32] La abstracción, ¿no?
+[02:53:32 - 02:53:36] Es el nivel, tengo un nivel muy alto de abstracción,
+[02:53:36 - 02:53:42] tengo un problema muy complejo, todavía no logre entenderlo
+[02:53:42 - 02:53:46] y a medida que voy evolucionando, voy bajando ese nivel de abstracción
+[02:53:46 - 02:53:49] y lo voy haciendo más concreto.
+[02:53:49 - 02:53:52] Ahí podemos ver una buena definición.
+[02:53:52 - 02:54:00] Manajar creaturas es decir, tengo, si lo está re, creo que sí, un minutito.
+[02:54:00 - 02:54:10] Tengo un minuto, un minuto, pero voy bien.
+[02:54:10 - 02:54:13] Tengo que tener la solución, el hombre está.
+[02:54:13 - 02:54:17] Entonces, tengo que armar una arquitectura de cómo sería
+[02:54:17 - 02:54:21] y tengo que ver todas las vistas, tardada de descubrir todas las vistas,
+[02:54:21 - 02:54:26] vistas de datos, de la interfaz de la migabilidad con el usuario,
+[02:54:26 - 02:54:29] por eso uso y usas expinas.
+[02:54:29 - 02:54:36] Tengo que ver vistas estáticas por eso otra vez uso diagramas de clases.
+[02:54:36 - 02:54:44] Tengo que haber vistas de secuel de iterativa por eso uso otro tipo de diagrama de secuencia.
+[02:54:44 - 02:54:48] Tengo que ver también cómo voy a englobar la funcionalidad,
+[02:54:48 - 02:54:51] por eso uso de datos diagramas que ni que iron,
+[02:54:51 - 02:54:53] y que se llamarán de navegabilidad.
+[02:54:53 - 02:55:00] Tengo que armar la arquitectura en cada todo ese modelo.
+[02:55:00 - 02:55:06] Tengo que verlo con distintas vistas para llegar a algo que es el código.
+[02:55:06 - 02:55:13] Tengo que hacer un buen diseño, simple, ante todo.
+[02:55:13 - 02:55:17] Tengo que aplicar cohesión.
+[02:55:17 - 02:55:26] El cohesión significa que algo sea cohesivo, significa que haga lo que corresponde y no lo que no le corresponde.
+[02:55:26 - 02:55:29] Vamos a dar definición que desembre los filos,
+[02:55:29 - 02:55:35] porque los agobio con cohesión y algunos atributos.
+[02:55:35 - 02:55:41] El diseño de datos forma parte también de lo que es el armado de la arquitectura,
+[02:55:41 - 02:55:44] excede nuestra materia.
+[02:55:44 - 02:55:49] Pienes una materia como vas de datos que ven,
+[02:55:49 - 02:55:56] si están trabajando con vas de datos relacionados, ustedes ven un dar.
+[02:55:56 - 02:56:00] Ocí también hayan realizado algún momento en diccionario de datos,
+[02:56:00 - 02:56:04] forma parte de las vistas del mismo modelo.
+[02:56:04 - 02:56:09] Vasamos mucho en lo que es diseño orientado, objetos.
+[02:56:09 - 02:56:15] Le pido que repase un poco de clases, objetos, cerencias, mensajes.
+[02:56:15 - 02:56:21] Igual algo vamos a ver, pero ya lo tienen que tener más incorporado.
+[02:56:21 - 02:56:26] Y visión de problemas, otro de los principios del buen diseño.
+[02:56:26 - 02:56:32] Tiene que lograrse para los problemas.
+[02:56:32 - 02:56:42] Por lo tanto, cuando nos dimos esto, y nos todo esto,
+[02:56:42 - 02:56:49] le dije que sin forma es inintendible, porque la realidad es que era mucha información.
+[02:56:49 - 02:56:54] Cómo empeste hacer eso y separando los problemas, categorizando,
+[02:56:54 - 02:56:57] así que categorías, categorizando los datos.
+[02:56:57 - 02:57:02] Tengo que empezar a armar un cierto ordenamiento.
+[02:57:02 - 02:57:12] La única manera de poder resolver problemas muy complejos es dividiendo el problema.
+[02:57:12 - 02:57:17] Entonces, si tengo, y logre dividir el problema, tengo pequeños problemes.
+[02:57:17 - 02:57:20] No tengo un problema.
+[02:57:20 - 02:57:24] Y si tengo pequeños problemas, es más fácil de poder resolverlo.
+[02:57:24 - 02:57:27] Después los voy relacionando, obviamente.
+[02:57:27 - 02:57:31] Yo esto de entrada no lo podía resolver.
+[02:57:31 - 02:57:36] Si ya empece a separarlos, empece a armar agrupaciones
+[02:57:36 - 02:57:41] de acuerdo a alguna naturaleza que yo definí,
+[02:57:41 - 02:57:46] ya tengo un pequeño problema, un poco más sacotado para resolver.
+[02:57:46 - 02:57:49] Este es otro de los principios fundamentales.
+[02:57:49 - 02:57:54] Independencia funcional, muy relacionado a la anterior,
+[02:57:54 - 02:57:58] modularidad, muy relacionado también con la condición de problemas,
+[02:57:58 - 02:58:04] empiezas a modular ocultamente información.
+[02:58:04 - 02:58:11] Eso lo vamos a ver en cuando pliquemos y a la vez de clase.
+[02:58:11 - 02:58:16] Patrónes, tenemos que llegar a ver unos patrones de la misma manera que hoy.
+[02:58:16 - 02:58:27] Ustedes pudieron entenderle y decidimos hacer una categoría de historias usuarios
+[02:58:27 - 02:58:30] y me pudieron entender, es un patrón de algo, ¿no?
+[02:58:30 - 02:58:35] OX, categorizar, hagamos un diagramo, son todos patrones y cosas.
+[02:58:35 - 02:58:38] Si ya se saben, lo funcionan y han nadedía.
+[02:58:38 - 02:58:49] Para ese diario, es poder volver a iterar y diseñar y refinar y desagregarle a medida que voy iterando,
+[02:58:49 - 02:58:55] a medida que voy iterando, voy agregándole en mayor nivel de tases,
+[02:58:55 - 02:58:59] refinando lo que yo ya tenía anteriormente.
+[02:58:59 - 02:59:07] Todo esto se lo tienen que tener grabado en la cabeza,
+[02:59:07 - 02:59:15] porque son todos los conceptos que yo busco que tengan los modelos que ustedes me presentan,
+[02:59:15 - 02:59:18] las arquitecturas que ustedes me presentan.
+[02:59:18 - 02:59:23] Vamos a cortar acá.
+[02:59:23 - 02:59:30] Profes.
+[02:59:30 - 02:59:32] ¿Te escribimos la regresa?
+[02:59:32 - 02:59:34] No, no.
+[02:59:34 - 02:59:37] Voy a preguntar para la siguiente clase.
+[02:59:37 - 02:59:41] Yo sé que tenemos que hacerlo de las tarjetas de usuario y su experience.
+[02:59:41 - 02:59:43] No, sí.
+[02:59:43 - 02:59:46] Pensé llegar a esto, pero no llegó.
+[02:59:46 - 02:59:51] Pero como ustedes vengo bien.
+[02:59:51 - 02:59:55] Vamos a hacer mucho de dibujos animados.
+[02:59:55 - 02:59:58] No, no, no.
+[02:59:58 - 03:00:01] Un minutito, ¿eh?
+[03:00:01 - 03:00:04] Porque no me quiero olvidar.
+[03:00:04 - 03:00:08] Con ustedes vengo muy bien porque tenemos todo de las clases.
+[03:00:08 - 03:00:10] No hay ningún feriado, no hay nada que nos,
+[03:00:10 - 03:00:14] así que ya en la clase 3 esto lo voy a poner.
+[03:00:14 - 03:00:19] En que me hume un minuto.
+[03:00:19 - 03:00:22] Ya sí, cuando.
+[03:00:22 - 03:00:39] Quería llegar más, pero me parece que no vamos a dar a basto,
+[03:00:39 - 03:00:51] porque el otro tema es muy extenso.
+[03:00:51 - 03:00:57] Ya lo no te acaba.
+[03:00:57 - 03:01:01] Los que están complicados son los chicos de los lunes que tenemos cuatro feriados.
+[03:01:03 - 03:01:06] Voy a subir todo acá.
+[03:01:06 - 03:01:12] Como ustedes ya saben, en la clase número de día de hoy, la dos,
+[03:01:12 - 03:01:14] fui subiendo algunas cositas.
+[03:01:14 - 03:01:18] Esto me quedará para la clase que viene y te importan.
+[03:01:18 - 03:01:23] Y voy a subir todas las presentaciones que vimos el día de hoy.
+[03:01:23 - 03:01:29] También les colocó esto a la clase 3.
+[03:01:31 - 03:01:37] Descolo a coquero es lo que tienen que leer para que no se les saco mule.
+[03:01:37 - 03:01:49] Y esto no llegue.
+[03:01:49 - 03:01:50] Pero la clase que viene.
+[03:01:50 - 03:01:54] ¿Están vivos todavía?
+[03:01:54 - 03:01:57] Sí, sí.
+[03:01:57 - 03:02:01] Sí.
+[03:02:01 - 03:02:05] ¿Con sultas dudas?
+[03:02:05 - 03:02:10] No hay algún coronerama, porque yo por parte no lo estoy encontrando.
+[03:02:10 - 03:02:13] No, no, del coronerama te cuento.
+[03:02:13 - 03:02:19] Me sirve a mí de guía si quiere los comparto,
+[03:02:19 - 03:02:22] pero la realidad es que de acuerdo a dónde voy llegando,
+[03:02:22 - 03:02:26] a veces voy cambiando las cosas.
+[03:02:26 - 03:02:29] Por lo tanto no se los comparto por eso,
+[03:02:29 - 03:02:33] porque hoy tengo un suplo de un gran de veos día a día,
+[03:02:33 - 03:02:37] que lo he quedado, pero no puedo mostrar a nosotros nada.
+[03:02:37 - 03:02:41] Pero a veces los confunden más que otra cosa.
+[03:02:41 - 03:02:44] Eso es un juez.
+[03:02:44 - 03:02:45] ¿Qué?
+[03:02:45 - 03:02:55] ¿Qué?
+[03:02:55 - 03:02:57] ¿Qué?
+[03:02:57 - 03:02:59] ¿Qué?
+[03:03:00 - 03:03:02] Es más, hoy tenía que haber dado otras cosas,
+[03:03:02 - 03:03:05] pero no llegué, así que calculo que estaba hacer para acá.
+[03:03:05 - 03:03:17] Entonces, como voy, fue VX, lo voy modificando y acuerdo a cómo veo al grupo.
+[03:03:17 - 03:03:21] VX, bueno, ¿cómo tomé cosas?
+[03:03:21 - 03:03:26] No lo comparto por eso.
+[03:03:26 - 03:03:29] Obviamente acá lo tienen, no pasa nada,
+[03:03:29 - 03:03:32] pero la realidad es que como la cambiaba todo el tiempo,
+[03:03:32 - 03:03:36] es de cuenta que no les servía con partidicelo,
+[03:03:36 - 03:03:41] sí, obviamente le comparto todo esto, ¿no?
+[03:03:41 - 03:03:43] ¿Qué es lo que ustedes tienen que tener?
+[03:03:43 - 03:03:46] Supren claro, la primera fecha del parcial,
+[03:03:46 - 03:03:48] la segunda y la del recuperatorio.
+[03:03:48 - 03:03:51] Lo que sí, ahora que está bueno que me han comentado,
+[03:03:51 - 03:03:58] es que me escribió la universidad para compartir el aula.
+[03:03:58 - 03:04:02] La idea es si tengo aula, la clase que viene,
+[03:04:02 - 03:04:05] poder vernos la clase de viene.
+[03:04:05 - 03:04:12] Pero depende de que me demasigne una aula,
+[03:04:12 - 03:04:17] como la estoy compartiendo con otro profesor y el otro profesor,
+[03:04:17 - 03:04:21] hoy hay paro, no, dejaron ir, me la pidió.
+[03:04:21 - 03:04:24] Entonces, estoy viendo de ver si puedo conseguir otro tipo de aula.
+[03:04:24 - 03:04:26] Me dura un poco más grande.
+[03:04:26 - 03:04:30] Si me da, la haremos acá, la haremos allá, le diré,
+[03:04:30 - 03:04:33] ¿qué aula tenemos que estar?
+[03:04:33 - 03:04:37] Y si no, la haremos virtual.
+[03:04:37 - 03:04:43] Pero se las voy a informar a medida que me respondan.
+[03:04:43 - 03:04:46] No me respondieron, no me signaron aula,
+[03:04:46 - 03:04:49] porque está todo, o la universidad está deparra.
+[03:04:49 - 03:04:56] Estoy atentosa al Teams y ahí les diges
+[03:04:56 - 03:04:59] si hacemos una prensencial o una virtual.
+[03:04:59 - 03:05:00] ¿Pero fe?
+[03:05:00 - 03:05:01] Sí.
+[03:05:01 - 03:05:04] Por lo que está viendo, los granograma y el tech,
+[03:05:04 - 03:05:07] que subiste, ya vamos a ver repasar,
+[03:05:07 - 03:05:09] para practicarlo del tema de los diagramas.
+[03:05:09 - 03:05:11] Recumbiendan que para la clase viene,
+[03:05:11 - 03:05:14] hagamos algo bueno o algo para que se llama la idáctica y la clase.
+[03:05:14 - 03:05:20] Lo que me interesa es que ustedes tengan por lo menos todo el manejo
+[03:05:20 - 03:05:23] de los elementos de UML.
+[03:05:23 - 03:05:24] O sea, ¿qué quiero decir eso?
+[03:05:24 - 03:05:28] Que si yo le piso explicar un diagrama de caso de uso,
+[03:05:28 - 03:05:31] estoy explicando cómo relaciona,
+[03:05:31 - 03:05:34] que es un incluy, me va siguiendo.
+[03:05:34 - 03:05:36] Si lo pueden rebasar, fantástico.
+[03:05:36 - 03:05:40] Yo arranco de ahí porque ya lo tuvieron que haber visto.
+[03:05:40 - 03:05:46] Yo hago un breve repaso pero diez minutos,
+[03:05:46 - 03:05:48] cada diagrama, no más.
+[03:05:48 - 03:05:56] Lo mismo que te dejas más de clases y si pueden ver cómo se modela
+[03:05:56 - 03:05:59] una herencia, ¿qué es una clase?
+[03:05:59 - 03:06:04] Lo comido a un poco lo ven, pero en la realidad que ya lo tendrían
+[03:06:04 - 03:06:08] que tener incorporado y le va a ser mucho más fácil para poder
+[03:06:08 - 03:06:12] seguir la materia.
+[03:06:12 - 03:06:16] ¿Algún patrón es específico para repasar?
+[03:06:16 - 03:06:20] Todos los patrones, graphs, bienvenidos a ver.
+[03:06:20 - 03:06:25] Eso también lo tendrían que tener súper incorporado.
+[03:06:25 - 03:06:28] La práctica demuestra que no,
+[03:06:28 - 03:06:32] pero si lo pueden repasar mejor.
+[03:06:32 - 03:06:35] Y patrones, graphs, ¿no? Porque lo van a ver conmigo.
+[03:06:35 - 03:06:41] ¿OK?
+[03:06:41 - 03:06:46] Consultas dudas.
+[03:06:46 - 03:06:50] Les pido que por favor, si no tener en el Excel,
+[03:06:50 - 03:06:55] está cada uno coloque el grupo en el que está.
+[03:06:55 - 03:06:59] Si no tienes el canal, les pido que me avisen.
+[03:06:59 - 03:07:03] Uno que me avise un, yo me fijo en el Excel.
+[03:07:03 - 03:07:06] Y les armo el canal.
+[03:07:06 - 03:07:18] Para la clase que viene, recuerden tener, voy a ir viendo en los canales,
+[03:07:18 - 03:07:29] el user person de cada uno para dar terminado el tema Huéx.
+[03:07:29 - 03:07:35] Bueno, gente, un placer, nos vemos presencial o virtual, estén atentos.
+[03:07:35 - 03:07:38] Bueno, con finte.
+[03:07:38 - 03:07:41] A ver, un placer.
+[03:07:41 - 03:07:43] Un placer.

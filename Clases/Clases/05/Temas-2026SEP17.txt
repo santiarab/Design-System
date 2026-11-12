@@ -1,0 +1,18 @@
+CLASE N°5- FECHA 17 SEPTIEMBRE 2026
+
+TEMAS VISTOS 
+-UML:
+	DIAG. DE despliegue
+
+
+ejercicio
+leer que es--> un webserver, application serever, api, endpoint, json, xml
+
+
+
+
+
+
+
+
+

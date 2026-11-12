@@ -1,0 +1,4646 @@
+{
+  "metadata": {
+    "id": "05_20260917_081823",
+    "class_label": "Clase 05 - Parte 1",
+    "date": "2026-09-17",
+    "file": "Clase 05-20260917_081823-Meeting Recording.mp4"
+  },
+  "duration": 6331.584,
+  "segments": [
+    {
+      "start": 3.09,
+      "end": 42.0,
+      "text": "Vamos a compartir mi computadora. Sí se ve, tres de los grasa. Fantástico. Bueno, la idea es poder hacer un ejercicio. Vamos a hacer el ejercicio de bancos solivares, yo lo voy a leer muy rápidamente, voy a poner en foco algunas cosas y la idea es ir armando una solución."
+    },
+    {
+      "start": 42.0,
+      "end": 68.1,
+      "text": "Van polivares, decía hacer un nuevo desarrollo del módulo de préstamos, ya que no se encuentra el código de dicha fuente en su sistema. De las fases de análisis se definía la siguiente funcionalidad, sistema de gestionar el delta de usuarios, de gestionar la asignación de ejecutivos, determinados clientes, el sistema de gestionar los diferentes préstamos que tienen el banco."
+    },
+    {
+      "start": 68.1,
+      "end": 86.61,
+      "text": "Personales sin ser necesaria tener una declaración sobre el destino de los fondos, préstamos prendarios para autos, motos, herramientas, se ve tener una declaración sobre el destino de los fondos, más asociarlos un seguro del banco para proteger el día."
+    },
+    {
+      "start": 86.61,
+      "end": 95.25,
+      "text": "Prestamos hipotecarios, declaración sobre el bien en potípo tecado con el seguro de catástrofe del banco."
+    },
+    {
+      "start": 95.25,
+      "end": 107.25,
+      "text": "El sistema de gestionar la evaluación de confiabilidad de pago del préstamo, el mismo lo realiza el ejecutivo de cuentas, solicitas de información de verás, le visa y del propio pago."
+    },
+    {
+      "start": 107.25,
+      "end": 120.5,
+      "text": "El sistema de despermitida, el ejecutivo de cuentas, evaluar el retraso de las cuantas predefinidas para el coguro del préstamo, ante el retraso de tres meses en el pago, el ejecutivo de cuentas puede refinale el préstamo."
+    },
+    {
+      "start": 120.5,
+      "end": 129.5,
+      "text": "Modificando el interés y cantidad de cuantas. A la hemisel proyecto se obtuve el siguiente modelo premel preliminar donde se definía las fientes clases."
+    },
+    {
+      "start": 131.5,
+      "end": 142.94,
+      "text": "Tenemos personas, ejecutivo, clientes, su cruzal de origen, caja de ahorro, cuantas corrientes, préstamos, cuantas evaluaciones, bien propiedades, seguro y préstamo en protecario."
+    },
+    {
+      "start": 142.94,
+      "end": 156.94,
+      "text": "Y acá está todo lo que nos pide. Muchas veces se los exámenes, sucede a todo, sucede a que nos dan algunas clases del dominio."
+    },
+    {
+      "start": 157.94,
+      "end": 166.52,
+      "text": "Tal vez es un poquito más armado, ya como si fuera un diagrama de clases, esto está igual lo voy a poner."
+    },
+    {
+      "start": 166.52,
+      "end": 172.52,
+      "text": "Como si fuera un diagrama de clases, si ustedes tienen que ver si eso también les sirve a lo."
+    },
+    {
+      "start": 172.52,
+      "end": 181.38,
+      "text": "En el caso de los dejo, por si no pueden ir a buscarlo, pero está dentro de los materiales."
+    },
+    {
+      "start": 182.38,
+      "end": 191.63,
+      "text": "En la guía de ejercicios para clases, que yo lo se lo subí, está en el ejercicio número uno, bueno le busco los bancos olioares."
+    },
+    {
+      "start": 191.63,
+      "end": 198.76,
+      "text": "Vamos a comenzar, pero vamos a comenzar, ¿por dónde comenzarían ustedes si quieren en el examen?"
+    },
+    {
+      "start": 198.76,
+      "end": 205.76,
+      "text": "Obviamente yo les voy a pedir posiblemente un diagrama de clases, un diagrama de interacción, puedo pedirle todos los diagramas."
+    },
+    {
+      "start": 206.76,
+      "end": 211.76,
+      "text": "Imagínense que les pido todos los diagramas, que tenemos tiempo y ustedes por dónde comenzarían."
+    },
+    {
+      "start": 214.04,
+      "end": 217.04,
+      "text": "Y posiblemente por el diagrama de clases o de casas de uso."
+    },
+    {
+      "start": 218.58,
+      "end": 220.58,
+      "text": "De casas o de casos de uso."
+    },
+    {
+      "start": 220.58,
+      "end": 230.71,
+      "text": "Ahí ya está definiendo una microbiología como RUP, donde digo bueno voy a pasarme en casos de uso. ¿Estamos acuerdos?"
+    },
+    {
+      "start": 231.84,
+      "end": 239.81,
+      "text": "Ok, ¿Otra por dónde comenzarían?"
+    },
+    {
+      "start": 239.81,
+      "end": 247.92,
+      "text": "Por la idea más sencillo. ¿Por qué? Por la idea más sencillo. ¿Por qué? ¿Por dónde?"
+    },
+    {
+      "start": 247.92,
+      "end": 252.3,
+      "text": "Por el diagrama de clases."
+    },
+    {
+      "start": 252.3,
+      "end": 255.3,
+      "text": "Por el diagrama de clases, muy bien, ¿Otra?"
+    },
+    {
+      "start": 255.3,
+      "end": 264.63,
+      "text": "El de componentes, pero puede ser."
+    },
+    {
+      "start": 264.63,
+      "end": 268.63,
+      "text": "El de componentes, me gusta también, el empezo del diagrama de componentes."
+    },
+    {
+      "start": 269.63,
+      "end": 280.3,
+      "text": "Hay otros. Bueno, la realidad es que uno inicia desde su mayor nivel de comprensión."
+    },
+    {
+      "start": 282.3,
+      "end": 290.3,
+      "text": "Entonces, de acuerdo al entendimiento del negocio uno va a comenzar. A mí yo sí, la realidad no conozco absolutamente nada del negocio."
+    },
+    {
+      "start": 290.3,
+      "end": 296.3,
+      "text": "Uno de los diagramas que a mí me gusta comenzar es un diagrama de clases, donde tengo."
+    },
+    {
+      "start": 297.3,
+      "end": 305.62,
+      "text": "En unico diagrama el proceso principal, es uno de los cuales yo siempre comienzo, sino tengo un día del negocio."
+    },
+    {
+      "start": 305.62,
+      "end": 316.62,
+      "text": "Si ya conozco el negocio y entiendo la problemática y digo bueno, me voy a un diagrama de componentes posiblemente, o directamente me voy a ver el diagrama de clases."
+    },
+    {
+      "start": 316.62,
+      "end": 326.2,
+      "text": "Empezo con esos. De diagrama de clases, si tengo que poner foco en toda la parte visual y directamente me voy con un protetipado, empezo con user experience,"
+    },
+    {
+      "start": 327.2,
+      "end": 344.58,
+      "text": "no, no empezaría con todo lo que es un ML, posiblemente no os haría historias casos de uso, posiblemente ya empezaría a saber historias de usuario, aunque uno aplique las buenas prácticas de los casos de uso."
+    },
+    {
+      "start": 345.65,
+      "end": 356.65,
+      "text": "Cuando no tengo ni idea cómo es y recién estoy arribando a una organización, a mí me gusta que me muestra en diagrama de explíde."
+    },
+    {
+      "start": 356.65,
+      "end": 372.82,
+      "text": "No sé si acá le explique el diagrama de explíde, le voy a pedir que me haya diciendo si a veces me confundo con la otra comisión."
+    },
+    {
+      "start": 373.82,
+      "end": 375.82,
+      "text": "Explique el diagrama de explíde gente."
+    },
+    {
+      "start": 375.82,
+      "end": 379.64,
+      "text": "Que yo recuerdo de la profeta."
+    },
+    {
+      "start": 379.64,
+      "end": 385.28,
+      "text": "Fantástico. Bueno, vamos entonces a empezar."
+    },
+    {
+      "start": 385.28,
+      "end": 393.46,
+      "text": "Acá estoy abriendo de abajo acá, estoy abriendo la herramienta."
+    },
+    {
+      "start": 393.46,
+      "end": 398.58,
+      "text": "Ah, ya está, minutos. No quiero dar grandas y no puedo dar y está."
+    },
+    {
+      "start": 398.58,
+      "end": 402.58,
+      "text": "Estoy abriendo la herramienta y voy a ir con un diagrama de explíde."
+    },
+    {
+      "start": 403.65,
+      "end": 413.06,
+      "text": "Y no deploy. Bueno, agarréle el diagrama. No sé si nosotros usamos dos diagramas y de explíde componente."
+    },
+    {
+      "start": 413.06,
+      "end": 417.06,
+      "text": "La realidad es que estos dos son diagramas de implementación."
+    },
+    {
+      "start": 417.06,
+      "end": 420.16,
+      "text": "Estos se dedondan diagrama de implementación."
+    },
+    {
+      "start": 420.16,
+      "end": 427.16,
+      "text": "En el diagrama de componente, si estuvimos viendo, me brinda una vista lógica pero al nivel de software."
+    },
+    {
+      "start": 427.16,
+      "end": 432.16,
+      "text": "Entonces, los elementos más importantes que tengo en el diagrama de componente,"
+    },
+    {
+      "start": 432.16,
+      "end": 435.16,
+      "text": "voy a poner los diagramas de componente."
+    },
+    {
+      "start": 435.16,
+      "end": 439.16,
+      "text": "Los elementos más importantes que tenemos este diagrama de componente,"
+    },
+    {
+      "start": 439.16,
+      "end": 449.16,
+      "text": "obviamente es el componente que se usa para grupar elementos estructurales de lógicos con una naturaleza en común,"
+    },
+    {
+      "start": 449.16,
+      "end": 456.16,
+      "text": "en la define el arquitecto y después las comunicaciones como se conectan esos componentes,"
+    },
+    {
+      "start": 456.16,
+      "end": 458.74,
+      "text": "que se denomían interfaz."
+    },
+    {
+      "start": 458.74,
+      "end": 463.74,
+      "text": "Ahora eso es al nivel software pero si yo quiero ver una vista al nivel hardware,"
+    },
+    {
+      "start": 463.74,
+      "end": 469.86,
+      "text": "ahí ya me voy a otro diagrama en la cual VML le presenta como diagrama de explíde."
+    },
+    {
+      "start": 469.86,
+      "end": 473.93,
+      "text": "El que me esbazes es una distribución física del sistema."
+    },
+    {
+      "start": 473.93,
+      "end": 478.93,
+      "text": "La distribución de los elementos que tenemos es de desarrar los elementos que tenemos,"
+    },
+    {
+      "start": 478.93,
+      "end": 484.93,
+      "text": "son prácticamente el nodo y las formas de comunicación, nodos u asociaciones,"
+    },
+    {
+      "start": 484.93,
+      "end": 487.93,
+      "text": "la omida más en un M2.x."
+    },
+    {
+      "start": 487.93,
+      "end": 494.93,
+      "text": "El nodo es el elemento de hardware que está representado de esta manera,"
+    },
+    {
+      "start": 494.93,
+      "end": 499.93,
+      "text": "es una caja entre dimensiones, que yo puedo colocar,"
+    },
+    {
+      "start": 499.93,
+      "end": 505.09,
+      "text": "que es lo que representa dicho elemento, por ejemplo un servidor."
+    },
+    {
+      "start": 505.09,
+      "end": 514.66,
+      "text": "Y si tengo acá la PC, lo puedo representar de esta manera."
+    },
+    {
+      "start": 514.66,
+      "end": 526.66,
+      "text": "Y tengo que pensar en un diagrama de explíde para el ejercicio del banco,"
+    },
+    {
+      "start": 526.66,
+      "end": 535.04,
+      "text": "estuvimos hablando sobre el préstamos y posiblemente tenga,"
+    },
+    {
+      "start": 535.04,
+      "end": 546.91,
+      "text": "acá pongo clientes, este cliente, posiblemente tenga,"
+    },
+    {
+      "start": 546.91,
+      "end": 558.92,
+      "text": "voy a acá escribir muy básico, server, banco,"
+    },
+    {
+      "start": 558.92,
+      "end": 566.74,
+      "text": "pues posiblemente acá me pedía, voy a tener contacto con Visa,"
+    },
+    {
+      "start": 566.74,
+      "end": 574.98,
+      "text": "con Master, con el Verás, ahora lo vemos."
+    },
+    {
+      "start": 574.98,
+      "end": 578.98,
+      "text": "Posiblemente tengo usuarios internos, propios del banco,"
+    },
+    {
+      "start": 578.98,
+      "end": 584.74,
+      "text": "el ejecutivo de cuenta, el cajero hombre,"
+    },
+    {
+      "start": 584.74,
+      "end": 593.17,
+      "text": "en un exuario internos del banco, a PC, no."
+    },
+    {
+      "start": 593.17,
+      "end": 600.33,
+      "text": "Y después tengo las formas de comunicación,"
+    },
+    {
+      "start": 600.33,
+      "end": 608.63,
+      "text": "bueno, no tengo el servidor del banco y después tengo, no sé, la base de apps, server."
+    },
+    {
+      "start": 608.63,
+      "end": 614.76,
+      "text": "Oh, la base de apps."
+    },
+    {
+      "start": 614.76,
+      "end": 619.76,
+      "text": "Ahí me gusta lo que es la separación de ambientes, un minutito, vamos a tardar,"
+    },
+    {
+      "start": 619.76,
+      "end": 626.36,
+      "text": "y las opciones."
+    },
+    {
+      "start": 626.36,
+      "end": 637.16,
+      "text": "Y voy a separar, no tengo muchos elementos en VML para este tipo de diagrama,"
+    },
+    {
+      "start": 637.16,
+      "end": 644.42,
+      "text": "así que voy a separarlo a todo lo que es el interno del banco,"
+    },
+    {
+      "start": 644.42,
+      "end": 648.42,
+      "text": "acá con lo que es externo, y bueno, tengo que las clientes,"
+    },
+    {
+      "start": 648.42,
+      "end": 651.74,
+      "text": "que comunican con el servidor del banco,"
+    },
+    {
+      "start": 651.74,
+      "end": 660.47,
+      "text": "que es algo muy simple, que llegue acá, internos, posiblemente también,"
+    },
+    {
+      "start": 660.47,
+      "end": 665.47,
+      "text": "esta, el servidor del banco se comunita con lo que ya va a ser datos,"
+    },
+    {
+      "start": 665.47,
+      "end": 673.36,
+      "text": "acá me voy a comunicar con lo que son el sistema externo, como el verás,"
+    },
+    {
+      "start": 673.36,
+      "end": 675.87,
+      "text": "y visa, ¿ok?"
+    },
+    {
+      "start": 675.87,
+      "end": 681.87,
+      "text": "La realidad es que es un diagrama bastante feo, si de abajo solamente en lo que es VML."
+    },
+    {
+      "start": 681.87,
+      "end": 688.38,
+      "text": "Por eso, cuando yo arranco, no arranco,"
+    },
+    {
+      "start": 688.38,
+      "end": 694.83,
+      "text": "hacer un diagrama de la escuela y hoy en día,"
+    },
+    {
+      "start": 694.83,
+      "end": 703.47,
+      "text": "la realidad es que no se utiliza mucho la forma de hacer un diagrama de VML,"
+    },
+    {
+      "start": 703.47,
+      "end": 710.47,
+      "text": "bastante no sé en VML, de por donde le explique bastante en VML."
+    },
+    {
+      "start": 710.47,
+      "end": 715.47,
+      "text": "Por lo tanto, ustedes pueden contárselo con que algunos autores se definen de esta manera"
+    },
+    {
+      "start": 715.47,
+      "end": 720.47,
+      "text": "y estadien, porque respetan un estándar, un lenguaje, está está andarizado,"
+    },
+    {
+      "start": 720.47,
+      "end": 722.47,
+      "text": "pero ya dejo y usarlo en el mercado."
+    },
+    {
+      "start": 723.6,
+      "end": 726.6,
+      "text": "La realidad es que hoy en el mercado nos rima un montón de imágenes,"
+    },
+    {
+      "start": 726.6,
+      "end": 730.6,
+      "text": "que están muy buenos para lo que es el modelado,"
+    },
+    {
+      "start": 730.6,
+      "end": 734.6,
+      "text": "porque aparte yo lo quiero lograr, en un diagrama justamente de despliegue,"
+    },
+    {
+      "start": 734.6,
+      "end": 741.53,
+      "text": "tener una única foto, un minuto, ¿eh?"
+    },
+    {
+      "start": 741.53,
+      "end": 743.53,
+      "text": "Me voy a decir, está grabando, ¿no?"
+    },
+    {
+      "start": 743.53,
+      "end": 744.53,
+      "text": "A veces me voy a estar grabando."
+    },
+    {
+      "start": 744.53,
+      "end": 752.03,
+      "text": "Tener una única foto, toda la estructura bancaria, ¿ok?"
+    },
+    {
+      "start": 753.03,
+      "end": 755.03,
+      "text": "O por lo menos que pueda tener."
+    },
+    {
+      "start": 755.03,
+      "end": 759.03,
+      "text": "Yo siempre cuento este ejemplo, porque está muy bueno,"
+    },
+    {
+      "start": 759.03,
+      "end": 764.03,
+      "text": "si yo tengo que ir a trabajar a Carfur y no tengo ni idea,"
+    },
+    {
+      "start": 764.03,
+      "end": 767.03,
+      "text": "gracias, tomás en el Alberto."
+    },
+    {
+      "start": 769.03,
+      "end": 772.16,
+      "text": "Si tengo que ir a trabajar a Carfur, no tengo ni idea,"
+    },
+    {
+      "start": 772.16,
+      "end": 778.16,
+      "text": "y la razón estoy arribando al área de sistemas y la realidad es que me muestra un diagrama de despliegue"
+    },
+    {
+      "start": 779.16,
+      "end": 783.16,
+      "text": "por lo menos para saber cómo es la sucursal,"
+    },
+    {
+      "start": 783.16,
+      "end": 786.16,
+      "text": "les te utilizan, con qué se conectan,"
+    },
+    {
+      "start": 786.16,
+      "end": 788.16,
+      "text": "donde está el sistema más importante,"
+    },
+    {
+      "start": 788.16,
+      "end": 792.16,
+      "text": "donde está lojado y la realidad es que me brinda un mayor nivel de entendimiento."
+    },
+    {
+      "start": 793.16,
+      "end": 798.19,
+      "text": "Entonces, ahí me gusta hablar mucho y hacer diagrama"
+    },
+    {
+      "start": 798.19,
+      "end": 801.19,
+      "text": "ya con otro tipo de herramientas, puede ser el rollo o cualquier otra,"
+    },
+    {
+      "start": 801.19,
+      "end": 803.19,
+      "text": "hay muchas herramientas."
+    },
+    {
+      "start": 803.19,
+      "end": 806.74,
+      "text": "A mí me gusta esta,"
+    },
+    {
+      "start": 807.74,
+      "end": 810.83,
+      "text": "hay algunas herramientas pagas,"
+    },
+    {
+      "start": 810.83,
+      "end": 816.65,
+      "text": "son, como si se dice,"
+    },
+    {
+      "start": 816.65,
+      "end": 820.65,
+      "text": "lo que tiene, bueno, a estas que ustedes van habilitando estos elementos,"
+    },
+    {
+      "start": 820.65,
+      "end": 823.65,
+      "text": "hay acuerdo a lo que ustedes están trabajando."
+    },
+    {
+      "start": 823.65,
+      "end": 827.93,
+      "text": "Por ejemplo, acá van a,"
+    },
+    {
+      "start": 827.93,
+      "end": 831.63,
+      "text": "pero acá, van a más formas,"
+    },
+    {
+      "start": 831.63,
+      "end": 834.63,
+      "text": "y en más formas pueden ir habilitando,"
+    },
+    {
+      "start": 834.63,
+      "end": 836.63,
+      "text": "otras partes del menú."
+    },
+    {
+      "start": 836.63,
+      "end": 840.63,
+      "text": "Si están trabajando con AWS, pueden seleccionar algunas más,"
+    },
+    {
+      "start": 841.63,
+      "end": 844.63,
+      "text": "si están trabajando con Azure, lo van a ir habilitando,"
+    },
+    {
+      "start": 844.63,
+      "end": 847.63,
+      "text": "y les muestra todos los elementos que ustedes tienen."
+    },
+    {
+      "start": 847.63,
+      "end": 855.05,
+      "text": "Si hay gente que se dedica a trabajar en redes y tiene que modular"
+    },
+    {
+      "start": 855.05,
+      "end": 858.05,
+      "text": "todo en infraestructura de redes y trabaja con CICCO,"
+    },
+    {
+      "start": 858.05,
+      "end": 861.3,
+      "text": "me voy a CICCO,"
+    },
+    {
+      "start": 861.3,
+      "end": 866.3,
+      "text": "me voy a CICCO y muestra todos los elementos que me brinda la esa organización."
+    },
+    {
+      "start": 866.3,
+      "end": 869.52,
+      "text": "Yo lo saco para que no..."
+    },
+    {
+      "start": 870.94,
+      "end": 874.0,
+      "text": "acá voy a ver,"
+    },
+    {
+      "start": 874.0,
+      "end": 877.0,
+      "text": "yo trabajo con algunos productos de IBM,"
+    },
+    {
+      "start": 877.0,
+      "end": 880.03,
+      "text": "voy a decir que son los más conocidos,"
+    },
+    {
+      "start": 880.03,
+      "end": 884.03,
+      "text": "tengo todos los elementos de IBM,"
+    },
+    {
+      "start": 884.03,
+      "end": 886.03,
+      "text": "están,"
+    },
+    {
+      "start": 886.03,
+      "end": 889.58,
+      "text": "ya son conocidos y que,"
+    },
+    {
+      "start": 889.58,
+      "end": 891.58,
+      "text": "con una única imagen, no entendemos,"
+    },
+    {
+      "start": 891.58,
+      "end": 894.58,
+      "text": "lo mismo pasar con lo que son Kubernetes,"
+    },
+    {
+      "start": 894.58,
+      "end": 899.08,
+      "text": "me voy a..."
+    },
+    {
+      "start": 899.08,
+      "end": 906.94,
+      "text": "Si trabajo con todo lo que es procesado de modelado de negocios,"
+    },
+    {
+      "start": 906.94,
+      "end": 910.81,
+      "text": "y de esa manera es más, por ejemplo,"
+    },
+    {
+      "start": 910.81,
+      "end": 913.9,
+      "text": "ustedes esto lo vieran,"
+    },
+    {
+      "start": 913.9,
+      "end": 917.12,
+      "text": "ahora han tenido una materia,"
+    },
+    {
+      "start": 917.12,
+      "end": 920.12,
+      "text": "circuitos digitales, algunos,"
+    },
+    {
+      "start": 920.12,
+      "end": 923.56,
+      "text": "vieran."
+    },
+    {
+      "start": 923.56,
+      "end": 925.56,
+      "text": "Con ese nombre no, pero sí vimos,"
+    },
+    {
+      "start": 925.56,
+      "end": 927.56,
+      "text": "sí vimos por tal lógicas."
+    },
+    {
+      "start": 927.56,
+      "end": 929.88,
+      "text": "El cuartas lo ha estado."
+    },
+    {
+      "start": 929.88,
+      "end": 931.88,
+      "text": "Bueno, esto a mí me encanta,"
+    },
+    {
+      "start": 931.88,
+      "end": 932.88,
+      "text": "entonces compórlas lógicas,"
+    },
+    {
+      "start": 932.88,
+      "end": 935.88,
+      "text": "bueno, el sistema de productos digitales me gusta."
+    },
+    {
+      "start": 935.88,
+      "end": 936.88,
+      "text": "Esto trabaja en los números,"
+    },
+    {
+      "start": 936.88,
+      "end": 937.88,
+      "text": "me voy a dar también."
+    },
+    {
+      "start": 937.88,
+      "end": 940.88,
+      "text": "Por lo tanto ustedes pueden ir habilitando"
+    },
+    {
+      "start": 940.88,
+      "end": 943.88,
+      "text": "la funcionalidad de que refiere"
+    },
+    {
+      "start": 943.88,
+      "end": 946.88,
+      "text": "y les agregra un montón de imágenes"
+    },
+    {
+      "start": 946.88,
+      "end": 950.88,
+      "text": "que son muy intuitivas y ya están muy están directadas"
+    },
+    {
+      "start": 950.88,
+      "end": 952.94,
+      "text": "en el mercado."
+    },
+    {
+      "start": 952.94,
+      "end": 954.94,
+      "text": "Cuando habilitan una,"
+    },
+    {
+      "start": 954.94,
+      "end": 957.94,
+      "text": "no es que habilitan solamente una sola pasabilidad,"
+    },
+    {
+      "start": 957.94,
+      "end": 958.94,
+      "text": "un montón de solapas,"
+    },
+    {
+      "start": 958.94,
+      "end": 960.94,
+      "text": "por eso yo seleccioné muy poquitas,"
+    },
+    {
+      "start": 960.94,
+      "end": 962.94,
+      "text": "dirán que seleccioné muy pocas,"
+    },
+    {
+      "start": 962.94,
+      "end": 965.94,
+      "text": "y tiene lo cualquier cantidad acá."
+    },
+    {
+      "start": 965.94,
+      "end": 969.8,
+      "text": "Tenemos muchísimas."
+    },
+    {
+      "start": 969.8,
+      "end": 972.8,
+      "text": "Bueno, vamos a comenzar a armarlo y bien a ver"
+    },
+    {
+      "start": 972.8,
+      "end": 974.8,
+      "text": "la diferencia que hay entre uno y el otro."
+    },
+    {
+      "start": 974.8,
+      "end": 978.9,
+      "text": "Me gusta mucho, me voy a parar acá."
+    },
+    {
+      "start": 978.9,
+      "end": 985.6,
+      "text": "Esto les pico una vez y así te tendrán de paciencia acá."
+    },
+    {
+      "start": 985.6,
+      "end": 989.6,
+      "text": "Bueno, yo lo que voy a tratar de hacer es exactamente lo mismo"
+    },
+    {
+      "start": 990.6,
+      "end": 995.6,
+      "text": "que hice acá con un garagón un poquito más intuitivo."
+    },
+    {
+      "start": 995.6,
+      "end": 998.6,
+      "text": "Entonces yo voy a empezar con los clientes."
+    },
+    {
+      "start": 998.6,
+      "end": 1001.6,
+      "text": "Ok, tengo clientes que se van a conectar"
+    },
+    {
+      "start": 1001.6,
+      "end": 1005.43,
+      "text": "a pedir un préstamo desde un celular."
+    },
+    {
+      "start": 1005.43,
+      "end": 1010.5,
+      "text": "Están clientes que hay unos que pueden estar llamados por teléfono."
+    },
+    {
+      "start": 1010.5,
+      "end": 1013.5,
+      "text": "Hoy es día también pueden hacer el pedido"
+    },
+    {
+      "start": 1013.5,
+      "end": 1016.5,
+      "text": "o desde una computadora que por acá no la tengo."
+    },
+    {
+      "start": 1017.5,
+      "end": 1018.5,
+      "text": "Ahí, ahí."
+    },
+    {
+      "start": 1018.5,
+      "end": 1025.29,
+      "text": "Entonces, bien clientes."
+    },
+    {
+      "start": 1025.29,
+      "end": 1029.38,
+      "text": "Ok, voy a dejar un poquito ahora acá."
+    },
+    {
+      "start": 1029.38,
+      "end": 1033.38,
+      "text": "Tengo diferentes clientes que me voy a saber no voy a conectar."
+    },
+    {
+      "start": 1033.38,
+      "end": 1036.38,
+      "text": "Esto también, los usuarios sin termos,"
+    },
+    {
+      "start": 1036.38,
+      "end": 1040.38,
+      "text": "había definido que posiblemente también tenía algunos usuarios sin termos"
+    },
+    {
+      "start": 1040.38,
+      "end": 1043.38,
+      "text": "como pueden ser los trabajan en el banco."
+    },
+    {
+      "start": 1043.38,
+      "end": 1047.38,
+      "text": "Simplemente por un tema para poder visualizar"
+    },
+    {
+      "start": 1047.38,
+      "end": 1049.73,
+      "text": "lo voy a poner de color."
+    },
+    {
+      "start": 1049.73,
+      "end": 1066.96,
+      "text": "No tengo varios usuarios a lo que justamente el drogío tiene."
+    },
+    {
+      "start": 1066.96,
+      "end": 1068.96,
+      "text": "No sé si lo tiene para dar un lado acá."
+    },
+    {
+      "start": 1068.96,
+      "end": 1081.28,
+      "text": "A lo que tiene estas herramientas que me permiten también"
+    },
+    {
+      "start": 1081.28,
+      "end": 1086.66,
+      "text": "buscar imágenes, de que es una imagen del banco."
+    },
+    {
+      "start": 1086.66,
+      "end": 1099.25,
+      "text": "Ok, entonces es una manera de hacer esta encija de buscar."
+    },
+    {
+      "start": 1099.25,
+      "end": 1102.34,
+      "text": "Me voy a aprender esta."
+    },
+    {
+      "start": 1103.34,
+      "end": 1104.34,
+      "text": "Vengo acá."
+    },
+    {
+      "start": 1104.34,
+      "end": 1108.34,
+      "text": "Bueno, tengo que comentar lo de la parte de server."
+    },
+    {
+      "start": 1108.34,
+      "end": 1109.34,
+      "text": "En el sistema externo."
+    },
+    {
+      "start": 1109.34,
+      "end": 1112.34,
+      "text": "Voy a la parte de server."
+    },
+    {
+      "start": 1112.34,
+      "end": 1119.04,
+      "text": "Quiero que la parte de Office,"
+    },
+    {
+      "start": 1119.04,
+      "end": 1123.04,
+      "text": "todo lo que es, la verdad que es bastante intuitiva"
+    },
+    {
+      "start": 1123.04,
+      "end": 1126.04,
+      "text": "y esa parte para lo que nosotros hacemos es más que suficiente."
+    },
+    {
+      "start": 1126.04,
+      "end": 1129.04,
+      "text": "Después tiene una material como virtualización"
+    },
+    {
+      "start": 1129.04,
+      "end": 1132.04,
+      "text": "y le tiene que ser algún modelado o base de datos"
+    },
+    {
+      "start": 1132.04,
+      "end": 1139.86,
+      "text": "de datos o tienen alguna que hablas crucibamente de la infraestructura y están trabajando con"
+    },
+    {
+      "start": 1139.86,
+      "end": 1148.4,
+      "text": "nube sualgo, te está ahí si ya pueden ir al modelado que requieran. Yo con esto para mí es"
+    },
+    {
+      "start": 1148.4,
+      "end": 1158.32,
+      "text": "más que suficiente. Tenemos por acá, y digo bueno voy a trabajar posiblemente mis usuarios internos,"
+    },
+    {
+      "start": 1158.32,
+      "end": 1177.78,
+      "text": "un minutito, bajado una pizzer de server acá, de hacer la cintra de su juego, bueno, acá tengo un"
+    },
+    {
+      "start": 1177.78,
+      "end": 1186.33,
+      "text": "server, voy a decir que también voy a colocar, tengo un server, esto después, voy a hablar un"
+    },
+    {
+      "start": 1186.33,
+      "end": 1194.9,
+      "text": "pizzer de server, de application server, de web server, pero primero voy a armar el diadrán,"
+    },
+    {
+      "start": 1194.9,
+      "end": 1209.3,
+      "text": "tengo todos los usuarios internos, para acá, un minuto, voy a ir con una línea directamente, no voy"
+    },
+    {
+      "start": 1209.3,
+      "end": 1217.23,
+      "text": "a ir con las direccionales, astrumas que son todas direccionales, quiero bueno, los usuarios"
+    },
+    {
+      "start": 1217.23,
+      "end": 1225.41,
+      "text": "internos se van a tener una conexión exclusiva con lo que es el sistema posiblemente de la sucurzal,"
+    },
+    {
+      "start": 1226.13,
+      "end": 1232.17,
+      "text": "de la sucurzal posible de lo que es mi sistema posiblemente también tengo una conexión estrecha"
+    },
+    {
+      "start": 1232.17,
+      "end": 1247.27,
+      "text": "con el servidor que contenga todas las partes de datos, voy a sumir un tito, que esto es una sucurzal,"
+    },
+    {
+      "start": 1247.27,
+      "end": 1254.03,
+      "text": "pues yo voy a dar varias sucurzales y esta estructura de ver que me has resplicada, pero voy a considerar"
+    },
+    {
+      "start": 1254.03,
+      "end": 1260.95,
+      "text": "que después tengo posiblemente, así como debería ser tengo lo que es una sucurzal,"
+    },
+    {
+      "start": 1260.95,
+      "end": 1270.19,
+      "text": "después tengo la central, en la central digo bueno tengo posiblemente de tener un receta,"
+    },
+    {
+      "start": 1270.19,
+      "end": 1279.34,
+      "text": "no te voy a poner, está voy a tener posiblemente un conjunto de servidores, estoy justamente en la parte central,"
+    },
+    {
+      "start": 1279.34,
+      "end": 1287.91,
+      "text": "está voy a poner otro aplicación, quiero decir que cuando me voy a poner y se aplique"
+    },
+    {
+      "start": 1287.91,
+      "end": 1298.61,
+      "text": "el server, pues lo ven, bueno para acá, volver arriba, y bueno esto en algún momento va a acceder,"
+    },
+    {
+      "start": 1298.61,
+      "end": 1303.61,
+      "text": "acá tengo una funcionalidad mínima, acá ya tengo una funcionalidad más centralizada,"
+    },
+    {
+      "start": 1305.13,
+      "end": 1314.72,
+      "text": "posiblemente tengo como para acá abajo, así ustedes ven también, tengo un conjunto de servidores"
+    },
+    {
+      "start": 1316.22,
+      "end": 1330.94,
+      "text": "o lo para acá, posiblemente una de las cosas que a mí también me gusta es aplicar uno de los"
+    },
+    {
+      "start": 1330.94,
+      "end": 1338.98,
+      "text": "principios del diseño, que es lo que es la separación de enconvencia, este frinta medio cláudico,"
+    },
+    {
+      "start": 1338.98,
+      "end": 1361.1,
+      "text": "no me gusta tanto, imágenes medio grinda, bueno medio grinda, esto tiene una parecía,"
+    },
+    {
+      "start": 1361.1,
+      "end": 1377.2,
+      "text": "bueno vamos con esta, a mí lo que me gusta mucho separar, horrible, un unito, voy a buscar"
+    },
+    {
+      "start": 1377.2,
+      "end": 1397.8,
+      "text": "un a yo separarlos ambientes, digo bueno voy a tratar de separar los ambientes en los cuales"
+    },
+    {
+      "start": 1397.8,
+      "end": 1405.39,
+      "text": "mi organización en el banco, luto tengo que ser prolijo cuando hago un diagrama,"
+    },
+    {
+      "start": 1405.39,
+      "end": 1411.67,
+      "text": "independientemente yo sé que ustedes les parece que apere fundamental porque uno de las cosas"
+    },
+    {
+      "start": 1411.67,
+      "end": 1420.12,
+      "text": "que tenemos que lograr hacer es poder transmitir una idea y si no somos prolijos no vamos a poder transmitir"
+    },
+    {
+      "start": 1420.12,
+      "end": 1426.64,
+      "text": "una idea es como decir leer un libro y que todos los capítulos están mezclados, tengo que ser"
+    },
+    {
+      "start": 1431.74,
+      "end": 1450.28,
+      "text": "un banco, esto sería mi organización, un minuto, yo ampliaré un poco de agua,"
+    },
+    {
+      "start": 1453.34,
+      "end": 1472.92,
+      "text": "cambiará, vamos a cambiar el fondo para poder visualizarlo bien, creo que vamos con este,"
+    },
+    {
+      "start": 1475.86,
+      "end": 1489.78,
+      "text": "horrible, con trozoza, un minuto, con seleccion de male el evento, me ha cacido a hacer algo,"
+    },
+    {
+      "start": 1489.78,
+      "end": 1498.86,
+      "text": "pero no me acuerdo como era para dar lo vuelta, no importa, sí, si selecciona el cuadrito,"
+    },
+    {
+      "start": 1498.86,
+      "end": 1505.14,
+      "text": "en la parte donde dice texto, abajo de donde no, en texto hay en el medio, hay una que está"
+    },
+    {
+      "start": 1505.14,
+      "end": 1515.06,
+      "text": "quizá vuelta y una que chapsuta en la arriba, hay un adonementes, hay mucha, me ha divinaste el pensamiento,"
+    },
+    {
+      "start": 1515.78,
+      "end": 1523.34,
+      "text": "ya estamos imitizados, me gusta ser puñacha, muy bien, perfecto, vamos a hacer un copiar,"
+    },
+    {
+      "start": 1523.34,
+      "end": 1528.38,
+      "text": "cuando lo siento, tengo lo que es mi organización, me acabo de poner todo lo que son sistemas externos,"
+    },
+    {
+      "start": 1533.64,
+      "end": 1541.48,
+      "text": "obviamente los usuarios, los clientes son sistemas externos, o sea, lo veron si era como externo,"
+    },
+    {
+      "start": 1541.56,
+      "end": 1559.62,
+      "text": "como sistemas externos, a todavía buena cliente, me falta todavía, tienes que"
+    },
+    {
+      "start": 1559.62,
+      "end": 1568.63,
+      "text": "dejar, acabo de trabajar, si me da bajo de la misma manera, uno ya tiene unos cuantos vicios,"
+    },
+    {
+      "start": 1569.9,
+      "end": 1579.03,
+      "text": "voy a poner servicios externos, servicios externos por qué asumo, quiero reflicar algo parecido,"
+    },
+    {
+      "start": 1579.03,
+      "end": 1585.11,
+      "text": "lo que yo pence, emponar vista, verás, etcétera, voy a poner acá en ese sector todo lo que son"
+    },
+    {
+      "start": 1585.11,
+      "end": 1613.29,
+      "text": "servicios externos, ahora me voy para acá y digo bueno, un minutito, tengo su curso al,"
+    },
+    {
+      "start": 1613.29,
+      "end": 1629.45,
+      "text": "su curso al, voy a poner un banco y inventar un banco para banco, van a ir y arramos mezcillas,"
+    },
+    {
+      "start": 1631.4,
+      "end": 1681.78,
+      "text": "para que, voy a colocar de descentral, un minutito, y piso separar ambientes, ahora después"
+    },
+    {
+      "start": 1681.78,
+      "end": 1688.31,
+      "text": "lo van a ver más un poco más planita, quiero separar ambientes, yo tengo que lo ver, tengo que"
+    },
+    {
+      "start": 1688.31,
+      "end": 1695.03,
+      "text": "aplicar los mismos principios del diseño, en todos los principios del diseño se aplica, separación de"
+    },
+    {
+      "start": 1695.03,
+      "end": 1700.31,
+      "text": "incumbenza, separación de ambientes que cada uno, cada uno la responsabilidad de que te toca,"
+    },
+    {
+      "start": 1705.59,
+      "end": 1715.34,
+      "text": "me voy por ejemplo a, quiero hacer un cubo, quiero tener un cubo ya que estábamos a hacer un cubo,"
+    },
+    {
+      "start": 1715.34,
+      "end": 1741.53,
+      "text": "que es algo relacionado, y se va a robar, mira esto, me voy a buscar un cubo, me voy a buscar el cubo,"
+    },
+    {
+      "start": 1741.53,
+      "end": 1760.74,
+      "text": "que me presta, digamos el elemento básico de, de UML, y digo bueno, este va a ser vista,"
+    },
+    {
+      "start": 1760.74,
+      "end": 1781.34,
+      "text": "en sí yo la realidad que, si sé que trabajo con un sistema externo, eso es bastante de"
+    },
+    {
+      "start": 1783.0,
+      "end": 1790.41,
+      "text": "utilizar imágenes, me gusta porque, me da una, yo lo que quiero es que si es fácil de entender,"
+    },
+    {
+      "start": 1790.41,
+      "end": 1799.86,
+      "text": "entonces de última esto lo borro, que ahí, es mucho más entendible, el que estoy conectándome con el"
+    },
+    {
+      "start": 1799.86,
+      "end": 1804.34,
+      "text": "sistema, que después veré como lo hago, pero para alguna primera instancia está mucho más que vean,"
+    },
+    {
+      "start": 1805.83,
+      "end": 1810.23,
+      "text": "ni lo mismo acá voy a poner verás, ahora saben lo que se verás, ¿no?"
+    },
+    {
+      "start": 1811.56,
+      "end": 1815.68,
+      "text": "Regunto porque a veces saben que es referente y otra vez no,"
+    },
+    {
+      "start": 1815.68,
+      "end": 1826.84,
+      "text": "que nadie quiere ser exacto, ahora ahora vemos, posiblemente el servidor se va a tener que"
+    },
+    {
+      "start": 1826.84,
+      "end": 1834.76,
+      "text": "conectar con el verás, que es un sistema que, ahora lo vamos a ver, es un sistema que nos dice si tenemos"
+    },
+    {
+      "start": 1834.76,
+      "end": 1843.53,
+      "text": "si cualquier persona de la Argentina tiene deuda o no, el cliente también se va a conectar"
+    },
+    {
+      "start": 1843.53,
+      "end": 1852.74,
+      "text": "con, posiblemente con el central, eso es algo que se define a nivel de arquitectura, pero yo"
+    },
+    {
+      "start": 1852.74,
+      "end": 1875.26,
+      "text": "se empiezo a separar los ambientes, en el título, en el mismo tiempo, que es mis clientes,"
+    },
+    {
+      "start": 1875.26,
+      "end": 1881.28,
+      "text": "todo lo que es servicio, visa, más term, y acá hasta podría llegar a poner otro cubo,"
+    },
+    {
+      "start": 1884.29,
+      "end": 1892.1,
+      "text": "y representar por ejemplo los bancos central de la República Argentina, el banco central de la"
+    },
+    {
+      "start": 1892.1,
+      "end": 1897.58,
+      "text": "República Argentina, porque calculo que en algún momento también le podría llegar a ofrecer o solicitar"
+    },
+    {
+      "start": 1897.58,
+      "end": 1908.06,
+      "text": "información o o eso directamente me piden cosas a mí, entonces tendría que tener una comunicación."
+    },
+    {
+      "start": 1909.35,
+      "end": 1919.01,
+      "text": "Bueno, ven que este es mucho más fácil y de entender y me voy a esto, es más amigable,"
+    },
+    {
+      "start": 1919.01,
+      "end": 1929.12,
+      "text": "es muchísimo más amigable, y a eso se les suma que ustedes pueden tener otros tipos de elementos,"
+    },
+    {
+      "start": 1929.12,
+      "end": 1934.16,
+      "text": "que están todo lo que están acá, que la realidad están buenísimos, pero si estoy trabajando"
+    },
+    {
+      "start": 1934.16,
+      "end": 1942.36,
+      "text": "ya con una base hora que el por ejemplo, si estoy trabajando con el server de la vez que"
+    },
+    {
+      "start": 1942.36,
+      "end": 1953.41,
+      "text": "están acá, por ejemplo estoy trabajando con MySQL y WebSQL Server, lo puedo colocar, la imagen"
+    },
+    {
+      "start": 1953.41,
+      "end": 1961.41,
+      "text": "que representa esa elemento, por lo tanto esto sí son uno de las formas y armar un diagrama de"
+    },
+    {
+      "start": 1961.41,
+      "end": 1969.82,
+      "text": "despliegue que más se utiliza. Hay una rama que se llama lo que es arquitectura empresarial,"
+    },
+    {
+      "start": 1969.82,
+      "end": 1975.62,
+      "text": "que tiene muchísimo de esto, y a medida que uno va haciendo click, va bajando ese nivel de"
+    },
+    {
+      "start": 1975.62,
+      "end": 1980.86,
+      "text": "abstracción, vas haciendo ese doble click y vas haciendo lo más atómico, cuando se digo bueno,"
+    },
+    {
+      "start": 1980.86,
+      "end": 1986.86,
+      "text": "por ejemplo, en este servidor, abro y me muestran todos los servidores que tiene esta granja de"
+    },
+    {
+      "start": 1986.86,
+      "end": 1992.78,
+      "text": "servidores, bueno este server, que tiene, este server tiene, una base de datos fuera que"
+    },
+    {
+      "start": 1992.78,
+      "end": 2001.42,
+      "text": "es la clima de tal versión, y da soporte a tal aplicación que la utiliza a la gente de recursos"
+    },
+    {
+      "start": 2001.42,
+      "end": 2008.26,
+      "text": "humanos, entonces de esa manera yo puedo ir bien lo y de los recursos humanos, ¿quién son esos"
+    },
+    {
+      "start": 2008.26,
+      "end": 2015.62,
+      "text": "usuarios específicos que utilizan esa aplicación? Y analía, Juan y Pablo, bueno, fantástico,"
+    },
+    {
+      "start": 2015.62,
+      "end": 2022.1,
+      "text": "yo voy haciendo ese doble click y voy teniendo una trasa de toda la organización, esas son"
+    },
+    {
+      "start": 2022.1,
+      "end": 2028.8,
+      "text": "una rama también que es muy utilizada, que es todo lo que es arquitectura empresarial,"
+    },
+    {
+      "start": 2028.8,
+      "end": 2048.9,
+      "text": "acá me faltó algo un tito, ¿ok? Por lo tanto es bastante utilizado, lo que me vienes"
+    },
+    {
+      "start": 2048.9,
+      "end": 2056.1,
+      "text": "al diagrama de despliegue cuando no, tengo ni idea y una vista general me ayuda a entender un"
+    },
+    {
+      "start": 2056.1,
+      "end": 2067.02,
+      "text": "poquitito, ahora si me voy a la especificación y por lo menos ya pude identificar algunos clientes"
+    },
+    {
+      "start": 2067.02,
+      "end": 2073.1,
+      "text": "que ya tengo sistemas internos, que tengo una conexión y perió de información hacia otro"
+    },
+    {
+      "start": 2073.1,
+      "end": 2087.63,
+      "text": "lado, que puede ser a través de la vida, no recorran que acá estaba un poquito, acá el"
+    },
+    {
+      "start": 2087.63,
+      "end": 2092.67,
+      "text": "sistema solicita la información del vera del ICI del propio banco, está por lo tanto"
+    },
+    {
+      "start": 2092.67,
+      "end": 2101.83,
+      "text": "tengo alguna conexión extra, eso también lo tengo aquí contemplándolo, ¿ok? Ahora bien,"
+    },
+    {
+      "start": 2101.83,
+      "end": 2106.03,
+      "text": "vamos a antes de seguir, yo quiero explicarles un poquitito, ¿qué es el vera?"
+    },
+    {
+      "start": 2106.03,
+      "end": 2119.03,
+      "text": "El vera, ¿ok? Bueno, es un sistema, obviamente del banco central de la República Argentina,"
+    },
+    {
+      "start": 2119.03,
+      "end": 2128.72,
+      "text": "donde todos los deudores estamos en como si fuera una lista negra y esa información pública,"
+    },
+    {
+      "start": 2128.72,
+      "end": 2137.78,
+      "text": "uno cuando de ti una deuda no recuerdo cuánto es el tiempo pero uno paga o no paga la"
+    },
+    {
+      "start": 2137.78,
+      "end": 2143.34,
+      "text": "carjeta de crédito o alguien en una denuncia obviamente abalada por el banco central de la"
+    },
+    {
+      "start": 2143.34,
+      "end": 2148.7,
+      "text": "República Argentina, casi todos los bancos, ahí deuda estamos dentro de esa lista negra,"
+    },
+    {
+      "start": 2148.7,
+      "end": 2154.26,
+      "text": "entonces en algún momento cuando uno quiere sacar algún préstamo si estás dentro del vera,"
+    },
+    {
+      "start": 2154.26,
+      "end": 2162.35,
+      "text": "estás malranqueado, no te dan, estás en una posición más endeble para poder solicitar"
+    },
+    {
+      "start": 2162.35,
+      "end": 2168.92,
+      "text": "un préstamo y si uno lo abona, creo que está, no recuerdo bien, había que investigarlo,"
+    },
+    {
+      "start": 2168.92,
+      "end": 2174.39,
+      "text": "pero tantas más como dos o tres años en salir de esa lista negra. Por lo tanto, es un sistema"
+    },
+    {
+      "start": 2174.39,
+      "end": 2183.1,
+      "text": "que es público y nosotros siempre decimos que nosotros lo que hacemos como un genio"
+    },
+    {
+      "start": 2183.1,
+      "end": 2189.46,
+      "text": "es saber que hay muchos sistemas que están funcionando y tengo que conectar esos componentes"
+    },
+    {
+      "start": 2189.46,
+      "end": 2198.86,
+      "text": "y la manera de conectar esos componentes de extener o algún armar algo, una clase, un"
+    },
+    {
+      "start": 2198.86,
+      "end": 2205.66,
+      "text": "proces, un componente, lo que sea y después poder conectarme, casi todas son conexiones,"
+    },
+    {
+      "start": 2205.66,
+      "end": 2216.22,
+      "text": "me tengo que conectar en forma de API, en un API donde yo le voy a solicitar un información."
+    },
+    {
+      "start": 2216.22,
+      "end": 2220.7,
+      "text": "Entre acá el banco central de la República Argentina, esto está público, está, pero yo quiero"
+    },
+    {
+      "start": 2220.7,
+      "end": 2228.0,
+      "text": "mostrarle un ejemplo de concreto, por eso accedo acá, no se los voy a pedir en el examen"
+    },
+    {
+      "start": 2228.0,
+      "end": 2237.21,
+      "text": "que se tranquilos. Esto es para poder entender un poquito más, hay muchísimas servicios"
+    },
+    {
+      "start": 2237.21,
+      "end": 2245.79,
+      "text": "públicos, servicio meteorológico, bueno, pero hay muchísimos que uno le pide información"
+    },
+    {
+      "start": 2245.79,
+      "end": 2254.93,
+      "text": "y te la brilda. Nosotros lo que hacemos es a través de una URL, una URL que escribimos"
+    },
+    {
+      "start": 2254.93,
+      "end": 2266.87,
+      "text": "acá, donde tenemos la URL es una ruta específica, hacia un servidor, posiblemente un servidor"
+    },
+    {
+      "start": 2266.87,
+      "end": 2276.86,
+      "text": "que está dentro de la organización del banco central de la República Argentina. Entonces"
+    },
+    {
+      "start": 2276.86,
+      "end": 2284.93,
+      "text": "yo digo bueno, conectate al deserre, banco.al y después acá le pido todo lo que yo necesito."
+    },
+    {
+      "start": 2284.93,
+      "end": 2290.49,
+      "text": "La documentación está pública y me va diciendo bueno, si quieres saber los deudores,"
+    },
+    {
+      "start": 2290.49,
+      "end": 2297.61,
+      "text": "tenés que colocar obviamente todo esto, más central deudores y acá la identificación,"
+    },
+    {
+      "start": 2297.61,
+      "end": 2304.26,
+      "text": "la identificación es el Qit de cada uno, el Qil de cada uno, ok, si quieren ustedes pueden"
+    },
+    {
+      "start": 2304.26,
+      "end": 2315.64,
+      "text": "jugar. Entonces lo que hacemos es mandarle esa URL, que se denomina endpoint, que es la"
+    },
+    {
+      "start": 2315.64,
+      "end": 2321.72,
+      "text": "URL específica al servidor que queremos acceder y después nos permite crear actualizar,"
+    },
+    {
+      "start": 2321.72,
+      "end": 2327.04,
+      "text": "consultar, acá nos permite por ejemplo consultar. Es como si fuera una puerta de acceso, yo voy"
+    },
+    {
+      "start": 2327.04,
+      "end": 2336.45,
+      "text": "a ganar Get, Post, Delete, eso es lápig que tiene del otro lado, que yo le estoy pidiendo"
+    },
+    {
+      "start": 2336.45,
+      "end": 2343.35,
+      "text": "algo y ellos me devuelve. Entonces acá veo que es lo que le tiene lo que"
+    },
+    {
+      "start": 2343.35,
+      "end": 2348.39,
+      "text": "pasar, esta es la documentación y dice bueno, conectate de esta manera la identificación"
+    },
+    {
+      "start": 2348.39,
+      "end": 2358.1,
+      "text": "está y te arma el el bol. Chocas juguen un poquito, lo he chiquité para que no vea mi número"
+    },
+    {
+      "start": 2358.1,
+      "end": 2366.81,
+      "text": "de Qit y acá de dengo toda la información que me rinda, ok, esto, que es lo que me devuelve,"
+    },
+    {
+      "start": 2366.81,
+      "end": 2376.98,
+      "text": "me devuelve la información en un formato determinado, los dos formatos más utilizados, el XM"
+    },
+    {
+      "start": 2376.98,
+      "end": 2391.02,
+      "text": "L y el Shison, vamos a dar, así me pone en español, los dos formatos los más comunes"
+    },
+    {
+      "start": 2391.02,
+      "end": 2400.82,
+      "text": "son muy utilizados dentro de la comunicación, ya está superstandarizado, y son lenguajes,"
+    },
+    {
+      "start": 2400.82,
+      "end": 2406.62,
+      "text": "está de formativo de texto, que lo que me permite justamente es poder comunicarme de un"
+    },
+    {
+      "start": 2406.62,
+      "end": 2420.4,
+      "text": "servir al otro, esto lo que me devuelve, es un Shison, ahora vamos a dar, Shison es un formato,"
+    },
+    {
+      "start": 2420.4,
+      "end": 2427.96,
+      "text": "es un poco más ligero que el XM L, está lo que me permite es como funciona con lo"
+    },
+    {
+      "start": 2427.96,
+      "end": 2435.0,
+      "text": "que lo va a dar, funciona con lo que es clave y valor, está es mucho más sencillo, en ejemplo,"
+    },
+    {
+      "start": 2435.0,
+      "end": 2444.82,
+      "text": "el otro está en el otro formato de texto muy utilizado para hablar entre aplicaciones,"
+    },
+    {
+      "start": 2444.82,
+      "end": 2454.09,
+      "text": "es el XM L, es un poco más pesado, es un poco más pesado, es más antiguo aparte,"
+    },
+    {
+      "start": 2454.09,
+      "end": 2472.88,
+      "text": "vamos a dar un ejemplo, vamos a dar un ejemplo, vamos a dar un ejemplo, esto que les parece,"
+    },
+    {
+      "start": 2472.88,
+      "end": 2480.5,
+      "text": "que es parecido a que lo que estuvimos viendo también, HTML, es facto es muy parecido a"
+    },
+    {
+      "start": 2480.5,
+      "end": 2487.22,
+      "text": "la HTML en lenguaje de mercado, ok, utilicé etiquetas, acá las estamos viendo, utilicé etiquetas"
+    },
+    {
+      "start": 2487.22,
+      "end": 2495.22,
+      "text": "que se abren, se se arrancemos Tidelis y se se arrancemos Tidelis, y dentro de todas esas etiquetas"
+    },
+    {
+      "start": 2495.22,
+      "end": 2501.62,
+      "text": "organizo la información en una estructura tipo árbol, ok, tengo estudiante euro, todo"
+    },
+    {
+      "start": 2501.62,
+      "end": 2510.49,
+      "text": "de este estudiante dos, tipo árbol, es mucho más pesado porque tengo que manejar etiquetas,"
+    },
+    {
+      "start": 2510.49,
+      "end": 2517.09,
+      "text": "está, pero bueno la verdad que también es muy muy muy utilizada, el XM obviamente es un poco"
+    },
+    {
+      "start": 2517.09,
+      "end": 2531.9,
+      "text": "más liviano, es más aderaca, vamos a ver, este es que es sencillo, es mucho más liviano,"
+    },
+    {
+      "start": 2531.9,
+      "end": 2539.5,
+      "text": "obviamente carga más rápido porque tiene menos caratés, tipo no tiene, no tener todas las etiquetas,"
+    },
+    {
+      "start": 2539.5,
+      "end": 2548.5,
+      "text": "tengo menos adornos por así decirlo, el XM es para mí suele estar un poco más fácil de leer y"
+    },
+    {
+      "start": 2548.5,
+      "end": 2554.9,
+      "text": "hoy obviamente se utilizan los dos, pero si uno comienza con un sistema nuevo, empieza"
+    },
+    {
+      "start": 2554.9,
+      "end": 2560.42,
+      "text": "prácticamente a utilizar el YALSON, pero como uno tiene que convivir con sistemas que ya"
+    },
+    {
+      "start": 2560.42,
+      "end": 2566.98,
+      "text": "funcionan, que son un relojito y que andan, si uno tiene que decir bueno, no sé que estoy"
+    },
+    {
+      "start": 2566.98,
+      "end": 2579.06,
+      "text": "acá, acá ya sabemos que el verás me comunico con un YALSON, por acá, a ver si está, está, no lo"
+    },
+    {
+      "start": 2579.06,
+      "end": 2588.34,
+      "text": "crea, entonces digo bueno, la chico, la comunicación entre el server y el verás, va a ser"
+    },
+    {
+      "start": 2588.34,
+      "end": 2597.48,
+      "text": "la otra vez del YALSON, ok, me van siguiendo, ahora imagínense, en visa, en visa no lo investí"
+    },
+    {
+      "start": 2597.48,
+      "end": 2604.6,
+      "text": "pero digo bueno con visa, me vuelco un XM, el formato que me devuelve la información y que yo también"
+    },
+    {
+      "start": 2604.6,
+      "end": 2610.0,
+      "text": "le tengo que solicitar, bueno, yo le solicito con un endpoint, no hay problema, pero,"
+    },
+    {
+      "start": 2610.0,
+      "end": 2635.34,
+      "text": "dice, me le salió, me la salió, está, me le salió, capaz que no lo tengo en las formas que"
+    },
+    {
+      "start": 2635.34,
+      "end": 2670.68,
+      "text": "tengo seleccionada, el día que ver donde está, pero bueno, vamos a simular, bueno, bueno,"
+    },
+    {
+      "start": 2673.29,
+      "end": 2693.42,
+      "text": "no sé qué pasa con un minuto, no puedo, ahora vamos, qué pasa acá, voy a sacar un minuto"
+    },
+    {
+      "start": 2693.42,
+      "end": 2706.06,
+      "text": "del mouse que se le decía, se olvida, bueno, ahora vamos acá, se voy a chicar, imagínense"
+    },
+    {
+      "start": 2706.06,
+      "end": 2714.06,
+      "text": "que acá dice XML, entonces digo bueno la comunicación va a ser esta, ok, tendría que habilitarlo"
+    },
+    {
+      "start": 2714.06,
+      "end": 2726.32,
+      "text": "en más formas para encontrar este elemento que me diga, el XML y ahí ponárselo, ok, entonces"
+    },
+    {
+      "start": 2726.32,
+      "end": 2733.12,
+      "text": "me grino a una cierta información, yo tengo que lograr tener, obviamente, dentro de lo que"
+    },
+    {
+      "start": 2733.12,
+      "end": 2739.96,
+      "text": "es la CD central tengo que armar un componente para poder justamente encapsular la comunicación"
+    },
+    {
+      "start": 2739.96,
+      "end": 2746.76,
+      "text": "con el verás y la comunicación conmice con todos los jugadores externos que tengo,"
+    },
+    {
+      "start": 2746.76,
+      "end": 2753.36,
+      "text": "porque cada uno se va a conectar y me va a pedir información de una determinada manera, yo,"
+    },
+    {
+      "start": 2753.36,
+      "end": 2772.6,
+      "text": "por ejemplo acá, acá en la documentación, oh, Dios, en la documentación del verás, en la"
+    },
+    {
+      "start": 2772.6,
+      "end": 2777.88,
+      "text": "documentación de verás tengo un montón de formas de cómo es tu tempo y cómo es la"
+    },
+    {
+      "start": 2777.88,
+      "end": 2783.08,
+      "text": "URL, la ruta específica, tengo que definir un montón de cosas que van a ser diferentes"
+    },
+    {
+      "start": 2783.08,
+      "end": 2790.44,
+      "text": "a conectarme con vista, o es decir, cada uno ya tiene un sistema armado y me va a pedir"
+    },
+    {
+      "start": 2790.44,
+      "end": 2797.36,
+      "text": "determinada información, los datos que ves, no son públicas y tengo que hacer una registración"
+    },
+    {
+      "start": 2797.36,
+      "end": 2802.84,
+      "text": "previa, bueno, son cosas que uno tiene que ir armando y yo lo que quiero es encapsular"
+    },
+    {
+      "start": 2802.84,
+      "end": 2808.76,
+      "text": "la comunicación externa con los servicios, con otros servicios y que esté ahí y poder"
+    },
+    {
+      "start": 2808.76,
+      "end": 2813.96,
+      "text": "cada uno, después tener el concreto para poder comunicarme con cada uno de estos,"
+    },
+    {
+      "start": 2813.96,
+      "end": 2827.3,
+      "text": "lo vuelvo acá, de cada uno de estos sistemas externos, ok, bueno, a alguien conocía"
+    },
+    {
+      "start": 2827.3,
+      "end": 2836.96,
+      "text": "a Shei, son XML por lo menos de nombre, de nombre sí, bueno, la realidad es que para"
+    },
+    {
+      "start": 2836.96,
+      "end": 2846.72,
+      "text": "mí no tiene mucho sentido hoy estudiarse todos esos formatos, pero sí saber cuál es la"
+    },
+    {
+      "start": 2846.72,
+      "end": 2852.02,
+      "text": "ventaja de cada uno, cuál se utiliza cada uno y después, bueno, yo, si me te va a poder"
+    },
+    {
+      "start": 2852.02,
+      "end": 2860.74,
+      "text": "conectar con un sistema, hoy hasta puedo armar un, chastro todo armado, pero lo que"
+    },
+    {
+      "start": 2860.74,
+      "end": 2867.9,
+      "text": "sí tienen que lograr es entender, por más que uno automatice, conía, entender hacia"
+    },
+    {
+      "start": 2867.9,
+      "end": 2874.5,
+      "text": "dónde vamos, ok, entrando que ésta subllal son y que tengo que encapsular la lógica y la"
+    },
+    {
+      "start": 2874.5,
+      "end": 2881.98,
+      "text": "complejidad con vista, porque por más que el sistema me lo haga una máquina hoy en día,"
+    },
+    {
+      "start": 2881.98,
+      "end": 2887.46,
+      "text": "yo voy a tener varios interlinientes y tengo que entender armarlo de manera tal de que"
+    },
+    {
+      "start": 2887.46,
+      "end": 2895.15,
+      "text": "lo que antes ya no tocarlo más, ok, y es como hoy tiende un poco la programación, no,"
+    },
+    {
+      "start": 2895.15,
+      "end": 2902.1,
+      "text": "decir ya está todo armadito, me voy conectando, voy enchufando una cosa con otra, ok, bueno,"
+    },
+    {
+      "start": 2902.1,
+      "end": 2912.29,
+      "text": "esto me da a mí una cierta idea, y me permiten entender un poquito la problemática que tengo"
+    },
+    {
+      "start": 2912.29,
+      "end": 2923.18,
+      "text": "que resolver, ok, haciendo, no, si quiero, ahora por lo pronto vine a trabajar el primer"
+    },
+    {
+      "start": 2923.18,
+      "end": 2932.22,
+      "text": "día al proyecto de préstamos y me mostrado en esto, y algún nivel de interminimiento pueden"
+    },
+    {
+      "start": 2932.22,
+      "end": 2942.89,
+      "text": "tandas que es lo que pasa, ok, es una de las herramientas que a mí me siento y me gusta, esto"
+    },
+    {
+      "start": 2942.89,
+      "end": 2951.62,
+      "text": "pueden jugar ustedes sus povititos, pueden colocándose identificación y ya está, bueno,"
+    },
+    {
+      "start": 2954.02,
+      "end": 2965.37,
+      "text": "digamos, y empezemos, imagínense que digo bueno, quiero entender, lograr entender un poquito"
+    },
+    {
+      "start": 2965.37,
+      "end": 2975.3,
+      "text": "y cómo va a hacer el flujo de negocio de préstamos, entonces, y bueno, quiero lograr entender por"
+    },
+    {
+      "start": 2975.3,
+      "end": 2981.88,
+      "text": "la realidad, que el flujo del préstamos es bastante complicado, no se los vamos a pedir,"
+    },
+    {
+      "start": 2981.88,
+      "end": 2991.32,
+      "text": "a donde está el diagrama de actividad, ¿a esa basal? Ah, esta, no se los vamos a pedir en el examen,"
+    },
+    {
+      "start": 2991.32,
+      "end": 2999.88,
+      "text": "pero sí puede llegar a suceder que pasa, que a veces les hubo algún diagrama de actividad como para"
+    },
+    {
+      "start": 2999.88,
+      "end": 3011.39,
+      "text": "lograr entender y les digo, bueno, hay algún error en cuanto al lenguaje de H que me le hay,"
+    },
+    {
+      "start": 3011.39,
+      "end": 3020.54,
+      "text": "perdón, de UML, avisen donde estáles, de dónde se encuentra esta error. Yo la realidad es que hoy lo que quiero"
+    },
+    {
+      "start": 3020.54,
+      "end": 3037.0,
+      "text": "es poder tener un diagrama que me permita entender muy rápidamente cuál es el proceso básico"
+    },
+    {
+      "start": 3038.03,
+      "end": 3049.31,
+      "text": "para generar un pedido de préstamos, voy a poner a dos personas, dos, tres carriles, voy a amar, un"
+    },
+    {
+      "start": 3049.31,
+      "end": 3063.06,
+      "text": "minutito, usted me va a interrumpiendo cuando lo necesitan, ¿ok? Tenía el cliente, el oficial de negocio,"
+    },
+    {
+      "start": 3063.06,
+      "end": 3075.77,
+      "text": "oficial de negocio, una de la fiscal de negocio, después acá podría estar integrado, pero vea"
+    },
+    {
+      "start": 3075.77,
+      "end": 3090.68,
+      "text": "que es para, imagínense que la fiscal de negocio es alguien que me hace un filtro previó, ¿ok?"
+    },
+    {
+      "start": 3090.68,
+      "end": 3125.46,
+      "text": "Y, inicio, yo voy a crear, ah, no tengo actividad, no voy a apagar, yo voy a solicitar, y Lucas,"
+    },
+    {
+      "start": 3125.46,
+      "end": 3145.7,
+      "text": "perdón, la levanta es sin querer la madre. Ah, bueno, pero, toma su tiempo, yo tengo un problema de"
+    },
+    {
+      "start": 3145.7,
+      "end": 3153.23,
+      "text": "la ansiedad, entonces bueno, y lo solicito, presta muy protecario, esto le estoy definiendo, no"
+    },
+    {
+      "start": 3153.23,
+      "end": 3158.75,
+      "text": "está nada en concreto, la realidad es que calculo que el proceso de negocio debe ser diferente,"
+    },
+    {
+      "start": 3158.75,
+      "end": 3164.79,
+      "text": "no trabajé en el área de préstamos como para confirmárselos, calculo que también va a depender de"
+    },
+    {
+      "start": 3164.79,
+      "end": 3174.96,
+      "text": "cada banco, entonces yo acá tengo que pensarlo, ¿cómo sería, cómo es mi entendimiento? ¿qué no es"
+    },
+    {
+      "start": 3174.96,
+      "end": 3181.2,
+      "text": "que se ha rajatado? Las pero bueno, la realidad es que me sirve como para poder hacer el"
+    },
+    {
+      "start": 3181.2,
+      "end": 3190.47,
+      "text": "ejercicio. Entonces digo, bueno, alguien verifica datos clientes, imagínense que tengo una web,"
+    },
+    {
+      "start": 3190.47,
+      "end": 3196.8,
+      "text": "esa web del cliente dice, bueno, voy a pedir un presta muy protecario, voy a pedir un presta"
+    },
+    {
+      "start": 3196.8,
+      "end": 3208.84,
+      "text": "como prendario, se le puse el candadito, entonces la realidad es que digo bueno, hago lo que es la"
+    },
+    {
+      "start": 3208.84,
+      "end": 3217.32,
+      "text": "solicitud del préstamo, posiblemente tengo acá, tengo para acá, el cliente le pide algún"
+    },
+    {
+      "start": 3217.32,
+      "end": 3224.68,
+      "text": "aplicación server, algo de tengo, un sena web, le digo ingresa, el nombre me pese y yo, ¿qué tipo de"
+    },
+    {
+      "start": 3224.76,
+      "end": 3232.46,
+      "text": "préstamo quiere? Yo me quiero comprar una moto, entonces siempre estamos personal y le envía todos"
+    },
+    {
+      "start": 3232.46,
+      "end": 3239.58,
+      "text": "los datos, le llega a alguien, yo voy a sumir que le llega al oficial de negocios, esta que verifica"
+    },
+    {
+      "start": 3239.58,
+      "end": 3252.4,
+      "text": "los datos del cliente y digo bueno, así no, así no, este producto al ejecutivo de cuentas, una vez"
+    },
+    {
+      "start": 3252.4,
+      "end": 3259.93,
+      "text": "que sé que está, que es un cliente, que no es alguien inventado, digo bueno, así no,"
+    },
+    {
+      "start": 3263.9,
+      "end": 3274.83,
+      "text": "la solicitud del servicio del producto, el producto al ejecutivo de cuentas,"
+    },
+    {
+      "start": 3278.04,
+      "end": 3283.91,
+      "text": "puedo tener algunos pasos intermediados, yo acá estoy viendo un nivel muy elevado de"
+    },
+    {
+      "start": 3283.91,
+      "end": 3289.35,
+      "text": "la distracción, ok, para lograr entender el negocio, a medida que uno va a ser un nuevo clípo,"
+    },
+    {
+      "start": 3289.35,
+      "end": 3296.59,
+      "text": "en cada uno de estas acciones, posiblemente tener muchísimas más acciones y más satonic, ¿vale?"
+    },
+    {
+      "start": 3296.59,
+      "end": 3314.34,
+      "text": "¿Le van entendiendo? Sí, sí, ahí está, entonces digo bueno, tengo alguien verificó, alguien"
+    },
+    {
+      "start": 3314.34,
+      "end": 3323.46,
+      "text": "verificó, obviamente acá no empiezo a pensar, oh, mi data del cliente es incorrecto, la nulo,"
+    },
+    {
+      "start": 3323.46,
+      "end": 3331.4,
+      "text": "hay cosas, un nivel de atacción, tan bajo que eso no lo puede, no lo puede, yo voy a sumir que uno"
+    },
+    {
+      "start": 3331.4,
+      "end": 3339.41,
+      "text": "va a entender que si el objeto del cliente es incorrecto, haremos otros flujos, o directamente el programador"
+    },
+    {
+      "start": 3339.41,
+      "end": 3348.77,
+      "text": "lo va a entender y lo va a anular, ok, uno en análisis, principalmente las primeras"
+    },
+    {
+      "start": 3348.77,
+      "end": 3356.37,
+      "text": "materias, uno en cedias, viene a todo a mi cocomo para que ustedes tengan la herramienta que pueda"
+    },
+    {
+      "start": 3356.37,
+      "end": 3364.23,
+      "text": "manejar la herramienta, ahora cuando está en un nivel de diseño, ya hay otras cosas, uno asume que el"
+    },
+    {
+      "start": 3364.23,
+      "end": 3371.32,
+      "text": "programador va a entender si el cliente no está, va a tener otra forma, otra acción,"
+    },
+    {
+      "start": 3371.32,
+      "end": 3380.95,
+      "text": "otro flujo de negocio, lo así, y lo digo bueno, esto sea, si hace resfonsable, que yo la carteta,"
+    },
+    {
+      "start": 3380.95,
+      "end": 3389.04,
+      "text": "la carteta es decir, bueno, tengo el cliente, voy a armarle una carteta para poder primero juntar"
+    },
+    {
+      "start": 3389.04,
+      "end": 3405.67,
+      "text": "todo la información del préstamo, yo voy a recolectar, un poco sobre el préstamo, ok,"
+    },
+    {
+      "start": 3407.28,
+      "end": 3412.88,
+      "text": "le parece que informos sobre el talento, dentro de esa carteta, aquí lo como se hace manualmente,"
+    },
+    {
+      "start": 3413.6,
+      "end": 3425.4,
+      "text": "dentro de esta carteta, con todos los datos del cliente y acá, acá tuve los datos del cliente,"
+    },
+    {
+      "start": 3425.4,
+      "end": 3432.72,
+      "text": "los clientes, un cliente propio de lo anco, ya pedí información, al banco, si fue un cliente"
+    },
+    {
+      "start": 3432.72,
+      "end": 3440.0,
+      "text": "mayor con todos sus pagos, y está dentro del veraz, y tiene una tarjeta avista como fue"
+    },
+    {
+      "start": 3440.0,
+      "end": 3447.48,
+      "text": "el de sus consumos, ok, entonces voy armando todo lo que se llama una carteta, recolecte información"
+    },
+    {
+      "start": 3447.48,
+      "end": 3458.23,
+      "text": "sobre el usuario, y voy a evaluar un algún momento, la evaluación de con su variedad, la"
+    },
+    {
+      "start": 3458.23,
+      "end": 3472.0,
+      "text": "evaluación de conciabilidad, y una vez que digo bueno, está bien, las signo condiciones, no sé,"
+    },
+    {
+      "start": 3472.0,
+      "end": 3486.16,
+      "text": "acá ya estoy inventando los finar condiciones, de los requisitos, lo llamo, ya cumple con los requisitos,"
+    },
+    {
+      "start": 3487.92,
+      "end": 3497.92,
+      "text": "chacumple con los requisitos, tiene digo bueno, formalicemos, vení y te doy, así es un préstamo"
+    },
+    {
+      "start": 3497.92,
+      "end": 3506.01,
+      "text": "chico, ni siquiera hoy en día es a través de uno que hay en la web, pero si es un préstamo"
+    },
+    {
+      "start": 3506.01,
+      "end": 3522.76,
+      "text": "impotecario de hace niña, a esto se pongo firma como para que te desdezgan firma, y después acá"
+    },
+    {
+      "start": 3522.76,
+      "end": 3527.56,
+      "text": "no sé si lo hace, les digo que el sentido de cuentas traen un porga, digo bueno hay un seguimiento,"
+    },
+    {
+      "start": 3527.56,
+      "end": 3536.56,
+      "text": "unimiento de botas, capaz que se lo oficia el de negocio, pero bueno, no importa, les voy a dar"
+    },
+    {
+      "start": 3536.56,
+      "end": 3546.75,
+      "text": "el tandover, entonces tengo, creo la tarpeta, el valuable, la conciabilidad, así no los requisitos,"
+    },
+    {
+      "start": 3546.75,
+      "end": 3559.34,
+      "text": "porque digo bueno, así no, así no, después formalizo con la firma, allá, y le doy un seguimiento de botas,"
+    },
+    {
+      "start": 3559.34,
+      "end": 3564.34,
+      "text": "voy a decir, voy a pasar acá, no pasa por acá, no va a haber problema, no va a cambiar absolutamente"
+    },
+    {
+      "start": 3564.34,
+      "end": 3575.01,
+      "text": "nada, esto es relevamiento fase de análisis de negocio, se va siguiendo, pero me da un nivel de"
+    },
+    {
+      "start": 3575.01,
+      "end": 3596.24,
+      "text": "entendimiento muy general de cómo sería el proceso, vamos, ahora yo tengo, voy a salir"
+    },
+    {
+      "start": 3596.24,
+      "end": 3600.94,
+      "text": "en un buscar, a mí la realidad es que me encarna a más trabajar como hoy en día con historias"
+    },
+    {
+      "start": 3600.94,
+      "end": 3610.22,
+      "text": "ensuarios, poder trabajar con una metodología como escran, poder decir bueno, tener un"
+    },
+    {
+      "start": 3610.22,
+      "end": 3615.58,
+      "text": "cuerpo más reducido, no tener grupos tan grandes, pero bueno, estamos en otra herramienta,"
+    },
+    {
+      "start": 3615.58,
+      "end": 3626.15,
+      "text": "y también me brinda un nivel de entendimiento para sacarnos algunas dudas en cuanto en la especificación,"
+    },
+    {
+      "start": 3626.15,
+      "end": 3631.16,
+      "text": "el ejercicio de negociaciones, puse, ¿no?"
+    },
+    {
+      "start": 3631.16,
+      "end": 3653.58,
+      "text": "Sí, después, a lo que ustedes les encanta, muy bueno, una admin, porque se quiente."
+    },
+    {
+      "start": 3653.58,
+      "end": 3654.58,
+      "text": "Gracias."
+    },
+    {
+      "start": 3654.58,
+      "end": 3661.58,
+      "text": "Y en respecto a la administradora, la materia anterior, si no lo poníamos, nos bajaban puntos."
+    },
+    {
+      "start": 3661.58,
+      "end": 3671.77,
+      "text": "Si no lo poníamos, lo bajábamos en punto, bueno, no le atreco, me go eso, no va a pasar porque la realidad es que para mí"
+    },
+    {
+      "start": 3671.77,
+      "end": 3681.07,
+      "text": "el administrador es algo que, de juego de silla, las herramientas hoy es día, no, o sea, cada, cada, cada"
+    },
+    {
+      "start": 3681.07,
+      "end": 3684.79,
+      "text": "materia quiere poner foco en algo, ¿ok?"
+    },
+    {
+      "start": 3684.79,
+      "end": 3697.47,
+      "text": "Es como decir, bueno, estoy en la primaria y el foco es, no sé, que aprendan a sumar y restar, y si se"
+    },
+    {
+      "start": 3697.47,
+      "end": 3708.01,
+      "text": "equivocan y la verdad que tengo que decir que te está mal, ahora si ya llegaste a la universidad y estás haciendo una mega,"
+    },
+    {
+      "start": 3708.01,
+      "end": 3715.01,
+      "text": "no sé, estás evaluando otra cosa y te equivocaste en alumna suma y no te voy a anular todo."
+    },
+    {
+      "start": 3715.01,
+      "end": 3722.2,
+      "text": "Ahora está bien que en algún momento el foco es que vos aprendas eso, está barba, ahora el foco en esta materia,"
+    },
+    {
+      "start": 3722.2,
+      "end": 3732.36,
+      "text": "que vos tengas que te vaya sacercando un poquito más al alcoño, por lo tanto la realidad es que calculo que ya, bueno,"
+    },
+    {
+      "start": 3732.36,
+      "end": 3737.36,
+      "text": "aquí listes otras habilidades que fueron definidas en otra materia, ¿ok?"
+    },
+    {
+      "start": 3737.36,
+      "end": 3740.36,
+      "text": "Entonces sí, va a ver de estas diferencias."
+    },
+    {
+      "start": 3740.36,
+      "end": 3748.36,
+      "text": "El otro día, algo que un compañero que no sé si fue de esta comisión de la otra misión, ha preguntado bastante interesante,"
+    },
+    {
+      "start": 3748.36,
+      "end": 3755.1,
+      "text": "después sobre el tema de los gestores que dije, está bueno charlarlo, ¿no?"
+    },
+    {
+      "start": 3755.1,
+      "end": 3762.1,
+      "text": "En un momento me dijo, bueno, si tengo por los gestores que tuvimos la clase, ni si tengo muchas clases,"
+    },
+    {
+      "start": 3762.1,
+      "end": 3767.1,
+      "text": "ahí tenemos que poner un gestor para desatoplarlo."
+    },
+    {
+      "start": 3767.1,
+      "end": 3776.06,
+      "text": "Y está buenísimo el pensamiento que tiene porque es una forma muy intuitiva, ahora yo no te puedo decir mirar si,"
+    },
+    {
+      "start": 3776.06,
+      "end": 3786.28,
+      "text": "cuando tenés más de cinco clases en número mágico, cinco clases armate una fabricación pura para desatoplarlo, ¿ok?"
+    },
+    {
+      "start": 3786.28,
+      "end": 3796.28,
+      "text": "Porque no hay las recomendaciones, tienen que ustedes analizarlo, verlo, porque la program, a medida que me voy acercando la solución,"
+    },
+    {
+      "start": 3796.28,
+      "end": 3803.7,
+      "text": "tengo un montón de componentes, un montón de clases, pero ahí tengo que evaluarlo."
+    },
+    {
+      "start": 3803.7,
+      "end": 3812.96,
+      "text": "Ahora si estoy en análisis y encuentro una, como digo yo, un shortcut para decir, bueno, tengo cinco, seis ahí,"
+    },
+    {
+      "start": 3812.96,
+      "end": 3821.96,
+      "text": "seguramente va a estar muy acoplado, lo tengo que desatoplar y está buena la forma que encontraron."
+    },
+    {
+      "start": 3822.96,
+      "end": 3829.96,
+      "text": "Pero a medida que vamos avanzando tenemos que hacer una análisis más, una vuelta de los camás y acá pasa lo mismo,"
+    },
+    {
+      "start": 3829.96,
+      "end": 3834.96,
+      "text": "las minen en análisis en cualquier otra materia en principios, ¿no?"
+    },
+    {
+      "start": 3834.96,
+      "end": 3841.01,
+      "text": "En principios le dicen que les sacan puntos."
+    },
+    {
+      "start": 3841.01,
+      "end": 3845.07,
+      "text": "¿Qué le digo que en principios realmente?"
+    },
+    {
+      "start": 3845.07,
+      "end": 3849.07,
+      "text": "En principios, me parece raro pero bueno."
+    },
+    {
+      "start": 3850.07,
+      "end": 3859.6,
+      "text": "Acá no, ya, asumo que ya van a tener una administrador, bueno, me voy."
+    },
+    {
+      "start": 3859.6,
+      "end": 3871.58,
+      "text": "Y cuando el cliente solicita, solicitar préstamo."
+    },
+    {
+      "start": 3871.58,
+      "end": 3881.24,
+      "text": "El más, digo, bueno, también el cliente solicita préstamo, pero solicita productos bancarios, ¿no?"
+    },
+    {
+      "start": 3881.24,
+      "end": 3893.34,
+      "text": "En piezas relacionados con otro tema."
+    },
+    {
+      "start": 3894.34,
+      "end": 3903.09,
+      "text": "Y bueno, tengo una asociación."
+    },
+    {
+      "start": 3903.09,
+      "end": 3910.09,
+      "text": "Acá digo, bueno, en oficial de negocio, así que una acción de ver el producto al ejecutivo de cuenta,"
+    },
+    {
+      "start": 3910.09,
+      "end": 3928.66,
+      "text": "o validación, o evaluación previa al ejecutivo de cuentas."
+    },
+    {
+      "start": 3928.66,
+      "end": 3938.92,
+      "text": "Ocí le mente también, ah, ya, alguno que sea validar o prebaliar,"
+    },
+    {
+      "start": 3938.92,
+      "end": 3941.96,
+      "text": "la verdad, los básicos."
+    },
+    {
+      "start": 3941.96,
+      "end": 3948.69,
+      "text": "Ahora, la verdad que no, ya salgo que voy a subir, que va a estar."
+    },
+    {
+      "start": 3948.69,
+      "end": 3954.69,
+      "text": "En empezamos con las cosas obvias y las realidades que no son importantes."
+    },
+    {
+      "start": 3954.69,
+      "end": 3959.69,
+      "text": "Es como armar el caso de uso y pongan en las precondiciones que hay,"
+    },
+    {
+      "start": 3959.69,
+      "end": 3963.69,
+      "text": "no sé, que haya electricidad y obvio."
+    },
+    {
+      "start": 3963.69,
+      "end": 3970.69,
+      "text": "Cuando son cosas muy obvias, la realidad es que más que brindarnos información, no genera ruido,"
+    },
+    {
+      "start": 3970.69,
+      "end": 3974.94,
+      "text": "porque tenemos que leer más, no pasilla más."
+    },
+    {
+      "start": 3974.94,
+      "end": 3991.24,
+      "text": "Entonces, estamos en un nivel, llevamos a ir al importante y va a lugar préstamo."
+    },
+    {
+      "start": 3991.24,
+      "end": 4000.52,
+      "text": "Y después digo, bueno, ahora préstamo obtener, obtener inafoderas,"
+    },
+    {
+      "start": 4000.52,
+      "end": 4013.63,
+      "text": "estrellas en super rápido, pero no importa, para que ustedes también basan su weekend,"
+    },
+    {
+      "start": 4013.63,
+      "end": 4025.0,
+      "text": "y acá hay obtener inafo, y el cliente, esa es cliente del banco,"
+    },
+    {
+      "start": 4025.0,
+      "end": 4029.93,
+      "text": "y posiblemente no hay información interna, ¿no?"
+    },
+    {
+      "start": 4029.93,
+      "end": 4034.94,
+      "text": "Si no, no voy a tener."
+    },
+    {
+      "start": 4034.94,
+      "end": 4040.94,
+      "text": "Acá puedo adaptar inafoderas, obtener inafoderas, o que hay todo lo que quiero tener."
+    },
+    {
+      "start": 4040.94,
+      "end": 4048.6,
+      "text": "Para acá obtener con un fiabilidad de pago, no, el valor."
+    },
+    {
+      "start": 4048.6,
+      "end": 4055.56,
+      "text": "El valor con fiabilidad de pago."
+    },
+    {
+      "start": 4055.56,
+      "end": 4062.8,
+      "text": "En otro día leí algo muy interesante que están haciendo en Israel."
+    },
+    {
+      "start": 4063.8,
+      "end": 4067.8,
+      "text": "Israel es una meca de lo que decía el sistema,"
+    },
+    {
+      "start": 4067.8,
+      "end": 4073.51,
+      "text": "y estaba hablando de un sistema que con rasgos en la cara,"
+    },
+    {
+      "start": 4073.51,
+      "end": 4077.51,
+      "text": "podía nevaluar la con fiabilidad de pago,"
+    },
+    {
+      "start": 4077.51,
+      "end": 4083.12,
+      "text": "y la va un porcentaje muy certero."
+    },
+    {
+      "start": 4083.12,
+      "end": 4087.12,
+      "text": "La verdad que cada vez chico nos estamos asustando más."
+    },
+    {
+      "start": 4087.12,
+      "end": 4093.72,
+      "text": "Estamos viviendo."
+    },
+    {
+      "start": 4093.72,
+      "end": 4099.07,
+      "text": "Pero bueno, para los bancos, esto no prevale más."
+    },
+    {
+      "start": 4099.07,
+      "end": 4108.07,
+      "text": "Para los bancos tener un sistema que puede ayudarnos a evaluar la con fiabilidad de pago de un determinado cliente,"
+    },
+    {
+      "start": 4108.07,
+      "end": 4111.07,
+      "text": "sería buenísimo, sea el método que sea, ¿no?"
+    },
+    {
+      "start": 4111.07,
+      "end": 4115.52,
+      "text": "Porque aginizaría muchísimo más."
+    },
+    {
+      "start": 4115.52,
+      "end": 4122.96,
+      "text": "El ejecutivo de cuentas se evaluar préstamos, iguales candeados, no están avanzados,"
+    },
+    {
+      "start": 4122.96,
+      "end": 4128.64,
+      "text": "pero bueno, ya están saliendo cosas raras."
+    },
+    {
+      "start": 4128.64,
+      "end": 4140.52,
+      "text": "El valor de tres socutas, las socutas, con las socutas, porque yo en la actividad puse eso, ¿no?"
+    },
+    {
+      "start": 4140.52,
+      "end": 4143.67,
+      "text": "Con otras."
+    },
+    {
+      "start": 4143.67,
+      "end": 4150.0,
+      "text": "Podría lograr tener una refinanzación."
+    },
+    {
+      "start": 4150.0,
+      "end": 4157.1,
+      "text": "Vamos a poner redes y en antiguas y art cristanos, también,"
+    },
+    {
+      "start": 4157.1,
+      "end": 4161.22,
+      "text": "y es algo que podría llegar a hacerlo."
+    },
+    {
+      "start": 4161.22,
+      "end": 4172.72,
+      "text": "Tener información del vera, que evaluar préstamos a crear carpetas, no?"
+    },
+    {
+      "start": 4172.72,
+      "end": 4181.92,
+      "text": "Ahí podríamos aplicar algo y acá que usó, en obtener info de vera, un incluido en la extensa."
+    },
+    {
+      "start": 4181.92,
+      "end": 4183.4,
+      "text": "Incluy."
+    },
+    {
+      "start": 4183.4,
+      "end": 4187.88,
+      "text": "Estamos de acuerdo. Siempre van a aparecer."
+    },
+    {
+      "start": 4187.88,
+      "end": 4194.27,
+      "text": "Si no están, si no, si hay error, punto, no hay un error,"
+    },
+    {
+      "start": 4194.27,
+      "end": 4197.27,
+      "text": "no hay un nísico de estar, pero algo me tiene que dar."
+    },
+    {
+      "start": 4197.27,
+      "end": 4203.09,
+      "text": "Si yo tengo un quil, tengo que tener la información."
+    },
+    {
+      "start": 4203.09,
+      "end": 4211.09,
+      "text": "A lo sumo, no, pues vas cumplidor, pero tienes que tener información, obtener información interna,"
+    },
+    {
+      "start": 4211.09,
+      "end": 4213.09,
+      "text": "incluy."
+    },
+    {
+      "start": 4213.09,
+      "end": 4222.44,
+      "text": "Estén."
+    },
+    {
+      "start": 4222.44,
+      "end": 4227.53,
+      "text": "Vamos de acuerdo, no sé, hay lugares, nunca, ¿no? ¿No? ¿No?"
+    },
+    {
+      "start": 4227.53,
+      "end": 4229.82,
+      "text": "Sí, pero sí, hay lugares."
+    },
+    {
+      "start": 4229.82,
+      "end": 4233.82,
+      "text": "Luka, ya te re tengo, Lucas. Siempre habla lucas."
+    },
+    {
+      "start": 4236.32,
+      "end": 4238.32,
+      "text": "Los demás de negocieron agravar, ¿no?"
+    },
+    {
+      "start": 4238.32,
+      "end": 4242.3,
+      "text": "Están ya."
+    },
+    {
+      "start": 4242.3,
+      "end": 4243.3,
+      "text": "No, sí, ni nada."
+    },
+    {
+      "start": 4243.3,
+      "end": 4244.33,
+      "text": "Está bien."
+    },
+    {
+      "start": 4244.33,
+      "end": 4252.49,
+      "text": "Está bien, porque assume que bueno, si es cliente interno igual, también la condición es tan trivial,"
+    },
+    {
+      "start": 4252.49,
+      "end": 4255.49,
+      "text": "que no sé si amerita."
+    },
+    {
+      "start": 4255.49,
+      "end": 4256.52,
+      "text": "Incluy."
+    },
+    {
+      "start": 4256.52,
+      "end": 4257.52,
+      "text": "Está bien."
+    },
+    {
+      "start": 4257.52,
+      "end": 4262.52,
+      "text": "Es algo obvio, pero bueno, lo quiero hacían a Sally y bueno, no."
+    },
+    {
+      "start": 4262.52,
+      "end": 4265.52,
+      "text": "Quiero ser muy papista, bueno, fue muy un estándt."
+    },
+    {
+      "start": 4266.52,
+      "end": 4273.23,
+      "text": "Y las min, para no bajar respuntos, me voy a dar de altos varios."
+    },
+    {
+      "start": 4273.23,
+      "end": 4300.77,
+      "text": "Vieron que cuando uno tiene un diagrama de, acá me vengo acá, un diagrama de artía, y iba a ir a arma,"
+    },
+    {
+      "start": 4300.77,
+      "end": 4304.77,
+      "text": "estoy hablando de nivel muy elevado de abstracción, ¿no?"
+    },
+    {
+      "start": 4304.77,
+      "end": 4309.77,
+      "text": "De empezar a entender el negocio, esos dos son bastantes similares,"
+    },
+    {
+      "start": 4311.06,
+      "end": 4315.06,
+      "text": "acá bueno, hay un poco de secuencialidad que acá no debería estar,"
+    },
+    {
+      "start": 4315.06,
+      "end": 4319.06,
+      "text": "si yo quiero poner esto acá no debería haber un problema."
+    },
+    {
+      "start": 4319.06,
+      "end": 4333.4,
+      "text": "Es más, hay casos de uso que los obvies están registrar, registración de cliente,"
+    },
+    {
+      "start": 4333.4,
+      "end": 4336.4,
+      "text": "la realidad de eso sé que va a estar."
+    },
+    {
+      "start": 4337.4,
+      "end": 4344.74,
+      "text": "Entonces, voy a enfocarme en realmente lo que me es importante."
+    },
+    {
+      "start": 4344.74,
+      "end": 4354.91,
+      "text": "Bueno, yo voy a terminar con él, vamos a ir a la diagrama del componente, tengo acá sí, acá."
+    },
+    {
+      "start": 4354.91,
+      "end": 4363.64,
+      "text": "Acá lo arme mal, este sería el Nitroilman y este componente, pasa que la herramienta me permite hacerlo, ¿ok?"
+    },
+    {
+      "start": 4363.64,
+      "end": 4369.02,
+      "text": "Vamos a hacer esto, este es lo de borra, y acá, voy a..."
+    },
+    {
+      "start": 4370.02,
+      "end": 4378.1,
+      "text": "Un minutito, porque habla más de los desexplicados en importas."
+    },
+    {
+      "start": 4378.1,
+      "end": 4391.68,
+      "text": "Como habla, los englobados dentro de diagramas de implementación, puedo jugar con ambos a lo cambio,"
+    },
+    {
+      "start": 4391.68,
+      "end": 4411.23,
+      "text": "ahí quedó más pronunciado, luego al diagrama del componente. ¿Hasta acá alguna duda gente?"
+    },
+    {
+      "start": 4415.78,
+      "end": 4416.78,
+      "text": "Ahora no hay ninguna."
+    },
+    {
+      "start": 4416.78,
+      "end": 4417.78,
+      "text": "No, no hay ninguna."
+    },
+    {
+      "start": 4417.78,
+      "end": 4418.78,
+      "text": "¿Hasta acá?"
+    },
+    {
+      "start": 4418.78,
+      "end": 4420.78,
+      "text": "Sí, ya tengo una."
+    },
+    {
+      "start": 4420.78,
+      "end": 4429.78,
+      "text": "Sí, en el hipotéptico, caso de que este sitio sea de examen, no pida el diagrama de caso de uso,"
+    },
+    {
+      "start": 4429.78,
+      "end": 4437.78,
+      "text": "y una de las actores tiene varias funcionalidades, que es el día correcto que es en una..."
+    },
+    {
+      "start": 4437.78,
+      "end": 4441.78,
+      "text": "que podamos repetir el acto en el diagrama a la derecha, por ejemplo."
+    },
+    {
+      "start": 4442.78,
+      "end": 4446.78,
+      "text": "Sí, porque la realidad es que a vos lo que te preocupes, lo que..."
+    },
+    {
+      "start": 4446.78,
+      "end": 4450.78,
+      "text": "tenés que empezar y hacer este clic, es que estos son elementos."
+    },
+    {
+      "start": 4450.78,
+      "end": 4458.78,
+      "text": "Entonces, si yo digo, ¿sabes qué ahora voy a hablar de él como no puedo manejar todo en un unico de diagrama,"
+    },
+    {
+      "start": 4458.78,
+      "end": 4467.2,
+      "text": "me voy al caso de uso más acotado, no sé, de mesa de dinero, la mesa de dinero,"
+    },
+    {
+      "start": 4468.2,
+      "end": 4472.2,
+      "text": "de inversiones, pero bueno, voy a dar la mesa de dinero."
+    },
+    {
+      "start": 4472.2,
+      "end": 4484.38,
+      "text": "Y bueno, me vengo acá, el cliente es el mismo, es el mismo elemento dentro del modelo,"
+    },
+    {
+      "start": 4484.38,
+      "end": 4490.86,
+      "text": "pero acá tengo el del caso de uso de préstamos y acá tengo el de la mesa de dinero."
+    },
+    {
+      "start": 4490.86,
+      "end": 4499.81,
+      "text": "Entonces, si yo digo acá, crear inversión, estoy lleno a otra cosa, él importa crear inversión,"
+    },
+    {
+      "start": 4499.81,
+      "end": 4518.07,
+      "text": "él está vista no la ves, y sí en esta, pero él, pero este es el mismo elemento que tenés acá."
+    },
+    {
+      "start": 4518.07,
+      "end": 4525.1,
+      "text": "Ok, entonces, si yo después, por un tema de que lo quiero, no sé si me lo permite,"
+    },
+    {
+      "start": 4525.1,
+      "end": 4528.1,
+      "text": "porque nunca lo hice, vamos, vamos a jugar un rapito."
+    },
+    {
+      "start": 4528.1,
+      "end": 4533.36,
+      "text": "Si yo digo, tengo no sé, a referencia a préstamos, y lo opongo acá,"
+    },
+    {
+      "start": 4534.64,
+      "end": 4539.67,
+      "text": "este es el rapite, pero estamos hablando del mismo elemento."
+    },
+    {
+      "start": 4539.67,
+      "end": 4550.16,
+      "text": "Ok, y creo que solo saco porque me queda horrible, para eso prefiero hacer varios diagramas"
+    },
+    {
+      "start": 4550.16,
+      "end": 4559.88,
+      "text": "que apunten a una parte de la solución. Ok, esto lo saco."
+    },
+    {
+      "start": 4559.88,
+      "end": 4565.04,
+      "text": "Recuerden siempre, por ejemplo, acá lo que voy a hacer es un delit from model,"
+    },
+    {
+      "start": 4565.04,
+      "end": 4570.17,
+      "text": "lo borro del modelo, ok, si lo puedo borrar de la vista,"
+    },
+    {
+      "start": 4570.17,
+      "end": 4575.91,
+      "text": "este lo voy a borrar del modelo. Este es si lo borro del modelo, también lo borro de acá."
+    },
+    {
+      "start": 4575.91,
+      "end": 4582.91,
+      "text": "O sea, de acá, de acá, de acá, de acá, de acá, no pierdan, entonces lo voy a borrar de la vista."
+    },
+    {
+      "start": 4582.91,
+      "end": 4591.23,
+      "text": "Se me han cuidado, este es la borro."
+    },
+    {
+      "start": 4591.23,
+      "end": 4596.9,
+      "text": "¿En qué estaba? Ah, sí, en el diagrama de componentes,"
+    },
+    {
+      "start": 4596.9,
+      "end": 4606.24,
+      "text": "de baléagrama de componentes, y digo bueno, yo tengo que empezar a tomar decisiones arquitectónicas."
+    },
+    {
+      "start": 4606.24,
+      "end": 4614.6,
+      "text": "Y digo bueno, hasta el en medio, por eso."
+    },
+    {
+      "start": 4614.6,
+      "end": 4623.6,
+      "text": "No veía los elementos, ahí me ubique en el diagrama de componentes y me cambió todo el toolbox con los elementos correspondientes de saísavita."
+    },
+    {
+      "start": 4625.3,
+      "end": 4629.3,
+      "text": "Lo se digo bueno, voy a empezar a tomar decisiones arquitectónicas."
+    },
+    {
+      "start": 4629.3,
+      "end": 4635.3,
+      "text": "Algo que es fundamental es que ustedes siempre cuando tienen una ejercicia de gan, ¿vale?"
+    },
+    {
+      "start": 4635.3,
+      "end": 4639.3,
+      "text": "Es el objetivo de esto. ¿Qué es lo que tengo que solucionar?"
+    },
+    {
+      "start": 4639.3,
+      "end": 4650.56,
+      "text": "Si o si, y la parte préstamo. O tanto, calculo un componente del modelo de préstamo,"
+    },
+    {
+      "start": 4651.56,
+      "end": 4660.39,
+      "text": "y me olvido de colocar la clase préstamo y el objetivo del préstamo, y estoy en el horno."
+    },
+    {
+      "start": 4660.39,
+      "end": 4663.39,
+      "text": "No cumplico mi objetivo principal."
+    },
+    {
+      "start": 4663.39,
+      "end": 4674.56,
+      "text": "Acá, dentro de lo que es módulo de préstamo, lo voy a incluir dentro del bólogo del producto bancario."
+    },
+    {
+      "start": 4674.56,
+      "end": 4682.07,
+      "text": "¿O qué? Porque es un producto bancario."
+    },
+    {
+      "start": 4683.07,
+      "end": 4687.16,
+      "text": "Yo he notido ya estoy con vos por mi pierdo, bancario."
+    },
+    {
+      "start": 4687.16,
+      "end": 4694.54,
+      "text": "Y dentro de acá voy a crear un componente solamente por un tema de orden, ¿vale? Módulo de préstamo."
+    },
+    {
+      "start": 4694.54,
+      "end": 4706.16,
+      "text": "Y acá voy a tener el otro módulo porque me gusta tomizar bastante de evaluación. ¿Sí, Lucas?"
+    },
+    {
+      "start": 4706.16,
+      "end": 4709.55,
+      "text": "¿Por qué la entrepone la palabra Módulo?"
+    },
+    {
+      "start": 4710.55,
+      "end": 4716.55,
+      "text": "No, por cierto, para poder empezar a modular, ¿OK? Pero lo pueden sacar también, ¿no pasa nada?"
+    },
+    {
+      "start": 4716.55,
+      "end": 4722.38,
+      "text": "Te vuelvo a decir, esos detalles también no me importan. Ahora lo que sí, no me gustaría,"
+    },
+    {
+      "start": 4722.38,
+      "end": 4733.08,
+      "text": "es que dentro del producto bancario me pongas por ejemplo, no sé, sueldo y calcules el sueldo"
+    },
+    {
+      "start": 4733.08,
+      "end": 4744.92,
+      "text": "del personal bancario. No tiene sentido, ¿OK? Esas son las cosas que yo me fijo."
+    },
+    {
+      "start": 4746.81,
+      "end": 4753.98,
+      "text": "Estas ni también están con tu esteta. ¿OK? Lucas, ¿OK?"
+    },
+    {
+      "start": 4753.98,
+      "end": 4756.56,
+      "text": "Y trafe gracias."
+    },
+    {
+      "start": 4756.56,
+      "end": 4768.79,
+      "text": "Oh, de vuelta, ¿me hagas? Me nuto. Para acá."
+    },
+    {
+      "start": 4768.79,
+      "end": 4780.83,
+      "text": "Bueno, digo, con todo lo que yo tengo, digo, el préstamo hipotecario es el cor,"
+    },
+    {
+      "start": 4780.83,
+      "end": 4785.83,
+      "text": "lo que tengo que resolver. Tengo posiblemente tengo mucha comunicación externa."
+    },
+    {
+      "start": 4786.83,
+      "end": 4793.83,
+      "text": "Voy a hacer uno de un componente para encapsular la comunicación con esos sistemas externos."
+    },
+    {
+      "start": 4793.83,
+      "end": 4803.07,
+      "text": "Y veo que más puedo hacer, ¿vale? No sé, digo, también voy a poner otro componente,"
+    },
+    {
+      "start": 4803.07,
+      "end": 4817.51,
+      "text": "esa es la calentahére, componente de servicios,"
+    },
+    {
+      "start": 4818.51,
+      "end": 4824.51,
+      "text": "y comunicación para que se llama fácil comunicación, temas externos."
+    },
+    {
+      "start": 4824.51,
+      "end": 4839.96,
+      "text": "Aquí deja con con, vale para el móvil, ¿verdad? Y acá posiblemente tengo que todos los concretos"
+    },
+    {
+      "start": 4839.96,
+      "end": 4855.24,
+      "text": "para comunicarme con visa, componente para verás, ¿verdad? Con el banco,"
+    },
+    {
+      "start": 4856.24,
+      "end": 4861.24,
+      "text": "pero bueno, tiene un cliente de banco en acción, entonces le pido información,"
+    },
+    {
+      "start": 4861.24,
+      "end": 4867.94,
+      "text": "al diólogo en acción, ¿vale? Voy sumando todo eso con complejidad."
+    },
+    {
+      "start": 4867.94,
+      "end": 4884.9,
+      "text": "Y simplemente, o cliente, ¿no sé por qué salió más chúscula o no le da a preguntar"
+    },
+    {
+      "start": 4884.9,
+      "end": 4894.12,
+      "text": "porque le pusimos chúsculas? Y digo, bueno, hacemos una dependencia,"
+    },
+    {
+      "start": 4895.12,
+      "end": 4901.64,
+      "text": "tiene módulos, otros cerca, no sé si voy a ir directamente a este,"
+    },
+    {
+      "start": 4901.64,
+      "end": 4917.31,
+      "text": "pero acá, voy a ir a este módulo bancario y va a utilizar algo muy básico,"
+    },
+    {
+      "start": 4917.31,
+      "end": 4921.31,
+      "text": "después si yo quiero modificarlo vuelvo, ¿vale?"
+    },
+    {
+      "start": 4921.31,
+      "end": 4926.31,
+      "text": "Porque de acuerdo a mi nivel de entendimiento para mí está el ganzack, ¿vale?"
+    },
+    {
+      "start": 4928.4,
+      "end": 4931.65,
+      "text": "Vamos. Profel, el módulo es sistema externo,"
+    },
+    {
+      "start": 4931.65,
+      "end": 4935.65,
+      "text": "no podría ser un package pregunta, ¿no? Para verlo."
+    },
+    {
+      "start": 4935.65,
+      "end": 4943.16,
+      "text": "Sí, cuando veamos, cuando veamos el gov, lo vamos a manejar con lo que llama un paquero"
+    },
+    {
+      "start": 4943.16,
+      "end": 4950.26,
+      "text": "o algo más generalista que package, ¿vale?"
+    },
+    {
+      "start": 4950.26,
+      "end": 4958.48,
+      "text": "Pero sí, es un componente que no me interesa como totalmente caja cerrada"
+    },
+    {
+      "start": 4958.48,
+      "end": 4966.48,
+      "text": "que voy a tratar de encapsular el dentre esa caja, toda la comunicación y el manejo"
+    },
+    {
+      "start": 4966.48,
+      "end": 4971.41,
+      "text": "a lo que yo quería, ¿no? A lo verás, porque cada uno se va a comunicar ahora."
+    },
+    {
+      "start": 4971.41,
+      "end": 4976.41,
+      "text": "Si voy a tener lo que cada vez, ¿cómo lo vas a manejar con él?"
+    },
+    {
+      "start": 4976.41,
+      "end": 4978.41,
+      "text": "Suba muchísimo, ¿ok?"
+    },
+    {
+      "start": 4978.41,
+      "end": 4984.4,
+      "text": "Claro, la idea de modelar la sí es encapsular, entonces, pero..."
+    },
+    {
+      "start": 4984.4,
+      "end": 4985.4,
+      "text": "Es que se va a modularlo."
+    },
+    {
+      "start": 4985.4,
+      "end": 4990.4,
+      "text": "Pero si yo no sé cómo lo voy a modelar en cuestión, no sería la buena práctica"
+    },
+    {
+      "start": 4990.4,
+      "end": 4992.4,
+      "text": "o ponerlo como paquete, eso es lo que querías decir."
+    },
+    {
+      "start": 4992.4,
+      "end": 4999.08,
+      "text": "Sí, si ya lo tenés decidido con él o acá, donde tengo el package,"
+    },
+    {
+      "start": 4999.08,
+      "end": 5009.32,
+      "text": "que estaba el elemento para colocarlo, no lo encuentro acá."
+    },
+    {
+      "start": 5009.32,
+      "end": 5015.81,
+      "text": "En camés, así no, está..."
+    },
+    {
+      "start": 5015.81,
+      "end": 5020.03,
+      "text": "Es el de frame, no, no."
+    },
+    {
+      "start": 5020.03,
+      "end": 5022.54,
+      "text": "No, no."
+    },
+    {
+      "start": 5022.54,
+      "end": 5025.54,
+      "text": "Bueno, pero era eso lo que quería decir, ¿cómo se va a hacer?"
+    },
+    {
+      "start": 5025.54,
+      "end": 5028.54,
+      "text": "Podría hacer este, creo que puede llegar a hacer, ¿eh?"
+    },
+    {
+      "start": 5028.54,
+      "end": 5030.57,
+      "text": "Es parecido por lo menos."
+    },
+    {
+      "start": 5030.57,
+      "end": 5033.15,
+      "text": "Es parecido."
+    },
+    {
+      "start": 5034.56,
+      "end": 5036.63,
+      "text": "Pero la realidad es que..."
+    },
+    {
+      "start": 5036.63,
+      "end": 5045.2,
+      "text": "En sí también, vos cuando estás armando un componente, estás en globando,"
+    },
+    {
+      "start": 5045.2,
+      "end": 5050.36,
+      "text": "entidades con alguna naturaleza que es un paquete."
+    },
+    {
+      "start": 5050.36,
+      "end": 5056.64,
+      "text": "Sí, sí, es como lo mismo, pero por eso quería hacer que la diferencia..."
+    },
+    {
+      "start": 5056.64,
+      "end": 5058.64,
+      "text": "Claro, es lo mismo."
+    },
+    {
+      "start": 5058.64,
+      "end": 5065.18,
+      "text": "Hay herramientas que los dejan, pero a caña, me voy a meter en un mundo"
+    },
+    {
+      "start": 5065.18,
+      "end": 5071.17,
+      "text": "donde tengo que definir y no me voy a dejar..."
+    },
+    {
+      "start": 5071.17,
+      "end": 5078.17,
+      "text": "Capas que hay herramientas que tenés el elemento y ahí lo armás como paquete."
+    },
+    {
+      "start": 5078.17,
+      "end": 5080.17,
+      "text": "Sí, ya en el lado de esta, por eso lo he habido."
+    },
+    {
+      "start": 5080.17,
+      "end": 5082.17,
+      "text": "¿Celeste el nivel de conocimiento?"
+    },
+    {
+      "start": 5082.17,
+      "end": 5086.17,
+      "text": "Ponelo porque para mí que vos mandiga es un componente, es un paquete,"
+    },
+    {
+      "start": 5086.17,
+      "end": 5089.17,
+      "text": "es para mí es prácticamente lo mismo."
+    },
+    {
+      "start": 5089.17,
+      "end": 5093.17,
+      "text": "Yo lo que voy a pretender es que vos te descuentas que tenés que encapsular"
+    },
+    {
+      "start": 5093.17,
+      "end": 5099.17,
+      "text": "una lógica de negocio está en determinados componentes o paquete,"
+    },
+    {
+      "start": 5099.17,
+      "end": 5100.17,
+      "text": "solo que sea."
+    },
+    {
+      "start": 5100.17,
+      "end": 5102.17,
+      "text": "Así que sí suma."
+    },
+    {
+      "start": 5102.17,
+      "end": 5104.17,
+      "text": "¿Me he enterizado de a punto yo?"
+    },
+    {
+      "start": 5104.17,
+      "end": 5110.17,
+      "text": "Sí, y con respecto a eso, entre la flecha de la dependencia de la luz,"
+    },
+    {
+      "start": 5110.17,
+      "end": 5114.17,
+      "text": "y la interfaz, también sería lo mismo."
+    },
+    {
+      "start": 5114.17,
+      "end": 5116.17,
+      "text": "Si yo lo conozco bien, ¿cómo funciona?"
+    },
+    {
+      "start": 5116.17,
+      "end": 5119.17,
+      "text": "Para colocar, claro, está."
+    },
+    {
+      "start": 5119.17,
+      "end": 5120.17,
+      "text": "Exacto."
+    },
+    {
+      "start": 5120.17,
+      "end": 5121.17,
+      "text": "Gracias, profe."
+    },
+    {
+      "start": 5122.43,
+      "end": 5126.43,
+      "text": "Ya ahí está haciendo a un nivel de atracción un poquito más bajo."
+    },
+    {
+      "start": 5126.43,
+      "end": 5128.43,
+      "text": "Voy a buscar un..."
+    },
+    {
+      "start": 5128.43,
+      "end": 5133.16,
+      "text": "Les más me espera en un minuto,"
+    },
+    {
+      "start": 5133.16,
+      "end": 5140.64,
+      "text": "eso es que se lo subía acá."
+    },
+    {
+      "start": 5140.64,
+      "end": 5142.64,
+      "text": "Profe, pregunta, ¿me llébrame componente?"
+    },
+    {
+      "start": 5142.64,
+      "end": 5144.64,
+      "text": "Cuando me doy cuenta, ¿sí?"
+    },
+    {
+      "start": 5144.64,
+      "end": 5145.64,
+      "text": "¿Y cuyo pronés?"
+    },
+    {
+      "start": 5145.64,
+      "end": 5146.64,
+      "text": "¿Y qué?"
+    },
+    {
+      "start": 5146.64,
+      "end": 5152.64,
+      "text": "Les deberíamos hacer una extracción tipo muy al detalle o como sería más o menos."
+    },
+    {
+      "start": 5152.64,
+      "end": 5153.64,
+      "text": "No, no, no, no."
+    },
+    {
+      "start": 5153.64,
+      "end": 5155.64,
+      "text": "¿Más o menos como hace? ¿Estás haciendo?"
+    },
+    {
+      "start": 5155.64,
+      "end": 5156.64,
+      "text": "Es salto, ¿cómo usted hace lo eso?"
+    },
+    {
+      "start": 5156.64,
+      "end": 5157.64,
+      "text": "¿A ver qué?"
+    },
+    {
+      "start": 5157.64,
+      "end": 5158.73,
+      "text": "Porque, ¿por qué?"
+    },
+    {
+      "start": 5158.73,
+      "end": 5161.73,
+      "text": "O si se doble clic para dar, para ir bajando..."
+    },
+    {
+      "start": 5161.73,
+      "end": 5163.73,
+      "text": "Uno es lo que tienes con transformaciones."
+    },
+    {
+      "start": 5163.73,
+      "end": 5168.08,
+      "text": "Cuando hablamos de evolución, bueno,"
+    },
+    {
+      "start": 5168.08,
+      "end": 5171.08,
+      "text": "lo que uno trata es hacer transformaciones,"
+    },
+    {
+      "start": 5171.08,
+      "end": 5172.08,
+      "text": "¿cuáles tenés un nivel de..."
+    },
+    {
+      "start": 5172.08,
+      "end": 5176.08,
+      "text": "No, no, un poquito más, porque yo no veo nada."
+    },
+    {
+      "start": 5176.08,
+      "end": 5182.24,
+      "text": "Lo que uno trata de hacer es poder transformar esos modelos."
+    },
+    {
+      "start": 5182.24,
+      "end": 5185.79,
+      "text": "No sé por qué le pongo 200 y me hacéis de ahí."
+    },
+    {
+      "start": 5186.79,
+      "end": 5188.17,
+      "text": "Transformar este modelo."
+    },
+    {
+      "start": 5188.17,
+      "end": 5191.17,
+      "text": "Lo que uno hace es que como vimos, no sé,"
+    },
+    {
+      "start": 5191.17,
+      "end": 5196.17,
+      "text": "le hagan más de actividad de su nivel muy elevado de extracción,"
+    },
+    {
+      "start": 5196.17,
+      "end": 5200.17,
+      "text": "en donde realmente no te interesa cómo lo va a se implementar."
+    },
+    {
+      "start": 5200.17,
+      "end": 5203.17,
+      "text": "Justamente estamos hablando de la extracción."
+    },
+    {
+      "start": 5203.17,
+      "end": 5206.17,
+      "text": "Ahora, media que yo voy bajando ese nivel de extracción,"
+    },
+    {
+      "start": 5206.17,
+      "end": 5210.17,
+      "text": "ya empiezo a darle más entendimiento de cómo va a ser,"
+    },
+    {
+      "start": 5210.17,
+      "end": 5213.17,
+      "text": "me voy a acercando un povito más a definiciones y mirar,"
+    },
+    {
+      "start": 5214.17,
+      "end": 5216.17,
+      "text": "¿sabes qué? Calculo que esto lo va a hacer con tan lenguaje"
+    },
+    {
+      "start": 5216.17,
+      "end": 5218.17,
+      "text": "y esto lo voy a hacer con tan otro lenguaje."
+    },
+    {
+      "start": 5218.17,
+      "end": 5221.17,
+      "text": "Ya ahí empecé a destimir algunas cositas."
+    },
+    {
+      "start": 5221.17,
+      "end": 5224.3,
+      "text": "Es más empecé a bajar el nivel de extracción,"
+    },
+    {
+      "start": 5224.3,
+      "end": 5227.3,
+      "text": "cuando yo te dije acá me comunicaba directamente con el verás,"
+    },
+    {
+      "start": 5227.3,
+      "end": 5229.3,
+      "text": "¡ah, pero para!"
+    },
+    {
+      "start": 5229.3,
+      "end": 5232.3,
+      "text": "¿No sabe ya porque leíte el manual,"
+    },
+    {
+      "start": 5232.3,
+      "end": 5235.65,
+      "text": "si no lo leímos, ¿no? Pero no importa."
+    },
+    {
+      "start": 5235.65,
+      "end": 5240.65,
+      "text": "Vimos el ejemplo y qué te devuelve y me devuelve un shelson."
+    },
+    {
+      "start": 5241.65,
+      "end": 5244.65,
+      "text": "Bueno, con él, estoy dando información."
+    },
+    {
+      "start": 5244.65,
+      "end": 5248.65,
+      "text": "Me suma, sí, me suma, porque la persona que lo va a arrar"
+    },
+    {
+      "start": 5248.65,
+      "end": 5250.78,
+      "text": "va a entender a de qué se trata."
+    },
+    {
+      "start": 5250.78,
+      "end": 5260.39,
+      "text": "Yo sé que ahí alumnos que no saben shtml,"
+    },
+    {
+      "start": 5260.39,
+      "end": 5264.39,
+      "text": "pero no importa, la idea es que ustedes ya empiezan a adquirir"
+    },
+    {
+      "start": 5264.39,
+      "end": 5267.39,
+      "text": "ese vocabular, lo saber qué existe."
+    },
+    {
+      "start": 5267.39,
+      "end": 5270.39,
+      "text": "Me encantaría no sé si tienen alguna..."
+    },
+    {
+      "start": 5270.39,
+      "end": 5274.39,
+      "text": "¿Alguna materia que se ha especificado de web,"
+    },
+    {
+      "start": 5274.39,
+      "end": 5277.39,
+      "text": "que no lo hay? Por eso también me pidieron que un foco"
+    },
+    {
+      "start": 5277.39,
+      "end": 5279.61,
+      "text": "un poco la materia en esto."
+    },
+    {
+      "start": 5279.61,
+      "end": 5283.61,
+      "text": "Por eso también yo voy dando algunas cosas,"
+    },
+    {
+      "start": 5283.61,
+      "end": 5287.61,
+      "text": "estás orientado un poco al mundo de lo que es web, ¿ok?"
+    },
+    {
+      "start": 5287.61,
+      "end": 5289.61,
+      "text": "Que creo que le suma."
+    },
+    {
+      "start": 5289.61,
+      "end": 5295.08,
+      "text": "Vostan es que seguir haciendo estas transformaciones"
+    },
+    {
+      "start": 5295.08,
+      "end": 5299.08,
+      "text": "y pasar de lo que es un modelo completamente independiente,"
+    },
+    {
+      "start": 5299.08,
+      "end": 5302.08,
+      "text": "la computación, a lo que es la programación,"
+    },
+    {
+      "start": 5302.08,
+      "end": 5304.08,
+      "text": "que es el genivel elevado de atracción,"
+    },
+    {
+      "start": 5304.08,
+      "end": 5306.08,
+      "text": "que ya estoy hablando de una de las dos,"
+    },
+    {
+      "start": 5306.08,
+      "end": 5311.08,
+      "text": "que uno va dándole mayor nivel de detalle a la solución"
+    },
+    {
+      "start": 5311.08,
+      "end": 5316.78,
+      "text": "y dándole mayor nivel de empezar a tomar decisiones,"
+    },
+    {
+      "start": 5316.78,
+      "end": 5319.78,
+      "text": "arquitetónicas y me voy a acercándolo,"
+    },
+    {
+      "start": 5319.78,
+      "end": 5322.78,
+      "text": "que se llama el modelo específico a las plataformas."
+    },
+    {
+      "start": 5322.78,
+      "end": 5326.78,
+      "text": "Y vos sabes que voy a trabajar con paquete de determinada"
+    },
+    {
+      "start": 5326.78,
+      "end": 5328.78,
+      "text": "tecnología y colocarlo."
+    },
+    {
+      "start": 5328.78,
+      "end": 5331.78,
+      "text": "Si yo sé que la forma en que me devuelve,"
+    },
+    {
+      "start": 5331.78,
+      "end": 5333.78,
+      "text": "voy a solicitar, voy a mandar un empon,"
+    },
+    {
+      "start": 5333.78,
+      "end": 5336.78,
+      "text": "y las formas que recuerdan lo que da la época, ¿no?"
+    },
+    {
+      "start": 5336.78,
+      "end": 5338.78,
+      "text": "La URL, donde yo le solicito información,"
+    },
+    {
+      "start": 5338.78,
+      "end": 5341.32,
+      "text": "un sistema externo,"
+    },
+    {
+      "start": 5341.32,
+      "end": 5344.32,
+      "text": "voy a mandar un empon y esa época me va a devolver"
+    },
+    {
+      "start": 5344.32,
+      "end": 5349.52,
+      "text": "un determinado formato de respuesta y ya lo coloco."
+    },
+    {
+      "start": 5349.52,
+      "end": 5351.52,
+      "text": "Yo lo voy a tener que resolver."
+    },
+    {
+      "start": 5351.52,
+      "end": 5356.52,
+      "text": "Y yo lo que voy a querer resolver es que, por ejemplo,"
+    },
+    {
+      "start": 5356.52,
+      "end": 5358.52,
+      "text": "no sé si está acá, acá,"
+    },
+    {
+      "start": 5358.52,
+      "end": 5362.52,
+      "text": "me refone con HTML y verás, me responde con un JSON,"
+    },
+    {
+      "start": 5362.52,
+      "end": 5367.52,
+      "text": "yo tengo que tener el concreto para manejar el JSON"
+    },
+    {
+      "start": 5367.52,
+      "end": 5370.52,
+      "text": "que me mande verás y otro concreto totalmente sacoplado"
+    },
+    {
+      "start": 5370.52,
+      "end": 5375.52,
+      "text": "y totalmente independente para que me maneje la comunicación"
+    },
+    {
+      "start": 5375.52,
+      "end": 5377.52,
+      "text": "de la respuesta que me va a dar visa,"
+    },
+    {
+      "start": 5377.52,
+      "end": 5382.52,
+      "text": "que no es un JSON que es un HTML y tiene otra forma de manejo."
+    },
+    {
+      "start": 5383.61,
+      "end": 5386.61,
+      "text": "Y así con todos los sistemas que tengo,"
+    },
+    {
+      "start": 5386.61,
+      "end": 5392.22,
+      "text": "lo sé lo que quiero es eso, ir viendo esa nela de la extracción."
+    },
+    {
+      "start": 5392.22,
+      "end": 5397.76,
+      "text": "No me quiero ir de mambo, estábamos en,"
+    },
+    {
+      "start": 5397.76,
+      "end": 5402.53,
+      "text": "van a quemarme muy bien, acá, ¿sabas?"
+    },
+    {
+      "start": 5402.53,
+      "end": 5403.53,
+      "text": "Muy bien."
+    },
+    {
+      "start": 5403.53,
+      "end": 5411.64,
+      "text": "Ahora bien, esto, la realidad es que va a depender si ustedes quieren hacer"
+    },
+    {
+      "start": 5411.64,
+      "end": 5414.64,
+      "text": "el diagrama de componentes de acuerdo a su nivel de comprensión"
+    },
+    {
+      "start": 5415.64,
+      "end": 5419.64,
+      "text": "y también ver expertís que te can para armar soluciones"
+    },
+    {
+      "start": 5419.64,
+      "end": 5423.64,
+      "text": "y acercarse cada vez más, bajar esta capa de abstracción."
+    },
+    {
+      "start": 5423.64,
+      "end": 5427.71,
+      "text": "Entonces, yo lo que les recomiendo,"
+    },
+    {
+      "start": 5427.71,
+      "end": 5430.71,
+      "text": "porque veo que les sirve es, bueno,"
+    },
+    {
+      "start": 5430.71,
+      "end": 5435.71,
+      "text": "si no se los pido llarme en un diagrama de componente en el examen."
+    },
+    {
+      "start": 5435.71,
+      "end": 5438.71,
+      "text": "Se los puedo pedir o se los puedo pasar,"
+    },
+    {
+      "start": 5438.71,
+      "end": 5440.71,
+      "text": "y si se les paso, les paso esto,"
+    },
+    {
+      "start": 5441.71,
+      "end": 5445.71,
+      "text": "yo les digo, esta es un preliminar,"
+    },
+    {
+      "start": 5445.71,
+      "end": 5453.51,
+      "text": "recuerden que el llegar a una solución de citarativo,"
+    },
+    {
+      "start": 5453.51,
+      "end": 5457.51,
+      "text": "yo te doy este, yo digo, no, no, quiero tener el modelo"
+    },
+    {
+      "start": 5457.51,
+      "end": 5460.51,
+      "text": "de evaluación dentro de acá, lo voy a poner de afuera."
+    },
+    {
+      "start": 5460.51,
+      "end": 5465.86,
+      "text": "Bueno, lo que sí no me gustaría es que dentro del componente de modo"
+    },
+    {
+      "start": 5465.86,
+      "end": 5472.52,
+      "text": "de poner adentro, de esta para volvamos arriba."
+    },
+    {
+      "start": 5472.52,
+      "end": 5476.8,
+      "text": "No ustedes me entendieron, lo voy a poner adentro, no tiene sentido."
+    },
+    {
+      "start": 5476.8,
+      "end": 5480.41,
+      "text": "No está diluido en cada vez más darlo en frente."
+    },
+    {
+      "start": 5480.41,
+      "end": 5482.41,
+      "text": "¿Dónde dice a la hueles?"
+    },
+    {
+      "start": 5482.41,
+      "end": 5484.41,
+      "text": "Acá, vancamos."
+    },
+    {
+      "start": 5484.41,
+      "end": 5487.41,
+      "text": "Este es acá."
+    },
+    {
+      "start": 5487.41,
+      "end": 5492.08,
+      "text": "Eso sí estaría mal, eso es lo que voy a evaluar."
+    },
+    {
+      "start": 5492.08,
+      "end": 5495.08,
+      "text": "Lo mismo que si está acá, no tiene sentido."
+    },
+    {
+      "start": 5495.08,
+      "end": 5499.08,
+      "text": "Yo lo que voy a ver, evaluar son estas cosas."
+    },
+    {
+      "start": 5499.08,
+      "end": 5503.08,
+      "text": "Entonces, y en el día si yo lo que voy a pedirles,"
+    },
+    {
+      "start": 5503.08,
+      "end": 5507.56,
+      "text": "seguro, y esos seguros, y después van a ver diferentes,"
+    },
+    {
+      "start": 5507.56,
+      "end": 5512.56,
+      "text": "diferentes cositas que vuelven primero, pero el diagrama de clases tienen que estar."
+    },
+    {
+      "start": 5512.56,
+      "end": 5515.56,
+      "text": "Porque el diagrama de clases bien atomizado el día de mañana,"
+    },
+    {
+      "start": 5515.56,
+      "end": 5522.56,
+      "text": "ustedes lo pueden llevar a servicios y en el y los siguen atomizando a microservicios."
+    },
+    {
+      "start": 5522.56,
+      "end": 5526.56,
+      "text": "Porque está bien atomizado y bien ordenado."
+    },
+    {
+      "start": 5526.56,
+      "end": 5532.17,
+      "text": "Entonces, eso se los voy a pedir y posiblemente el gundiagrama interacción."
+    },
+    {
+      "start": 5533.17,
+      "end": 5538.43,
+      "text": "Ahora, en la parte de el segundo examen,"
+    },
+    {
+      "start": 5538.43,
+      "end": 5540.43,
+      "text": "yo les pido diagramas de..."
+    },
+    {
+      "start": 5540.43,
+      "end": 5543.43,
+      "text": "le puedo pedir un diagrama del componente,"
+    },
+    {
+      "start": 5543.43,
+      "end": 5547.43,
+      "text": "les puedo dar un diagrama de artividad y que van a un buen algo."
+    },
+    {
+      "start": 5547.43,
+      "end": 5550.68,
+      "text": "Le puedo, bueno, a mí, uno de los que me gustan,"
+    },
+    {
+      "start": 5550.68,
+      "end": 5553.68,
+      "text": "porque forma parte de lo que es la arquitectura,"
+    },
+    {
+      "start": 5553.68,
+      "end": 5559.68,
+      "text": "es los diagramas de clíague, les puedo pedir que me definan algún caso,"
+    },
+    {
+      "start": 5559.68,
+      "end": 5566.68,
+      "text": "algún historiario que dejen de un historiario que me hagan un guión de lo que estimos hablando,"
+    },
+    {
+      "start": 5566.68,
+      "end": 5573.32,
+      "text": "un guión de prueba."
+    },
+    {
+      "start": 5573.32,
+      "end": 5580.32,
+      "text": "Entonces, se los voy como para que ustedes tengan una trasa de cómo estar rolla,"
+    },
+    {
+      "start": 5580.32,
+      "end": 5584.6,
+      "text": "pero el primer examen está muy enfocado al diseño."
+    },
+    {
+      "start": 5584.6,
+      "end": 5587.6,
+      "text": "Entonces, me voy a diagrama de componentes."
+    },
+    {
+      "start": 5588.6,
+      "end": 5592.6,
+      "text": "Ayúdame muchísimo el diagrama del componente para ordenarse."
+    },
+    {
+      "start": 5592.6,
+      "end": 5596.6,
+      "text": "Entonces, si a ustedes le hacen ayuda, arranlo."
+    },
+    {
+      "start": 5596.6,
+      "end": 5601.73,
+      "text": "Si les doy alguno, tienen que evaluar si les sirve o no les sirve."
+    },
+    {
+      "start": 5601.73,
+      "end": 5604.73,
+      "text": "Si no les sirve, lo tienen que modificar,"
+    },
+    {
+      "start": 5604.73,
+      "end": 5609.88,
+      "text": "porque tienen que estar muy relacionado con el diagrama de clase."
+    },
+    {
+      "start": 5609.88,
+      "end": 5623.0,
+      "text": "Ahora me voy con el diagrama de clase, es el mal."
+    },
+    {
+      "start": 5623.0,
+      "end": 5631.36,
+      "text": "Una pregunta, ¿la parte de donde usiste oficial de negocios y ejecutivo de cuenta"
+    },
+    {
+      "start": 5631.36,
+      "end": 5634.36,
+      "text": "en el diagrama de componentes se contempla ahí?"
+    },
+    {
+      "start": 5634.36,
+      "end": 5637.36,
+      "text": "Ya que después supongo que vamos a poner el diagrama de clase,"
+    },
+    {
+      "start": 5637.36,
+      "end": 5639.36,
+      "text": "eso no es muy importante."
+    },
+    {
+      "start": 5639.36,
+      "end": 5643.36,
+      "text": "Es el que, perdóname, vuelve una reputida pregunta que me vi que ya en el diagrama."
+    },
+    {
+      "start": 5643.36,
+      "end": 5647.36,
+      "text": "Sí, por ejemplo, el oficial de negocios y el ejecutivo de cuenta"
+    },
+    {
+      "start": 5647.36,
+      "end": 5652.36,
+      "text": "que le utilizamos en el diagrama de actividad y en el diagrama de esto de usuario."
+    },
+    {
+      "start": 5652.36,
+      "end": 5656.36,
+      "text": "Y dirían el de componentes, si lo quisieramos poner,"
+    },
+    {
+      "start": 5656.36,
+      "end": 5659.36,
+      "text": "porque sabemos que va a estar en el diagrama de clase,"
+    },
+    {
+      "start": 5659.36,
+      "end": 5662.36,
+      "text": "cómo lo ponemos afuera, tipo otro componente,"
+    },
+    {
+      "start": 5662.36,
+      "end": 5668.36,
+      "text": "otro modo que diga empleados de banco, no sé,"
+    },
+    {
+      "start": 5668.36,
+      "end": 5670.36,
+      "text": "y se lo que sea negocio y ejecutivo."
+    },
+    {
+      "start": 5670.36,
+      "end": 5676.77,
+      "text": "¿Cómo va a tener un componente que forma parte de lo que es administración?"
+    },
+    {
+      "start": 5676.77,
+      "end": 5691.33,
+      "text": "Si usuario. ¿Por qué? Porque la vista, cuando vos hace imaginar,"
+    },
+    {
+      "start": 5691.33,
+      "end": 5693.33,
+      "text": "vamos a hacerlo bien concreto."
+    },
+    {
+      "start": 5693.33,
+      "end": 5696.33,
+      "text": "O sea, si tienes esos ejecutivos de cuenta,"
+    },
+    {
+      "start": 5696.33,
+      "end": 5700.33,
+      "text": "entraza un más parte web, te lo veas,"
+    },
+    {
+      "start": 5700.33,
+      "end": 5709.56,
+      "text": "ya sabe que tipo de usuarios sos, ¿qué funcionalidad te va a habilitar o no?"
+    },
+    {
+      "start": 5711.13,
+      "end": 5715.13,
+      "text": "Porque si soy, por ejemplo, un ejecutivo de cuenta, puedo evaluar,"
+    },
+    {
+      "start": 5715.13,
+      "end": 5719.13,
+      "text": "y si soy un cajero, no puedo asignar un préstamo,"
+    },
+    {
+      "start": 5719.13,
+      "end": 5722.13,
+      "text": "lo hace el ejecutivo de cuenta. Entonces, de acuerdo,"
+    },
+    {
+      "start": 5722.13,
+      "end": 5726.45,
+      "text": "al tipo de rol, el no funciona y de acuerdo, puede exceder."
+    },
+    {
+      "start": 5726.45,
+      "end": 5733.32,
+      "text": "Eso forma parte más de lo que es administrativo de la aplicación."
+    },
+    {
+      "start": 5733.32,
+      "end": 5736.35,
+      "text": "Y en todas las aplicaciones existe."
+    },
+    {
+      "start": 5737.35,
+      "end": 5742.35,
+      "text": "Imagínate que me voy al delginacio y el ingreso con el usuario del profesor"
+    },
+    {
+      "start": 5742.35,
+      "end": 5747.35,
+      "text": "tengo una funcionalidad mucho más extendida en la del alumno."
+    },
+    {
+      "start": 5747.35,
+      "end": 5748.35,
+      "text": "¿Tamos de acuerdo?"
+    },
+    {
+      "start": 5748.35,
+      "end": 5751.04,
+      "text": "Sí, sí."
+    },
+    {
+      "start": 5751.04,
+      "end": 5757.04,
+      "text": "Entonces, yo debería tener usuarios, tipos de usuarios,"
+    },
+    {
+      "start": 5757.04,
+      "end": 5761.04,
+      "text": "permisos para esos tipos de usuarios. ¿Sabes cómo se maneja?"
+    },
+    {
+      "start": 5762.04,
+      "end": 5769.0,
+      "text": "Se nota un resumen muy, muy, muy, muy, comprimido."
+    },
+    {
+      "start": 5769.0,
+      "end": 5774.35,
+      "text": "Entonces, yo asumo que voy a tener determinados factores,"
+    },
+    {
+      "start": 5774.35,
+      "end": 5779.35,
+      "text": "que esos factores son tipos, esos tipos van a tener determinados permisos"
+    },
+    {
+      "start": 5779.35,
+      "end": 5783.35,
+      "text": "que yo les voy a configurar, te va a poder acceder o no."
+    },
+    {
+      "start": 5783.35,
+      "end": 5788.35,
+      "text": "Por lo tanto, como sí que salvo muy administrativo y que se repite"
+    },
+    {
+      "start": 5788.35,
+      "end": 5791.35,
+      "text": "en todas las aplicaciones, yo no lo coloco."
+    },
+    {
+      "start": 5792.35,
+      "end": 5796.48,
+      "text": "Ahora bien, si vuelos de descolocar podrías poner a la causario."
+    },
+    {
+      "start": 5801.61,
+      "end": 5807.33,
+      "text": "Pero no es el tema resolver, ¿ok?"
+    },
+    {
+      "start": 5807.33,
+      "end": 5809.33,
+      "text": "Eso te quiero decir, panca."
+    },
+    {
+      "start": 5810.56,
+      "end": 5812.56,
+      "text": "Pero tengo, me da la idea."
+    },
+    {
+      "start": 5813.56,
+      "end": 5822.12,
+      "text": "Claro, si te ordenas, hacerlo, pero realmente es como están todos los sistemas,"
+    },
+    {
+      "start": 5822.12,
+      "end": 5826.12,
+      "text": "siempre voy a tener usuarios, es un tipo determinado,"
+    },
+    {
+      "start": 5827.12,
+      "end": 5830.12,
+      "text": "el tipo, ejemplo, de este tipo es que es un tipo de cuenta,"
+    },
+    {
+      "start": 5830.12,
+      "end": 5834.12,
+      "text": "el es que es un tipo de cuenta que tiene tales permisos para determinados clientes"
+    },
+    {
+      "start": 5834.12,
+      "end": 5841.28,
+      "text": "asignados, no para todos. Bueno, esos permisos los tengo que manejar,"
+    },
+    {
+      "start": 5842.32,
+      "end": 5846.32,
+      "text": "en forma administrat, y es una administración lo que yo tengo que armar,"
+    },
+    {
+      "start": 5846.32,
+      "end": 5851.32,
+      "text": "que es una, no es el negocio, no es el cor a resolver, pero está bien que lo pongamos."
+    },
+    {
+      "start": 5851.32,
+      "end": 5856.76,
+      "text": "Entonces digo, bueno, tengo usuarios que tengo todo lo que es permiso,"
+    },
+    {
+      "start": 5856.76,
+      "end": 5867.64,
+      "text": "tengo tipos, ejerentes, puede hacer más cosas que el cajero y tu usuario,"
+    },
+    {
+      "start": 5876.87,
+      "end": 5879.09,
+      "text": "por ahora me quedaría con eso."
+    },
+    {
+      "start": 5881.32,
+      "end": 5888.89,
+      "text": "Yo, obviamente, yo voy a tener al hombre palo que va a acceder al módulo de préstamos."
+    },
+    {
+      "start": 5888.89,
+      "end": 5893.89,
+      "text": "Pero imagínate que te digo, sabes que no tengo al ejecutivo del cuenta,"
+    },
+    {
+      "start": 5894.89,
+      "end": 5899.89,
+      "text": "porque ahora acá me voy al despliegue, a casi me lo despliegue, ¿qué palpito?"
+    },
+    {
+      "start": 5899.89,
+      "end": 5907.74,
+      "text": "No, me lo deje, acá. No voy a ir, no tengo el ejecutivo del cuenta."
+    },
+    {
+      "start": 5908.74,
+      "end": 5920.46,
+      "text": "Me compré una gente de ella, ¿no está?"
+    },
+    {
+      "start": 5920.46,
+      "end": 5925.46,
+      "text": "Que le llega lo que el cliente solicito, por el que le dé lo que le he solicitado,"
+    },
+    {
+      "start": 5925.46,
+      "end": 5932.49,
+      "text": "es una página del HTML, se conectó al servidor, al web server del banco,"
+    },
+    {
+      "start": 5936.42,
+      "end": 5942.9,
+      "text": "no hizo prácticamente nada, o sea, sí, es un frío de un servidor web, ¿no?"
+    },
+    {
+      "start": 5945.9,
+      "end": 5951.9,
+      "text": "Se conectó al servidor, le dijo, quiero un préstamo tal, envió a los datos y quedó ahí."
+    },
+    {
+      "start": 5952.93,
+      "end": 5962.57,
+      "text": "Y lo captura, una gente, el ejecutivo del cuenta, lo captura la gente de ella."
+    },
+    {
+      "start": 5963.57,
+      "end": 5967.57,
+      "text": "Le hace esa validación que ante la fía, la gente lo hace de la ella."
+    },
+    {
+      "start": 5970.08,
+      "end": 5979.03,
+      "text": "Ya lo que voy a usar más que acá, acá, no me sirve, puedo posicionar relaciones trechas."
+    },
+    {
+      "start": 5980.03,
+      "end": 5987.28,
+      "text": "Entonces, no interesa, tienes el que origina la petición, ¿ok?"
+    },
+    {
+      "start": 5987.28,
+      "end": 5992.28,
+      "text": "Porque hoy es el ejecutivo del cuenta, el día de mañana le agregaron, oye,"
+    },
+    {
+      "start": 5992.28,
+      "end": 5999.31,
+      "text": "agregaron una gente, entonces ya tengo dos actores por así decirlo, están haciendo cosas."
+    },
+    {
+      "start": 5999.31,
+      "end": 6001.63,
+      "text": "No es así, ¿y en donde apunta?"
+    },
+    {
+      "start": 6002.72,
+      "end": 6006.72,
+      "text": "Por lo tanto, a mí lo que me interesa es que esa petición, que para mí es tan ólina,"
+    },
+    {
+      "start": 6007.72,
+      "end": 6015.36,
+      "text": "porque es más, imagínate que, no sé, como pasó con España, estuvimos tres días sin luz,"
+    },
+    {
+      "start": 6015.36,
+      "end": 6022.36,
+      "text": "pero bueno, el banco se abrió y hubo una persona que estuvo escribiendo, vino la hora,"
+    },
+    {
+      "start": 6022.36,
+      "end": 6028.36,
+      "text": "me pidió un préstamo, escribió, después eso lo pasó un Excel y le digo el sistema,"
+    },
+    {
+      "start": 6028.36,
+      "end": 6034.36,
+      "text": "tengo todos estos pedidos, tengo este Excel con usuarios, pedido, tipo de préstamo,"
+    },
+    {
+      "start": 6035.36,
+      "end": 6041.36,
+      "text": "cantidad de plata que me pidió y le paso el cuide de la persona, trámenos de alta."
+    },
+    {
+      "start": 6041.36,
+      "end": 6045.58,
+      "text": "Y ahí el hombre palo no tiene nada, ¿me entiende?"
+    },
+    {
+      "start": 6045.58,
+      "end": 6050.58,
+      "text": "Entonces, la realidad es que eso está buenísimo para lo que se la analicís,"
+    },
+    {
+      "start": 6050.58,
+      "end": 6056.58,
+      "text": "pero no para lo que es el diseño y acercarme cada vez más, armar una solución."
+    },
+    {
+      "start": 6057.58,
+      "end": 6067.74,
+      "text": "Por eso yo no hago modulos de quién es un módulo de ejecutivo de cuenta y el ejecutivo de cuenta va a crear,"
+    },
+    {
+      "start": 6067.74,
+      "end": 6072.06,
+      "text": "no me interesa, tiene lo hace."
+    },
+    {
+      "start": 6072.06,
+      "end": 6077.06,
+      "text": "Lo quiero ver a no nimo, para poder hacer el sistema más extensible el día de mañana."
+    },
+    {
+      "start": 6077.06,
+      "end": 6084.91,
+      "text": "El hombre palo es fantástico para un entendimiento de análisis,"
+    },
+    {
+      "start": 6085.91,
+      "end": 6096.04,
+      "text": "posiblemente les diga no ustedes tienen el usuario, pero yo cuando me estoy acercando cada vez más a la implementación y el código,"
+    },
+    {
+      "start": 6096.04,
+      "end": 6103.04,
+      "text": "tengo recontra claro, no siempre ese hombre palo puede ser un proceso,"
+    },
+    {
+      "start": 6103.04,
+      "end": 6107.04,
+      "text": "hoy es una gente de día que también está haciendo cosas,"
+    },
+    {
+      "start": 6108.04,
+      "end": 6116.42,
+      "text": "entonces alguien me está consumiendo una API, recibe un endpoint y el hombre palo."
+    },
+    {
+      "start": 6116.42,
+      "end": 6123.61,
+      "text": "Entonces lo que yo tengo que decir es no quiero lo hacer, sino que lo quiero,"
+    },
+    {
+      "start": 6123.61,
+      "end": 6128.19,
+      "text": "más que el código de origina es,"
+    },
+    {
+      "start": 6128.19,
+      "end": 6137.15,
+      "text": "por eso quiero hablar mucho de componentes y ya trato de sacar el actor."
+    },
+    {
+      "start": 6137.15,
+      "end": 6144.15,
+      "text": "Obviamente hay actores que se transforman en una entidad muy importante dentro del negocio"
+    },
+    {
+      "start": 6144.15,
+      "end": 6153.52,
+      "text": "porque sin cliente no tengo lógica de negocio,"
+    },
+    {
+      "start": 6153.52,
+      "end": 6158.09,
+      "text": "pero no me interesa si el cliente hizo el,"
+    },
+    {
+      "start": 6158.09,
+      "end": 6162.09,
+      "text": "entró a una página web, me entra a una página web,"
+    },
+    {
+      "start": 6162.09,
+      "end": 6165.09,
+      "text": "esto es totalmente a ver,"
+    },
+    {
+      "start": 6166.09,
+      "end": 6170.08,
+      "text": "ganis, ganis, no me van cobalis,"
+    },
+    {
+      "start": 6170.08,
+      "end": 6180.27,
+      "text": "me diré préstamos, me diré que perdí online,"
+    },
+    {
+      "start": 6180.27,
+      "end": 6186.47,
+      "text": "acá te llamamos,"
+    },
+    {
+      "start": 6186.47,
+      "end": 6190.47,
+      "text": "y le envío a los datos, no me interesa saber quién,"
+    },
+    {
+      "start": 6190.47,
+      "end": 6195.47,
+      "text": "lo que sí me interesa es capturar esa petición,"
+    },
+    {
+      "start": 6195.47,
+      "end": 6202.24,
+      "text": "entonces no voy a hacer un componente de cliente y solicitud de préstamos,"
+    },
+    {
+      "start": 6202.24,
+      "end": 6205.24,
+      "text": "si no voy a tener el móvil o préstamos, que le llega una solicitud,"
+    },
+    {
+      "start": 6205.24,
+      "end": 6208.24,
+      "text": "no me importa el cliente,"
+    },
+    {
+      "start": 6208.24,
+      "end": 6213.24,
+      "text": "por lo tanto, el cliente no tendría que tener acá la solicitud del préstamos,"
+    },
+    {
+      "start": 6213.24,
+      "end": 6219.27,
+      "text": "no lo debería tener."
+    },
+    {
+      "start": 6219.27,
+      "end": 6222.36,
+      "text": "El cliente voy a manejarlo con una entidad,"
+    },
+    {
+      "start": 6222.36,
+      "end": 6228.26,
+      "text": "ahora para mi nivel de entendimiento de negocio y está perfecto que haya hecho esto,"
+    },
+    {
+      "start": 6228.26,
+      "end": 6231.26,
+      "text": "pero acá puedo ponerte el día de mañana,"
+    },
+    {
+      "start": 6231.26,
+      "end": 6234.26,
+      "text": "sabes qué, el cliente pero también es una gente de ella que no sé,"
+    },
+    {
+      "start": 6234.26,
+      "end": 6236.26,
+      "text": "que hay valuta, algo, ¿sabes?"
+    },
+    {
+      "start": 6236.26,
+      "end": 6238.26,
+      "text": "Me va siguiendo, no me interesa el orifán,"
+    },
+    {
+      "start": 6238.26,
+      "end": 6243.65,
+      "text": "otro seta."
+    },
+    {
+      "start": 6243.65,
+      "end": 6246.78,
+      "text": "Igual, yo sé que es difícil,"
+    },
+    {
+      "start": 6246.78,
+      "end": 6248.78,
+      "text": "a medida que vamos a tener ejercicio,"
+    },
+    {
+      "start": 6248.78,
+      "end": 6249.78,
+      "text": "lo voy ir repitiendo,"
+    },
+    {
+      "start": 6249.78,
+      "end": 6252.78,
+      "text": "porque es uno de los grandes sanos de que peveo."
+    },
+    {
+      "start": 6252.78,
+      "end": 6256.71,
+      "text": "Me voy al diagrama de places,"
+    },
+    {
+      "start": 6256.71,
+      "end": 6260.71,
+      "text": "les voy a pedir un favor, no voy a detener un ratito,"
+    },
+    {
+      "start": 6260.71,
+      "end": 6262.71,
+      "text": "voy a hacernos un tepo de la ranta,"
+    },
+    {
+      "start": 6262.71,
+      "end": 6270.12,
+      "text": "no me da más un minuto, ¿no?"
+    },
+    {
+      "start": 6272.37,
+      "end": 6274.37,
+      "text": "Sí, sí, sí, sí, sí."
+    },
+    {
+      "start": 6277.01,
+      "end": 6280.11,
+      "text": "Son las 10, pero 3,"
+    },
+    {
+      "start": 6282.78,
+      "end": 6284.78,
+      "text": "nos deteneríamos 15 minutos,"
+    },
+    {
+      "start": 6284.78,
+      "end": 6286.78,
+      "text": "10 y 4 arrancamos,"
+    },
+    {
+      "start": 6286.78,
+      "end": 6287.78,
+      "text": "pues, ¿sabes?"
+    },
+    {
+      "start": 6287.78,
+      "end": 6289.78,
+      "text": "No voy con el diagrama de places,"
+    },
+    {
+      "start": 6292.23,
+      "end": 6293.23,
+      "text": "veo que más."
+    },
+    {
+      "start": 6293.23,
+      "end": 6298.8,
+      "text": "Y algo tan desde hace que yo serve y web server,"
+    },
+    {
+      "start": 6298.8,
+      "end": 6301.8,
+      "text": "para poder también entender un poquito más."
+    },
+    {
+      "start": 6302.8,
+      "end": 6304.8,
+      "text": "No es el foco de esta materia,"
+    },
+    {
+      "start": 6304.8,
+      "end": 6306.93,
+      "text": "pero le necesito que lente andan."
+    },
+    {
+      "start": 6306.93,
+      "end": 6309.51,
+      "text": "Arrancamos y 4, nos vemos."
+    },
+    {
+      "start": 6309.51,
+      "end": 6311.51,
+      "text": "Y por fin, y en perfect."
+    }
+  ]
+}

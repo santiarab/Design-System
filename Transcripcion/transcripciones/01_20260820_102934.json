@@ -1,0 +1,2341 @@
+{
+  "metadata": {
+    "id": "01_20260820_102934",
+    "class_label": "Clase 01 - Parte 2",
+    "date": "2026-08-20",
+    "file": "Clase 01-20260820_102934-Grabación de la reunión.mp4"
+  },
+  "duration": 4804.352,
+  "segments": [
+    {
+      "start": 56.72,
+      "end": 69.59,
+      "text": "Bueno, buenas y traientas tan. Estamos profesando. Están, están, no se fueron. Todos méritos de eso."
+    },
+    {
+      "start": 111.14,
+      "end": 118.14,
+      "text": "Era la metodología ROOP. Nosotros nos vamos a basar en ROOP porque gracias a ROOP tenemos UML."
+    },
+    {
+      "start": 118.14,
+      "end": 130.14,
+      "text": "Ustedes, si bien, aprendieron UML, bueno, ¿prende dónde bien es? ¿Cuál es el proceso que me recomienda? Bueno, para eso está dentro de esa metodología."
+    },
+    {
+      "start": 130.14,
+      "end": 137.14,
+      "text": "Ahora bien, la realidad es que cuando uno trabaja en proyectos, no trabaja exclusivamente con una metodología. ROOP es muy utilizado cuando"
+    },
+    {
+      "start": 138.78,
+      "end": 146.78,
+      "text": "se requiere, como hablábamos antes, una ceremonia muy fuerte, un ceremonial muy fuerte porque, bueno, capaz que"
+    },
+    {
+      "start": 146.78,
+      "end": 153.78,
+      "text": "que que que muy la empresa que el cotiza en bolsa, yo cotizo en bolsa, si que una empresa y cotizo en bolsa como puede ser un banco"
+    },
+    {
+      "start": 153.78,
+      "end": 162.81,
+      "text": "acá, es muy poca en Argentina que contestan, por ejemplo, la hueta de Estados Unidos, será no se da any de calcular, no sé, estoy diciendo nada,"
+    },
+    {
+      "start": 162.81,
+      "end": 173.06,
+      "text": "voy a nadar para ver esto. Pero si vos tenés una empresa, creo que si era el oarc, o también cotizar en bolsa"
+    },
+    {
+      "start": 173.06,
+      "end": 185.48,
+      "text": "Estados Unidos, necesitas para determinados proyectos tener una estructura muy fuerte en cuanto a la implementación"
+    },
+    {
+      "start": 186.48,
+      "end": 200.1,
+      "text": "en software. Entonces, una metodología ágil no va a servir porque necesitamos tener un rastreo muy fuerte. Eso es por un tema de, ya cuando estemos"
+    },
+    {
+      "start": 200.1,
+      "end": 217.03,
+      "text": "en presenciales, voy a contar un poco la historia porque se hizo eso, pero es un tema legal, en donde se requería que ante el pasaje aún, a producción de un software,"
+    },
+    {
+      "start": 217.03,
+      "end": 239.01,
+      "text": "fue una solución clave financieramente, estuviera con muchos aprobadores, entonces se necesita un proceso mucho más fuerte, que nadie puede acceder a producción y cambiar algo, sino no podías cotizar en la bolsa de Estados Unidos."
+    },
+    {
+      "start": 240.26,
+      "end": 255.26,
+      "text": "Y acá hay algo parecido un poco más flexible, pero hay algo parecido, entonces te acuerdo a las necesidades también de la organización, ven si se pueden ir a una metodología más rija o más ágil."
+    },
+    {
+      "start": 256.26,
+      "end": 275.26,
+      "text": "Y van a Netflix y Netflix no sé si para todo lo que es aplicaciones con los clientes, no, pero capaz que financieran las soluciones que sean financieras y si tienen que ir a una metodología un poco más rija y no utilicen a metodología."
+    },
+    {
+      "start": 276.26,
+      "end": 294.7,
+      "text": "Me van siguiendo, porque a veces se les siden a nivel de negocio, no, no lo vamos a elegir una metodología o la otra, después cuando nos juntemos hablaremos un poquito en los de ese tema y les cuento un poco la parte legal de eso."
+    },
+    {
+      "start": 295.7,
+      "end": 342.5,
+      "text": "Eso es una metodología más tradicional y no es fuerte, más ceremonia, y ahora vamos a una metodología más ágil, ustedes estuvieron viendo metodología ágil, calculo que sí, vamos a hacer y eran metodología ágil, y fueron la mano fantástica, entonces acabo de ir más rápido."
+    },
+    {
+      "start": 343.5,
+      "end": 357.35,
+      "text": "Así vamos a la parte tráctica, vamos a abrir, ¿qué batería? Creo que en sistemas de información."
+    },
+    {
+      "start": 357.35,
+      "end": 375.79,
+      "text": "Fantástico, bueno, vamos a ir un por ridido, obviamente, volvemos a lo mismo, esto recordan que era, acá estamos en los 52, lo vimos la primera debimos, los principios de la ingeniería de software."
+    },
+    {
+      "start": 379.48,
+      "end": 390.48,
+      "text": "Antes acá teníamos el proceso RUP, el método de diseño, los recomendaciones de RUP y las herramientas, que acá decían WML."
+    },
+    {
+      "start": 390.48,
+      "end": 408.15,
+      "text": "Ahora vamos a ir a otra metodología, que es Scram, que tiene tantas ceremonias en la cuanto del método de diseño y tiene otras herramientas que son las historias usuarios, los web, y ahora más el curso y WML."
+    },
+    {
+      "start": 408.15,
+      "end": 436.1,
+      "text": "Y muy poco, pero vamos a empezar, antes de esto ágil, esto lo supongo que como lo vieron, vieron que el RUP fue más que nada orientado a metodología más tradicionales, con mayor cantidad de ceremonias,"
+    },
+    {
+      "start": 436.1,
+      "end": 461.38,
+      "text": "pero se dieron cuenta que necesitaban algo más en ágil como dice la palabra para determinados proyectos. Entonces en el 2001, la Seleizo, una Argonia en también, introducieron un manifiesto ágil de la misma manera de la misma manera, en lo que les va a ser humano, de la misma manera,"
+    },
+    {
+      "start": 461.38,
+      "end": 482.03,
+      "text": "de RUP, tienes tus principios, son estos, hay, en todo lo que está aquí lo hizo lo mismo, y eso es el mismo proceso, y se va a ver, voy a definir mi filosofía o mis principios,"
+    },
+    {
+      "start": 482.03,
+      "end": 506.32,
+      "text": "para usar una palabra pero es lo mismo, para poder justamente armar un proceso un poco más ágil para el desarrollo del software, y se va a saludar a algunos principios, obviamente hay cuatro que son los fundamentales, que son los individuos y interacciones ante los procesos de extución y la herramienta,"
+    },
+    {
+      "start": 506.32,
+      "end": 525.54,
+      "text": "software que funciona, ver sus documentación, la colaboración por el cliente, trabajar una forma muy estrecha con el cliente, responderan del cambio, eso es algo que también están en RUP, y después algunos otros principios, no, se hace el cliente,"
+    },
+    {
+      "start": 525.54,
+      "end": 539.54,
+      "text": "un cambio, entrega frecuente, un maverga interesante, conversación cara cara, software funcionando, excelencia técnica, es un grupo un poco más chico,"
+    },
+    {
+      "start": 539.54,
+      "end": 553.38,
+      "text": "y por lo tanto se puede manejarse, puede administrar, son autogestrenables, cada uno tiene que saber por lo que es lo que tiene que hacer para trabajar, no le tenemos que estar diciendo bueno,"
+    },
+    {
+      "start": 553.38,
+      "end": 563.34,
+      "text": "cierta al función de la vida lo hacen, son más autónomos, entonces se puede hacer que sean"
+    },
+    {
+      "start": 563.34,
+      "end": 574.82,
+      "text": "grupos más ágilas. Vamos a otro, esto es altamente lo mismo, no voy a ser a que lo vieron,"
+    },
+    {
+      "start": 574.82,
+      "end": 583.38,
+      "text": "vamos a hacerlo un poquito más rápido. Y bueno vamos un poquito a dentro de metodología"
+    },
+    {
+      "start": 583.38,
+      "end": 592.28,
+      "text": "de las ágilas, qué tipo de procesos vieron, acá vamos a hablar un poco de estrambos, pero qué"
+    },
+    {
+      "start": 592.28,
+      "end": 605.58,
+      "text": "marco de trabajo ha sido utilizaron, qué vieron, qué me encanta."
+    },
+    {
+      "start": 605.58,
+      "end": 613.74,
+      "text": "Qué te piensan? Muy bien. Cambam también, ¿qué es eso? Cambam, me encanta, se está más"
+    },
+    {
+      "start": 613.74,
+      "end": 620.97,
+      "text": "enfrentado a lo que es el próximo? En Canta Canva. ¿Qué más? Es más para proyectos, es más para"
+    },
+    {
+      "start": 620.97,
+      "end": 631.01,
+      "text": "mi extención, no, algo. O más para para mi jeera industrial, creo que construir un, un"
+    },
+    {
+      "start": 631.01,
+      "end": 636.97,
+      "text": "suponete, un auto, bueno, primero empieza con la chássi, bueno, paso esto y acá, peor para"
+    },
+    {
+      "start": 636.97,
+      "end": 645.81,
+      "text": "chássis, más es muy pisado, ahí me encanta, puede hacer nuestra presente, porque como"
+    },
+    {
+      "start": 645.81,
+      "end": 661.15,
+      "text": "que uno la aceptamos en la materia, no lo habrá pedido, no hay un minuto, te puedo saber, no"
+    },
+    {
+      "start": 661.15,
+      "end": 683.33,
+      "text": "hay un poco nada de ella, abricen cuando pasa esto así, bueno, ¿qué le pidió? Ahora anivar"
+    },
+    {
+      "start": 683.33,
+      "end": 699.69,
+      "text": "el rostro, pero hace rostro, bueno, muy bien, Canva, qué más? algo más de XP, el famoso"
+    },
+    {
+      "start": 699.69,
+      "end": 708.02,
+      "text": "programar entre pares, ahí yo creo que no podría utilizar esa metodología, que no"
+    },
+    {
+      "start": 708.02,
+      "end": 713.66,
+      "text": "está mirando cuando igual ahora se codifica mucho más ágil, pero no importa. Se debe de"
+    },
+    {
+      "start": 713.66,
+      "end": 719.14,
+      "text": "ver, ¿cómo está? Que desmiren la comunicadora. Bueno, no importa, vamos con Scram, bueno,"
+    },
+    {
+      "start": 719.14,
+      "end": 728.7,
+      "text": "hace un marco de trabajo, también de proceso ágil, nos ayuda a gestionar y completar"
+    },
+    {
+      "start": 728.7,
+      "end": 734.94,
+      "text": "y armar, no, proyectos, pero lo interesante es que son ciclos cortos de trabajo, para estos"
+    },
+    {
+      "start": 734.94,
+      "end": 741.02,
+      "text": "ciclos cortos y los denominas sprint, que es de una, cuatro semanas, la realidad es que"
+    },
+    {
+      "start": 741.02,
+      "end": 751.3,
+      "text": "solo en Zardos, la documentación, recomienda dos, son grupos de autorganizados, de adaptan"
+    },
+    {
+      "start": 751.3,
+      "end": 759.14,
+      "text": "para ti al cambio, tienen determinados roles, ahora creo que los vamos a ver, pero bueno,"
+    },
+    {
+      "start": 759.14,
+      "end": 766.8,
+      "text": "básicamente son grupos que el equipo tiene mucho expertise y que pueden gestionar los"
+    },
+    {
+      "start": 766.8,
+      "end": 776.32,
+      "text": "proyectos, esto son los principios del Scram, tras parences, instección, adaptación,"
+    },
+    {
+      "start": 776.32,
+      "end": 782.94,
+      "text": "colaboración, enfoque del valor, empoderamiento del equipo, que sean autorganizados, estos"
+    },
+    {
+      "start": 782.94,
+      "end": 794.82,
+      "text": "chicos le dan los, es marco teórico dentro del Scram, vamos a lo más interesante, empezamos"
+    },
+    {
+      "start": 794.82,
+      "end": 803.62,
+      "text": "con los roles, nosotros en Rube teníamos miles de roles, en el project manas, tenemos un"
+    },
+    {
+      "start": 803.62,
+      "end": 810.57,
+      "text": "montón de roles, obviamente acá están mucho más acotados, prácticamente se las pueden"
+    },
+    {
+      "start": 810.57,
+      "end": 820.21,
+      "text": "separar o categorizar en tres roles, el Product Owner, no que es el propietario, vamos a decirlo"
+    },
+    {
+      "start": 820.21,
+      "end": 828.73,
+      "text": "del Producto, define la prioridad de que estiona las tareas, está pendiente del Product"
+    },
+    {
+      "start": 828.73,
+      "end": 837.15,
+      "text": "Bank, lo que ahora lo vamos a charlar, y obviamente es el que tiene mayor interés en el negocio,"
+    },
+    {
+      "start": 837.15,
+      "end": 847.48,
+      "text": "después tenemos el Scram Master, lo conoce, imagínense lo conoce, si no se ponen a ver"
+    },
+    {
+      "start": 847.48,
+      "end": 853.88,
+      "text": "la película, el Scram Master es el que facilita el proceso, está no es un gerente de"
+    },
+    {
+      "start": 853.88,
+      "end": 861.92,
+      "text": "proyectos pero facilita el proceso, trata de eliminar los riesgos, que pueden frenar"
+    },
+    {
+      "start": 861.92,
+      "end": 871.12,
+      "text": "al equipo, a la construcción del Producto, y obviamente hace toda la actividad es que recomienda"
+    },
+    {
+      "start": 871.12,
+      "end": 878.48,
+      "text": "el Scram, que ya ahora las vamos a ver, como la reunión diaria, la planificación etcétera,"
+    },
+    {
+      "start": 878.48,
+      "end": 887.48,
+      "text": "y después tenemos el equipo, es un equipo chico, acá recomienda siete más menos más personas,"
+    },
+    {
+      "start": 887.48,
+      "end": 898.92,
+      "text": "no es un equipo grande, es un equipo autoralizado, multifunicional, que tiene muchas partes, esto"
+    },
+    {
+      "start": 898.92,
+      "end": 905.64,
+      "text": "nos conocen también, la privada, tendría siempre dió lo mismo, tendría que actualizarlo con"
+    },
+    {
+      "start": 905.64,
+      "end": 916.05,
+      "text": "otra foto, pero bueno, quedo ahí, bueno algunos elementos del Scram, esto también lo tendrían"
+    },
+    {
+      "start": 916.05,
+      "end": 923.17,
+      "text": "que haber visto pero vamos a repasar, tienen el Producto, acá hay un estado yo, y hablamos"
+    },
+    {
+      "start": 923.17,
+      "end": 931.09,
+      "text": "de los más para mí, utilizados como el Producto Baglock, que es, o a veces se lo deí,"
+    },
+    {
+      "start": 931.09,
+      "end": 939.85,
+      "text": "es directamente Baglock, es la lista de todo lo necesario para el proyecto ordenado por prioridades,"
+    },
+    {
+      "start": 939.85,
+      "end": 945.61,
+      "text": "casi siempre son historias usuarios, cada Baglock va a tener un listado de todas las historias de"
+    },
+    {
+      "start": 945.61,
+      "end": 959.45,
+      "text": "hacerlo, después tenen el Spring Baglock, también es una lista, una lista de todas las tareas,"
+    },
+    {
+      "start": 959.45,
+      "end": 968.13,
+      "text": "como tarjetas usuarios, para el Spring actual que vamos a trabajar, no está lo incremento,"
+    },
+    {
+      "start": 968.13,
+      "end": 980.41,
+      "text": "que es importante, es el Producto terminado para cada Spring, que más está el Spring Planning,"
+    },
+    {
+      "start": 980.41,
+      "end": 986.45,
+      "text": "la Planificación, que es la reunión inicial para definir qué va a ser, es Spring,"
+    },
+    {
+      "start": 987.45,
+      "end": 996.94,
+      "text": "después está la reunión diaria, la plan de reunión diaria, ya está, de Unity, está que es"
+    },
+    {
+      "start": 996.94,
+      "end": 1005.82,
+      "text": "una reunión donde se ajustan esos integrantes y en 15 minutos está donde debe como está el equipo"
+    },
+    {
+      "start": 1005.82,
+      "end": 1013.46,
+      "text": "nomás si hay algún problema, ese es el después puntualmente con estas personas, o si hay una persona"
+    },
+    {
+      "start": 1013.46,
+      "end": 1021.78,
+      "text": "que requiere de otra, un trabajo dependendo del otro, después en esa reunión, salta el tema y"
+    },
+    {
+      "start": 1021.78,
+      "end": 1030.6,
+      "text": "después continuará, pero la idea es que sea una reunión diaria rápida de 15 minutos, el Spring Review,"
+    },
+    {
+      "start": 1030.6,
+      "end": 1037.88,
+      "text": "no sé si está acá, Spring Plan, Spring Plan, no lo puse, así el review, ahí está el review,"
+    },
+    {
+      "start": 1038.97,
+      "end": 1047.13,
+      "text": "Spring Review, que es también es una vez finalizado el Spring, bueno, como fue una"
+    },
+    {
+      "start": 1047.13,
+      "end": 1057.44,
+      "text": "reición, como fue el trabajo completo de este título, y el Spring de la reestructividad está"
+    },
+    {
+      "start": 1057.44,
+      "end": 1064.0,
+      "text": "muy buena, es un espacio para reflexionar sobre qué hay que mejorar para el siguiente, y la realidad"
+    },
+    {
+      "start": 1064.0,
+      "end": 1070.64,
+      "text": "es muy útil, porque a veces hay que hablar de lo bueno y de lo malo, o sea, he visto lo hicimos"
+    },
+    {
+      "start": 1070.64,
+      "end": 1078.78,
+      "text": "mal, no sé, y se dice, esta base de datos pero me di cuenta que no funciona, lo voy a cambiar,"
+    },
+    {
+      "start": 1081.34,
+      "end": 1088.18,
+      "text": "tuve con este cliente no pude avanzar y me fico con otro, porque la verdad que es mucho más"
+    },
+    {
+      "start": 1088.18,
+      "end": 1095.34,
+      "text": "amigable y a partir de ahí empezamos a trabajar con el otro cliente, o sea, tener un espacio para"
+    },
+    {
+      "start": 1095.34,
+      "end": 1103.94,
+      "text": "reflexionar está muy bueno y nos permite mejorar, por lo tanto, es algo que se lo utiliza muchísimo,"
+    },
+    {
+      "start": 1106.22,
+      "end": 1112.05,
+      "text": "si vamos, bueno, yo voy a tener, quiero que tengo el Product Baglog, voy a tener acá tarjetas"
+    },
+    {
+      "start": 1112.05,
+      "end": 1117.34,
+      "text": "en suario, por así decirlo, saben las casanas tarjetas en suario, después lo vamos a ver, sino,"
+    },
+    {
+      "start": 1117.82,
+      "end": 1133.27,
+      "text": "no saben, bueno, para lo ver, voy a tener funcionalidades, ese es el Product Baglog y yo voy a"
+    },
+    {
+      "start": 1133.27,
+      "end": 1147.34,
+      "text": "definir en cada sprint que era el sprint, era un sprint, es el ciclo, es el ciclo que van a ser,"
+    },
+    {
+      "start": 1147.34,
+      "end": 1156.5,
+      "text": "en un sprint voy a definir de ese Product Baglog, cuál es mi sprint Baglog para poder trabajar,"
+    },
+    {
+      "start": 1156.5,
+      "end": 1167.43,
+      "text": "de todos los días, tengo estas reuniones, tengo la reunión final para poder hacer estas"
+    },
+    {
+      "start": 1167.43,
+      "end": 1175.15,
+      "text": "mejoras, a veces, a veces la mejora es seguir con la misma, por ejemplo no sé, bueno,"
+    },
+    {
+      "start": 1175.15,
+      "end": 1182.87,
+      "text": "trabajé con Pablo y la verdad que fue exitoso, voy a continuar el próximo sprint trabajando con él,"
+    },
+    {
+      "start": 1182.87,
+      "end": 1192.9,
+      "text": "porque me di cuenta que sabe sobre, no sé, ok, o sabes sobre el negocio, o a veces sucede que,"
+    },
+    {
+      "start": 1192.9,
+      "end": 1199.98,
+      "text": "bueno, tal sprint nada, mirad, y vamos a hacer tal Baglog para el próximo sprint, bueno, trabaja con"
+    },
+    {
+      "start": 1199.98,
+      "end": 1208.62,
+      "text": "Juancito, que sabe muchísimo sobre el negocio, entonces realmente es interesante de hacer este tipo de"
+    },
+    {
+      "start": 1208.62,
+      "end": 1214.9,
+      "text": "reuniones, nosotros lo que vamos a hacer ahora es un especie de simulacro, ahora lo vamos a hacer"
+    },
+    {
+      "start": 1214.9,
+      "end": 1220.54,
+      "text": "en donde vamos a definir algunas historias de usuario, y esos historias de usuario vamos a armar el"
+    },
+    {
+      "start": 1220.54,
+      "end": 1230.61,
+      "text": "Product Baglog, y del Product Baglog vamos después a definir, definir la criticidad por donde vamos a"
+    },
+    {
+      "start": 1230.61,
+      "end": 1244.25,
+      "text": "comenzar y definir los sprint backlog, ok, bueno, DailyMitting es muy sencillo, cada 15 minutos,"
+    },
+    {
+      "start": 1244.25,
+      "end": 1250.13,
+      "text": "y no más, se responde estas preguntas que dice que haré que problemas tengo forma pontual, si hay"
+    },
+    {
+      "start": 1250.13,
+      "end": 1258.09,
+      "text": "algún problema muy específico se continúan en otro tipo de reunión, pero los otros integrantes"
+    },
+    {
+      "start": 1258.09,
+      "end": 1263.53,
+      "text": "van a seguir avanzando en los suyas, ahora bien, yo tengo que armar este Product Baglog y lo que"
+    },
+    {
+      "start": 1263.53,
+      "end": 1274.82,
+      "text": "me voy a basar es en tarjetas de usuarios, ok, son notas que representan una necesidad del cliente,"
+    },
+    {
+      "start": 1278.58,
+      "end": 1288.02,
+      "text": "como si fueron casi de uso muy pequeño corto con un ciso, si me para hablar del requerimiento,"
+    },
+    {
+      "start": 1288.54,
+      "end": 1298.41,
+      "text": "no tiene mayor nivel técnico, tienen el título, un nombre corto claro que es lo que va a hacer,"
+    },
+    {
+      "start": 1298.41,
+      "end": 1308.53,
+      "text": "tienen un rol, siempre empezamos con el usuario, yo como jefe, necesito tal cosa, si tienen un rol,"
+    },
+    {
+      "start": 1309.01,
+      "end": 1317.41,
+      "text": "yo como comprador, yo como secretaria, está, y una acción, ¿qué quiere hacer el usuario?"
+    },
+    {
+      "start": 1317.41,
+      "end": 1321.93,
+      "text": "Por ejemplo, yo como comprador, quiero pagar con tarjeta de crédito, ¿ok?"
+    },
+    {
+      "start": 1324.17,
+      "end": 1336.85,
+      "text": "tiene un valor para qué se usa, porque quiero obtener el producto, yo como dueño de este"
+    },
+    {
+      "start": 1336.85,
+      "end": 1341.41,
+      "text": "de tréosio, quiero facturar, o que si no, no, lo objecto y lo entender para qué lo quiero,"
+    },
+    {
+      "start": 1341.41,
+      "end": 1349.46,
+      "text": "en algunas son sencillos, otras no, a lo que se suele utilizar mucho a la filtrera de aceptación,"
+    },
+    {
+      "start": 1351.3,
+      "end": 1360.83,
+      "text": "que son como una especie de criterias de testing, a medida que se va interando se puede ir a agregar"
+    },
+    {
+      "start": 1360.83,
+      "end": 1367.33,
+      "text": "esos detalles, a veces está buena para la criticidad, si es importante, si no,"
+    },
+    {
+      "start": 1371.68,
+      "end": 1378.78,
+      "text": "la realidad es que se utiliza muchísimo, es muy simple, y si no, si lo puse acá,"
+    },
+    {
+      "start": 1378.78,
+      "end": 1388.5,
+      "text": "a la búsqueda, acá, acá, sí, y acá tengo algunas, historias de usuario, por ejemplo,"
+    },
+    {
+      "start": 1389.22,
+      "end": 1397.22,
+      "text": "sí un modelo muy simple, yo como, yo como, ahí colocan un rol, yo como integrante, yo como comprador,"
+    },
+    {
+      "start": 1398.74,
+      "end": 1406.12,
+      "text": "bien a lo largo, quiero una, ahí es lo que tienen que hacer, quiero poner la acción, y siempre"
+    },
+    {
+      "start": 1406.12,
+      "end": 1415.28,
+      "text": "es para poner el para al final, entonces yo digo yo como clientes, quiero poder comprar para llevar"
+    },
+    {
+      "start": 1415.28,
+      "end": 1422.75,
+      "text": "el producto, entonces tenemos el cómo, el quiero y el para en las historias del usuario,"
+    },
+    {
+      "start": 1423.75,
+      "end": 1432.27,
+      "text": "es un texto que sirve de guía, el sirve para poder interactuar y ver las cosas más importantes,"
+    },
+    {
+      "start": 1432.27,
+      "end": 1440.58,
+      "text": "no voy a entrar en el detalle como si lo haría en un caso de uso, vamos a esto,"
+    },
+    {
+      "start": 1440.58,
+      "end": 1446.94,
+      "text": "a minutito, hasta la pongo acá, entonces tengo el producto bugle, tengo voy a definir por donde"
+    },
+    {
+      "start": 1446.94,
+      "end": 1457.41,
+      "text": "comenzar una vez que le dí el valor a cada una, y empezó a trabajar en con mi metodología,"
+    },
+    {
+      "start": 1457.41,
+      "end": 1462.37,
+      "text": "bien, algo que me importa, esto lo de apondar acá, algo que me importa de las historias"
+    },
+    {
+      "start": 1462.37,
+      "end": 1470.48,
+      "text": "del usuario son las características, porque me importa, porque soy de diseño y tengo que hacer que"
+    },
+    {
+      "start": 1470.48,
+      "end": 1479.41,
+      "text": "mi producto tenga calidad, no tengo dentro del escram, no tengo una metodología de diseño como la"
+    },
+    {
+      "start": 1479.41,
+      "end": 1484.89,
+      "text": "puedo llegar a tener con Rube que me dice el paso a paso como armar una retextura y qué cual es"
+    },
+    {
+      "start": 1485.61,
+      "end": 1493.01,
+      "text": "el tarsalto, que tengo que tener el diagrama de arquilidad, el diagrama de clases, no me da esas"
+    },
+    {
+      "start": 1493.01,
+      "end": 1499.61,
+      "text": "recomendaciones, entonces es importante que las historias del usuario tengan determinadas características"
+    },
+    {
+      "start": 1499.61,
+      "end": 1508.53,
+      "text": "para poder meterle un poco, calidad y de orden muy requerido en el diseño,"
+    },
+    {
+      "start": 1508.53,
+      "end": 1514.93,
+      "text": "es dentro de esta metodología, por lo tanto necesito las historias sean independientes que"
+    },
+    {
+      "start": 1514.93,
+      "end": 1523.57,
+      "text": "nos se repiten, que cada uno sea única, que sea negociable, que pueda hablar con el"
+    },
+    {
+      "start": 1523.57,
+      "end": 1529.41,
+      "text": "cliente, que sea que demuestre valor, por eso es importante cuando lo estoy escribiendo poner el"
+    },
+    {
+      "start": 1529.41,
+      "end": 1537.71,
+      "text": "para, que sea estimable, es un trabajo que yo tengo una historia de usuario, necesito una"
+    },
+    {
+      "start": 1537.71,
+      "end": 1542.51,
+      "text": "solución para la biblioteca y la realidad que no me sirve, porque no la puedo estimar, mientras"
+    },
+    {
+      "start": 1542.51,
+      "end": 1552.24,
+      "text": "más corta, más pequeña la puedo estimar, bueno que sea pequeña, que sea bien atómica, me gusta"
+    },
+    {
+      "start": 1552.24,
+      "end": 1558.56,
+      "text": "hablar de atómicitad más orientada de ejemplos, que sea verificable, que pueda ver que le pueda"
+    },
+    {
+      "start": 1558.56,
+      "end": 1566.56,
+      "text": "comprobar, como lo puedo probar, bueno que sea simple, no se enrojen en la escritura, perdón,"
+    },
+    {
+      "start": 1567.28,
+      "end": 1573.88,
+      "text": "me di de la cansada, que sea realista que se ha centrado en el usuario, son las características"
+    },
+    {
+      "start": 1573.88,
+      "end": 1583.59,
+      "text": "de historias de usuario para poner, empezar a colocar algo de principios del buen diseño,"
+    },
+    {
+      "start": 1583.59,
+      "end": 1590.79,
+      "text": "dentro de una metodología, como a Scram, que no se basta mucho en esos principios del buen diseño,"
+    },
+    {
+      "start": 1590.79,
+      "end": 1599.56,
+      "text": "porque calculo que tengo un grupo autogestionado y con mucho esquí para hacerlo, esta saludismo me"
+    },
+    {
+      "start": 1599.56,
+      "end": 1616.49,
+      "text": "vengo acá, esto que le hace acordar, me dijeron en una metodología, acá podría yo aplicar,"
+    },
+    {
+      "start": 1616.49,
+      "end": 1625.96,
+      "text": "ya puedo empezar a meter otras procesos, entonces digo bueno, meto algún procedido como"
+    },
+    {
+      "start": 1625.96,
+      "end": 1631.96,
+      "text": "campan y digo bueno tengo el usuario y después yo voy diciendo como lo harmo, tengo el"
+    },
+    {
+      "start": 1631.96,
+      "end": 1637.46,
+      "text": "baglo, en tu duro que estoy haciendo, lo que ya está hecho, a mí me gusta muchísimo"
+    },
+    {
+      "start": 1637.46,
+      "end": 1644.56,
+      "text": "campan, hay herramientas muy lindas, no nos vamos a poner en foco porque campan pero realmente"
+    },
+    {
+      "start": 1644.56,
+      "end": 1653.58,
+      "text": "utilizan lo, el probaglo, tengo las historias de usuarios, los criterios, esto se lo"
+    },
+    {
+      "start": 1653.58,
+      "end": 1668.94,
+      "text": "muestro simplemente como ejemplo, bueno para en un minutito, lo dejo para las las"
+    },
+    {
+      "start": 1668.94,
+      "end": 1687.1,
+      "text": "ideas y vamos a jugar un poquito, también no de maquira, se van al canal, para en un minuto"
+    },
+    {
+      "start": 1687.1,
+      "end": 1713.7,
+      "text": "lo cuento son, pasando al canal mientras tanto, dentro del canal, 26 segundo 4 y"
+    },
+    {
+      "start": 1713.7,
+      "end": 1732.78,
+      "text": "3, van a este pizarro, y ahí todos ahí, ahí los veo, esto lo dejan un poquito de lado,"
+    },
+    {
+      "start": 1732.78,
+      "end": 1748.63,
+      "text": "vengo para acá, ustedes van a jugar acá en esta área, despido disculpas, a los que están"
+    },
+    {
+      "start": 1748.63,
+      "end": 1757.45,
+      "text": "recursando la materia pero no tuve tiempo de cambiar el ejercicio, así que vamos a repetir"
+    },
+    {
+      "start": 1757.45,
+      "end": 1770.76,
+      "text": "el 4 y 5 este pasado, están ahí en la carinta que nos pasa, es un área de trabajo, acá"
+    },
+    {
+      "start": 1770.76,
+      "end": 1788.52,
+      "text": "tienen para agregar unas notitas, yo lo que les voy a pedir, bueno ahora lo hacemos todos,"
+    },
+    {
+      "start": 1788.52,
+      "end": 1797.15,
+      "text": "me interesa la idea de este, podamos jugar un poco y que hagamos una especie de simulación,"
+    },
+    {
+      "start": 1797.15,
+      "end": 1802.51,
+      "text": "si, son 58 personas, va a ser un caos, después yo lo organizaré, no te preocupen, pero"
+    },
+    {
+      "start": 1802.51,
+      "end": 1807.23,
+      "text": "la idea que ustedes puedan jugar un poquito, qué lo que vamos a hacer, vamos a hacer un juego"
+    },
+    {
+      "start": 1807.23,
+      "end": 1817.49,
+      "text": "de roll play, la idea de este juego de roll play es que vamos a jugar ahora y posiblemente"
+    },
+    {
+      "start": 1817.49,
+      "end": 1827.68,
+      "text": "la siguiente clase, voy a necesitar de ustedes y que todos colaboren y que traten más o"
+    },
+    {
+      "start": 1827.68,
+      "end": 1836.48,
+      "text": "menos de ir armándolo, si yo veo que se repita y no importa, después lo arreglaré,"
+    },
+    {
+      "start": 1836.48,
+      "end": 1842.12,
+      "text": "vamos, la idea es que todos ahora participemos un poco, qué lo que vamos a hacer, imagínense"
+    },
+    {
+      "start": 1842.12,
+      "end": 1850.68,
+      "text": "que yo soy la arquitecta, ustedes son el grupo de screenmaster desarrolladores, yo hice"
+    },
+    {
+      "start": 1850.68,
+      "end": 1860.16,
+      "text": "un relevamiento de algo que tenemos que hacer, ahí empezamos a trabajar, por lo tanto"
+    },
+    {
+      "start": 1860.16,
+      "end": 1869.12,
+      "text": "hoy ustedes son todos desarrolladores que ya manejan Scram y ya manejan trajetas de usuario,"
+    },
+    {
+      "start": 1869.12,
+      "end": 1881.43,
+      "text": "y les vengo a plantear un nuevo proyecto, estamos de acuerdo, bien proyecto, entonces dentro"
+    },
+    {
+      "start": 1881.43,
+      "end": 1892.28,
+      "text": "este nuevo proyecto yo voy a comenzar a relatar, a relatar, ustedes acá van a ir creando"
+    },
+    {
+      "start": 1892.28,
+      "end": 1898.1,
+      "text": "tarjetitas y van a ir armando las tarjetas de usuario, yo estoy tratando de estimular una"
+    },
+    {
+      "start": 1898.1,
+      "end": 1908.23,
+      "text": "especie de figma, ustedes saben lo que es figma, la universidad no me permite tener un figma"
+    },
+    {
+      "start": 1908.23,
+      "end": 1918.94,
+      "text": "porque sale plata, está vamos a dar, pero el figma es una herramienta que viene, yo no tengo para"
+    },
+    {
+      "start": 1918.94,
+      "end": 1929.46,
+      "text": "que todos se sumen, a ver no, no sé, acá vamos al figma, no sé quién es este, pero el figma me"
+    },
+    {
+      "start": 1929.46,
+      "end": 1936.74,
+      "text": "permite crear, manejar un área de trabajo, me permite manejar imágenes diseñar, crear"
+    },
+    {
+      "start": 1936.74,
+      "end": 1943.73,
+      "text": "un poquito, estábamos, entonces la idea es que yo voy a ir relatando el relevamiento que"
+    },
+    {
+      "start": 1943.73,
+      "end": 1952.27,
+      "text": "hice con el cliente, ustedes se empiezan a armar las historias de usuario, recuerden como"
+    },
+    {
+      "start": 1952.27,
+      "end": 1958.5,
+      "text": "me pueden hacer un recoratorio, cómo era esa historia de usuario, cómo empezaba, yo cómo"
+    },
+    {
+      "start": 1958.5,
+      "end": 1973.46,
+      "text": "o cómo, el hombre, quiero poner el propósito, claro, para y el propósito, está, ¿ok?"
+    },
+    {
+      "start": 1973.46,
+      "end": 1996.41,
+      "text": "cómo, cómo el rol, cómo el rol me dan a decir, el verbo, el verbo, vamos a una acción,"
+    },
+    {
+      "start": 1996.41,
+      "end": 2010.24,
+      "text": "mejor la acción, yo cómo quiero para, ¿ok? Concrito el conciso, está, esto lo voy a borrar,"
+    },
+    {
+      "start": 2010.24,
+      "end": 2018.36,
+      "text": "entonces yo voy a ir escribiendo, ustedes van a tener que ir armando las historias de usuario,"
+    },
+    {
+      "start": 2018.36,
+      "end": 2024.04,
+      "text": "de acuerdo a lo que yo digo, si se pierde, se pierde, no importa, está la idea que"
+    },
+    {
+      "start": 2024.04,
+      "end": 2031.14,
+      "text": "estemos ejercitando realmente como funciona este tipo de metodología con esto, porque"
+    },
+    {
+      "start": 2031.14,
+      "end": 2036.02,
+      "text": "aparte lo vamos a realizar las zonas con otra cosa, bueno, arranco, están todos preparados,"
+    },
+    {
+      "start": 2036.02,
+      "end": 2045.66,
+      "text": "ya todos agarraron algún, cada tarjeta es única, si encuentro otro requerimiento, encuentro"
+    },
+    {
+      "start": 2045.66,
+      "end": 2050.4,
+      "text": "otro requerimiento, ustedes susen esta área, yo me ven por un tema de que quiero leer un"
+    },
+    {
+      "start": 2050.4,
+      "end": 2058.76,
+      "text": "poquito, ¿ok? ustedes susen esta área, la de la del lado, esto me lo dejan a calibre,"
+    },
+    {
+      "start": 2058.76,
+      "end": 2070.87,
+      "text": "¿ok? cada uno tiene que mirar su área, es más, lo dejaría de compartir, quiero ver que"
+    },
+    {
+      "start": 2070.87,
+      "end": 2079.64,
+      "text": "estén trabajando, ¿vamos listos? ¿quién? ¿quién? ¿quién? ¿quién? ¿quién?"
+    },
+    {
+      "start": 2079.64,
+      "end": 2088.64,
+      "text": "¿quién? Bueno, vamos a hacer un, tenemos que hacer una solución para un gimnasio que está"
+    },
+    {
+      "start": 2088.64,
+      "end": 2095.14,
+      "text": "ubicado en Ael Ramos, es un centro de entrenamiento orientado para personas que bueno, buscan, mejor"
+    },
+    {
+      "start": 2095.14,
+      "end": 2101.56,
+      "text": "a su estado de salud, a la mañana hay mucha gente grande, me contaba, yo hablo, ¿eh? me contaba"
+    },
+    {
+      "start": 2101.56,
+      "end": 2110.02,
+      "text": "el gerente, mucha gente grande, mucha gente en la área de musculación y también tiene"
+    },
+    {
+      "start": 2110.02,
+      "end": 2121.34,
+      "text": "clases grupales tradicionales como puede ser, no sé, espímic, correr, etcétera, ¿eh?"
+    },
+    {
+      "start": 2121.34,
+      "end": 2130.94,
+      "text": "Gap, etcétera, es un proceso de barrio, ¿no? no es gran, no es una gran cadena, pero tiene"
+    },
+    {
+      "start": 2130.94,
+      "end": 2136.22,
+      "text": "dos gimnasios y calcula que van a tener otro más, por lo tanto quieren una aplicación"
+    },
+    {
+      "start": 2136.22,
+      "end": 2143.1,
+      "text": "como para que el usuario pueda, el client, el que entren puede ir un lado para el otro y"
+    },
+    {
+      "start": 2143.1,
+      "end": 2149.7,
+      "text": "puede utilizar con el mismo pago, las tres gimnasios que van a tener, ahora tienen dos,"
+    },
+    {
+      "start": 2149.7,
+      "end": 2157.22,
+      "text": "pero tienen van a tener tres, el gimnasio tiene activo alrededor de tres, cinco y una persona,"
+    },
+    {
+      "start": 2157.22,
+      "end": 2162.46,
+      "text": "la idea es que están haciendo mucha publicidad y se sumen más y el promedio va desde los"
+    },
+    {
+      "start": 2162.46,
+      "end": 2167.3,
+      "text": "veinte o se los cinco y cinco, aunque ese es el atarde bien en chicos más pequeños pero bueno,"
+    },
+    {
+      "start": 2167.3,
+      "end": 2174.86,
+      "text": "y a la mañana da mucha gente grande, mucha gente grande para hablar con la gente de musculación,"
+    },
+    {
+      "start": 2174.86,
+      "end": 2182.48,
+      "text": "por lo tanto a la mañana se requiere más profesores, se necesito hacer una aplicación, me"
+    },
+    {
+      "start": 2182.48,
+      "end": 2188.76,
+      "text": "voy a tener una aplicación donde los profesores puedan crear rutinas, donde los usuarios pueden"
+    },
+    {
+      "start": 2188.76,
+      "end": 2197.0,
+      "text": "ver si están con la cuota al día o no y si no están con la cuota al día, pueden ver que tienen"
+    },
+    {
+      "start": 2197.0,
+      "end": 2207.97,
+      "text": "que pagar, pueden ver las quechas de encimiento y si hay algún aumento también, cuánto sale, quieren"
+    },
+    {
+      "start": 2207.97,
+      "end": 2216.41,
+      "text": "hacer también definir el cliente quiere definir clases disponibles como pueden ser gap, clases"
+    },
+    {
+      "start": 2216.41,
+      "end": 2230.21,
+      "text": "tradicionales, spinning, clases de yoga, quieren poner los horarios pero como ven que a veces se llena el"
+    },
+    {
+      "start": 2230.21,
+      "end": 2239.37,
+      "text": "lugar, mucha gente que por ejemplo va a llorar, quieren poner como una reserva a las clases, está"
+    },
+    {
+      "start": 2239.37,
+      "end": 2249.05,
+      "text": "que puedan reservar y que puedan cancelar, entonces bueno de esa manera ya que el lugar para ser"
+    },
+    {
+      "start": 2249.05,
+      "end": 2256.64,
+      "text": "gimnasiana está amplio, poder acotarlo y que no se vuelva un lío, y si vemos que el usuario"
+    },
+    {
+      "start": 2256.64,
+      "end": 2265.76,
+      "text": "digamos el soció no va, bueno, ponerlo como un ranking, los vas, tienes más prioridad para"
+    },
+    {
+      "start": 2265.76,
+      "end": 2273.38,
+      "text": "acceder a esas clases y si no capaz que no pueda cancelar, algo hay que hacer algo que hay que pensar,"
+    },
+    {
+      "start": 2273.38,
+      "end": 2280.2,
+      "text": "está pero es uno de las problemas que tienen, el túneo quiere ver obviamente los socios que pagan,"
+    },
+    {
+      "start": 2280.2,
+      "end": 2286.16,
+      "text": "quieren invitar a sus socios que están inantivos, así que hay que separarlos algunos que no hayan"
+    },
+    {
+      "start": 2286.16,
+      "end": 2293.48,
+      "text": "venido, ver si hay una forma de contactarlos por nadie y mandar invitación o que la solución tenga"
+    },
+    {
+      "start": 2293.48,
+      "end": 2309.31,
+      "text": "algo de eso, obviamente si tienen un para poder acceder, un QR en el celular y habilita el acceso"
+    },
+    {
+      "start": 2309.31,
+      "end": 2317.87,
+      "text": "solamente a los socios que están activos, a veces se le he encargado o la secretaria, quiere"
+    },
+    {
+      "start": 2318.59,
+      "end": 2329.02,
+      "text": "agregar clases que algún profe le recomienda, tiene que haber siempre musculación en el área"
+    },
+    {
+      "start": 2329.02,
+      "end": 2336.02,
+      "text": "de musculación que está todo el día, tiene que estar cubiertos por dos profesores, la secretaria"
+    },
+    {
+      "start": 2336.02,
+      "end": 2345.85,
+      "text": "también hace, me dijo que hace inscripciones, quiere hacer inscripciones y ahí una vez que hace inscripciones"
+    },
+    {
+      "start": 2345.85,
+      "end": 2353.69,
+      "text": "le llega, le debería llegar al cliente, no sé, un mail para poder acceder a esta aplicación por"
+    },
+    {
+      "start": 2353.69,
+      "end": 2360.93,
+      "text": "celular para que pueda tener todo el bón, la rutina ahí, pero la secretaria también quiere ver"
+    },
+    {
+      "start": 2360.93,
+      "end": 2368.41,
+      "text": "esta íclica de las clases, quienes participan, cuáles son los horarios preferidos, bueno pero no"
+    },
+    {
+      "start": 2368.41,
+      "end": 2373.94,
+      "text": "tienen tanta prioridad pero lo que queda y algo que es importante es que el profe, los profes"
+    },
+    {
+      "start": 2373.94,
+      "end": 2381.34,
+      "text": "deberían tener una especie de tablet, obviamente con la solución para poder armarle las rutinas"
+    },
+    {
+      "start": 2381.34,
+      "end": 2391.81,
+      "text": "de musculación si son profesores de musculación, ok, eso son los que quiere resolver, obviamente la"
+    },
+    {
+      "start": 2391.81,
+      "end": 2404.52,
+      "text": "prioridad está puesto en que el usuario sepa, si tiene que pagar o no, que el gimnasio sepa quienes"
+    },
+    {
+      "start": 2404.52,
+      "end": 2411.24,
+      "text": "el que no pagó y el quien está activo, la idea es poder tener un mayor control porque"
+    },
+    {
+      "start": 2411.24,
+      "end": 2419.32,
+      "text": "hay está totalmente descontrolado el tema de quién paga y qué no paga y pasan todo el mundo y"
+    },
+    {
+      "start": 2419.32,
+      "end": 2427.4,
+      "text": "tienen grandes problemas con el tema de las clases puntuales, clases tipo yoga, que a veces no hay nadie"
+    },
+    {
+      "start": 2427.4,
+      "end": 2432.48,
+      "text": "y a veces hay un montón de personas y la gente se va enojada porque a veces no tienen lugar en"
+    },
+    {
+      "start": 2432.56,
+      "end": 2439.24,
+      "text": "incitir a para poner la colchoneta, entonces es un problema que hay que resolver, la idea es poder"
+    },
+    {
+      "start": 2439.24,
+      "end": 2451.31,
+      "text": "armar una solución para los socios que puedan tener un ambiente de donde tengan sus rutinas, sus"
+    },
+    {
+      "start": 2451.31,
+      "end": 2459.99,
+      "text": "avances, superfil, cuánto pagó que salgan alguna notificación, a veces sucede que hay un feriado,"
+    },
+    {
+      "start": 2459.99,
+      "end": 2467.03,
+      "text": "pero ese feriado lo abrimos a la mañana, entonces que reciban una notificación, por ejemplo, 8 de"
+    },
+    {
+      "start": 2468.79,
+      "end": 2478.95,
+      "text": "diciembre va a estar abierto de su ponete, de 8 a la una del mediodía que todos reciban esa"
+    },
+    {
+      "start": 2478.95,
+      "end": 2488.99,
+      "text": "notificación, o el dinero del trabajador, recuerdan que mañana está va a estar cerrado el gimnasio,"
+    },
+    {
+      "start": 2488.99,
+      "end": 2495.98,
+      "text": "bueno, todas las notificaciones que los socios no puedan recibir, es fundamental que el profe también"
+    },
+    {
+      "start": 2495.98,
+      "end": 2504.82,
+      "text": "pueda ver las rutinas de los socios y armarle nuevas rutinas pero no perder la rutina que ya tenía"
+    },
+    {
+      "start": 2504.82,
+      "end": 2514.78,
+      "text": "y fundamentalmente para el dueño que se le paga el tema de las cuotas, el perdón en tema del pago,"
+    },
+    {
+      "start": 2515.86,
+      "end": 2528.68,
+      "text": "por eso vamos a comenzar, tengo cómo le fue, pudieron hacer algo, yo no he terminado,"
+    },
+    {
+      "start": 2532.68,
+      "end": 2542.03,
+      "text": "trater lo mejor que pudo en el peor, pero quiero darle la cara algo se hizo, yo hizo nada, yo"
+    },
+    {
+      "start": 2542.03,
+      "end": 2551.51,
+      "text": "estuve tratando, pero estuolando muy rápido y no se se ha llevado esto, bueno, es un ejercicio,"
+    },
+    {
+      "start": 2551.51,
+      "end": 2563.54,
+      "text": "esto es ejercita, ¿eh? Y demás, veo que hicieron cosas, son cómo, hay varios, bueno,"
+    },
+    {
+      "start": 2565.29,
+      "end": 2570.13,
+      "text": "esto es lo que vamos a comenzar a trabajar, tenemos con las historias de usuario, yo después las voy a"
+    },
+    {
+      "start": 2570.13,
+      "end": 2575.99,
+      "text": "bajar y las voy a ir armando y con algún criterio capaz que hay algunas que ya están repetidas,"
+    },
+    {
+      "start": 2575.99,
+      "end": 2584.43,
+      "text": "otras no, lo voy a ir armando y vamos a trabajar la clase que viene con esto, ¿cuál es el objetivo"
+    },
+    {
+      "start": 2584.43,
+      "end": 2591.19,
+      "text": "empezar a trabajar con otra metodología que se llama user experience también, vamos a meter"
+    },
+    {
+      "start": 2591.19,
+      "end": 2596.33,
+      "text": "escram con user experience, ¿qué saben de user experience?"
+    },
+    {
+      "start": 2599.1,
+      "end": 2606.74,
+      "text": "he captado mucho sobre la osabilidad que tiene un sistema, perfecto, es mi able, exacto,"
+    },
+    {
+      "start": 2606.74,
+      "end": 2613.88,
+      "text": "la experiencia de usuarios, y minutito, me tengo que ir a otra cosa, yo necesito,"
+    },
+    {
+      "start": 2613.88,
+      "end": 2628.34,
+      "text": "yo he usado experiencia, lo voy a hacer muy cortito, después vamos a volver acá, ahora también"
+    },
+    {
+      "start": 2628.34,
+      "end": 2640.55,
+      "text": "me voy a tomar mi máquina, ¿no? Sí, sí, sí, bueno, obviamente yo tengo que armar una interfaz,"
+    },
+    {
+      "start": 2640.55,
+      "end": 2647.79,
+      "text": "esto vamos a, esto es la escuela, lo voy a explicar, no importa, me voy a user experience, yo lo que quiero"
+    },
+    {
+      "start": 2647.79,
+      "end": 2655.82,
+      "text": "con user experience es ver, habla de un poco de la emocionalidad del usuario, crear esa necesidad,"
+    },
+    {
+      "start": 2655.82,
+      "end": 2662.55,
+      "text": "entonces lo que yo tengo que hacer es esto, lo voy a repasar, pero yo lo que quiero es que nosotros"
+    },
+    {
+      "start": 2662.55,
+      "end": 2670.22,
+      "text": "vamos a trabajar con dos cosas, primero, del caso de uso que nosotros vamos a hacer, voy a armar"
+    },
+    {
+      "start": 2670.22,
+      "end": 2680.26,
+      "text": "un prototipado, ¿eh? entonces ahora van a decidir ustedes un grupo, y voy a decir, bueno, voy a armar"
+    },
+    {
+      "start": 2680.26,
+      "end": 2689.2,
+      "text": "un prototipo, es decir, pantalla, usted ha decidido algún prototipado, algún meca, ¿maps? ¿si hicieron?"
+    },
+    {
+      "start": 2690.02,
+      "end": 2696.14,
+      "text": "Sí, sí, ¿femocap? ¿si querré que herramientas utilizaron?"
+    },
+    {
+      "start": 2696.14,
+      "end": 2703.53,
+      "text": "Había una herramienta, aparte de firma yo había otra herramienta que hemos usado wireframes, creo que"
+    },
+    {
+      "start": 2703.53,
+      "end": 2714.75,
+      "text": "¿a? Sí, ok, adaptico, bueno, la van a poder utilizar, entonces no me voy a meter con esto, lo que"
+    },
+    {
+      "start": 2714.75,
+      "end": 2723.74,
+      "text": "vamos a hacer es lo siguiente, son alrededor, ahí capaz que José me va a ayudar un poco, creo"
+    },
+    {
+      "start": 2723.74,
+      "end": 2734.78,
+      "text": "que son cuando son 60 ¿no José? Sí, sí, muy buen, y que era yo te digo, 57, ¿si?"
+    },
+    {
+      "start": 2734.78,
+      "end": 2745.16,
+      "text": "Ahora vamos a hacer un grupo de ocho, que si no, va a quedar en algunos medios sueltos, pero no importa,"
+    },
+    {
+      "start": 2745.88,
+      "end": 2753.36,
+      "text": "la idea es que armamos grupo de ocho, que ustedes se lijan, algunas funcionalidades para hacer"
+    },
+    {
+      "start": 2753.36,
+      "end": 2765.31,
+      "text": "este mocap, ya que ustedes saben este concepto, lo vamos a hacer, y que hagan digamos las pantallas para"
+    },
+    {
+      "start": 2765.31,
+      "end": 2775.89,
+      "text": "cubrir ese, ese historia de usuario, ok, yo lo que les voy a pedir es que antes de empezar"
+    },
+    {
+      "start": 2776.09,
+      "end": 2781.09,
+      "text": "me informen para que no todos hagamos la misma historia de usuario, la misma historia de"
+    },
+    {
+      "start": 2781.09,
+      "end": 2792.76,
+      "text": "usuario, ok, entonces vamos a ver acá, esto no, después voy a hacer yo, me van a definir las"
+    },
+    {
+      "start": 2792.76,
+      "end": 2801.67,
+      "text": "tarjetas de usuario, me van a escribir así veo que no se estén solapando y armen la misma"
+    },
+    {
+      "start": 2801.67,
+      "end": 2808.27,
+      "text": "historia de usuario, y de paso yo también veo que ese historiario respetarla dentro de la planificación"
+    },
+    {
+      "start": 2808.27,
+      "end": 2816.08,
+      "text": "del escram, ok, entonces va a tener que hacer un mocap sencillo, se cumpla una de estas"
+    },
+    {
+      "start": 2816.08,
+      "end": 2825.3,
+      "text": "historias de usuario, ok, la idea es que esté para la clase que viene, para poder hacer un"
+    },
+    {
+      "start": 2825.3,
+      "end": 2833.74,
+      "text": "simula con esto, ok, lo necesito sí o sí, la idea es empezar primero con user experience y utilizar"
+    },
+    {
+      "start": 2833.74,
+      "end": 2846.93,
+      "text": "lo que ustedes hagan con eso, ok, usen estaría de trabajo para elegir después con los compañeros,"
+    },
+    {
+      "start": 2846.93,
+      "end": 2854.83,
+      "text": "que vamos a ir armando después, después le dejo un ratito para quedarme en el grupo, para que"
+    },
+    {
+      "start": 2854.83,
+      "end": 2865.05,
+      "text": "ustedes armen este mocap, ahora bien, yo voy a detener en cuanto a todo lo que es la parte teórica,"
+    },
+    {
+      "start": 2865.05,
+      "end": 2872.83,
+      "text": "pero también les quiero dejar otra tarea, esto es el inicio, después la clase que viene voy a hacer"
+    },
+    {
+      "start": 2872.83,
+      "end": 2880.38,
+      "text": "algo con user experience, quedan sebranquidos, lo que vamos a hacer ahora es lo siguiente,"
+    },
+    {
+      "start": 2880.38,
+      "end": 2907.24,
+      "text": "un minuto, ustedes utilizaron mocap, la realidad es que yo lo que necesito es que también pasen a"
+    },
+    {
+      "start": 2907.24,
+      "end": 2915.38,
+      "text": "queriendo algún conocimiento de HTML, vieron HTML en alguna materia, no vamos a probar, no,"
+    },
+    {
+      "start": 2915.38,
+      "end": 2920.94,
+      "text": "no, no, en una materia, no, no, en un curso solo este independientemente en un curso así,"
+    },
+    {
+      "start": 2931.82,
+      "end": 2947.18,
+      "text": "necesitas que medían quién sabe HTML, igual va a ser muy rápido, pero también para ver el nivel"
+    },
+    {
+      "start": 2947.18,
+      "end": 2965.21,
+      "text": "del perfecto, bueno, bastante gente sabe HTML, así que esto lo pueden obir, pero para el resto"
+    },
+    {
+      "start": 2965.21,
+      "end": 2971.21,
+      "text": "esto, yo necesito por lo menos que sepan porque cuando empiezo a meterme un poco y hablar"
+    },
+    {
+      "start": 2971.21,
+      "end": 2978.71,
+      "text": "de las capas, de diseño, y empiezo a hablar un poco de prototipado y la realidad es que"
+    },
+    {
+      "start": 2978.71,
+      "end": 2985.56,
+      "text": "necesitamos que ustedes me vayan entendiendo un poco de lo que yo estoy hablando. Por lo tanto,"
+    },
+    {
+      "start": 2985.56,
+      "end": 2996.55,
+      "text": "necesito que al menos empiezo a entender que esa HTML es para poder seguir, para que"
+    },
+    {
+      "start": 2996.55,
+      "end": 3002.95,
+      "text": "ustedes me puedan entender después de la práctica. Arme un documento que la voy a subir, que"
+    },
+    {
+      "start": 3002.95,
+      "end": 3008.25,
+      "text": "es un trabajo práctico que el que no tiene conocimiento estaría bueno que lo haga. El"
+    },
+    {
+      "start": 3008.25,
+      "end": 3022.92,
+      "text": "que ya sabe la realidad es que es muy básico, pero como no quiero dejarlos así en la nada,"
+    },
+    {
+      "start": 3022.92,
+      "end": 3056.84,
+      "text": "vamos a hacer un poquito de auto guiado y HTML. Vamos a jugar un poquito, el que sabe puede"
+    },
+    {
+      "start": 3056.84,
+      "end": 3063.48,
+      "text": "obviar esto, se puede buscar un café porque después te quedan para armar los grupos y armar lo que"
+    },
+    {
+      "start": 3063.48,
+      "end": 3074.09,
+      "text": "él trabajó que le dejó pendiente. Bueno, HTML, HTML es un, alguna vez lo llama, la L es"
+    },
+    {
+      "start": 3074.09,
+      "end": 3082.49,
+      "text": "justo HTML es el lenguaje, el lenguaje de mercado de hipertextos, lo queremos ser super correcto,"
+    },
+    {
+      "start": 3082.49,
+      "end": 3088.01,
+      "text": "es un lenguaje que se usa obviamente para organizar la estructura de las páginas web, es decir,"
+    },
+    {
+      "start": 3088.01,
+      "end": 3094.41,
+      "text": "el navegador es lo que él tiende, le llega un archivo, pero ahora el navegador que dice,"
+    },
+    {
+      "start": 3094.41,
+      "end": 3099.73,
+      "text": "yo lo quiero poner lindo, lo quiero poner una tabla, quiero poner un link, cómo lo sé, y bueno,"
+    },
+    {
+      "start": 3099.73,
+      "end": 3105.77,
+      "text": "lo hace a través de un lenguaje, algunos no lo llaman lenguaje, pero no importa, es un lenguaje de"
+    },
+    {
+      "start": 3105.77,
+      "end": 3114.53,
+      "text": "etiquetas, que le dice al navegador cómo mostrar mágiles, cómo mostrar textos, cómo armar un formulario"
+    },
+    {
+      "start": 3115.49,
+      "end": 3122.85,
+      "text": "y básicamente lo que tenemos que es conocer un poco a las etiquetas, hoy en día la realidad y con la"
+    },
+    {
+      "start": 3122.85,
+      "end": 3132.33,
+      "text": "ía nos da el HTML y queda divino, hermoso, super haz y no tengo que andar editando absolutamente"
+    },
+    {
+      "start": 3132.33,
+      "end": 3140.49,
+      "text": "nada, pero yo tengo que tener un entendimiento, es como decir, bueno, para que voy a poner a hacer una cuenta"
+    },
+    {
+      "start": 3140.97,
+      "end": 3148.09,
+      "text": "de multiplicar con cuatro números, si tengo la calculadora es cierto, pero tengo que empezar a saber"
+    },
+    {
+      "start": 3148.09,
+      "end": 3154.17,
+      "text": "que es realmente multiplicar, y tengo que entender que es lo que estoy haciendo, entender el concepto,"
+    },
+    {
+      "start": 3154.17,
+      "end": 3162.65,
+      "text": "es por eso que me voy a explicar un poquito de HTML, acá le decía un poquito el entendimiento,"
+    },
+    {
+      "start": 3163.13,
+      "end": 3171.39,
+      "text": "entonces, una introducción de qué es lo que hace HTML, entonces el browser lo que hace es"
+    },
+    {
+      "start": 3171.39,
+      "end": 3182.14,
+      "text": "le recibe de algún server, no importa recibe un documento y gracias a que hay etiquetas que"
+    },
+    {
+      "start": 3182.14,
+      "end": 3190.14,
+      "text": "ahora lo vamos a ver, él puede, el browser digamos, puede decir, bueno, esto es un texto,"
+    },
+    {
+      "start": 3190.14,
+      "end": 3200.04,
+      "text": "esto es un imagen, esto es un informulario, esto es un video, se puede dar cuenta y te lo arma"
+    },
+    {
+      "start": 3200.04,
+      "end": 3210.16,
+      "text": "de una manera más limita como hoy conocemos, por lo tanto, acá casi siempre, casi siempre"
+    },
+    {
+      "start": 3210.16,
+      "end": 3216.96,
+      "text": "comenzamos los ejercicios, ustedes van a ver que todos los ejercicios, es que en práctica"
+    },
+    {
+      "start": 3216.96,
+      "end": 3225.23,
+      "text": "es así para poder, ¿cómo están con un index HTML para que el browser o el navegador,"
+    },
+    {
+      "start": 3225.23,
+      "end": 3240.24,
+      "text": "¿tadón? pueda saber que recibe un archivo que lo tiene que interpretar que una interpretar,"
+    },
+    {
+      "start": 3240.24,
+      "end": 3249.66,
+      "text": "para interpretar esas etiquetas, tiene que tener el formato punto HTML, ¿ok? Por lo tanto,"
+    },
+    {
+      "start": 3249.66,
+      "end": 3257.76,
+      "text": "nosotros lo que vamos a hacer siquiera lo pueden ir haciendo es en una carpeta crear un"
+    },
+    {
+      "start": 3257.76,
+      "end": 3267.84,
+      "text": "tecisté que tenga ese formato, el punto HTML, ¿tad? Que es lo que yo les pido acá? Como les dije,"
+    },
+    {
+      "start": 3267.84,
+      "end": 3278.36,
+      "text": "HTML, lo voy a copiar para ir viendo, HTML tiene etiquetas, ¿ok? Si organiza, se puede"
+    },
+    {
+      "start": 3278.36,
+      "end": 3290.07,
+      "text": "organizar de forma etiqueta, ¿ok? Debe acá, HTML y cierro con barritas HTML, casi siempre,"
+    },
+    {
+      "start": 3290.79,
+      "end": 3300.44,
+      "text": "vamos a ver, tengo este etiqueta para iniciar para saber cuál es el margen, acá es mi área de trabajo,"
+    },
+    {
+      "start": 3300.44,
+      "end": 3308.64,
+      "text": "afuera, yo puedo escribir código, si quisiera, ahora vemos, toda este escrib, o algo, esto lo dejo,"
+    },
+    {
+      "start": 3308.64,
+      "end": 3321.84,
+      "text": "pero acá tengo mi HTML, ahora bien, yo voy a tener otras etiquetas como por ejemplo de el encabezado y"
+    },
+    {
+      "start": 3321.84,
+      "end": 3331.09,
+      "text": "yo tengo acá por resto, tengo el encabezado, acá puedo poner todos los metadatos, esto les pido que"
+    },
+    {
+      "start": 3331.09,
+      "end": 3342.03,
+      "text": "ustedes también vean, acá el doctite me indica que usa una versión un poco moderna de HTML,"
+    },
+    {
+      "start": 3342.03,
+      "end": 3349.67,
+      "text": "está el que aduarda todos los datos de la configuración, puedo guardar todos de la configuración de idioma,"
+    },
+    {
+      "start": 3349.67,
+      "end": 3357.07,
+      "text": "los metadatos, está algo que ahí le voy a pedir ustedes que investigan, pero ya con esto para"
+    },
+    {
+      "start": 3357.07,
+      "end": 3373.89,
+      "text": "mí me alcanza, entonces acá tengo mi primera página para los chicos del día jueves, voy grabando al"
+    },
+    {
+      "start": 3373.89,
+      "end": 3386.62,
+      "text": "tener un eliso al poder hacer así o poner, y me levantaría el momento acá, y me levanta lo que voy a"
+    },
+    {
+      "start": 3386.62,
+      "end": 3395.24,
+      "text": "ver, no hice nada, porque no tengo absolutamente nada, pero lo le show, ok, digamos, ahora voy con el"
+    },
+    {
+      "start": 3395.24,
+      "end": 3405.74,
+      "text": "lo del cuerpo, uso tres etiquetas que se llama Bodhi, siempre tengo la etiqueta de inicio y la del"
+    },
+    {
+      "start": 3405.74,
+      "end": 3415.7,
+      "text": "cierre, y dentro de estas dos etiquetas, yo tengo que colocar todo el cuerpo, el cuerpo con pire todo"
+    },
+    {
+      "start": 3415.7,
+      "end": 3426.7,
+      "text": "lo que el usuario ven la pantalla, le van siguiendo, esto se dice bueno, voy a poner, H son los"
+    },
+    {
+      "start": 3426.7,
+      "end": 3433.02,
+      "text": "títulos de mayor a menor tamaño, en la importa, PEC y de para escribir para fotel texto,"
+    },
+    {
+      "start": 3435.18,
+      "end": 3456.74,
+      "text": "para crear, y pongo A, me permite crear un enlace, si quiero crear un imagen pongo y NG,"
+    },
+    {
+      "start": 3456.74,
+      "end": 3463.5,
+      "text": "pongo donde voy a tener ese imagen, y me la vamos a ver en la pantalla, la realidad es que bastante"
+    },
+    {
+      "start": 3463.5,
+      "end": 3479.23,
+      "text": "amigable, ok, bueno eso por un lado, entonces estoy aprendiendo HTML, mejor curso, miren qué buena"
+    },
+    {
+      "start": 3479.23,
+      "end": 3488.67,
+      "text": "restoy, tengo acá, puedo ser lo mismo, que ella pareció mi primera página web, qué es lo que me"
+    },
+    {
+      "start": 3488.67,
+      "end": 3496.91,
+      "text": "estoy mostrando, vamos a hacer una relación, H1, yo les dije que me mostaba el título, P,"
+    },
+    {
+      "start": 3496.91,
+      "end": 3520.08,
+      "text": "me dedirla un salto de párrafo, pongo 2, ahí me fijó si logrades, ahí está, me muestra el párrafo,"
+    },
+    {
+      "start": 3520.08,
+      "end": 3530.78,
+      "text": "ok, lo vuelvo, entonces a través de etiquetas el browser puede armar el HTML, ok,"
+    },
+    {
+      "start": 3530.78,
+      "end": 3538.72,
+      "text": "lo que le voy a pedir es que obviamente vean, acá les estoy colocando las más importantes,"
+    },
+    {
+      "start": 3538.72,
+      "end": 3547.08,
+      "text": "títulos, acá esto pueden jugar usted su montón, acá vamos a hacer esto, les dije ejemplo,"
+    },
+    {
+      "start": 3547.08,
+      "end": 3552.64,
+      "text": "como para nosotros también lo vea todo dentro del bodino, acá tienen listas, vamos a dar las listas,"
+    },
+    {
+      "start": 3581.6,
+      "end": 3593.62,
+      "text": "me parece listado, acá hay pongo listas, y me aparece HTML, etc, sigamos, esto quiero que lo lea,"
+    },
+    {
+      "start": 3593.62,
+      "end": 3607.49,
+      "text": "y ya está lo que yo quiero saber, dentro de HTML hay una gran, gran ventaja de poder utilizar un"
+    },
+    {
+      "start": 3607.49,
+      "end": 3617.75,
+      "text": "lenguaje que se llama Script, ya es Script, y se le utiliza las siguientes etiquetas, esto lo borro,"
+    },
+    {
+      "start": 3617.87,
+      "end": 3630.12,
+      "text": "yo piso las siguientes etiquetas, Script siempre lo cierro, tengo la etiqueta de apertura, la etiqueta de"
+    },
+    {
+      "start": 3630.12,
+      "end": 3636.16,
+      "text": "cierre, y después yo tengo que aprender, ¿no? ¿qué es lo que puedo poner ahí?"
+    },
+    {
+      "start": 3636.16,
+      "end": 3644.36,
+      "text": "Está, eso ya y leemos paso a paso, acá puso una alerta nada más, yo de controlesen,"
+    },
+    {
+      "start": 3644.96,
+      "end": 3658.92,
+      "text": "ahora así no bro tantas, me parece una alerta, hola estoy utilizando JavaScript,"
+    },
+    {
+      "start": 3658.92,
+      "end": 3670.54,
+      "text": "pero le dije que JavaScript está buenísimo porque me permite obviamente antes de hacer validas,"
+    },
+    {
+      "start": 3670.54,
+      "end": 3679.66,
+      "text": "si bueno quiero ir formulario, y tengo que validar que haya puesto un número de teléfono, no me lo mande"
+    },
+    {
+      "start": 3679.66,
+      "end": 3686.22,
+      "text": "vacío, un campo, bueno antes de que lo valide en el servidor y utilizo una Script que está dentro"
+    },
+    {
+      "start": 3686.22,
+      "end": 3693.74,
+      "text": "del navegador lo interretó y lo va a ejecutar y no lo va a enviar antes de no hacer estas validas,"
+    },
+    {
+      "start": 3693.74,
+      "end": 3698.82,
+      "text": "por lo tanto esas validas, cuando hacemos HTML no las requiero, no las necesito,"
+    },
+    {
+      "start": 3698.82,
+      "end": 3704.86,
+      "text": "no vamos a hacer mucho lo que es web para hacerlo algo bien concreto y que no quede tan en el aire,"
+    },
+    {
+      "start": 3706.0,
+      "end": 3715.72,
+      "text": "sí, algo que está muy bueno es justamente separar lo que es el index, las páginas HTML con los"
+    },
+    {
+      "start": 3715.72,
+      "end": 3722.88,
+      "text": "lenguajes de JavaScript, si yo puedo aplicar acá, esto lo uso porque los ejemplos que habes"
+    },
+    {
+      "start": 3722.88,
+      "end": 3734.8,
+      "text": "deseado, esta es lo utilizo, es como si fuera un include, el navegador sabe que tengo acá,"
+    },
+    {
+      "start": 3735.76,
+      "end": 3748.24,
+      "text": "navegador sabe que tiene que ir a buscar este código y en este código que tengo esto,"
+    },
+    {
+      "start": 3748.24,
+      "end": 3758.3,
+      "text": "tengo esto, tengo lo que yo tenía, ya en el código, pero lo quedo más gerenante,"
+    },
+    {
+      "start": 3758.3,
+      "end": 3765.98,
+      "text": "y empiezo a separar los problemas, entonces el día de mañana tengo que un error,"
+    },
+    {
+      "start": 3765.98,
+      "end": 3773.12,
+      "text": "bueno, y tengo un error en el script, no tengo el HTML, empiezo a separar, no sé si lo"
+    },
+    {
+      "start": 3773.12,
+      "end": 3785.78,
+      "text": "hice bien, te lo vamos a probarlo, está perfecto, el bravo usar le llegó este index HTML,"
+    },
+    {
+      "start": 3785.78,
+      "end": 3791.5,
+      "text": "sabe que tiene que leer esto, de en plazas como si fuera un include, reembrase a lo que tengo acá y"
+    },
+    {
+      "start": 3791.5,
+      "end": 3798.5,
+      "text": "coloca eso en el HTML y lo lee y lo ejecuta, tiene la capacidad de interpretarlo,"
+    },
+    {
+      "start": 3798.5,
+      "end": 3809.08,
+      "text": "dentro del script yo puedo poner variables, funciones y bueno, y hay alguna funcionalidad,"
+    },
+    {
+      "start": 3809.08,
+      "end": 3816.81,
+      "text": "acá pongo un shunt, saludar, por ejemplo, esto lo vamos a ver, es lo que quiero ver antes del"
+    },
+    {
+      "start": 3816.81,
+      "end": 3827.8,
+      "text": "terminar, banquerme, esto le pido que por favor lo hagan, es lo que a mí más me interesa, es el"
+    },
+    {
+      "start": 3827.8,
+      "end": 3836.6,
+      "text": "tema de formularios, esto lo borro para que no me salte ese, es el tema de formularios,"
+    },
+    {
+      "start": 3836.6,
+      "end": 3855.47,
+      "text": "a formularios necesito tener estas setitetas, y dentro de todos los campos que yo quiero colocar,"
+    },
+    {
+      "start": 3855.47,
+      "end": 3864.35,
+      "text": "para armar, por ejemplo, un formulario de registración para el famoso Ignacio que estamos haciendo,"
+    },
+    {
+      "start": 3864.35,
+      "end": 3874.67,
+      "text": "dentro de estas dos setitetas, tengo que colocar todo el formulario, entonces en piezo,"
+    },
+    {
+      "start": 3874.67,
+      "end": 3884.41,
+      "text": "voy a primero con un acá los puse bien bien, para que ustedes se ha autogiado, y ahora me"
+    },
+    {
+      "start": 3884.41,
+      "end": 3892.56,
+      "text": "empieza con un campo de texto, el label me permite a mí identificar el nombre, ahora lo vemos,"
+    },
+    {
+      "start": 3893.28,
+      "end": 3899.08,
+      "text": "está, y este va a ser el campito que yo voy a poder ingresar el nombre, control este,"
+    },
+    {
+      "start": 3899.08,
+      "end": 3924.7,
+      "text": "lo grado, ya está, esto lo saco, ya está, ya está, te va a ver, importa, si lo borre, me voy a importar,"
+    },
+    {
+      "start": 3924.7,
+      "end": 3952.36,
+      "text": "ahora lo voy a decir, vamos a otra, control este, te va a ser datos, parece, tengo un problema con el"
+    },
+    {
+      "start": 3952.36,
+      "end": 3967.84,
+      "text": "mayor y el menor, pero no, no, no, está bien, presó lo básico, ahí, ahí aparece, formularios,"
+    },
+    {
+      "start": 3967.84,
+      "end": 3984.87,
+      "text": "hayan dado otro barrazo para poder identificar lo mejor, y empieza, el nombre, y acá tengo"
+    },
+    {
+      "start": 3984.87,
+      "end": 4000.35,
+      "text": "nombre, ya pechillamos a poner, si no se pueden, nombre ya pechillos, vieron que en gris, está"
+    },
+    {
+      "start": 4000.35,
+      "end": 4008.99,
+      "text": "bueno utilizar así una herramienta donde podamos ver la programación, con el separadito de lo que"
+    },
+    {
+      "start": 4008.99,
+      "end": 4015.71,
+      "text": "es etiqueta, y lo que es una dicional de la etiqueta, de lo que es el contenido, así que"
+    },
+    {
+      "start": 4015.71,
+      "end": 4021.59,
+      "text": "tratan de usarlo, el texto está buenísimo, yo, pero lo hacía yo a principios de los 2000,"
+    },
+    {
+      "start": 4021.59,
+      "end": 4028.34,
+      "text": "usted ya por suerte es el volucionado eso, y tiene lo que es importante es que acá me está"
+    },
+    {
+      "start": 4028.34,
+      "end": 4039.3,
+      "text": "diciendo que la id, le llega a una funcionalidad de X, después verá que la variable de ahí nombre va"
+    },
+    {
+      "start": 4039.3,
+      "end": 4046.62,
+      "text": "a tener el que le quiera dar yo a la línea, ahí le va a llegar a algo de importar, necesito"
+    },
+    {
+      "start": 4046.62,
+      "end": 4053.78,
+      "text": "que vayan entendiendo esto que para mí es fundamental, estoy diciendo que es el tipo texto y que el nombre"
+    },
+    {
+      "start": 4053.78,
+      "end": 4067.24,
+      "text": "que la id es nombre, ahí, me voy con una contraseña, ahí está, son vueltrector, contraseña, voy a copiar esto"
+    },
+    {
+      "start": 4071.09,
+      "end": 4087.23,
+      "text": "y en vez de nombre, tengo claves, así claves, y acá estoy diciendo una, acá estoy diciendo que es"
+    },
+    {
+      "start": 4087.23,
+      "end": 4100.9,
+      "text": "ingresa, ingresa clave, ingresa clave, y estoy diciendo que el campito es de tipo pago, acá era tipo"
+    },
+    {
+      "start": 4100.9,
+      "end": 4112.56,
+      "text": "texto, acá es de tipo pago y que la id, como le va a llegar a la función ed, la id es clave, clave"
+    },
+    {
+      "start": 4112.56,
+      "end": 4119.61,
+      "text": "tal, está, lo voy a poder manejar de esa manera, es importante de usted, este panesto, ya con"
+    },
+    {
+      "start": 4119.61,
+      "end": 4129.82,
+      "text": "la tropada jocabra, que sea más amigable, control ese, vamos a saber, entonces, nombre ha pecido"
+    },
+    {
+      "start": 4129.82,
+      "end": 4144.83,
+      "text": "ingresa clave, al ser de tipo pago no debería ver las letras, cosa que acá sí, ok, le van siguiendo"
+    },
+    {
+      "start": 4148.75,
+      "end": 4157.71,
+      "text": "es, re inicial, pero yo necesito que empiece, porque muchas veces he estado, estos dos ejemplos con"
+    },
+    {
+      "start": 4157.71,
+      "end": 4164.47,
+      "text": "HTML y a veces cierto, cuando me entienden, entonces quiero hacer un queso unos minutitos de HTML para que"
+    },
+    {
+      "start": 4164.47,
+      "end": 4178.4,
+      "text": "usted me va a entender, adió, modalidad, acá, bueno tengo un radio butón, la modalidad de la"
+    },
+    {
+      "start": 4178.4,
+      "end": 4195.6,
+      "text": "materia, estoy ende mirando, no sé qué, hay, control ese, sigamos, modalidad de la radio butón o el hijo"
+    },
+    {
+      "start": 4195.6,
+      "end": 4216.49,
+      "text": "o el hijo el otro, dos no, eso me voy a un checkbox, voy a aquí, y acá, ustedes van a, el que no"
+    },
+    {
+      "start": 4216.49,
+      "end": 4237.18,
+      "text": "sabe nada, le pido que programación checkbox, aquí, HTML, es, vayan jugando un poco, les vuelvo a"
+    },
+    {
+      "start": 4237.18,
+      "end": 4245.2,
+      "text": "decir, yo sé, no soy autusa, sé que esto hoy con la guía lo hacen a los dos minutos, pero yo necesito"
+    },
+    {
+      "start": 4245.2,
+      "end": 4256.6,
+      "text": "a ustedes, cuando le digo bueno, le mando el tipo en un campo clave, modalidad, todo y en viocent, a veces no"
+    },
+    {
+      "start": 4256.6,
+      "end": 4262.92,
+      "text": "logran entienderme lo que apunta, ok, entonces necesito que empiezen a entender un poco de HTML,"
+    },
+    {
+      "start": 4262.92,
+      "end": 4275.08,
+      "text": "tengo nadie de texto divino, comentarios, comentarios, me gustó la materia y ahí me do, los"
+    },
+    {
+      "start": 4275.08,
+      "end": 4284.68,
+      "text": "destrozan o los quieren, un poco de cada uno, destrozan o los quieren, no sé, yo disfruto de la"
+    },
+    {
+      "start": 4284.68,
+      "end": 4297.93,
+      "text": "ignorancia en el sentido, bueno y ahí acá escriben patético, ¿sabes? Vamos, digamos, y viene el hermoso"
+    },
+    {
+      "start": 4297.93,
+      "end": 4310.76,
+      "text": "botón, tengo dos, vamos a este que tiene más, vamos, primero vamos a hacer este, obviamente el botón"
+    },
+    {
+      "start": 4310.76,
+      "end": 4322.28,
+      "text": "tiene que estar dentro de las etiquetas del form, ok, botoncito, registrar, ingre, registrar, chín o"
+    },
+    {
+      "start": 4322.28,
+      "end": 4346.26,
+      "text": "socio, no lo empés, registrar, sociético, cuando registro, sociolemando todos los datos de este"
+    },
+    {
+      "start": 4346.26,
+      "end": 4352.94,
+      "text": "formulario, el envío, el nombre, el contenido, el nombre con el aire de nombre, el envío el contenido,"
+    },
+    {
+      "start": 4352.94,
+      "end": 4361.26,
+      "text": "el aclave, con el aire clave, envío lo que yo seleccioné, el radio botón, lo que me"
+    },
+    {
+      "start": 4361.26,
+      "end": 4366.98,
+      "text": "seleccioné del checkbox, de todo lo que haya seleccionado el checkbox etcétera, eso es lo que acá"
+    },
+    {
+      "start": 4366.98,
+      "end": 4378.44,
+      "text": "en registrar, socio, voy a escribir qué es lo que tengo que hacer y digo bueno ejecutátenlo"
+    },
+    {
+      "start": 4378.44,
+      "end": 4383.4,
+      "text": "en este, ¿sabes, trip? o bueno lo mando al server después veo que hago, pero mi importa,"
+    },
+    {
+      "start": 4384.91,
+      "end": 4392.91,
+      "text": "el botón bueno tengo también de Tion AI Lee, tengo bueno, estos son onpigs, ¿sabes? esto me dice bueno,"
+    },
+    {
+      "start": 4392.91,
+      "end": 4399.19,
+      "text": "dentro del JavaScript o hace iniciar registro o del server, después vemos cómo lo hacemos, ¿sabes?"
+    },
+    {
+      "start": 4399.19,
+      "end": 4408.7,
+      "text": "pero yo acá es la funcionalidad, es el método que le estoy pasando todo este formulario, me van"
+    },
+    {
+      "start": 4408.7,
+      "end": 4413.46,
+      "text": "siguiendo los que no saben a HTML en lo que si saben me imagino de tu chalo recontra clara,"
+    },
+    {
+      "start": 4418.21,
+      "end": 4425.49,
+      "text": "y acá les dejo, esto le pedía la idea que me lo haga, está un ejemplo, las ideas que ustedes"
+    },
+    {
+      "start": 4425.49,
+      "end": 4432.13,
+      "text": "lo vayan probando, acá vamos a la información, acá por ejemplo tengo un código, esto es"
+    },
+    {
+      "start": 4432.13,
+      "end": 4443.65,
+      "text": "JavaScript, lo que hago es detal de lo que yo has ingresado, poder verlo, para jugar un poco no"
+    },
+    {
+      "start": 4443.65,
+      "end": 4451.29,
+      "text": "necesitan pagarlo, pero sí que vayan entendiendo cómo funciona, ¿sabes? un minuto me detengo acá"
+    },
+    {
+      "start": 4451.29,
+      "end": 4459.4,
+      "text": "algo que quiero ponerles si acá está, a ver en esta, hay algunas etiquetas que no las usem,"
+    },
+    {
+      "start": 4459.4,
+      "end": 4470.38,
+      "text": "por ejemplo el archerreff ir de una página a la otra, hacer el link, el enlace, eso es algo que les"
+    },
+    {
+      "start": 4470.38,
+      "end": 4479.28,
+      "text": "voy a pedir que también lo vea, este trabajo práctico es una introducción muy, muy intro,"
+    },
+    {
+      "start": 4479.28,
+      "end": 4490.88,
+      "text": "vamos a esto, son muy intros, HTML, pero necesito que empecemos a hablar en el mismo idioma,"
+    },
+    {
+      "start": 4490.88,
+      "end": 4494.4,
+      "text": "porque a veces me pasa que yo digo bueno acá tienes la HTML, acá tienes la otra,"
+    },
+    {
+      "start": 4494.4,
+      "end": 4502.2,
+      "text": "les formó la HTML como le llega, y haces todo el id y vuelta y agregó nombre, agregó clave,"
+    },
+    {
+      "start": 4502.2,
+      "end": 4509.76,
+      "text": "no, viaja todo, ¿ok? entonces necesito que ya empiecen a pensar por lo menos a separar"
+    },
+    {
+      "start": 4509.76,
+      "end": 4517.05,
+      "text": "las capas de la interfaz, lo que vamos a manejar mucho es toda la parte web, para poderlo"
+    },
+    {
+      "start": 4517.05,
+      "end": 4524.84,
+      "text": "venar en concreto, ¿ok? entonces, estaría para el día de hoy, todo deja de compartir,"
+    },
+    {
+      "start": 4524.84,
+      "end": 4533.31,
+      "text": "igual ahora lo subo, estaría que les queda hoy, la clase que viene vamos a ver, ilusir"
+    },
+    {
+      "start": 4533.31,
+      "end": 4539.95,
+      "text": "experience, por lo tanto necesito que haga a ustedes el mockup, o si tienen gana de aplicar"
+    },
+    {
+      "start": 4539.95,
+      "end": 4545.15,
+      "text": "todos los conocimientos de HTML, los voy a hacer en HTML, me encantaría que quedan HTML,"
+    },
+    {
+      "start": 4545.8,
+      "end": 4552.8,
+      "text": "¿ok? y aparte, vuelvo a decir, no pueden hacer con la hía, a mí lo que me interesa es que por"
+    },
+    {
+      "start": 4552.8,
+      "end": 4558.8,
+      "text": "lo menos todas las etiquetas del armado del formulario lo entiendan, ¿ok?"
+    },
+    {
+      "start": 4563.97,
+      "end": 4571.81,
+      "text": "lo usa la hía, hoy ya prácticamente se usa la hía, pero necesito que lo entiendan, vuelvo a decir"
+    },
+    {
+      "start": 4571.81,
+      "end": 4577.77,
+      "text": "el mismo ejemplo, por más que tengan la calculadora, ustedes pasaron toda la primaria haciendo"
+    },
+    {
+      "start": 4577.77,
+      "end": 4586.67,
+      "text": "cuantitas para que ustedes puedan entender el concepto, acá sucede lo mismo, ¿ok? entonces les voy"
+    },
+    {
+      "start": 4586.67,
+      "end": 4592.55,
+      "text": "a pasar lo que tienen que estudiar de lo que vimos hoy, todo lo que es RU, metodología ságiles,"
+    },
+    {
+      "start": 4592.55,
+      "end": 4601.67,
+      "text": "CRAM, y tienen que de lo que hicimos del ejercicio de gimnasio tienen que elegir a algún"
+    },
+    {
+      "start": 4601.67,
+      "end": 4609.27,
+      "text": "historiario de usuario para hacer el mock up, si lo hacen en HTML es genial, me tienen que avisar para"
+    },
+    {
+      "start": 4609.27,
+      "end": 4615.27,
+      "text": "no salabarnos en la funcionalidad, estas y todas esas registraciones y la realidad que no me sirve para"
+    },
+    {
+      "start": 4615.27,
+      "end": 4622.72,
+      "text": "hacer un simulador a la cláste que viene, si no hacen ninguna, no voy a obliter a nadie, si no lo hacen"
+    },
+    {
+      "start": 4622.72,
+      "end": 4629.6,
+      "text": "quedar ahí, el ejercicio sin hacer y yo paso a otro tema, pero la idea es poder hacer un"
+    },
+    {
+      "start": 4629.6,
+      "end": 4638.24,
+      "text": "juego de roleplay para ver cómo se aplica Scram con User Expliante, ¿ok?"
+    },
+    {
+      "start": 4638.24,
+      "end": 4666.62,
+      "text": "2 hasta ahora, recuerden que vuelvo a remarcar, ahí están las mismas, ¿no? Dentro del canal,"
+    },
+    {
+      "start": 4666.62,
+      "end": 4676.24,
+      "text": "2, 26, según lo quadrías 3, yo voy a colocar acá clases, uno, todo lo que se veió, las"
+    },
+    {
+      "start": 4676.24,
+      "end": 4683.26,
+      "text": "presentaciones que he dí, voy a escribir un tecliste como le estoy siguiendo acá, eso siempre"
+    },
+    {
+      "start": 4683.26,
+      "end": 4691.1,
+      "text": "pongo los temas vistos, subo todo y lo que es que aprendí el deporte de ustedes, les dejo 10 minutos"
+    },
+    {
+      "start": 4691.1,
+      "end": 4701.52,
+      "text": "como para que vayan armando a los grupos, creo que pueden, y de esa manera voy a"
+    },
+    {
+      "start": 4701.52,
+      "end": 4711.16,
+      "text": "la cuidando de alta en un grupo privado, y así tiene un área de trabajo, les parece, me"
+    },
+    {
+      "start": 4711.16,
+      "end": 4719.99,
+      "text": "avistan y los vamos armando, o yo los vamos, los vamos armando un grupo privado y ya están,"
+    },
+    {
+      "start": 4719.99,
+      "end": 4735.63,
+      "text": "gente, bueno, la materia sin tensa, vieron que prácticamente tuvimos 12 minutos y tu"
+    },
+    {
+      "start": 4735.63,
+      "end": 4746.6,
+      "text": "se quinta y arranqué, y esta es un aire, así que, bueno, a seguir no es una materia difícil,"
+    },
+    {
+      "start": 4746.6,
+      "end": 4753.04,
+      "text": "es fácil, pero bueno hay que estar encima, gracias por estar, nos vemos la clase que viene,"
+    },
+    {
+      "start": 4753.04,
+      "end": 4763.88,
+      "text": "para tendernos, un mensaje por Teams, mejor, los integrantes, si no tienen grupo, bueno,"
+    },
+    {
+      "start": 4763.88,
+      "end": 4773.45,
+      "text": "ahora no igual trabaja, los trabajos, y me avisan y después los vamos sumando a otros grupos,"
+    },
+    {
+      "start": 4773.45,
+      "end": 4787.35,
+      "text": "ok, quieren que les deje la clase para que ustedes se puedan organizar, bueno,"
+    },
+    {
+      "start": 4787.35,
+      "end": 4803.67,
+      "text": "y ahora vamos a ver, vamos, chau chau, chau, chau, chau, chau, chau, chau, chau, chau, chau,"
+    }
+  ]
+}
